@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>iPlayed - nintendo switch</title>
+    <link rel="self" type="application/atom+xml" href="https://nikolasmoya.com/iplayed/platforms/nintendo switch/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-12-05T00:00:00+00:00</updated>
+    <id>https://nikolasmoya.com/iplayed/platforms/nintendo switch/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Animal Well</title>
+        <published>2024-12-05T00:00:00+00:00</published>
+        <updated>2024-12-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/animal-well/"/>
+        <id>https://nikolasmoya.com/iplayed/games/animal-well/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/animal-well/">&lt;figure&gt;
+    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co4hdh.jpg&quot;&#x2F;&gt;
+&lt;&#x2F;figure&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;11 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;Nintendo Switch&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2024&#x2F;12&#x2F;05&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Firewatch</title>
+        <published>2023-03-18T00:00:00+00:00</published>
+        <updated>2023-03-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/firewatch/"/>
+        <id>https://nikolasmoya.com/iplayed/games/firewatch/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/firewatch/">&lt;figure&gt;
+    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co1m35.jpg&quot;&#x2F;&gt;
+&lt;&#x2F;figure&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;Nintendo Switch&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Overcooked!</title>
+        <published>2023-03-18T00:00:00+00:00</published>
+        <updated>2023-03-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/overcooked/"/>
+        <id>https://nikolasmoya.com/iplayed/games/overcooked/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/overcooked/">&lt;figure&gt;
+    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co262g.jpg&quot;&#x2F;&gt;
+&lt;&#x2F;figure&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;PC, Nintendo Switch&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Pokémon Sword and Shield</title>
+        <published>2023-03-18T00:00:00+00:00</published>
+        <updated>2023-03-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/pokemon-sword-and-shield/"/>
+        <id>https://nikolasmoya.com/iplayed/games/pokemon-sword-and-shield/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/pokemon-sword-and-shield/">&lt;figure&gt;
+    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co80b4.jpg&quot;&#x2F;&gt;
+&lt;&#x2F;figure&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;Nintendo Switch&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Stardew Valley</title>
+        <published>2023-03-18T00:00:00+00:00</published>
+        <updated>2023-03-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/stardew-valley/"/>
+        <id>https://nikolasmoya.com/iplayed/games/stardew-valley/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/stardew-valley/">&lt;figure&gt;
+    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;xrpmydnu9rpxvxfjkiu7.jpg&quot;&#x2F;&gt;
+&lt;&#x2F;figure&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;Nintendo Switch&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Super Mario Odyssey</title>
+        <published>2023-03-18T00:00:00+00:00</published>
+        <updated>2023-03-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/super-mario-odyssey/"/>
+        <id>https://nikolasmoya.com/iplayed/games/super-mario-odyssey/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/super-mario-odyssey/">&lt;figure&gt;
+    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co1mxf.jpg&quot;&#x2F;&gt;
+&lt;&#x2F;figure&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;Nintendo Switch&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Pokémon: Let&#x27;s Go, Eevee!</title>
+        <published>2023-03-05T00:00:00+00:00</published>
+        <updated>2023-03-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/pokemon-lets-go-eevee/"/>
+        <id>https://nikolasmoya.com/iplayed/games/pokemon-lets-go-eevee/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/pokemon-lets-go-eevee/">&lt;figure&gt;
+    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co1zjz.jpg&quot;&#x2F;&gt;
+&lt;&#x2F;figure&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;2 days&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;Nintendo Switch&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;05&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+</content>
+        
+    </entry>
+</feed>
