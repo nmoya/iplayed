@@ -1,0 +1,129 @@
+theme = "halve-z"
+title = "iPlayed"
+base_url = "https://nikolasmoya.com/iplayed"
+
+
+taxonomies = [
+    { name = "platforms", slugify = "lower", feed = true },
+    { name = "genres", slugify = "lower", feed = true },
+    { name = "rating", slugify = "none", feed = true },
+]
+
+build_search_index = true
+
+[search]
+include_title = true
+include_description = true
+include_path = false
+include_content = true
+index_format = "elasticlunr_json"
+
+[markdown]
+highlight_code = true
+highlight_theme = "css"
+highlight_themes_css = [
+    { theme = "OneHalfDark", filename = "syntax-theme-dark.css" },
+    { theme = "OneHalfLight", filename = "syntax-theme-light.css" },
+]
+render_emoji = false
+external_links_target_blank = true
+
+[slugify]
+paths = "safe"
+taxonomies = "safe"
+anchors = "safe"
+
+[extra]
+locale = "en_US"
+logo = "logo.png"
+manifest = "manifest.json"
+read_time = false
+toc = true
+csp = false
+description = "Two-column retro theme for Zola"
+default_language = "en"
+author = "charlesrocket"
+compile_sass = true
+minify_html = true
+generate_feeds = true
+generate_sitemap = false
+
+
+[extra.placeholders]
+tags = false
+subtitle = false
+
+[extra.home]
+title = "iPlayed"
+subtitle = ""
+glitch = true
+logo = { enabled = false, height = "100", width = "100" }
+footer = true
+
+[extra.images]
+home = "nostalgia2.jpg" #https://failsafe.monster/c1tyh4ll.png
+post_list = "nostalgia.png" #https://failsafe.monster/bk-prk.jpg
+default_post = "nostalgia.png" #https://failsafe.monster/bk-prk.jpg
+categories = [
+    { name = "media", image = "https://raw.githubusercontent.com/bearcott/8bit-art/master/cities/urban.gif" },
+]
+
+[extra.menu]
+games = true
+games_label = "Games"
+links = [
+    { name = "Games", url = "/games/" },
+    { name = "Stats", url = "/stats/" },
+]
+
+[extra.footer]
+enabled = true
+author = true
+copyright = false
+hash = false
+stack = true
+links = [
+    { name = "games", url = "/games/" },
+    { name = "stats", url = "/stats/" }
+]
+
+[extra.social]
+#email = "user_email"
+#mastodon = "server/@user_name"
+#twitter = "user_name"
+#facebook = "user_name"
+#codeberg = "username"
+#github = "user_name"
+#gitlab = "user_name"
+#bitbucket = "user_name"
+#stackoverflow = "12345/user_name"
+#linkedin = "user_name"
+#instagram = "user_name"
+#lastfm = "user_name"
+#twitch = "user_name"
+#reddit = "user_name"
+#flickr = "user_name"
+#keybase = "user_name"
+#hackernews = "user_name"
+
+[extra.mastodon]
+author = "@user@server"
+
+[extra.comments]
+system = "none"
+
+[extra.comments.cactus]
+site = "site_name"
+page_size = 10
+guest_posting = true
+update_interval = 0
+
+[extra.comments.giscus]
+repo = "user_name/repo"
+repo_id = ""
+category = "Comments"
+category_id = ""
+mapping = "pathname"
+strict = "1"
+reactions = "1"
+lang = "en"

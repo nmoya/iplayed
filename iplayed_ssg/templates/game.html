@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+
+
+<body id="games" class="inner-post-page">
+  {% block left %}
+  <div class="post-title-section">
+    <h1 class="section-title">{{ page.title | safe }}</h1>
+    <ul class="tags" {%-for genre in page.taxonomies["genres"] %}>
+      <li><a href="/genres/{{ genre | slugify }}/">{{ genre }}</a></li {%- if not loop.last %} {%- endif -%} {% endfor
+        %}>
+    </ul>
+    <ul class="tags" {%-for rating in page.taxonomies["rating"] %}>
+      <li><a href="/rating/{{ rating | slugify }}/">{{ rating }}</a></li {%- if not loop.last %} {%- endif -%} {% endfor
+        %}>
+    </ul>
+  </div>
+  {% endblock left %}
+  {% block right %}
+  <div class="inner-post content">
+    {% block date %}<div class="date-highlight">{{page.title}}</div>{% endblock date %}
+
+    {{ page.content | safe }}
+    <br>
+    <!-- {% if page.lower or page.higher %}
+    <nav class="pagination">
+      {% if page.higher %}
+      <a class="pagination_pager" href="{{ " /games/" ~ page.higher.slug ~ "/" | safe }}">prev</a>
+      {% else %}
+      <a href="#" class="pagination_pager disabled">prev</a>
+      {% endif %}
+      {% if page.lower %}
+      <a class="pagination_pager" href="{{ " /games/" ~ page.lower.slug ~ "/" | safe }}">next</a>
+      {% else %}
+      <a href="#" class="pagination_pager disabled">next</a>
+      {% endif %}
+    </nav>
+    {% endif %} -->
+    {% block comments %}{% endblock comments %}
+  </div>
+  {% endblock right %}

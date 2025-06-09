@@ -1,0 +1,6 @@
+[submodule "iplayed_ssg/themes/halve-z"]
+	path = iplayed_ssg/themes/halve-z
+	url = https://github.com/charlesrocket/halve-z
+[submodule "nikolasmoya_ssg/themes/neovim-theme"]
+	path = nikolasmoya_ssg/themes/neovim-theme
+	url = https://github.com/Super-Botman/neovim-theme.git
