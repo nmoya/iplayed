@@ -1,6 +1,7 @@
 import datetime as dt
 import math
 import os
+import shutil
 
 import humanize
 from rich import print as rprint
@@ -135,13 +136,14 @@ def markdown_filename(target_dir: str, slug: str):
     return os.path.join(target_dir, f"{slug}.md")
 
 
-def main(target_dir: str):
+def main(ssg_dir: str, content_dir: str):
     data_entries = utils.read_and_validate_json("./iplayed_cli/completions.json", DataEntry)
     for data in tqdm(data_entries):
         markdown = completion_to_markdown(data)
-        filename = markdown_filename(target_dir, data.game.slug)
+        filename = markdown_filename(content_dir, data.game.slug)
         utils.write_markdown(filename, markdown)
+    shutil.copyfile("./iplayed_cli/completions.json", f"{ssg_dir}/static/completions.json")
 
 
 if __name__ == "__main__":
-    main("./iplayed_ssg/content/games/")
+    main("./iplayed_ssg", "./iplayed_ssg/content/games/")
