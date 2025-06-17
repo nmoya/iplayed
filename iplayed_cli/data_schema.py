@@ -137,8 +137,14 @@ class BaseIGDBGame(BaseModel):
         populate_by_name = True
 
 
+class BaseIGDBSearchResults(BaseModel):
+    limit: int
+    offset: int
+    results: List[BaseIGDBGame] = Field(default_factory=list)
+
+
 class PersonalCompletion(BaseModel):
-    completed_at: datetime
+    completed_at: datetime | None = None
     hours_played: float | None = None
     played_platforms: List[str] = Field(default_factory=list)
     is_favorite: bool = False

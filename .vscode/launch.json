@@ -12,5 +12,16 @@
                 "PYTHONPATH": "${workspaceFolder}"
             }
         }
+        {
+            "name": "Debug iplayed_cli",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "./iplayed_cli/app.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        }
     ]
 }

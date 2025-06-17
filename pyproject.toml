@@ -5,9 +5,13 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "dotenv>=0.9.9",
+    "httpx>=0.28.1",
     "humanize>=4.12.3",
     "pydantic>=2.11.5",
+    "requests>=2.32.4",
     "rich>=14.0.0",
+    "textual>=3.4.0",
     "toolz>=1.0.0",
     "tqdm>=4.67.1",
 ]

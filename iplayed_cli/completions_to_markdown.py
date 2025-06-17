@@ -98,7 +98,6 @@ def completion_to_frontmatter(data: DataEntry):
 
 def completion_to_markdown_body(data: DataEntry):
     #     {{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co4t5o.jpg") }}
-
     # |              |            |
     # | ------------ | ---------- |
     # | Rating       | 7.5        |
@@ -137,12 +136,12 @@ def markdown_filename(target_dir: str, slug: str):
 
 
 def main(ssg_dir: str, content_dir: str):
-    data_entries = utils.read_and_validate_json("./iplayed_cli/completions.json", DataEntry)
+    data_entries = utils.read_and_validate_json("./iplayed_cli/data/completions.json", DataEntry)
     for data in tqdm(data_entries):
         markdown = completion_to_markdown(data)
         filename = markdown_filename(content_dir, data.game.slug)
         utils.write_markdown(filename, markdown)
-    shutil.copyfile("./iplayed_cli/completions.json", f"{ssg_dir}/static/completions.json")
+    shutil.copyfile("./iplayed_cli/data/completions.json", f"{ssg_dir}/static/completions.json")
 
 
 if __name__ == "__main__":
