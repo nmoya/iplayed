@@ -4,11 +4,10 @@ import os
 import shutil
 
 import humanize
+import utils
+from data_schema import DataEntry
 from rich import print as rprint
 from tqdm import tqdm
-
-import iplayed_cli.utils as utils
-from iplayed_cli.data_schema import DataEntry
 
 
 def render_list_value(key: str, value: list):

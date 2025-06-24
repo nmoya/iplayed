@@ -1,10 +1,10 @@
+from completions_file_db import read_completions_file
 from results_view import ResultItem, ResultsView
 from search_view import SearchView
 from textual.app import ComposeResult
 from textual.containers import Vertical
 from textual.screen import Screen
-from textual.widgets import Button, Footer, Header, Static
-from utils import read_completions_file
+from textual.widgets import Button, Footer, Header
 
 
 class MainMenu(Screen):

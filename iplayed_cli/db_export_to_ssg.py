@@ -1,7 +1,6 @@
 import toolz as z
+import utils
 from rich import print as rprint
-
-import iplayed_cli.utils as utils
 
 
 def tranform_completion(completion):

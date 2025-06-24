@@ -1,7 +1,6 @@
 import json
 
 import toolz as z
-from data_schema import DataEntry
 
 
 def read_json(file_path: str):
@@ -19,10 +18,6 @@ def write_json(file_path: str, data):
 def read_and_validate_json(file_path, model):
     data = read_json(file_path)
     return list(z.map(lambda item: model.model_validate(item), data))
-
-
-def read_completions_file() -> list[DataEntry]:
-    return read_and_validate_json("./iplayed_cli/data/completions.json", DataEntry)
 
 
 def write_markdown(file_path: str, content: str):

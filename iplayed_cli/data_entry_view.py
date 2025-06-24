@@ -1,8 +1,14 @@
-from data_schema import DataEntry
-from star_rating_bar import StarRating
+import datetime
+
+from completions_file_db import add_or_update_completion
+from data_schema import DataEntry, PersonalCompletion
 from textual.containers import Horizontal, Vertical, VerticalScroll
 from textual.screen import Screen
-from textual.widgets import Button, Footer, Header, Input, RadioButton, RadioSet, SelectionList, Static
+from textual.widgets import Button, Footer, Header, Input, Static
+from widgets.date_picker import DatePicker
+from widgets.hours_played_input import HoursPlayedInput
+from widgets.platform_picker import PlatformPicker
+from widgets.star_rating_bar import StarRating
 
 
 class DataEntryView(Screen):
@@ -31,28 +37,17 @@ class DataEntryView(Screen):
         self.data = data
 
     def compose(self):
-        played_platforms = self.data.completion.played_platforms
         yield Header(name=f"🎮 {self.data.game.name}")
         yield VerticalScroll(
-            SelectionList[str](
-                *[
-                    (platform.name, platform.id, platform.name in played_platforms)
-                    for platform in self.data.game.platforms
-                ],
+            PlatformPicker(
+                title="Select the platform(s) you played on",
+                platforms=self.data.game.platforms,
+                played_platforms=self.data.completion.played_platforms,
+                id="platforms",
             ),
-            Vertical(
-                Static(" 📅 Completion Date"),
-                Horizontal(
-                    Input(placeholder="Day", id="day", classes="date-input"),
-                    Input(placeholder="Month", id="month", classes="date-input"),
-                    Input(placeholder="Year", id="year", classes="year-input"),
-                ),
-            ),
-            Vertical(
-                Static("🎮 Hours Played"),
-                Input(placeholder="e.g. 12.5", id="hours_played"),
-            ),
-            Vertical(Static("How would you rate this game?"), StarRating(rating=0, id="rating")),
+            DatePicker(title=" 📅 Completion Date", default_date=self.data.completion.completed_at),
+            StarRating(title="How would you rate this game?", rating=0, id="rating"),
+            HoursPlayedInput(),
             Horizontal(
                 Button("💾 Save", id="save"),
                 Button("🗑️ Delete", id="delete"),
@@ -61,10 +56,25 @@ class DataEntryView(Screen):
         yield Footer()
 
     def on_mount(self) -> None:
-        self.query_one(SelectionList).border_title = "Select the platform(s) you played on"
+        self.query_one("#platforms").focus()
 
     def on_button_pressed(self, event: Button.Pressed) -> None:
         if event.button.id == "save":
-            pass
+            played_platforms = self.query_one(PlatformPicker).selected
+            date = self.query_one(DatePicker).date
+            hours_played = self.query_one(HoursPlayedInput).value
+            rating = self.query_one(StarRating).rating
+            data_entry = DataEntry(
+                game=self.data.game,
+                completion=PersonalCompletion(
+                    completed_at=date,
+                    hours_played=hours_played,
+                    played_platforms=played_platforms,
+                    is_favorite=False,
+                    rating=rating,
+                ),
+            )
+            add_or_update_completion(data_entry)
+            self.app.pop_screen()
         elif event.button.id == "delete":
             pass
