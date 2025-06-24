@@ -10,13 +10,16 @@ class PlatformPicker(Widget):
         self.platforms = platforms
         self.played_platforms = played_platforms
         self.styles.height = "auto"
-        self.styles.max_height = 20
+        self.styles.max_height = len(platforms) + 2
 
     def compose(self):
         yield Vertical(
             Static(self.title),
             SelectionList[str](
-                *[(platform.name, platform.id, platform.name in self.played_platforms) for platform in self.platforms],
+                *[
+                    (platform.name, platform.name, platform.name in self.played_platforms)
+                    for platform in self.platforms
+                ],
                 id=self.id,
             ),
         )

@@ -1,6 +1,6 @@
 import datetime
 
-from completions_file_db import add_or_update_completion
+from completions_file_db import add_or_update_completion, delete_completion
 from data_schema import DataEntry, PersonalCompletion
 from textual.containers import Horizontal, Vertical, VerticalScroll
 from textual.screen import Screen
@@ -29,6 +29,10 @@ class DataEntryView(Screen):
         padding-bottom: 1;
     }
 
+    .button-row {
+        margin-top: 1;
+    }
+
     """
     BINDINGS = [("escape", "app.pop_screen", "Back")]
 
@@ -46,24 +50,21 @@ class DataEntryView(Screen):
                 id="platforms",
             ),
             DatePicker(title=" 📅 Completion Date", default_date=self.data.completion.completed_at),
-            StarRating(title="How would you rate this game?", rating=0, id="rating"),
+            StarRating(title="How would you rate this game?", rating=self.data.completion.rating, id="rating"),
             HoursPlayedInput(),
-            Horizontal(
-                Button("💾 Save", id="save"),
-                Button("🗑️ Delete", id="delete"),
-            ),
+            Horizontal(Button("💾 Save", id="save"), Button("🗑️ Delete", id="delete"), classes="button-row"),
         )
         yield Footer()
 
     def on_mount(self) -> None:
-        self.query_one("#platforms").focus()
+        self.query_one(PlatformPicker).focus()
 
     def on_button_pressed(self, event: Button.Pressed) -> None:
         if event.button.id == "save":
             played_platforms = self.query_one(PlatformPicker).selected
-            date = self.query_one(DatePicker).date
+            date = self.query_one(DatePicker).value
             hours_played = self.query_one(HoursPlayedInput).value
-            rating = self.query_one(StarRating).rating
+            rating = self.query_one(StarRating).value
             data_entry = DataEntry(
                 game=self.data.game,
                 completion=PersonalCompletion(
@@ -77,4 +78,5 @@ class DataEntryView(Screen):
             add_or_update_completion(data_entry)
             self.app.pop_screen()
         elif event.button.id == "delete":
-            pass
+            delete_completion(self.data.game.id)
+            self.app.pop_screen()

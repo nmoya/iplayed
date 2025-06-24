@@ -1,3 +1,5 @@
+import math
+
 from textual.containers import Container, Horizontal, Vertical
 from textual.events import Key
 from textual.message import Message
@@ -45,19 +47,17 @@ class StarRating(Widget):
 
     """
 
-    def __init__(self, title: str, rating: int = 0, max_stars: int = 10, id: str = "star_rating") -> None:
+    def __init__(self, title: str, rating: float | None, max_stars: int = 10, id: str = "star_rating") -> None:
         super().__init__(id=id)
         self.title = title
-        self.rating = rating
+        self.rating = math.round(rating) if rating is not None else 0
         self.max_stars = max_stars
-        self.cursor_index = rating or 0
+        self.cursor_index = self.rating
         self.can_focus = True
         self.styles.height = "auto"
         self.styles.max_height = 8
 
     def compose(self):
-        # for i in range(1, self.max_stars + 1):
-        #     yield Static("★", id=f"star-{i}", classes="star")
         yield Vertical(
             Static(self.title),
             Horizontal(
@@ -98,3 +98,7 @@ class StarRating(Widget):
 
     def on_blur(self) -> None:
         self.update_stars()
+
+    @property
+    def value(self) -> int:
+        return self.cursor_index
