@@ -1,6 +1,4 @@
-import math
-
-from textual.containers import Container, Horizontal, Vertical
+from textual.containers import Horizontal, Vertical
 from textual.events import Key
 from textual.message import Message
 from textual.widget import Widget
@@ -50,7 +48,7 @@ class StarRating(Widget):
     def __init__(self, title: str, rating: float | None, max_stars: int = 10, id: str = "star_rating") -> None:
         super().__init__(id=id)
         self.title = title
-        self.rating = math.round(rating) if rating is not None else 0
+        self.rating = int(rating) if rating is not None else 0
         self.max_stars = max_stars
         self.cursor_index = self.rating
         self.can_focus = True

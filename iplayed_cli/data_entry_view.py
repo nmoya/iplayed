@@ -51,7 +51,7 @@ class DataEntryView(Screen):
             ),
             DatePicker(title=" 📅 Completion Date", default_date=self.data.completion.completed_at),
             StarRating(title="How would you rate this game?", rating=self.data.completion.rating, id="rating"),
-            HoursPlayedInput(),
+            HoursPlayedInput(default=self.data.completion.hours_played, id="hours_played"),
             Horizontal(Button("💾 Save", id="save"), Button("🗑️ Delete", id="delete"), classes="button-row"),
         )
         yield Footer()

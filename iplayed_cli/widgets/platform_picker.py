@@ -10,7 +10,7 @@ class PlatformPicker(Widget):
         self.platforms = platforms
         self.played_platforms = played_platforms
         self.styles.height = "auto"
-        self.styles.max_height = len(platforms) + 2
+        self.styles.max_height = max(6, len(platforms) + 2)
 
     def compose(self):
         yield Vertical(
