@@ -60,9 +60,6 @@ class DataEntryView(Screen):
         )
         yield Footer()
 
-    def on_mount(self) -> None:
-        self.query_one(PlatformPicker).focus()
-
     def on_button_pressed(self, event: Button.Pressed) -> None:
         if event.button.id == "save":
             played_platforms = self.query_one(PlatformPicker).selected

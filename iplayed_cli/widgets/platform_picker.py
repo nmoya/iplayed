@@ -24,6 +24,9 @@ class PlatformPicker(Widget):
             ),
         )
 
+    def on_mount(self) -> None:
+        self.query_one(SelectionList).focus()
+
     @property
     def selected(self):
         return self.query_one(SelectionList).selected
