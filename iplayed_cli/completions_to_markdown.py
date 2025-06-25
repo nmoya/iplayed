@@ -6,7 +6,6 @@ import shutil
 import humanize
 import utils
 from data_schema import DataEntry
-from rich import print as rprint
 from tqdm import tqdm
 
 
