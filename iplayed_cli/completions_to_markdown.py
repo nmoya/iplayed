@@ -1,12 +1,9 @@
 import datetime as dt
 import math
 import os
-import shutil
 
 import humanize
-import utils
 from data_schema import DataEntry
-from tqdm import tqdm
 
 
 def render_list_value(key: str, value: list):
@@ -131,16 +128,3 @@ def completion_to_markdown(completion):
 
 def markdown_filename(target_dir: str, slug: str):
     return os.path.join(target_dir, f"{slug}.md")
-
-
-def main(ssg_dir: str, content_dir: str):
-    data_entries = utils.read_and_validate_json("./iplayed_cli/data/completions.json", DataEntry)
-    for data in tqdm(data_entries):
-        markdown = completion_to_markdown(data)
-        filename = markdown_filename(content_dir, data.game.slug)
-        utils.write_markdown(filename, markdown)
-    shutil.copyfile("./iplayed_cli/data/completions.json", f"{ssg_dir}/static/completions.json")
-
-
-if __name__ == "__main__":
-    main("./iplayed_ssg", "./iplayed_ssg/content/games/")
