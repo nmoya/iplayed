@@ -33,6 +33,10 @@ class DataEntryView(Screen):
         margin-top: 1;
     }
 
+    Button {
+        margin-right: 1;
+    }
+
     """
     BINDINGS = [("escape", "app.pop_screen", "Back")]
 
