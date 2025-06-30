@@ -1,3 +1,4 @@
+from completions_view import CompletionsView
 from main_menu import MainMenu
 from textual.app import App, ComposeResult
 
@@ -21,7 +22,7 @@ class IPlayedCLI(App):
 
     def on_mount(self) -> None:
         self.theme = "gruvbox"
-        super().push_screen(MainMenu())
+        super().push_screen(CompletionsView())
 
 
 if __name__ == "__main__":

@@ -1,6 +1,25 @@
+import datetime as dt
 import json
 
 import toolz as z
+
+
+def humanize_hours(hours: float | None) -> str:
+    if hours is None:
+        return "N/A"
+
+    delta = dt.timedelta(hours=int(hours))
+    total_seconds = int(delta.total_seconds())
+    hours_part = total_seconds // 3600
+    minutes_part = (total_seconds % 3600) // 60
+
+    parts = []
+    if hours_part > 0:
+        parts.append(f"{hours_part} hour{'s' if hours_part != 1 else ''}")
+    if minutes_part > 0:
+        parts.append(f"{minutes_part} minute{'s' if minutes_part != 1 else ''}")
+
+    return " and ".join(parts) if parts else "N/A"
 
 
 def read_json(file_path: str):
