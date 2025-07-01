@@ -24,4 +24,7 @@ class HoursPlayedInput(Widget):
 
     @property
     def value(self) -> float:
-        return float(self.query_one(Input).value)
+        try:
+            return float(self.query_one(Input).value)
+        except ValueError:
+            return 0.0

@@ -155,6 +155,19 @@ class DataEntry(pydantic.BaseModel):
     game: BaseIGDBGame
     completion: PersonalCompletion
 
+    @staticmethod
+    def from_base_igdb_game(game: BaseIGDBGame) -> "DataEntry":
+        return DataEntry(
+            game=game,
+            completion=PersonalCompletion(
+                completed_at=datetime.now(),
+                hours_played=None,
+                played_platforms=[],
+                is_favorite=False,
+                rating=0,
+            ),
+        )
+
 
 # {
 #     "game": {
