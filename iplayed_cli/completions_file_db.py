@@ -24,10 +24,11 @@ def add_or_update_completion(data: DataEntry) -> None:
         json.dump(completions_json, f, indent=4, ensure_ascii=True)
 
 
-def delete_completion(game_id: int) -> None:
+def delete_completion(game_id: int) -> list[DataEntry]:
     completions = read_completions_file()
     completions = [entry for entry in completions if entry.game.id != game_id]
 
     completions_json = [entry.model_dump(mode="json") for entry in completions]
     with open(completions_filepath, "w") as f:
         json.dump(completions_json, f, indent=4, ensure_ascii=True)
+    return completions
