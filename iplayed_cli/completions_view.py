@@ -5,7 +5,7 @@ from rich.console import Console
 from textual.app import ComposeResult
 from textual.containers import Horizontal, Vertical
 from textual.screen import Screen
-from textual.widgets import DataTable, Footer, Header, Input
+from textual.widgets import Footer, Header, Input
 from widgets.game_data_table import CompletionsTable, RemoteResultsTable
 
 console = Console()
@@ -107,4 +107,4 @@ class CompletionsView(Screen):
             self.completions_table().focus()
             return
         else:
-            self.app.exit()
+            self.app.pop_screen()

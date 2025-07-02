@@ -1,10 +1,8 @@
-import datetime
-
 from completions_file_db import add_or_update_completion, delete_completion
 from data_schema import DataEntry, PersonalCompletion
-from textual.containers import Horizontal, Vertical, VerticalScroll
+from textual.containers import Horizontal, VerticalScroll
 from textual.screen import Screen
-from textual.widgets import Button, Footer, Header, Input, Static
+from textual.widgets import Button, Footer, Header
 from widgets.date_picker import DatePicker
 from widgets.hours_played_input import HoursPlayedInput
 from widgets.platform_picker import PlatformPicker
