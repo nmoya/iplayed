@@ -55,6 +55,24 @@ class GameDataTableBase(Widget):
         self.data.sort(key=lambda c: c.game.name.lower())
         self.load(self.data)
 
+    def on_data_entry_view_close(self, data: DataEntry | int | None) -> None:
+        if data is None:
+            return
+
+        # Game was deleted
+        if isinstance(data, int):
+            self.data = [c for c in self.data if c.game.id != data]
+        # Game was added or edited
+        else:
+            for idx, entry in enumerate(self.data):
+                if entry.game.id == data.game.id:
+                    self.data[idx] = data
+                break
+            else:
+                self.data.append(data)
+
+        self.load(self.data)
+
     def action_edit_completion(self) -> None:
         if not self.table.has_focus:
             return
@@ -62,7 +80,7 @@ class GameDataTableBase(Widget):
         data = next((c for c in self.data if c.game.id == game_id), None)
         if not data:
             return
-        self.app.push_screen(DataEntryView(data=data))
+        self.app.push_screen(DataEntryView(data=data), self.on_data_entry_view_close)
 
     def focus(self, scroll_visible: bool = True) -> Widget:
         self.table.focus()
@@ -87,7 +105,7 @@ class CompletionsTable(GameDataTableBase):
                 humanize_hours(entry.completion.hours_played),
                 humanize.naturaldate(entry.completion.completed_at),
                 f"{entry.completion.rating:.1f}" if entry.completion.rating else "N/A",
-                ", ".join(entry.completion.played_platforms) if entry.completion.played_platforms else "N/A",
+                ", ".join(entry.completion.played_platforms_names) if entry.completion.played_platforms else "N/A",
                 key=entry.game.id,
             )
         self.table.cursor_coordinate = Coordinate(row=cursor_row, column=0)

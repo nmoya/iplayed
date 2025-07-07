@@ -42,20 +42,37 @@ class DataEntryView(Screen):
         super().__init__()
         self.data = data
 
-    def compose(self):
-        yield Header(name=f"🎮 {self.data.game.name}")
-        yield VerticalScroll(
+    def build_form_content(self):
+        content = [
             CheckboxInput(
                 title="Select the platform(s) you played on",
                 options=self.data.game.platforms,
                 selected_options=self.data.completion.played_platforms,
                 id="platforms",
-            ),
-            DatePicker(title=" 📅 Completion Date", default_date=self.data.completion.completed_at),
-            StarRating(title="How would you rate this game?", rating=self.data.completion.rating, id="rating"),
-            HoursPlayedInput(default=self.data.completion.hours_played, id="hours_played"),
+            )
+        ]
+        if self.data.game.dlcs:
+            content.append(
+                CheckboxInput(
+                    title="Select the additional content you played",
+                    options=self.data.game.dlcs,
+                    selected_options=[],
+                    id="dlcs",
+                )
+            )
+        content.append(DatePicker(title=" 📅 Completion Date", default_date=self.data.completion.completed_at))
+        content.append(
+            StarRating(title="How would you rate this game?", rating=self.data.completion.rating, id="rating")
+        )
+        content.append(HoursPlayedInput(default=self.data.completion.hours_played, id="hours_played"))
+        content.append(
             Horizontal(Button("💾 Save", id="save"), Button("🗑️ Delete", id="delete"), classes="button-row"),
         )
+        return content
+
+    def compose(self):
+        yield Header(name=f"🎮 {self.data.game.name}")
+        yield VerticalScroll(*self.build_form_content())
         yield Footer()
 
     def on_button_pressed(self, event: Button.Pressed) -> None:
@@ -69,14 +86,15 @@ class DataEntryView(Screen):
                 completion=PersonalCompletion(
                     completed_at=date,
                     hours_played=hours_played,
-                    played_platforms=played_platforms,
+                    played_platforms=self.data.selection_refs(self.data.game.platforms, played_platforms),
                     is_favorite=False,
                     rating=rating,
                 ),
             )
             add_or_update_completion(data_entry)
+            deploy_markdown_files()
+            self.dismiss(data_entry)
         elif event.button.id == "delete":
             delete_completion(self.data.game.id)
-
-        deploy_markdown_files()
-        self.app.pop_screen()
+            deploy_markdown_files()
+            self.dismiss(self.data.game.id)

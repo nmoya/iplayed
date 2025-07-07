@@ -67,9 +67,9 @@ def completion_to_frontmatter(data: DataEntry):
     else:
         hours_played_str = ""
     if hours_played_str:
-        subtitle = f"{hours_played_str} - {', '.join(data.completion.played_platforms)}"
+        subtitle = f"{hours_played_str} - {', '.join(data.completion.played_platforms_names)}"
     else:
-        subtitle = f"{', '.join(data.completion.played_platforms)}"
+        subtitle = f"{', '.join(data.completion.played_platforms_names)}"
     frontmatter = {
         "title": data.game.name,
         "description": subtitle,
@@ -77,7 +77,7 @@ def completion_to_frontmatter(data: DataEntry):
         "updated": data.completion.completed_at.strftime("%Y-%m-%d"),
         "in_search_index": True,
         "taxonomies": {
-            "platforms": [s.lower() for s in data.completion.played_platforms],
+            "platforms": [s.lower() for s in data.completion.played_platforms_names],
             "rating": [str(data.completion.rating)] if data.completion.rating else [],
             "genres": [g.name.lower() for g in data.game.genres],
         },
@@ -112,7 +112,7 @@ def completion_to_markdown_body(data: DataEntry):
         hours_played_str = humanize.naturaldelta(dt.timedelta(hours=data.completion.hours_played))
         markdown.append(f"| Time played  | {hours_played_str} |")
     if data.completion.played_platforms:
-        markdown.append(f"| Played platforms    | {', '.join(data.completion.played_platforms)} |")
+        markdown.append(f"| Played platforms    | {', '.join(data.completion.played_platforms_names)} |")
     if data.completion.completed_at:
         markdown.append(f"| Completed at | {data.completion.completed_at.strftime('%Y/%m/%d')} |")
     markdown.append("\n")

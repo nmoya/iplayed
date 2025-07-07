@@ -146,9 +146,13 @@ class BaseIGDBSearchResults(BaseModel):
 class PersonalCompletion(BaseModel):
     completed_at: datetime | None = None
     hours_played: float | None = None
-    played_platforms: List[str] = Field(default_factory=list)
+    played_platforms: List[BaseIGDBReference] = Field(default_factory=list)
     is_favorite: bool = False
     rating: float | None = None
+
+    @property
+    def played_platforms_names(self) -> List[str]:
+        return [platform.name for platform in self.played_platforms]
 
 
 class DataEntry(pydantic.BaseModel):
@@ -167,6 +171,9 @@ class DataEntry(pydantic.BaseModel):
                 rating=0,
             ),
         )
+
+    def selection_refs(self, options, selections: List[str]) -> List[BaseIGDBReference]:
+        return [BaseIGDBReference(_id=option.id, name=option.name) for option in options if option.name in selections]
 
 
 # {
