@@ -21,3 +21,12 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ijw.jp
 | Played platforms    | PlayStation 3 |
 | Completed at | 2023/03/18 |
 
+
+### Additional Content
+
+
+- [ ] LittleBigPlanet 2 Toy Story Level Kit DLC
+- [ ] LittleBigPlanet 2: Move Pack
+- [ ] LittleBigPlanet 2: Muppets Premium Level Kit
+- [ ] LittleBigPlanet 2: Cross-Controller Pack
+- [ ] LittleBigPlanet 2: DC Comics Premium Level Pack

@@ -21,3 +21,9 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co25xw.jp
 | Played platforms    | PlayStation 3 |
 | Completed at | 2023/03/18 |
 
+
+### Additional Content
+
+
+- [ ] Star Wars: The Force Unleashed II - The Battle of Endor
+- [ ] Star Wars: The Force Unleashed II - Character Pack

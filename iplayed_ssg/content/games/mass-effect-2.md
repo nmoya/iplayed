@@ -21,3 +21,16 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co20ac.jp
 | Played platforms    | PlayStation 3 |
 | Completed at | 2023/03/18 |
 
+
+### Additional Content
+
+
+- [ ] Mass Effect 2: Lair of the Shadow Broker
+- [ ] Mass Effect 2: Overlord
+- [ ] Mass Effect 2: Firewalker Pack
+- [ ] Mass Effect 2: Arrival
+- [ ] Mass Effect 2: Zaeed - The Price of Revenge
+- [ ] Mass Effect 2: Kasumi - Stolen Memory
+- [ ] Mass Effect 2: Normandy Crash Site
+- [ ] Mass Effect: Genesis
+- [ ] Mass Effect 2: Cerberus Network

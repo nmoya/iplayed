@@ -21,3 +21,8 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1x78.jp
 | Played platforms    | PlayStation 3 |
 | Completed at | 2023/03/18 |
 
+
+### Additional Content
+
+
+- [ ] Dark Souls: Artorias of the Abyss

@@ -21,3 +21,9 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1x7o.jp
 | Played platforms    | PlayStation 3 |
 | Completed at | 2023/03/18 |
 
+
+### Additional Content
+
+
+- [ ] Mass Effect: Pinnacle Station
+- [ ] Mass Effect: Bring Down the Sky

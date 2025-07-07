@@ -21,3 +21,9 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2slv.jp
 | Played platforms    | PlayStation 3 |
 | Completed at | 2023/03/18 |
 
+
+### Additional Content
+
+
+- [ ] Castlevania: Lords of Shadow - Reverie
+- [ ] Castlevania: Lords of Shadow - Resurrection

@@ -22,3 +22,8 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co65c5.jp
 | Played platforms    | PC |
 | Completed at | 2023/12/16 |
 
+
+### Additional Content
+
+
+- [ ] SteamWorld Build: Mechanized

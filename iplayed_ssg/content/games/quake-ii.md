@@ -21,3 +21,10 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ybl.jp
 | Played platforms    | PC |
 | Completed at | 2023/03/18 |
 
+
+### Additional Content
+
+
+- [ ] Juggernaut: The New Story For Quake II
+- [ ] Zaero for Quake II
+- [ ] Quake II Netpack I: Extremities

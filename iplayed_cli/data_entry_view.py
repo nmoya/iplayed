@@ -78,8 +78,7 @@ class DataEntryView(Screen):
     def on_button_pressed(self, event: Button.Pressed) -> None:
         if event.button.id == "save":
             played_platforms = self.query_one("#platforms", CheckboxInput).selected
-            dlc_input = self.query_one("#dlcs", CheckboxInput)
-            played_dlcs = dlc_input.selected if dlc_input else []
+            played_dlcs = self.query_one("#dlcs", CheckboxInput).selected if self.data.game.dlcs else []
             date = self.query_one(DatePicker).value
             hours_played = self.query_one(HoursPlayedInput).value
             rating = self.query_one(StarRating).value

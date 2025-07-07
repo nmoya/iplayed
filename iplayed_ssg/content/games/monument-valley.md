@@ -21,3 +21,9 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co22l6.jp
 | Played platforms    | iOS |
 | Completed at | 2023/03/18 |
 
+
+### Additional Content
+
+
+- [ ] Monument Valley: Forgotten Shores
+- [ ] Monument Valley: Ida's Dream

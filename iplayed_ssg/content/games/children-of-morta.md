@@ -21,3 +21,9 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2iw2.jp
 | Played platforms    | PC |
 | Completed at | 2023/03/18 |
 
+
+### Additional Content
+
+
+- [ ] Children of Morta: Paws and Claws
+- [ ] Children of Morta: Ancient Spirits

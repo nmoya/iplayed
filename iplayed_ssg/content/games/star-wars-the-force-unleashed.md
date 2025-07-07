@@ -21,3 +21,12 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co25xx.jp
 | Played platforms    | PlayStation 3 |
 | Completed at | 2023/03/18 |
 
+
+### Additional Content
+
+
+- [ ] Star Wars: The Force Unleashed - Hoth Mission Pack
+- [ ] Star Wars: The Force Unleashed - Tatooine Mission Pack
+- [ ] Star Wars: The Force Unleashed - Jedi Temple Mission Pack
+- [ ] Star Wars: The Force Unleashed - Character Pack 1
+- [ ] Star Wars: The Force Unleashed - Character Pack 2

@@ -21,3 +21,11 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co68m7.jp
 | Played platforms    | PC |
 | Completed at | 2023/03/18 |
 
+
+### Additional Content
+
+
+- [ ] Payday: The Heist - Wolfpack
+- [ ] Payday: The Heist - No Mercy
+- [ ] Payday: The Heist - Undercover
+- [ ] Payday: The Heist - Counterfeit

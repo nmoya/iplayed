@@ -21,3 +21,9 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co25rk.jp
 | Played platforms    | PlayStation 3 |
 | Completed at | 2023/03/18 |
 
+
+### Additional Content
+
+
+- [ ] Kingdoms of Amalur: Reckoning - The Legend of Dead Kel
+- [ ] Kingdoms of Amalur: Reckoning - Teeth of Naros

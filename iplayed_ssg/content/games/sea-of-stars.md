@@ -22,3 +22,8 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co215b.jp
 | Played platforms    | PC |
 | Completed at | 2025/01/18 |
 
+
+### Additional Content
+
+
+- [ ] Sea of Stars: Throes of the Watchmaker

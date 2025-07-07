@@ -21,3 +21,11 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2npg.jp
 | Played platforms    | PC |
 | Completed at | 2024/12/05 |
 
+
+### Additional Content
+
+
+- [ ] Far Cry 6: Collapse
+- [ ] Far Cry 6: Control
+- [ ] Far Cry 6: Insanity
+- [ ] Far Cry 6: Danny & Dani Vs. Everybody

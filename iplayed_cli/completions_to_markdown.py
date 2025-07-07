@@ -111,11 +111,20 @@ def completion_to_markdown_body(data: DataEntry):
     if data.completion.hours_played:
         hours_played_str = humanize.naturaldelta(dt.timedelta(hours=data.completion.hours_played))
         markdown.append(f"| Time played  | {hours_played_str} |")
-    if data.completion.played_platforms:
+    if len(data.completion.played_platforms) > 0:
         markdown.append(f"| Played platforms    | {', '.join(data.completion.played_platforms_names)} |")
     if data.completion.completed_at:
         markdown.append(f"| Completed at | {data.completion.completed_at.strftime('%Y/%m/%d')} |")
+
     markdown.append("\n")
+
+    if len(data.game.dlcs) > 0:
+        markdown.append("### Additional Content\n\n")
+        for dlc in data.game.dlcs:
+            if dlc.id in [d.id for d in data.completion.played_dlcs]:
+                markdown.append(f"- [x] {dlc.name}")
+            else:
+                markdown.append(f"- [ ] {dlc.name}")
 
     return "\n".join(markdown)
 

@@ -21,3 +21,12 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ehj.jp
 | Played platforms    | PC |
 | Completed at | 2023/03/18 |
 
+
+### Additional Content
+
+
+- [ ] Sniper Elite 5: Target Führer - Wolf Mountain
+- [ ] Sniper Elite 5: Landing Force Mission and Weapon Pack
+- [ ] Sniper Elite 5: Conqueror Mission, Weapon and Skin Pack
+- [ ] Sniper Elite 5: Rough Landing - Mission and Weapon Pack
+- [ ] Sniper Elite 5: Kraken Awakes - Mission, Weapon and Skin Pack

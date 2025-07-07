@@ -21,3 +21,11 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nzt.jp
 | Played platforms    | PlayStation 4 |
 | Completed at | 2023/03/18 |
 
+
+### Additional Content
+
+
+- [ ] Lords of the Fallen: Ancient Labyrinth
+- [ ] Lords of the Fallen: The Foundation Boost
+- [ ] Lords of the Fallen: The Arcane Boost
+- [ ] Lords of the Fallen: The Monk's Decipher

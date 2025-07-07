@@ -21,3 +21,11 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co20tx.jp
 | Played platforms    | PlayStation 3 |
 | Completed at | 2023/03/18 |
 
+
+### Additional Content
+
+
+- [ ] Borderlands: The Zombie Island of Dr. Ned
+- [ ] Borderlands: Mad Moxxi's Underdome Riot
+- [ ] Borderlands: The Secret Armory of General Knoxx
+- [ ] Borderlands: Claptrap's New Robot Revolution

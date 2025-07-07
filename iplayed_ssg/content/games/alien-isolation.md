@@ -21,3 +21,14 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vzu.jp
 | Played platforms    | PC |
 | Completed at | 2023/03/18 |
 
+
+### Additional Content
+
+
+- [ ] Alien: Isolation - Corporate Lockdown
+- [ ] Alien: Isolation - Crew Expendable
+- [ ] Alien: Isolation - Last Survivor
+- [ ] Alien: Isolation - Safe Haven
+- [ ] Alien: Isolation - Trauma
+- [ ] Alien: Isolation - The Trigger
+- [ ] Alien: Isolation - Lost Contact

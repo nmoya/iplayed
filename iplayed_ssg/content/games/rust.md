@@ -21,3 +21,8 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co86ix.jp
 | Played platforms    | PC |
 | Completed at | 2023/03/18 |
 
+
+### Additional Content
+
+
+- [ ] Rust: Voice Props Pack

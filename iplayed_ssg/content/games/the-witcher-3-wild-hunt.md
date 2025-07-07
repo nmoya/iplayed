@@ -21,3 +21,12 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wyy.jp
 | Played platforms    | PlayStation 4 |
 | Completed at | 2023/03/18 |
 
+
+### Additional Content
+
+
+- [ ] The Witcher 3: Wild Hunt - New Quest 'Contract: Skellige's Most Wanted'
+- [ ] The Witcher 3: Wild Hunt - New Quest 'Where the Cat and Wolf Play...'
+- [ ] The Witcher 3: Wild Hunt - New Quest 'Fool's Gold'
+- [ ] The Witcher 3: Wild Hunt - New Quest 'Contract: Missing Miners'
+- [ ] The Witcher 3: Wild Hunt - New Quest: Scavenger Hunt: Wolf School Gear

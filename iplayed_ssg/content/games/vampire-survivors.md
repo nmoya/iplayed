@@ -23,3 +23,12 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co4bzv.jp
 | Played platforms    | PC |
 | Completed at | 2023/11/30 |
 
+
+### Additional Content
+
+
+- [ ] Vampire Survivors: Legacy of the Moonspell
+- [ ] Vampire Survivors: Tides of the Foscari
+- [ ] Vampire Survivors: Emergency Meeting
+- [ ] Vampire Survivors: Operation Guns
+- [ ] Vampire Survivors: Ode to Castlevania

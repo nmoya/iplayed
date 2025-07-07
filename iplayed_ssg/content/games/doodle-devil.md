@@ -21,3 +21,8 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2hof.jp
 | Played platforms    | iOS |
 | Completed at | 2023/03/18 |
 
+
+### Additional Content
+
+
+- [ ] Doodle Devil: Pack
