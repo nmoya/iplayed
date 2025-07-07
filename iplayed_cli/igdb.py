@@ -123,7 +123,7 @@ class IGDBClient:
             data = response.json()
             return data["count"]
 
-    async def game_search(self, query: str, offset: int = 0, limit: int = 10) -> BaseIGDBSearchResults:
+    async def game_search(self, query: str, offset: int = 0, limit: int = 20) -> BaseIGDBSearchResults:
         url = self.build_url(self.base_url, "/games", {})
         headers = {
             "Client-ID": self.client_id,
@@ -131,7 +131,7 @@ class IGDBClient:
             "Authorization": f"Bearer {await self.auth_token()}",
         }
         payload = f"""
-    fields id, category, status, created_at, first_release_date, name, slug, summary, total_rating, total_rating_count, updated_at, url,
+    fields id, game_type, game_status, created_at, first_release_date, name, slug, summary, total_rating, total_rating_count, updated_at, url,
     cover.*, platforms.*, platforms.platform_logo.*, artworks.*, release_dates.*, screenshots.*,
     keywords.*,
     game_modes.*,

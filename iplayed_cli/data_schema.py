@@ -110,8 +110,8 @@ class BaseIGDBGame(BaseModel):
     id: int = Field(alias="_id")
     slug: str
     name: str
-    category: int
-    status: int | None = None
+    game_type: int
+    game_status: int | None = None
     cover: BaseIGDBAsset | None = None
     artworks: List[BaseIGDBAsset] = Field(default_factory=list)
     platforms: List[BaseIGDBPlatform] = Field(default_factory=list)
