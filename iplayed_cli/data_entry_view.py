@@ -56,7 +56,7 @@ class DataEntryView(Screen):
                 CheckboxInput(
                     title="Select the additional content you played",
                     options=self.data.game.dlcs,
-                    selected_options=[],
+                    selected_options=self.data.completion.played_dlcs,
                     id="dlcs",
                 )
             )
@@ -77,7 +77,9 @@ class DataEntryView(Screen):
 
     def on_button_pressed(self, event: Button.Pressed) -> None:
         if event.button.id == "save":
-            played_platforms = self.query_one(CheckboxInput).selected
+            played_platforms = self.query_one("#platforms", CheckboxInput).selected
+            dlc_input = self.query_one("#dlcs", CheckboxInput)
+            played_dlcs = dlc_input.selected if dlc_input else []
             date = self.query_one(DatePicker).value
             hours_played = self.query_one(HoursPlayedInput).value
             rating = self.query_one(StarRating).value
@@ -87,6 +89,7 @@ class DataEntryView(Screen):
                     completed_at=date,
                     hours_played=hours_played,
                     played_platforms=self.data.selection_refs(self.data.game.platforms, played_platforms),
+                    played_dlcs=self.data.selection_refs(self.data.game.dlcs, played_dlcs),
                     is_favorite=False,
                     rating=rating,
                 ),

@@ -147,6 +147,7 @@ class PersonalCompletion(BaseModel):
     completed_at: datetime | None = None
     hours_played: float | None = None
     played_platforms: List[BaseIGDBReference] = Field(default_factory=list)
+    played_dlcs: List[BaseIGDBReference] = Field(default_factory=list)
     is_favorite: bool = False
     rating: float | None = None
 
@@ -167,6 +168,7 @@ class DataEntry(pydantic.BaseModel):
                 completed_at=datetime.now(),
                 hours_played=None,
                 played_platforms=[],
+                played_dlcs=[],
                 is_favorite=False,
                 rating=0,
             ),

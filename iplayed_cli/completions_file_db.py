@@ -51,34 +51,7 @@ def migrate():
     from utils import read_json, write_json
 
     completions = read_json(completions_filepath)
-    for data in completions:
-        played = data["completion"]["played_platforms"]
-        platforms = data["game"]["platforms"]
-        platform_names = [platform["name"] for platform in platforms]
-
-        mapped = []
-        for played_platform in played:
-            print("\n\n")
-            if played_platform in platform_names:
-                platform_ref = platforms[platform_names.index(played_platform)]
-                mapped.append({"id": platform_ref["id"], "name": platform_ref["name"]})
-            else:
-                print(f"Warning: Platform '{played_platform}' not found in game platforms for {data['game']['name']}")
-                print("Pick the appropriate:")
-                for i, platform in enumerate(platforms):
-                    print(f"{i + 1}. {platform['name']}")
-                print(f"{len(platforms)+1}. Skip")
-                choice = int(input("Enter your choice: ")) - 1
-                if choice == len(platforms):
-                    continue
-                elif 0 <= choice < len(platforms):
-                    platform_ref = platforms[choice]
-                    mapped.append({"id": platform_ref["id"], "name": platform_ref["name"]})
-                else:
-                    print("Invalid choice, skipping this platform.")
-        data["completion"]["played_platforms"] = mapped
-
-    write_json(completions_filepath, completions)
+    # write_json(completions_filepath, completions)
 
 
 if __name__ == "__main__":
