@@ -18,7 +18,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co4v34.jp
 
 |              |            |
 | ------------ | ---------- |
-| Time played  | a day |
+| Time played  | 30 hours |
 | Played platforms    | PC |
 | Completed at | 2023/05/17 |
 

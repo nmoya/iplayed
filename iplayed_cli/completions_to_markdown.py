@@ -2,8 +2,8 @@ import datetime as dt
 import math
 import os
 
-import humanize
 from data_schema import DataEntry
+from utils import humanize_hours
 
 
 def render_list_value(key: str, value: list):
@@ -109,7 +109,7 @@ def completion_to_markdown_body(data: DataEntry):
     if data.completion.rating:
         markdown.append(f"| Rating       | {data.completion.rating} |")
     if data.completion.hours_played:
-        hours_played_str = humanize.naturaldelta(dt.timedelta(hours=data.completion.hours_played))
+        hours_played_str = humanize_hours(data.completion.hours_played)
         markdown.append(f"| Time played  | {hours_played_str} |")
     if len(data.completion.played_platforms) > 0:
         markdown.append(f"| Played platforms    | {', '.join(data.completion.played_platforms_names)} |")

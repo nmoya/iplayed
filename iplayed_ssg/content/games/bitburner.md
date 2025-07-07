@@ -19,7 +19,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co4bdc.jp
 |              |            |
 | ------------ | ---------- |
 | Rating       | 10.0 |
-| Time played  | 19 days |
+| Time played  | 465 hours |
 | Played platforms    | PC |
 | Completed at | 2023/05/17 |
 

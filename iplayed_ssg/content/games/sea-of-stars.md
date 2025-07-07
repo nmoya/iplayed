@@ -18,7 +18,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co215b.jp
 
 |              |            |
 | ------------ | ---------- |
-| Time played  | a day |
+| Time played  | 43 hours |
 | Played platforms    | PC |
 | Completed at | 2025/01/18 |
 

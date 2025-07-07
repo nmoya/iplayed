@@ -18,7 +18,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co7kod.jp
 
 |              |            |
 | ------------ | ---------- |
-| Time played  | a day |
+| Time played  | 24 hours |
 | Played platforms    | PC |
 | Completed at | 2023/04/08 |
 

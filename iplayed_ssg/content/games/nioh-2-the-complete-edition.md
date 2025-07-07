@@ -18,7 +18,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2kh2.jp
 
 |              |            |
 | ------------ | ---------- |
-| Time played  | 2 days |
+| Time played  | 60 hours |
 | Played platforms    | PC |
 | Completed at | 2023/10/01 |
 

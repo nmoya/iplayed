@@ -18,7 +18,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tfy.jp
 
 |              |            |
 | ------------ | ---------- |
-| Time played  | 21 days |
+| Time played  | 525 hours |
 | Played platforms    | PC |
 | Completed at | 2023/03/18 |
 

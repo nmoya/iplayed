@@ -19,7 +19,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co752b.jp
 |              |            |
 | ------------ | ---------- |
 | Rating       | 10.0 |
-| Time played  | a day |
+| Time played  | 32 hours |
 | Played platforms    | PC, Nintendo Switch |
 | Completed at | 2024/12/04 |
 

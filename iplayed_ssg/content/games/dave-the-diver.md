@@ -19,7 +19,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co4v9d.jp
 |              |            |
 | ------------ | ---------- |
 | Rating       | 8.0 |
-| Time played  | a day |
+| Time played  | 25 hours |
 | Played platforms    | PC |
 | Completed at | 2024/12/05 |
 

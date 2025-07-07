@@ -19,7 +19,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co670h.jp
 |              |            |
 | ------------ | ---------- |
 | Rating       | 10.0 |
-| Time played  | 6 days |
+| Time played  | 149 hours |
 | Played platforms    | PC |
 | Completed at | 2023/10/16 |
 

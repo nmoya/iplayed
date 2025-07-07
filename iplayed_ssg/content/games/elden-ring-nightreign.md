@@ -19,7 +19,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co95gk.jp
 |              |            |
 | ------------ | ---------- |
 | Rating       | 8.0 |
-| Time played  | 2 days |
+| Time played  | 67 hours |
 | Played platforms    | PC (Microsoft Windows) |
 | Completed at | 2025/06/24 |
 
