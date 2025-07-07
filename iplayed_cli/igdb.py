@@ -140,6 +140,7 @@ class IGDBClient:
     version_parent.id, version_parent.name,
     themes.*,
     dlcs.name, dlcs.id;
+    where parent_game = null;
     search "{query}";
     limit {limit};
     offset {offset};"""
@@ -162,4 +163,4 @@ async def search_igdb_game(name: str):
 if __name__ == "__main__":
     import asyncio
 
-    asyncio.run(search_igdb_game("Dark Souls III"))
+    asyncio.run(search_igdb_game("Dave the diver"))
