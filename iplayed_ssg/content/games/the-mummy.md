@@ -1,15 +1,15 @@
 +++
 title = "The Mummy"
-description = "PlayStation"
+description = ""
 date = "2023-03-18"
 updated = "2023-03-18"
 in_search_index = true
 [taxonomies]
-platforms = ['playstation']
+platforms = []
 rating = []
 genres = ['platform']
 [extra]
-subtitle = "PlayStation"
+subtitle = ""
 completed_at = "2023-03-18"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/bfh7g4wcgrsd7dydqhbr.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/bfh7g4wcgrsd7dydqhbr.jpg"
@@ -18,6 +18,5 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/bfh7g4wcg
 
 |              |            |
 | ------------ | ---------- |
-| Played platforms    | PlayStation |
 | Completed at | 2023/03/18 |
 

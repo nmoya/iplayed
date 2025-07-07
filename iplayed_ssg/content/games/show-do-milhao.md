@@ -1,15 +1,15 @@
 +++
 title = "Show do Milhão"
-description = "PC"
+description = ""
 date = "2023-03-18"
 updated = "2023-03-18"
 in_search_index = true
 [taxonomies]
-platforms = ['pc']
+platforms = []
 rating = []
 genres = ['quiz/trivia']
 [extra]
-subtitle = "PC"
+subtitle = ""
 completed_at = "2023-03-18"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2d5r.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2d5r.jpg"
@@ -18,6 +18,5 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2d5r.jp
 
 |              |            |
 | ------------ | ---------- |
-| Played platforms    | PC |
 | Completed at | 2023/03/18 |
 
