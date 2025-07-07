@@ -3,23 +3,20 @@ from textual.widget import Widget
 from textual.widgets import SelectionList, Static
 
 
-class PlatformPicker(Widget):
-    def __init__(self, title: str, platforms, played_platforms, id="platforms"):
+class CheckboxInput(Widget):
+    def __init__(self, title: str, options, selected_options, id="platforms"):
         super().__init__(id=id)
         self.title = title
-        self.platforms = platforms
-        self.played_platforms = played_platforms
+        self.options = options
+        self.selected_options = selected_options
         self.styles.height = "auto"
-        self.styles.max_height = max(6, len(platforms) + 2)
+        self.styles.max_height = max(6, len(options) + 2)
 
     def compose(self):
         yield Vertical(
             Static(self.title),
             SelectionList[str](
-                *[
-                    (platform.name, platform.name, platform.name in self.played_platforms)
-                    for platform in self.platforms
-                ],
+                *[(option.name, option.name, option.name in self.selected_options) for option in self.options],
                 id=self.id,
             ),
         )

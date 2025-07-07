@@ -5,7 +5,7 @@ from textual.screen import Screen
 from textual.widgets import Button, Footer, Header
 from widgets.date_picker import DatePicker
 from widgets.hours_played_input import HoursPlayedInput
-from widgets.platform_picker import PlatformPicker
+from widgets.platform_picker import CheckboxInput
 from widgets.star_rating_bar import StarRating
 
 
@@ -45,10 +45,10 @@ class DataEntryView(Screen):
     def compose(self):
         yield Header(name=f"🎮 {self.data.game.name}")
         yield VerticalScroll(
-            PlatformPicker(
+            CheckboxInput(
                 title="Select the platform(s) you played on",
-                platforms=self.data.game.platforms,
-                played_platforms=self.data.completion.played_platforms,
+                options=self.data.game.platforms,
+                selected_options=self.data.completion.played_platforms,
                 id="platforms",
             ),
             DatePicker(title=" 📅 Completion Date", default_date=self.data.completion.completed_at),
@@ -60,7 +60,7 @@ class DataEntryView(Screen):
 
     def on_button_pressed(self, event: Button.Pressed) -> None:
         if event.button.id == "save":
-            played_platforms = self.query_one(PlatformPicker).selected
+            played_platforms = self.query_one(CheckboxInput).selected
             date = self.query_one(DatePicker).value
             hours_played = self.query_one(HoursPlayedInput).value
             rating = self.query_one(StarRating).value
