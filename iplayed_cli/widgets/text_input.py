@@ -4,8 +4,8 @@ from textual.widgets import Input, Static
 
 
 class TextInput(Widget):
-    def __init__(self, default: str, id="text_input", title=""):
-        super().__init__(id=id)
+    def __init__(self, default: str, id="text_input", title="", **kwargs):
+        super().__init__(id=id, **kwargs)
         self.default = default
         self.title = title
         self.styles.height = "auto"

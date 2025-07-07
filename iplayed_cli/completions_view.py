@@ -20,19 +20,11 @@ class CompletionsView(Screen):
         dock: top;
         height: 3;
     }
-    Vertical {
-       border: solid red;
-    }
-
-    Input {
-        border: solid blue;
-    }
     Horizontal {
         height: 1fr;
     }
     #completions, #remote {
         width: 1fr;
-        border: solid green;
     }
 
     """

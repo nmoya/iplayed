@@ -1,4 +1,4 @@
-from completions_file_db import add_or_update_completion, delete_completion
+from completions_file_db import add_or_update_completion, delete_completion, deploy_markdown_files
 from data_schema import DataEntry, PersonalCompletion
 from textual.containers import Horizontal, VerticalScroll
 from textual.screen import Screen
@@ -75,7 +75,8 @@ class DataEntryView(Screen):
                 ),
             )
             add_or_update_completion(data_entry)
-            self.app.pop_screen()
         elif event.button.id == "delete":
             delete_completion(self.data.game.id)
-            self.app.pop_screen()
+
+        deploy_markdown_files()
+        self.app.pop_screen()

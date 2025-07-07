@@ -1,14 +1,10 @@
-import os
 import time
 from functools import cmp_to_key, partial
 from urllib.parse import urlencode
 
+import config
 import httpx
-import requests
 from data_schema import BaseIGDBGame, BaseIGDBSearchResults
-from dotenv import load_dotenv
-
-load_dotenv()
 
 
 def levenshtein_distance(str1, str2):
@@ -156,8 +152,8 @@ class IGDBClient:
 
 
 async def search_igdb_game(name: str):
-    IGDB_CLIENT_ID = os.environ["IGDB_CLIENT_ID"]
-    IGDB_CLIENT_SECRET = os.environ["IGDB_CLIENT_SECRET"]
+    IGDB_CLIENT_ID = config.IGDB_CLIENT_ID
+    IGDB_CLIENT_SECRET = config.IGDB_CLIENT_SECRET
     igdb = IGDBClient(IGDB_CLIENT_ID, IGDB_CLIENT_SECRET)
     paginated = await igdb.game_search(name)
     return paginated.results
