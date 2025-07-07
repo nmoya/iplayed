@@ -1855,19 +1855,19 @@
         <loc>https://nikolasmoya.com/iplayed/platforms/android/</loc>
     </url>
     <url>
+        <loc>https://nikolasmoya.com/iplayed/platforms/dos/</loc>
+    </url>
+    <url>
         <loc>https://nikolasmoya.com/iplayed/platforms/game boy/</loc>
     </url>
     <url>
         <loc>https://nikolasmoya.com/iplayed/platforms/ios/</loc>
     </url>
     <url>
-        <loc>https://nikolasmoya.com/iplayed/platforms/neo geo/</loc>
-    </url>
-    <url>
-        <loc>https://nikolasmoya.com/iplayed/platforms/nes/</loc>
-    </url>
-    <url>
         <loc>https://nikolasmoya.com/iplayed/platforms/nintendo 64/</loc>
+    </url>
+    <url>
+        <loc>https://nikolasmoya.com/iplayed/platforms/nintendo entertainment system/</loc>
     </url>
     <url>
         <loc>https://nikolasmoya.com/iplayed/platforms/nintendo switch 2/</loc>
@@ -1897,16 +1897,13 @@
         <loc>https://nikolasmoya.com/iplayed/platforms/playstation/</loc>
     </url>
     <url>
-        <loc>https://nikolasmoya.com/iplayed/platforms/snes/</loc>
-    </url>
-    <url>
         <loc>https://nikolasmoya.com/iplayed/platforms/super nintendo entertainment system/</loc>
     </url>
     <url>
         <loc>https://nikolasmoya.com/iplayed/platforms/wii/</loc>
     </url>
     <url>
-        <loc>https://nikolasmoya.com/iplayed/platforms/xbox series sx/</loc>
+        <loc>https://nikolasmoya.com/iplayed/platforms/xbox series xs/</loc>
     </url>
     <url>
         <loc>https://nikolasmoya.com/iplayed/rating/</loc>
