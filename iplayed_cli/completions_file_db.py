@@ -45,3 +45,17 @@ def deploy_markdown_files() -> None:
         filename = markdown_filename(config.SSG_CONTENT_DIRECTORY, data.game.slug)
         utils.write_markdown(filename, markdown)
     shutil.copyfile(completions_filepath, f"{config.SSG_DIRECTORY}/static/completions.json")
+
+
+def migrate():
+    from utils import read_json, write_json
+
+    completions = read_json(completions_filepath)
+    for data in completions:
+        pass
+
+    write_json(completions_filepath, completions)
+
+
+if __name__ == "__main__":
+    migrate()
