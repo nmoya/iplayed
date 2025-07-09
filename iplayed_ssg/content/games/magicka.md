@@ -27,17 +27,31 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qru.jp
 
 
 ❌ Magicka: The Stars are Left
+
 ❌ Magicka: The Other Side of the Coin
+
 ❌ Magicka: Dungeons and Daemons
+
 ❌ Magicka: The Watchtower
+
 ❌ Magicka: Party Robes
+
 ❌ Magicka: Nippon
+
 ❌ Magicka: Frozen Lake
+
 ❌ Magicka: Final Frontier
+
 ❌ Magicka: Wizard's Survival Kit
+
 ❌ Magicka: Tower of Niflheim
+
 ❌ Magicka: Lonely Island Cruise
+
 ❌ Magicka: Grimnir's Laboratory
+
 ❌ Magicka: Dungeons and Gargoyles
+
 ❌ Magicka: Marshlands
+
 ❌ Magicka: Free Jolnirs Workshop

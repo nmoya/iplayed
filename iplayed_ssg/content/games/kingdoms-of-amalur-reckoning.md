@@ -27,4 +27,5 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co25rk.jp
 
 
 ❌ Kingdoms of Amalur: Reckoning - The Legend of Dead Kel
+
 ❌ Kingdoms of Amalur: Reckoning - Teeth of Naros

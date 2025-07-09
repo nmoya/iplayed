@@ -29,7 +29,11 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co4v9d.jp
 
 
 ✅ Dave the Diver: Dredge
+
 ✅ Dave the Diver: Godzilla
+
 ❌ Dave the Diver: Potion Craft
+
 ✅ Dave the Diver: Balatro
+
 ❌ Dave the Diver: Mxmtoon

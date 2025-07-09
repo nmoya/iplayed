@@ -27,6 +27,9 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xmk.jp
 
 
 ❌ Worms Reloaded: Puzzle Pack
+
 ❌ Worms Reloaded: Forts Pack
+
 ❌ Worms Reloaded: Retro Pack
+
 ❌ Worms Reloaded: Time Attack Pack

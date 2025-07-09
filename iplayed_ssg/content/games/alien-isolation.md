@@ -27,9 +27,15 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vzu.jp
 
 
 ❌ Alien: Isolation - Corporate Lockdown
+
 ❌ Alien: Isolation - Crew Expendable
+
 ❌ Alien: Isolation - Last Survivor
+
 ❌ Alien: Isolation - Safe Haven
+
 ❌ Alien: Isolation - Trauma
+
 ❌ Alien: Isolation - The Trigger
+
 ❌ Alien: Isolation - Lost Contact

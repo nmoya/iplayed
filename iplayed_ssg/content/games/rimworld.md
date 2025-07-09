@@ -27,5 +27,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1j6x.jp
 
 
 ❌ RimWorld: Royalty
+
 ❌ RimWorld: Ideology
+
 ❌ RimWorld: Biotech

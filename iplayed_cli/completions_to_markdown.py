@@ -122,9 +122,9 @@ def completion_to_markdown_body(data: DataEntry):
         markdown.append("### Additional Content\n\n")
         for dlc in data.game.dlcs:
             if dlc.id in [d.id for d in data.completion.played_dlcs]:
-                markdown.append(f"✅ {dlc.name}")
+                markdown.append(f"✅ {dlc.name}\n")
             else:
-                markdown.append(f"❌ {dlc.name}")
+                markdown.append(f"❌ {dlc.name}\n")
 
     return "\n".join(markdown)
 

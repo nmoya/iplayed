@@ -27,4 +27,5 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xbi.jp
 
 
 ❌ Battlefield: Bad Company 2 - Onslaught
+
 ❌ Battlefield: Bad Company 2 - Specact Kit Upgrade

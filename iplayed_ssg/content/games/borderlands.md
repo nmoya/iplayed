@@ -27,6 +27,9 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co20tx.jp
 
 
 ❌ Borderlands: The Zombie Island of Dr. Ned
+
 ❌ Borderlands: Mad Moxxi's Underdome Riot
+
 ❌ Borderlands: The Secret Armory of General Knoxx
+
 ❌ Borderlands: Claptrap's New Robot Revolution

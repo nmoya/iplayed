@@ -27,4 +27,5 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co22l6.jp
 
 
 ❌ Monument Valley: Forgotten Shores
+
 ❌ Monument Valley: Ida's Dream

@@ -27,8 +27,13 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co213p.jp
 
 
 ❌ Mario Kart 8 Deluxe: Booster Course Pass - Wave 3
+
 ❌ Mario Kart 8 Deluxe: Booster Course Pass - Wave 1
+
 ❌ Mario Kart 8 Deluxe: Booster Course Pass - Wave 2
+
 ❌ Mario Kart 8 Deluxe: Booster Course Pass - Wave 4
+
 ❌ Mario Kart 8 Deluxe: Booster Course Pass - Wave 5
+
 ❌ Mario Kart 8 Deluxe: Booster Course Pass - Wave 6

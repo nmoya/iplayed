@@ -27,6 +27,9 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1y2f.jp
 
 
 ❌ Left 4 Dead 2: The Sacrifice
+
 ❌ Left 4 Dead 2: Cold Stream
+
 ❌ Left 4 Dead 2: The Passing
+
 ❌ Left 4 Dead 2: The Last Stand

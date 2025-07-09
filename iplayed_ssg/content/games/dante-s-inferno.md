@@ -27,4 +27,5 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co28oa.jp
 
 
 ❌ Dante's Inferno: Trials of St. Lucia
+
 ❌ Dante's Inferno: Dark Forest Pack

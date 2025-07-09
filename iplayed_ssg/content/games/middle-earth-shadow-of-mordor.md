@@ -27,4 +27,5 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co20pd.jp
 
 
 ❌ Middle-earth: Shadow of Mordor - The Bright Lord
+
 ❌ Middle-earth: Shadow of Mordor - Lord of the Hunt

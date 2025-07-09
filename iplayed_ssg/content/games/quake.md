@@ -27,7 +27,11 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ybm.jp
 
 
 ❌ Shrak for Quake
+
 ❌ Quake: Episode 5 - Dimension of the Past
+
 ❌ Quake: Episode 6 - Dimension of the Machine
+
 ❌ Dark Hour
+
 ❌ Aftershock for Quake

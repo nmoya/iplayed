@@ -27,4 +27,5 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rcf.jp
 
 
 ❌ Assassin's Creed II: Battle of Forlì
+
 ❌ Assassin's Creed II: Bonfire of the Vanities

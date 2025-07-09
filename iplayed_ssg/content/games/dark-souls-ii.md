@@ -27,5 +27,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2eoo.jp
 
 
 ❌ Dark Souls II: Crown of the Sunken King
+
 ❌ Dark Souls II: Crown of the Ivory King
+
 ❌ Dark Souls II: Crown of the Old Iron King

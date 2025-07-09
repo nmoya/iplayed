@@ -28,18 +28,33 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xdw.jp
 
 
 ❌ Star Realms: Full Version
+
 ❌ Star Realms: Heroes
+
 ❌ Star Realms: Command Decks
+
 ❌ Star Realms: Fleets and Fortresses
+
 ❌ Star Realms: United - Heroes
+
 ❌ Star Realms: Frontiers
+
 ❌ Star Realms: Cosmic Gambit
+
 ❌ Star Realms: Bases and Battleships
+
 ❌ Star Realms: Stellar Allies
+
 ❌ Star Realms: Frontiers Promos
+
 ❌ Star Realms: Frontiers Events
+
 ❌ Star Realms: Colony Wars
+
 ❌ Star Realms: United - Assault
+
 ❌ Star Realms: Command
+
 ❌ Star Realms: United - Missions
+
 ❌ Star Realms: High Alert - Invasion

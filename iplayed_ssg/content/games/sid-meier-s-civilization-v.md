@@ -27,15 +27,27 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co20up.jp
 
 
 ❌ Sid Meier's Civilization V: Scrambled Continents
+
 ❌ Sid Meier's Civilization V: Scenario Pack - Wonders of the Ancient World
+
 ❌ Sid Meier's Civilization V: Civ and Scenario Pack - Polynesia
+
 ❌ Sid Meier's Civilization V: Scrambled Nations Map Pack
+
 ❌ Sid Meier's Civilization V: Civ and Scenario Pack - Korea
+
 ❌ Sid Meier's Civilization V: Civ and Scenario Double Pack - Spain and Inca
+
 ❌ Sid Meier's Civilization V: Babylon (Nebuchadnezzar II)
+
 ❌ Sid Meier's Civilization V: Cradle of Civilization Map Pack - Americas
+
 ❌ Sid Meier's Civilization V: Cradle of Civilization Map Pack - Asia
+
 ❌ Sid Meier's Civilization V: Cradle of Civilization Map Pack - Mesopotamia
+
 ❌ Sid Meier's Civilization V: Cradle of Civilization Map Pack - Mediterranean
+
 ❌ Sid Meier's Civilization V: Explorer's Map Pack
+
 ❌ Sid Meier's Civilization V: Civ and Scenario Pack - Denmark (The Vikings)

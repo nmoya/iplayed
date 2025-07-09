@@ -27,7 +27,11 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ijw.jp
 
 
 ❌ LittleBigPlanet 2 Toy Story Level Kit DLC
+
 ❌ LittleBigPlanet 2: Move Pack
+
 ❌ LittleBigPlanet 2: Muppets Premium Level Kit
+
 ❌ LittleBigPlanet 2: Cross-Controller Pack
+
 ❌ LittleBigPlanet 2: DC Comics Premium Level Pack

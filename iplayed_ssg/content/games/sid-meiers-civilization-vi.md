@@ -27,14 +27,25 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co5r54.jp
 
 
 ❌ Sid Meier's Civilization VI: Byzantium & Gaul Pack
+
 ❌ Sid Meier's Civilization VI: Babylon Pack
+
 ❌ Sid Meier's Civilization VI: Portugal Pack
+
 ❌ Sid Meier's Civilization VI: Poland Civilization & Scenario Pack
+
 ❌ Sid Meier's Civilization VI: Vikings Scenario Pack
+
 ❌ Sid Meier's Civilization VI: Australia Civilization & Scenario Pack
+
 ❌ Sid Meier's Civilization VI: Ethiopia Pack
+
 ❌ Sid Meier's Civilization VI: Nubia Civilization & Scenario Pack
+
 ❌ Sid Meier's Civilization VI: Persia and Macedon Civilization & Scenario Pack
+
 ❌ Sid Meier's Civilization VI: Maya & Gran Colombia Pack
+
 ❌ Sid Meier's Civilization VI: Khmer and Indonesia Civilization & Scenario Pack
+
 ❌ Sid Meier's Civilization VI: Vietnam & Kublai Khan Pack
