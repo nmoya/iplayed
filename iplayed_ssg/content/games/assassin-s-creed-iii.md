@@ -22,9 +22,10 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xii.jp
 | Completed at | 2023/03/18 |
 
 
+
 ### Additional Content
 
 
-- [ ] Assassin's Creed III: The Tyranny of King Washington
-- [ ] Assassin's Creed III: The Hidden Secrets Pack
-- [ ] Assassin's Creed III: Benedict Arnold
+❌ Assassin's Creed III: The Tyranny of King Washington
+❌ Assassin's Creed III: The Hidden Secrets Pack
+❌ Assassin's Creed III: Benedict Arnold

@@ -22,3 +22,4 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co255i.jp
 | Played platforms    | PC |
 | Completed at | 2025/05/01 |
 
+

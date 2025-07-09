@@ -22,10 +22,11 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rqa.jp
 | Completed at | 2023/03/18 |
 
 
+
 ### Additional Content
 
 
-- [ ] Rise of the Tomb Raider: Baba Yaga - The Temple of the Witch
-- [ ] Rise of the Tomb Raider: 20 Year Celebration Pack
-- [ ] Rise of the Tomb Raider: Cold Darkness Awakened
-- [ ] Rise of the Tomb Raider: Endurance Mode
+❌ Rise of the Tomb Raider: Baba Yaga - The Temple of the Witch
+❌ Rise of the Tomb Raider: 20 Year Celebration Pack
+❌ Rise of the Tomb Raider: Cold Darkness Awakened
+❌ Rise of the Tomb Raider: Endurance Mode

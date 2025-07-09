@@ -22,7 +22,8 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2hd4.jp
 | Completed at | 2023/03/18 |
 
 
+
 ### Additional Content
 
 
-- [ ] Serious Sam 3: Jewel of the Nile
+❌ Serious Sam 3: Jewel of the Nile

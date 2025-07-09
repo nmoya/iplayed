@@ -23,8 +23,9 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v8x.jp
 | Completed at | 2024/12/27 |
 
 
+
 ### Additional Content
 
 
-- [ ] South Park: The Stick of Truth - Ultimate Fellowship Pack
-- [ ] South Park: The Stick of Truth - Super Samurai Spaceman Pack
+❌ South Park: The Stick of Truth - Ultimate Fellowship Pack
+❌ South Park: The Stick of Truth - Super Samurai Spaceman Pack

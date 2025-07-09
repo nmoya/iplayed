@@ -22,17 +22,18 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co5vwl.jp
 | Completed at | 2023/03/18 |
 
 
+
 ### Additional Content
 
 
-- [ ] The Sims 3: Dragon Valley
-- [ ] The Sims 3: Riverview
-- [ ] The Sims 3: Barnacle Bay
-- [ ] The Sims 3: Hidden Springs
-- [ ] The Sims 3: Lunar Lakes
-- [ ] The Sims 3: Lucky Palms
-- [ ] The Sims 3: Sunlit Tides
-- [ ] The Sims 3: Monte Vista
-- [ ] The Sims 3: Aurora Skies
-- [ ] The Sims 3: Midnight Hollow
-- [ ] The Sims 3: Roaring Heights
+❌ The Sims 3: Dragon Valley
+❌ The Sims 3: Riverview
+❌ The Sims 3: Barnacle Bay
+❌ The Sims 3: Hidden Springs
+❌ The Sims 3: Lunar Lakes
+❌ The Sims 3: Lucky Palms
+❌ The Sims 3: Sunlit Tides
+❌ The Sims 3: Monte Vista
+❌ The Sims 3: Aurora Skies
+❌ The Sims 3: Midnight Hollow
+❌ The Sims 3: Roaring Heights

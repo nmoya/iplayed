@@ -22,8 +22,9 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xbi.jp
 | Completed at | 2023/03/18 |
 
 
+
 ### Additional Content
 
 
-- [ ] Battlefield: Bad Company 2 - Onslaught
-- [ ] Battlefield: Bad Company 2 - Specact Kit Upgrade
+❌ Battlefield: Bad Company 2 - Onslaught
+❌ Battlefield: Bad Company 2 - Specact Kit Upgrade

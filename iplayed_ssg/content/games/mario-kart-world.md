@@ -23,3 +23,4 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co9m78.jp
 | Played platforms    | Nintendo Switch 2 |
 | Completed at | 2025/06/22 |
 
+

@@ -22,7 +22,8 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co230j.jp
 | Completed at | 2023/03/18 |
 
 
+
 ### Additional Content
 
 
-- [ ] Bridge Constructor Portal: Portal Proficiency
+❌ Bridge Constructor Portal: Portal Proficiency

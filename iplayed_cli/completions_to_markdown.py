@@ -116,15 +116,15 @@ def completion_to_markdown_body(data: DataEntry):
     if data.completion.completed_at:
         markdown.append(f"| Completed at | {data.completion.completed_at.strftime('%Y/%m/%d')} |")
 
-    markdown.append("\n")
+    markdown.append("\n\n")
 
     if len(data.game.dlcs) > 0:
         markdown.append("### Additional Content\n\n")
         for dlc in data.game.dlcs:
             if dlc.id in [d.id for d in data.completion.played_dlcs]:
-                markdown.append(f"- [x] {dlc.name}")
+                markdown.append(f"✅ {dlc.name}")
             else:
-                markdown.append(f"- [ ] {dlc.name}")
+                markdown.append(f"❌ {dlc.name}")
 
     return "\n".join(markdown)
 

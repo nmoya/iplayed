@@ -23,3 +23,4 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co752b.jp
 | Played platforms    | PC, Nintendo Switch |
 | Completed at | 2024/12/04 |
 
+

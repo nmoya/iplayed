@@ -23,3 +23,4 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2v6g.jp
 | Played platforms    | PC (Microsoft Windows) |
 | Completed at | 2025/07/09 |
 
+

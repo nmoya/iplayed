@@ -22,10 +22,11 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qrm.jp
 | Completed at | 2023/03/18 |
 
 
+
 ### Additional Content
 
 
-- [ ] Left 4 Dead: Crash Course
-- [ ] Left 4 Dead: The Survival Pack
-- [ ] Left 4 Dead: The Sacrifice
-- [ ] Left 4 Dead: The Last Stand
+❌ Left 4 Dead: Crash Course
+❌ Left 4 Dead: The Survival Pack
+❌ Left 4 Dead: The Sacrifice
+❌ Left 4 Dead: The Last Stand

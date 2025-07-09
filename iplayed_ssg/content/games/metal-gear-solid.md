@@ -21,3 +21,4 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co7k2q.jp
 | Played platforms    | PlayStation |
 | Completed at | 2023/03/18 |
 
+

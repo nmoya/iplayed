@@ -22,9 +22,10 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2h9d.jp
 | Completed at | 2023/03/18 |
 
 
+
 ### Additional Content
 
 
-- [ ] Metro: Last Light - Faction Pack
-- [ ] Metro: Last Light - Tower Pack
-- [ ] Metro: Last Light - Chronicles Pack
+❌ Metro: Last Light - Faction Pack
+❌ Metro: Last Light - Tower Pack
+❌ Metro: Last Light - Chronicles Pack

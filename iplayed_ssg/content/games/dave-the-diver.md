@@ -24,11 +24,12 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co4v9d.jp
 | Completed at | 2024/12/05 |
 
 
+
 ### Additional Content
 
 
-- [x] Dave the Diver: Dredge
-- [x] Dave the Diver: Godzilla
-- [ ] Dave the Diver: Potion Craft
-- [x] Dave the Diver: Balatro
-- [ ] Dave the Diver: Mxmtoon
+✅ Dave the Diver: Dredge
+✅ Dave the Diver: Godzilla
+❌ Dave the Diver: Potion Craft
+✅ Dave the Diver: Balatro
+❌ Dave the Diver: Mxmtoon

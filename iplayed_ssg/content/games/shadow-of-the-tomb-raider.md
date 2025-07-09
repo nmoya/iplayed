@@ -22,13 +22,14 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vcn.jp
 | Completed at | 2023/03/18 |
 
 
+
 ### Additional Content
 
 
-- [ ] Shadow of the Tomb Raider: The Forge
-- [ ] Shadow of the Tomb Raider: The Nightmare
-- [ ] Shadow of the Tomb Raider: The Pillar
-- [ ] Shadow of the Tomb Raider: The Price of Survival
-- [ ] Shadow of the Tomb Raider: The Serpent's Heart
-- [ ] Shadow of the Tomb Raider: The Grand Caiman
-- [ ] Shadow of the Tomb Raider: The Path Home
+❌ Shadow of the Tomb Raider: The Forge
+❌ Shadow of the Tomb Raider: The Nightmare
+❌ Shadow of the Tomb Raider: The Pillar
+❌ Shadow of the Tomb Raider: The Price of Survival
+❌ Shadow of the Tomb Raider: The Serpent's Heart
+❌ Shadow of the Tomb Raider: The Grand Caiman
+❌ Shadow of the Tomb Raider: The Path Home

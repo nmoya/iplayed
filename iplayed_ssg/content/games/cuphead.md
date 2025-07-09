@@ -22,7 +22,8 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co62ao.jp
 | Completed at | 2023/03/18 |
 
 
+
 ### Additional Content
 
 
-- [ ] Cuphead: The Delicious Last Course
+❌ Cuphead: The Delicious Last Course

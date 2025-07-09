@@ -22,10 +22,11 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wkl.jp
 | Completed at | 2023/03/18 |
 
 
+
 ### Additional Content
 
 
-- [ ] Call of Duty: Black Ops - First Strike
-- [ ] Call of Duty: Black Ops - Rezurrection
-- [ ] Call of Duty: Black Ops - Annihilation
-- [ ] Call of Duty: Black Ops - Escalation
+❌ Call of Duty: Black Ops - First Strike
+❌ Call of Duty: Black Ops - Rezurrection
+❌ Call of Duty: Black Ops - Annihilation
+❌ Call of Duty: Black Ops - Escalation

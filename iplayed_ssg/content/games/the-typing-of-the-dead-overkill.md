@@ -22,11 +22,12 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co3w65.jp
 | Completed at | 2023/03/18 |
 
 
+
 ### Additional Content
 
 
-- [ ] The Typing of the Dead: Overkill - Dancing with the Dead DLC
-- [ ] The Typing of the Dead: Overkill - Filth DLC
-- [ ] The Typing of the Dead: Overkill - Love at First Bite DLC
-- [ ] The Typing of the Dead: Overkill - Silver Screen DLC
-- [ ] The Typing of the Dead: Overkill - Shakespeare DLC
+❌ The Typing of the Dead: Overkill - Dancing with the Dead DLC
+❌ The Typing of the Dead: Overkill - Filth DLC
+❌ The Typing of the Dead: Overkill - Love at First Bite DLC
+❌ The Typing of the Dead: Overkill - Silver Screen DLC
+❌ The Typing of the Dead: Overkill - Shakespeare DLC

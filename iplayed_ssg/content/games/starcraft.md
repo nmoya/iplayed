@@ -22,7 +22,8 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1x7n.jp
 | Completed at | 2023/03/18 |
 
 
+
 ### Additional Content
 
 
-- [ ] StarCraft: Precursor
+❌ StarCraft: Precursor

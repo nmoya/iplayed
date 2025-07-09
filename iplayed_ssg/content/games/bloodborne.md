@@ -23,3 +23,4 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rba.jp
 | Played platforms    | PlayStation 4 |
 | Completed at | 2016/03/18 |
 
+

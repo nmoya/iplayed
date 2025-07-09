@@ -22,9 +22,10 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co21a6.jp
 | Completed at | 2023/03/18 |
 
 
+
 ### Additional Content
 
 
-- [ ] Far Cry 5: Dead Living Zombies
-- [ ] Far Cry 5: Lost on Mars
-- [ ] Far Cry 5: Hours of Darkness
+❌ Far Cry 5: Dead Living Zombies
+❌ Far Cry 5: Lost on Mars
+❌ Far Cry 5: Hours of Darkness

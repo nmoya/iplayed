@@ -21,3 +21,4 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co62k0.jp
 | Played platforms    | Nintendo 64 |
 | Completed at | 2023/03/18 |
 
+

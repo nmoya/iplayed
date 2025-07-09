@@ -21,3 +21,4 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co63p7.jp
 | Played platforms    | Super Nintendo Entertainment System |
 | Completed at | 2023/03/18 |
 
+

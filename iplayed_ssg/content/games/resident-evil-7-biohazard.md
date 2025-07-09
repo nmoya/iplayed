@@ -22,10 +22,11 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co8uu1.jp
 | Completed at | 2023/03/18 |
 
 
+
 ### Additional Content
 
 
-- [ ] Resident Evil 7: Biohazard - Banned Footage Vol. 1
-- [ ] Resident Evil 7: Biohazard - Banned Footage Vol. 2
-- [ ] Resident Evil 7: Biohazard - Not A Hero
-- [ ] Resident Evil 7: Biohazard - End of Zoe
+❌ Resident Evil 7: Biohazard - Banned Footage Vol. 1
+❌ Resident Evil 7: Biohazard - Banned Footage Vol. 2
+❌ Resident Evil 7: Biohazard - Not A Hero
+❌ Resident Evil 7: Biohazard - End of Zoe

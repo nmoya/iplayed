@@ -23,3 +23,4 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co6e83.jp
 | Played platforms    | Nintendo Switch |
 | Completed at | 2024/11/11 |
 
+

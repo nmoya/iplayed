@@ -21,3 +21,4 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vep.jp
 | Played platforms    | PC, iOS |
 | Completed at | 2023/03/18 |
 
+

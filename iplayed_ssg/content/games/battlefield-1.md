@@ -22,7 +22,8 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2n9d.jp
 | Completed at | 2023/03/18 |
 
 
+
 ### Additional Content
 
 
-- [ ] Battlefield 1: Deluxe Edition Upgrade
+❌ Battlefield 1: Deluxe Edition Upgrade

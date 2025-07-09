@@ -22,9 +22,10 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vod.jp
 | Completed at | 2023/03/18 |
 
 
+
 ### Additional Content
 
 
-- [ ] Lara Croft and the Guardian of Light: All the Trappings - Challenge Pack 1
-- [ ] Lara Croft and the Guardian of Light: Things that Go Boom - Challenge Pack 2
-- [ ] Lara Croft and the Guardian of Light: Hazardous Reunion - Challenge Pack 3
+❌ Lara Croft and the Guardian of Light: All the Trappings - Challenge Pack 1
+❌ Lara Croft and the Guardian of Light: Things that Go Boom - Challenge Pack 2
+❌ Lara Croft and the Guardian of Light: Hazardous Reunion - Challenge Pack 3

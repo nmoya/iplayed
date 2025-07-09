@@ -23,3 +23,4 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1m35.jp
 | Played platforms    | PC, Nintendo Switch |
 | Completed at | 2023/03/18 |
 
+

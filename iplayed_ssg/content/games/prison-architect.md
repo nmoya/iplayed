@@ -23,18 +23,19 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co62ch.jp
 | Completed at | 2023/03/18 |
 
 
+
 ### Additional Content
 
 
-- [ ] Prison Architect: Aficionado
-- [ ] Prison Architect: Island Bound
-- [ ] Prison Architect: Second Chances
-- [ ] Prison Architect: Psych Ward - Warden's Edition
-- [ ] Prison Architect: Cleared for Transfer
-- [ ] Prison Architect: Going Green
-- [ ] Prison Architect: Perfect Storm
-- [ ] Prison Architect: Gangs
-- [ ] Prison Architect: Escape Mode
-- [ ] Prison Architect: Free for life
-- [ ] Prison Architect: Undead
-- [ ] Prison Architect: All Day and a Night
+❌ Prison Architect: Aficionado
+❌ Prison Architect: Island Bound
+❌ Prison Architect: Second Chances
+❌ Prison Architect: Psych Ward - Warden's Edition
+❌ Prison Architect: Cleared for Transfer
+❌ Prison Architect: Going Green
+❌ Prison Architect: Perfect Storm
+❌ Prison Architect: Gangs
+❌ Prison Architect: Escape Mode
+❌ Prison Architect: Free for life
+❌ Prison Architect: Undead
+❌ Prison Architect: All Day and a Night

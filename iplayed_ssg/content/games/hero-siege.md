@@ -22,14 +22,15 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co3jtb.jp
 | Completed at | 2023/03/18 |
 
 
+
 ### Additional Content
 
 
-- [ ] Hero Siege: Wrath of Mevius
-- [ ] Hero Siege: Class - Shield Lancer
-- [ ] Hero Siege: Class - Samurai
-- [ ] Hero Siege: Class - Shaman
-- [ ] Hero Siege: Class - Amazon
-- [ ] Hero Siege: Class - Marauder
-- [ ] Hero Siege: Class - Butcher
-- [ ] Hero Siege: Stormweaver
+❌ Hero Siege: Wrath of Mevius
+❌ Hero Siege: Class - Shield Lancer
+❌ Hero Siege: Class - Samurai
+❌ Hero Siege: Class - Shaman
+❌ Hero Siege: Class - Amazon
+❌ Hero Siege: Class - Marauder
+❌ Hero Siege: Class - Butcher
+❌ Hero Siege: Stormweaver

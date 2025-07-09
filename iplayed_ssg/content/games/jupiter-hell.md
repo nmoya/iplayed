@@ -22,3 +22,4 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2qgw.jp
 | Played platforms    | PC |
 | Completed at | 2024/12/05 |
 
+

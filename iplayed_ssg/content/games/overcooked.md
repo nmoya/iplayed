@@ -22,8 +22,9 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co262g.jp
 | Completed at | 2023/03/18 |
 
 
+
 ### Additional Content
 
 
-- [ ] Overcooked!: The Lost Morsel
-- [ ] Overcooked!: The Festive Seasoning
+❌ Overcooked!: The Lost Morsel
+❌ Overcooked!: The Festive Seasoning

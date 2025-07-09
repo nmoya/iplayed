@@ -22,7 +22,8 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co8j8v.jp
 | Completed at | 2023/03/18 |
 
 
+
 ### Additional Content
 
 
-- [ ] No Man's Sky: Starborn Phoenix Ship
+❌ No Man's Sky: Starborn Phoenix Ship

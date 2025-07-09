@@ -22,7 +22,8 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/uqzcexfgh
 | Completed at | 2023/03/18 |
 
 
+
 ### Additional Content
 
 
-- [ ] Magic: The Gathering - Duels of the Planeswalkers 2013: Expansion
+❌ Magic: The Gathering - Duels of the Planeswalkers 2013: Expansion

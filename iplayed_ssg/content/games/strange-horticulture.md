@@ -23,3 +23,4 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co4bsb.jp
 | Played platforms    | Nintendo Switch |
 | Completed at | 2025/06/05 |
 
+

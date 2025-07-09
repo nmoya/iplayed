@@ -21,3 +21,4 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xdc.jp
 | Time played  | 37 hours |
 | Completed at | 2023/03/20 |
 
+

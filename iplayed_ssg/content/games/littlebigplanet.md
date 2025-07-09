@@ -22,8 +22,9 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co4p0f.jp
 | Completed at | 2023/03/18 |
 
 
+
 ### Additional Content
 
 
-- [ ] LittleBigPlanet: Metal Gear Solid Level Kit
-- [ ] LittleBigPlanet: Pirates of the Caribbean Level Kit
+❌ LittleBigPlanet: Metal Gear Solid Level Kit
+❌ LittleBigPlanet: Pirates of the Caribbean Level Kit

@@ -19,3 +19,4 @@ url_cover_big = "None"
 | Played platforms    | Android |
 | Completed at | 2023/03/18 |
 
+

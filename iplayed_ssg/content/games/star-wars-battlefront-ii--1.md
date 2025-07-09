@@ -22,8 +22,9 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wi7.jp
 | Completed at | 2023/03/18 |
 
 
+
 ### Additional Content
 
 
-- [ ] Star Wars Battlefront II: Battle of Geonosis
-- [ ] Star Wars Battlefront II: Resurrection
+❌ Star Wars Battlefront II: Battle of Geonosis
+❌ Star Wars Battlefront II: Resurrection

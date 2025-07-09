@@ -22,9 +22,10 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tnw.jp
 | Completed at | 2023/03/18 |
 
 
+
 ### Additional Content
 
 
-- [ ] The Elder Scrolls V: Skyrim - Dawnguard
-- [ ] The Elder Scrolls V: Skyrim - Hearthfire
-- [ ] The Elder Scrolls V: Skyrim - Dragonborn
+❌ The Elder Scrolls V: Skyrim - Dawnguard
+❌ The Elder Scrolls V: Skyrim - Hearthfire
+❌ The Elder Scrolls V: Skyrim - Dragonborn

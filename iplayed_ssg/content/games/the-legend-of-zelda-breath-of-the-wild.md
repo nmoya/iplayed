@@ -24,8 +24,9 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p2d.jp
 | Completed at | 2020/10/23 |
 
 
+
 ### Additional Content
 
 
-- [ ] The Legend of Zelda: Breath of the Wild - The Champions' Ballad
-- [ ] The Legend of Zelda: Breath of the Wild - The Master Trials
+❌ The Legend of Zelda: Breath of the Wild - The Champions' Ballad
+❌ The Legend of Zelda: Breath of the Wild - The Master Trials
