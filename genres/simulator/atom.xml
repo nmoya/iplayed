@@ -143,18 +143,11 @@
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2024&#x2F;12&#x2F;05&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
-Dave the Diver: Dredge&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
-Dave the Diver: Godzilla&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Dave the Diver: Potion Craft&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
-Dave the Diver: Balatro&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Dave the Diver: Mxmtoon&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
+&lt;p&gt;✅ Dave the Diver: Dredge
+✅ Dave the Diver: Godzilla
+❌ Dave the Diver: Potion Craft
+✅ Dave the Diver: Balatro
+❌ Dave the Diver: Mxmtoon&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -182,14 +175,9 @@ Dave the Diver: Mxmtoon&lt;&#x2F;li&gt;
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2024&#x2F;12&#x2F;05&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Per Aspera: Green Mars&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Per Aspera: Blue Mars&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Per Aspera: Home&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
+&lt;p&gt;❌ Per Aspera: Green Mars
+❌ Per Aspera: Blue Mars
+❌ Per Aspera: Home&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -218,10 +206,7 @@ Per Aspera: Home&lt;&#x2F;li&gt;
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;12&#x2F;16&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-SteamWorld Build: Mechanized&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
+&lt;p&gt;❌ SteamWorld Build: Mechanized&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -436,12 +421,8 @@ SteamWorld Build: Mechanized&lt;&#x2F;li&gt;
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Battlefield: Bad Company 2 - Onslaught&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Battlefield: Bad Company 2 - Specact Kit Upgrade&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
+&lt;p&gt;❌ Battlefield: Bad Company 2 - Onslaught
+❌ Battlefield: Bad Company 2 - Specact Kit Upgrade&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -469,10 +450,7 @@ Battlefield: Bad Company 2 - Specact Kit Upgrade&lt;&#x2F;li&gt;
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Bridge Constructor Portal: Portal Proficiency&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
+&lt;p&gt;❌ Bridge Constructor Portal: Portal Proficiency&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -578,10 +556,7 @@ Bridge Constructor Portal: Portal Proficiency&lt;&#x2F;li&gt;
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Doodle Devil: Pack&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
+&lt;p&gt;❌ Doodle Devil: Pack&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -893,10 +868,7 @@ Doodle Devil: Pack&lt;&#x2F;li&gt;
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Minecraft: Tetris&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
+&lt;p&gt;❌ Minecraft: Tetris&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -976,10 +948,7 @@ Minecraft: Tetris&lt;&#x2F;li&gt;
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-No Man&#x27;s Sky: Starborn Phoenix Ship&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
+&lt;p&gt;❌ No Man&#x27;s Sky: Starborn Phoenix Ship&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -1007,12 +976,8 @@ No Man&#x27;s Sky: Starborn Phoenix Ship&lt;&#x2F;li&gt;
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Overcooked!: The Lost Morsel&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Overcooked!: The Festive Seasoning&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
+&lt;p&gt;❌ Overcooked!: The Lost Morsel
+❌ Overcooked!: The Festive Seasoning&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -1093,32 +1058,18 @@ Overcooked!: The Festive Seasoning&lt;&#x2F;li&gt;
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Prison Architect: Aficionado&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Prison Architect: Island Bound&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Prison Architect: Second Chances&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Prison Architect: Psych Ward - Warden&#x27;s Edition&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Prison Architect: Cleared for Transfer&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Prison Architect: Going Green&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Prison Architect: Perfect Storm&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Prison Architect: Gangs&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Prison Architect: Escape Mode&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Prison Architect: Free for life&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Prison Architect: Undead&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Prison Architect: All Day and a Night&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
+&lt;p&gt;❌ Prison Architect: Aficionado
+❌ Prison Architect: Island Bound
+❌ Prison Architect: Second Chances
+❌ Prison Architect: Psych Ward - Warden&#x27;s Edition
+❌ Prison Architect: Cleared for Transfer
+❌ Prison Architect: Going Green
+❌ Prison Architect: Perfect Storm
+❌ Prison Architect: Gangs
+❌ Prison Architect: Escape Mode
+❌ Prison Architect: Free for life
+❌ Prison Architect: Undead
+❌ Prison Architect: All Day and a Night&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -1146,26 +1097,15 @@ Prison Architect: All Day and a Night&lt;&#x2F;li&gt;
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Railway Empire: Crossing the Andes&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Railway Empire: Great Britain &amp;amp; Ireland&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Railway Empire: The Great Lakes&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Railway Empire: Germany&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Railway Empire: Down Under&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Railway Empire: France&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Railway Empire: Mexico&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Railway Empire: Northern Europe&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Railway Empire: Japan&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
+&lt;p&gt;❌ Railway Empire: Crossing the Andes
+❌ Railway Empire: Great Britain &amp;amp; Ireland
+❌ Railway Empire: The Great Lakes
+❌ Railway Empire: Germany
+❌ Railway Empire: Down Under
+❌ Railway Empire: France
+❌ Railway Empire: Mexico
+❌ Railway Empire: Northern Europe
+❌ Railway Empire: Japan&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -1193,14 +1133,9 @@ Railway Empire: Japan&lt;&#x2F;li&gt;
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-RimWorld: Royalty&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-RimWorld: Ideology&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-RimWorld: Biotech&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
+&lt;p&gt;❌ RimWorld: Royalty
+❌ RimWorld: Ideology
+❌ RimWorld: Biotech&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -1357,34 +1292,19 @@ RimWorld: Biotech&lt;&#x2F;li&gt;
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Sid Meier&#x27;s Civilization V: Scrambled Continents&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Sid Meier&#x27;s Civilization V: Scenario Pack - Wonders of the Ancient World&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Sid Meier&#x27;s Civilization V: Civ and Scenario Pack - Polynesia&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Sid Meier&#x27;s Civilization V: Scrambled Nations Map Pack&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Sid Meier&#x27;s Civilization V: Civ and Scenario Pack - Korea&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Sid Meier&#x27;s Civilization V: Civ and Scenario Double Pack - Spain and Inca&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Sid Meier&#x27;s Civilization V: Babylon (Nebuchadnezzar II)&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Sid Meier&#x27;s Civilization V: Cradle of Civilization Map Pack - Americas&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Sid Meier&#x27;s Civilization V: Cradle of Civilization Map Pack - Asia&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Sid Meier&#x27;s Civilization V: Cradle of Civilization Map Pack - Mesopotamia&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Sid Meier&#x27;s Civilization V: Cradle of Civilization Map Pack - Mediterranean&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Sid Meier&#x27;s Civilization V: Explorer&#x27;s Map Pack&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Sid Meier&#x27;s Civilization V: Civ and Scenario Pack - Denmark (The Vikings)&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
+&lt;p&gt;❌ Sid Meier&#x27;s Civilization V: Scrambled Continents
+❌ Sid Meier&#x27;s Civilization V: Scenario Pack - Wonders of the Ancient World
+❌ Sid Meier&#x27;s Civilization V: Civ and Scenario Pack - Polynesia
+❌ Sid Meier&#x27;s Civilization V: Scrambled Nations Map Pack
+❌ Sid Meier&#x27;s Civilization V: Civ and Scenario Pack - Korea
+❌ Sid Meier&#x27;s Civilization V: Civ and Scenario Double Pack - Spain and Inca
+❌ Sid Meier&#x27;s Civilization V: Babylon (Nebuchadnezzar II)
+❌ Sid Meier&#x27;s Civilization V: Cradle of Civilization Map Pack - Americas
+❌ Sid Meier&#x27;s Civilization V: Cradle of Civilization Map Pack - Asia
+❌ Sid Meier&#x27;s Civilization V: Cradle of Civilization Map Pack - Mesopotamia
+❌ Sid Meier&#x27;s Civilization V: Cradle of Civilization Map Pack - Mediterranean
+❌ Sid Meier&#x27;s Civilization V: Explorer&#x27;s Map Pack
+❌ Sid Meier&#x27;s Civilization V: Civ and Scenario Pack - Denmark (The Vikings)&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -1412,32 +1332,18 @@ Sid Meier&#x27;s Civilization V: Civ and Scenario Pack - Denmark (The Vikings)&l
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Sid Meier&#x27;s Civilization VI: Byzantium &amp;amp; Gaul Pack&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Sid Meier&#x27;s Civilization VI: Babylon Pack&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Sid Meier&#x27;s Civilization VI: Portugal Pack&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Sid Meier&#x27;s Civilization VI: Poland Civilization &amp;amp; Scenario Pack&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Sid Meier&#x27;s Civilization VI: Vikings Scenario Pack&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Sid Meier&#x27;s Civilization VI: Australia Civilization &amp;amp; Scenario Pack&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Sid Meier&#x27;s Civilization VI: Ethiopia Pack&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Sid Meier&#x27;s Civilization VI: Nubia Civilization &amp;amp; Scenario Pack&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Sid Meier&#x27;s Civilization VI: Persia and Macedon Civilization &amp;amp; Scenario Pack&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Sid Meier&#x27;s Civilization VI: Maya &amp;amp; Gran Colombia Pack&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Sid Meier&#x27;s Civilization VI: Khmer and Indonesia Civilization &amp;amp; Scenario Pack&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Sid Meier&#x27;s Civilization VI: Vietnam &amp;amp; Kublai Khan Pack&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
+&lt;p&gt;❌ Sid Meier&#x27;s Civilization VI: Byzantium &amp;amp; Gaul Pack
+❌ Sid Meier&#x27;s Civilization VI: Babylon Pack
+❌ Sid Meier&#x27;s Civilization VI: Portugal Pack
+❌ Sid Meier&#x27;s Civilization VI: Poland Civilization &amp;amp; Scenario Pack
+❌ Sid Meier&#x27;s Civilization VI: Vikings Scenario Pack
+❌ Sid Meier&#x27;s Civilization VI: Australia Civilization &amp;amp; Scenario Pack
+❌ Sid Meier&#x27;s Civilization VI: Ethiopia Pack
+❌ Sid Meier&#x27;s Civilization VI: Nubia Civilization &amp;amp; Scenario Pack
+❌ Sid Meier&#x27;s Civilization VI: Persia and Macedon Civilization &amp;amp; Scenario Pack
+❌ Sid Meier&#x27;s Civilization VI: Maya &amp;amp; Gran Colombia Pack
+❌ Sid Meier&#x27;s Civilization VI: Khmer and Indonesia Civilization &amp;amp; Scenario Pack
+❌ Sid Meier&#x27;s Civilization VI: Vietnam &amp;amp; Kublai Khan Pack&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -1517,18 +1423,11 @@ Sid Meier&#x27;s Civilization VI: Vietnam &amp;amp; Kublai Khan Pack&lt;&#x2F;li
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Sniper Elite 5: Target Führer - Wolf Mountain&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Sniper Elite 5: Landing Force Mission and Weapon Pack&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Sniper Elite 5: Conqueror Mission, Weapon and Skin Pack&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Sniper Elite 5: Rough Landing - Mission and Weapon Pack&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Sniper Elite 5: Kraken Awakes - Mission, Weapon and Skin Pack&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
+&lt;p&gt;❌ Sniper Elite 5: Target Führer - Wolf Mountain
+❌ Sniper Elite 5: Landing Force Mission and Weapon Pack
+❌ Sniper Elite 5: Conqueror Mission, Weapon and Skin Pack
+❌ Sniper Elite 5: Rough Landing - Mission and Weapon Pack
+❌ Sniper Elite 5: Kraken Awakes - Mission, Weapon and Skin Pack&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -1582,96 +1481,50 @@ Sniper Elite 5: Kraken Awakes - Mission, Weapon and Skin Pack&lt;&#x2F;li&gt;
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Tortuga 1667&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Down in Flames - Locked-On&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Xia - Legends of a Drift System&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Superfight&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Zombicide&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: The Red Dragon Inn - Battle For Greyport&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Tiny Epic Galaxies&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Draco Magi&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Scythe&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: The Great Dinosaur Rush&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Cavern Tavern&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Unearth&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Boss Monster&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Blood Rage&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Viticulture&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Rarrr!!&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Mr. Game!&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Darkest Night&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Deck Quest&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Abraca...What?&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Wizard&#x27;s Academy&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Tiny Epic Quest&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Cosmic Encounter Connector&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Dungeon Drop&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Simurgh&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Spirits of the Rice Paddy&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Dawn of the Zeds&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Three Cheers For Master&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Adventure Mart&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Rise of Tribes&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Scuttle!&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Wingspan&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Battle For Souls&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Warfighter&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Euphoria - Build a Better Dystopia&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Mistfall&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Indonesia&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: In the Name of Odin&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Khronos Hunter&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Pillars of Eternity - Lords of the Eastern Reach&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: One Night Ultimate Werewolf&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Three Kingdoms Redux&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Darkrock Ventures&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Tabletop Simulator: Tiny Epic Western&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
+&lt;p&gt;❌ Tabletop Simulator: Tortuga 1667
+❌ Tabletop Simulator: Down in Flames - Locked-On
+❌ Tabletop Simulator: Xia - Legends of a Drift System
+❌ Tabletop Simulator: Superfight
+❌ Tabletop Simulator: Zombicide
+❌ Tabletop Simulator: The Red Dragon Inn - Battle For Greyport
+❌ Tabletop Simulator: Tiny Epic Galaxies
+❌ Tabletop Simulator: Draco Magi
+❌ Tabletop Simulator: Scythe
+❌ Tabletop Simulator: The Great Dinosaur Rush
+❌ Tabletop Simulator: Cavern Tavern
+❌ Tabletop Simulator: Unearth
+❌ Tabletop Simulator: Boss Monster
+❌ Tabletop Simulator: Blood Rage
+❌ Tabletop Simulator: Viticulture
+❌ Tabletop Simulator: Rarrr!!
+❌ Tabletop Simulator: Mr. Game!
+❌ Tabletop Simulator: Darkest Night
+❌ Tabletop Simulator: Deck Quest
+❌ Tabletop Simulator: Abraca...What?
+❌ Tabletop Simulator: Wizard&#x27;s Academy
+❌ Tabletop Simulator: Tiny Epic Quest
+❌ Tabletop Simulator: Cosmic Encounter Connector
+❌ Tabletop Simulator: Dungeon Drop
+❌ Tabletop Simulator: Simurgh
+❌ Tabletop Simulator: Spirits of the Rice Paddy
+❌ Tabletop Simulator: Dawn of the Zeds
+❌ Tabletop Simulator: Three Cheers For Master
+❌ Tabletop Simulator: Adventure Mart
+❌ Tabletop Simulator: Rise of Tribes
+❌ Tabletop Simulator: Scuttle!
+❌ Tabletop Simulator: Wingspan
+❌ Tabletop Simulator: Battle For Souls
+❌ Tabletop Simulator: Warfighter
+❌ Tabletop Simulator: Euphoria - Build a Better Dystopia
+❌ Tabletop Simulator: Mistfall
+❌ Tabletop Simulator: Indonesia
+❌ Tabletop Simulator: In the Name of Odin
+❌ Tabletop Simulator: Khronos Hunter
+❌ Tabletop Simulator: Pillars of Eternity - Lords of the Eastern Reach
+❌ Tabletop Simulator: One Night Ultimate Werewolf
+❌ Tabletop Simulator: Three Kingdoms Redux
+❌ Tabletop Simulator: Darkrock Ventures
+❌ Tabletop Simulator: Tiny Epic Western&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -1751,30 +1604,17 @@ Tabletop Simulator: Tiny Epic Western&lt;&#x2F;li&gt;
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-The Sims 3: Dragon Valley&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-The Sims 3: Riverview&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-The Sims 3: Barnacle Bay&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-The Sims 3: Hidden Springs&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-The Sims 3: Lunar Lakes&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-The Sims 3: Lucky Palms&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-The Sims 3: Sunlit Tides&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-The Sims 3: Monte Vista&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-The Sims 3: Aurora Skies&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-The Sims 3: Midnight Hollow&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-The Sims 3: Roaring Heights&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
+&lt;p&gt;❌ The Sims 3: Dragon Valley
+❌ The Sims 3: Riverview
+❌ The Sims 3: Barnacle Bay
+❌ The Sims 3: Hidden Springs
+❌ The Sims 3: Lunar Lakes
+❌ The Sims 3: Lucky Palms
+❌ The Sims 3: Sunlit Tides
+❌ The Sims 3: Monte Vista
+❌ The Sims 3: Aurora Skies
+❌ The Sims 3: Midnight Hollow
+❌ The Sims 3: Roaring Heights&lt;&#x2F;p&gt;
 </content>
         
     </entry>
