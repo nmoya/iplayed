@@ -1,16 +1,16 @@
 +++
 title = "Dark Souls III"
-description = "PlayStation 4"
-date = "2023-03-18"
-updated = "2023-03-18"
+description = "50 hours - PC, PlayStation 4"
+date = "2019-01-26"
+updated = "2019-01-26"
 in_search_index = true
 [taxonomies]
-platforms = ['playstation 4']
-rating = []
+platforms = ['pc', 'playstation 4']
+rating = ['10.0']
 genres = ['role-playing (rpg)', 'adventure']
 [extra]
-subtitle = "PlayStation 4"
-completed_at = "2023-03-18"
+subtitle = "50 hours - PC, PlayStation 4"
+completed_at = "2019-01-26"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1vcf.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vcf.jpg"
 +++
@@ -18,7 +18,9 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vcf.jp
 
 |              |            |
 | ------------ | ---------- |
-| Played platforms    | PlayStation 4 |
-| Completed at | 2023/03/18 |
+| Rating       | 10.0 |
+| Time played  | 50 hours |
+| Played platforms    | PC, PlayStation 4 |
+| Completed at | 2019/01/26 |
 
 

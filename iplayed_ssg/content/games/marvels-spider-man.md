@@ -1,16 +1,16 @@
 +++
 title = "Marvel's Spider-Man"
-description = "PlayStation 4"
-date = "2023-03-18"
-updated = "2023-03-18"
+description = "18 hours - PlayStation 4"
+date = "2019-01-12"
+updated = "2019-01-12"
 in_search_index = true
 [taxonomies]
 platforms = ['playstation 4']
-rating = []
+rating = ['8.0']
 genres = ["hack and slash/beat 'em up", 'adventure']
 [extra]
-subtitle = "PlayStation 4"
-completed_at = "2023-03-18"
+subtitle = "18 hours - PlayStation 4"
+completed_at = "2019-01-12"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1r77.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r77.jpg"
 +++
@@ -18,8 +18,10 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r77.jp
 
 |              |            |
 | ------------ | ---------- |
+| Rating       | 8.0 |
+| Time played  | 18 hours |
 | Played platforms    | PlayStation 4 |
-| Completed at | 2023/03/18 |
+| Completed at | 2019/01/12 |
 
 
 

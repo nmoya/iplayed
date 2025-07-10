@@ -1,16 +1,16 @@
 +++
 title = "Battlefield 1"
-description = "PlayStation 4"
-date = "2023-03-18"
-updated = "2023-03-18"
+description = "50 hours - PC, PlayStation 4"
+date = "2017-09-29"
+updated = "2017-09-29"
 in_search_index = true
 [taxonomies]
-platforms = ['playstation 4']
-rating = []
+platforms = ['pc', 'playstation 4']
+rating = ['8.0']
 genres = ['shooter']
 [extra]
-subtitle = "PlayStation 4"
-completed_at = "2023-03-18"
+subtitle = "50 hours - PC, PlayStation 4"
+completed_at = "2017-09-29"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2n9d.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2n9d.jpg"
 +++
@@ -18,8 +18,10 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2n9d.jp
 
 |              |            |
 | ------------ | ---------- |
-| Played platforms    | PlayStation 4 |
-| Completed at | 2023/03/18 |
+| Rating       | 8.0 |
+| Time played  | 50 hours |
+| Played platforms    | PC, PlayStation 4 |
+| Completed at | 2017/09/29 |
 
 
 
