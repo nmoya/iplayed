@@ -5,7 +5,7 @@ from textual.widgets import Button, Footer, Header, Static
 from widgets.text_input import TextInput
 
 
-class DeployConfirmation(Screen):
+class ConfigurationRevision(Screen):
     BINDINGS = [
         ("escape", "app.pop_screen", "Back"),
     ]

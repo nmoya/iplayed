@@ -1,5 +1,5 @@
 from completions_view import CompletionsView
-from deploy_confirmation import DeployConfirmation
+from iplayed_cli.config_review import ConfigurationRevision
 from textual.app import ComposeResult
 from textual.containers import Vertical
 from textual.screen import Screen
@@ -25,6 +25,7 @@ class MainMenu(Screen):
     BINDINGS = [
         ("1", "completions", "Manage Completions"),
         ("2", "configurations", "Review configuration"),
+        ("3", "generate_covers", "Generate Covers"),
         ("escape", "quit", "Quit"),
     ]
 
@@ -33,6 +34,7 @@ class MainMenu(Screen):
         yield Vertical(
             Button("1. Manage Completions", id="completions"),
             Button("2. Review configuration", id="configurations"),
+            Button("3. Generate Covers", id="generate_covers"),
             id="main-menu-buttons",
         )
         yield Footer()
@@ -47,7 +49,10 @@ class MainMenu(Screen):
         self.app.push_screen(CompletionsView())
 
     def action_configurations(self) -> None:
-        self.app.push_screen(DeployConfirmation())
+        self.app.push_screen(ConfigurationRevision())
+
+    def action_generate_covers(self) -> None:
+        self.app.push_screen(CompletionsView())
 
     def action_quit(self) -> None:
         self.app.exit()
