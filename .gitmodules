@@ -4,3 +4,6 @@
 [submodule "nikolasmoya_ssg/themes/neovim-theme"]
 	path = nikolasmoya_ssg/themes/neovim-theme
 	url = https://github.com/Super-Botman/neovim-theme.git
+[submodule "iplayed_cli/pyxelate"]
+	path = iplayed_cli/pyxelate
+	url = https://github.com/sedthh/pyxelate.git
