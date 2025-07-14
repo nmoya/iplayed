@@ -27,6 +27,12 @@ class DeployConfirmation(Screen):
             TextInput(
                 title="Static site generator directory", default=config.SSG_DIRECTORY, id="ssg_dir", disabled=True
             ),
+            TextInput(
+                title="Pixelated covers directory",
+                default=config.SSG_PIXELATED_COVERS_DIRECTORY,
+                id="covers_dir",
+                disabled=True,
+            ),
             Static(
                 "This will build the static site generator with the current local data. "
                 "It will read the completions file and generate markdown files for each game. "
