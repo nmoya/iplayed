@@ -1,5 +1,6 @@
 from completions_view import CompletionsView
-from iplayed_cli.config_review import ConfigurationRevision
+from config_review import ConfigurationRevision
+from generation_screen import GenerationScreen
 from textual.app import ComposeResult
 from textual.containers import Vertical
 from textual.screen import Screen
@@ -34,7 +35,7 @@ class MainMenu(Screen):
         yield Vertical(
             Button("1. Manage Completions", id="completions"),
             Button("2. Review configuration", id="configurations"),
-            Button("3. Generate Covers", id="generate_covers"),
+            Button("3. Generate Content", id="generate_content"),
             id="main-menu-buttons",
         )
         yield Footer()
@@ -44,6 +45,8 @@ class MainMenu(Screen):
             self.action_completions()
         elif event.button.id == "configurations":
             self.action_configurations()
+        elif event.button.id == "generate_content":
+            self.action_generate_covers()
 
     def action_completions(self) -> None:
         self.app.push_screen(CompletionsView())
@@ -52,7 +55,7 @@ class MainMenu(Screen):
         self.app.push_screen(ConfigurationRevision())
 
     def action_generate_covers(self) -> None:
-        self.app.push_screen(CompletionsView())
+        self.app.push_screen(GenerationScreen())
 
     def action_quit(self) -> None:
         self.app.exit()

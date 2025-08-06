@@ -1,7 +1,10 @@
 import json
+import os
 import shutil
+from typing import Callable
 
 import config
+import pixelate
 import utils
 from completions_to_markdown import completion_to_markdown, markdown_filename
 from data_schema import DataEntry
@@ -38,13 +41,37 @@ def delete_completion(game_id: int) -> list[DataEntry]:
     return completions
 
 
-def deploy_markdown_files() -> None:
+def deploy_markdown_files(progress_fn: Callable[[int, int, str], None] | None = None) -> None:
     completions = read_completions_file()
-    for data in completions:
+    for i, data in enumerate(completions):
+        if progress_fn:
+            progress_fn(i, len(completions), data.game.name)
         markdown = completion_to_markdown(data)
         filename = markdown_filename(config.SSG_CONTENT_DIRECTORY, data.game.slug)
         utils.write_markdown(filename, markdown)
+
     shutil.copyfile(completions_filepath, f"{config.SSG_DIRECTORY}/static/completions.json")
+    if progress_fn:
+        progress_fn(len(completions), len(completions), "")
+
+
+def generate_pixelated_covers(progress_fn: Callable[[int, int, str], None] | None = None) -> None:
+    completions = read_completions_file()
+    for i, data in enumerate(completions):
+        print(f"Generating cover for {data.game.name} ({i + 1}/{len(completions)})")
+        if progress_fn:
+            progress_fn(i, len(completions), data.game.name)
+        filename = f"{config.SSG_PIXELATED_COVERS_DIRECTORY}/{data.game.slug}.png"
+        if not data.game.cover:
+            continue
+        if os.path.exists(filename):
+            continue
+        original = pixelate.download_image(data.game.cover.sized_url("t_cover_big"))
+        pixelation = pixelate.apply_pixelation(original, 0.5)
+        pixelate.save_image(pixelation, filename)
+
+    if progress_fn:
+        progress_fn(len(completions), len(completions), "")
 
 
 def migrate():
@@ -55,4 +82,4 @@ def migrate():
 
 
 if __name__ == "__main__":
-    migrate()
+    generate_pixelated_covers(None)
