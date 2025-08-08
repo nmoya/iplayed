@@ -24,17 +24,12 @@
         </div>
         <br><br>
         <div>
-            <h2>Hours invested per genre</h2>
-            <canvas id="genreHoursRadar"></canvas>
+            <h2>Count and Hours invested per genre</h2>
+            <canvas id="genreComparison"></canvas>
         </div>
         <br><br>
         <div>
-            <h2>Count of completed games within genre</h2>
-            <canvas id="genreCountRadar"></canvas>
-        </div>
-        <br><br>
-        <div>
-            <h2>Top Game by Genre</h2>
+            <h2>Top Played Game by Genre</h2>
             <ul id="topGamesByGenre"></ul>
             <a href="/genres" class="btn btn-primary">Index per genre</a>
         </div>
@@ -44,7 +39,6 @@
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
-
     function renderYearChart(year, completionsFromYear) {
         const canvas = document.getElementById('completionsByMonth');
         const ctx = canvas.getContext('2d');
@@ -125,7 +119,7 @@
         const backgroundColors = platforms.map((_, i) => colors[i % colors.length]);
 
         new Chart(platformCtx, {
-            type: 'pie',
+            type: 'bar',
             data: {
                 labels: platforms,
                 datasets: [{
@@ -138,41 +132,69 @@
                 responsive: true,
                 plugins: {
                     legend: {
-                        position: 'right',
+                        position: 'top',
                         labels: {
                             boxWidth: 16,
                             padding: 12
                         }
                     }
                 }
+            },
+            scales: {
+                x: {
+                    title: {
+                        display: true,
+                        text: 'Platform'
+                    }
+                },
+                y: {
+                    beginAtZero: true,
+                    title: {
+                        display: true,
+                        text: 'Completions'
+                    }
+                }
             }
         });
     }
 
-
-    function renderGenreRadar(tag_id, label, genreCounts) {
+    function renderGenreComparisonBarChart(tag_id, genreCounts, genreHoursCounts) {
         const genreCtx = document.getElementById(tag_id).getContext('2d');
+
+        const genres = Array.from(new Set([
+            ...Object.keys(genreCounts),
+            ...Object.keys(genreHoursCounts)
+        ])).sort();
+
+        const counts = genres.map(g => genreCounts[g] || 0);
+        const hours = genres.map(g => genreHoursCounts[g] || 0);
+
         new Chart(genreCtx, {
-            type: 'radar',
+            type: 'bar',
             data: {
-                labels: Object.keys(genreCounts),
-                datasets: [{
-                    label: label,
-                    data: Object.values(genreCounts),
-                    backgroundColor: 'rgba(153, 102, 255, 0.4)',
-                    borderColor: 'rgba(153, 102, 255, 1)',
-                    borderWidth: 2
-                }]
+                labels: genres,
+                datasets: [
+                    {
+                        label: 'Games Completed',
+                        data: counts,
+                        backgroundColor: 'rgba(54, 162, 235, 0.7)'
+                    },
+                    {
+                        label: 'Hours Played',
+                        data: hours,
+                        backgroundColor: 'rgba(255, 159, 64, 0.7)'
+                    }
+                ]
             },
             options: {
                 responsive: true,
-                scales: {
-                    r: { beginAtZero: true }
-                },
                 plugins: {
-                    legend: {
-                        display: false
-                    }
+                    legend: { position: 'top' },
+                    tooltip: { mode: 'index', intersect: false }
+                },
+                scales: {
+                    x: { stacked: false, title: { display: true, text: 'Genre' } },
+                    y: { beginAtZero: true, title: { display: true, text: 'Count / Hours' } }
                 }
             }
         });
@@ -224,7 +246,7 @@
             completionsByYear[year][month]++;
 
             entry.completion.played_platforms.forEach(platform => {
-                platformCounts[platform] = (platformCounts[platform] || 0) + 1;
+                platformCounts[platform.name] = (platformCounts[platform.name] || 0) + 1;
             });
 
             entry.game.genres?.forEach(genre => {
@@ -259,8 +281,7 @@
 
         renderYearlyCharts(completionsByYear);
         renderPlatformHistogram(platformCounts);
-        renderGenreRadar("genreHoursRadar", "Hours", genreHoursCounts);
-        renderGenreRadar("genreCountRadar", "Count", genreCounts);
+        renderGenreComparisonBarChart('genreComparison', genreCounts, genreHoursCounts);
         renderHoursPlayed(totalHours, topGamesByGenre);
     }
 
