@@ -1,6 +1,27 @@
 {% extends "base.html" %}
 
 {% block right %}
+<style>
+    .heatmap-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0.5rem;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .heatmap-cell {
+        aspect-ratio: 1 / 1;
+        border-radius: 4px;
+        color: white;
+        font-size: 0.9rem;
+        font-family: monospace;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    }
+</style>
 <div class="content">
     <p>{{ section.content | markdown | safe }}</p>
 
@@ -14,7 +35,8 @@
             <h2>Completions per Month by Year</h2>
             <div id="year-tabs"></div>
             <br>
-            <canvas id="completionsByMonth"></canvas>
+            <div id="monthly-heatmap" class="heatmap-grid"></div>
+            <div id="gameList"></div>
         </div>
         <br><br>
         <div>
@@ -39,47 +61,54 @@
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
-    function renderYearChart(year, completionsFromYear) {
-        const canvas = document.getElementById('completionsByMonth');
-        const ctx = canvas.getContext('2d');
+    function renderMonthGridHeatmap(containerId, year, gamesByMonth) {
+        const container = document.getElementById(containerId);
+        container.innerHTML = '';
 
-        // Destroy existing chart instance if present (chart.js peculiarity)
-        if (canvas.chartInstance) {
-            canvas.chartInstance.destroy();
-        }
+        const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+            'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
-        canvas.chartInstance = new Chart(ctx, {
-            type: 'bar',
-            data: {
-                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
-                    'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-                datasets: [{
-                    label: `Completions`,
-                    data: completionsFromYear,
-                    backgroundColor: 'rgba(54, 162, 235, 0.7)'
-                }]
-            },
-            options: {
-                responsive: true,
-                scales: {
-                    y: { beginAtZero: true }
-                },
-                plugins: {
-                    legend: {
-                        display: false
-                    }
-                }
-            }
+        monthIndexes = Array.from(Array(12).keys());
+
+        const monthWithMostGames = Math.max(1, Object.keys(gamesByMonth).reduce((max, month) => {
+            return (gamesByMonth[month] || []).length > (gamesByMonth[max] || []).length ? month : max;
+        }, monthIndexes[0]));
+
+        monthIndexes.forEach((index) => {
+            const games = gamesByMonth[index] || [];
+            const value = games.length || 0; // Use length of games array or 0 if empty
+            const cell = document.createElement('div');
+            cell.className = 'heatmap-cell';
+            cell.textContent = monthNames[index];
+
+            // calculate green shade
+            const intensity = value / monthWithMostGames;
+            console.log(value, monthWithMostGames, intensity);
+            const minAlpha = 0.05;
+            const alpha = minAlpha + (1 * intensity);
+            console.log(`Rendering ${monthNames[index]} with intensity ${intensity} and alpha ${alpha}`);
+            cell.style.backgroundColor = `rgba(114, 204, 150, ${alpha})`;
+
+            cell.onclick = () => {
+                const gameListDiv = document.getElementById("gameList");
+                gameListDiv.innerHTML = `
+                    <h4>${monthNames[index]} ${year}</h4>
+                        ${games.length > 0 ? games.map(g => `<p>${g}</p>`).join('') : '<p>No completions</p>'}
+                `;
+            };
+
+            container.appendChild(cell);
         });
     }
 
 
-    function renderYearlyCharts(completionsByYear) {
+    function renderYearlyCharts(gamesByYearMonth) {
+        console.log(gamesByYearMonth);
         const tabContainer = document.getElementById('year-tabs');
 
-        const sortedYears = Object.keys(completionsByYear).sort();
+        const sortedYears = Object.keys(gamesByYearMonth).sort();
         let activeYear = sortedYears[sortedYears.length - 1];
-        Object.keys(completionsByYear).sort().forEach(year => {
+        Object.keys(gamesByYearMonth).sort().forEach(year => {
             const btn = document.createElement('button');
             btn.textContent = year;
             btn.style.marginRight = '0.5rem';
@@ -89,7 +118,8 @@
             btn.style.cursor = 'pointer';
 
             btn.onclick = () => {
-                renderYearChart(year, completionsByYear[year]);
+                document.getElementById("gameList").innerHTML = "";
+                renderMonthGridHeatmap("monthly-heatmap", year, gamesByYearMonth[year]);
                 [...tabContainer.children].forEach(b => b.style.backgroundColor = '#000');
                 btn.style.backgroundColor = '#72cc96';
             };
@@ -100,7 +130,7 @@
                 btn.style.backgroundColor = '#72cc96';
             }
         });
-        renderYearChart(activeYear, completionsByYear[activeYear]);
+        renderMonthGridHeatmap("monthly-heatmap", activeYear, gamesByYearMonth[activeYear]);
     }
 
     function renderPlatformHistogram(platformCounts) {
@@ -229,7 +259,7 @@
 
         const completions = Array.isArray(data) ? data : [];
 
-        const completionsByYear = {};
+        const gamesByYearMonth = {};
         const platformCounts = {};
         const genreHoursCounts = {};
         const genreCounts = {};
@@ -242,8 +272,13 @@
             const month = date.getMonth();
             const hoursPlayed = entry.completion.hours_played || 0;
 
-            completionsByYear[year] = completionsByYear[year] || Array(12).fill(0);
-            completionsByYear[year][month]++;
+            if (!gamesByYearMonth[year]) {
+                gamesByYearMonth[year] = {};
+            }
+            if (!gamesByYearMonth[year][month]) {
+                gamesByYearMonth[year][month] = [];
+            }
+            gamesByYearMonth[year][month].push(entry.game.name);
 
             entry.completion.played_platforms.forEach(platform => {
                 platformCounts[platform.name] = (platformCounts[platform.name] || 0) + 1;
@@ -279,7 +314,7 @@
             totalHours += hoursPlayed;
         });
 
-        renderYearlyCharts(completionsByYear);
+        renderYearlyCharts(gamesByYearMonth);
         renderPlatformHistogram(platformCounts);
         renderGenreComparisonBarChart('genreComparison', genreCounts, genreHoursCounts);
         renderHoursPlayed(totalHours, topGamesByGenre);
