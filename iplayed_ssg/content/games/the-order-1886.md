@@ -1,16 +1,16 @@
 +++
 title = "The Order: 1886"
-description = "PlayStation 4"
-date = "2023-03-18"
-updated = "2023-03-18"
+description = "6 hours - PlayStation 4"
+date = "2016-09-29"
+updated = "2016-09-29"
 in_search_index = true
 [taxonomies]
 platforms = ['playstation 4']
-rating = []
+rating = ['7.0']
 genres = ['shooter', 'adventure']
 [extra]
-subtitle = "PlayStation 4"
-completed_at = "2023-03-18"
+subtitle = "6 hours - PlayStation 4"
+completed_at = "2016-09-29"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2rn6.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2rn6.jpg"
 +++
@@ -18,7 +18,9 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2rn6.jp
 
 |              |            |
 | ------------ | ---------- |
+| Rating       | 7.0 |
+| Time played  | 6 hours |
 | Played platforms    | PlayStation 4 |
-| Completed at | 2023/03/18 |
+| Completed at | 2016/09/29 |
 
 

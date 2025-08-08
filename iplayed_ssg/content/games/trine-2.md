@@ -1,16 +1,16 @@
 +++
 title = "Trine 2"
-description = "PlayStation 3"
-date = "2023-03-18"
-updated = "2023-03-18"
+description = "8 hours - PlayStation 3"
+date = "2016-02-12"
+updated = "2016-02-12"
 in_search_index = true
 [taxonomies]
 platforms = ['playstation 3']
-rating = []
+rating = ['7.0']
 genres = ['platform', 'puzzle', 'adventure']
 [extra]
-subtitle = "PlayStation 3"
-completed_at = "2023-03-18"
+subtitle = "8 hours - PlayStation 3"
+completed_at = "2016-02-12"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co25z7.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co25z7.jpg"
 +++
@@ -18,8 +18,10 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co25z7.jp
 
 |              |            |
 | ------------ | ---------- |
+| Rating       | 7.0 |
+| Time played  | 8 hours |
 | Played platforms    | PlayStation 3 |
-| Completed at | 2023/03/18 |
+| Completed at | 2016/02/12 |
 
 
 
