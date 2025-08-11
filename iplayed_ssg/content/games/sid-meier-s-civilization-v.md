@@ -1,6 +1,6 @@
 +++
 title = "Sid Meier's Civilization V"
-description = "PC"
+description = "40 hours and 4 minutes - PC"
 date = "2023-03-18"
 updated = "2023-03-18"
 in_search_index = true
@@ -9,7 +9,7 @@ platforms = ['pc']
 rating = []
 genres = ['simulator', 'strategy', 'turn-based strategy (tbs)']
 [extra]
-subtitle = "PC"
+subtitle = "40 hours and 4 minutes - PC"
 completed_at = "2023-03-18"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co20up.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co20up.jpg"
@@ -18,6 +18,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co20up.jp
 
 |              |            |
 | ------------ | ---------- |
+| Time played  | 40 hours |
 | Played platforms    | PC |
 | Completed at | 2023/03/18 |
 

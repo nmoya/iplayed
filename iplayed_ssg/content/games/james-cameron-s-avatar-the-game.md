@@ -1,6 +1,6 @@
 +++
 title = "James Cameron's AVATAR: The Game"
-description = "PC"
+description = "8 hours and 10 minutes - PC"
 date = "2023-03-18"
 updated = "2023-03-18"
 in_search_index = true
@@ -9,7 +9,7 @@ platforms = ['pc']
 rating = []
 genres = ['shooter', 'adventure']
 [extra]
-subtitle = "PC"
+subtitle = "8 hours and 10 minutes - PC"
 completed_at = "2023-03-18"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2e6l.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2e6l.jpg"
@@ -18,6 +18,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2e6l.jp
 
 |              |            |
 | ------------ | ---------- |
+| Time played  | 8 hours |
 | Played platforms    | PC |
 | Completed at | 2023/03/18 |
 

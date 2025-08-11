@@ -24,7 +24,7 @@ class GameDataTableBase(Widget):
     """
     BINDINGS = [
         ("q", "sort_by_name", "Sort By Name"),
-        ("ctrl+e", "edit_completion", "Add/Edit"),
+        ("e", "edit_completion", "Add/Edit"),
         ("z", "edit_completion", "Add/Edit"),
     ]
 
@@ -90,9 +90,9 @@ class GameDataTableBase(Widget):
 class CompletionsTable(GameDataTableBase):
     BINDINGS = [
         ("w", "sort_by_hours_played", "Sort By Hours Played"),
-        ("e", "sort_by_completion_date", "Sort By Completion Date"),
+        ("q", "sort_by_completion_date", "Sort By Completion Date"),
         ("r", "sort_by_rating", "Sort By Rating"),
-        ("ctrl+x", "delete", "Delete"),
+        ("x", "delete", "Delete"),
     ]
 
     def load(self, data: list[DataEntry], cursor_row: int = 0) -> None:

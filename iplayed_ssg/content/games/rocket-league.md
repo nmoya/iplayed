@@ -1,6 +1,6 @@
 +++
 title = "Rocket League"
-description = "PlayStation 4"
+description = "4 hours and 35 minutes - PlayStation 4"
 date = "2023-03-18"
 updated = "2023-03-18"
 in_search_index = true
@@ -9,7 +9,7 @@ platforms = ['playstation 4']
 rating = []
 genres = ['racing', 'sport', 'indie']
 [extra]
-subtitle = "PlayStation 4"
+subtitle = "4 hours and 35 minutes - PlayStation 4"
 completed_at = "2023-03-18"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co5w0w.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co5w0w.jpg"
@@ -18,6 +18,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co5w0w.jp
 
 |              |            |
 | ------------ | ---------- |
+| Time played  | 4 hours |
 | Played platforms    | PlayStation 4 |
 | Completed at | 2023/03/18 |
 

@@ -1,6 +1,6 @@
 +++
 title = "Super Mario World"
-description = "Super Nintendo Entertainment System"
+description = "5 hours and 3 minutes - Super Nintendo Entertainment System"
 date = "2023-03-18"
 updated = "2023-03-18"
 in_search_index = true
@@ -9,7 +9,7 @@ platforms = ['super nintendo entertainment system']
 rating = []
 genres = ['platform', 'adventure']
 [extra]
-subtitle = "Super Nintendo Entertainment System"
+subtitle = "5 hours and 3 minutes - Super Nintendo Entertainment System"
 completed_at = "2023-03-18"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co8lo8.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co8lo8.jpg"
@@ -18,6 +18,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co8lo8.jp
 
 |              |            |
 | ------------ | ---------- |
+| Time played  | 5 hours |
 | Played platforms    | Super Nintendo Entertainment System |
 | Completed at | 2023/03/18 |
 

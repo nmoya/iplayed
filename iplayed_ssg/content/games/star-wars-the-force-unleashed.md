@@ -1,6 +1,6 @@
 +++
 title = "Star Wars: The Force Unleashed"
-description = "PlayStation 3"
+description = "8 hours and 2 minutes - PlayStation 3"
 date = "2023-03-18"
 updated = "2023-03-18"
 in_search_index = true
@@ -9,7 +9,7 @@ platforms = ['playstation 3']
 rating = []
 genres = ['role-playing (rpg)', "hack and slash/beat 'em up", 'adventure']
 [extra]
-subtitle = "PlayStation 3"
+subtitle = "8 hours and 2 minutes - PlayStation 3"
 completed_at = "2023-03-18"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co25xx.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co25xx.jpg"
@@ -18,6 +18,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co25xx.jp
 
 |              |            |
 | ------------ | ---------- |
+| Time played  | 8 hours |
 | Played platforms    | PlayStation 3 |
 | Completed at | 2023/03/18 |
 

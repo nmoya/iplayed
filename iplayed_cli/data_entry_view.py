@@ -34,7 +34,6 @@ class DataEntryView(Screen):
     Button {
         margin-right: 1;
     }
-
     """
     BINDINGS = [("escape", "app.pop_screen", "Back")]
 
@@ -64,7 +63,11 @@ class DataEntryView(Screen):
         content.append(
             StarRating(title="How would you rate this game?", rating=self.data.completion.rating, id="rating")
         )
-        content.append(HoursPlayedInput(default=self.data.completion.hours_played, id="hours_played"))
+        content.append(
+            HoursPlayedInput(
+                default=self.data.completion.hours_played, game_name=self.data.game.name, id="hours_played"
+            ),
+        )
         content.append(
             Horizontal(Button("💾 Save", id="save"), Button("🗑️ Delete", id="delete"), classes="button-row"),
         )

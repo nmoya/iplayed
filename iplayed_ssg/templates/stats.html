@@ -230,8 +230,8 @@
         });
     }
 
-    function renderHoursPlayed(totalHours, topGamesByGenre) {
-        document.getElementById('hoursPlayedDisplay').innerHTML = `${totalHours.toFixed(1)} hours`;
+    function renderHoursPlayed(totalHours, topGamesByGenre, numberOfGames) {
+        document.getElementById('hoursPlayedDisplay').innerHTML = `${totalHours.toFixed(1)} hours across ${numberOfGames} games`;
         const list = document.getElementById('topGamesByGenre');
         list.innerHTML = '';
 
@@ -317,7 +317,7 @@
         renderYearlyCharts(gamesByYearMonth);
         renderPlatformHistogram(platformCounts);
         renderGenreComparisonBarChart('genreComparison', genreCounts, genreHoursCounts);
-        renderHoursPlayed(totalHours, topGamesByGenre);
+        renderHoursPlayed(totalHours, topGamesByGenre, completions.length);
     }
 
     loadStats();

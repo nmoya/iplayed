@@ -1,6 +1,6 @@
 +++
 title = "DOOM"
-description = "DOS"
+description = "12 hours and 52 minutes - DOS"
 date = "2023-03-18"
 updated = "2023-03-18"
 in_search_index = true
@@ -9,7 +9,7 @@ platforms = ['dos']
 rating = []
 genres = ['shooter']
 [extra]
-subtitle = "DOS"
+subtitle = "12 hours and 52 minutes - DOS"
 completed_at = "2023-03-18"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co5rav.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co5rav.jpg"
@@ -18,6 +18,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co5rav.jp
 
 |              |            |
 | ------------ | ---------- |
+| Time played  | 12 hours |
 | Played platforms    | DOS |
 | Completed at | 2023/03/18 |
 

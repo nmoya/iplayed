@@ -1,16 +1,16 @@
 +++
 title = "Lineage II"
-description = ""
-date = "2023-03-18"
-updated = "2023-03-18"
+description = "120 hours - PC"
+date = "2007-10-19"
+updated = "2007-10-19"
 in_search_index = true
 [taxonomies]
-platforms = []
-rating = []
+platforms = ['pc']
+rating = ['6.0']
 genres = ['role-playing (rpg)', 'adventure']
 [extra]
-subtitle = ""
-completed_at = "2023-03-18"
+subtitle = "120 hours - PC"
+completed_at = "2007-10-19"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1nhg.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nhg.jpg"
 +++
@@ -18,6 +18,9 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nhg.jp
 
 |              |            |
 | ------------ | ---------- |
-| Completed at | 2023/03/18 |
+| Rating       | 6.0 |
+| Time played  | 120 hours |
+| Played platforms    | PC |
+| Completed at | 2007/10/19 |
 
 

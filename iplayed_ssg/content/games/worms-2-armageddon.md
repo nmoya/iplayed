@@ -1,6 +1,6 @@
 +++
 title = "Worms 2: Armageddon"
-description = "PlayStation 3"
+description = "11 hours and 5 minutes - PlayStation 3"
 date = "2023-03-18"
 updated = "2023-03-18"
 in_search_index = true
@@ -9,7 +9,7 @@ platforms = ['playstation 3']
 rating = []
 genres = ['strategy']
 [extra]
-subtitle = "PlayStation 3"
+subtitle = "11 hours and 5 minutes - PlayStation 3"
 completed_at = "2023-03-18"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1xqr.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xqr.jpg"
@@ -18,6 +18,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xqr.jp
 
 |              |            |
 | ------------ | ---------- |
+| Time played  | 11 hours |
 | Played platforms    | PlayStation 3 |
 | Completed at | 2023/03/18 |
 

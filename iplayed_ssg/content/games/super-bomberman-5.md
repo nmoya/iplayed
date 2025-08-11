@@ -1,6 +1,6 @@
 +++
 title = "Super Bomberman 5"
-description = ""
+description = "1 hours and 37 minutes - "
 date = "2023-03-18"
 updated = "2023-03-18"
 in_search_index = true
@@ -9,7 +9,7 @@ platforms = []
 rating = []
 genres = ['puzzle']
 [extra]
-subtitle = ""
+subtitle = "1 hours and 37 minutes - "
 completed_at = "2023-03-18"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2w8i.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2w8i.jpg"
@@ -18,6 +18,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2w8i.jp
 
 |              |            |
 | ------------ | ---------- |
+| Time played  | 1 hour |
 | Completed at | 2023/03/18 |
 
 

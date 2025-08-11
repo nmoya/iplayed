@@ -1,16 +1,16 @@
 +++
 title = "League of Legends"
-description = "PC"
-date = "2023-03-18"
-updated = "2023-03-18"
+description = "432 hours - PC"
+date = "2019-03-18"
+updated = "2019-03-18"
 in_search_index = true
 [taxonomies]
 platforms = ['pc']
-rating = []
+rating = ['7.0']
 genres = ['role-playing (rpg)', 'strategy', 'moba']
 [extra]
-subtitle = "PC"
-completed_at = "2023-03-18"
+subtitle = "432 hours - PC"
+completed_at = "2019-03-18"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co49wj.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co49wj.jpg"
 +++
@@ -18,7 +18,9 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co49wj.jp
 
 |              |            |
 | ------------ | ---------- |
+| Rating       | 7.0 |
+| Time played  | 432 hours |
 | Played platforms    | PC |
-| Completed at | 2023/03/18 |
+| Completed at | 2019/03/18 |
 
 

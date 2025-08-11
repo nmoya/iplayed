@@ -1,6 +1,6 @@
 +++
 title = "Home Alone"
-description = "Super Nintendo Entertainment System"
+description = "1 hours and 35 minutes - Super Nintendo Entertainment System"
 date = "2023-03-18"
 updated = "2023-03-18"
 in_search_index = true
@@ -9,7 +9,7 @@ platforms = ['super nintendo entertainment system']
 rating = []
 genres = ['platform', 'adventure']
 [extra]
-subtitle = "Super Nintendo Entertainment System"
+subtitle = "1 hours and 35 minutes - Super Nintendo Entertainment System"
 completed_at = "2023-03-18"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co5x09.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co5x09.jpg"
@@ -18,6 +18,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co5x09.jp
 
 |              |            |
 | ------------ | ---------- |
+| Time played  | 1 hour |
 | Played platforms    | Super Nintendo Entertainment System |
 | Completed at | 2023/03/18 |
 

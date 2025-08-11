@@ -1,6 +1,6 @@
 +++
 title = "METAL SLUG 3"
-description = "PC"
+description = "1 hours and 26 minutes - PC"
 date = "2023-03-18"
 updated = "2023-03-18"
 in_search_index = true
@@ -9,7 +9,7 @@ platforms = ['pc']
 rating = []
 genres = ['shooter', 'platform', 'arcade']
 [extra]
-subtitle = "PC"
+subtitle = "1 hours and 26 minutes - PC"
 completed_at = "2023-03-18"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1ox6.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ox6.jpg"
@@ -18,6 +18,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ox6.jp
 
 |              |            |
 | ------------ | ---------- |
+| Time played  | 1 hour |
 | Played platforms    | PC |
 | Completed at | 2023/03/18 |
 

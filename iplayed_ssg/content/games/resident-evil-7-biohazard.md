@@ -1,6 +1,6 @@
 +++
 title = "Resident Evil 7: Biohazard"
-description = "PC"
+description = "9 hours and 18 minutes - PC"
 date = "2023-03-18"
 updated = "2023-03-18"
 in_search_index = true
@@ -9,7 +9,7 @@ platforms = ['pc']
 rating = []
 genres = ['shooter', 'puzzle', 'adventure']
 [extra]
-subtitle = "PC"
+subtitle = "9 hours and 18 minutes - PC"
 completed_at = "2023-03-18"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co8uu1.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co8uu1.jpg"
@@ -18,6 +18,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co8uu1.jp
 
 |              |            |
 | ------------ | ---------- |
+| Time played  | 9 hours |
 | Played platforms    | PC |
 | Completed at | 2023/03/18 |
 

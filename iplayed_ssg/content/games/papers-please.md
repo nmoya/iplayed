@@ -1,6 +1,6 @@
 +++
 title = "Papers, Please"
-description = "PC, iOS"
+description = "5 hours and 1 minutes - PC, iOS"
 date = "2023-03-18"
 updated = "2023-03-18"
 in_search_index = true
@@ -9,7 +9,7 @@ platforms = ['pc', 'ios']
 rating = []
 genres = ['point-and-click', 'puzzle', 'simulator', 'indie']
 [extra]
-subtitle = "PC, iOS"
+subtitle = "5 hours and 1 minutes - PC, iOS"
 completed_at = "2023-03-18"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1vep.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vep.jpg"
@@ -18,6 +18,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vep.jp
 
 |              |            |
 | ------------ | ---------- |
+| Time played  | 5 hours |
 | Played platforms    | PC, iOS |
 | Completed at | 2023/03/18 |
 

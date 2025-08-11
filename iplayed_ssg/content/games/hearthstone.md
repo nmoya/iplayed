@@ -1,6 +1,6 @@
 +++
 title = "Hearthstone"
-description = "PC"
+description = "14 hours - PC"
 date = "2023-03-18"
 updated = "2023-03-18"
 in_search_index = true
@@ -9,7 +9,7 @@ platforms = ['pc']
 rating = []
 genres = ['strategy', 'turn-based strategy (tbs)', 'card & board game']
 [extra]
-subtitle = "PC"
+subtitle = "14 hours - PC"
 completed_at = "2023-03-18"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1sh2.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1sh2.jpg"
@@ -18,6 +18,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1sh2.jp
 
 |              |            |
 | ------------ | ---------- |
+| Time played  | 14 hours |
 | Played platforms    | PC |
 | Completed at | 2023/03/18 |
 
