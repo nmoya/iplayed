@@ -8,7 +8,7 @@ import pixelate
 import utils
 from completions_to_markdown import completion_to_markdown, markdown_filename
 from data_schema import DataEntry
-from howlongtobeatpy import HowLongToBeat
+from igdb import get_igdb_game_by_id
 from utils import read_and_validate_json
 
 completions_filepath = "./iplayed_cli/data/completions.json"
@@ -75,38 +75,30 @@ def generate_pixelated_covers(progress_fn: Callable[[int, int, str], None] | Non
         progress_fn(len(completions), len(completions), "")
 
 
-def migrate():
-    from utils import read_json, write_json
-
-    data_entries = read_json(completions_filepath)
-    client = HowLongToBeat()
-    completions = []
-    for data in data_entries:
-        if data["completion"]["hours_played"] != 0 and data["completion"]["hours_played"] is not None:
-            completions.append(data)
-            continue
-
-        print(f"Searching for {data['game']['name']} on HowLongToBeat")
-        hltb_result = client.search(data["game"]["name"])
-        if not hltb_result:
-            print(f"Could not find {data['game']['name']} on HowLongToBeat, skipping")
-            completions.append(data)
-            continue
-
-        best = max(hltb_result, key=lambda x: x.similarity)
-        data["completion"]["hours_played"] = best.main_story
-        completions.append(data)
-
-    write_json(completions_filepath, completions)
+def refresh_igdb_game(data: DataEntry) -> DataEntry:
+    game = get_igdb_game_by_id(data.game.id)
+    if game:
+        data.game = game
+    else:
+        print(f"Game {data.game.name} ({data.game.id}) not found in IGDB.")
+    return data
 
 
-if __name__ == "__main__":
-    from rich import print as rprint
+def refresh_all_igdb_games(progress_fn: Callable[[int, int, str], None] | None = None) -> None:
+    completions = read_completions_file()
+    for i, data in enumerate(completions):
+        data = refresh_igdb_game(data)
+        add_or_update_completion(data)
+        if progress_fn:
+            progress_fn(i, len(completions), data.game.name)
 
-    # results = HowLongToBeat().search("Hades")
-    # best_element = max(results, key=lambda element: element.similarity)
-    # rprint(best_element.game_name)
-    # rprint(best_element.main_story)
 
-    migrate()
-    # generate_pixelated_covers(None)
+# if __name__ == "__main__":
+# from rich import print as rprint
+
+# results = HowLongToBeat().search("Hades")
+# best_element = max(results, key=lambda element: element.similarity)
+# rprint(best_element.game_name)
+# rprint(best_element.main_story)
+
+# generate_pixelated_covers(None)
