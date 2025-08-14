@@ -1,4 +1,4 @@
-from completions_file_db import deploy_markdown_files, generate_pixelated_covers
+from completions_file_db import deploy_markdown_files, generate_pixelated_covers, refresh_all_igdb_games
 from textual.app import ComposeResult
 from textual.containers import Center, Middle
 from textual.message import Message
@@ -19,6 +19,7 @@ class GenerationScreen(Screen):
         with Center():
             with Middle():
                 yield Button("Generate All Markdown Files", id="markdown")
+                yield Button("Refresh All IGDB Game entries", id="igdb_refresh")
                 yield Button("Generate All Pixelated Images", id="images")
                 yield ProgressBar(id="progress", total=10)
                 yield Static("Status", id="status")
@@ -30,6 +31,8 @@ class GenerationScreen(Screen):
             await self.run_content_generation()
         elif task_id == "images":
             await self.run_cover_generation()
+        elif task_id == "igdb_refresh":
+            await self.run_igdb_refresh()
 
     def progress_update(self, current: int, total: int, message: str) -> None:
         progress_bar = self.query_one(ProgressBar)
@@ -42,3 +45,6 @@ class GenerationScreen(Screen):
 
     async def run_cover_generation(self) -> None:
         generate_pixelated_covers(self.progress_update)
+
+    async def run_igdb_refresh(self) -> None:
+        refresh_all_igdb_games(self.progress_update)

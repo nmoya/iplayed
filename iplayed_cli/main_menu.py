@@ -35,7 +35,7 @@ class MainMenu(Screen):
         yield Vertical(
             Button("1. Manage Completions", id="completions"),
             Button("2. Review configuration", id="configurations"),
-            Button("3. Generate Content", id="generate_content"),
+            Button("3. Content management", id="content_management"),
             id="main-menu-buttons",
         )
         yield Footer()
@@ -45,8 +45,8 @@ class MainMenu(Screen):
             self.action_completions()
         elif event.button.id == "configurations":
             self.action_configurations()
-        elif event.button.id == "generate_content":
-            self.action_generate_covers()
+        elif event.button.id == "content_management":
+            self.action_content_management()
 
     def action_completions(self) -> None:
         self.app.push_screen(CompletionsView())
@@ -54,7 +54,7 @@ class MainMenu(Screen):
     def action_configurations(self) -> None:
         self.app.push_screen(ConfigurationRevision())
 
-    def action_generate_covers(self) -> None:
+    def action_content_management(self) -> None:
         self.app.push_screen(GenerationScreen())
 
     def action_quit(self) -> None:
