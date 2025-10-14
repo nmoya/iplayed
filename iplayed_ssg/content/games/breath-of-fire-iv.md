@@ -7,7 +7,7 @@ in_search_index = true
 [taxonomies]
 platforms = ['playstation']
 rating = []
-genres = ['role-playing (rpg)']
+genres = ['role-playing (rpg)', 'turn-based strategy (tbs)']
 [extra]
 subtitle = "36 hours and 13 minutes - PlayStation"
 completed_at = "2023-03-18"

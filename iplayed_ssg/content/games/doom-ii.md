@@ -1,5 +1,5 @@
 +++
-title = "DOOM II"
+title = "Doom II"
 description = "12 hours and 52 minutes - PC"
 date = "2023-03-18"
 updated = "2023-03-18"

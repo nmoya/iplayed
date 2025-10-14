@@ -1,5 +1,5 @@
 +++
-title = "World's scariest police chases"
+title = "World's Scariest Police Chases"
 description = "4 hours and 27 minutes - PlayStation"
 date = "2023-03-18"
 updated = "2023-03-18"

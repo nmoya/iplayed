@@ -75,22 +75,30 @@ def generate_pixelated_covers(progress_fn: Callable[[int, int, str], None] | Non
         progress_fn(len(completions), len(completions), "")
 
 
-def refresh_igdb_game(data: DataEntry) -> DataEntry:
-    game = get_igdb_game_by_id(data.game.id)
-    if game:
-        data.game = game
-    else:
-        print(f"Game {data.game.name} ({data.game.id}) not found in IGDB.")
-    return data
-
-
 def refresh_all_igdb_games(progress_fn: Callable[[int, int, str], None] | None = None) -> None:
     completions = read_completions_file()
+    total = len(completions)
+
     for i, data in enumerate(completions):
-        data = refresh_igdb_game(data)
-        add_or_update_completion(data)
+        # Emit a quick pre-update so the UI shows activity immediately
         if progress_fn:
-            progress_fn(i, len(completions), data.game.name)
+            progress_fn(i, total, f"Refreshing {data.game.name}...")
+
+        message = ""
+        try:
+            refreshed = get_igdb_game_by_id(data.game.id)
+            if refreshed:
+                data.game = refreshed
+                add_or_update_completion(data)
+                message = data.game.name
+            else:
+                message = f"{data.game.name} ({data.game.id}) not found in IGDB."
+        except Exception as e:
+            message = f"Error refreshing {data.game.name}: {e}"
+        finally:
+            # Always advance the progress to i+1 so the bar moves forward
+            if progress_fn:
+                progress_fn(i + 1, total, message)
 
 
 # if __name__ == "__main__":

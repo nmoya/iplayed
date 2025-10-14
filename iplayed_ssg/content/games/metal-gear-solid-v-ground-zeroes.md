@@ -7,7 +7,7 @@ in_search_index = true
 [taxonomies]
 platforms = ['pc', 'playstation 4']
 rating = ['8.0']
-genres = ['shooter', 'role-playing (rpg)', 'strategy', 'adventure']
+genres = ['shooter', 'tactical', 'adventure']
 [extra]
 subtitle = "2 hours - PC, PlayStation 4"
 completed_at = "2022-06-16"

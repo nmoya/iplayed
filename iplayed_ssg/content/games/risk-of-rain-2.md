@@ -11,10 +11,10 @@ genres = ['shooter', 'adventure', 'indie']
 [extra]
 subtitle = "10 hours and 43 minutes - PC"
 completed_at = "2023-03-18"
-url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2eu7.jpg"
-url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2eu7.jpg"
+url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coaavb.jpg"
+url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coaavb.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2eu7.jpg") }}
+{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/coaavb.jpg") }}
 
 |              |            |
 | ------------ | ---------- |
@@ -26,5 +26,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2eu7.jp
 
 ### Additional Content
 
+
+❌ Risk of Rain 2: Alloyed Collective
 
 ❌ Risk of Rain 2: EXXXXXXX-X

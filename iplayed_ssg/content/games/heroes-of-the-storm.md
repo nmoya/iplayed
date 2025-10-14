@@ -11,10 +11,10 @@ genres = ['moba']
 [extra]
 subtitle = "39 hours and 34 minutes - PC"
 completed_at = "2023-03-18"
-url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co8a4l.jpg"
-url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co8a4l.jpg"
+url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co9sx0.jpg"
+url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co9sx0.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co8a4l.jpg") }}
+{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co9sx0.jpg") }}
 
 |              |            |
 | ------------ | ---------- |

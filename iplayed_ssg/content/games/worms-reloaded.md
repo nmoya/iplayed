@@ -7,7 +7,7 @@ in_search_index = true
 [taxonomies]
 platforms = ['pc']
 rating = []
-genres = ['platform', 'strategy']
+genres = ['platform', 'strategy', 'turn-based strategy (tbs)']
 [extra]
 subtitle = "10 hours and 18 minutes - PC"
 completed_at = "2023-03-18"
@@ -27,10 +27,10 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xmk.jp
 ### Additional Content
 
 
-❌ Worms Reloaded: Puzzle Pack
+❌ Worms Reloaded: Time Attack Pack
 
 ❌ Worms Reloaded: Forts Pack
 
 ❌ Worms Reloaded: Retro Pack
 
-❌ Worms Reloaded: Time Attack Pack
+❌ Worms Reloaded: Puzzle Pack

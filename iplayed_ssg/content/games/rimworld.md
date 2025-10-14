@@ -11,10 +11,10 @@ genres = ['real time strategy (rts)', 'simulator', 'strategy', 'indie']
 [extra]
 subtitle = "61 hours and 57 minutes - PC"
 completed_at = "2023-03-18"
-url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1j6x.jpg"
-url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1j6x.jpg"
+url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coaaqj.jpg"
+url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coaaqj.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1j6x.jpg") }}
+{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/coaaqj.jpg") }}
 
 |              |            |
 | ------------ | ---------- |
@@ -29,6 +29,6 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1j6x.jp
 
 ❌ RimWorld: Royalty
 
-❌ RimWorld: Ideology
-
 ❌ RimWorld: Biotech
+
+❌ RimWorld: Ideology

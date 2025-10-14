@@ -27,6 +27,6 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2nal.jp
 ### Additional Content
 
 
-❌ Battlefield 2: Euro Force
-
 ❌ Battlefield 2: Armored Fury
+
+❌ Battlefield 2: Euro Force

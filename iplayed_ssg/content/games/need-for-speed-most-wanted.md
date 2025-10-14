@@ -1,5 +1,5 @@
 +++
-title = "Need For Speed: Most Wanted"
+title = "Need for Speed: Most Wanted"
 description = "10 hours and 8 minutes - PC"
 date = "2023-03-18"
 updated = "2023-03-18"

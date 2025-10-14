@@ -11,10 +11,10 @@ genres = ['shooter', 'adventure', 'arcade']
 [extra]
 subtitle = "5 hours and 4 minutes - PlayStation 3"
 completed_at = "2023-03-18"
-url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1qqf.jpg"
-url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qqf.jpg"
+url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coag64.jpg"
+url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coag64.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1qqf.jpg") }}
+{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/coag64.jpg") }}
 
 |              |            |
 | ------------ | ---------- |

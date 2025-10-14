@@ -11,10 +11,10 @@ genres = ['platform', 'role-playing (rpg)', 'simulator', 'strategy', 'adventure'
 [extra]
 subtitle = "73 hours - PC"
 completed_at = "2023-03-18"
-url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1rbo.jpg"
-url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rbo.jpg"
+url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coaamg.jpg"
+url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coaamg.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1rbo.jpg") }}
+{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/coaamg.jpg") }}
 
 |              |            |
 | ------------ | ---------- |

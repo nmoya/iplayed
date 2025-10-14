@@ -11,10 +11,10 @@ genres = ['shooter', 'puzzle', 'simulator', 'indie']
 [extra]
 subtitle = "1 hours and 38 minutes - iOS"
 completed_at = "2023-03-18"
-url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2hof.jpg"
-url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2hof.jpg"
+url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co9voo.jpg"
+url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co9voo.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2hof.jpg") }}
+{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co9voo.jpg") }}
 
 |              |            |
 | ------------ | ---------- |

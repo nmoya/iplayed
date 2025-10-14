@@ -1,5 +1,5 @@
 +++
-title = "FINAL FANTASY XIII"
+title = "Final Fantasy XIII"
 description = "48 hours and 1 minutes - PlayStation 3"
 date = "2023-03-18"
 updated = "2023-03-18"

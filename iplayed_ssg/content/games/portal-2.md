@@ -7,7 +7,7 @@ in_search_index = true
 [taxonomies]
 platforms = ['playstation 3']
 rating = []
-genres = ['shooter', 'platform', 'puzzle', 'adventure']
+genres = ['platform', 'puzzle', 'adventure']
 [extra]
 subtitle = "8 hours and 34 minutes - PlayStation 3"
 completed_at = "2023-03-18"

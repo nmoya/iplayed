@@ -30,27 +30,27 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co20mh.jp
 
 ❌ Mortal Kombat 11: Shao Kahn
 
-❌ Mortal Kombat 11: Rambo
-
-❌ Mortal Kombat 11: Shang Tsung
-
-❌ Mortal Kombat 11: Nightwolf
+❌ Mortal Kombat 11: RoboCop
 
 ❌ Mortal Kombat 11: Terminator T-800
 
-❌ Mortal Kombat 11: Sindel
-
 ❌ Mortal Kombat 11: Spawn
+
+❌ Mortal Kombat 11: Sindel
 
 ✅ Mortal Kombat 11: The Joker
 
 ❌ Mortal Kombat 11: Fujin
 
-❌ Mortal Kombat 11: RoboCop
-
 ❌ Mortal Kombat 11: Mileena
 
 ❌ Mortal Kombat 11: Rain
+
+❌ Mortal Kombat 11: Rambo
+
+❌ Mortal Kombat 11: Nightwolf
+
+❌ Mortal Kombat 11: Shang Tsung
 
 ❌ Mortal Kombat 11: Sheeva
 

@@ -27,8 +27,8 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2vzi.jp
 ### Additional Content
 
 
-❌ Resident Evil 5: Desperate Escape
-
 ❌ Resident Evil 5: Lost in Nightmares
+
+❌ Resident Evil 5: Desperate Escape
 
 ❌ Resident Evil 5: Versus

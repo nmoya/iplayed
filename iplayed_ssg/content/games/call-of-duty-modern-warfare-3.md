@@ -29,8 +29,8 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wkn.jp
 
 ❌ Call of Duty: Modern Warfare 3 - Collection 1
 
-❌ Call of Duty: Modern Warfare 3 - Collection 2
+❌ Call of Duty: Modern Warfare 3 - Collection 4: Final Assault
 
 ❌ Call of Duty: Modern Warfare 3 - Collection 3: Chaos Pack
 
-❌ Call of Duty: Modern Warfare 3 - Collection 4: Final Assault
+❌ Call of Duty: Modern Warfare 3 - Collection 2

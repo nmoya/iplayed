@@ -7,7 +7,7 @@ in_search_index = true
 [taxonomies]
 platforms = ['pc']
 rating = []
-genres = ['real time strategy (rts)', 'strategy', 'quiz/trivia']
+genres = ['real time strategy (rts)', 'strategy']
 [extra]
 subtitle = "16 hours and 21 minutes - PC"
 completed_at = "2023-03-18"

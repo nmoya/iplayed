@@ -28,14 +28,14 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1yc6.jp
 ### Additional Content
 
 
-❌ Fallout 4: Automatron
-
 ❌ Fallout 4: Wasteland Workshop
-
-❌ Fallout 4: Far Harbor
 
 ❌ Fallout 4: Contraptions Workshop
 
-❌ Fallout 4: Vault-Tec Workshop
+❌ Fallout 4: Far Harbor
 
 ❌ Fallout 4: Nuka World
+
+❌ Fallout 4: Vault-Tec Workshop
+
+❌ Fallout 4: Automatron

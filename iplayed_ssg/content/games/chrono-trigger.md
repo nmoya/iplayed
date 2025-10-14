@@ -7,7 +7,7 @@ in_search_index = true
 [taxonomies]
 platforms = ['super nintendo entertainment system']
 rating = []
-genres = ['role-playing (rpg)', 'adventure']
+genres = ['role-playing (rpg)']
 [extra]
 subtitle = "25 hours - Super Nintendo Entertainment System"
 completed_at = "2024-12-05"

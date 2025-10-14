@@ -11,10 +11,10 @@ genres = ['adventure']
 [extra]
 subtitle = "9 hours and 58 minutes - PlayStation 3"
 completed_at = "2023-03-18"
-url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co94lc.jpg"
-url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co94lc.jpg"
+url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coaajv.jpg"
+url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coaajv.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co94lc.jpg") }}
+{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/coaajv.jpg") }}
 
 |              |            |
 | ------------ | ---------- |

@@ -1,3 +1,5 @@
+import asyncio
+import json
 import time
 from functools import cmp_to_key, partial
 from urllib.parse import urlencode
@@ -87,7 +89,7 @@ class IGDBClient:
     """
 
     def payload_for_search(self, query: str, limit: int, offset: int) -> str:
-        return self.base_payload + f"where parent_game = null; search '{query}'; limit {limit}; offset {offset};"
+        return self.base_payload + f'where parent_game = null; search "{query}"; limit {limit}; offset {offset};'
 
     def payload_for_id(self, game_id: int) -> str:
         return self.base_payload + f"where id = {game_id};"
@@ -99,7 +101,7 @@ class IGDBClient:
         else:
             return f"{base}{uri}"
 
-    async def refresh_access_token(self) -> str:
+    def refresh_access_token(self) -> str:
         auth_url = self.build_url(
             self.auth_url,
             "",
@@ -110,8 +112,8 @@ class IGDBClient:
             },
         )
         before = time.time()
-        async with httpx.AsyncClient() as client:
-            response = await client.post(auth_url)
+        with httpx.Client() as client:
+            response = client.post(auth_url)
             response.raise_for_status()
             auth = response.json()
             auth["expires_at"] = before + auth["expires_in"]
@@ -121,9 +123,9 @@ class IGDBClient:
     def auth_valid(self) -> bool:
         return self.auth is not None and time.time() < self.auth["expires_at"]
 
-    async def auth_token(self) -> str:
+    def auth_token(self) -> str:
         if not self.auth_valid():
-            self.auth = await self.refresh_access_token()
+            self.auth = self.refresh_access_token()
         return self.auth["access_token"]
 
     async def games_count(self) -> int:
@@ -131,7 +133,7 @@ class IGDBClient:
         headers = {
             "Client-ID": self.client_id,
             "Accept": self.accept,
-            "Authorization": f"Bearer {await self.auth_token()}",
+            "Authorization": f"Bearer {self.auth_token()}",
         }
         async with httpx.AsyncClient() as client:
             response = await client.post(url, headers=headers)
@@ -144,7 +146,7 @@ class IGDBClient:
         headers = {
             "Client-ID": self.client_id,
             "Accept": self.accept,
-            "Authorization": f"Bearer {await self.auth_token()}",
+            "Authorization": f"Bearer {self.auth_token()}",
         }
         payload = self.payload_for_search(query, limit, offset)
         async with httpx.AsyncClient() as client:
@@ -154,16 +156,16 @@ class IGDBClient:
         games = sorted(games, key=cmp_to_key(partial(compare, query)))
         return BaseIGDBSearchResults(limit=limit, offset=offset, results=games)
 
-    async def game_by_id(self, game_id: int) -> BaseIGDBGame | None:
+    def game_by_id(self, game_id: int) -> BaseIGDBGame | None:
         url = self.build_url(self.base_url, "/games", {})
         headers = {
             "Client-ID": self.client_id,
             "Accept": self.accept,
-            "Authorization": f"Bearer {await self.auth_token()}",
+            "Authorization": f"Bearer {self.auth_token()}",
         }
         payload = self.payload_for_id(game_id)
-        async with httpx.AsyncClient() as client:
-            response = await client.post(url, headers=headers, data=payload)
+        with httpx.Client() as client:
+            response = client.post(url, headers=headers, data=payload)
             data = response.json()
         if len(data) == 0:
             return None
@@ -179,15 +181,13 @@ async def search_igdb_game(name: str):
     return paginated.results
 
 
-async def get_igdb_game_by_id(game_id: int) -> BaseIGDBGame | None:
+def get_igdb_game_by_id(game_id: int) -> BaseIGDBGame | None:
     IGDB_CLIENT_ID = config.IGDB_CLIENT_ID
     IGDB_CLIENT_SECRET = config.IGDB_CLIENT_SECRET
     igdb = IGDBClient(IGDB_CLIENT_ID, IGDB_CLIENT_SECRET)
-    return await igdb.game_by_id(game_id)
+    return igdb.game_by_id(game_id)
 
 
 if __name__ == "__main__":
-    import asyncio
-
-    # asyncio.run(search_igdb_game("Dave the diver"))
-    asyncio.run(get_igdb_game_by_id(42))
+    asyncio.run(search_igdb_game("Tomb raider"))
+    # print(get_igdb_game_by_id(10734))

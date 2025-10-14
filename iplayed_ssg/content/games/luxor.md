@@ -1,5 +1,5 @@
 +++
-title = "LUXOR"
+title = "Luxor"
 description = "PC"
 date = "2023-03-18"
 updated = "2023-03-18"

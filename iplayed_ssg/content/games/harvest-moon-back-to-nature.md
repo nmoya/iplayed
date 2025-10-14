@@ -1,5 +1,5 @@
 +++
-title = "Harvest Moon: Back To Nature"
+title = "Harvest Moon: Back to Nature"
 description = "80 hours and 11 minutes - PlayStation"
 date = "2023-03-18"
 updated = "2023-03-18"

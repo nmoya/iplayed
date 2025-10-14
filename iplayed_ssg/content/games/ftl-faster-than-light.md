@@ -11,10 +11,10 @@ genres = ['role-playing (rpg)', 'simulator', 'strategy', 'indie']
 [extra]
 subtitle = "12 hours and 13 minutes - PC"
 completed_at = "2023-03-18"
-url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2gd9.jpg"
-url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2gd9.jpg"
+url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co9chw.jpg"
+url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co9chw.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2gd9.jpg") }}
+{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co9chw.jpg") }}
 
 |              |            |
 | ------------ | ---------- |

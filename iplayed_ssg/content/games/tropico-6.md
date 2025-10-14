@@ -30,18 +30,18 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1idx.jp
 
 ❌ Tropico 6: The Llama of Wall Street
 
-❌ Tropico 6: Return to Nature
-
 ❌ Tropico 6: Tropican Shores
 
-❌ Tropico 6: Going Viral
-
 ❌ Tropico 6: Caribbean Skies
+
+❌ Tropico 6: Going Viral
 
 ❌ Tropico 6: Lobbyistico
 
 ❌ Tropico 6: Spitter
 
 ❌ Tropico 6: Festival
+
+❌ Tropico 6: Return to Nature
 
 ❌ Tropico 6: New Frontiers

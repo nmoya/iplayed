@@ -28,12 +28,14 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co4bzv.jp
 ### Additional Content
 
 
-❌ Vampire Survivors: Legacy of the Moonspell
+❌ Vampire Survivors: Operation Guns
 
 ❌ Vampire Survivors: Tides of the Foscari
 
+❌ Vampire Survivors: Legacy of the Moonspell
+
 ❌ Vampire Survivors: Emergency Meeting
 
-❌ Vampire Survivors: Operation Guns
+❌ Vampire Survivors: Emerald Diorama
 
 ❌ Vampire Survivors: Ode to Castlevania

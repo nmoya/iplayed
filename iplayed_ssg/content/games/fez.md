@@ -1,5 +1,5 @@
 +++
-title = "FEZ"
+title = "Fez"
 description = "10 hours - PlayStation 3"
 date = "2017-04-09"
 updated = "2017-04-09"

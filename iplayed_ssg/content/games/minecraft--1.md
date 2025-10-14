@@ -7,7 +7,7 @@ in_search_index = true
 [taxonomies]
 platforms = ['pc']
 rating = []
-genres = ['simulator', 'adventure']
+genres = ['simulator', 'adventure', 'arcade']
 [extra]
 subtitle = "65 hours and 27 minutes - PC"
 completed_at = "2023-03-18"
@@ -27,4 +27,4 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co8fu7.jp
 ### Additional Content
 
 
-❌ Minecraft: Tetris
+❌ Minecraft: Cybersafe AI: Dig Deeper

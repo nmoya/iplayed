@@ -11,9 +11,11 @@ genres = ['simulator', 'strategy']
 [extra]
 subtitle = "Android"
 completed_at = "2023-03-18"
-url_cover_small = "None"
-url_cover_big = "None"
+url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co974v.jpg"
+url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co974v.jpg"
 +++
+{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co974v.jpg") }}
+
 |              |            |
 | ------------ | ---------- |
 | Played platforms    | Android |

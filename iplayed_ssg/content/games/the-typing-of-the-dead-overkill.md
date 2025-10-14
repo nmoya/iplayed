@@ -1,5 +1,5 @@
 +++
-title = "The Typing of The Dead: Overkill"
+title = "The Typing of the Dead: Overkill"
 description = "3 hours and 54 minutes - PC"
 date = "2023-03-18"
 updated = "2023-03-18"
@@ -27,12 +27,12 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co3w65.jp
 ### Additional Content
 
 
-❌ The Typing of the Dead: Overkill - Dancing with the Dead DLC
+❌ The Typing of the Dead: Overkill - Silver Screen DLC
 
 ❌ The Typing of the Dead: Overkill - Filth DLC
 
-❌ The Typing of the Dead: Overkill - Love at First Bite DLC
+❌ The Typing of the Dead: Overkill - Dancing with the Dead DLC
 
-❌ The Typing of the Dead: Overkill - Silver Screen DLC
+❌ The Typing of the Dead: Overkill - Love at First Bite DLC
 
 ❌ The Typing of the Dead: Overkill - Shakespeare DLC

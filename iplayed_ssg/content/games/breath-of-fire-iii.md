@@ -11,10 +11,10 @@ genres = ['role-playing (rpg)']
 [extra]
 subtitle = "41 hours and 53 minutes - PlayStation"
 completed_at = "2023-03-18"
-url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co8zmx.jpg"
-url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co8zmx.jpg"
+url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co9jxg.jpg"
+url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co9jxg.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co8zmx.jpg") }}
+{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co9jxg.jpg") }}
 
 |              |            |
 | ------------ | ---------- |

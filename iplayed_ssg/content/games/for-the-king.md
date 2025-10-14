@@ -1,5 +1,5 @@
 +++
-title = "For The King"
+title = "For the King"
 description = "11 hours and 35 minutes - PC"
 date = "2023-03-18"
 updated = "2023-03-18"

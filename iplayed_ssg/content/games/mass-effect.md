@@ -27,6 +27,6 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1x7o.jp
 ### Additional Content
 
 
-❌ Mass Effect: Pinnacle Station
-
 ❌ Mass Effect: Bring Down the Sky
+
+❌ Mass Effect: Pinnacle Station

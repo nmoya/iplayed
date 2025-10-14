@@ -1,5 +1,5 @@
 +++
-title = "STAR WARS Battlefront II"
+title = "Star Wars Battlefront II"
 description = "6 hours and 17 minutes - PC"
 date = "2023-03-18"
 updated = "2023-03-18"
@@ -26,7 +26,5 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wi7.jp
 
 ### Additional Content
 
-
-❌ Star Wars Battlefront II: Battle of Geonosis
 
 ❌ Star Wars Battlefront II: Resurrection

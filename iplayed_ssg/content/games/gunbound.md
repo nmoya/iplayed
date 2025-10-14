@@ -1,5 +1,5 @@
 +++
-title = "Gunbound"
+title = "GunBound"
 description = "PC"
 date = "2023-03-18"
 updated = "2023-03-18"

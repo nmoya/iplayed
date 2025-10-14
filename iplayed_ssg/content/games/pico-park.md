@@ -1,5 +1,5 @@
 +++
-title = "PICO PARK"
+title = "Pico Park"
 description = "2 hours - PC"
 date = "2023-05-03"
 updated = "2023-05-03"

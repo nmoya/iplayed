@@ -11,10 +11,10 @@ genres = ['real time strategy (rts)', 'strategy']
 [extra]
 subtitle = "25 hours and 6 minutes - PC"
 completed_at = "2023-03-18"
-url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1x7n.jpg"
-url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1x7n.jpg"
+url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co9n6m.jpg"
+url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co9n6m.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1x7n.jpg") }}
+{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co9n6m.jpg") }}
 
 |              |            |
 | ------------ | ---------- |

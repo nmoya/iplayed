@@ -7,7 +7,7 @@ in_search_index = true
 [taxonomies]
 platforms = ['pc']
 rating = []
-genres = ['point-and-click', 'music', 'puzzle', 'adventure', 'indie']
+genres = ['puzzle', 'adventure', 'indie']
 [extra]
 subtitle = "4 hours - PC"
 completed_at = "2023-03-18"

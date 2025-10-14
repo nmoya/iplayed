@@ -28,8 +28,6 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2acd.jp
 ### Additional Content
 
 
-❌ Tropico 5: Epic Meltdown
-
 ❌ Tropico 5: T-Day
 
 ❌ Tropico 5: Gone Green
@@ -39,6 +37,8 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2acd.jp
 ❌ Tropico 5: Inquisition
 
 ❌ Tropico 5: The Supercomputer
+
+❌ Tropico 5: Epic Meltdown
 
 ❌ Tropico 5: Surfs Up!
 

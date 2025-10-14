@@ -27,6 +27,6 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2slv.jp
 ### Additional Content
 
 
-❌ Castlevania: Lords of Shadow - Reverie
-
 ❌ Castlevania: Lords of Shadow - Resurrection
+
+❌ Castlevania: Lords of Shadow - Reverie

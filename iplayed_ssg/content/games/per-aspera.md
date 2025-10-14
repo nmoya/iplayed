@@ -27,8 +27,8 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2g12.jp
 ### Additional Content
 
 
-❌ Per Aspera: Green Mars
-
 ❌ Per Aspera: Blue Mars
+
+❌ Per Aspera: Green Mars
 
 ❌ Per Aspera: Home

@@ -1,3 +1,7 @@
+import asyncio
+import threading
+from typing import Callable
+
 from completions_file_db import deploy_markdown_files, generate_pixelated_covers, refresh_all_igdb_games
 from textual.app import ComposeResult
 from textual.containers import Center, Middle
@@ -26,25 +30,44 @@ class GenerationScreen(Screen):
         yield Footer()
 
     async def on_button_pressed(self, event: Button.Pressed) -> None:
-        task_id = event.button.id
-        if task_id == "markdown":
-            await self.run_content_generation()
-        elif task_id == "images":
-            await self.run_cover_generation()
-        elif task_id == "igdb_refresh":
-            await self.run_igdb_refresh()
+        task_map = {
+            "markdown": deploy_markdown_files,
+            "images": generate_pixelated_covers,
+            "igdb_refresh": refresh_all_igdb_games,
+        }
+        func = task_map.get(event.button.id)
+        if func:
+            # Schedule the task so the event handler can return immediately
+            # and the UI can process progress updates from the background thread.
+            asyncio.create_task(self.run_task(event.button.label, func))
 
-    def progress_update(self, current: int, total: int, message: str) -> None:
+    async def run_task(self, task_name: str, func: Callable[[Callable[[int, int, str], None]], None]) -> None:
+        """Run a sync task in a background thread with live progress updates."""
+
+        # Reset progress
+        self._update_ui(0, 1, f"Starting {task_name}...")
+
+        def thread_entry():
+            func(self.progress_update_safe)
+
+        await asyncio.to_thread(thread_entry)
+
+        self.post_message(self.GenerationComplete(task_name))
+        self._update_ui(0, 1, f"{task_name} complete!")
+
+    def progress_update_safe(self, current: int, total: int, message: str) -> None:
+        """Thread-safe UI update."""
+        if threading.current_thread() is threading.main_thread():
+            self._update_ui(current, total, message)
+        else:
+            self.app.call_from_thread(self._update_ui, current, total, message)
+
+    def _update_ui(self, current: int, total: int, message: str) -> None:
         progress_bar = self.query_one(ProgressBar)
         progress_bar.update(total=total, progress=current)
         status = self.query_one("#status", Static)
         status.update(f"{message} ({current}/{total})")
 
-    async def run_content_generation(self) -> None:
-        deploy_markdown_files(self.progress_update)
 
-    async def run_cover_generation(self) -> None:
-        generate_pixelated_covers(self.progress_update)
-
-    async def run_igdb_refresh(self) -> None:
-        refresh_all_igdb_games(self.progress_update)
+if __name__ == "__main__":
+    print(-9 % 10)

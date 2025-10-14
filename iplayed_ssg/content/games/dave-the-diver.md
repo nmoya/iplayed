@@ -11,10 +11,10 @@ genres = ['role-playing (rpg)', 'simulator', 'adventure']
 [extra]
 subtitle = "25 hours - PC"
 completed_at = "2024-12-05"
-url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co4v9d.jpg"
-url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co4v9d.jpg"
+url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coaav7.jpg"
+url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coaav7.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co4v9d.jpg") }}
+{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/coaav7.jpg") }}
 
 |              |            |
 | ------------ | ---------- |
@@ -28,11 +28,13 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co4v9d.jp
 ### Additional Content
 
 
+❌ Dave the Diver: Potion Craft
+
 ✅ Dave the Diver: Dredge
 
-✅ Dave the Diver: Godzilla
+❌ Dave the Diver: Ichiban's Holiday
 
-❌ Dave the Diver: Potion Craft
+✅ Dave the Diver: Godzilla
 
 ✅ Dave the Diver: Balatro
 

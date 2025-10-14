@@ -7,7 +7,7 @@ in_search_index = true
 [taxonomies]
 platforms = ['super nintendo entertainment system']
 rating = []
-genres = ['racing']
+genres = ['racing', 'arcade']
 [extra]
 subtitle = "2 hours and 12 minutes - Super Nintendo Entertainment System"
 completed_at = "2023-03-18"

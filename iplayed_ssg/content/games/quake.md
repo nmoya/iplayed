@@ -11,10 +11,10 @@ genres = ['shooter']
 [extra]
 subtitle = "5 hours and 20 minutes - PC"
 completed_at = "2023-03-18"
-url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1ybm.jpg"
-url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ybm.jpg"
+url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co9bg9.jpg"
+url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co9bg9.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1ybm.jpg") }}
+{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co9bg9.jpg") }}
 
 |              |            |
 | ------------ | ---------- |
@@ -27,12 +27,8 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ybm.jp
 ### Additional Content
 
 
-❌ Shrak for Quake
-
-❌ Quake: Episode 5 - Dimension of the Past
-
-❌ Quake: Episode 6 - Dimension of the Machine
-
 ❌ Dark Hour
+
+❌ Shrak for Quake
 
 ❌ Aftershock for Quake

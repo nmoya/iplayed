@@ -11,10 +11,10 @@ genres = ['puzzle', 'role-playing (rpg)', "hack and slash/beat 'em up", 'adventu
 [extra]
 subtitle = "7 hours and 11 minutes - PC"
 completed_at = "2023-03-18"
-url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co527e.jpg"
-url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co527e.jpg"
+url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coaame.jpg"
+url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coaame.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co527e.jpg") }}
+{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/coaame.jpg") }}
 
 |              |            |
 | ------------ | ---------- |
@@ -23,3 +23,8 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co527e.jp
 | Completed at | 2023/03/18 |
 
 
+
+### Additional Content
+
+
+❌ Castle Crashers: Painter Boss Paradise

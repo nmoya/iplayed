@@ -26,7 +26,7 @@ class MainMenu(Screen):
     BINDINGS = [
         ("1", "completions", "Manage Completions"),
         ("2", "configurations", "Review configuration"),
-        ("3", "generate_covers", "Generate Covers"),
+        ("3", "content_management", "Content management"),
         ("escape", "quit", "Quit"),
     ]
 

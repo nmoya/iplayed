@@ -7,7 +7,7 @@ in_search_index = true
 [taxonomies]
 platforms = ['pc']
 rating = []
-genres = ['role-playing (rpg)', 'adventure', 'indie']
+genres = ['role-playing (rpg)', 'turn-based strategy (tbs)', 'adventure', 'indie']
 [extra]
 subtitle = "3 hours and 6 minutes - PC"
 completed_at = "2024-12-05"

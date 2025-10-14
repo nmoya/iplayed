@@ -27,4 +27,4 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tnn.jp
 ### Additional Content
 
 
-❌ Starcraft II: Nova Covert Ops
+❌ StarCraft II: Nova Covert Ops

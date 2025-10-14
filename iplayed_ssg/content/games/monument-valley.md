@@ -7,14 +7,14 @@ in_search_index = true
 [taxonomies]
 platforms = ['ios']
 rating = []
-genres = ['puzzle', 'adventure']
+genres = ['puzzle', 'strategy', 'adventure']
 [extra]
 subtitle = "1 hours and 28 minutes - iOS"
 completed_at = "2023-03-18"
-url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co22l6.jpg"
-url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co22l6.jpg"
+url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coaeoe.jpg"
+url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coaeoe.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co22l6.jpg") }}
+{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/coaeoe.jpg") }}
 
 |              |            |
 | ------------ | ---------- |

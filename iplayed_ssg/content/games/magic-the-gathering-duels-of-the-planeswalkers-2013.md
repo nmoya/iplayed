@@ -27,4 +27,8 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/uqzcexfgh
 ### Additional Content
 
 
-❌ Magic: The Gathering - Duels of the Planeswalkers 2013: Expansion
+❌ Magic: The Gathering - Duels of the Planeswalkers 2013: Deck Pack 1
+
+❌ Magic: The Gathering - Duels of the Planeswalkers 2013: Deck Pack 3
+
+❌ Magic: The Gathering - Duels of the Planeswalkers 2013: Deck Pack 2

@@ -11,10 +11,10 @@ genres = ['shooter']
 [extra]
 subtitle = "3 hours and 36 minutes - PC"
 completed_at = "2023-03-18"
-url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2mw3.jpg"
-url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mw3.jpg"
+url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co9c5r.jpg"
+url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co9c5r.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2mw3.jpg") }}
+{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co9c5r.jpg") }}
 
 |              |            |
 | ------------ | ---------- |

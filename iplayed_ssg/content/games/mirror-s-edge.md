@@ -7,7 +7,7 @@ in_search_index = true
 [taxonomies]
 platforms = ['playstation 3']
 rating = []
-genres = ['shooter', 'platform', 'adventure']
+genres = ['platform', 'puzzle', 'adventure']
 [extra]
 subtitle = "6 hours and 7 minutes - PlayStation 3"
 completed_at = "2023-03-18"
@@ -23,3 +23,8 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co5gbw.jp
 | Completed at | 2023/03/18 |
 
 
+
+### Additional Content
+
+
+❌ Mirror's Edge: Pure Time Trials

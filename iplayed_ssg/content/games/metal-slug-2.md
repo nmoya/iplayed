@@ -1,5 +1,5 @@
 +++
-title = "METAL SLUG 2"
+title = "Metal Slug 2"
 description = "1 hours and 3 minutes - PC"
 date = "2023-03-18"
 updated = "2023-03-18"

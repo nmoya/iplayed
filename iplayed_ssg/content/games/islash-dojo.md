@@ -1,5 +1,5 @@
 +++
-title = "iSlash Dojo"
+title = "ISlash Dojo"
 description = "iOS"
 date = "2023-03-18"
 updated = "2023-03-18"

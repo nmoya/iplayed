@@ -7,7 +7,7 @@ in_search_index = true
 [taxonomies]
 platforms = ['pc']
 rating = ['7.0']
-genres = ['role-playing (rpg)', 'adventure']
+genres = ['adventure']
 [extra]
 subtitle = "11 hours - PC"
 completed_at = "2023-03-18"

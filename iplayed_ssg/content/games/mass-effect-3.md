@@ -27,15 +27,17 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1x7q.jp
 ### Additional Content
 
 
-❌ Mass Effect 3: Citadel
-
-❌ Mass Effect 3: From Ashes
+❌ Mass Effect 3: Rebellion Pack
 
 ❌ Mass Effect 3: Leviathan
 
-❌ Mass Effect 3: Omega
+❌ Mass Effect 3: Citadel
 
 ❌ Mass Effect 3: Retaliation
+
+❌ Mass Effect 3: Omega
+
+❌ Mass Effect 3: From Ashes
 
 ❌ Mass Effect 3: Extended Cut
 

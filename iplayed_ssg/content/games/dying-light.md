@@ -27,8 +27,8 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co65yq.jp
 ### Additional Content
 
 
-❌ Dying Light: Bozak Horde
-
 ❌ Dying Light: Hellraid
+
+❌ Dying Light: Bozak Horde
 
 ❌ Dying Light: Cuisine & Cargo

@@ -1,5 +1,5 @@
 +++
-title = "James Cameron's AVATAR: The Game"
+title = "James Cameron's Avatar: The Game"
 description = "8 hours and 10 minutes - PC"
 date = "2023-03-18"
 updated = "2023-03-18"

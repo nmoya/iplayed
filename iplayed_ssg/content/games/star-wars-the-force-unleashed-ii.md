@@ -1,5 +1,5 @@
 +++
-title = "STAR WARS: The Force Unleashed II"
+title = "Star Wars: The Force Unleashed II"
 description = "5 hours and 12 minutes - PlayStation 3"
 date = "2023-03-18"
 updated = "2023-03-18"
@@ -27,6 +27,6 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co25xw.jp
 ### Additional Content
 
 
-❌ Star Wars: The Force Unleashed II - The Battle of Endor
-
 ❌ Star Wars: The Force Unleashed II - Character Pack
+
+❌ Star Wars: The Force Unleashed II - The Battle of Endor

@@ -7,7 +7,7 @@ in_search_index = true
 [taxonomies]
 platforms = ['pc']
 rating = []
-genres = ['shooter']
+genres = ['shooter', 'adventure']
 [extra]
 subtitle = "7 hours and 23 minutes - PC"
 completed_at = "2023-03-18"

@@ -1,5 +1,5 @@
 +++
-title = "SEGA Bass Fishing"
+title = "Sega Bass Fishing"
 description = "PlayStation 3"
 date = "2023-03-18"
 updated = "2023-03-18"

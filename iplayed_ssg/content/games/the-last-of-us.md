@@ -1,5 +1,5 @@
 +++
-title = "The Last Of Us"
+title = "The Last of Us"
 description = "15 hours and 15 minutes - PlayStation 3"
 date = "2023-03-18"
 updated = "2023-03-18"

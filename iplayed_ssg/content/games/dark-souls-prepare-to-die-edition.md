@@ -1,5 +1,5 @@
 +++
-title = "Dark Souls: Prepare To Die Edition"
+title = "Dark Souls: Prepare to Die Edition"
 description = "45 hours and 51 minutes - PC"
 date = "2023-03-18"
 updated = "2023-03-18"

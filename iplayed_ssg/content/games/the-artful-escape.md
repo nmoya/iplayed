@@ -7,7 +7,7 @@ in_search_index = true
 [taxonomies]
 platforms = ['xbox series x|s']
 rating = []
-genres = ['music', 'platform', 'adventure', 'indie']
+genres = ['music', 'platform', 'puzzle', 'role-playing (rpg)', 'adventure', 'indie']
 [extra]
 subtitle = "4 hours and 9 minutes - Xbox Series X|S"
 completed_at = "2023-03-18"

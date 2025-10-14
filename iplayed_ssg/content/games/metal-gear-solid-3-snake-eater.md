@@ -1,5 +1,5 @@
 +++
-title = "Metal Gear Solid 3: Snake Eater"
+title = "Metal Gear Solid 3 Snake Eater"
 description = "15 hours and 48 minutes - PlayStation 2"
 date = "2023-03-18"
 updated = "2023-03-18"
