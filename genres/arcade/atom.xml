@@ -62,6 +62,33 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>Jupiter Hell</title>
+        <published>2024-12-05T00:00:00+00:00</published>
+        <updated>2024-12-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/jupiter-hell/"/>
+        <id>https://nikolasmoya.com/iplayed/games/jupiter-hell/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/jupiter-hell/">&lt;figure&gt;
+    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co2qgw.jpg&quot;&#x2F;&gt;
+&lt;&#x2F;figure&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;10 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;PC&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2024&#x2F;12&#x2F;05&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>Vampire Survivors</title>
         <published>2023-11-30T00:00:00+00:00</published>
         <updated>2023-11-30T00:00:00+00:00</updated>
@@ -87,10 +114,11 @@
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;11&#x2F;30&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Vampire Survivors: Legacy of the Moonspell&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Vampire Survivors: Tides of the Foscari&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Vampire Survivors: Emergency Meeting&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Vampire Survivors: Operation Guns&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Vampire Survivors: Tides of the Foscari&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Vampire Survivors: Legacy of the Moonspell&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Vampire Survivors: Emergency Meeting&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Vampire Survivors: Emerald Diorama&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Vampire Survivors: Ode to Castlevania&lt;&#x2F;p&gt;
 </content>
         
@@ -139,7 +167,7 @@
         <id>https://nikolasmoya.com/iplayed/games/call-of-juarez-gunslinger/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/call-of-juarez-gunslinger/">&lt;figure&gt;
-    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co1qqf.jpg&quot;&#x2F;&gt;
+    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;coag64.jpg&quot;&#x2F;&gt;
 &lt;&#x2F;figure&gt;
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
 &lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;5 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
@@ -395,7 +423,7 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>LUXOR</title>
+        <title>Luxor</title>
         <published>2023-03-18T00:00:00+00:00</published>
         <updated>2023-03-18T00:00:00+00:00</updated>
         
@@ -421,7 +449,7 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>METAL SLUG 2</title>
+        <title>Metal Slug 2</title>
         <published>2023-03-18T00:00:00+00:00</published>
         <updated>2023-03-18T00:00:00+00:00</updated>
         
@@ -448,7 +476,7 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>METAL SLUG 3</title>
+        <title>Metal Slug 3</title>
         <published>2023-03-18T00:00:00+00:00</published>
         <updated>2023-03-18T00:00:00+00:00</updated>
         
@@ -475,7 +503,7 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>METAL SLUG</title>
+        <title>Metal Slug</title>
         <published>2023-03-18T00:00:00+00:00</published>
         <updated>2023-03-18T00:00:00+00:00</updated>
         
@@ -496,6 +524,35 @@
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Minecraft</title>
+        <published>2023-03-18T00:00:00+00:00</published>
+        <updated>2023-03-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/minecraft--1/"/>
+        <id>https://nikolasmoya.com/iplayed/games/minecraft--1/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/minecraft--1/">&lt;figure&gt;
+    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co8fu7.jpg&quot;&#x2F;&gt;
+&lt;&#x2F;figure&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;65 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;PC&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;❌ Minecraft: Cybersafe AI: Dig Deeper&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -527,6 +584,32 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>Monster Rancher Hop-A-Bout</title>
+        <published>2023-03-18T00:00:00+00:00</published>
+        <updated>2023-03-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/monster-rancher-hop-a-bout/"/>
+        <id>https://nikolasmoya.com/iplayed/games/monster-rancher-hop-a-bout/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/monster-rancher-hop-a-bout/">&lt;figure&gt;
+    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;coacfc.jpg&quot;&#x2F;&gt;
+&lt;&#x2F;figure&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;PlayStation&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>Mortal Kombat Trilogy</title>
         <published>2023-03-18T00:00:00+00:00</published>
         <updated>2023-03-18T00:00:00+00:00</updated>
@@ -550,6 +633,36 @@
 &lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;PlayStation&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>No Man&#x27;s Sky</title>
+        <published>2023-03-18T00:00:00+00:00</published>
+        <updated>2023-03-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/no-man-s-sky/"/>
+        <id>https://nikolasmoya.com/iplayed/games/no-man-s-sky/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/no-man-s-sky/">&lt;figure&gt;
+    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;coacrk.jpg&quot;&#x2F;&gt;
+&lt;&#x2F;figure&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Rating&lt;&#x2F;td&gt;&lt;td&gt;7.0&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;70 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;PC&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;❌ No Man&#x27;s Sky: Starborn Phoenix Ship&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -637,7 +750,7 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>SEGA Bass Fishing</title>
+        <title>Sega Bass Fishing</title>
         <published>2023-03-18T00:00:00+00:00</published>
         <updated>2023-03-18T00:00:00+00:00</updated>
         
@@ -657,6 +770,33 @@
 &lt;&#x2F;figure&gt;
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
 &lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;PlayStation 3&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Super Mario Kart</title>
+        <published>2023-03-18T00:00:00+00:00</published>
+        <updated>2023-03-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/super-mario-kart/"/>
+        <id>https://nikolasmoya.com/iplayed/games/super-mario-kart/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/super-mario-kart/">&lt;figure&gt;
+    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co21w8.jpg&quot;&#x2F;&gt;
+&lt;&#x2F;figure&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;2 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;Super Nintendo Entertainment System&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 </content>
@@ -773,12 +913,12 @@
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2017&#x2F;03&#x2F;24&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;✅ Mario Kart 8 Deluxe: Booster Course Pass - Wave 2&lt;&#x2F;p&gt;
+&lt;p&gt;✅ Mario Kart 8 Deluxe: Booster Course Pass - Wave 6&lt;&#x2F;p&gt;
+&lt;p&gt;✅ Mario Kart 8 Deluxe: Booster Course Pass - Wave 4&lt;&#x2F;p&gt;
 &lt;p&gt;✅ Mario Kart 8 Deluxe: Booster Course Pass - Wave 3&lt;&#x2F;p&gt;
 &lt;p&gt;✅ Mario Kart 8 Deluxe: Booster Course Pass - Wave 1&lt;&#x2F;p&gt;
-&lt;p&gt;✅ Mario Kart 8 Deluxe: Booster Course Pass - Wave 2&lt;&#x2F;p&gt;
-&lt;p&gt;✅ Mario Kart 8 Deluxe: Booster Course Pass - Wave 4&lt;&#x2F;p&gt;
 &lt;p&gt;✅ Mario Kart 8 Deluxe: Booster Course Pass - Wave 5&lt;&#x2F;p&gt;
-&lt;p&gt;✅ Mario Kart 8 Deluxe: Booster Course Pass - Wave 6&lt;&#x2F;p&gt;
 </content>
         
     </entry>

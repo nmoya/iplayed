@@ -4,35 +4,8 @@
     <link rel="self" type="application/atom+xml" href="https://nikolasmoya.com/iplayed/genres/real time strategy (rts)/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2023-04-04T00:00:00+00:00</updated>
+    <updated>2023-03-18T00:00:00+00:00</updated>
     <id>https://nikolasmoya.com/iplayed/genres/real time strategy (rts)/atom.xml</id>
-    <entry xml:lang="en">
-        <title>Age of Empires</title>
-        <published>2023-04-04T00:00:00+00:00</published>
-        <updated>2023-04-04T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/age-of-empires/"/>
-        <id>https://nikolasmoya.com/iplayed/games/age-of-empires/</id>
-        
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/age-of-empires/">&lt;figure&gt;
-    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co1zsh.jpg&quot;&#x2F;&gt;
-&lt;&#x2F;figure&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;21 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;PC&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;04&#x2F;04&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
-</content>
-        
-    </entry>
     <entry xml:lang="en">
         <title>Age of Empires II: HD Edition</title>
         <published>2023-03-18T00:00:00+00:00</published>
@@ -57,8 +30,6 @@
 &lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;PC&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
-&lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Age of Empires II: HD Edition - The African Kingdoms&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -140,6 +111,8 @@
 &lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;PC&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;❌ Age of Mythology: The Golden Gift&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -214,7 +187,7 @@
         <id>https://nikolasmoya.com/iplayed/games/rimworld/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/rimworld/">&lt;figure&gt;
-    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co1j6x.jpg&quot;&#x2F;&gt;
+    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;coaaqj.jpg&quot;&#x2F;&gt;
 &lt;&#x2F;figure&gt;
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
 &lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;61 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
@@ -223,8 +196,8 @@
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;❌ RimWorld: Royalty&lt;&#x2F;p&gt;
-&lt;p&gt;❌ RimWorld: Ideology&lt;&#x2F;p&gt;
 &lt;p&gt;❌ RimWorld: Biotech&lt;&#x2F;p&gt;
+&lt;p&gt;❌ RimWorld: Ideology&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -307,7 +280,7 @@
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Starcraft II: Nova Covert Ops&lt;&#x2F;p&gt;
+&lt;p&gt;❌ StarCraft II: Nova Covert Ops&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -328,7 +301,7 @@
         <id>https://nikolasmoya.com/iplayed/games/starcraft/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/starcraft/">&lt;figure&gt;
-    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co1x7n.jpg&quot;&#x2F;&gt;
+    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co9n6m.jpg&quot;&#x2F;&gt;
 &lt;&#x2F;figure&gt;
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
 &lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;25 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
@@ -367,13 +340,13 @@
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;❌ Tropico 6: The Llama of Wall Street&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Tropico 6: Return to Nature&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Tropico 6: Tropican Shores&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Tropico 6: Going Viral&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Tropico 6: Caribbean Skies&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Tropico 6: Going Viral&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Tropico 6: Lobbyistico&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Tropico 6: Spitter&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Tropico 6: Festival&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Tropico 6: Return to Nature&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Tropico 6: New Frontiers&lt;&#x2F;p&gt;
 </content>
         

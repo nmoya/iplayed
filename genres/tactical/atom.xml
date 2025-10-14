@@ -60,9 +60,9 @@
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;❌ Call of Duty: Modern Warfare 3 - Collection 1&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Call of Duty: Modern Warfare 3 - Collection 2&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Call of Duty: Modern Warfare 3 - Collection 3: Chaos Pack&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Call of Duty: Modern Warfare 3 - Collection 4: Final Assault&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Call of Duty: Modern Warfare 3 - Collection 3: Chaos Pack&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Call of Duty: Modern Warfare 3 - Collection 2&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -94,7 +94,7 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>Gunbound</title>
+        <title>GunBound</title>
         <published>2023-03-18T00:00:00+00:00</published>
         <updated>2023-03-18T00:00:00+00:00</updated>
         
@@ -144,7 +144,9 @@
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Magic: The Gathering - Duels of the Planeswalkers 2013: Expansion&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Magic: The Gathering - Duels of the Planeswalkers 2013: Deck Pack 1&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Magic: The Gathering - Duels of the Planeswalkers 2013: Deck Pack 3&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Magic: The Gathering - Duels of the Planeswalkers 2013: Deck Pack 2&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -176,7 +178,34 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>Metal Gear Solid 3: Snake Eater</title>
+        <title>Metal Gear Solid 2: Sons of Liberty</title>
+        <published>2023-03-18T00:00:00+00:00</published>
+        <updated>2023-03-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/metal-gear-solid-2-sons-of-liberty/"/>
+        <id>https://nikolasmoya.com/iplayed/games/metal-gear-solid-2-sons-of-liberty/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/metal-gear-solid-2-sons-of-liberty/">&lt;figure&gt;
+    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co5e1c.jpg&quot;&#x2F;&gt;
+&lt;&#x2F;figure&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;13 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;PlayStation 2&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Metal Gear Solid 3 Snake Eater</title>
         <published>2023-03-18T00:00:00+00:00</published>
         <updated>2023-03-18T00:00:00+00:00</updated>
         
@@ -308,6 +337,34 @@
 &lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;26 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;PlayStation 3&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Metal Gear Solid V: Ground Zeroes</title>
+        <published>2022-06-16T00:00:00+00:00</published>
+        <updated>2022-06-16T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/metal-gear-solid-v-ground-zeroes/"/>
+        <id>https://nikolasmoya.com/iplayed/games/metal-gear-solid-v-ground-zeroes/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/metal-gear-solid-v-ground-zeroes/">&lt;figure&gt;
+    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co1v88.jpg&quot;&#x2F;&gt;
+&lt;&#x2F;figure&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Rating&lt;&#x2F;td&gt;&lt;td&gt;8.0&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;2 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;PC, PlayStation 4&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2022&#x2F;06&#x2F;16&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 </content>
         

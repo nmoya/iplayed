@@ -4,8 +4,36 @@
     <link rel="self" type="application/atom+xml" href="https://nikolasmoya.com/iplayed/genres/adventure/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2025-08-02T00:00:00+00:00</updated>
+    <updated>2025-10-08T00:00:00+00:00</updated>
     <id>https://nikolasmoya.com/iplayed/genres/adventure/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Tomb Raider IV•V•VI Remastered</title>
+        <published>2025-10-08T00:00:00+00:00</published>
+        <updated>2025-10-08T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/tomb-raider-iv-star-v-star-vi-remastered/"/>
+        <id>https://nikolasmoya.com/iplayed/games/tomb-raider-iv-star-v-star-vi-remastered/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/tomb-raider-iv-star-v-star-vi-remastered/">&lt;figure&gt;
+    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co8xtf.jpg&quot;&#x2F;&gt;
+&lt;&#x2F;figure&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Rating&lt;&#x2F;td&gt;&lt;td&gt;7.0&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;25 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;PC (Microsoft Windows)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2025&#x2F;10&#x2F;08&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+</content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>Clair Obscur: Expedition 33</title>
         <published>2025-08-02T00:00:00+00:00</published>
@@ -219,7 +247,7 @@
         <id>https://nikolasmoya.com/iplayed/games/green-hell/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/green-hell/">&lt;figure&gt;
-    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co255i.jpg&quot;&#x2F;&gt;
+    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co9d3h.jpg&quot;&#x2F;&gt;
 &lt;&#x2F;figure&gt;
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
 &lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;16 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
@@ -339,8 +367,8 @@
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2024&#x2F;12&#x2F;27&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ South Park: The Stick of Truth - Ultimate Fellowship Pack&lt;&#x2F;p&gt;
 &lt;p&gt;❌ South Park: The Stick of Truth - Super Samurai Spaceman Pack&lt;&#x2F;p&gt;
+&lt;p&gt;❌ South Park: The Stick of Truth - Ultimate Fellowship Pack&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -372,33 +400,6 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>Chrono Trigger</title>
-        <published>2024-12-05T00:00:00+00:00</published>
-        <updated>2024-12-05T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/chrono-trigger/"/>
-        <id>https://nikolasmoya.com/iplayed/games/chrono-trigger/</id>
-        
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/chrono-trigger/">&lt;figure&gt;
-    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co3plw.jpg&quot;&#x2F;&gt;
-&lt;&#x2F;figure&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;25 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;Super Nintendo Entertainment System&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2024&#x2F;12&#x2F;05&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
-</content>
-        
-    </entry>
-    <entry xml:lang="en">
         <title>Dave the Diver</title>
         <published>2024-12-05T00:00:00+00:00</published>
         <updated>2024-12-05T00:00:00+00:00</updated>
@@ -415,7 +416,7 @@
         <id>https://nikolasmoya.com/iplayed/games/dave-the-diver/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/dave-the-diver/">&lt;figure&gt;
-    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co4v9d.jpg&quot;&#x2F;&gt;
+    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;coaav7.jpg&quot;&#x2F;&gt;
 &lt;&#x2F;figure&gt;
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
 &lt;tr&gt;&lt;td&gt;Rating&lt;&#x2F;td&gt;&lt;td&gt;8.0&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
@@ -424,9 +425,10 @@
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2024&#x2F;12&#x2F;05&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;✅ Dave the Diver: Dredge&lt;&#x2F;p&gt;
-&lt;p&gt;✅ Dave the Diver: Godzilla&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Dave the Diver: Potion Craft&lt;&#x2F;p&gt;
+&lt;p&gt;✅ Dave the Diver: Dredge&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Dave the Diver: Ichiban&#x27;s Holiday&lt;&#x2F;p&gt;
+&lt;p&gt;✅ Dave the Diver: Godzilla&lt;&#x2F;p&gt;
 &lt;p&gt;✅ Dave the Diver: Balatro&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Dave the Diver: Mxmtoon&lt;&#x2F;p&gt;
 </content>
@@ -538,8 +540,8 @@
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;❌ Far Cry 6: Collapse&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Far Cry 6: Control&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Far Cry 6: Insanity&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Far Cry 6: Control&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Far Cry 6: Danny &amp;amp; Dani Vs. Everybody&lt;&#x2F;p&gt;
 </content>
         
@@ -652,10 +654,11 @@
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;11&#x2F;30&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Vampire Survivors: Legacy of the Moonspell&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Vampire Survivors: Tides of the Foscari&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Vampire Survivors: Emergency Meeting&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Vampire Survivors: Operation Guns&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Vampire Survivors: Tides of the Foscari&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Vampire Survivors: Legacy of the Moonspell&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Vampire Survivors: Emergency Meeting&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Vampire Survivors: Emerald Diorama&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Vampire Survivors: Ode to Castlevania&lt;&#x2F;p&gt;
 </content>
         
@@ -767,9 +770,9 @@
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;05&#x2F;17&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;❌ Wo Long: Fallen Dynasty - Upheaval in Jingxiang&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Wo Long: Fallen Dynasty - Battle of Zhongyuan&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Wo Long: Fallen Dynasty - Conqueror of Jiangdong&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Wo Long: Fallen Dynasty - Upheaval in Jingxiang&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -824,6 +827,8 @@
 &lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;PC&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;04&#x2F;04&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;❌ Astroneer: Megatech&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -932,13 +937,13 @@
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Alien: Isolation - Corporate Lockdown&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Alien: Isolation - Crew Expendable&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Alien: Isolation - Last Survivor&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Alien: Isolation - Safe Haven&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Alien: Isolation - Trauma&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Alien: Isolation - The Trigger&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Alien: Isolation - Last Survivor&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Alien: Isolation - Crew Expendable&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Alien: Isolation - Lost Contact&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Alien: Isolation - Corporate Lockdown&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Alien: Isolation - The Trigger&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Alien: Isolation - Safe Haven&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -967,8 +972,8 @@
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Assassin&#x27;s Creed II: Battle of Forlì&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Assassin&#x27;s Creed II: Bonfire of the Vanities&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Assassin&#x27;s Creed II: Battle of Forlì&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -1028,8 +1033,8 @@
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Assassin&#x27;s Creed Brotherhood: The Da Vinci Disappearance&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Assassin&#x27;s Creed Brotherhood: Copernicus Conspiracy&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Assassin&#x27;s Creed Brotherhood: The Da Vinci Disappearance&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -1058,8 +1063,8 @@
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Assassin&#x27;s Creed Odyssey: The Lost Tales of Greece&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Assassin&#x27;s Creed Odyssey: Prince of Persia&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Assassin&#x27;s Creed Odyssey: The Lost Tales of Greece&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -1229,9 +1234,9 @@
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;❌ Call of Duty: Modern Warfare 3 - Collection 1&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Call of Duty: Modern Warfare 3 - Collection 2&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Call of Duty: Modern Warfare 3 - Collection 3: Chaos Pack&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Call of Duty: Modern Warfare 3 - Collection 4: Final Assault&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Call of Duty: Modern Warfare 3 - Collection 3: Chaos Pack&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Call of Duty: Modern Warfare 3 - Collection 2&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -1252,7 +1257,7 @@
         <id>https://nikolasmoya.com/iplayed/games/call-of-juarez-gunslinger/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/call-of-juarez-gunslinger/">&lt;figure&gt;
-    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co1qqf.jpg&quot;&#x2F;&gt;
+    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;coag64.jpg&quot;&#x2F;&gt;
 &lt;&#x2F;figure&gt;
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
 &lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;5 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
@@ -1279,13 +1284,15 @@
         <id>https://nikolasmoya.com/iplayed/games/castle-crashers/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/castle-crashers/">&lt;figure&gt;
-    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co527e.jpg&quot;&#x2F;&gt;
+    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;coaame.jpg&quot;&#x2F;&gt;
 &lt;&#x2F;figure&gt;
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
 &lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;7 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;PC&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;❌ Castle Crashers: Painter Boss Paradise&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -1314,8 +1321,8 @@
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Castlevania: Lords of Shadow - Reverie&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Castlevania: Lords of Shadow - Resurrection&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Castlevania: Lords of Shadow - Reverie&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -1517,7 +1524,7 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>Dark Souls: Prepare To Die Edition</title>
+        <title>Dark Souls: Prepare to Die Edition</title>
         <published>2023-03-18T00:00:00+00:00</published>
         <updated>2023-03-18T00:00:00+00:00</updated>
         
@@ -1844,33 +1851,6 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>Donkey Kong Country</title>
-        <published>2023-03-18T00:00:00+00:00</published>
-        <updated>2023-03-18T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/donkey-kong-country/"/>
-        <id>https://nikolasmoya.com/iplayed/games/donkey-kong-country/</id>
-        
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/donkey-kong-country/">&lt;figure&gt;
-    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co70qn.jpg&quot;&#x2F;&gt;
-&lt;&#x2F;figure&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;3 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;Super Nintendo Entertainment System&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
-</content>
-        
-    </entry>
-    <entry xml:lang="en">
         <title>Duke Nukem Forever</title>
         <published>2023-03-18T00:00:00+00:00</published>
         <updated>2023-03-18T00:00:00+00:00</updated>
@@ -1952,28 +1932,29 @@
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Dungeon Defenders: Talay Mining Complex Mission Pack&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Dungeon Defenders: New Heroes DLC&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Dungeon Defenders: Halloween Mission Pack&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Dungeon Defenders: Warping Core Challenge Mission Pack&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Dungeon Defenders: Etherian Festival of Love&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Dungeon Defenders: Quest for the Lost Eternia Shards Part 3&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Dungeon Defenders: Quest for the Lost Eternia Shards Part 1&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Dungeon Defenders: The Tinkerer&#x27;s Lab Mission Pack&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Dungeon Defenders: Quest for the Lost Eternia Shards Part 4&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Dungeon Defenders: Warden Hero DLC&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Dungeon Defenders: Barbarian Hero DLC&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Dungeon Defenders: Warping Core Challenge Mission Pack&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Dungeon Defenders: Hermit Hero&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Dungeon Defenders: Jester Hero DLC&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Dungeon Defenders: President&#x27;s Day Surprise&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Dungeon Defenders: Series EV Hero DLC&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Dungeon Defenders: Karathiki Jungle Mission Pack&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Dungeon Defenders: Etherian Holiday Extravaganza&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Dungeon Defenders: Anniversary Pack&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Dungeon Defenders: City in the Cliffs Mission Pack&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Dungeon Defenders: Talay Mining Complex Mission Pack&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Dungeon Defenders: Halloween Mission Pack&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Dungeon Defenders: Quest for the Lost Eternia Shards Part 2&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Dungeon Defenders: Summoner Hero DLC&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Dungeon Defenders: Quest for the Lost Eternia Shards Part 1&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Dungeon Defenders: New Heroes DLC&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Dungeon Defenders: Assault Mission Pack&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Dungeon Defenders: Quest for the Lost Eternia Shards Part 3&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Dungeon Defenders: Quest for the Lost Eternia Shards Part 4&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Dungeon Defenders: Jester Hero DLC&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Dungeon Defenders: Series EV Hero DLC&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Dungeon Defenders: Anniversary Pack&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Dungeon Defenders: The Great Turkey Hunt! Mission &amp;amp; Costumes&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Dungeon Defenders: President&#x27;s Day Surprise&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Dungeon Defenders: Etherian Holiday Extravaganza&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Dungeon Defenders: City in the Cliffs Mission Pack&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Dungeon Defenders: Karathiki Jungle Mission Pack&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Dungeon Defenders: Barbarian Hero DLC&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Dungeon Defenders: Hermit Hero&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Dungeon Defenders: The Tinkerer&#x27;s Lab Mission Pack&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -2002,8 +1983,8 @@
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Dying Light: Bozak Horde&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Dying Light: Hellraid&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Dying Light: Bozak Horde&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Dying Light: Cuisine &amp;amp; Cargo&lt;&#x2F;p&gt;
 </content>
         
@@ -2033,14 +2014,41 @@
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Far Cry 5: Dead Living Zombies&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Far Cry 5: Lost on Mars&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Far Cry 5: Dead Living Zombies&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Far Cry 5: Hours of Darkness&lt;&#x2F;p&gt;
 </content>
         
     </entry>
     <entry xml:lang="en">
-        <title>FINAL FANTASY XIII</title>
+        <title>Final Fantasy IX</title>
+        <published>2023-03-18T00:00:00+00:00</published>
+        <updated>2023-03-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/final-fantasy-ix/"/>
+        <id>https://nikolasmoya.com/iplayed/games/final-fantasy-ix/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/final-fantasy-ix/">&lt;figure&gt;
+    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co2unc.jpg&quot;&#x2F;&gt;
+&lt;&#x2F;figure&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;38 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;PlayStation&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Final Fantasy XIII</title>
         <published>2023-03-18T00:00:00+00:00</published>
         <updated>2023-03-18T00:00:00+00:00</updated>
         
@@ -2095,7 +2103,7 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>For The King</title>
+        <title>For the King</title>
         <published>2023-03-18T00:00:00+00:00</published>
         <updated>2023-03-18T00:00:00+00:00</updated>
         
@@ -2118,6 +2126,65 @@
 &lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;PC&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Forza Horizon 4</title>
+        <published>2023-03-18T00:00:00+00:00</published>
+        <updated>2023-03-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/forza-horizon-4/"/>
+        <id>https://nikolasmoya.com/iplayed/games/forza-horizon-4/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/forza-horizon-4/">&lt;figure&gt;
+    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co2e1a.jpg&quot;&#x2F;&gt;
+&lt;&#x2F;figure&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;14 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;PC&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;❌ Forza Horizon 4: 1963 Opel Kadett A&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Forza Horizon 4: Barrett-Jackson Car Pack&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Forza Horizon 4: Mitsubishi Motors Car Pack&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Forza Horizon 4: 2018 Nissan SentraNismo&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Forza Horizon 4: 1966 Volkswagen Double Cab Pick-Up&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Forza Horizon 4: 2018 Aston Martin Vantage&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Forza Horizon 4: 1959 Cadillac Eldorado Biarritz Convertible&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Forza Horizon 4: 1993 Porsche 968 Turbo S&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Forza Horizon 4: 2002 Mazda RX-7 Spirit R Type-A&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Forza Horizon 4: 2019 Porsche 911 Carrera S&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Forza Horizon 4: 1977 Hoonigan Ford Gymkhana 10 F-150&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Forza Horizon 4: Icons Car Pack&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Forza Horizon 4: Car Pass&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Forza Horizon 4: Welcome Pack&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Forza Horizon 4: Best of Bond Car Pack&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Forza Horizon 4: VIP&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Forza Horizon 4: 1968 Ford Mustang GT 2+2 Fastback&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Forza Horizon 4: 2005 Honda NSX-R GT&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Forza Horizon 4: 1979 Talbot Sunbeam Lotus&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Forza Horizon 4: 1959 Porsche 356A Coupe&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Forza Horizon 4: 1974 Honda CivicRS&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Forza Horizon 4: 1967 Sunbeam Tiger&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Forza Horizon 4: 2004 Vauxhall VX220&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Forza Horizon 4: 2018 Morgan Aero GT&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Forza Horizon 4: 2019 BMW i8 Roadster&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Forza Horizon 4: Formula Drift Car Pack&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Forza Horizon 4: 2019 Chevrolet Corvette ZR1&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Forza Horizon 4: 1962 Triumph TR3B&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Forza Horizon 4: Hot Wheels Legends Car Pack&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Forza Horizon 4: 1970 Triumph TR6 PI&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Forza Horizon 4: 1993 Hoonigan Ford Escort Cosworth Group A&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -2407,7 +2474,7 @@
         <id>https://nikolasmoya.com/iplayed/games/half-life/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/half-life/">&lt;figure&gt;
-    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co7q89.jpg&quot;&#x2F;&gt;
+    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;coag8n.jpg&quot;&#x2F;&gt;
 &lt;&#x2F;figure&gt;
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
 &lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;12 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
@@ -2461,7 +2528,7 @@
         <id>https://nikolasmoya.com/iplayed/games/heavy-rain/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/heavy-rain/">&lt;figure&gt;
-    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co94lc.jpg&quot;&#x2F;&gt;
+    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;coaajv.jpg&quot;&#x2F;&gt;
 &lt;&#x2F;figure&gt;
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
 &lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;9 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
@@ -2525,14 +2592,14 @@
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Hero Siege: Wrath of Mevius&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Hero Siege: Class - Shield Lancer&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Hero Siege: Class - Samurai&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Hero Siege: Class - Shaman&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Hero Siege: Class - Amazon&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Hero Siege: Class - Marauder&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Hero Siege: Class - Butcher&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Hero Siege: Stormweaver&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Hero Siege: Class - Butcher&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Hero Siege: Class - Shield Lancer&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Hero Siege: Class - Shaman&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Hero Siege: Class - Marauder&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Hero Siege: Class - Amazon&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Hero Siege: Class - Samurai&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Hero Siege: Wrath of Mevius&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -2564,7 +2631,7 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>inFamous</title>
+        <title>Infamous</title>
         <published>2023-03-18T00:00:00+00:00</published>
         <updated>2023-03-18T00:00:00+00:00</updated>
         
@@ -2590,7 +2657,7 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>James Cameron&#x27;s AVATAR: The Game</title>
+        <title>James Cameron&#x27;s Avatar: The Game</title>
         <published>2023-03-18T00:00:00+00:00</published>
         <updated>2023-03-18T00:00:00+00:00</updated>
         
@@ -2696,8 +2763,8 @@
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;❌ Lara Croft and the Guardian of Light: All the Trappings - Challenge Pack 1&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Lara Croft and the Guardian of Light: Things that Go Boom - Challenge Pack 2&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Lara Croft and the Guardian of Light: Hazardous Reunion - Challenge Pack 3&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Lara Croft and the Guardian of Light: Things that Go Boom - Challenge Pack 2&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -2780,11 +2847,11 @@
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;❌ LittleBigPlanet 2: DC Comics Premium Level Pack&lt;&#x2F;p&gt;
+&lt;p&gt;❌ LittleBigPlanet 2: Muppets Premium Level Kit&lt;&#x2F;p&gt;
 &lt;p&gt;❌ LittleBigPlanet 2 Toy Story Level Kit DLC&lt;&#x2F;p&gt;
 &lt;p&gt;❌ LittleBigPlanet 2: Move Pack&lt;&#x2F;p&gt;
-&lt;p&gt;❌ LittleBigPlanet 2: Muppets Premium Level Kit&lt;&#x2F;p&gt;
 &lt;p&gt;❌ LittleBigPlanet 2: Cross-Controller Pack&lt;&#x2F;p&gt;
-&lt;p&gt;❌ LittleBigPlanet 2: DC Comics Premium Level Pack&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -2816,7 +2883,7 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>LUXOR</title>
+        <title>Luxor</title>
         <published>2023-03-18T00:00:00+00:00</published>
         <updated>2023-03-18T00:00:00+00:00</updated>
         
@@ -2866,21 +2933,21 @@
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Magicka: The Stars are Left&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Magicka: The Other Side of the Coin&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Magicka: Dungeons and Daemons&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Magicka: The Watchtower&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Magicka: Party Robes&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Magicka: Nippon&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Magicka: Frozen Lake&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Magicka: Final Frontier&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Magicka: Wizard&#x27;s Survival Kit&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Magicka: Tower of Niflheim&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Magicka: Lonely Island Cruise&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Magicka: Grimnir&#x27;s Laboratory&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Magicka: Dungeons and Gargoyles&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Magicka: Party Robes&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Magicka: Marshlands&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Magicka: The Stars are Left&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Magicka: Frozen Lake&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Magicka: Dungeons and Gargoyles&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Magicka: Nippon&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Magicka: Dungeons and Daemons&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Magicka: Final Frontier&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Magicka: Grimnir&#x27;s Laboratory&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Magicka: The Watchtower&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Magicka: Lonely Island Cruise&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Magicka: Free Jolnirs Workshop&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Magicka: Tower of Niflheim&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -2909,15 +2976,15 @@
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Mass Effect 2: Lair of the Shadow Broker&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Mass Effect 2: Overlord&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Mass Effect 2: Firewalker Pack&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Mass Effect 2: Arrival&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Mass Effect 2: Zaeed - The Price of Revenge&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Mass Effect 2: Kasumi - Stolen Memory&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Mass Effect 2: Normandy Crash Site&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Mass Effect: Genesis&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Mass Effect 2: Overlord&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Mass Effect 2: Cerberus Network&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Mass Effect 2: Zaeed - The Price of Revenge&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Mass Effect 2: Firewalker Pack&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Mass Effect 2: Kasumi - Stolen Memory&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Mass Effect 2: Arrival&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Mass Effect 2: Lair of the Shadow Broker&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -2946,11 +3013,12 @@
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Mass Effect 3: Citadel&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Mass Effect 3: From Ashes&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Mass Effect 3: Rebellion Pack&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Mass Effect 3: Leviathan&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Mass Effect 3: Omega&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Mass Effect 3: Citadel&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Mass Effect 3: Retaliation&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Mass Effect 3: Omega&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Mass Effect 3: From Ashes&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Mass Effect 3: Extended Cut&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Mass Effect: Genesis 2&lt;&#x2F;p&gt;
 </content>
@@ -2984,7 +3052,7 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>Metal Gear Solid 3: Snake Eater</title>
+        <title>Metal Gear Solid 3 Snake Eater</title>
         <published>2023-03-18T00:00:00+00:00</published>
         <updated>2023-03-18T00:00:00+00:00</updated>
         
@@ -3067,7 +3135,7 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>METAL SLUG 2</title>
+        <title>Metal Slug 2</title>
         <published>2023-03-18T00:00:00+00:00</published>
         <updated>2023-03-18T00:00:00+00:00</updated>
         
@@ -3118,8 +3186,8 @@
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Middle-earth: Shadow of Mordor - The Bright Lord&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Middle-earth: Shadow of Mordor - Lord of the Hunt&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Middle-earth: Shadow of Mordor - The Bright Lord&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -3174,7 +3242,7 @@
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Minecraft: Tetris&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Minecraft: Cybersafe AI: Dig Deeper&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -3202,6 +3270,8 @@
 &lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;PlayStation 3&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;❌ Mirror&#x27;s Edge: Pure Time Trials&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -3249,7 +3319,7 @@
         <id>https://nikolasmoya.com/iplayed/games/monument-valley/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/monument-valley/">&lt;figure&gt;
-    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co22l6.jpg&quot;&#x2F;&gt;
+    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;coaeoe.jpg&quot;&#x2F;&gt;
 &lt;&#x2F;figure&gt;
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
 &lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;1 hour&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
@@ -3361,7 +3431,7 @@
         <id>https://nikolasmoya.com/iplayed/games/no-man-s-sky/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/no-man-s-sky/">&lt;figure&gt;
-    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co8j8v.jpg&quot;&#x2F;&gt;
+    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;coacrk.jpg&quot;&#x2F;&gt;
 &lt;&#x2F;figure&gt;
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
 &lt;tr&gt;&lt;td&gt;Rating&lt;&#x2F;td&gt;&lt;td&gt;7.0&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
@@ -3443,7 +3513,7 @@
         <id>https://nikolasmoya.com/iplayed/games/pokemon-sword-and-shield/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/pokemon-sword-and-shield/">&lt;figure&gt;
-    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co80b4.jpg&quot;&#x2F;&gt;
+    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;coa2k2.jpg&quot;&#x2F;&gt;
 &lt;&#x2F;figure&gt;
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
 &lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;25 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
@@ -3578,7 +3648,7 @@
         <id>https://nikolasmoya.com/iplayed/games/prince-of-persia-warrior-within/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/prince-of-persia-warrior-within/">&lt;figure&gt;
-    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co39vm.jpg&quot;&#x2F;&gt;
+    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co9x1a.jpg&quot;&#x2F;&gt;
 &lt;&#x2F;figure&gt;
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
 &lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;12 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
@@ -3613,18 +3683,18 @@
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Prison Architect: Aficionado&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Prison Architect: Island Bound&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Prison Architect: Going Green&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Prison Architect: Cleared for Transfer&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Prison Architect: Escape Mode&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Prison Architect: Perfect Storm&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Prison Architect: Second Chances&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Prison Architect: Psych Ward - Warden&#x27;s Edition&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Prison Architect: Cleared for Transfer&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Prison Architect: Going Green&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Prison Architect: Perfect Storm&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Prison Architect: Gangs&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Prison Architect: Escape Mode&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Prison Architect: Free for life&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Prison Architect: Undead&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Prison Architect: Aficionado&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Prison Architect: All Day and a Night&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Prison Architect: Undead&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Prison Architect: Free for life&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Prison Architect: Gangs&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -3680,9 +3750,9 @@
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Red Dead Redemption: Legends and Killers&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Red Dead Redemption: Myths and Mavericks&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Red Dead Redemption: Outlaws to the End&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Red Dead Redemption: Legends and Killers&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Red Dead Redemption: Liars and Cheats&lt;&#x2F;p&gt;
 </content>
         
@@ -3712,8 +3782,8 @@
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Resident Evil 5: Desperate Escape&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Resident Evil 5: Lost in Nightmares&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Resident Evil 5: Desperate Escape&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Resident Evil 5: Versus&lt;&#x2F;p&gt;
 </content>
         
@@ -3826,7 +3896,7 @@
         <id>https://nikolasmoya.com/iplayed/games/risk-of-rain-2/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/risk-of-rain-2/">&lt;figure&gt;
-    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co2eu7.jpg&quot;&#x2F;&gt;
+    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;coaavb.jpg&quot;&#x2F;&gt;
 &lt;&#x2F;figure&gt;
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
 &lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;10 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
@@ -3834,6 +3904,7 @@
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;❌ Risk of Rain 2: Alloyed Collective&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Risk of Rain 2: EXXXXXXX-X&lt;&#x2F;p&gt;
 </content>
         
@@ -3909,7 +3980,7 @@
         <id>https://nikolasmoya.com/iplayed/games/rust/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/rust/">&lt;figure&gt;
-    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co86ix.jpg&quot;&#x2F;&gt;
+    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;coajjj.jpg&quot;&#x2F;&gt;
 &lt;&#x2F;figure&gt;
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
 &lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;28 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
@@ -4053,13 +4124,13 @@
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Shadow of the Tomb Raider: The Forge&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Shadow of the Tomb Raider: The Nightmare&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Shadow of the Tomb Raider: The Path Home&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Shadow of the Tomb Raider: The Pillar&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Shadow of the Tomb Raider: The Price of Survival&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Shadow of the Tomb Raider: The Serpent&#x27;s Heart&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Shadow of the Tomb Raider: The Grand Caiman&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Shadow of the Tomb Raider: The Path Home&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Shadow of the Tomb Raider: The Nightmare&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Shadow of the Tomb Raider: The Serpent&#x27;s Heart&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Shadow of the Tomb Raider: The Forge&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -4142,11 +4213,11 @@
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Sniper Elite 5: Target Führer - Wolf Mountain&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Sniper Elite 5: Landing Force Mission and Weapon Pack&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Sniper Elite 5: Conqueror Mission, Weapon and Skin Pack&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Sniper Elite 5: Rough Landing - Mission and Weapon Pack&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Sniper Elite 5: Kraken Awakes - Mission, Weapon and Skin Pack&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Sniper Elite 5: Target Führer - Wolf Mountain&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Sniper Elite 5: Rough Landing - Mission and Weapon Pack&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -4205,7 +4276,7 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>STAR WARS Battlefront II</title>
+        <title>Star Wars Battlefront II</title>
         <published>2023-03-18T00:00:00+00:00</published>
         <updated>2023-03-18T00:00:00+00:00</updated>
         
@@ -4229,13 +4300,12 @@
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Star Wars Battlefront II: Battle of Geonosis&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Star Wars Battlefront II: Resurrection&lt;&#x2F;p&gt;
 </content>
         
     </entry>
     <entry xml:lang="en">
-        <title>STAR WARS: The Force Unleashed II</title>
+        <title>Star Wars: The Force Unleashed II</title>
         <published>2023-03-18T00:00:00+00:00</published>
         <updated>2023-03-18T00:00:00+00:00</updated>
         
@@ -4259,8 +4329,8 @@
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Star Wars: The Force Unleashed II - The Battle of Endor&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Star Wars: The Force Unleashed II - Character Pack&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Star Wars: The Force Unleashed II - The Battle of Endor&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -4289,11 +4359,11 @@
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Star Wars: The Force Unleashed - Hoth Mission Pack&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Star Wars: The Force Unleashed - Tatooine Mission Pack&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Star Wars: The Force Unleashed - Jedi Temple Mission Pack&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Star Wars: The Force Unleashed - Character Pack 1&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Star Wars: The Force Unleashed - Character Pack 2&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Star Wars: The Force Unleashed - Tatooine Mission Pack&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Star Wars: The Force Unleashed - Hoth Mission Pack&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Star Wars: The Force Unleashed - Character Pack 1&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -4314,7 +4384,7 @@
         <id>https://nikolasmoya.com/iplayed/games/stardew-valley/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/stardew-valley/">&lt;figure&gt;
-    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;xrpmydnu9rpxvxfjkiu7.jpg&quot;&#x2F;&gt;
+    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;coa93h.jpg&quot;&#x2F;&gt;
 &lt;&#x2F;figure&gt;
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
 &lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;53 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
@@ -4613,7 +4683,7 @@
         <id>https://nikolasmoya.com/iplayed/games/terraria/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/terraria/">&lt;figure&gt;
-    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co1rbo.jpg&quot;&#x2F;&gt;
+    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;coaamg.jpg&quot;&#x2F;&gt;
 &lt;&#x2F;figure&gt;
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
 &lt;tr&gt;&lt;td&gt;Rating&lt;&#x2F;td&gt;&lt;td&gt;8.0&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
@@ -4703,14 +4773,14 @@
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ The Elder Scrolls V: Skyrim - Dawnguard&lt;&#x2F;p&gt;
 &lt;p&gt;❌ The Elder Scrolls V: Skyrim - Hearthfire&lt;&#x2F;p&gt;
+&lt;p&gt;❌ The Elder Scrolls V: Skyrim - Dawnguard&lt;&#x2F;p&gt;
 &lt;p&gt;❌ The Elder Scrolls V: Skyrim - Dragonborn&lt;&#x2F;p&gt;
 </content>
         
     </entry>
     <entry xml:lang="en">
-        <title>The Last Of Us</title>
+        <title>The Last of Us</title>
         <published>2023-03-18T00:00:00+00:00</published>
         <updated>2023-03-18T00:00:00+00:00</updated>
         
@@ -4965,7 +5035,7 @@
         <id>https://nikolasmoya.com/iplayed/games/the-witcher-3-wild-hunt/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/the-witcher-3-wild-hunt/">&lt;figure&gt;
-    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co1wyy.jpg&quot;&#x2F;&gt;
+    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;coaarl.jpg&quot;&#x2F;&gt;
 &lt;&#x2F;figure&gt;
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
 &lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;51 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
@@ -4974,10 +5044,10 @@
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;❌ The Witcher 3: Wild Hunt - New Quest &#x27;Contract: Skellige&#x27;s Most Wanted&#x27;&lt;&#x2F;p&gt;
-&lt;p&gt;❌ The Witcher 3: Wild Hunt - New Quest &#x27;Where the Cat and Wolf Play...&#x27;&lt;&#x2F;p&gt;
-&lt;p&gt;❌ The Witcher 3: Wild Hunt - New Quest &#x27;Fool&#x27;s Gold&#x27;&lt;&#x2F;p&gt;
 &lt;p&gt;❌ The Witcher 3: Wild Hunt - New Quest &#x27;Contract: Missing Miners&#x27;&lt;&#x2F;p&gt;
 &lt;p&gt;❌ The Witcher 3: Wild Hunt - New Quest: Scavenger Hunt: Wolf School Gear&lt;&#x2F;p&gt;
+&lt;p&gt;❌ The Witcher 3: Wild Hunt - New Quest &#x27;Where the Cat and Wolf Play...&#x27;&lt;&#x2F;p&gt;
+&lt;p&gt;❌ The Witcher 3: Wild Hunt - New Quest &#x27;Fool&#x27;s Gold&#x27;&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -5026,7 +5096,7 @@
         <id>https://nikolasmoya.com/iplayed/games/tomb-raider-anniversary/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/tomb-raider-anniversary/">&lt;figure&gt;
-    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co1vo9.jpg&quot;&#x2F;&gt;
+    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;coaesz.jpg&quot;&#x2F;&gt;
 &lt;&#x2F;figure&gt;
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
 &lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;12 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
@@ -5361,6 +5431,33 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>World War Z</title>
+        <published>2023-03-18T00:00:00+00:00</published>
+        <updated>2023-03-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/world-war-z/"/>
+        <id>https://nikolasmoya.com/iplayed/games/world-war-z/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/world-war-z/">&lt;figure&gt;
+    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co2i4r.jpg&quot;&#x2F;&gt;
+&lt;&#x2F;figure&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;7 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;PC&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>Tomb Raider</title>
         <published>2023-03-17T00:00:00+00:00</published>
         <updated>2023-03-17T00:00:00+00:00</updated>
@@ -5410,6 +5507,8 @@
 &lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;Game Boy&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;03&#x2F;10&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;❌ Pokémon Red &amp;amp; Green: Nintendo Space World &#x27;97 Maboroshi no Mew Present&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -5697,9 +5796,9 @@
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2020&#x2F;10&#x2F;17&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;✅ Dark Souls II: Crown of the Sunken King&lt;&#x2F;p&gt;
 &lt;p&gt;✅ Dark Souls II: Crown of the Ivory King&lt;&#x2F;p&gt;
 &lt;p&gt;✅ Dark Souls II: Crown of the Old Iron King&lt;&#x2F;p&gt;
+&lt;p&gt;✅ Dark Souls II: Crown of the Sunken King&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -5841,8 +5940,8 @@
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2019&#x2F;01&#x2F;12&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Marvel&#x27;s Spider-Man: The Heist&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Marvel&#x27;s Spider-Man: Turf Wars&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Marvel&#x27;s Spider-Man: The Heist&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Marvel&#x27;s Spider-Man: Silver Lining&lt;&#x2F;p&gt;
 </content>
         
@@ -6021,7 +6120,7 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>FEZ</title>
+        <title>Fez</title>
         <published>2017-04-09T00:00:00+00:00</published>
         <updated>2017-04-09T00:00:00+00:00</updated>
         
@@ -6074,8 +6173,8 @@
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2017&#x2F;03&#x2F;05&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Final Fantasy XV: Episode Ardyn&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Final Fantasy XV: Episode Gladiolus&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Final Fantasy XV: Episode Ardyn&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Final Fantasy XV: Episode Prompto&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Final Fantasy XV: Assassin&#x27;s Festival&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Final Fantasy XV: Episode Ignis&lt;&#x2F;p&gt;
@@ -6136,25 +6235,25 @@
 &lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2016&#x2F;07&#x2F;05&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Injustice: Gods Among Us Batgirl&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Injustice: Gods Among Us Lobo&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Injustice: Gods Among Us Scorpion&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Injustice: Gods Among Us General Zod&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Injustice: Gods Among Us Bad Girls Skins&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Injustice: Gods Among Us - Zombie Mode&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Injustice: Gods Among Us - Red Son Pack&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Injustice: Gods Among Us - Arkham City Skin Pack&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Injustice: Gods Among Us Zatanna&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Injustice: Gods Among Us Martian Manhunter&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Injustice: Gods Among Us Teen Titans Skins&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Injustice: Gods Among Us General Zod&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Injustice: Gods Among Us Batgirl&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Injustice: Gods Among Us - Zombie Mode&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Injustice: Gods Among Us Killing Joke Pack&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Injustice: Gods Among Us Blackest Night Pack 1&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Injustice: Gods Among Us Blackest Night Pack 2&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Injustice: Gods Among Us - Ame-Comi Skins&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Injustice: Gods Among Us - Flashpoint Skin Pack&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Injustice: Gods Among Us - Red Son Pack 2&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Injustice: Gods Among Us Martian Manhunter&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Injustice: Gods Among Us - Arkham City Skin Pack&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Injustice: Gods Among Us - The Man of Steel: Zod&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Injustice: Gods Among Us Blackest Night Pack 1&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Injustice: Gods Among Us Scorpion&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Injustice: Gods Among Us - Ame-Comi Skins&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Injustice: Gods Among Us - The Man of Steel Pack: Superman&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Injustice: Gods Among Us Lobo&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Injustice: Gods Among Us Bad Girls Skins&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Injustice: Gods Among Us Blackest Night Pack 2&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Injustice: Gods Among Us - Red Son Pack&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Injustice: Gods Among Us - Flashpoint Skin Pack&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Injustice: Gods Among Us Teen Titans Skins&lt;&#x2F;p&gt;
 </content>
         
     </entry>
