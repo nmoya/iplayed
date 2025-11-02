@@ -1,8 +1,8 @@
 +++
 title = "For the King"
 description = "11 hours and 35 minutes - PC"
-date = "2023-03-18"
-updated = "2023-03-18"
+date = "2018-04-22"
+updated = "2018-04-22"
 in_search_index = true
 [taxonomies]
 platforms = ['pc']
@@ -10,7 +10,7 @@ rating = []
 genres = ['role-playing (rpg)', 'strategy', 'turn-based strategy (tbs)', 'adventure', 'indie', 'card & board game']
 [extra]
 subtitle = "11 hours and 35 minutes - PC"
-completed_at = "2023-03-18"
+completed_at = "2018-04-22"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1hxc.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1hxc.jpg"
 +++
@@ -20,6 +20,6 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1hxc.jp
 | ------------ | ---------- |
 | Time played  | 11 hours |
 | Played platforms    | PC |
-| Completed at | 2023/03/18 |
+| Completed at | 2018/04/22 |
 
 

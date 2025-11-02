@@ -1,8 +1,8 @@
 +++
 title = "No Man's Sky"
 description = "70 hours - PC"
-date = "2023-03-18"
-updated = "2023-03-18"
+date = "2016-08-10"
+updated = "2016-08-10"
 in_search_index = true
 [taxonomies]
 platforms = ['pc']
@@ -10,7 +10,7 @@ rating = ['7.0']
 genres = ['role-playing (rpg)', 'simulator', 'adventure', 'indie', 'arcade']
 [extra]
 subtitle = "70 hours - PC"
-completed_at = "2023-03-18"
+completed_at = "2016-08-10"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coacrk.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coacrk.jpg"
 +++
@@ -21,7 +21,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coacrk.jp
 | Rating       | 7.0 |
 | Time played  | 70 hours |
 | Played platforms    | PC |
-| Completed at | 2023/03/18 |
+| Completed at | 2016/08/10 |
 
 
 

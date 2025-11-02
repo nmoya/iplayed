@@ -1,8 +1,8 @@
 +++
 title = "World War Z"
 description = "7 hours and 23 minutes - PC"
-date = "2023-03-18"
-updated = "2023-03-18"
+date = "2019-04-15"
+updated = "2019-04-15"
 in_search_index = true
 [taxonomies]
 platforms = ['pc']
@@ -10,7 +10,7 @@ rating = []
 genres = ['shooter', 'adventure']
 [extra]
 subtitle = "7 hours and 23 minutes - PC"
-completed_at = "2023-03-18"
+completed_at = "2019-04-15"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2i4r.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2i4r.jpg"
 +++
@@ -20,6 +20,6 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2i4r.jp
 | ------------ | ---------- |
 | Time played  | 7 hours |
 | Played platforms    | PC |
-| Completed at | 2023/03/18 |
+| Completed at | 2019/04/15 |
 
 

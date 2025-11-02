@@ -1,8 +1,8 @@
 +++
 title = "Lords of the Fallen"
 description = "29 hours and 1 minutes - PlayStation 4"
-date = "2023-03-18"
-updated = "2023-03-18"
+date = "2015-06-12"
+updated = "2015-06-12"
 in_search_index = true
 [taxonomies]
 platforms = ['playstation 4']
@@ -10,7 +10,7 @@ rating = []
 genres = ['role-playing (rpg)', "hack and slash/beat 'em up"]
 [extra]
 subtitle = "29 hours and 1 minutes - PlayStation 4"
-completed_at = "2023-03-18"
+completed_at = "2015-06-12"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1nzt.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nzt.jpg"
 +++
@@ -20,7 +20,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nzt.jp
 | ------------ | ---------- |
 | Time played  | 29 hours |
 | Played platforms    | PlayStation 4 |
-| Completed at | 2023/03/18 |
+| Completed at | 2015/06/12 |
 
 
 

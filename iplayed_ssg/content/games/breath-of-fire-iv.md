@@ -1,8 +1,8 @@
 +++
 title = "Breath of Fire IV"
 description = "36 hours and 13 minutes - PlayStation"
-date = "2023-03-18"
-updated = "2023-03-18"
+date = "2006-06-18"
+updated = "2006-06-18"
 in_search_index = true
 [taxonomies]
 platforms = ['playstation']
@@ -10,7 +10,7 @@ rating = []
 genres = ['role-playing (rpg)', 'turn-based strategy (tbs)']
 [extra]
 subtitle = "36 hours and 13 minutes - PlayStation"
-completed_at = "2023-03-18"
+completed_at = "2006-06-18"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co6opw.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co6opw.jpg"
 +++
@@ -20,6 +20,6 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co6opw.jp
 | ------------ | ---------- |
 | Time played  | 36 hours |
 | Played platforms    | PlayStation |
-| Completed at | 2023/03/18 |
+| Completed at | 2006/06/18 |
 
 

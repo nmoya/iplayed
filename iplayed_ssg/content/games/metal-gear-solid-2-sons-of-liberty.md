@@ -1,8 +1,8 @@
 +++
 title = "Metal Gear Solid 2: Sons of Liberty"
 description = "13 hours and 9 minutes - PlayStation 2"
-date = "2023-03-18"
-updated = "2023-03-18"
+date = "2004-06-09"
+updated = "2004-06-09"
 in_search_index = true
 [taxonomies]
 platforms = ['playstation 2']
@@ -10,7 +10,7 @@ rating = []
 genres = ['shooter', 'tactical', 'adventure']
 [extra]
 subtitle = "13 hours and 9 minutes - PlayStation 2"
-completed_at = "2023-03-18"
+completed_at = "2004-06-09"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co5e1c.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co5e1c.jpg"
 +++
@@ -20,6 +20,6 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co5e1c.jp
 | ------------ | ---------- |
 | Time played  | 13 hours |
 | Played platforms    | PlayStation 2 |
-| Completed at | 2023/03/18 |
+| Completed at | 2004/06/09 |
 
 

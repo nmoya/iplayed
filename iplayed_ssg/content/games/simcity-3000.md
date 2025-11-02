@@ -1,8 +1,8 @@
 +++
 title = "SimCity 3000"
 description = "8 hours and 33 minutes - PC"
-date = "2023-03-18"
-updated = "2023-03-18"
+date = "2001-06-28"
+updated = "2001-06-28"
 in_search_index = true
 [taxonomies]
 platforms = ['pc']
@@ -10,7 +10,7 @@ rating = []
 genres = ['simulator', 'strategy']
 [extra]
 subtitle = "8 hours and 33 minutes - PC"
-completed_at = "2023-03-18"
+completed_at = "2001-06-28"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1o4e.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1o4e.jpg"
 +++
@@ -20,6 +20,6 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1o4e.jp
 | ------------ | ---------- |
 | Time played  | 8 hours |
 | Played platforms    | PC |
-| Completed at | 2023/03/18 |
+| Completed at | 2001/06/28 |
 
 

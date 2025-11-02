@@ -1,8 +1,8 @@
 +++
 title = "Mass Effect 3"
 description = "24 hours and 28 minutes - PlayStation 3"
-date = "2023-03-18"
-updated = "2023-03-18"
+date = "2012-03-06"
+updated = "2012-03-06"
 in_search_index = true
 [taxonomies]
 platforms = ['playstation 3']
@@ -10,7 +10,7 @@ rating = []
 genres = ['shooter', 'role-playing (rpg)', 'adventure']
 [extra]
 subtitle = "24 hours and 28 minutes - PlayStation 3"
-completed_at = "2023-03-18"
+completed_at = "2012-03-06"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1x7q.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1x7q.jpg"
 +++
@@ -20,7 +20,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1x7q.jp
 | ------------ | ---------- |
 | Time played  | 24 hours |
 | Played platforms    | PlayStation 3 |
-| Completed at | 2023/03/18 |
+| Completed at | 2012/03/06 |
 
 
 

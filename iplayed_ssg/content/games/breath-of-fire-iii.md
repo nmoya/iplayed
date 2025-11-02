@@ -1,8 +1,8 @@
 +++
 title = "Breath of Fire III"
 description = "41 hours and 53 minutes - PlayStation"
-date = "2023-03-18"
-updated = "2023-03-18"
+date = "2006-06-16"
+updated = "2006-06-16"
 in_search_index = true
 [taxonomies]
 platforms = ['playstation']
@@ -10,7 +10,7 @@ rating = []
 genres = ['role-playing (rpg)']
 [extra]
 subtitle = "41 hours and 53 minutes - PlayStation"
-completed_at = "2023-03-18"
+completed_at = "2006-06-16"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co9jxg.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co9jxg.jpg"
 +++
@@ -20,6 +20,6 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co9jxg.jp
 | ------------ | ---------- |
 | Time played  | 41 hours |
 | Played platforms    | PlayStation |
-| Completed at | 2023/03/18 |
+| Completed at | 2006/06/16 |
 
 

@@ -1,8 +1,8 @@
 +++
 title = "Harvest Moon: Tree of Tranquility"
 description = "39 hours and 58 minutes - Wii"
-date = "2023-03-18"
-updated = "2023-03-18"
+date = "2007-06-02"
+updated = "2007-06-02"
 in_search_index = true
 [taxonomies]
 platforms = ['wii']
@@ -10,7 +10,7 @@ rating = []
 genres = ['role-playing (rpg)', 'simulator', 'adventure']
 [extra]
 subtitle = "39 hours and 58 minutes - Wii"
-completed_at = "2023-03-18"
+completed_at = "2007-06-02"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co26jz.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co26jz.jpg"
 +++
@@ -20,6 +20,6 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co26jz.jp
 | ------------ | ---------- |
 | Time played  | 39 hours |
 | Played platforms    | Wii |
-| Completed at | 2023/03/18 |
+| Completed at | 2007/06/02 |
 
 

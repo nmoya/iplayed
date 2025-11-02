@@ -1,8 +1,8 @@
 +++
 title = "Metal Slug 2"
 description = "1 hours and 3 minutes - PC"
-date = "2023-03-18"
-updated = "2023-03-18"
+date = "2001-06-11"
+updated = "2001-06-11"
 in_search_index = true
 [taxonomies]
 platforms = ['pc']
@@ -10,7 +10,7 @@ rating = []
 genres = ['shooter', 'platform', 'adventure', 'arcade']
 [extra]
 subtitle = "1 hours and 3 minutes - PC"
-completed_at = "2023-03-18"
+completed_at = "2001-06-11"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co24zi.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co24zi.jpg"
 +++
@@ -20,6 +20,6 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co24zi.jp
 | ------------ | ---------- |
 | Time played  | 1 hour |
 | Played platforms    | PC |
-| Completed at | 2023/03/18 |
+| Completed at | 2001/06/11 |
 
 

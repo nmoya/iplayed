@@ -1,8 +1,8 @@
 +++
 title = "Luxor"
 description = "PC"
-date = "2023-03-18"
-updated = "2023-03-18"
+date = "2006-03-05"
+updated = "2006-03-05"
 in_search_index = true
 [taxonomies]
 platforms = ['pc']
@@ -10,7 +10,7 @@ rating = []
 genres = ['point-and-click', 'shooter', 'puzzle', 'adventure', 'arcade']
 [extra]
 subtitle = "PC"
-completed_at = "2023-03-18"
+completed_at = "2006-03-05"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co3plp.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co3plp.jpg"
 +++
@@ -19,6 +19,6 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co3plp.jp
 |              |            |
 | ------------ | ---------- |
 | Played platforms    | PC |
-| Completed at | 2023/03/18 |
+| Completed at | 2006/03/05 |
 
 

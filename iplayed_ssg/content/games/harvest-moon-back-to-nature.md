@@ -1,8 +1,8 @@
 +++
 title = "Harvest Moon: Back to Nature"
 description = "80 hours and 11 minutes - PlayStation"
-date = "2023-03-18"
-updated = "2023-03-18"
+date = "2006-06-06"
+updated = "2006-06-06"
 in_search_index = true
 [taxonomies]
 platforms = ['playstation']
@@ -10,7 +10,7 @@ rating = []
 genres = ['role-playing (rpg)', 'simulator']
 [extra]
 subtitle = "80 hours and 11 minutes - PlayStation"
-completed_at = "2023-03-18"
+completed_at = "2006-06-06"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1ubz.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ubz.jpg"
 +++
@@ -20,6 +20,6 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ubz.jp
 | ------------ | ---------- |
 | Time played  | 80 hours |
 | Played platforms    | PlayStation |
-| Completed at | 2023/03/18 |
+| Completed at | 2006/06/06 |
 
 

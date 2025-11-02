@@ -1,8 +1,8 @@
 +++
 title = "The Witcher 3: Wild Hunt"
 description = "51 hours and 32 minutes - PlayStation 4"
-date = "2023-03-18"
-updated = "2023-03-18"
+date = "2015-05-26"
+updated = "2015-05-26"
 in_search_index = true
 [taxonomies]
 platforms = ['playstation 4']
@@ -10,7 +10,7 @@ rating = []
 genres = ['role-playing (rpg)', 'adventure']
 [extra]
 subtitle = "51 hours and 32 minutes - PlayStation 4"
-completed_at = "2023-03-18"
+completed_at = "2015-05-26"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coaarl.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coaarl.jpg"
 +++
@@ -20,7 +20,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coaarl.jp
 | ------------ | ---------- |
 | Time played  | 51 hours |
 | Played platforms    | PlayStation 4 |
-| Completed at | 2023/03/18 |
+| Completed at | 2015/05/26 |
 
 
 

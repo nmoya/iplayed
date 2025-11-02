@@ -1,8 +1,8 @@
 +++
 title = "Metro: Last Light"
 description = "10 hours and 19 minutes - PlayStation 3"
-date = "2023-03-18"
-updated = "2023-03-18"
+date = "2013-05-28"
+updated = "2013-05-28"
 in_search_index = true
 [taxonomies]
 platforms = ['playstation 3']
@@ -10,7 +10,7 @@ rating = []
 genres = ['shooter']
 [extra]
 subtitle = "10 hours and 19 minutes - PlayStation 3"
-completed_at = "2023-03-18"
+completed_at = "2013-05-28"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2h9d.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2h9d.jpg"
 +++
@@ -20,7 +20,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2h9d.jp
 | ------------ | ---------- |
 | Time played  | 10 hours |
 | Played platforms    | PlayStation 3 |
-| Completed at | 2023/03/18 |
+| Completed at | 2013/05/28 |
 
 
 

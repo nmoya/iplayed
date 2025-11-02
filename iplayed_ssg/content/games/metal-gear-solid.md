@@ -1,8 +1,8 @@
 +++
 title = "Metal Gear Solid"
 description = "11 hours and 15 minutes - PlayStation"
-date = "2023-03-18"
-updated = "2023-03-18"
+date = "2004-06-26"
+updated = "2004-06-26"
 in_search_index = true
 [taxonomies]
 platforms = ['playstation']
@@ -10,7 +10,7 @@ rating = []
 genres = ['shooter', 'tactical', 'adventure']
 [extra]
 subtitle = "11 hours and 15 minutes - PlayStation"
-completed_at = "2023-03-18"
+completed_at = "2004-06-26"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co7k2q.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co7k2q.jpg"
 +++
@@ -20,6 +20,6 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co7k2q.jp
 | ------------ | ---------- |
 | Time played  | 11 hours |
 | Played platforms    | PlayStation |
-| Completed at | 2023/03/18 |
+| Completed at | 2004/06/26 |
 
 

@@ -1,8 +1,8 @@
 +++
 title = "Apocalypse"
 description = "3 hours and 53 minutes - "
-date = "2023-03-18"
-updated = "2023-03-18"
+date = "2001-06-01"
+updated = "2001-06-01"
 in_search_index = true
 [taxonomies]
 platforms = []
@@ -10,7 +10,7 @@ rating = []
 genres = ['shooter', 'strategy']
 [extra]
 subtitle = "3 hours and 53 minutes - "
-completed_at = "2023-03-18"
+completed_at = "2001-06-01"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2gt4.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2gt4.jpg"
 +++
@@ -19,6 +19,6 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2gt4.jp
 |              |            |
 | ------------ | ---------- |
 | Time played  | 3 hours |
-| Completed at | 2023/03/18 |
+| Completed at | 2001/06/01 |
 
 

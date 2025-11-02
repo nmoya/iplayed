@@ -1,8 +1,8 @@
 +++
 title = "Monster Rancher Hop-A-Bout"
 description = "PlayStation"
-date = "2023-03-18"
-updated = "2023-03-18"
+date = "2004-06-25"
+updated = "2004-06-25"
 in_search_index = true
 [taxonomies]
 platforms = ['playstation']
@@ -10,7 +10,7 @@ rating = []
 genres = ['platform', 'arcade', 'card & board game']
 [extra]
 subtitle = "PlayStation"
-completed_at = "2023-03-18"
+completed_at = "2004-06-25"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coacfc.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coacfc.jpg"
 +++
@@ -19,6 +19,6 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coacfc.jp
 |              |            |
 | ------------ | ---------- |
 | Played platforms    | PlayStation |
-| Completed at | 2023/03/18 |
+| Completed at | 2004/06/25 |
 
 

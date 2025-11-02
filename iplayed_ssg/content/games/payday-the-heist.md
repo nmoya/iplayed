@@ -1,8 +1,8 @@
 +++
 title = "Payday: The Heist"
 description = "10 hours and 7 minutes - PC"
-date = "2023-03-18"
-updated = "2023-03-18"
+date = "2011-10-02"
+updated = "2011-10-02"
 in_search_index = true
 [taxonomies]
 platforms = ['pc']
@@ -10,7 +10,7 @@ rating = []
 genres = ['shooter']
 [extra]
 subtitle = "10 hours and 7 minutes - PC"
-completed_at = "2023-03-18"
+completed_at = "2011-10-02"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co68m7.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co68m7.jpg"
 +++
@@ -20,7 +20,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co68m7.jp
 | ------------ | ---------- |
 | Time played  | 10 hours |
 | Played platforms    | PC |
-| Completed at | 2023/03/18 |
+| Completed at | 2011/10/02 |
 
 
 

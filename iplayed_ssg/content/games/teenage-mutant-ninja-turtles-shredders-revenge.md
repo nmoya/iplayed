@@ -1,8 +1,8 @@
 +++
 title = "Teenage Mutant Ninja Turtles: Shredder's Revenge"
 description = "2 hours and 52 minutes - PC"
-date = "2023-03-18"
-updated = "2023-03-18"
+date = "2022-06-24"
+updated = "2022-06-24"
 in_search_index = true
 [taxonomies]
 platforms = ['pc']
@@ -10,7 +10,7 @@ rating = []
 genres = ["hack and slash/beat 'em up", 'indie', 'arcade']
 [extra]
 subtitle = "2 hours and 52 minutes - PC"
-completed_at = "2023-03-18"
+completed_at = "2022-06-24"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co4w87.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co4w87.jpg"
 +++
@@ -20,7 +20,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co4w87.jp
 | ------------ | ---------- |
 | Time played  | 2 hours |
 | Played platforms    | PC |
-| Completed at | 2023/03/18 |
+| Completed at | 2022/06/24 |
 
 
 

@@ -1,8 +1,8 @@
 +++
 title = "Railway Empire"
 description = "21 hours and 22 minutes - PC"
-date = "2023-03-18"
-updated = "2023-03-18"
+date = "2018-01-27"
+updated = "2018-01-27"
 in_search_index = true
 [taxonomies]
 platforms = ['pc']
@@ -10,7 +10,7 @@ rating = []
 genres = ['simulator', 'strategy']
 [extra]
 subtitle = "21 hours and 22 minutes - PC"
-completed_at = "2023-03-18"
+completed_at = "2018-01-27"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1ynm.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ynm.jpg"
 +++
@@ -20,7 +20,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ynm.jp
 | ------------ | ---------- |
 | Time played  | 21 hours |
 | Played platforms    | PC |
-| Completed at | 2023/03/18 |
+| Completed at | 2018/01/27 |
 
 
 
