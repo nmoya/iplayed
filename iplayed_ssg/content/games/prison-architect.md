@@ -1,15 +1,15 @@
 +++
 title = "Prison Architect"
-description = "80 hours - PC"
+description = "80 hours - PC (Microsoft Windows)"
 date = "2022-12-16"
 updated = "2022-12-16"
 in_search_index = true
 [taxonomies]
-platforms = ['pc']
+platforms = ['pc (microsoft windows)']
 rating = []
 genres = ['simulator', 'strategy', 'adventure', 'indie']
 [extra]
-subtitle = "80 hours - PC"
+subtitle = "80 hours - PC (Microsoft Windows)"
 completed_at = "2022-12-16"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co62ch.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co62ch.jpg"
@@ -19,7 +19,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co62ch.jp
 |              |            |
 | ------------ | ---------- |
 | Time played  | 80 hours |
-| Played platforms    | PC |
+| Played platforms    | PC (Microsoft Windows) |
 | Completed at | 2022/12/16 |
 
 

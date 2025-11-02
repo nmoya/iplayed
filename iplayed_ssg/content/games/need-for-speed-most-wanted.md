@@ -1,15 +1,15 @@
 +++
 title = "Need for Speed: Most Wanted"
-description = "10 hours and 8 minutes - PC"
+description = "10 hours and 8 minutes - PC (Microsoft Windows)"
 date = "2005-11-20"
 updated = "2005-11-20"
 in_search_index = true
 [taxonomies]
-platforms = ['pc']
+platforms = ['pc (microsoft windows)']
 rating = []
 genres = ['racing']
 [extra]
-subtitle = "10 hours and 8 minutes - PC"
+subtitle = "10 hours and 8 minutes - PC (Microsoft Windows)"
 completed_at = "2005-11-20"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co209j.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co209j.jpg"
@@ -19,7 +19,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co209j.jp
 |              |            |
 | ------------ | ---------- |
 | Time played  | 10 hours |
-| Played platforms    | PC |
+| Played platforms    | PC (Microsoft Windows) |
 | Completed at | 2005/11/20 |
 
 

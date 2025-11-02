@@ -1,15 +1,15 @@
 +++
 title = "Magicka"
-description = "10 hours and 24 minutes - PC"
+description = "10 hours and 24 minutes - PC (Microsoft Windows)"
 date = "2011-01-06"
 updated = "2011-01-06"
 in_search_index = true
 [taxonomies]
-platforms = ['pc']
+platforms = ['pc (microsoft windows)']
 rating = []
 genres = ['role-playing (rpg)', 'strategy', 'adventure', 'indie']
 [extra]
-subtitle = "10 hours and 24 minutes - PC"
+subtitle = "10 hours and 24 minutes - PC (Microsoft Windows)"
 completed_at = "2011-01-06"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1qru.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qru.jpg"
@@ -19,7 +19,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qru.jp
 |              |            |
 | ------------ | ---------- |
 | Time played  | 10 hours |
-| Played platforms    | PC |
+| Played platforms    | PC (Microsoft Windows) |
 | Completed at | 2011/01/06 |
 
 

@@ -1,15 +1,15 @@
 +++
 title = "Alien: Isolation"
-description = "18 hours and 19 minutes - PC"
+description = "18 hours and 19 minutes - PC (Microsoft Windows)"
 date = "2014-10-13"
 updated = "2014-10-13"
 in_search_index = true
 [taxonomies]
-platforms = ['pc']
+platforms = ['pc (microsoft windows)']
 rating = []
 genres = ['adventure']
 [extra]
-subtitle = "18 hours and 19 minutes - PC"
+subtitle = "18 hours and 19 minutes - PC (Microsoft Windows)"
 completed_at = "2014-10-13"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1vzu.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vzu.jpg"
@@ -19,7 +19,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vzu.jp
 |              |            |
 | ------------ | ---------- |
 | Time played  | 18 hours |
-| Played platforms    | PC |
+| Played platforms    | PC (Microsoft Windows) |
 | Completed at | 2014/10/13 |
 
 

@@ -1,15 +1,15 @@
 +++
 title = "Metal Slug 3"
-description = "1 hours and 26 minutes - PC"
+description = "1 hours and 26 minutes - PC (Microsoft Windows)"
 date = "2003-11-23"
 updated = "2003-11-23"
 in_search_index = true
 [taxonomies]
-platforms = ['pc']
+platforms = ['pc (microsoft windows)']
 rating = []
 genres = ['shooter', 'platform', 'arcade']
 [extra]
-subtitle = "1 hours and 26 minutes - PC"
+subtitle = "1 hours and 26 minutes - PC (Microsoft Windows)"
 completed_at = "2003-11-23"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1ox6.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ox6.jpg"
@@ -19,7 +19,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ox6.jp
 |              |            |
 | ------------ | ---------- |
 | Time played  | 1 hour |
-| Played platforms    | PC |
+| Played platforms    | PC (Microsoft Windows) |
 | Completed at | 2003/11/23 |
 
 

@@ -1,15 +1,15 @@
 +++
 title = "Quake II"
-description = "7 hours and 10 minutes - PC"
+description = "7 hours and 10 minutes - PC (Microsoft Windows)"
 date = "2002-03-26"
 updated = "2002-03-26"
 in_search_index = true
 [taxonomies]
-platforms = ['pc']
+platforms = ['pc (microsoft windows)']
 rating = []
 genres = ['shooter']
 [extra]
-subtitle = "7 hours and 10 minutes - PC"
+subtitle = "7 hours and 10 minutes - PC (Microsoft Windows)"
 completed_at = "2002-03-26"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co9bg8.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co9bg8.jpg"
@@ -19,7 +19,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co9bg8.jp
 |              |            |
 | ------------ | ---------- |
 | Time played  | 7 hours |
-| Played platforms    | PC |
+| Played platforms    | PC (Microsoft Windows) |
 | Completed at | 2002/03/26 |
 
 

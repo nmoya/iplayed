@@ -1,15 +1,15 @@
 +++
 title = "Vampire Survivors"
-description = "62 hours - PC"
+description = "62 hours - PC (Microsoft Windows)"
 date = "2023-11-30"
 updated = "2023-11-30"
 in_search_index = true
 [taxonomies]
-platforms = ['pc']
+platforms = ['pc (microsoft windows)']
 rating = ['10.0']
 genres = ['role-playing (rpg)', 'adventure', 'indie', 'arcade']
 [extra]
-subtitle = "62 hours - PC"
+subtitle = "62 hours - PC (Microsoft Windows)"
 completed_at = "2023-11-30"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co4bzv.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co4bzv.jpg"
@@ -20,7 +20,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co4bzv.jp
 | ------------ | ---------- |
 | Rating       | 10.0 |
 | Time played  | 62 hours |
-| Played platforms    | PC |
+| Played platforms    | PC (Microsoft Windows) |
 | Completed at | 2023/11/30 |
 
 

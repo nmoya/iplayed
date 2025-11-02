@@ -1,15 +1,15 @@
 +++
 title = "Sid Meier's Civilization VI"
-description = "23 hours and 41 minutes - PC"
+description = "23 hours and 41 minutes - PC (Microsoft Windows)"
 date = "2016-10-17"
 updated = "2016-10-17"
 in_search_index = true
 [taxonomies]
-platforms = ['pc']
+platforms = ['pc (microsoft windows)']
 rating = []
 genres = ['simulator', 'strategy', 'turn-based strategy (tbs)']
 [extra]
-subtitle = "23 hours and 41 minutes - PC"
+subtitle = "23 hours and 41 minutes - PC (Microsoft Windows)"
 completed_at = "2016-10-17"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coaaqr.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coaaqr.jpg"
@@ -19,7 +19,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coaaqr.jp
 |              |            |
 | ------------ | ---------- |
 | Time played  | 23 hours |
-| Played platforms    | PC |
+| Played platforms    | PC (Microsoft Windows) |
 | Completed at | 2016/10/17 |
 
 

@@ -1,15 +1,15 @@
 +++
 title = "Baldur's Gate III"
-description = "149 hours - PC"
+description = "149 hours - PC (Microsoft Windows)"
 date = "2023-10-16"
 updated = "2023-10-16"
 in_search_index = true
 [taxonomies]
-platforms = ['pc']
+platforms = ['pc (microsoft windows)']
 rating = ['10.0']
 genres = ['role-playing (rpg)', 'strategy', 'turn-based strategy (tbs)']
 [extra]
-subtitle = "149 hours - PC"
+subtitle = "149 hours - PC (Microsoft Windows)"
 completed_at = "2023-10-16"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co670h.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co670h.jpg"
@@ -20,7 +20,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co670h.jp
 | ------------ | ---------- |
 | Rating       | 10.0 |
 | Time played  | 149 hours |
-| Played platforms    | PC |
+| Played platforms    | PC (Microsoft Windows) |
 | Completed at | 2023/10/16 |
 
 

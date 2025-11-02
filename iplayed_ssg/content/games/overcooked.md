@@ -1,15 +1,15 @@
 +++
 title = "Overcooked!"
-description = "7 hours and 4 minutes - PC"
+description = "7 hours and 4 minutes - PC (Microsoft Windows)"
 date = "2016-08-27"
 updated = "2016-08-27"
 in_search_index = true
 [taxonomies]
-platforms = ['pc']
+platforms = ['pc (microsoft windows)']
 rating = []
 genres = ['simulator', 'strategy', 'indie', 'arcade']
 [extra]
-subtitle = "7 hours and 4 minutes - PC"
+subtitle = "7 hours and 4 minutes - PC (Microsoft Windows)"
 completed_at = "2016-08-27"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co262g.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co262g.jpg"
@@ -19,7 +19,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co262g.jp
 |              |            |
 | ------------ | ---------- |
 | Time played  | 7 hours |
-| Played platforms    | PC |
+| Played platforms    | PC (Microsoft Windows) |
 | Completed at | 2016/08/27 |
 
 

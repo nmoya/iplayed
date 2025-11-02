@@ -1,15 +1,15 @@
 +++
 title = "Sniper Elite 5"
-description = "10 hours and 44 minutes - PC"
+description = "10 hours and 44 minutes - PC (Microsoft Windows)"
 date = "2022-05-28"
 updated = "2022-05-28"
 in_search_index = true
 [taxonomies]
-platforms = ['pc']
+platforms = ['pc (microsoft windows)']
 rating = []
 genres = ['fighting', 'shooter', 'simulator', 'adventure']
 [extra]
-subtitle = "10 hours and 44 minutes - PC"
+subtitle = "10 hours and 44 minutes - PC (Microsoft Windows)"
 completed_at = "2022-05-28"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co4ehj.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ehj.jpg"
@@ -19,7 +19,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ehj.jp
 |              |            |
 | ------------ | ---------- |
 | Time played  | 10 hours |
-| Played platforms    | PC |
+| Played platforms    | PC (Microsoft Windows) |
 | Completed at | 2022/05/28 |
 
 

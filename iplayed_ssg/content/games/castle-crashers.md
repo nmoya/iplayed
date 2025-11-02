@@ -1,15 +1,15 @@
 +++
 title = "Castle Crashers"
-description = "7 hours and 11 minutes - PC"
+description = "7 hours and 11 minutes - PC (Microsoft Windows)"
 date = "2008-08-27"
 updated = "2008-08-27"
 in_search_index = true
 [taxonomies]
-platforms = ['pc']
+platforms = ['pc (microsoft windows)']
 rating = []
 genres = ['puzzle', 'role-playing (rpg)', "hack and slash/beat 'em up", 'adventure', 'indie']
 [extra]
-subtitle = "7 hours and 11 minutes - PC"
+subtitle = "7 hours and 11 minutes - PC (Microsoft Windows)"
 completed_at = "2008-08-27"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coaame.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coaame.jpg"
@@ -19,7 +19,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coaame.jp
 |              |            |
 | ------------ | ---------- |
 | Time played  | 7 hours |
-| Played platforms    | PC |
+| Played platforms    | PC (Microsoft Windows) |
 | Completed at | 2008/08/27 |
 
 

@@ -1,15 +1,15 @@
 +++
 title = "We Were Here Together"
-description = "6 hours and 32 minutes - PC"
+description = "6 hours and 32 minutes - PC (Microsoft Windows)"
 date = "2019-10-28"
 updated = "2019-10-28"
 in_search_index = true
 [taxonomies]
-platforms = ['pc']
+platforms = ['pc (microsoft windows)']
 rating = []
 genres = ['puzzle', 'adventure', 'indie']
 [extra]
-subtitle = "6 hours and 32 minutes - PC"
+subtitle = "6 hours and 32 minutes - PC (Microsoft Windows)"
 completed_at = "2019-10-28"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1tbz.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tbz.jpg"
@@ -19,7 +19,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tbz.jp
 |              |            |
 | ------------ | ---------- |
 | Time played  | 6 hours |
-| Played platforms    | PC |
+| Played platforms    | PC (Microsoft Windows) |
 | Completed at | 2019/10/28 |
 
 
