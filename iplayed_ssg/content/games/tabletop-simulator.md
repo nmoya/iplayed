@@ -1,16 +1,16 @@
 +++
 title = "Tabletop Simulator"
-description = "7 hours and 29 minutes - PC (Microsoft Windows)"
-date = "2015-11-15"
-updated = "2015-11-15"
+description = "484 hours - PC (Microsoft Windows)"
+date = "2017-11-15"
+updated = "2017-11-15"
 in_search_index = true
 [taxonomies]
 platforms = ['pc (microsoft windows)']
-rating = []
+rating = ['10.0']
 genres = ['role-playing (rpg)', 'simulator', 'strategy', 'indie', 'card & board game']
 [extra]
-subtitle = "7 hours and 29 minutes - PC (Microsoft Windows)"
-completed_at = "2015-11-15"
+subtitle = "484 hours - PC (Microsoft Windows)"
+completed_at = "2017-11-15"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co20xe.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co20xe.jpg"
 +++
@@ -18,9 +18,10 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co20xe.jp
 
 |              |            |
 | ------------ | ---------- |
-| Time played  | 7 hours |
+| Rating       | 10.0 |
+| Time played  | 484 hours |
 | Played platforms    | PC (Microsoft Windows) |
-| Completed at | 2015/11/15 |
+| Completed at | 2017/11/15 |
 
 
 
