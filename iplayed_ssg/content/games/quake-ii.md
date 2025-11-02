@@ -1,8 +1,8 @@
 +++
 title = "Quake II"
 description = "7 hours and 10 minutes - PC"
-date = "2001-06-26"
-updated = "2001-06-26"
+date = "2002-03-26"
+updated = "2002-03-26"
 in_search_index = true
 [taxonomies]
 platforms = ['pc']
@@ -10,7 +10,7 @@ rating = []
 genres = ['shooter']
 [extra]
 subtitle = "7 hours and 10 minutes - PC"
-completed_at = "2001-06-26"
+completed_at = "2002-03-26"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co9bg8.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co9bg8.jpg"
 +++
@@ -20,7 +20,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co9bg8.jp
 | ------------ | ---------- |
 | Time played  | 7 hours |
 | Played platforms    | PC |
-| Completed at | 2001/06/26 |
+| Completed at | 2002/03/26 |
 
 
 

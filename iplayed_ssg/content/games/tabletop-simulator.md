@@ -1,8 +1,8 @@
 +++
 title = "Tabletop Simulator"
 description = "7 hours and 29 minutes - PC"
-date = "2015-06-15"
-updated = "2015-06-15"
+date = "2015-11-15"
+updated = "2015-11-15"
 in_search_index = true
 [taxonomies]
 platforms = ['pc']
@@ -10,7 +10,7 @@ rating = []
 genres = ['role-playing (rpg)', 'simulator', 'strategy', 'indie', 'card & board game']
 [extra]
 subtitle = "7 hours and 29 minutes - PC"
-completed_at = "2015-06-15"
+completed_at = "2015-11-15"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co20xe.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co20xe.jpg"
 +++
@@ -20,7 +20,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co20xe.jp
 | ------------ | ---------- |
 | Time played  | 7 hours |
 | Played platforms    | PC |
-| Completed at | 2015/06/15 |
+| Completed at | 2015/11/15 |
 
 
 

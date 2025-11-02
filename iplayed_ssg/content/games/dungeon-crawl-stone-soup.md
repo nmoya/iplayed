@@ -1,8 +1,8 @@
 +++
 title = "Dungeon Crawl Stone Soup"
 description = "13 hours and 30 minutes - PC"
-date = "2006-09-09"
-updated = "2006-09-09"
+date = "2021-08-09"
+updated = "2021-08-09"
 in_search_index = true
 [taxonomies]
 platforms = ['pc']
@@ -10,7 +10,7 @@ rating = []
 genres = ['role-playing (rpg)', 'strategy']
 [extra]
 subtitle = "13 hours and 30 minutes - PC"
-completed_at = "2006-09-09"
+completed_at = "2021-08-09"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co3bff.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co3bff.jpg"
 +++
@@ -20,6 +20,6 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co3bff.jp
 | ------------ | ---------- |
 | Time played  | 13 hours |
 | Played platforms    | PC |
-| Completed at | 2006/09/09 |
+| Completed at | 2021/08/09 |
 
 

@@ -1,8 +1,8 @@
 +++
 title = "Max Payne 2: The Fall of Max Payne"
 description = "6 hours and 11 minutes - PC"
-date = "2003-10-18"
-updated = "2003-10-18"
+date = "2021-12-18"
+updated = "2021-12-18"
 in_search_index = true
 [taxonomies]
 platforms = ['pc']
@@ -10,7 +10,7 @@ rating = []
 genres = ['shooter']
 [extra]
 subtitle = "6 hours and 11 minutes - PC"
-completed_at = "2003-10-18"
+completed_at = "2021-12-18"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2lcl.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lcl.jpg"
 +++
@@ -20,6 +20,6 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lcl.jp
 | ------------ | ---------- |
 | Time played  | 6 hours |
 | Played platforms    | PC |
-| Completed at | 2003/10/18 |
+| Completed at | 2021/12/18 |
 
 

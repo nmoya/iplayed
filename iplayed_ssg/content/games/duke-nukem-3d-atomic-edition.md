@@ -1,8 +1,8 @@
 +++
 title = "Duke Nukem 3D: Atomic Edition"
 description = "3 hours and 18 minutes - PC"
-date = "2001-06-27"
-updated = "2001-06-27"
+date = "2004-07-28"
+updated = "2004-07-28"
 in_search_index = true
 [taxonomies]
 platforms = ['pc']
@@ -10,7 +10,7 @@ rating = []
 genres = ['shooter']
 [extra]
 subtitle = "3 hours and 18 minutes - PC"
-completed_at = "2001-06-27"
+completed_at = "2004-07-28"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co3izi.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co3izi.jpg"
 +++
@@ -20,6 +20,6 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co3izi.jp
 | ------------ | ---------- |
 | Time played  | 3 hours |
 | Played platforms    | PC |
-| Completed at | 2001/06/27 |
+| Completed at | 2004/07/28 |
 
 

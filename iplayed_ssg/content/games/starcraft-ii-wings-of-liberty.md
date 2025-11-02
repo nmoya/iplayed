@@ -1,8 +1,8 @@
 +++
 title = "StarCraft II: Wings of Liberty"
 description = "17 hours and 47 minutes - PC"
-date = "2010-07-22"
-updated = "2010-07-22"
+date = "2010-04-22"
+updated = "2010-04-22"
 in_search_index = true
 [taxonomies]
 platforms = ['pc']
@@ -10,7 +10,7 @@ rating = []
 genres = ['real time strategy (rts)', 'strategy']
 [extra]
 subtitle = "17 hours and 47 minutes - PC"
-completed_at = "2010-07-22"
+completed_at = "2010-04-22"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1tnn.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tnn.jpg"
 +++
@@ -20,7 +20,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tnn.jp
 | ------------ | ---------- |
 | Time played  | 17 hours |
 | Played platforms    | PC |
-| Completed at | 2010/07/22 |
+| Completed at | 2010/04/22 |
 
 
 

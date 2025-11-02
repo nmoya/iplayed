@@ -1,8 +1,8 @@
 +++
 title = "RollerCoaster Tycoon 3"
 description = "16 hours and 7 minutes - PC"
-date = "2004-11-19"
-updated = "2004-11-19"
+date = "2006-11-19"
+updated = "2006-11-19"
 in_search_index = true
 [taxonomies]
 platforms = ['pc']
@@ -10,7 +10,7 @@ rating = []
 genres = ['simulator', 'strategy']
 [extra]
 subtitle = "16 hours and 7 minutes - PC"
-completed_at = "2004-11-19"
+completed_at = "2006-11-19"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co3w0i.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co3w0i.jpg"
 +++
@@ -20,6 +20,6 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co3w0i.jp
 | ------------ | ---------- |
 | Time played  | 16 hours |
 | Played platforms    | PC |
-| Completed at | 2004/11/19 |
+| Completed at | 2006/11/19 |
 
 

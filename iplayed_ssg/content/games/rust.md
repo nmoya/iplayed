@@ -1,8 +1,8 @@
 +++
 title = "Rust"
 description = "28 hours and 26 minutes - PC"
-date = "2018-02-27"
-updated = "2018-02-27"
+date = "2021-07-27"
+updated = "2021-07-27"
 in_search_index = true
 [taxonomies]
 platforms = ['pc']
@@ -10,7 +10,7 @@ rating = []
 genres = ['shooter', 'role-playing (rpg)', 'adventure', 'indie']
 [extra]
 subtitle = "28 hours and 26 minutes - PC"
-completed_at = "2018-02-27"
+completed_at = "2021-07-27"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coajjj.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coajjj.jpg"
 +++
@@ -20,7 +20,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coajjj.jp
 | ------------ | ---------- |
 | Time played  | 28 hours |
 | Played platforms    | PC |
-| Completed at | 2018/02/27 |
+| Completed at | 2021/07/27 |
 
 
 

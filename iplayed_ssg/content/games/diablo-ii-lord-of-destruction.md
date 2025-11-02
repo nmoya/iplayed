@@ -1,8 +1,8 @@
 +++
 title = "Diablo II: Lord of Destruction"
 description = "18 hours and 55 minutes - PC"
-date = "2004-06-20"
-updated = "2004-06-20"
+date = "2011-08-20"
+updated = "2011-08-20"
 in_search_index = true
 [taxonomies]
 platforms = ['pc']
@@ -10,7 +10,7 @@ rating = []
 genres = ['role-playing (rpg)', "hack and slash/beat 'em up"]
 [extra]
 subtitle = "18 hours and 55 minutes - PC"
-completed_at = "2004-06-20"
+completed_at = "2011-08-20"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co3gfn.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co3gfn.jpg"
 +++
@@ -20,6 +20,6 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co3gfn.jp
 | ------------ | ---------- |
 | Time played  | 18 hours |
 | Played platforms    | PC |
-| Completed at | 2004/06/20 |
+| Completed at | 2011/08/20 |
 
 

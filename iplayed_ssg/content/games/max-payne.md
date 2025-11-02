@@ -1,8 +1,8 @@
 +++
 title = "Max Payne"
 description = "8 hours and 5 minutes - PC"
-date = "2001-07-11"
-updated = "2001-07-11"
+date = "2005-07-11"
+updated = "2005-07-11"
 in_search_index = true
 [taxonomies]
 platforms = ['pc']
@@ -10,7 +10,7 @@ rating = []
 genres = ['shooter']
 [extra]
 subtitle = "8 hours and 5 minutes - PC"
-completed_at = "2001-07-11"
+completed_at = "2005-07-11"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co3wb2.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wb2.jpg"
 +++
@@ -20,6 +20,6 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wb2.jp
 | ------------ | ---------- |
 | Time played  | 8 hours |
 | Played platforms    | PC |
-| Completed at | 2001/07/11 |
+| Completed at | 2005/07/11 |
 
 

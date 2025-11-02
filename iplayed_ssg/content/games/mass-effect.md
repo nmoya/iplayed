@@ -1,8 +1,8 @@
 +++
 title = "Mass Effect"
 description = "16 hours and 58 minutes - PlayStation 3"
-date = "2010-06-28"
-updated = "2010-06-28"
+date = "2010-04-29"
+updated = "2010-04-29"
 in_search_index = true
 [taxonomies]
 platforms = ['playstation 3']
@@ -10,7 +10,7 @@ rating = []
 genres = ['shooter', 'role-playing (rpg)']
 [extra]
 subtitle = "16 hours and 58 minutes - PlayStation 3"
-completed_at = "2010-06-28"
+completed_at = "2010-04-29"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1x7o.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1x7o.jpg"
 +++
@@ -20,7 +20,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1x7o.jp
 | ------------ | ---------- |
 | Time played  | 16 hours |
 | Played platforms    | PlayStation 3 |
-| Completed at | 2010/06/28 |
+| Completed at | 2010/04/29 |
 
 
 

@@ -1,8 +1,8 @@
 +++
 title = "Risk of Rain 2"
 description = "10 hours and 43 minutes - PC"
-date = "2020-08-12"
-updated = "2020-08-12"
+date = "2022-01-12"
+updated = "2022-01-12"
 in_search_index = true
 [taxonomies]
 platforms = ['pc']
@@ -10,7 +10,7 @@ rating = []
 genres = ['shooter', 'adventure', 'indie']
 [extra]
 subtitle = "10 hours and 43 minutes - PC"
-completed_at = "2020-08-12"
+completed_at = "2022-01-12"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coaavb.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coaavb.jpg"
 +++
@@ -20,7 +20,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coaavb.jp
 | ------------ | ---------- |
 | Time played  | 10 hours |
 | Played platforms    | PC |
-| Completed at | 2020/08/12 |
+| Completed at | 2022/01/12 |
 
 
 

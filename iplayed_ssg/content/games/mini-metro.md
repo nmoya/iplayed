@@ -1,8 +1,8 @@
 +++
 title = "Mini Metro"
 description = "5 hours and 49 minutes - PC"
-date = "2015-10-22"
-updated = "2015-10-22"
+date = "2015-02-22"
+updated = "2015-02-22"
 in_search_index = true
 [taxonomies]
 platforms = ['pc']
@@ -10,7 +10,7 @@ rating = []
 genres = ['puzzle', 'simulator', 'strategy', 'indie', 'arcade']
 [extra]
 subtitle = "5 hours and 49 minutes - PC"
-completed_at = "2015-10-22"
+completed_at = "2015-02-22"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2561.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2561.jpg"
 +++
@@ -20,6 +20,6 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2561.jp
 | ------------ | ---------- |
 | Time played  | 5 hours |
 | Played platforms    | PC |
-| Completed at | 2015/10/22 |
+| Completed at | 2015/02/22 |
 
 

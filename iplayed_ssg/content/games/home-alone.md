@@ -1,8 +1,8 @@
 +++
 title = "Home Alone"
 description = "1 hours and 35 minutes - Super Nintendo Entertainment System"
-date = "1999-06-09"
-updated = "1999-06-09"
+date = "1999-09-09"
+updated = "1999-09-09"
 in_search_index = true
 [taxonomies]
 platforms = ['super nintendo entertainment system']
@@ -10,7 +10,7 @@ rating = []
 genres = ['platform', 'adventure']
 [extra]
 subtitle = "1 hours and 35 minutes - Super Nintendo Entertainment System"
-completed_at = "1999-06-09"
+completed_at = "1999-09-09"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co5x09.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co5x09.jpg"
 +++
@@ -20,6 +20,6 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co5x09.jp
 | ------------ | ---------- |
 | Time played  | 1 hour |
 | Played platforms    | Super Nintendo Entertainment System |
-| Completed at | 1999/06/09 |
+| Completed at | 1999/09/09 |
 
 
