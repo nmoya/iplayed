@@ -14,12 +14,3 @@ completed_at = "2022-10-25"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1mxf.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1mxf.jpg"
 +++
-{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1mxf.jpg") }}
-
-|                  |                 |
-| ---------------- | --------------- |
-| Time played      | 12 hours        |
-| Played platforms | Nintendo Switch |
-| Completed at     | 2022/10/25      |
-
-

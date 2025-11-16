@@ -14,12 +14,3 @@ completed_at = "2014-04-04"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co86yp.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co86yp.jpg"
 +++
-{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co86yp.jpg") }}
-
-|                  |             |
-| ---------------- | ----------- |
-| Time played      | 4 hours     |
-| Played platforms | PlayStation |
-| Completed at     | 2014/04/04  |
-
-

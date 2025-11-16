@@ -23,7 +23,7 @@
     <div class="game-container">
         {%- if page.extra.url_cover_small -%}
         <div class="game-entry__image">
-            <img src="{{ page.extra.url_cover_small | safe }}" alt="{{ page.title | safe }}">
+            <img src="{{ page.extra.url_cover_big | safe }}" alt="{{ page.title | safe }}">
         </div>
         {%- endif -%}
         <article class="post game-entry__content">

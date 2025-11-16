@@ -14,13 +14,3 @@ completed_at = "2025-06-05"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co4bsb.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co4bsb.jpg"
 +++
-{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co4bsb.jpg") }}
-
-|                  |                 |
-| ---------------- | --------------- |
-| Rating           | 6.0             |
-| Time played      | 6 hours         |
-| Played platforms | Nintendo Switch |
-| Completed at     | 2025/06/05      |
-
-

@@ -14,12 +14,3 @@ completed_at = "2005-12-04"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co4ta0.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ta0.jpg"
 +++
-{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co4ta0.jpg") }}
-
-|                  |               |
-| ---------------- | ------------- |
-| Time played      | 9 hours       |
-| Played platforms | PlayStation 2 |
-| Completed at     | 2005/12/04    |
-
-

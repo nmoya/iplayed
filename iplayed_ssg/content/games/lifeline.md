@@ -14,12 +14,3 @@ completed_at = "2017-07-26"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co27z8.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co27z8.jpg"
 +++
-{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co27z8.jpg") }}
-
-|                  |            |
-| ---------------- | ---------- |
-| Time played      | 2 hours    |
-| Played platforms | Android    |
-| Completed at     | 2017/07/26 |
-
-

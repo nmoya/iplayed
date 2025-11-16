@@ -14,12 +14,3 @@ completed_at = "2008-08-25"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co5rav.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co5rav.jpg"
 +++
-{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co5rav.jpg") }}
-
-|                  |            |
-| ---------------- | ---------- |
-| Time played      | 12 hours   |
-| Played platforms | DOS        |
-| Completed at     | 2008/08/25 |
-
-

@@ -14,16 +14,6 @@ completed_at = "2015-05-24"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co20pd.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co20pd.jpg"
 +++
-{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co20pd.jpg") }}
-
-|                  |               |
-| ---------------- | ------------- |
-| Time played      | 15 hours      |
-| Played platforms | PlayStation 4 |
-| Completed at     | 2015/05/24    |
-
-
-
 ### Additional Content
 
 

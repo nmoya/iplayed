@@ -14,12 +14,3 @@ completed_at = "2013-08-25"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1vep.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vep.jpg"
 +++
-{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1vep.jpg") }}
-
-|                  |                             |
-| ---------------- | --------------------------- |
-| Time played      | 5 hours                     |
-| Played platforms | PC (Microsoft Windows), iOS |
-| Completed at     | 2013/08/25                  |
-
-

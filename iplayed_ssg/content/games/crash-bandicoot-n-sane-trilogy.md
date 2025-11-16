@@ -14,17 +14,6 @@ completed_at = "2017-09-01"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1v62.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v62.jpg"
 +++
-{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1v62.jpg") }}
-
-|                  |                                       |
-| ---------------- | ------------------------------------- |
-| Rating           | 6.0                                   |
-| Time played      | 12 hours                              |
-| Played platforms | PlayStation 4, PC (Microsoft Windows) |
-| Completed at     | 2017/09/01                            |
-
-
-
 ### Additional Content
 
 

@@ -14,13 +14,3 @@ completed_at = "2016-03-18"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1rba.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rba.jpg"
 +++
-{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1rba.jpg") }}
-
-|                  |               |
-| ---------------- | ------------- |
-| Rating           | 10.0          |
-| Time played      | 32 hours      |
-| Played platforms | PlayStation 4 |
-| Completed at     | 2016/03/18    |
-
-

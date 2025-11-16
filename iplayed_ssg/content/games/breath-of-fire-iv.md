@@ -14,12 +14,3 @@ completed_at = "2006-09-18"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co6opw.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co6opw.jpg"
 +++
-{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co6opw.jpg") }}
-
-|                  |             |
-| ---------------- | ----------- |
-| Time played      | 36 hours    |
-| Played platforms | PlayStation |
-| Completed at     | 2006/09/18  |
-
-

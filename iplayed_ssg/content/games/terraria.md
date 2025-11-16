@@ -14,13 +14,3 @@ completed_at = "2011-05-14"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coaamg.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coaamg.jpg"
 +++
-{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/coaamg.jpg") }}
-
-|                  |                        |
-| ---------------- | ---------------------- |
-| Rating           | 8.0                    |
-| Time played      | 73 hours               |
-| Played platforms | PC (Microsoft Windows) |
-| Completed at     | 2011/05/14             |
-
-

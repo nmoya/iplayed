@@ -14,16 +14,6 @@ completed_at = "2018-10-07"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coaaqj.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coaaqj.jpg"
 +++
-{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/coaaqj.jpg") }}
-
-|                  |                        |
-| ---------------- | ---------------------- |
-| Time played      | 61 hours               |
-| Played platforms | PC (Microsoft Windows) |
-| Completed at     | 2018/10/07             |
-
-
-
 ### Additional Content
 
 

@@ -14,17 +14,6 @@ completed_at = "2016-06-26"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coaarl.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coaarl.jpg"
 +++
-{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/coaarl.jpg") }}
-
-|                  |               |
-| ---------------- | ------------- |
-| Rating           | 6.0           |
-| Time played      | 51 hours      |
-| Played platforms | PlayStation 4 |
-| Completed at     | 2016/06/26    |
-
-
-
 ### Additional Content
 
 

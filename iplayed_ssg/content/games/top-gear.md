@@ -14,12 +14,3 @@ completed_at = "2001-07-08"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co63nx.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co63nx.jpg"
 +++
-{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co63nx.jpg") }}
-
-|                  |                                     |
-| ---------------- | ----------------------------------- |
-| Time played      | 3 hours                             |
-| Played platforms | Super Nintendo Entertainment System |
-| Completed at     | 2001/07/08                          |
-
-

@@ -14,12 +14,3 @@ completed_at = "2005-05-02"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co23ib.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co23ib.jpg"
 +++
-{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co23ib.jpg") }}
-
-|                  |             |
-| ---------------- | ----------- |
-| Time played      | 3 hours     |
-| Played platforms | PlayStation |
-| Completed at     | 2005/05/02  |
-
-

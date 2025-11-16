@@ -14,12 +14,3 @@ completed_at = "2014-08-01"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2gft.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2gft.jpg"
 +++
-{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2gft.jpg") }}
-
-|                  |             |
-| ---------------- | ----------- |
-| Time played      | 9 hours     |
-| Played platforms | PlayStation |
-| Completed at     | 2014/08/01  |
-
-

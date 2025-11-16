@@ -14,12 +14,3 @@ completed_at = "2011-07-27"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co7k2q.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co7k2q.jpg"
 +++
-{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co7k2q.jpg") }}
-
-|                  |             |
-| ---------------- | ----------- |
-| Time played      | 11 hours    |
-| Played platforms | PlayStation |
-| Completed at     | 2011/07/27  |
-
-

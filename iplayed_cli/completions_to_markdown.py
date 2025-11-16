@@ -100,23 +100,19 @@ def completion_to_markdown_body(data: DataEntry):
     # | Platforms    | PC, XBOX   |
     # | Completed at | 2024/01/01 |
     markdown = []
-    img = data.game.cover.sized_url() if data.game.cover else None
-    if img:
-        markdown.append(f'{{{{ igdb_image(src="{img}") }}}}\n')
+    # markdown.append("|              |            |")
+    # markdown.append("| ------------ | ---------- |")
+    # if data.completion.rating:
+    #     markdown.append(f"| Rating       | {data.completion.rating} |")
+    # if data.completion.hours_played:
+    #     hours_played_str = humanize_hours(data.completion.hours_played)
+    #     markdown.append(f"| Time played  | {hours_played_str} |")
+    # if len(data.completion.played_platforms) > 0:
+    #     markdown.append(f"| Played platforms    | {', '.join(data.completion.played_platforms_names)} |")
+    # if data.completion.completed_at:
+    #     markdown.append(f"| Completed at | {data.completion.completed_at.strftime('%Y/%m/%d')} |")
 
-    markdown.append("|              |            |")
-    markdown.append("| ------------ | ---------- |")
-    if data.completion.rating:
-        markdown.append(f"| Rating       | {data.completion.rating} |")
-    if data.completion.hours_played:
-        hours_played_str = humanize_hours(data.completion.hours_played)
-        markdown.append(f"| Time played  | {hours_played_str} |")
-    if len(data.completion.played_platforms) > 0:
-        markdown.append(f"| Played platforms    | {', '.join(data.completion.played_platforms_names)} |")
-    if data.completion.completed_at:
-        markdown.append(f"| Completed at | {data.completion.completed_at.strftime('%Y/%m/%d')} |")
-
-    markdown.append("\n\n")
+    # markdown.append("\n\n")
 
     if len(data.game.dlcs) > 0:
         markdown.append("### Additional Content\n\n")

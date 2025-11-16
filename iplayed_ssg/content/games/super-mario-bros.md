@@ -14,12 +14,3 @@ completed_at = "1999-03-12"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co6pib.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co6pib.jpg"
 +++
-{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co6pib.jpg") }}
-
-|                  |                               |
-| ---------------- | ----------------------------- |
-| Time played      | 1 hour                        |
-| Played platforms | Nintendo Entertainment System |
-| Completed at     | 1999/03/12                    |
-
-

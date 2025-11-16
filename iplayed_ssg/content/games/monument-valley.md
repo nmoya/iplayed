@@ -14,16 +14,6 @@ completed_at = "2011-08-20"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coaeoe.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coaeoe.jpg"
 +++
-{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/coaeoe.jpg") }}
-
-|                  |            |
-| ---------------- | ---------- |
-| Time played      | 1 hour     |
-| Played platforms | iOS        |
-| Completed at     | 2011/08/20 |
-
-
-
 ### Additional Content
 
 

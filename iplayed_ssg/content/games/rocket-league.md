@@ -14,13 +14,3 @@ completed_at = "2017-07-19"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coa90v.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coa90v.jpg"
 +++
-{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/coa90v.jpg") }}
-
-|                  |               |
-| ---------------- | ------------- |
-| Rating           | 5.0           |
-| Time played      | 17 hours      |
-| Played platforms | PlayStation 4 |
-| Completed at     | 2017/07/19    |
-
-

@@ -1,41 +1,94 @@
 {% extends "base.html" %}
 
+{%- block title -%}
+{{ page.title }} | {{ config.title }}
+{%- endblock -%}
 
+{%- block description -%}
+{%- if page.description %}
+<meta name="description" content="{{ page.description | markdown(inline=true) | striptags }}">
+{%- elif page.summary %}
+<meta name="description"
+  content="{{ page.summary | linebreaksbr | replace(from="<br>", to=" ") | striptags | trim_end_matches(pat=".") | safe }}">
+{%- endif %}
+{%- endblock -%}
 
-<body id="games" class="inner-post-page">
-  {% block left %}
-  <div class="post-title-section">
-    <h1 class="section-title">{{ page.title | safe }}</h1>
-    <ul class="tags" {%-for genre in page.taxonomies["genres"] %}>
-      <li><a href="/genres/{{ genre | slugify }}/">{{ genre }}</a></li {%- if not loop.last %} {%- endif -%} {% endfor
-        %}>
-    </ul>
-    <ul class="tags" {%-for rating in page.taxonomies["rating"] %}>
-      <li><a href="/rating/{{ rating | slugify }}/">{{ rating }}</a></li {%- if not loop.last %} {%- endif -%} {% endfor
-        %}>
-    </ul>
-  </div>
-  {% endblock left %}
-  {% block right %}
-  <div class="inner-post content">
-    {% block date %}<div class="date-highlight">{{page.title}}</div>{% endblock date %}
+{%- block main -%}
+{%- set subtitle = page.extra.subtitle | default(value=page.description | default(value="")) -%}
+{%- set completed = page.extra.completed_at | default(value=page.date) -%}
+{%- set rating_values = page.taxonomies.rating | default(value=[]) -%}
+{%- set platforms = page.taxonomies.platforms | default(value=[]) -%}
+{%- set genres = page.taxonomies.genres | default(value=[]) -%}
+{%- set cover = page.extra.url_cover_big | default(value=page.extra.url_cover_small | default(value="")) -%}
 
-    {{ page.content | safe }}
-    <br>
-    <!-- {% if page.lower or page.higher %}
-    <nav class="pagination">
-      {% if page.higher %}
-      <a class="pagination_pager" href="{{ " /games/" ~ page.higher.slug ~ "/" | safe }}">prev</a>
-      {% else %}
-      <a href="#" class="pagination_pager disabled">prev</a>
+{%- filter indent -%}{%- filter indent -%}
+<article class="post content">
+  <header>
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+
+  {% if cover or subtitle or platforms or genres or rating_values | length > 0 or completed %}
+  <section class="terminal-panel" aria-label="Game metadata">
+    <div class="terminal-panel__content">
+      {% if cover %}
+      <figure class="terminal-panel__media">
+        <img src="{{ cover | safe }}" alt="{{ page.title | safe }}">
+      </figure>
       {% endif %}
-      {% if page.lower %}
-      <a class="pagination_pager" href="{{ " /games/" ~ page.lower.slug ~ "/" | safe }}">next</a>
-      {% else %}
-      <a href="#" class="pagination_pager disabled">next</a>
-      {% endif %}
-    </nav>
-    {% endif %} -->
-    {% block comments %}{% endblock comments %}
-  </div>
-  {% endblock right %}
+      <dl class="terminal-meta">
+        {% if subtitle %}
+        <dt class="terminal-meta__label">Playtime</dt>
+        <dd class="terminal-meta__value">
+          <span class="terminal-value">{{ subtitle }}</span>
+        </dd>
+        {% endif %}
+        {% if platforms %}
+        <dt class="terminal-meta__label">Platforms</dt>
+        <dd class="terminal-meta__value terminal-meta__value--wrap">
+          {% for platform in platforms %}
+          {% set platform_url = get_taxonomy_url(kind="platforms", name=platform, lang=page.lang) %}
+          <a class="terminal-chip" rel="tag" href="{{ platform_url | safe }}">{{ platform }}</a>
+          {% endfor %}
+        </dd>
+        {% endif %}
+        {% if genres %}
+        <dt class="terminal-meta__label">Genres</dt>
+        <dd class="terminal-meta__value terminal-meta__value--wrap">
+          {% for genre in genres %}
+          {% set genre_url = get_taxonomy_url(kind="genres", name=genre, lang=page.lang) %}
+          <a class="terminal-chip" rel="tag" href="{{ genre_url | safe }}">{{ genre }}</a>
+          {% endfor %}
+        </dd>
+        {% endif %}
+        {% if rating_values | length > 0 %}
+        {% set rating_raw = rating_values | first %}
+        {% set rating_value = rating_raw | float %}
+        {% set rating_display = rating_raw | trim_end_matches(pat=".0") %}
+        {% set rating_percent = (rating_value / 10.0 * 100.0) %}
+        <dt class="terminal-meta__label">Rating</dt>
+        <dd class="terminal-meta__value">
+          <div class="terminal-rating" aria-label="Rating: {{ rating_value }} out of 10">
+            <div class="terminal-rating__scale" role="img" aria-label="{{ rating_value }} out of 10">
+              <span class="terminal-rating__fill" style="width: {{ rating_percent }}%;"></span>
+            </div>
+            <span class="terminal-rating__score">{{ rating_display }}/10</span>
+          </div>
+        </dd>
+        {% endif %}
+        {% if completed %}
+        <dt class="terminal-meta__label">Completed</dt>
+        <dd class="terminal-meta__value">
+          <time class="terminal-value" datetime="{{ completed }}">{{ completed | date(format="%d %b %Y") }}</time>
+        </dd>
+        {% endif %}
+      </dl>
+    </div>
+  </section>
+  {% endif %}
+
+  {{ page.content | safe }}
+</article>
+
+
+{% endfilter %}{% endfilter %}
+{%- endblock -%}

@@ -14,13 +14,3 @@ completed_at = "2025-04-14"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co91n4.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co91n4.jpg"
 +++
-{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co91n4.jpg") }}
-
-|                  |                        |
-| ---------------- | ---------------------- |
-| Rating           | 8.0                    |
-| Time played      | 33 hours               |
-| Played platforms | PC (Microsoft Windows) |
-| Completed at     | 2025/04/14             |
-
-

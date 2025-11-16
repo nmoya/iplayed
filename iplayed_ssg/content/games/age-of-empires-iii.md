@@ -14,12 +14,3 @@ completed_at = "2022-11-25"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1xy6.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xy6.jpg"
 +++
-{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1xy6.jpg") }}
-
-|                  |                        |
-| ---------------- | ---------------------- |
-| Time played      | 15 hours               |
-| Played platforms | PC (Microsoft Windows) |
-| Completed at     | 2022/11/25             |
-
-

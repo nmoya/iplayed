@@ -14,12 +14,3 @@ completed_at = "2006-11-23"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co3vge.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co3vge.jpg"
 +++
-{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co3vge.jpg") }}
-
-|                  |            |
-| ---------------- | ---------- |
-| Time played      | 4 hours    |
-| Played platforms | Wii        |
-| Completed at     | 2006/11/23 |
-
-

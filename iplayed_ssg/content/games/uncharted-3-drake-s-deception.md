@@ -14,13 +14,3 @@ completed_at = "2020-11-15"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1tp8.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tp8.jpg"
 +++
-{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1tp8.jpg") }}
-
-|                  |               |
-| ---------------- | ------------- |
-| Rating           | 8.0           |
-| Time played      | 10 hours      |
-| Played platforms | PlayStation 3 |
-| Completed at     | 2020/11/15    |
-
-

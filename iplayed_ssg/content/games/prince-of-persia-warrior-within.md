@@ -14,12 +14,3 @@ completed_at = "2014-11-22"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co9x1a.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co9x1a.jpg"
 +++
-{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co9x1a.jpg") }}
-
-|                  |               |
-| ---------------- | ------------- |
-| Time played      | 12 hours      |
-| Played platforms | PlayStation 2 |
-| Completed at     | 2014/11/22    |
-
-

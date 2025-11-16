@@ -14,16 +14,6 @@ completed_at = "2010-02-07"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co28oa.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co28oa.jpg"
 +++
-{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co28oa.jpg") }}
-
-|                  |               |
-| ---------------- | ------------- |
-| Time played      | 8 hours       |
-| Played platforms | PlayStation 3 |
-| Completed at     | 2010/02/07    |
-
-
-
 ### Additional Content
 
 

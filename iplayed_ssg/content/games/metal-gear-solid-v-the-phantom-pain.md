@@ -14,13 +14,3 @@ completed_at = "2022-02-17"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1v85.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v85.jpg"
 +++
-{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1v85.jpg") }}
-
-|                  |                                       |
-| ---------------- | ------------------------------------- |
-| Rating           | 10.0                                  |
-| Time played      | 52 hours                              |
-| Played platforms | PC (Microsoft Windows), PlayStation 4 |
-| Completed at     | 2022/02/17                            |
-
-

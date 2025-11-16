@@ -14,12 +14,3 @@ completed_at = "2023-10-01"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2kh2.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2kh2.jpg"
 +++
-{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2kh2.jpg") }}
-
-|                  |                        |
-| ---------------- | ---------------------- |
-| Time played      | 60 hours               |
-| Played platforms | PC (Microsoft Windows) |
-| Completed at     | 2023/10/01             |
-
-

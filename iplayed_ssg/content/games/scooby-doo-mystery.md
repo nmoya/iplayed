@@ -14,12 +14,3 @@ completed_at = "1999-12-25"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co38yu.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co38yu.jpg"
 +++
-{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co38yu.jpg") }}
-
-|                  |                                     |
-| ---------------- | ----------------------------------- |
-| Time played      | 3 hours                             |
-| Played platforms | Super Nintendo Entertainment System |
-| Completed at     | 1999/12/25                          |
-
-

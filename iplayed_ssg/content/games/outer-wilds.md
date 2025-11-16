@@ -14,17 +14,6 @@ completed_at = "2025-10-25"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co65ac.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co65ac.jpg"
 +++
-{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co65ac.jpg") }}
-
-|                  |                        |
-| ---------------- | ---------------------- |
-| Rating           | 10.0                   |
-| Time played      | 25 hours               |
-| Played platforms | PC (Microsoft Windows) |
-| Completed at     | 2025/10/25             |
-
-
-
 ### Additional Content
 
 

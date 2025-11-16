@@ -14,17 +14,6 @@ completed_at = "2019-01-12"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1r77.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r77.jpg"
 +++
-{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1r77.jpg") }}
-
-|                  |               |
-| ---------------- | ------------- |
-| Rating           | 8.0           |
-| Time played      | 18 hours      |
-| Played platforms | PlayStation 4 |
-| Completed at     | 2019/01/12    |
-
-
-
 ### Additional Content
 
 

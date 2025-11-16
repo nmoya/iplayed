@@ -14,17 +14,6 @@ completed_at = "2018-09-25"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co5pcj.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pcj.jpg"
 +++
-{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co5pcj.jpg") }}
-
-|                  |               |
-| ---------------- | ------------- |
-| Rating           | 8.0           |
-| Time played      | 21 hours      |
-| Played platforms | PlayStation 4 |
-| Completed at     | 2018/09/25    |
-
-
-
 ### Additional Content
 
 

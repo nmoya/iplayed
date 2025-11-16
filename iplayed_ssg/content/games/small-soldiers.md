@@ -14,12 +14,3 @@ completed_at = "2004-04-25"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co3rnw.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co3rnw.jpg"
 +++
-{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co3rnw.jpg") }}
-
-|                  |             |
-| ---------------- | ----------- |
-| Time played      | 3 hours     |
-| Played platforms | PlayStation |
-| Completed at     | 2004/04/25  |
-
-

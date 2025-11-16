@@ -14,13 +14,3 @@ completed_at = "2016-11-26"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2h1z.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2h1z.jpg"
 +++
-{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2h1z.jpg") }}
-
-|                  |                                       |
-| ---------------- | ------------------------------------- |
-| Rating           | 6.0                                   |
-| Time played      | 10 hours                              |
-| Played platforms | PC (Microsoft Windows), PlayStation 2 |
-| Completed at     | 2016/11/26                            |
-
-
