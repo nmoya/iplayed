@@ -18,6 +18,14 @@
     {% endif %}
 
     <div class="stats-dashboard">
+
+        <article class="stats-card stats-card--highlight">
+            <header>
+                <h2>Hours Played</h2>
+            </header>
+            <p id="hoursPlayedDisplay" class="stats-total" aria-live="polite">Loading…</p>
+            <p id="hoursPlayedSubheading" class="stats-total__caption"></p>
+        </article>
         <article class="stats-card">
             <header>
                 <h2>Recent Completions</h2>
@@ -25,14 +33,6 @@
             <div id="recentCompletions" class="stats-list" aria-live="polite"></div>
         </article>
 
-        <article class="stats-card stats-card--highlight">
-            <header>
-                <h2>Hours Played</h2>
-                <p class="stats-card__subtitle">Totals pulled from completions logs.</p>
-            </header>
-            <p id="hoursPlayedDisplay" class="stats-total" aria-live="polite">Loading…</p>
-            <p id="hoursPlayedSubheading" class="stats-total__caption"></p>
-        </article>
 
         <article class="stats-card">
             <header class="stats-card__header">

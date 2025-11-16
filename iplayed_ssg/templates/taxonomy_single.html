@@ -1,5 +1,4 @@
 {% extends "base.html" %}
-{% import "page.html" as macros %}
 
 {%- block title -%}
 {{ term.name | title }} | {{ config.title }}
@@ -22,11 +21,14 @@
 {%- endblock -%}
 
 {%- block main -%}
-{%- filter indent -%}{%- filter indent -%}
-<h1>Posts for: {{ term.name }}</h1>
-{%- for page in paginator.pages | default(value=term.pages) %}
-{{ post_macros::excerpt(page=page) }}
-{%- endfor %}
+{%- set games = paginator.pages | default(value=term.pages) -%}
+<header class="content">
+    <h1>{{ taxonomy.name | title }}: {{ term.name }}</h1>
+</header>
+
+{%- set enable_search = false -%}
+{% include "partials/games_list.html" %}
+
 {%- if paginator and paginator.number_pagers > 1 %}
 <nav class="pagination">
     <ul>
@@ -39,5 +41,4 @@
     </ul>
 </nav>
 {%- endif %}
-{% endfilter %}{% endfilter %}
 {%- endblock -%}

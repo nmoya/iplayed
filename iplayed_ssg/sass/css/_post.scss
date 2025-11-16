@@ -113,8 +113,8 @@
 
 .game-entry__image img {
     width: 110px;
-    // border: 2px solid var(--accent-color);
-    // border-radius: var(--radius);
+    border: 2px solid color-mix(in srgb, var(--accent-color) 25%, transparent);
+    border-radius: var(--radius);
 }
 
 .game-entry__content {
@@ -496,4 +496,3 @@ h6 {
         }
     }
 }
-

@@ -1,0 +1,88 @@
+{%- set games_list = games | default(value=[]) -%}
+{%- set search_enabled = enable_search | default(value=false) -%}
+{%- set show_search = search_enabled and games_list | length > 0 -%}
+
+{% if show_search %}
+<section class="games-search" aria-label="Filter games">
+    <label class="games-search__label" for="games-search-input">Search the archive</label>
+    <input id="games-search-input" class="games-search__input" type="search" name="query"
+        placeholder="Type a title, platform, or genre…" autocomplete="off" data-games-search-input>
+    <p class="games-search__status" data-games-search-status aria-live="polite">
+        Showing {{ games_list | length }} games
+    </p>
+</section>
+{% endif %}
+
+<div class="games-listing" data-games-list>
+    {% for page in games_list -%}
+    {%- set completed = page.extra.completed_at | default(value=page.date) -%}
+    {%- set subtitle = page.extra.subtitle | default(value=page.description | default(value="")) -%}
+    {%- set rating_values = page.taxonomies.rating | default(value=[]) -%}
+    {%- set search_context = [page.title, subtitle, rating_values | join(sep=" "), completed] | join(sep=" ") -%}
+    <div class="game-card" data-game-card data-search-text="{{ search_context | lower | escape }}">
+        <div class="game-container">
+            {%- if page.extra.url_cover_small -%}
+            <div class="game-entry__image">
+                <img src="{{ page.extra.url_cover_big | safe }}" alt="{{ page.title | safe }}">
+            </div>
+            {%- endif -%}
+            <article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+                </h2>
+                <ul class="post-meta">
+                    {% if completed %}
+                    <li>
+                        <time datetime="{{ completed }}">{{ completed | date(format="%d %b %Y") }}</time>
+                    </li>
+                    {% endif %}
+                    {% if completed and rating_values | length > 0 %}
+                    <li role="separator" aria-hidden="true">::</li>
+                    {% endif %}
+                    {% if rating_values | length > 0 %}
+                    <li>Rating: {{ rating_values | join(sep=", ") }}</li>
+                    {% endif %}
+                </ul>
+                {% if subtitle %}
+                <p>{{ subtitle | markdown(inline=true) | striptags }}</p>
+                {% endif %}
+            </article>
+        </div>
+    </div>
+    {% endfor -%}
+</div>
+
+{% if show_search %}
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const input = document.querySelector('[data-games-search-input]');
+    const status = document.querySelector('[data-games-search-status]');
+    const cards = Array.from(document.querySelectorAll('[data-game-card]'));
+
+    if (!input || !status || cards.length === 0) {
+        return;
+    }
+
+    const total = cards.length;
+
+    function update() {
+        const query = input.value.trim().toLowerCase();
+        let visible = 0;
+
+        cards.forEach((card) => {
+            const haystack = card.dataset.searchText || card.textContent.toLowerCase();
+            const matches = !query || haystack.includes(query);
+            card.hidden = !matches;
+            if (matches) {
+                visible += 1;
+            }
+        });
+
+        const suffix = query ? ` for "${query}"` : '';
+        status.textContent = `Showing ${visible} of ${total} games${suffix}`;
+    }
+
+    input.addEventListener('input', update);
+});
+</script>
+{% endif %}
