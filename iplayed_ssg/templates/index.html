@@ -123,20 +123,20 @@
         }
 
         function buildCompletionStripes(count, maxCount) {
-            if (!count) {
-                return heatmapStripeConfig.emptySymbol.repeat(heatmapStripeConfig.stripeCount);
-            }
             const normalizedMax = Math.max(1, maxCount);
-            const ratio = count / normalizedMax;
-            const filledStripes = Math.min(
-                heatmapStripeConfig.stripeCount,
-                Math.max(1, Math.ceil(ratio * heatmapStripeConfig.stripeCount))
-            );
-            const emptyStripes = heatmapStripeConfig.stripeCount - filledStripes;
-            return [
-                heatmapStripeConfig.filledSymbol.repeat(filledStripes),
-                heatmapStripeConfig.emptySymbol.repeat(emptyStripes)
-            ].join('');
+            const filledStripes = count
+                ? Math.min(
+                    heatmapStripeConfig.stripeCount,
+                    Math.max(1, Math.ceil((count / normalizedMax) * heatmapStripeConfig.stripeCount))
+                )
+                : 0;
+
+            return Array.from({ length: heatmapStripeConfig.stripeCount }, (_, index) => {
+                const isFilled = index < filledStripes;
+                const symbol = isFilled ? heatmapStripeConfig.filledSymbol : heatmapStripeConfig.emptySymbol;
+                const modifier = isFilled ? ' stats-heatmap__stripe--filled' : '';
+                return `<span class="stats-heatmap__stripe${modifier}">${symbol}</span>`;
+            }).join('');
         }
 
         function updateTotals(totalHours, totalGames) {

@@ -136,6 +136,19 @@
     font-weight: bold;
 }
 
+.stats-heatmap__stripes {
+    display: inline-flex;
+    justify-content: center;
+    gap: 6px;
+    font-family: "Fira Code", Monaco, Consolas, "Ubuntu Mono", monospace;
+}
+
+.stats-heatmap__stripe {
+    width: 1ch;
+    text-align: center;
+    line-height: 1;
+}
+
 
 .stats-heatmap__detail {
     margin-top: 18px;
