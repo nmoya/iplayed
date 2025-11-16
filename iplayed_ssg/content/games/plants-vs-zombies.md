@@ -10,6 +10,7 @@ rating = []
 genres = ['puzzle', 'real time strategy (rts)', 'simulator', 'strategy', 'tactical']
 [extra]
 subtitle = "8 hours and 11 minutes - iOS"
+playtime = "8 hours and 11 minutes"
 completed_at = "2009-05-08"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co69id.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co69id.jpg"

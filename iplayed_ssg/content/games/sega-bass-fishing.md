@@ -10,6 +10,7 @@ rating = []
 genres = ['simulator', 'sport', 'arcade']
 [extra]
 subtitle = "PlayStation 3"
+playtime = ""
 completed_at = "2010-07-14"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co40xx.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co40xx.jpg"

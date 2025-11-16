@@ -10,6 +10,7 @@ rating = []
 genres = ['shooter']
 [extra]
 subtitle = "12 hours and 30 minutes - PC (Microsoft Windows)"
+playtime = "12 hours and 30 minutes"
 completed_at = "2022-02-28"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2acz.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2acz.jpg"

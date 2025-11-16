@@ -10,6 +10,7 @@ rating = []
 genres = ['simulator', 'strategy']
 [extra]
 subtitle = "22 hours and 4 minutes - PC (Microsoft Windows)"
+playtime = "22 hours and 4 minutes"
 completed_at = "2012-04-14"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1o4d.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1o4d.jpg"

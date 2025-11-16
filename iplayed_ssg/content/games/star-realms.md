@@ -10,6 +10,7 @@ rating = []
 genres = ['strategy', 'turn-based strategy (tbs)', 'card & board game']
 [extra]
 subtitle = "5 hours - PC (Microsoft Windows), iOS"
+playtime = "5 hours"
 completed_at = "2023-05-02"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1xdw.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xdw.jpg"

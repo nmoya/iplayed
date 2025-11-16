@@ -10,6 +10,7 @@ rating = []
 genres = ['shooter', 'arcade']
 [extra]
 subtitle = "0 hours and 43 minutes - Nintendo Entertainment System"
+playtime = "0 hours and 43 minutes"
 completed_at = "1999-07-27"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co42pf.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co42pf.jpg"

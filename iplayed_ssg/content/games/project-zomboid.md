@@ -10,6 +10,7 @@ rating = []
 genres = ['role-playing (rpg)', 'simulator', 'indie']
 [extra]
 subtitle = "24 hours - PC (Microsoft Windows)"
+playtime = "24 hours"
 completed_at = "2023-04-08"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co7kod.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co7kod.jpg"

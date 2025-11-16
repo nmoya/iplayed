@@ -55,6 +55,7 @@ def completion_to_frontmatter(data: DataEntry):
     # genres = ["Puzzle", "Roguelike"]
     # [extra]
     # subtitle = "20 hours - PC"
+    # playtime = "20 hours"
     # completed_at = 2024-01-01T15:00:00Z
     # +++
     if data.completion.hours_played:
@@ -68,8 +69,10 @@ def completion_to_frontmatter(data: DataEntry):
         hours_played_str = ""
     if hours_played_str:
         subtitle = f"{hours_played_str} - {', '.join(data.completion.played_platforms_names)}"
+        playtime = hours_played_str
     else:
         subtitle = f"{', '.join(data.completion.played_platforms_names)}"
+        playtime = ""
     frontmatter = {
         "title": data.game.name,
         "description": subtitle,
@@ -83,6 +86,7 @@ def completion_to_frontmatter(data: DataEntry):
         },
         "extra": {
             "subtitle": subtitle,
+            "playtime": playtime,
             "completed_at": data.completion.completed_at.strftime("%Y-%m-%d"),
             "url_cover_small": data.game.cover.sized_url("t_cover_small") if data.game.cover else None,
             "url_cover_big": data.game.cover.sized_url("t_cover_big") if data.game.cover else None,

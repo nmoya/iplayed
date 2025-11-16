@@ -10,6 +10,7 @@ rating = []
 genres = ['real time strategy (rts)', 'strategy']
 [extra]
 subtitle = "16 hours and 21 minutes - PC (Microsoft Windows)"
+playtime = "16 hours and 21 minutes"
 completed_at = "2010-11-11"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2aya.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2aya.jpg"

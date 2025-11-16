@@ -10,6 +10,7 @@ rating = []
 genres = ['platform']
 [extra]
 subtitle = "6 hours and 5 minutes - PlayStation"
+playtime = "6 hours and 5 minutes"
 completed_at = "2004-02-23"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co555l.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co555l.jpg"

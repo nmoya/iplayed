@@ -10,6 +10,7 @@ rating = []
 genres = ['fighting', 'strategy', 'adventure']
 [extra]
 subtitle = "12 hours and 26 minutes - PlayStation 3"
+playtime = "12 hours and 26 minutes"
 completed_at = "2010-06-22"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2ssk.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ssk.jpg"

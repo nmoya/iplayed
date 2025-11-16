@@ -10,6 +10,7 @@ rating = ['6.0']
 genres = ['platform', 'adventure']
 [extra]
 subtitle = "18 hours - PlayStation 4"
+playtime = "18 hours"
 completed_at = "2017-04-10"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co3t1c.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co3t1c.jpg"

@@ -10,6 +10,7 @@ rating = ['9.0']
 genres = ['platform', 'adventure', 'indie']
 [extra]
 subtitle = "20 hours - PC (Microsoft Windows)"
+playtime = "20 hours"
 completed_at = "2025-07-06"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co93cr.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co93cr.jpg"

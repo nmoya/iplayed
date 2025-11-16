@@ -10,6 +10,7 @@ rating = ['6.0']
 genres = ['shooter', 'platform', 'adventure']
 [extra]
 subtitle = "15 hours - PlayStation 3"
+playtime = "15 hours"
 completed_at = "2016-03-18"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1tp7.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tp7.jpg"

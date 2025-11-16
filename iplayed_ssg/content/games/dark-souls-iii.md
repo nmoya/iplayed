@@ -10,6 +10,7 @@ rating = ['10.0']
 genres = ['role-playing (rpg)', 'adventure']
 [extra]
 subtitle = "50 hours - PC (Microsoft Windows), PlayStation 4"
+playtime = "50 hours"
 completed_at = "2019-01-26"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1vcf.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vcf.jpg"

@@ -10,6 +10,7 @@ rating = []
 genres = ['shooter', 'adventure']
 [extra]
 subtitle = "6 hours and 17 minutes - PC (Microsoft Windows)"
+playtime = "6 hours and 17 minutes"
 completed_at = "2021-01-14"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co3wi7.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wi7.jpg"

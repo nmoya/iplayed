@@ -10,6 +10,7 @@ rating = ['7.0']
 genres = ['role-playing (rpg)', 'simulator', 'strategy', 'turn-based strategy (tbs)', 'tactical']
 [extra]
 subtitle = "30 hours - PlayStation 4"
+playtime = "30 hours"
 completed_at = "2017-11-25"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1mvj.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1mvj.jpg"

@@ -10,6 +10,7 @@ rating = []
 genres = ['strategy', 'turn-based strategy (tbs)', 'tactical', 'card & board game']
 [extra]
 subtitle = "13 hours and 39 minutes - PlayStation 3"
+playtime = "13 hours and 39 minutes"
 completed_at = "2012-07-08"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/uqzcexfghnshgovzddux.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/uqzcexfghnshgovzddux.jpg"

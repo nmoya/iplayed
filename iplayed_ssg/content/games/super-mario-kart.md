@@ -10,6 +10,7 @@ rating = []
 genres = ['racing', 'arcade']
 [extra]
 subtitle = "2 hours and 12 minutes - Super Nintendo Entertainment System"
+playtime = "2 hours and 12 minutes"
 completed_at = "1999-12-08"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co21w8.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co21w8.jpg"

@@ -10,6 +10,7 @@ rating = ['6.0']
 genres = ['role-playing (rpg)', 'adventure']
 [extra]
 subtitle = "51 hours and 32 minutes - PlayStation 4"
+playtime = "51 hours and 32 minutes"
 completed_at = "2016-06-26"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coaarl.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coaarl.jpg"

@@ -10,6 +10,7 @@ rating = []
 genres = ['shooter', 'role-playing (rpg)', "hack and slash/beat 'em up", 'adventure', 'indie']
 [extra]
 subtitle = "10 hours and 3 minutes - PC (Microsoft Windows)"
+playtime = "10 hours and 3 minutes"
 completed_at = "2019-07-22"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1rbv.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rbv.jpg"

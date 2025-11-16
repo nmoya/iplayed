@@ -10,6 +10,7 @@ rating = []
 genres = ['puzzle', 'adventure', 'indie']
 [extra]
 subtitle = "4 hours - PC (Microsoft Windows)"
+playtime = "4 hours"
 completed_at = "2013-08-20"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/qwhxxrcxzw7inwfrfkbq.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/qwhxxrcxzw7inwfrfkbq.jpg"

@@ -10,6 +10,7 @@ rating = []
 genres = ['strategy', 'turn-based strategy (tbs)', 'card & board game']
 [extra]
 subtitle = "14 hours - PC (Microsoft Windows)"
+playtime = "14 hours"
 completed_at = "2014-03-22"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1sh2.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1sh2.jpg"

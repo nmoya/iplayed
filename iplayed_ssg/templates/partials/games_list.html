@@ -17,8 +17,11 @@
     {% for page in games_list -%}
     {%- set completed = page.extra.completed_at | default(value=page.date) -%}
     {%- set subtitle = page.extra.subtitle | default(value=page.description | default(value="")) -%}
+    {%- set playtime = page.extra.playtime | default(value="") -%}
+    {%- set platforms = page.taxonomies.platforms | default(value=[]) -%}
+    {%- set genres = page.taxonomies.genres | default(value=[]) -%}
     {%- set rating_values = page.taxonomies.rating | default(value=[]) -%}
-    {%- set search_context = [page.title, subtitle, rating_values | join(sep=" "), completed] | join(sep=" ") -%}
+    {%- set search_context = [page.title, subtitle, playtime, platforms | join(sep=" "), genres | join(sep=" "), rating_values | join(sep=" "), completed] | join(sep=" ") -%}
     <div class="game-card" data-game-card data-search-text="{{ search_context | lower | escape }}">
         <div class="game-container">
             {%- if page.extra.url_cover_small -%}
@@ -30,22 +33,39 @@
                 <h2 class="post-title">
                     <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
                 </h2>
-                <ul class="post-meta">
-                    {% if completed %}
-                    <li>
-                        <time datetime="{{ completed }}">{{ completed | date(format="%d %b %Y") }}</time>
-                    </li>
-                    {% endif %}
-                    {% if completed and rating_values | length > 0 %}
-                    <li role="separator" aria-hidden="true">::</li>
+                <div class="game-entry__meta">
+                    {% if playtime %}
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">{{ playtime }}</span>
+                    </span>
                     {% endif %}
                     {% if rating_values | length > 0 %}
-                    <li>Rating: {{ rating_values | join(sep=", ") }}</li>
+                    {% set rating_raw = rating_values | first %}
+                    {% set rating_value = rating_raw | float %}
+                    {% set rating_display = rating_raw | trim_end_matches(pat=".0") %}
+                    {% set rating_percent = (rating_value / 10.0 * 100.0) %}
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Rating</span>
+                        <span class="game-entry__badge-value">{{ rating_display }}/10</span>
+                        <span class="game-entry__badge-scale" role="img" aria-label="Rating {{ rating_display }} of 10">
+                            <span style="width: {{ rating_percent }}%;"></span>
+                        </span>
+                    </span>
                     {% endif %}
-                </ul>
-                {% if subtitle %}
-                <p>{{ subtitle | markdown(inline=true) | striptags }}</p>
-                {% endif %}
+                    {% if platforms %}
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            {% for platform in platforms %}
+                            {% set platform_url = get_taxonomy_url(kind="platforms", name=platform, lang=page.lang) %}
+                            <a class="terminal-chip" rel="tag" href="{{ platform_url | safe }}">{{ platform }}</a>
+                            <!-- <span class="game-entry__chip">{{ platform }}</span> -->
+                            {% endfor %}
+                        </span>
+                    </span>
+                    {% endif %}
+                </div>
             </article>
         </div>
     </div>
@@ -54,35 +74,35 @@
 
 {% if show_search %}
 <script>
-document.addEventListener('DOMContentLoaded', () => {
-    const input = document.querySelector('[data-games-search-input]');
-    const status = document.querySelector('[data-games-search-status]');
-    const cards = Array.from(document.querySelectorAll('[data-game-card]'));
+    document.addEventListener('DOMContentLoaded', () => {
+        const input = document.querySelector('[data-games-search-input]');
+        const status = document.querySelector('[data-games-search-status]');
+        const cards = Array.from(document.querySelectorAll('[data-game-card]'));
 
-    if (!input || !status || cards.length === 0) {
-        return;
-    }
+        if (!input || !status || cards.length === 0) {
+            return;
+        }
 
-    const total = cards.length;
+        const total = cards.length;
 
-    function update() {
-        const query = input.value.trim().toLowerCase();
-        let visible = 0;
+        function update() {
+            const query = input.value.trim().toLowerCase();
+            let visible = 0;
 
-        cards.forEach((card) => {
-            const haystack = card.dataset.searchText || card.textContent.toLowerCase();
-            const matches = !query || haystack.includes(query);
-            card.hidden = !matches;
-            if (matches) {
-                visible += 1;
-            }
-        });
+            cards.forEach((card) => {
+                const haystack = card.dataset.searchText || card.textContent.toLowerCase();
+                const matches = !query || haystack.includes(query);
+                card.hidden = !matches;
+                if (matches) {
+                    visible += 1;
+                }
+            });
 
-        const suffix = query ? ` for "${query}"` : '';
-        status.textContent = `Showing ${visible} of ${total} games${suffix}`;
-    }
+            const suffix = query ? ` for "${query}"` : '';
+            status.textContent = `Showing ${visible} of ${total} games${suffix}`;
+        }
 
-    input.addEventListener('input', update);
-});
+        input.addEventListener('input', update);
+    });
 </script>
 {% endif %}

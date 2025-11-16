@@ -10,6 +10,7 @@ rating = []
 genres = ['strategy']
 [extra]
 subtitle = "21 hours and 20 minutes - PC (Microsoft Windows)"
+playtime = "21 hours and 20 minutes"
 completed_at = "2023-04-04"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1zsh.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zsh.jpg"

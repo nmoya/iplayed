@@ -10,6 +10,7 @@ rating = ['8.0']
 genres = ['puzzle', 'adventure']
 [extra]
 subtitle = "55 hours - Nintendo Switch"
+playtime = "55 hours"
 completed_at = "2020-10-23"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co3p2d.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p2d.jpg"

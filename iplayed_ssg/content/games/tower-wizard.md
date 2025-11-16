@@ -10,6 +10,7 @@ rating = ['9.0']
 genres = ['role-playing (rpg)', 'simulator', 'strategy', 'indie']
 [extra]
 subtitle = "42 hours - PC (Microsoft Windows)"
+playtime = "42 hours"
 completed_at = "2025-06-26"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coabgp.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coabgp.jpg"

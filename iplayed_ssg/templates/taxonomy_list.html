@@ -5,13 +5,78 @@
 {%- endblock -%}
 
 {%- block main -%}
-<h1>{{ taxonomy.name | title }}</h1>
+{%- filter indent -%}{%- filter indent -%}
+{%- set term_count = terms | length -%}
+{%- if taxonomy.name is ending_with("ies") -%}
+{%- set singular_name = taxonomy.name | replace(from="ies", to="y") -%}
+{%- else -%}
+{%- set singular_name = taxonomy.name | trim_end_matches(pat="s") -%}
+{%- endif -%}
 
-{%- set num_terms = terms | length %}
-<ul class="taxonomy-list{%- if num_terms > 16 %} three-column{%- elif num_terms > 8 %} two-column{%- endif -%}">
-    {%- for term in terms %}
-    {%- set page_count = [term.page_count ~ " post", term.page_count | pluralize] | join %}
-    <li><a href="{{ term.permalink | safe }}">{{ term.name }}</a> ({{ page_count }})</li>
-    {%- endfor %}
-</ul>
+<section class="taxonomy content">
+    <header class="taxonomy-header">
+        <h1>{{ taxonomy.name | title }}</h1>
+        <p class="taxonomy-subtitle">Select a {{ singular_name | default(value="category") }} to explore all
+            completions.</p>
+    </header>
+
+    {% if term_count > 0 %}
+    <section class="taxonomy-search" aria-label="Filter {{ taxonomy.name }}">
+        <label class="games-search__label" for="taxonomy-search-input">Search {{ taxonomy.name | title }}</label>
+        <input id="taxonomy-search-input" class="games-search__input" type="search" placeholder="Type a name…"
+            autocomplete="off" data-taxonomy-search>
+        <p class="taxonomy-search__status" data-taxonomy-search-status aria-live="polite">
+            Showing {{ term_count }} {{ taxonomy.name }}
+        </p>
+    </section>
+
+    <div class="taxonomy-grid" data-taxonomy-list>
+        {%- for term in terms %}
+        {%- set page_count = [term.page_count ~ " game", term.page_count | pluralize] | join %}
+        <article class="taxonomy-card" data-taxonomy-card data-search-text="{{ term.name | lower | escape }}">
+            <a class="taxonomy-card__link" href="{{ term.permalink | safe }}">
+                <span class="taxonomy-card__name">{{ term.name }}</span>
+                <span class="taxonomy-card__count">{{ page_count }}</span>
+            </a>
+        </article>
+        {%- endfor %}
+    </div>
+    {% else %}
+    <p class="taxonomy-empty">No {{ taxonomy.name }} yet. Check back later.</p>
+    {% endif %}
+</section>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const input = document.querySelector('[data-taxonomy-search]');
+        const status = document.querySelector('[data-taxonomy-search-status]');
+        const cards = Array.from(document.querySelectorAll('[data-taxonomy-card]'));
+
+        if (!input || !status || cards.length === 0) {
+            return;
+        }
+
+        const total = cards.length;
+
+        function update() {
+            const query = input.value.trim().toLowerCase();
+            let visible = 0;
+
+            cards.forEach((card) => {
+                const haystack = card.dataset.searchText || card.textContent.toLowerCase();
+                const matches = !query || haystack.includes(query);
+                card.hidden = !matches;
+                if (matches) {
+                    visible += 1;
+                }
+            });
+
+            const suffix = query ? ` for "${query}"` : '';
+            status.textContent = `Showing ${visible} of ${total} {{ taxonomy.name }}` + suffix;
+        }
+
+        input.addEventListener('input', update);
+    });
+</script>
+{% endfilter %}{% endfilter %}
 {%- endblock -%}

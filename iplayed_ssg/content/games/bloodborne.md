@@ -10,6 +10,7 @@ rating = ['10.0']
 genres = ['role-playing (rpg)', 'adventure']
 [extra]
 subtitle = "32 hours - PlayStation 4"
+playtime = "32 hours"
 completed_at = "2016-03-18"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1rba.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rba.jpg"

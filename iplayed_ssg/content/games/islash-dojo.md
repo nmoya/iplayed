@@ -10,6 +10,7 @@ rating = []
 genres = ["hack and slash/beat 'em up"]
 [extra]
 subtitle = "iOS"
+playtime = ""
 completed_at = "2020-06-17"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co7uoo.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co7uoo.jpg"

@@ -10,6 +10,7 @@ rating = []
 genres = ['shooter']
 [extra]
 subtitle = "7 hours and 28 minutes - PlayStation 3"
+playtime = "7 hours and 28 minutes"
 completed_at = "2011-02-21"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co7abq.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co7abq.jpg"

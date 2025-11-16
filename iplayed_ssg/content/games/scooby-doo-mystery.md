@@ -10,6 +10,7 @@ rating = []
 genres = ['point-and-click', 'puzzle', 'adventure']
 [extra]
 subtitle = "3 hours - Super Nintendo Entertainment System"
+playtime = "3 hours"
 completed_at = "1999-12-25"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co38yu.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co38yu.jpg"

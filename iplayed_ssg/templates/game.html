@@ -20,6 +20,7 @@
 {%- set platforms = page.taxonomies.platforms | default(value=[]) -%}
 {%- set genres = page.taxonomies.genres | default(value=[]) -%}
 {%- set cover = page.extra.url_cover_big | default(value=page.extra.url_cover_small | default(value="")) -%}
+{%- set playtime = page.extra.playtime | default(value="") -%}
 
 {%- filter indent -%}{%- filter indent -%}
 <article class="post content">
@@ -36,10 +37,10 @@
       </figure>
       {% endif %}
       <dl class="terminal-meta">
-        {% if subtitle %}
+        {% if playtime %}
         <dt class="terminal-meta__label">Playtime</dt>
         <dd class="terminal-meta__value">
-          <span class="terminal-value">{{ subtitle }}</span>
+          <span class="terminal-value">{{ playtime }}</span>
         </dd>
         {% endif %}
         {% if platforms %}

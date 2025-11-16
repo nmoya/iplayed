@@ -10,6 +10,7 @@ rating = []
 genres = ['role-playing (rpg)', 'adventure']
 [extra]
 subtitle = "34 hours and 43 minutes - PlayStation 3"
+playtime = "34 hours and 43 minutes"
 completed_at = "2011-11-11"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1tnw.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tnw.jpg"

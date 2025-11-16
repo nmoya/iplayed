@@ -10,6 +10,7 @@ rating = ['5.0']
 genres = ['shooter', 'role-playing (rpg)']
 [extra]
 subtitle = "20 hours - PlayStation 4"
+playtime = "20 hours"
 completed_at = "2016-07-16"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1yc6.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1yc6.jpg"

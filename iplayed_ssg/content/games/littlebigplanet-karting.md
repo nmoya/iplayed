@@ -10,6 +10,7 @@ rating = []
 genres = ['racing', 'arcade']
 [extra]
 subtitle = "5 hours and 5 minutes - PlayStation 3"
+playtime = "5 hours and 5 minutes"
 completed_at = "2012-11-01"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2f3a.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2f3a.jpg"

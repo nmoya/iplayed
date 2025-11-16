@@ -10,6 +10,7 @@ rating = []
 genres = ['role-playing (rpg)', "hack and slash/beat 'em up"]
 [extra]
 subtitle = "31 hours and 21 minutes - PlayStation 3"
+playtime = "31 hours and 21 minutes"
 completed_at = "2012-02-06"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co25rk.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co25rk.jpg"

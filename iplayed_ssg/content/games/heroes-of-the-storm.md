@@ -10,6 +10,7 @@ rating = ['9.0']
 genres = ['moba']
 [extra]
 subtitle = "89 hours - PC (Microsoft Windows)"
+playtime = "89 hours"
 completed_at = "2017-03-18"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co9sx0.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co9sx0.jpg"

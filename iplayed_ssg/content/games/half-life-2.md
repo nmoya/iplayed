@@ -10,6 +10,7 @@ rating = []
 genres = ['shooter']
 [extra]
 subtitle = "12 hours and 52 minutes - PC (Microsoft Windows)"
+playtime = "12 hours and 52 minutes"
 completed_at = "2005-11-21"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1nmw.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nmw.jpg"

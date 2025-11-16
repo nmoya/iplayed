@@ -10,6 +10,7 @@ rating = []
 genres = ['platform', 'puzzle', 'adventure', 'indie']
 [extra]
 subtitle = "11 hours - Nintendo Switch"
+playtime = "11 hours"
 completed_at = "2024-12-05"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co4hdh.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co4hdh.jpg"

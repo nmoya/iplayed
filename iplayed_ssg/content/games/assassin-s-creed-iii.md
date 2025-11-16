@@ -10,6 +10,7 @@ rating = []
 genres = ['adventure']
 [extra]
 subtitle = "16 hours and 23 minutes - PlayStation 3"
+playtime = "16 hours and 23 minutes"
 completed_at = "2012-07-04"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1xii.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xii.jpg"

@@ -10,6 +10,7 @@ rating = ['10.0']
 genres = ['puzzle', 'simulator', 'adventure', 'indie']
 [extra]
 subtitle = "25 hours - PC (Microsoft Windows)"
+playtime = "25 hours"
 completed_at = "2025-10-25"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co65ac.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co65ac.jpg"

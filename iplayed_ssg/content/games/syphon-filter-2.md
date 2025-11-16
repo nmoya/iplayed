@@ -10,6 +10,7 @@ rating = []
 genres = ['shooter']
 [extra]
 subtitle = "9 hours and 16 minutes - PlayStation"
+playtime = "9 hours and 16 minutes"
 completed_at = "2014-08-01"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2gft.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2gft.jpg"

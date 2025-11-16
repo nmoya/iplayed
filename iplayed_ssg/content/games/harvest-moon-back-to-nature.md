@@ -10,6 +10,7 @@ rating = []
 genres = ['role-playing (rpg)', 'simulator']
 [extra]
 subtitle = "80 hours and 11 minutes - PlayStation"
+playtime = "80 hours and 11 minutes"
 completed_at = "2006-08-06"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1ubz.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ubz.jpg"

@@ -152,6 +152,67 @@
     color: var(--accent-color);
 }
 
+.game-entry__meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.game-entry__badge {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 6px 8px;
+    border-radius: 4px;
+    border: 1px dashed color-mix(in srgb, var(--accent-color) 40%, transparent);
+    background: color-mix(in srgb, var(--background-color) 85%, rgba(0, 0, 0, 0));
+
+    &-label {
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: color-mix(in srgb, var(--text-color) 70%, transparent);
+    }
+
+    &-value {
+        font-size: 0.95rem;
+        font-weight: 600;
+    }
+
+    &-scale {
+        position: relative;
+        display: inline-block;
+        width: 100px;
+        height: 6px;
+        border-radius: 999px;
+        background: color-mix(in srgb, var(--accent-color) 20%, transparent);
+        overflow: hidden;
+
+        >span {
+            position: absolute;
+            inset: 0;
+            border-radius: 999px;
+            background: var(--accent-color);
+        }
+    }
+}
+
+.game-entry__badge--chips {
+    .game-entry__badge-value {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px;
+    }
+}
+
+.game-entry__chip {
+    padding: 2px 6px;
+    border-radius: 999px;
+    border: 1px solid color-mix(in srgb, var(--accent-color) 30%, transparent);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+}
 @media (max-width: 640px) {
     .game-entry__image img {
         width: 70px;

@@ -10,6 +10,7 @@ rating = ['6.0']
 genres = ['platform', 'adventure']
 [extra]
 subtitle = "12 hours - PlayStation 4, PC (Microsoft Windows)"
+playtime = "12 hours"
 completed_at = "2017-09-01"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1v62.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v62.jpg"

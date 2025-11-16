@@ -10,6 +10,7 @@ rating = ['7.0']
 genres = ['shooter', 'platform', 'adventure']
 [extra]
 subtitle = "11 hours - PlayStation 3"
+playtime = "11 hours"
 completed_at = "2020-10-15"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1tnb.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tnb.jpg"

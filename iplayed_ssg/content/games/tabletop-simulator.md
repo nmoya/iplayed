@@ -10,6 +10,7 @@ rating = ['10.0']
 genres = ['role-playing (rpg)', 'simulator', 'strategy', 'indie', 'card & board game']
 [extra]
 subtitle = "484 hours - PC (Microsoft Windows)"
+playtime = "484 hours"
 completed_at = "2017-11-15"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co20xe.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co20xe.jpg"

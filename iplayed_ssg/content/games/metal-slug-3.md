@@ -10,6 +10,7 @@ rating = []
 genres = ['shooter', 'platform', 'arcade']
 [extra]
 subtitle = "1 hours and 26 minutes - PC (Microsoft Windows)"
+playtime = "1 hours and 26 minutes"
 completed_at = "2003-11-23"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1ox6.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ox6.jpg"

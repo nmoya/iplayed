@@ -10,6 +10,7 @@ rating = []
 genres = ['shooter', 'role-playing (rpg)']
 [extra]
 subtitle = "30 hours and 9 minutes - PlayStation 3"
+playtime = "30 hours and 9 minutes"
 completed_at = "2012-09-27"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co9ba3.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co9ba3.jpg"

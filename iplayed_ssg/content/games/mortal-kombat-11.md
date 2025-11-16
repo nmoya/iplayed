@@ -10,6 +10,7 @@ rating = ['8.0']
 genres = ['fighting']
 [extra]
 subtitle = "12 hours - PlayStation 4"
+playtime = "12 hours"
 completed_at = "2020-01-02"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co20mh.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co20mh.jpg"

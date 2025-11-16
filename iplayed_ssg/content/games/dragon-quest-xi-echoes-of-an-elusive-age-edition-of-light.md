@@ -10,6 +10,7 @@ rating = ['9.0']
 genres = ['role-playing (rpg)']
 [extra]
 subtitle = "58 hours - PC (Microsoft Windows)"
+playtime = "58 hours"
 completed_at = "2025-07-09"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2v6g.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2v6g.jpg"

@@ -10,6 +10,7 @@ rating = []
 genres = ['platform', 'puzzle', 'strategy']
 [extra]
 subtitle = "8 hours and 49 minutes - PlayStation"
+playtime = "8 hours and 49 minutes"
 completed_at = "2004-07-01"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2hjq.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2hjq.jpg"

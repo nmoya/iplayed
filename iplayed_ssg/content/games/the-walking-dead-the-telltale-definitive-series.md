@@ -10,6 +10,7 @@ rating = ['6.0']
 genres = ['point-and-click', 'adventure']
 [extra]
 subtitle = "40 hours and 17 minutes - PC (Microsoft Windows)"
+playtime = "40 hours and 17 minutes"
 completed_at = "2025-05-19"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co7axc.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co7axc.jpg"

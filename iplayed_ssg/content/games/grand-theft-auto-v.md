@@ -10,6 +10,7 @@ rating = []
 genres = ['shooter', 'racing', 'adventure']
 [extra]
 subtitle = "32 hours and 2 minutes - PlayStation 3"
+playtime = "32 hours and 2 minutes"
 completed_at = "2013-09-04"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2lbd.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lbd.jpg"

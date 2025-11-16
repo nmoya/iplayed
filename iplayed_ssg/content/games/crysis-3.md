@@ -10,6 +10,7 @@ rating = []
 genres = ['shooter', 'adventure']
 [extra]
 subtitle = "6 hours and 39 minutes - PlayStation 3"
+playtime = "6 hours and 39 minutes"
 completed_at = "2013-02-07"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2on3.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2on3.jpg"

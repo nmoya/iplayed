@@ -10,6 +10,7 @@ rating = ['7.0']
 genres = ['role-playing (rpg)', 'simulator']
 [extra]
 subtitle = "8 hours - PlayStation 4, PC (Microsoft Windows)"
+playtime = "8 hours"
 completed_at = "2020-03-24"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co3h3l.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co3h3l.jpg"

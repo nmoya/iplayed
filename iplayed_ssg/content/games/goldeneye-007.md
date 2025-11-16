@@ -10,6 +10,7 @@ rating = []
 genres = ['shooter']
 [extra]
 subtitle = "7 hours and 54 minutes - Nintendo 64"
+playtime = "7 hours and 54 minutes"
 completed_at = "2001-08-05"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coa0y2.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coa0y2.jpg"

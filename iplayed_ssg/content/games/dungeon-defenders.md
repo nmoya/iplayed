@@ -10,6 +10,7 @@ rating = []
 genres = ['role-playing (rpg)', 'strategy', 'adventure', 'indie']
 [extra]
 subtitle = "14 hours and 37 minutes - PC (Microsoft Windows)"
+playtime = "14 hours and 37 minutes"
 completed_at = "2010-12-21"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1qgc.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qgc.jpg"

@@ -10,6 +10,7 @@ rating = []
 genres = ['shooter', 'role-playing (rpg)', 'adventure']
 [extra]
 subtitle = "24 hours and 38 minutes - PlayStation 3"
+playtime = "24 hours and 38 minutes"
 completed_at = "2010-01-16"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co20ac.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co20ac.jpg"

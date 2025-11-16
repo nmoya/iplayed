@@ -10,6 +10,7 @@ rating = []
 genres = ['racing', 'sport']
 [extra]
 subtitle = "2 hours - PlayStation"
+playtime = "2 hours"
 completed_at = "2007-07-18"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co4800.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co4800.jpg"

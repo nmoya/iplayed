@@ -10,6 +10,7 @@ rating = []
 genres = ["hack and slash/beat 'em up", 'adventure']
 [extra]
 subtitle = "8 hours and 9 minutes - PlayStation 3"
+playtime = "8 hours and 9 minutes"
 completed_at = "2010-02-07"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co28oa.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co28oa.jpg"

@@ -10,6 +10,7 @@ rating = []
 genres = ['fighting', 'shooter', 'simulator', 'adventure']
 [extra]
 subtitle = "10 hours and 44 minutes - PC (Microsoft Windows)"
+playtime = "10 hours and 44 minutes"
 completed_at = "2022-05-28"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co4ehj.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ehj.jpg"

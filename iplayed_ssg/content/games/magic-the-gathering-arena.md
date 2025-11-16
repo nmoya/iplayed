@@ -10,6 +10,7 @@ rating = []
 genres = ['strategy', 'turn-based strategy (tbs)', 'card & board game']
 [extra]
 subtitle = "54 hours and 26 minutes - PC (Microsoft Windows)"
+playtime = "54 hours and 26 minutes"
 completed_at = "2019-09-17"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1l8n.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1l8n.jpg"

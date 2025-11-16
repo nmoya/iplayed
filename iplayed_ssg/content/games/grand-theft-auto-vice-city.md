@@ -10,6 +10,7 @@ rating = []
 genres = ['shooter', 'racing', 'adventure', 'arcade']
 [extra]
 subtitle = "17 hours and 14 minutes - PC (Microsoft Windows)"
+playtime = "17 hours and 14 minutes"
 completed_at = "2003-03-24"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2lbb.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lbb.jpg"
