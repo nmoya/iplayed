@@ -1,300 +1,2287 @@
-
-
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
-  <head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Security-Policy" content="default-src &#x27;self&#x27;; style-src-attr &#x27;unsafe-inline&#x27;; connect-src &#x27;self&#x27; cloudflareinsights.com; script-src-elem &#x27;self&#x27; static.cloudflareinsights.com cdn.jsdelivr.net; img-src &#x27;self&#x27; https:&#x2F;&#x2F;*.githubusercontent.com https:&#x2F;&#x2F;images.igdb.com">
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
-  <meta name="referrer" content="strict-origin-when-cross-origin">
-  
-  <meta name="robots" content="index,follow">
-  <meta name="theme-color" content="#2C2D32">
-  
-  <link rel="manifest" href="/manifest.json">
-  
-  <title>#simulator • iPlayed</title>
-  <meta name="author" content="">
-  <meta name="description" content="">
-  <meta property="og:locale" content="en_US">
-  <meta property="og:type" content="article">
-  <meta property="og:title" content="iPlayed">
-  <meta property="og:url" content="https://nikolasmoya.com/iplayed/genres/simulator/">
-  <meta property="og:site_name" content="iPlayed">
-  <link rel="canonical" href="https://nikolasmoya.com/iplayed/genres/simulator/">
-  <meta name="twitter:card" content="/logo.png">
-  <meta name="twitter:image" content="/logo.png">
-  <meta property="og:image" content="/logo.png">
-  <meta name="twitter:title" content="iPlayed">
-  <meta name="MobileOptimized" content="320">
-  <meta name="HandheldFriendly" content="True">
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=5e23bffe691055b88067cbc8d11b96ce2a8dc5e25e49367803766a3cadbcfc7f05a62079bfa558d5e234c6a7455d21fc2960b196bda5cbd591bd4c2dbe67920d">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=7267c6f502a03c1e4df9d8136dcc6cd9e67e0b9644941d22ed34e4fe747580f95a65f77a183bb967c1ec60eecd0c298b2670d89a67a647391fb7d1501bcf0982">
-  <link rel="stylesheet" type="text/css" href="/unstyle.css?v=b14bd48a2efbd463d973763aa3184c69aa02164c0891acacc9eab49ddd275f98f0050b4c31d2093e4671e7abe04f9459a041f0064384a90d97b8ff21b6824825">
-  <link rel="stylesheet" type="text/css" href="/main.css?v=6a8ee19151c6226eed47f4c07858d4b3bbe348a81287343ceadb5adef5f4e1881eb1bc7306e498ee81b2979f8cc82559da20f0a20231649eb0445e1e2d29855b">
-  
-  
-  <link rel="stylesheet" type="text/css" href="/langs.css?v=12474958ee314a9fde4704e1f5a032dc632d41f9461faca326ac284297766c4ceb07b45fec7fbc09fa72b0f21dcc64f0c31e64fc2e5e838b1d30f5fe540afd78">
-  <link rel="stylesheet" type="text/css" href="/syntax-theme-light.css?v=ccdddc2d2d88953c6d7d0376777b8409028ef625a7321dfa41619547b4f5eddbe89aa95ff5e7e2620da0ea13fbabebe2fd544620bc7e81e3294776b3425df48a" media="(prefers-color-scheme: light)">
-  <link rel="stylesheet" type="text/css" href="/syntax-theme-dark.css?v=dfede4879841e4a58e5fc71115aa5f5b82e206d85eb771ff4e5a40a1d82621570aad2458f637365ae4370d9a1cf5070edc9765f7c2d4506e12e2ba3c6081ffd5" media="(prefers-color-scheme: dark)">
-  <link rel="stylesheet" type="text/css" href="/sw-style.css?v=a0fa1e87fa2bb3e03d18cefc81ef5c8cfa58c6aa6eea0af223fa155e088bc5af22d32d3ee785ebd3fc26b4c49b70f0bd423f7d592a419a24e6d1e2cb720b7e05">
-  <style>#posts.inner-post-page .block-left{background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("/nostalgia.png?v=3e7d0e96efabc36c13f52285defe02e245fa5a71f767b70d974c2b46f431852367ae8b5f3c18f6eba2edbe8802bd0873351fab750594f3c44a24196892c161e2") no-repeat;background-size:cover}</style>
-  <style>#posts .block-left{background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("/nostalgia.png?v=3e7d0e96efabc36c13f52285defe02e245fa5a71f767b70d974c2b46f431852367ae8b5f3c18f6eba2edbe8802bd0873351fab750594f3c44a24196892c161e2") no-repeat;background-size:cover,cover}.block-left{background:linear-gradient(rgba(44,45,51,0.9),rgba(44,45,51,0.9)),url("/nostalgia2.jpg?v=25fc2ea7af73a80687cf539d37dd034d4cdd6def21395dbdd97057d5978775e9541f6a27f12a60e087256b0f45cbecdd97ccdd634260757328b133ee5139281c") no-repeat;background-size:cover}</style>
+        <title>Simulator | iPlayed</title>
 
-  </head>
-  
+        <link rel="preload" href="https://nikolasmoya.com/iplayed/fonts/FiraCode-Regular.woff2" as="font" type="font/woff2"
+            crossorigin="anonymous">
+        <link rel="preload" href="https://nikolasmoya.com/iplayed/fonts/FiraCode-Bold.woff2" as="font" type="font/woff2"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="https://nikolasmoya.com/iplayed/css/style.css?h=db09bd248e327d21bf0e">
+        <script src="https://nikolasmoya.com/iplayed/js/auto-close-popover-on-resize.js?h=4ef87d6fc7b98b22e044" defer></script>
+        <script src="https://nikolasmoya.com/iplayed/js/copy-code-to-clipboard.js?h=6aac77c47d552a0ac847" defer></script>
+        <!-- <script src="https://nikolasmoya.com/iplayed/js/theme-switcher.js?h=c7049c13f5599d2609bf" defer></script> -->
 
-  <body id="posts">
-    <div class="block-left">
-      <div class="content">
-        <a href="/" class="logo"><img src=" /logo.png?v=04d0e921ab73bd9b72858ba6aa5490f5b7515c57a5971f669aa1eebbd96d778ae4f6063e671b74feef74b42c699cd41886e8ef8310914f0c3f580336ae00a2aa" alt="logo" width="64"
-            height="64"></a>
+        <link rel="canonical" href="https://nikolasmoya.com/iplayed/genres/simulator/">
         
-        <h1 class="section-title">#simulator</h1>
-        
-      </div>
-    </div>
-    <div class="block-right">
-      
-      <div id="nav-container">
-        <nav class="nav-bar" role="navigation">
-          <ul class="nav-menu">
-            <li><a href=" /">Home</a></li>
-              
-                
-                <li>
-                  <a href="/games/">Games</a></li>
-                  
-                <li>
-                  <a href="/platforms">platforms</a></li>
-                  
-                <li>
-                  <a href="/genres">genres</a></li>
-                  
-                <li>
-                  <a href="/stats/">Stats</a></li>
-                  
-          </ul>
-        </nav>
-        
-        <script defer
-          src="/elasticlunr.min.js?v=d106ab529e29f6be48a948124723fcf411e06b8e4ea4477b551f256d190991fe3ca7f121714ef8d9f594a4aa680f2bbd37a5d8004abfbf3ea6eb3d4ea259ec0f"></script>
-        <script defer src="/search.js" ,
-          integrity="sha512-DmR2xqXtdqELQ+iwv2VXhgnn1gRdZ7pEy1+nF0gbW6XwLjsg/8cnkQ2fT8ChTQpBGBQuCQu4Z9zhHdWBpfHnow=="></script>
-        <nav class="search-container" id="search-nav">
-          <input id="search" type="search" placeholder="Search" aria-label="Search">
-          <div class="search-results">
-            <div class="search-results__items">
-            </div>
-          </div>
-        </nav>
-        
-      </div>
-      
-      
-<div class="inner-post content">
-  <div class="date-highlight">x</div>
-  <div>
-    <u>
-      <h2>simulator</h2>
-    </u>
-    <h3>2025</h3>
-    <h4><a href=" /games/outer-wilds/">Outer Wilds</a> <time
-        datetime="2025-10-25">2025-10-25</time></h4>
-    <h4><a href=" /games/the-farmer-was-replaced/">The Farmer Was Replaced</a> <time
-        datetime="2025-10-17">2025-10-17</time></h4>
-    <h4><a href=" /games/minami-lane/">Minami Lane</a> <time
-        datetime="2025-07-02">2025-07-02</time></h4>
-    <h4><a href=" /games/tower-wizard/">Tower Wizard</a> <time
-        datetime="2025-06-26">2025-06-26</time></h4>
-    <h4><a href=" /games/strange-horticulture/">Strange Horticulture</a> <time
-        datetime="2025-06-05">2025-06-05</time></h4>
-    <h4><a href=" /games/green-hell/">Green Hell</a> <time
-        datetime="2025-05-01">2025-05-01</time></h4>
-    <h3>2024</h3>
-    <h4><a href=" /games/dave-the-diver/">Dave the Diver</a> <time
-        datetime="2024-12-05">2024-12-05</time></h4>
-    <h4><a href=" /games/per-aspera/">Per Aspera</a> <time
-        datetime="2024-12-05">2024-12-05</time></h4>
-    <h4><a href=" /games/satisfactory/">Satisfactory</a> <time
-        datetime="2024-09-13">2024-09-13</time></h4>
-    <h3>2023</h3>
-    <h4><a href=" /games/steamworld-build/">SteamWorld Build</a> <time
-        datetime="2023-12-16">2023-12-16</time></h4>
-    <h4><a href=" /games/bitburner/">Bitburner</a> <time
-        datetime="2023-05-17">2023-05-17</time></h4>
-    <h4><a href=" /games/timberborn/">Timberborn</a> <time
-        datetime="2023-05-03">2023-05-03</time></h4>
-    <h4><a href=" /games/project-zomboid/">Project Zomboid</a> <time
-        datetime="2023-04-08">2023-04-08</time></h4>
-    <h4><a href=" /games/astroneer/">Astroneer</a> <time
-        datetime="2023-04-04">2023-04-04</time></h4>
-    <h4><a href=" /games/raft/">Raft</a> <time
-        datetime="2023-03-20">2023-03-20</time></h4>
-    <h4><a href=" /games/pokemon-go/">Pokémon Go</a> <time
-        datetime="2023-03-16">2023-03-16</time></h4>
-    <h3>2022</h3>
-    <h4><a href=" /games/prison-architect/">Prison Architect</a> <time
-        datetime="2022-12-16">2022-12-16</time></h4>
-    <h4><a href=" /games/age-of-empires-iii/">Age of Empires III</a> <time
-        datetime="2022-11-25">2022-11-25</time></h4>
-    <h4><a href=" /games/sid-meier-s-civilization-v/">Sid Meier's Civilization V</a> <time
-        datetime="2022-10-14">2022-10-14</time></h4>
-    <h4><a href=" /games/bridge-constructor-portal/">Bridge Constructor Portal</a> <time
-        datetime="2022-09-22">2022-09-22</time></h4>
-    <h4><a href=" /games/stardew-valley/">Stardew Valley</a> <time
-        datetime="2022-06-27">2022-06-27</time></h4>
-    <h4><a href=" /games/sniper-elite-5/">Sniper Elite 5</a> <time
-        datetime="2022-05-28">2022-05-28</time></h4>
-    <h4><a href=" /games/doodle-devil/">Doodle Devil</a> <time
-        datetime="2022-03-13">2022-03-13</time></h4>
-    <h3>2021</h3>
-    <h4><a href=" /games/minecraft--1/">Minecraft</a> <time
-        datetime="2021-11-19">2021-11-19</time></h4>
-    <h4><a href=" /games/tropico-6/">Tropico 6</a> <time
-        datetime="2021-08-04">2021-08-04</time></h4>
-    <h3>2020</h3>
-    <h4><a href=" /games/factorio/">Factorio</a> <time
-        datetime="2020-08-04">2020-08-04</time></h4>
-    <h4><a href=" /games/the-sims-4/">The Sims 4</a> <time
-        datetime="2020-03-24">2020-03-24</time></h4>
-    <h3>2019</h3>
-    <h4><a href=" /games/lovers-in-a-dangerous-spacetime/">Lovers in a Dangerous Spacetime</a> <time
-        datetime="2019-12-01">2019-12-01</time></h4>
-    <h3>2018</h3>
-    <h4><a href=" /games/rimworld/">RimWorld</a> <time
-        datetime="2018-10-07">2018-10-07</time></h4>
-    <h4><a href=" /games/into-the-breach/">Into the Breach</a> <time
-        datetime="2018-02-05">2018-02-05</time></h4>
-    <h4><a href=" /games/tropico-5/">Tropico 5</a> <time
-        datetime="2018-01-28">2018-01-28</time></h4>
-    <h4><a href=" /games/railway-empire/">Railway Empire</a> <time
-        datetime="2018-01-27">2018-01-27</time></h4>
-    <h3>2017</h3>
-    <h4><a href=" /games/xcom-2/">XCOM 2</a> <time
-        datetime="2017-11-25">2017-11-25</time></h4>
-    <h4><a href=" /games/tabletop-simulator/">Tabletop Simulator</a> <time
-        datetime="2017-11-15">2017-11-15</time></h4>
-    <h4><a href=" /games/domina/">Domina</a> <time
-        datetime="2017-04-12">2017-04-12</time></h4>
-    <h3>2016</h3>
-    <h4><a href=" /games/sid-meiers-civilization-vi/">Sid Meier's Civilization VI</a> <time
-        datetime="2016-10-17">2016-10-17</time></h4>
-    <h4><a href=" /games/overcooked/">Overcooked!</a> <time
-        datetime="2016-08-27">2016-08-27</time></h4>
-    <h4><a href=" /games/no-man-s-sky/">No Man's Sky</a> <time
-        datetime="2016-08-10">2016-08-10</time></h4>
-    <h3>2015</h3>
-    <h4><a href=" /games/mini-metro/">Mini Metro</a> <time
-        datetime="2015-02-22">2015-02-22</time></h4>
-    <h3>2014</h3>
-    <h4><a href=" /games/cow-evolution/">Cow Evolution</a> <time
-        datetime="2014-08-01">2014-08-01</time></h4>
-    <h4><a href=" /games/guitar-hero-iii-legends-of-rock/">Guitar Hero III: Legends of Rock</a> <time
-        datetime="2014-03-18">2014-03-18</time></h4>
-    <h3>2013</h3>
-    <h4><a href=" /games/the-sims-2/">The Sims 2</a> <time
-        datetime="2013-09-04">2013-09-04</time></h4>
-    <h4><a href=" /games/papers-please/">Papers, Please</a> <time
-        datetime="2013-08-25">2013-08-25</time></h4>
-    <h4><a href=" /games/cookie-clicker/">Cookie Clicker</a> <time
-        datetime="2013-08-24">2013-08-24</time></h4>
-    <h3>2012</h3>
-    <h4><a href=" /games/game-dev-tycoon/">Game Dev Tycoon</a> <time
-        datetime="2012-12-14">2012-12-14</time></h4>
-    <h4><a href=" /games/xcom-enemy-unknown/">XCOM: Enemy Unknown</a> <time
-        datetime="2012-12-11">2012-12-11</time></h4>
-    <h4><a href=" /games/ace-combat-3-electrosphere/">Ace Combat 3: Electrosphere</a> <time
-        datetime="2012-10-11">2012-10-11</time></h4>
-    <h4><a href=" /games/ftl-faster-than-light/">FTL: Faster Than Light</a> <time
-        datetime="2012-09-21">2012-09-21</time></h4>
-    <h4><a href=" /games/infectonator/">Infectonator</a> <time
-        datetime="2012-09-13">2012-09-13</time></h4>
-    <h4><a href=" /games/simcity-2000/">SimCity 2000</a> <time
-        datetime="2012-04-14">2012-04-14</time></h4>
-    <h3>2011</h3>
-    <h4><a href=" /games/terraria/">Terraria</a> <time
-        datetime="2011-05-14">2011-05-14</time></h4>
-    <h4><a href=" /games/doodle-god/">Doodle God</a> <time
-        datetime="2011-02-22">2011-02-22</time></h4>
-    <h3>2010</h3>
-    <h4><a href=" /games/the-sims-3/">The Sims 3</a> <time
-        datetime="2010-09-26">2010-09-26</time></h4>
-    <h4><a href=" /games/sega-bass-fishing/">Sega Bass Fishing</a> <time
-        datetime="2010-07-14">2010-07-14</time></h4>
-    <h4><a href=" /games/gran-turismo-5/">Gran Turismo 5</a> <time
-        datetime="2010-06-09">2010-06-09</time></h4>
-    <h3>2009</h3>
-    <h4><a href=" /games/wii-sports-resort/">Wii Sports Resort</a> <time
-        datetime="2009-07-21">2009-07-21</time></h4>
-    <h4><a href=" /games/plants-vs-zombies/">Plants vs. Zombies</a> <time
-        datetime="2009-05-08">2009-05-08</time></h4>
-    <h3>2007</h3>
-    <h4><a href=" /games/tomb-raider-anniversary/">Tomb Raider: Anniversary</a> <time
-        datetime="2007-06-04">2007-06-04</time></h4>
-    <h4><a href=" /games/harvest-moon-tree-of-tranquility/">Harvest Moon: Tree of Tranquility</a> <time
-        datetime="2007-06-02">2007-06-02</time></h4>
-    <h3>2006</h3>
-    <h4><a href=" /games/wii-sports/">Wii Sports</a> <time
-        datetime="2006-11-23">2006-11-23</time></h4>
-    <h4><a href=" /games/rollercoaster-tycoon-3/">RollerCoaster Tycoon 3</a> <time
-        datetime="2006-11-19">2006-11-19</time></h4>
-    <h4><a href=" /games/harvest-moon-back-to-nature/">Harvest Moon: Back to Nature</a> <time
-        datetime="2006-08-06">2006-08-06</time></h4>
-    <h4><a href=" /games/nhl-2000/">NHL 2000</a> <time
-        datetime="2006-05-25">2006-05-25</time></h4>
-    <h4><a href=" /games/rollercoaster-tycoon/">RollerCoaster Tycoon</a> <time
-        datetime="2006-03-18">2006-03-18</time></h4>
-    <h3>2005</h3>
-    <h4><a href=" /games/rollercoaster-tycoon-2/">RollerCoaster Tycoon 2</a> <time
-        datetime="2005-07-03">2005-07-03</time></h4>
-    <h4><a href=" /games/the-sims/">The Sims</a> <time
-        datetime="2005-02-26">2005-02-26</time></h4>
-    <h3>2004</h3>
-    <h4><a href=" /games/simcity-3000/">SimCity 3000</a> <time
-        datetime="2004-05-28">2004-05-28</time></h4>
-    <h4><a href=" /games/gran-turismo-2/">Gran Turismo 2</a> <time
-        datetime="2004-03-11">2004-03-11</time></h4>
-  </div>
+        <meta name="description" content="Games and statistics have always been a part of my life—so I brought them together in a sleek game completionist tracker.">
+        <meta name="robots" content="index, follow">
+        <meta name="theme-color" content="#211f1a">
+        <meta name="color-scheme" content="dark">
+
+        <meta property="og:title" content="Genres">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://nikolasmoya.com/iplayed/genres/simulator/">
+        <meta property="og:description" content="Games and statistics have always been a part of my life—so I brought them together in a sleek game completionist tracker."><meta property="og:site_name" content="iPlayed">
+        <meta property="og:updated_time" content="2025-11-16T17:40:22.507130569+00:00">
+    </head>
+
+    <body class="layout-center">
+        <header class="header"><div class="header-container">
+    <span class="header-logo-container">
+        <a href="https://nikolasmoya.com/iplayed">
+    <span class="logo">iPlayed</span>
+</a>
+
+    </span>
 </div>
+<nav class="main-menu" aria-label="Main Menu">
+    <a class="skip-to-content" href="#main">Skip to main content</a>
+    <button class="main-menu-dropdown-button" popovertarget="nav-menu">Menu</button>
+    <ul id="nav-menu" class="main-menu-items" aria-label="Site Navigation" popover>
+        <li><a href="https://nikolasmoya.com/iplayed/games/">Games</a></li>
+        <li><a href="https://nikolasmoya.com/iplayed/platforms/">Platforms</a></li>
+        <li><a href="https://nikolasmoya.com/iplayed/genres/">Genres</a></li>
+    </ul>
+</nav>
 
-      
-      
-      <section class="footer-content">
-        
-        <footer id="footer-block">
-          
-          <nav class="nav-footer" role="navigation">
-            <ul class="footer-links" aria-label="footer links">
-              <li><a href=" /">home</a></li><li><a href="/games/">games</a></li><li><a href="/platforms/">platforms</a></li><li><a href="/genres/">genres</a></li><li><a href="/stats/">stats</a></li>
-            </ul>
-          </nav>
-          <p> </p>
-          
-        </footer>
-      </section>
-      
-      
+</header>
+        <main id="main">
+            <header class="content">
+    <h1>Genres: simulator</h1>
+</header>
+
+<div class="games-listing" data-games-list>
+    <div class="game-card" data-game-card data-search-text="outer wilds 25 hours - pc (microsoft windows) 25 hours pc (microsoft windows) puzzle simulator adventure indie 10.0 2025-10-25">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co65ac.jpg" alt="Outer Wilds">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/outer-wilds/">Outer Wilds</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">25 hours</span>
+                    </span>
+                    
+                    
+                    
+                    
+                    
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Rating</span>
+                        <span class="game-entry__badge-value">10/10</span>
+                        <span class="game-entry__badge-scale" role="img" aria-label="Rating 10 of 10">
+                            <span style="width: 100%;"></span>
+                        </span>
+                    </span>
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
     </div>
-    
-    <div class="toastBox"></div>
-    
-    
-    
-    
-    
-    
-    
-    <span id="precache-payload">/sw-load.js?v=a857dccba9197c91f006479a5c4b280fc4f48d02b6ef9de4ead6325f5466d85a3d4e3e6c0429eb50fb5fff01f08186d3089d6cf7f0d8e9478b430feb73d0c9bc
-      /fireball.gif?v=569e393374f2af74d6c575090904aaf51e641e5eb5ea89ae7c7de01f7293abc165b3a7e8685690a8b951c778603fec98ae6822ff2f7ea86a536776966cb65d5d /favicon.ico?v=04d0e921ab73bd9b72858ba6aa5490f5b7515c57a5971f669aa1eebbd96d778ae4f6063e671b74feef74b42c699cd41886e8ef8310914f0c3f580336ae00a2aa /favicon-16x16.png?v=7267c6f502a03c1e4df9d8136dcc6cd9e67e0b9644941d22ed34e4fe747580f95a65f77a183bb967c1ec60eecd0c298b2670d89a67a647391fb7d1501bcf0982 /favicon-32x32.png?v=5e23bffe691055b88067cbc8d11b96ce2a8dc5e25e49367803766a3cadbcfc7f05a62079bfa558d5e234c6a7455d21fc2960b196bda5cbd591bd4c2dbe67920d /icon-192x192.png?v=3820c1b1e6d755d2b7c2a04a65f0f1feef793b297f7ee995947137ccd8f73ec304457f6ce1df987a9a0a13ed7dacd203225505b832ccd2318b530ae53a55cebc /icon-512x512.png?v=de62ae905479fd813300d286ed1d2fe6bb6f6292623a5d918691642f6dd09a68943c69ed2a95a1820076919e69ff4fda668bb79e610ebc1d3200fedd7f634443 /apple-touch-icon.png?v=4718a090c66653794b3622234784e821a504ee526b6518f20cd10f6b27907566690892339830ede2ef9cb5fedb8a9796f02fb2610de868500c0720c1083013b7 /main.css?v=6a8ee19151c6226eed47f4c07858d4b3bbe348a81287343ceadb5adef5f4e1881eb1bc7306e498ee81b2979f8cc82559da20f0a20231649eb0445e1e2d29855b /nerd-fonts.css?v=4b2ec75c55a664da78189dc20d4017cf5bc817cf3b60218a2446ba269ca4fd42c117352d5276363965f35fae32891efce751e0626b5281bae627f40d804a5679 /unstyle.css?v=b14bd48a2efbd463d973763aa3184c69aa02164c0891acacc9eab49ddd275f98f0050b4c31d2093e4671e7abe04f9459a041f0064384a90d97b8ff21b6824825 /langs.css?v=12474958ee314a9fde4704e1f5a032dc632d41f9461faca326ac284297766c4ceb07b45fec7fbc09fa72b0f21dcc64f0c31e64fc2e5e838b1d30f5fe540afd78 /syntax-theme-light.css?v=ccdddc2d2d88953c6d7d0376777b8409028ef625a7321dfa41619547b4f5eddbe89aa95ff5e7e2620da0ea13fbabebe2fd544620bc7e81e3294776b3425df48a /syntax-theme-dark.css?v=dfede4879841e4a58e5fc71115aa5f5b82e206d85eb771ff4e5a40a1d82621570aad2458f637365ae4370d9a1cf5070edc9765f7c2d4506e12e2ba3c6081ffd5 /sw-style.css?v=a0fa1e87fa2bb3e03d18cefc81ef5c8cfa58c6aa6eea0af223fa155e088bc5af22d32d3ee785ebd3fc26b4c49b70f0bd423f7d592a419a24e6d1e2cb720b7e05 /platforms/ /platforms/android/ /platforms/dos/ /platforms/game boy/ /platforms/ios/ /platforms/nintendo 64/ /platforms/nintendo entertainment system/ /platforms/nintendo switch/ /platforms/nintendo switch 2/ /platforms/pc/ /platforms/pc (microsoft windows)/ /platforms/playstation/ /platforms/playstation 2/ /platforms/playstation 3/ /platforms/playstation 4/ /platforms/playstation 5/ /platforms/super nintendo entertainment system/ /platforms/wii/ /platforms/xbox series xs/ /genres/ /genres/adventure/ /genres/arcade/ /genres/card & board game/ /genres/fighting/ /genres/hack and slashbeat 'em up/ /genres/indie/ /genres/moba/ /genres/music/ /genres/platform/ /genres/point-and-click/ /genres/puzzle/ /genres/quiztrivia/ /genres/racing/ /genres/real time strategy (rts)/ /genres/role-playing (rpg)/ /genres/shooter/ /genres/simulator/ /genres/sport/ /genres/strategy/ /genres/tactical/ /genres/turn-based strategy (tbs)/ /rating/ /rating/10.0/ /rating/4.0/ /rating/5.0/ /rating/6.0/ /rating/7.0/ /rating/8.0/ /rating/9.0/ /games/ /platforms /genres /stats/ /games/ /platforms/ /genres/ /stats/ nostalgia2.jpg?v=25fc2ea7af73a80687cf539d37dd034d4cdd6def21395dbdd97057d5978775e9541f6a27f12a60e087256b0f45cbecdd97ccdd634260757328b133ee5139281c nostalgia.png?v=3e7d0e96efabc36c13f52285defe02e245fa5a71f767b70d974c2b46f431852367ae8b5f3c18f6eba2edbe8802bd0873351fab750594f3c44a24196892c161e2 nostalgia.png?v=3e7d0e96efabc36c13f52285defe02e245fa5a71f767b70d974c2b46f431852367ae8b5f3c18f6eba2edbe8802bd0873351fab750594f3c44a24196892c161e2 /logo.png?v=04d0e921ab73bd9b72858ba6aa5490f5b7515c57a5971f669aa1eebbd96d778ae4f6063e671b74feef74b42c699cd41886e8ef8310914f0c3f580336ae00a2aa /glitch.css?v=0b9b7f8691385df5b832251e9cf4c56d68cbcfc98c6e4c27e015f6fb29d2f0c18c358c98c0e7e0a1da9f263d6b355b811e49aac099b70889090912a5040f754a /sitemap.xml &#x2F;search_index.en.json /search.js /elasticlunr.min.js?v=d106ab529e29f6be48a948124723fcf411e06b8e4ea4477b551f256d190991fe3ca7f121714ef8d9f594a4aa680f2bbd37a5d8004abfbf3ea6eb3d4ea259ec0f"></span>
-    <script type="module" integrity="sha512-qFfcy6kZfJHwBkeaXEsoD8T0jQK2753k6tYyX1Rm2Fo9Tj5sBCnrUPtf/wHwgYbTCJ1s9/DY6UeLQw/rc9DJvA=="
-      src="/sw-load.js?v=a857dccba9197c91f006479a5c4b280fc4f48d02b6ef9de4ead6325f5466d85a3d4e3e6c0429eb50fb5fff01f08186d3089d6cf7f0d8e9478b430feb73d0c9bc"></script>
-  </body>
+    <div class="game-card" data-game-card data-search-text="the farmer was replaced 39 hours - pc (microsoft windows) 39 hours pc (microsoft windows) puzzle simulator strategy indie 9.0 2025-10-17">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/coai4w.jpg" alt="The Farmer Was Replaced">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/the-farmer-was-replaced/">The Farmer Was Replaced</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">39 hours</span>
+                    </span>
+                    
+                    
+                    
+                    
+                    
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Rating</span>
+                        <span class="game-entry__badge-value">9/10</span>
+                        <span class="game-entry__badge-scale" role="img" aria-label="Rating 9 of 10">
+                            <span style="width: 90%;"></span>
+                        </span>
+                    </span>
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="minami lane 2 hours - nintendo switch 2 hours nintendo switch puzzle simulator strategy indie 4.0 2025-07-02">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co7puk.jpg" alt="Minami Lane">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/minami-lane/">Minami Lane</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">2 hours</span>
+                    </span>
+                    
+                    
+                    
+                    
+                    
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Rating</span>
+                        <span class="game-entry__badge-value">4/10</span>
+                        <span class="game-entry__badge-scale" role="img" aria-label="Rating 4 of 10">
+                            <span style="width: 40%;"></span>
+                        </span>
+                    </span>
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/nintendo switch/">nintendo switch</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="tower wizard 42 hours - pc (microsoft windows) 42 hours pc (microsoft windows) role-playing (rpg) simulator strategy indie 9.0 2025-06-26">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/coabgp.jpg" alt="Tower Wizard">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/tower-wizard/">Tower Wizard</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">42 hours</span>
+                    </span>
+                    
+                    
+                    
+                    
+                    
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Rating</span>
+                        <span class="game-entry__badge-value">9/10</span>
+                        <span class="game-entry__badge-scale" role="img" aria-label="Rating 9 of 10">
+                            <span style="width: 90%;"></span>
+                        </span>
+                    </span>
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="strange horticulture 6 hours - nintendo switch 6 hours nintendo switch puzzle role-playing (rpg) simulator adventure 6.0 2025-06-05">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co4bsb.jpg" alt="Strange Horticulture">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/strange-horticulture/">Strange Horticulture</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">6 hours</span>
+                    </span>
+                    
+                    
+                    
+                    
+                    
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Rating</span>
+                        <span class="game-entry__badge-value">6/10</span>
+                        <span class="game-entry__badge-scale" role="img" aria-label="Rating 6 of 10">
+                            <span style="width: 60%;"></span>
+                        </span>
+                    </span>
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/nintendo switch/">nintendo switch</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="green hell 16 hours and 11 minutes - pc (microsoft windows) 16 hours and 11 minutes pc (microsoft windows) simulator strategy adventure indie  2025-05-01">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co9d3h.jpg" alt="Green Hell">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/green-hell/">Green Hell</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">16 hours and 11 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="dave the diver 25 hours - pc (microsoft windows) 25 hours pc (microsoft windows) role-playing (rpg) simulator adventure 8.0 2024-12-05">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/coaav7.jpg" alt="Dave the Diver">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/dave-the-diver/">Dave the Diver</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">25 hours</span>
+                    </span>
+                    
+                    
+                    
+                    
+                    
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Rating</span>
+                        <span class="game-entry__badge-value">8/10</span>
+                        <span class="game-entry__badge-scale" role="img" aria-label="Rating 8 of 10">
+                            <span style="width: 80%;"></span>
+                        </span>
+                    </span>
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="per aspera 19 hours and 43 minutes - pc (microsoft windows) 19 hours and 43 minutes pc (microsoft windows) simulator strategy indie  2024-12-05">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2g12.jpg" alt="Per Aspera">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/per-aspera/">Per Aspera</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">19 hours and 43 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="satisfactory 105 hours and 15 minutes - pc (microsoft windows) 105 hours and 15 minutes pc (microsoft windows) simulator strategy adventure indie  2024-09-13">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co8tfy.jpg" alt="Satisfactory">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/satisfactory/">Satisfactory</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">105 hours and 15 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="steamworld build 7 hours - pc (microsoft windows) 7 hours pc (microsoft windows) simulator strategy  2023-12-16">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co65c5.jpg" alt="SteamWorld Build">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/steamworld-build/">SteamWorld Build</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">7 hours</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="bitburner 465 hours - pc (microsoft windows) 465 hours pc (microsoft windows) puzzle role-playing (rpg) simulator strategy indie 10.0 2023-05-17">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co4bdc.jpg" alt="Bitburner">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/bitburner/">Bitburner</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">465 hours</span>
+                    </span>
+                    
+                    
+                    
+                    
+                    
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Rating</span>
+                        <span class="game-entry__badge-value">10/10</span>
+                        <span class="game-entry__badge-scale" role="img" aria-label="Rating 10 of 10">
+                            <span style="width: 100%;"></span>
+                        </span>
+                    </span>
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="timberborn 13 hours - pc (microsoft windows) 13 hours pc (microsoft windows) simulator strategy indie 10.0 2023-05-03">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/coaayt.jpg" alt="Timberborn">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/timberborn/">Timberborn</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">13 hours</span>
+                    </span>
+                    
+                    
+                    
+                    
+                    
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Rating</span>
+                        <span class="game-entry__badge-value">10/10</span>
+                        <span class="game-entry__badge-scale" role="img" aria-label="Rating 10 of 10">
+                            <span style="width: 100%;"></span>
+                        </span>
+                    </span>
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="project zomboid 24 hours - pc (microsoft windows) 24 hours pc (microsoft windows) role-playing (rpg) simulator indie  2023-04-08">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co7kod.jpg" alt="Project Zomboid">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/project-zomboid/">Project Zomboid</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">24 hours</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="astroneer 24 hours - pc (microsoft windows) 24 hours pc (microsoft windows) simulator adventure indie  2023-04-04">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1niz.jpg" alt="Astroneer">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/astroneer/">Astroneer</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">24 hours</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="raft 37 hours and 12 minutes -  37 hours and 12 minutes  simulator adventure indie  2023-03-20">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1xdc.jpg" alt="Raft">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/raft/">Raft</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">37 hours and 12 minutes</span>
+                    </span>
+                    
+                    
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="pokémon go 76 hours - android 76 hours android role-playing (rpg) simulator  2023-03-16">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co9gmb.jpg" alt="Pokémon Go">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/pokemon-go/">Pokémon Go</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">76 hours</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/android/">android</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="prison architect 80 hours - pc (microsoft windows) 80 hours pc (microsoft windows) simulator strategy adventure indie  2022-12-16">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co62ch.jpg" alt="Prison Architect">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/prison-architect/">Prison Architect</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">80 hours</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="age of empires iii 15 hours and 3 minutes - pc (microsoft windows) 15 hours and 3 minutes pc (microsoft windows) real time strategy (rts) simulator strategy  2022-11-25">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1xy6.jpg" alt="Age of Empires III">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/age-of-empires-iii/">Age of Empires III</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">15 hours and 3 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="sid meier&amp;#x27;s civilization v 40 hours and 4 minutes - pc (microsoft windows) 40 hours and 4 minutes pc (microsoft windows) simulator strategy turn-based strategy (tbs)  2022-10-14">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co20up.jpg" alt="Sid Meier's Civilization V">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/sid-meier-s-civilization-v/">Sid Meier&#x27;s Civilization V</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">40 hours and 4 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="bridge constructor portal 13 hours and 15 minutes - pc (microsoft windows) 13 hours and 15 minutes pc (microsoft windows) puzzle simulator strategy  2022-09-22">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co230j.jpg" alt="Bridge Constructor Portal">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/bridge-constructor-portal/">Bridge Constructor Portal</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">13 hours and 15 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="stardew valley 53 hours and 25 minutes - nintendo switch 53 hours and 25 minutes nintendo switch role-playing (rpg) simulator strategy adventure indie  2022-06-27">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/coa93h.jpg" alt="Stardew Valley">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/stardew-valley/">Stardew Valley</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">53 hours and 25 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/nintendo switch/">nintendo switch</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="sniper elite 5 10 hours and 44 minutes - pc (microsoft windows) 10 hours and 44 minutes pc (microsoft windows) fighting shooter simulator adventure  2022-05-28">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co4ehj.jpg" alt="Sniper Elite 5">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/sniper-elite-5/">Sniper Elite 5</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">10 hours and 44 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="doodle devil 1 hours and 38 minutes - ios 1 hours and 38 minutes ios shooter puzzle simulator indie  2022-03-13">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co9voo.jpg" alt="Doodle Devil">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/doodle-devil/">Doodle Devil</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">1 hours and 38 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/ios/">ios</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="minecraft 65 hours and 27 minutes - pc (microsoft windows) 65 hours and 27 minutes pc (microsoft windows) simulator adventure arcade  2021-11-19">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co8fu7.jpg" alt="Minecraft">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/minecraft--1/">Minecraft</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">65 hours and 27 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="tropico 6 25 hours - pc (microsoft windows) 25 hours pc (microsoft windows) real time strategy (rts) simulator strategy 8.0 2021-08-04">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1idx.jpg" alt="Tropico 6">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/tropico-6/">Tropico 6</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">25 hours</span>
+                    </span>
+                    
+                    
+                    
+                    
+                    
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Rating</span>
+                        <span class="game-entry__badge-value">8/10</span>
+                        <span class="game-entry__badge-scale" role="img" aria-label="Rating 8 of 10">
+                            <span style="width: 80%;"></span>
+                        </span>
+                    </span>
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="factorio 525 hours - pc (microsoft windows) 525 hours pc (microsoft windows) simulator strategy indie  2020-08-04">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1tfy.jpg" alt="Factorio">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/factorio/">Factorio</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">525 hours</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="the sims 4 8 hours - playstation 4, pc (microsoft windows) 8 hours playstation 4 pc (microsoft windows) role-playing (rpg) simulator 7.0 2020-03-24">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co3h3l.jpg" alt="The Sims 4">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/the-sims-4/">The Sims 4</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">8 hours</span>
+                    </span>
+                    
+                    
+                    
+                    
+                    
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Rating</span>
+                        <span class="game-entry__badge-value">7/10</span>
+                        <span class="game-entry__badge-scale" role="img" aria-label="Rating 7 of 10">
+                            <span style="width: 70%;"></span>
+                        </span>
+                    </span>
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/playstation 4/">playstation 4</a>
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="lovers in a dangerous spacetime 8 hours - playstation 4 8 hours playstation 4 shooter simulator adventure indie arcade 8.0 2019-12-01">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2543.jpg" alt="Lovers in a Dangerous Spacetime">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/lovers-in-a-dangerous-spacetime/">Lovers in a Dangerous Spacetime</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">8 hours</span>
+                    </span>
+                    
+                    
+                    
+                    
+                    
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Rating</span>
+                        <span class="game-entry__badge-value">8/10</span>
+                        <span class="game-entry__badge-scale" role="img" aria-label="Rating 8 of 10">
+                            <span style="width: 80%;"></span>
+                        </span>
+                    </span>
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/playstation 4/">playstation 4</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="rimworld 61 hours and 57 minutes - pc (microsoft windows) 61 hours and 57 minutes pc (microsoft windows) real time strategy (rts) simulator strategy indie  2018-10-07">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/coaaqj.jpg" alt="RimWorld">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/rimworld/">RimWorld</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">61 hours and 57 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="into the breach 5 hours and 37 minutes - pc (microsoft windows) 5 hours and 37 minutes pc (microsoft windows) puzzle role-playing (rpg) simulator strategy turn-based strategy (tbs) indie  2018-02-05">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2gjp.jpg" alt="Into the Breach">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/into-the-breach/">Into the Breach</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">5 hours and 37 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="tropico 5 15 hours - pc (microsoft windows) 15 hours pc (microsoft windows) role-playing (rpg) simulator strategy 5.0 2018-01-28">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2acd.jpg" alt="Tropico 5">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/tropico-5/">Tropico 5</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">15 hours</span>
+                    </span>
+                    
+                    
+                    
+                    
+                    
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Rating</span>
+                        <span class="game-entry__badge-value">5/10</span>
+                        <span class="game-entry__badge-scale" role="img" aria-label="Rating 5 of 10">
+                            <span style="width: 50%;"></span>
+                        </span>
+                    </span>
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="railway empire 21 hours and 22 minutes - pc (microsoft windows) 21 hours and 22 minutes pc (microsoft windows) simulator strategy  2018-01-27">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1ynm.jpg" alt="Railway Empire">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/railway-empire/">Railway Empire</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">21 hours and 22 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="xcom 2 30 hours - playstation 4 30 hours playstation 4 role-playing (rpg) simulator strategy turn-based strategy (tbs) tactical 7.0 2017-11-25">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1mvj.jpg" alt="XCOM 2">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/xcom-2/">XCOM 2</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">30 hours</span>
+                    </span>
+                    
+                    
+                    
+                    
+                    
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Rating</span>
+                        <span class="game-entry__badge-value">7/10</span>
+                        <span class="game-entry__badge-scale" role="img" aria-label="Rating 7 of 10">
+                            <span style="width: 70%;"></span>
+                        </span>
+                    </span>
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/playstation 4/">playstation 4</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="tabletop simulator 484 hours - pc (microsoft windows) 484 hours pc (microsoft windows) role-playing (rpg) simulator strategy indie card &amp;amp; board game 10.0 2017-11-15">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co20xe.jpg" alt="Tabletop Simulator">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/tabletop-simulator/">Tabletop Simulator</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">484 hours</span>
+                    </span>
+                    
+                    
+                    
+                    
+                    
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Rating</span>
+                        <span class="game-entry__badge-value">10/10</span>
+                        <span class="game-entry__badge-scale" role="img" aria-label="Rating 10 of 10">
+                            <span style="width: 100%;"></span>
+                        </span>
+                    </span>
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="domina 4 hours and 28 minutes - pc (microsoft windows) 4 hours and 28 minutes pc (microsoft windows) simulator strategy indie  2017-04-12">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1w4a.jpg" alt="Domina">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/domina/">Domina</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">4 hours and 28 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="sid meier&amp;#x27;s civilization vi 23 hours and 41 minutes - pc (microsoft windows) 23 hours and 41 minutes pc (microsoft windows) simulator strategy turn-based strategy (tbs)  2016-10-17">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/coaaqr.jpg" alt="Sid Meier's Civilization VI">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/sid-meiers-civilization-vi/">Sid Meier&#x27;s Civilization VI</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">23 hours and 41 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="overcooked! 7 hours and 4 minutes - pc (microsoft windows) 7 hours and 4 minutes pc (microsoft windows) simulator strategy indie arcade  2016-08-27">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co262g.jpg" alt="Overcooked!">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/overcooked/">Overcooked!</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">7 hours and 4 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="no man&amp;#x27;s sky 70 hours - pc (microsoft windows) 70 hours pc (microsoft windows) role-playing (rpg) simulator adventure indie arcade 7.0 2016-08-10">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/coacrk.jpg" alt="No Man's Sky">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/no-man-s-sky/">No Man&#x27;s Sky</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">70 hours</span>
+                    </span>
+                    
+                    
+                    
+                    
+                    
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Rating</span>
+                        <span class="game-entry__badge-value">7/10</span>
+                        <span class="game-entry__badge-scale" role="img" aria-label="Rating 7 of 10">
+                            <span style="width: 70%;"></span>
+                        </span>
+                    </span>
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="mini metro 5 hours and 49 minutes - pc (microsoft windows) 5 hours and 49 minutes pc (microsoft windows) puzzle simulator strategy indie arcade  2015-02-22">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2561.jpg" alt="Mini Metro">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/mini-metro/">Mini Metro</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">5 hours and 49 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="cow evolution 1 hours and 46 minutes - android  android simulator  2014-08-01">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co4t5o.jpg" alt="Cow Evolution">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/cow-evolution/">Cow Evolution</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/android/">android</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="guitar hero iii: legends of rock 83 hours - playstation 2 83 hours playstation 2 music simulator 10.0 2014-03-18">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1wqm.jpg" alt="Guitar Hero III: Legends of Rock">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/guitar-hero-iii-legends-of-rock/">Guitar Hero III: Legends of Rock</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">83 hours</span>
+                    </span>
+                    
+                    
+                    
+                    
+                    
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Rating</span>
+                        <span class="game-entry__badge-value">10/10</span>
+                        <span class="game-entry__badge-scale" role="img" aria-label="Rating 10 of 10">
+                            <span style="width: 100%;"></span>
+                        </span>
+                    </span>
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/playstation 2/">playstation 2</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="the sims 2 25 hours and 30 minutes - pc (microsoft windows) 25 hours and 30 minutes pc (microsoft windows) role-playing (rpg) simulator strategy  2013-09-04">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co3dm5.jpg" alt="The Sims 2">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/the-sims-2/">The Sims 2</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">25 hours and 30 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="papers, please 5 hours and 1 minutes - pc (microsoft windows), ios 5 hours and 1 minutes pc (microsoft windows) ios point-and-click puzzle simulator indie  2013-08-25">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1vep.jpg" alt="Papers, Please">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/papers-please/">Papers, Please</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">5 hours and 1 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/ios/">ios</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="cookie clicker 154 hours and 5 minutes - pc (microsoft windows) 154 hours and 5 minutes pc (microsoft windows) point-and-click simulator strategy indie  2013-08-24">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co8e5m.jpg" alt="Cookie Clicker">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/cookie-clicker/">Cookie Clicker</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">154 hours and 5 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="game dev tycoon 8 hours and 37 minutes - pc (microsoft windows) 8 hours and 37 minutes pc (microsoft windows) simulator strategy indie  2012-12-14">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/wkrb3yz3ht4vly5oh1bq.jpg" alt="Game Dev Tycoon">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/game-dev-tycoon/">Game Dev Tycoon</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">8 hours and 37 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="xcom: enemy unknown 26 hours and 40 minutes - playstation 3 26 hours and 40 minutes playstation 3 role-playing (rpg) simulator strategy turn-based strategy (tbs) tactical  2012-12-11">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co29i2.jpg" alt="XCOM: Enemy Unknown">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/xcom-enemy-unknown/">XCOM: Enemy Unknown</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">26 hours and 40 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/playstation 3/">playstation 3</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="ace combat 3: electrosphere 3 hours and 53 minutes - playstation 3 hours and 53 minutes playstation shooter simulator  2012-10-11">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co8duw.jpg" alt="Ace Combat 3: Electrosphere">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/ace-combat-3-electrosphere/">Ace Combat 3: Electrosphere</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">3 hours and 53 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/playstation/">playstation</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="ftl: faster than light 12 hours and 13 minutes - pc (microsoft windows) 12 hours and 13 minutes pc (microsoft windows) role-playing (rpg) simulator strategy indie  2012-09-21">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co9chw.jpg" alt="FTL: Faster Than Light">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/ftl-faster-than-light/">FTL: Faster Than Light</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">12 hours and 13 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="infectonator android  android simulator strategy  2012-09-13">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co974v.jpg" alt="Infectonator">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/infectonator/">Infectonator</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/android/">android</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="simcity 2000 22 hours and 4 minutes - pc (microsoft windows) 22 hours and 4 minutes pc (microsoft windows) simulator strategy  2012-04-14">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1o4d.jpg" alt="SimCity 2000">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/simcity-2000/">SimCity 2000</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">22 hours and 4 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="terraria 73 hours - pc (microsoft windows) 73 hours pc (microsoft windows) platform role-playing (rpg) simulator strategy adventure indie 8.0 2011-05-14">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/coaamg.jpg" alt="Terraria">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/terraria/">Terraria</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">73 hours</span>
+                    </span>
+                    
+                    
+                    
+                    
+                    
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Rating</span>
+                        <span class="game-entry__badge-value">8/10</span>
+                        <span class="game-entry__badge-scale" role="img" aria-label="Rating 8 of 10">
+                            <span style="width: 80%;"></span>
+                        </span>
+                    </span>
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="doodle god 4 hours and 2 minutes - ios 4 hours and 2 minutes ios puzzle simulator indie  2011-02-22">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co3m4j.jpg" alt="Doodle God">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/doodle-god/">Doodle God</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">4 hours and 2 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/ios/">ios</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="the sims 3 52 hours and 33 minutes - playstation 3 52 hours and 33 minutes playstation 3 role-playing (rpg) simulator strategy  2010-09-26">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co5vwl.jpg" alt="The Sims 3">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/the-sims-3/">The Sims 3</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">52 hours and 33 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/playstation 3/">playstation 3</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="sega bass fishing playstation 3  playstation 3 simulator sport arcade  2010-07-14">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co40xx.jpg" alt="Sega Bass Fishing">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/sega-bass-fishing/">Sega Bass Fishing</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/playstation 3/">playstation 3</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="gran turismo 5 45 hours and 28 minutes - playstation 3 45 hours and 28 minutes playstation 3 racing simulator sport  2010-06-09">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co20bm.jpg" alt="Gran Turismo 5">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/gran-turismo-5/">Gran Turismo 5</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">45 hours and 28 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/playstation 3/">playstation 3</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="wii sports resort 8 hours and 53 minutes - wii 8 hours and 53 minutes wii shooter racing simulator sport  2009-07-21">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2may.jpg" alt="Wii Sports Resort">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/wii-sports-resort/">Wii Sports Resort</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">8 hours and 53 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/wii/">wii</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="plants vs. zombies 8 hours and 11 minutes - ios 8 hours and 11 minutes ios puzzle real time strategy (rts) simulator strategy tactical  2009-05-08">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co69id.jpg" alt="Plants vs. Zombies">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/plants-vs-zombies/">Plants vs. Zombies</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">8 hours and 11 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/ios/">ios</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="tomb raider: anniversary 12 hours and 22 minutes - pc (microsoft windows) 12 hours and 22 minutes pc (microsoft windows) shooter platform simulator strategy adventure  2007-06-04">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/coaesz.jpg" alt="Tomb Raider: Anniversary">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/tomb-raider-anniversary/">Tomb Raider: Anniversary</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">12 hours and 22 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="harvest moon: tree of tranquility 39 hours and 58 minutes - wii 39 hours and 58 minutes wii role-playing (rpg) simulator adventure  2007-06-02">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co26jz.jpg" alt="Harvest Moon: Tree of Tranquility">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/harvest-moon-tree-of-tranquility/">Harvest Moon: Tree of Tranquility</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">39 hours and 58 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/wii/">wii</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="wii sports 4 hours and 35 minutes - wii 4 hours and 35 minutes wii simulator sport  2006-11-23">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co3vge.jpg" alt="Wii Sports">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/wii-sports/">Wii Sports</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">4 hours and 35 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/wii/">wii</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="rollercoaster tycoon 3 16 hours and 7 minutes - pc (microsoft windows) 16 hours and 7 minutes pc (microsoft windows) simulator strategy  2006-11-19">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co3w0i.jpg" alt="RollerCoaster Tycoon 3">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/rollercoaster-tycoon-3/">RollerCoaster Tycoon 3</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">16 hours and 7 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="harvest moon: back to nature 80 hours and 11 minutes - playstation 80 hours and 11 minutes playstation role-playing (rpg) simulator  2006-08-06">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1ubz.jpg" alt="Harvest Moon: Back to Nature">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/harvest-moon-back-to-nature/">Harvest Moon: Back to Nature</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">80 hours and 11 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/playstation/">playstation</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="nhl 2000 20 hours and 44 minutes - pc (microsoft windows) 20 hours and 44 minutes pc (microsoft windows) platform simulator sport  2006-05-25">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co629f.jpg" alt="NHL 2000">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/nhl-2000/">NHL 2000</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">20 hours and 44 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="rollercoaster tycoon 58 hours and 32 minutes -  58 hours and 32 minutes  simulator strategy  2006-03-18">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2r6q.jpg" alt="RollerCoaster Tycoon">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/rollercoaster-tycoon/">RollerCoaster Tycoon</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">58 hours and 32 minutes</span>
+                    </span>
+                    
+                    
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="rollercoaster tycoon 2 72 hours and 54 minutes - pc (microsoft windows) 72 hours and 54 minutes pc (microsoft windows) real time strategy (rts) simulator strategy  2005-07-03">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2dws.jpg" alt="RollerCoaster Tycoon 2">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/rollercoaster-tycoon-2/">RollerCoaster Tycoon 2</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">72 hours and 54 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="the sims 25 hours and 58 minutes - pc (microsoft windows) 25 hours and 58 minutes pc (microsoft windows) simulator  2005-02-26">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co8j9a.jpg" alt="The Sims">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/the-sims/">The Sims</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">25 hours and 58 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="simcity 3000 8 hours and 33 minutes - pc (microsoft windows) 8 hours and 33 minutes pc (microsoft windows) simulator strategy  2004-05-28">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1o4e.jpg" alt="SimCity 3000">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/simcity-3000/">SimCity 3000</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">8 hours and 33 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/pc (microsoft windows)/">pc (microsoft windows)</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="game-card" data-game-card data-search-text="gran turismo 2 28 hours and 55 minutes - playstation 28 hours and 55 minutes playstation racing simulator  2004-03-11">
+        <div class="game-container"><div class="game-entry__image">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co20af.jpg" alt="Gran Turismo 2">
+            </div><article class="post game-entry__content">
+                <h2 class="post-title">
+                    <a href="https://nikolasmoya.com/iplayed/games/gran-turismo-2/">Gran Turismo 2</a>
+                </h2>
+                <div class="game-entry__meta">
+                    
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Playtime</span>
+                        <span class="game-entry__badge-value">28 hours and 55 minutes</span>
+                    </span>
+                    
+                    
+                    
+                    <span class="game-entry__badge game-entry__badge--chips">
+                        <span class="game-entry__badge-label">Platforms</span>
+                        <span class="game-entry__badge-value">
+                            
+                            
+                            <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/playstation/">playstation</a>
+                            
+                        </span>
+                    </span>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    </div>
+
+
+
+        </main>
+        <footer class="footer"><!-- <p class="copyright">
+    <span>© <time>2025</time> Nikolas Moya</span>
+</p> --></footer>
+    </body>
 
 </html>
+
+

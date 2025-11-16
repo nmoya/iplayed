@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title>iPlayed - 10.0</title>
+    <subtitle>Games and statistics have always been a part of my life—so I brought them together in a sleek game completionist tracker.</subtitle>
     <link rel="self" type="application/atom+xml" href="https://nikolasmoya.com/iplayed/rating/10.0/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
@@ -14,7 +15,7 @@
         <author>
           <name>
             
-              Unknown
+              Nikolas Moya
             
           </name>
         </author>
@@ -22,16 +23,7 @@
         <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/hades-ii/"/>
         <id>https://nikolasmoya.com/iplayed/games/hades-ii/</id>
         
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/hades-ii/">&lt;figure&gt;
-    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;coaknx.jpg&quot;&#x2F;&gt;
-&lt;&#x2F;figure&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td&gt;Rating&lt;&#x2F;td&gt;&lt;td&gt;10.0&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;45 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;PC (Microsoft Windows)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2025&#x2F;11&#x2F;08&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
-</content>
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/hades-ii/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -42,7 +34,7 @@
         <author>
           <name>
             
-              Unknown
+              Nikolas Moya
             
           </name>
         </author>
@@ -50,16 +42,8 @@
         <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/outer-wilds/"/>
         <id>https://nikolasmoya.com/iplayed/games/outer-wilds/</id>
         
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/outer-wilds/">&lt;figure&gt;
-    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co65ac.jpg&quot;&#x2F;&gt;
-&lt;&#x2F;figure&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td&gt;Rating&lt;&#x2F;td&gt;&lt;td&gt;10.0&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;25 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;PC (Microsoft Windows)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2025&#x2F;10&#x2F;25&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
-&lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/outer-wilds/">&lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;post-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
 &lt;p&gt;❌ Outer Wilds: Echoes of the Eye&lt;&#x2F;p&gt;
 </content>
         
@@ -72,7 +56,7 @@
         <author>
           <name>
             
-              Unknown
+              Nikolas Moya
             
           </name>
         </author>
@@ -80,16 +64,7 @@
         <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/clair-obscur-expedition-33/"/>
         <id>https://nikolasmoya.com/iplayed/games/clair-obscur-expedition-33/</id>
         
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/clair-obscur-expedition-33/">&lt;figure&gt;
-    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co9gam.jpg&quot;&#x2F;&gt;
-&lt;&#x2F;figure&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td&gt;Rating&lt;&#x2F;td&gt;&lt;td&gt;10.0&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;50 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;PC (Microsoft Windows)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2025&#x2F;08&#x2F;02&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
-</content>
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/clair-obscur-expedition-33/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -100,7 +75,7 @@
         <author>
           <name>
             
-              Unknown
+              Nikolas Moya
             
           </name>
         </author>
@@ -108,16 +83,7 @@
         <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/balatro/"/>
         <id>https://nikolasmoya.com/iplayed/games/balatro/</id>
         
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/balatro/">&lt;figure&gt;
-    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co9f4g.jpg&quot;&#x2F;&gt;
-&lt;&#x2F;figure&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td&gt;Rating&lt;&#x2F;td&gt;&lt;td&gt;10.0&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;32 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;PC (Microsoft Windows), Nintendo Switch&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2024&#x2F;12&#x2F;04&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
-</content>
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/balatro/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -128,7 +94,7 @@
         <author>
           <name>
             
-              Unknown
+              Nikolas Moya
             
           </name>
         </author>
@@ -136,50 +102,14 @@
         <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/vampire-survivors/"/>
         <id>https://nikolasmoya.com/iplayed/games/vampire-survivors/</id>
         
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/vampire-survivors/">&lt;figure&gt;
-    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co4bzv.jpg&quot;&#x2F;&gt;
-&lt;&#x2F;figure&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td&gt;Rating&lt;&#x2F;td&gt;&lt;td&gt;10.0&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;62 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;PC (Microsoft Windows)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;11&#x2F;30&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
-&lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/vampire-survivors/">&lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;post-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
 &lt;p&gt;❌ Vampire Survivors: Operation Guns&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Vampire Survivors: Tides of the Foscari&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Vampire Survivors: Legacy of the Moonspell&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Vampire Survivors: Emergency Meeting&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Vampire Survivors: Emerald Diorama&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Vampire Survivors: Ode to Castlevania&lt;&#x2F;p&gt;
-</content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Baldur&#x27;s Gate 3</title>
-        <published>2023-10-16T00:00:00+00:00</published>
-        <updated>2023-10-16T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/baldurs-gate-3/"/>
-        <id>https://nikolasmoya.com/iplayed/games/baldurs-gate-3/</id>
-        
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/baldurs-gate-3/">&lt;figure&gt;
-    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co670h.jpg&quot;&#x2F;&gt;
-&lt;&#x2F;figure&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td&gt;Rating&lt;&#x2F;td&gt;&lt;td&gt;10.0&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;149 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;PC&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;10&#x2F;16&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 </content>
         
     </entry>
@@ -191,7 +121,7 @@
         <author>
           <name>
             
-              Unknown
+              Nikolas Moya
             
           </name>
         </author>
@@ -199,16 +129,7 @@
         <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/baldurs-gate-iii/"/>
         <id>https://nikolasmoya.com/iplayed/games/baldurs-gate-iii/</id>
         
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/baldurs-gate-iii/">&lt;figure&gt;
-    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co670h.jpg&quot;&#x2F;&gt;
-&lt;&#x2F;figure&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td&gt;Rating&lt;&#x2F;td&gt;&lt;td&gt;10.0&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;149 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;PC (Microsoft Windows)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;10&#x2F;16&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
-</content>
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/baldurs-gate-iii/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -219,7 +140,7 @@
         <author>
           <name>
             
-              Unknown
+              Nikolas Moya
             
           </name>
         </author>
@@ -227,16 +148,7 @@
         <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/bitburner/"/>
         <id>https://nikolasmoya.com/iplayed/games/bitburner/</id>
         
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/bitburner/">&lt;figure&gt;
-    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co4bdc.jpg&quot;&#x2F;&gt;
-&lt;&#x2F;figure&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td&gt;Rating&lt;&#x2F;td&gt;&lt;td&gt;10.0&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;465 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;PC (Microsoft Windows)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;05&#x2F;17&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
-</content>
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/bitburner/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -247,7 +159,7 @@
         <author>
           <name>
             
-              Unknown
+              Nikolas Moya
             
           </name>
         </author>
@@ -255,16 +167,7 @@
         <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/timberborn/"/>
         <id>https://nikolasmoya.com/iplayed/games/timberborn/</id>
         
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/timberborn/">&lt;figure&gt;
-    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;coaayt.jpg&quot;&#x2F;&gt;
-&lt;&#x2F;figure&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td&gt;Rating&lt;&#x2F;td&gt;&lt;td&gt;10.0&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;13 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;PC (Microsoft Windows)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2023&#x2F;05&#x2F;03&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
-</content>
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/timberborn/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -275,7 +178,7 @@
         <author>
           <name>
             
-              Unknown
+              Nikolas Moya
             
           </name>
         </author>
@@ -283,16 +186,7 @@
         <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/metal-gear-solid-v-the-phantom-pain/"/>
         <id>https://nikolasmoya.com/iplayed/games/metal-gear-solid-v-the-phantom-pain/</id>
         
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/metal-gear-solid-v-the-phantom-pain/">&lt;figure&gt;
-    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co1v85.jpg&quot;&#x2F;&gt;
-&lt;&#x2F;figure&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td&gt;Rating&lt;&#x2F;td&gt;&lt;td&gt;10.0&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;52 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;PC (Microsoft Windows), PlayStation 4&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2022&#x2F;02&#x2F;17&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
-</content>
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/metal-gear-solid-v-the-phantom-pain/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -303,7 +197,7 @@
         <author>
           <name>
             
-              Unknown
+              Nikolas Moya
             
           </name>
         </author>
@@ -311,16 +205,7 @@
         <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/it-takes-two/"/>
         <id>https://nikolasmoya.com/iplayed/games/it-takes-two/</id>
         
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/it-takes-two/">&lt;figure&gt;
-    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co2t97.jpg&quot;&#x2F;&gt;
-&lt;&#x2F;figure&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td&gt;Rating&lt;&#x2F;td&gt;&lt;td&gt;10.0&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;15 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;PC (Microsoft Windows)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2021&#x2F;04&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
-</content>
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/it-takes-two/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -331,7 +216,7 @@
         <author>
           <name>
             
-              Unknown
+              Nikolas Moya
             
           </name>
         </author>
@@ -339,16 +224,7 @@
         <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/dark-souls-iii/"/>
         <id>https://nikolasmoya.com/iplayed/games/dark-souls-iii/</id>
         
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/dark-souls-iii/">&lt;figure&gt;
-    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co1vcf.jpg&quot;&#x2F;&gt;
-&lt;&#x2F;figure&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td&gt;Rating&lt;&#x2F;td&gt;&lt;td&gt;10.0&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;50 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;PC (Microsoft Windows), PlayStation 4&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2019&#x2F;01&#x2F;26&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
-</content>
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/dark-souls-iii/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -359,7 +235,7 @@
         <author>
           <name>
             
-              Unknown
+              Nikolas Moya
             
           </name>
         </author>
@@ -367,16 +243,7 @@
         <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/god-of-war--1/"/>
         <id>https://nikolasmoya.com/iplayed/games/god-of-war--1/</id>
         
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/god-of-war--1/">&lt;figure&gt;
-    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co1tmu.jpg&quot;&#x2F;&gt;
-&lt;&#x2F;figure&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td&gt;Rating&lt;&#x2F;td&gt;&lt;td&gt;10.0&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;20 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;PlayStation 4&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2018&#x2F;08&#x2F;25&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
-</content>
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/god-of-war--1/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -387,7 +254,7 @@
         <author>
           <name>
             
-              Unknown
+              Nikolas Moya
             
           </name>
         </author>
@@ -395,16 +262,8 @@
         <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/tabletop-simulator/"/>
         <id>https://nikolasmoya.com/iplayed/games/tabletop-simulator/</id>
         
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/tabletop-simulator/">&lt;figure&gt;
-    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co20xe.jpg&quot;&#x2F;&gt;
-&lt;&#x2F;figure&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td&gt;Rating&lt;&#x2F;td&gt;&lt;td&gt;10.0&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;484 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;PC (Microsoft Windows)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2017&#x2F;11&#x2F;15&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
-&lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;zola-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/tabletop-simulator/">&lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;post-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
 &lt;p&gt;❌ Tabletop Simulator: Cosmic Encounter Connector&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Tabletop Simulator: Adventure Mart&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Tabletop Simulator: One Night Ultimate Werewolf&lt;&#x2F;p&gt;
@@ -460,7 +319,7 @@
         <author>
           <name>
             
-              Unknown
+              Nikolas Moya
             
           </name>
         </author>
@@ -468,16 +327,7 @@
         <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/bloodborne/"/>
         <id>https://nikolasmoya.com/iplayed/games/bloodborne/</id>
         
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/bloodborne/">&lt;figure&gt;
-    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co1rba.jpg&quot;&#x2F;&gt;
-&lt;&#x2F;figure&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td&gt;Rating&lt;&#x2F;td&gt;&lt;td&gt;10.0&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;32 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;PlayStation 4&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2016&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
-</content>
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/bloodborne/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -488,7 +338,7 @@
         <author>
           <name>
             
-              Unknown
+              Nikolas Moya
             
           </name>
         </author>
@@ -496,16 +346,7 @@
         <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/guitar-hero-iii-legends-of-rock/"/>
         <id>https://nikolasmoya.com/iplayed/games/guitar-hero-iii-legends-of-rock/</id>
         
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/guitar-hero-iii-legends-of-rock/">&lt;figure&gt;
-    &lt;img class=&quot;align-center page-image&quot; src=&quot;https:&#x2F;&#x2F;images.igdb.com&#x2F;igdb&#x2F;image&#x2F;upload&#x2F;t_cover_big&#x2F;co1wqm.jpg&quot;&#x2F;&gt;
-&lt;&#x2F;figure&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td&gt;Rating&lt;&#x2F;td&gt;&lt;td&gt;10.0&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Time played&lt;&#x2F;td&gt;&lt;td&gt;83 hours&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Played platforms&lt;&#x2F;td&gt;&lt;td&gt;PlayStation 2&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Completed at&lt;&#x2F;td&gt;&lt;td&gt;2014&#x2F;03&#x2F;18&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
-</content>
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/guitar-hero-iii-legends-of-rock/"></content>
         
     </entry>
 </feed>

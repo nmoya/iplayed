@@ -1,167 +1,118 @@
-
-
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
-  <head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Security-Policy" content="default-src &#x27;self&#x27;; style-src-attr &#x27;unsafe-inline&#x27;; connect-src &#x27;self&#x27; cloudflareinsights.com; script-src-elem &#x27;self&#x27; static.cloudflareinsights.com cdn.jsdelivr.net; img-src &#x27;self&#x27; https:&#x2F;&#x2F;*.githubusercontent.com https:&#x2F;&#x2F;images.igdb.com">
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
-  <meta name="referrer" content="strict-origin-when-cross-origin">
-  
-  <meta name="robots" content="index,follow">
-  <meta name="theme-color" content="#2C2D32">
-  
-  <link rel="manifest" href="/manifest.json">
-  
-  <title>Crash Bandicoot • iPlayed</title>
-  <meta name="author" content="">
-  <meta name="description" content="6 hours and 5 minutes - PlayStation">
-  <meta property="og:locale" content="en_US">
-  <meta property="og:type" content="article">
-  <meta property="og:title" content="Crash Bandicoot"><meta property="og:description" content="6 hours and 5 minutes - PlayStation">
-  <meta property="og:url" content="https://nikolasmoya.com/iplayed/games/crash-bandicoot/">
-  <meta property="og:site_name" content="iPlayed">
-  <link rel="canonical" href="https://nikolasmoya.com/iplayed/games/crash-bandicoot/">
-  <meta name="twitter:card" content="/logo.png">
-  <meta name="twitter:image" content="/logo.png">
-  <meta property="og:image" content="/logo.png">
-  <meta name="twitter:title" content="Crash Bandicoot"><meta name="twitter:description" content="6 hours and 5 minutes - PlayStation">
-  <meta name="MobileOptimized" content="320">
-  <meta name="HandheldFriendly" content="True">
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=5e23bffe691055b88067cbc8d11b96ce2a8dc5e25e49367803766a3cadbcfc7f05a62079bfa558d5e234c6a7455d21fc2960b196bda5cbd591bd4c2dbe67920d">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=7267c6f502a03c1e4df9d8136dcc6cd9e67e0b9644941d22ed34e4fe747580f95a65f77a183bb967c1ec60eecd0c298b2670d89a67a647391fb7d1501bcf0982">
-  <link rel="stylesheet" type="text/css" href="/unstyle.css?v=b14bd48a2efbd463d973763aa3184c69aa02164c0891acacc9eab49ddd275f98f0050b4c31d2093e4671e7abe04f9459a041f0064384a90d97b8ff21b6824825">
-  <link rel="stylesheet" type="text/css" href="/main.css?v=6a8ee19151c6226eed47f4c07858d4b3bbe348a81287343ceadb5adef5f4e1881eb1bc7306e498ee81b2979f8cc82559da20f0a20231649eb0445e1e2d29855b">
-  
-  
-  <link rel="stylesheet" type="text/css" href="/langs.css?v=12474958ee314a9fde4704e1f5a032dc632d41f9461faca326ac284297766c4ceb07b45fec7fbc09fa72b0f21dcc64f0c31e64fc2e5e838b1d30f5fe540afd78">
-  <link rel="stylesheet" type="text/css" href="/syntax-theme-light.css?v=ccdddc2d2d88953c6d7d0376777b8409028ef625a7321dfa41619547b4f5eddbe89aa95ff5e7e2620da0ea13fbabebe2fd544620bc7e81e3294776b3425df48a" media="(prefers-color-scheme: light)">
-  <link rel="stylesheet" type="text/css" href="/syntax-theme-dark.css?v=dfede4879841e4a58e5fc71115aa5f5b82e206d85eb771ff4e5a40a1d82621570aad2458f637365ae4370d9a1cf5070edc9765f7c2d4506e12e2ba3c6081ffd5" media="(prefers-color-scheme: dark)">
-  <link rel="stylesheet" type="text/css" href="/sw-style.css?v=a0fa1e87fa2bb3e03d18cefc81ef5c8cfa58c6aa6eea0af223fa155e088bc5af22d32d3ee785ebd3fc26b4c49b70f0bd423f7d592a419a24e6d1e2cb720b7e05">
-  <style>#posts.inner-post-page .block-left{background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("/nostalgia.png?v=3e7d0e96efabc36c13f52285defe02e245fa5a71f767b70d974c2b46f431852367ae8b5f3c18f6eba2edbe8802bd0873351fab750594f3c44a24196892c161e2") no-repeat;background-size:cover}</style>
-  <style>#posts .block-left{background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("/nostalgia.png?v=3e7d0e96efabc36c13f52285defe02e245fa5a71f767b70d974c2b46f431852367ae8b5f3c18f6eba2edbe8802bd0873351fab750594f3c44a24196892c161e2") no-repeat;background-size:cover,cover}.block-left{background:linear-gradient(rgba(44,45,51,0.9),rgba(44,45,51,0.9)),url("/nostalgia2.jpg?v=25fc2ea7af73a80687cf539d37dd034d4cdd6def21395dbdd97057d5978775e9541f6a27f12a60e087256b0f45cbecdd97ccdd634260757328b133ee5139281c") no-repeat;background-size:cover}</style>
+        <title>Crash Bandicoot | iPlayed</title>
 
-  </head>
-  
+        <link rel="preload" href="https://nikolasmoya.com/iplayed/fonts/FiraCode-Regular.woff2" as="font" type="font/woff2"
+            crossorigin="anonymous">
+        <link rel="preload" href="https://nikolasmoya.com/iplayed/fonts/FiraCode-Bold.woff2" as="font" type="font/woff2"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="https://nikolasmoya.com/iplayed/css/style.css?h=db09bd248e327d21bf0e">
+        <script src="https://nikolasmoya.com/iplayed/js/auto-close-popover-on-resize.js?h=4ef87d6fc7b98b22e044" defer></script>
+        <script src="https://nikolasmoya.com/iplayed/js/copy-code-to-clipboard.js?h=6aac77c47d552a0ac847" defer></script>
+        <!-- <script src="https://nikolasmoya.com/iplayed/js/theme-switcher.js?h=c7049c13f5599d2609bf" defer></script> -->
 
-  <body id="posts">
-    <div class="block-left">
-      <div class="content">
-        <a href="/" class="logo"><img src=" /logo.png?v=04d0e921ab73bd9b72858ba6aa5490f5b7515c57a5971f669aa1eebbd96d778ae4f6063e671b74feef74b42c699cd41886e8ef8310914f0c3f580336ae00a2aa" alt="logo" width="64"
-            height="64"></a>
+        <link rel="canonical" href="https://nikolasmoya.com/iplayed/games/crash-bandicoot/">
         
-  <div class="post-title-section">
-    <h1 class="section-title">Crash Bandicoot</h1>
-    <ul class="tags">
-      <li><a href="/genres/platform/">platform</a></li>
+        <meta name="author" content="Nikolas Moya">
+<meta name="description" content="6 hours and 5 minutes - PlayStation">
+        <meta name="robots" content="index, follow">
+        <meta name="theme-color" content="#211f1a">
+        <meta name="color-scheme" content="dark">
+
+        <meta property="og:title" content="Crash Bandicoot">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="https://nikolasmoya.com/iplayed/games/crash-bandicoot/">
+        <meta property="og:description" content="6 hours and 5 minutes - PlayStation"><meta property="og:site_name" content="iPlayed">
+        <meta property="og:updated_time" content="2025-11-16T17:40:22.426546780+00:00">
+        <meta property="article:published_time" content="2004-02-23T00:00:00+00:00">
+        <meta property="article:modified_time" content="2004-02-23T00:00:00+00:00">
+    </head>
+
+    <body class="layout-center">
+        <header class="header"><div class="header-container">
+    <span class="header-logo-container">
+        <a href="https://nikolasmoya.com/iplayed">
+    <span class="logo">iPlayed</span>
+</a>
+
+    </span>
+</div>
+<nav class="main-menu" aria-label="Main Menu">
+    <a class="skip-to-content" href="#main">Skip to main content</a>
+    <button class="main-menu-dropdown-button" popovertarget="nav-menu">Menu</button>
+    <ul id="nav-menu" class="main-menu-items" aria-label="Site Navigation" popover>
+        <li><a href="https://nikolasmoya.com/iplayed/games/">Games</a></li>
+        <li><a href="https://nikolasmoya.com/iplayed/platforms/">Platforms</a></li>
+        <li><a href="https://nikolasmoya.com/iplayed/genres/">Genres</a></li>
     </ul>
-    <ul class="tags">
-    </ul>
-  </div>
-  
-      </div>
-    </div>
-    <div class="block-right">
-      
-      <div id="nav-container">
-        <nav class="nav-bar" role="navigation">
-          <ul class="nav-menu">
-            <li><a href=" /">Home</a></li>
-              
-                
-                <li class="nav-active" >
-                  <a href="/games/">Games</a></li>
-                  
-                <li>
-                  <a href="/platforms">platforms</a></li>
-                  
-                <li>
-                  <a href="/genres">genres</a></li>
-                  
-                <li>
-                  <a href="/stats/">Stats</a></li>
-                  
-          </ul>
-        </nav>
-        
-        <script defer
-          src="/elasticlunr.min.js?v=d106ab529e29f6be48a948124723fcf411e06b8e4ea4477b551f256d190991fe3ca7f121714ef8d9f594a4aa680f2bbd37a5d8004abfbf3ea6eb3d4ea259ec0f"></script>
-        <script defer src="/search.js" ,
-          integrity="sha512-DmR2xqXtdqELQ+iwv2VXhgnn1gRdZ7pEy1+nF0gbW6XwLjsg/8cnkQ2fT8ChTQpBGBQuCQu4Z9zhHdWBpfHnow=="></script>
-        <nav class="search-container" id="search-nav">
-          <input id="search" type="search" placeholder="Search" aria-label="Search">
-          <div class="search-results">
-            <div class="search-results__items">
-            </div>
-          </div>
-        </nav>
-        
-      </div>
-      
-      
-  <div class="inner-post content">
-    <div class="date-highlight">Crash Bandicoot</div>
+</nav>
 
-    <figure>
-    <img class="align-center page-image" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co555l.jpg"/>
-</figure>
-<table><thead><tr><th></th><th></th></tr></thead><tbody>
-<tr><td>Time played</td><td>6 hours</td></tr>
-<tr><td>Played platforms</td><td>PlayStation</td></tr>
-<tr><td>Completed at</td><td>2004/02/23</td></tr>
-</tbody></table>
+</header>
+        <main id="main">
+            <article class="post content">
+  <header>
+    <h1 class="post-title">Crash Bandicoot</h1>
+  </header>
 
-    <br>
-    <!-- 
-    <nav class="pagination">
-      
-      <a class="pagination_pager" href=" /games/metal-slug-3/">prev</a>
-      
-      
-      <a class="pagination_pager" href=" /games/gran-turismo-2/">next</a>
-      
-    </nav>
-     -->
-    
-  </div>
   
+  <section class="terminal-panel" aria-label="Game metadata">
+    <div class="terminal-panel__content">
       
+      <figure class="terminal-panel__media">
+        <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co555l.jpg" alt="Crash Bandicoot">
+      </figure>
       
-      <section class="footer-content">
+      <dl class="terminal-meta">
         
-        <footer id="footer-block">
+        <dt class="terminal-meta__label">Playtime</dt>
+        <dd class="terminal-meta__value">
+          <span class="terminal-value">6 hours and 5 minutes</span>
+        </dd>
+        
+        
+        <dt class="terminal-meta__label">Platforms</dt>
+        <dd class="terminal-meta__value terminal-meta__value--wrap">
           
-          <nav class="nav-footer" role="navigation">
-            <ul class="footer-links" aria-label="footer links">
-              <li><a href=" /">home</a></li><li><a href="/games/">games</a></li><li><a href="/platforms/">platforms</a></li><li><a href="/genres/">genres</a></li><li><a href="/stats/">stats</a></li>
-            </ul>
-          </nav>
-          <p> </p>
           
-        </footer>
-      </section>
-      
-      
+          <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/platforms/playstation/">playstation</a>
+          
+        </dd>
+        
+        
+        <dt class="terminal-meta__label">Genres</dt>
+        <dd class="terminal-meta__value terminal-meta__value--wrap">
+          
+          
+          <a class="terminal-chip" rel="tag" href="https://nikolasmoya.com/iplayed/genres/platform/">platform</a>
+          
+        </dd>
+        
+        
+        
+        <dt class="terminal-meta__label">Completed</dt>
+        <dd class="terminal-meta__value">
+          <time class="terminal-value" datetime="2004-02-23">23 Feb 2004</time>
+        </dd>
+        
+      </dl>
     </div>
-    
-    <div class="toastBox"></div>
-    
-    
-    
-    
-    
-    
-    
-    <span id="precache-payload">/sw-load.js?v=a857dccba9197c91f006479a5c4b280fc4f48d02b6ef9de4ead6325f5466d85a3d4e3e6c0429eb50fb5fff01f08186d3089d6cf7f0d8e9478b430feb73d0c9bc
-      /fireball.gif?v=569e393374f2af74d6c575090904aaf51e641e5eb5ea89ae7c7de01f7293abc165b3a7e8685690a8b951c778603fec98ae6822ff2f7ea86a536776966cb65d5d /favicon.ico?v=04d0e921ab73bd9b72858ba6aa5490f5b7515c57a5971f669aa1eebbd96d778ae4f6063e671b74feef74b42c699cd41886e8ef8310914f0c3f580336ae00a2aa /favicon-16x16.png?v=7267c6f502a03c1e4df9d8136dcc6cd9e67e0b9644941d22ed34e4fe747580f95a65f77a183bb967c1ec60eecd0c298b2670d89a67a647391fb7d1501bcf0982 /favicon-32x32.png?v=5e23bffe691055b88067cbc8d11b96ce2a8dc5e25e49367803766a3cadbcfc7f05a62079bfa558d5e234c6a7455d21fc2960b196bda5cbd591bd4c2dbe67920d /icon-192x192.png?v=3820c1b1e6d755d2b7c2a04a65f0f1feef793b297f7ee995947137ccd8f73ec304457f6ce1df987a9a0a13ed7dacd203225505b832ccd2318b530ae53a55cebc /icon-512x512.png?v=de62ae905479fd813300d286ed1d2fe6bb6f6292623a5d918691642f6dd09a68943c69ed2a95a1820076919e69ff4fda668bb79e610ebc1d3200fedd7f634443 /apple-touch-icon.png?v=4718a090c66653794b3622234784e821a504ee526b6518f20cd10f6b27907566690892339830ede2ef9cb5fedb8a9796f02fb2610de868500c0720c1083013b7 /main.css?v=6a8ee19151c6226eed47f4c07858d4b3bbe348a81287343ceadb5adef5f4e1881eb1bc7306e498ee81b2979f8cc82559da20f0a20231649eb0445e1e2d29855b /nerd-fonts.css?v=4b2ec75c55a664da78189dc20d4017cf5bc817cf3b60218a2446ba269ca4fd42c117352d5276363965f35fae32891efce751e0626b5281bae627f40d804a5679 /unstyle.css?v=b14bd48a2efbd463d973763aa3184c69aa02164c0891acacc9eab49ddd275f98f0050b4c31d2093e4671e7abe04f9459a041f0064384a90d97b8ff21b6824825 /langs.css?v=12474958ee314a9fde4704e1f5a032dc632d41f9461faca326ac284297766c4ceb07b45fec7fbc09fa72b0f21dcc64f0c31e64fc2e5e838b1d30f5fe540afd78 /syntax-theme-light.css?v=ccdddc2d2d88953c6d7d0376777b8409028ef625a7321dfa41619547b4f5eddbe89aa95ff5e7e2620da0ea13fbabebe2fd544620bc7e81e3294776b3425df48a /syntax-theme-dark.css?v=dfede4879841e4a58e5fc71115aa5f5b82e206d85eb771ff4e5a40a1d82621570aad2458f637365ae4370d9a1cf5070edc9765f7c2d4506e12e2ba3c6081ffd5 /sw-style.css?v=a0fa1e87fa2bb3e03d18cefc81ef5c8cfa58c6aa6eea0af223fa155e088bc5af22d32d3ee785ebd3fc26b4c49b70f0bd423f7d592a419a24e6d1e2cb720b7e05 /platforms/ /platforms/android/ /platforms/dos/ /platforms/game boy/ /platforms/ios/ /platforms/nintendo 64/ /platforms/nintendo entertainment system/ /platforms/nintendo switch/ /platforms/nintendo switch 2/ /platforms/pc/ /platforms/pc (microsoft windows)/ /platforms/playstation/ /platforms/playstation 2/ /platforms/playstation 3/ /platforms/playstation 4/ /platforms/playstation 5/ /platforms/super nintendo entertainment system/ /platforms/wii/ /platforms/xbox series xs/ /genres/ /genres/adventure/ /genres/arcade/ /genres/card & board game/ /genres/fighting/ /genres/hack and slashbeat 'em up/ /genres/indie/ /genres/moba/ /genres/music/ /genres/platform/ /genres/point-and-click/ /genres/puzzle/ /genres/quiztrivia/ /genres/racing/ /genres/real time strategy (rts)/ /genres/role-playing (rpg)/ /genres/shooter/ /genres/simulator/ /genres/sport/ /genres/strategy/ /genres/tactical/ /genres/turn-based strategy (tbs)/ /rating/ /rating/10.0/ /rating/4.0/ /rating/5.0/ /rating/6.0/ /rating/7.0/ /rating/8.0/ /rating/9.0/ /games/ /platforms /genres /stats/ /games/ /platforms/ /genres/ /stats/ nostalgia2.jpg?v=25fc2ea7af73a80687cf539d37dd034d4cdd6def21395dbdd97057d5978775e9541f6a27f12a60e087256b0f45cbecdd97ccdd634260757328b133ee5139281c nostalgia.png?v=3e7d0e96efabc36c13f52285defe02e245fa5a71f767b70d974c2b46f431852367ae8b5f3c18f6eba2edbe8802bd0873351fab750594f3c44a24196892c161e2 nostalgia.png?v=3e7d0e96efabc36c13f52285defe02e245fa5a71f767b70d974c2b46f431852367ae8b5f3c18f6eba2edbe8802bd0873351fab750594f3c44a24196892c161e2 /logo.png?v=04d0e921ab73bd9b72858ba6aa5490f5b7515c57a5971f669aa1eebbd96d778ae4f6063e671b74feef74b42c699cd41886e8ef8310914f0c3f580336ae00a2aa /glitch.css?v=0b9b7f8691385df5b832251e9cf4c56d68cbcfc98c6e4c27e015f6fb29d2f0c18c358c98c0e7e0a1da9f263d6b355b811e49aac099b70889090912a5040f754a /sitemap.xml &#x2F;search_index.en.json /search.js /elasticlunr.min.js?v=d106ab529e29f6be48a948124723fcf411e06b8e4ea4477b551f256d190991fe3ca7f121714ef8d9f594a4aa680f2bbd37a5d8004abfbf3ea6eb3d4ea259ec0f"></span>
-    <script type="module" integrity="sha512-qFfcy6kZfJHwBkeaXEsoD8T0jQK2753k6tYyX1Rm2Fo9Tj5sBCnrUPtf/wHwgYbTCJ1s9/DY6UeLQw/rc9DJvA=="
-      src="/sw-load.js?v=a857dccba9197c91f006479a5c4b280fc4f48d02b6ef9de4ead6325f5466d85a3d4e3e6c0429eb50fb5fff01f08186d3089d6cf7f0d8e9478b430feb73d0c9bc"></script>
-  </body>
+  </section>
+  
+
+  
+</article>
+        </main>
+        <footer class="footer"><!-- <p class="copyright">
+    <span>© <time>2025</time> Nikolas Moya</span>
+</p> --></footer>
+    </body>
 
 </html>
+
+
