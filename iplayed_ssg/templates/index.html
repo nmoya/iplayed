@@ -11,10 +11,25 @@
 {%- endblock -%}
 
 {%- block main -%}
+{%- set base_url = config.base_url | trim_end_matches(pat="/") -%}
+{%- set completions_url = get_url(path="completions.json") -%}
+{%- if completions_url is starting_with(base_url) -%}
+{%- set completions_url = completions_url | trim_start_matches(pat=base_url) -%}
+{%- endif -%}
+{%- if completions_url is not starting_with("/") -%}
+{%- set completions_url = "/" ~ completions_url -%}
+{%- endif -%}
+{%- set games_base_url = get_url(path='games', trailing_slash=true) -%}
+{%- if games_base_url is starting_with(base_url) -%}
+{%- set games_base_url = games_base_url | trim_start_matches(pat=base_url) -%}
+{%- endif -%}
+{%- if games_base_url is not starting_with("/") -%}
+{%- set games_base_url = "/" ~ games_base_url -%}
+{%- endif -%}
 <section class="stats content"
     data-stats-root
-    data-completions-url="{{ get_url(path="completions.json") | safe }}"
-    data-games-base-url="{{ get_url(path='games', trailing_slash=true) | safe }}">
+    data-completions-url="{{ completions_url | safe }}"
+    data-games-base-url="{{ games_base_url | safe }}">
     {% if section.content %}
     {{ section.content | markdown | safe }}
     {% endif %}
