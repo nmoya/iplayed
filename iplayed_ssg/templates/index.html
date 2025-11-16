@@ -115,9 +115,31 @@
         }
 
         const numberFormatter = new Intl.NumberFormat('en-US', { maximumFractionDigits: 1 });
+        const heatmapStripeConfig = {
+            stripeCount: 5,
+            filledSymbol: '|',
+            emptySymbol: '.'
+        };
 
         function formatHours(value) {
             return `${numberFormatter.format(value)} h`;
+        }
+
+        function buildCompletionStripes(count, maxCount) {
+            if (!count) {
+                return heatmapStripeConfig.emptySymbol.repeat(heatmapStripeConfig.stripeCount);
+            }
+            const normalizedMax = Math.max(1, maxCount);
+            const ratio = count / normalizedMax;
+            const filledStripes = Math.min(
+                heatmapStripeConfig.stripeCount,
+                Math.max(1, Math.ceil(ratio * heatmapStripeConfig.stripeCount))
+            );
+            const emptyStripes = heatmapStripeConfig.stripeCount - filledStripes;
+            return [
+                heatmapStripeConfig.filledSymbol.repeat(filledStripes),
+                heatmapStripeConfig.emptySymbol.repeat(emptyStripes)
+            ].join('');
         }
 
         function updateTotals(totalHours, totalGames) {
@@ -154,9 +176,13 @@
                 cell.type = 'button';
                 cell.className = 'stats-heatmap__cell';
                 cell.dataset.count = value;
+                const stripes = buildCompletionStripes(value, maxCount);
                 cell.innerHTML = `
         <span class="stats-heatmap__month">${monthNames[index]}</span>
-        <span class="stats-heatmap__value">${value}</span>
+        <span class="stats-heatmap__value">
+          <span class="stats-heatmap__stripes" aria-hidden="true">${stripes}</span>
+          <span class="sr-only">${value} completions</span>
+        </span>
       `;
                 const alpha = 0.08 + (value / maxCount) * 0.92;
                 cell.style.setProperty('--stats-heat-alpha', `${(alpha * 100).toFixed(0)}%`);
