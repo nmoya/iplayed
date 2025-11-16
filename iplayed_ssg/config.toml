@@ -58,6 +58,8 @@ enable = true
 allowed_domains = [
     { directive = "connect-src", domains = ["'self'", "cloudflareinsights.com", "https://nikolasmoya.com"] },
     { directive = "script-src-elem", domains = ["'self'", "static.cloudflareinsights.com", "cdn.jsdelivr.net", "https://nikolasmoya.com"] },
+    { directive = "script-src", domains = ["'self'", "static.cloudflareinsights.com", "cdn.jsdelivr.net", "https://nikolasmoya.com"] },
+    { directive = "style-src", domains = ["'self'", "https://nikolasmoya.com"] },
     { directive = "style-src-elem", domains = ["'self'", "https://nikolasmoya.com"] },
     { directive = "img-src", domains = ["'self'", "https://*.githubusercontent.com", "https://images.igdb.com"] }
 ]
