@@ -14,12 +14,24 @@
 
 {%- block main -%}
 {%- filter indent -%}{%- filter indent -%}
+{%- set games = paginator.pages | default(value=section.pages) -%}
 
-{% for page in paginator.pages | default(value=section.pages) -%}
+<section class="games-search" aria-label="Filter games">
+    <label class="games-search__label" for="games-search-input">Search the archive</label>
+    <input id="games-search-input" class="games-search__input" type="search" name="query"
+        placeholder="Type a title, platform, or genre…" autocomplete="off" data-games-search-input>
+    <p class="games-search__status" data-games-search-status aria-live="polite">
+        Showing {{ games | length }} games
+    </p>
+</section>
+
+<div class="games-listing" data-games-list>
+{% for page in games -%}
 {%- set completed = page.extra.completed_at | default(value=page.date) -%}
 {%- set subtitle = page.extra.subtitle | default(value=page.description | default(value="")) -%}
 {%- set rating_values = page.taxonomies.rating | default(value=[]) -%}
-<div>
+{%- set search_context = [page.title, subtitle, rating_values | join(sep=" "), completed] | join(sep=" ") -%}
+<div class="game-card" data-game-card data-search-text="{{ search_context | lower | escape }}">
     <div class="game-container">
         {%- if page.extra.url_cover_small -%}
         <div class="game-entry__image">
@@ -51,6 +63,7 @@
 </div>
 
 {% endfor -%}
+</div>
 
 {%- if paginator and paginator.number_pagers > 1 %}
 <nav class="pagination">
@@ -65,5 +78,38 @@
     </ul>
 </nav>
 {%- endif %}
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const input = document.querySelector('[data-games-search-input]');
+    const status = document.querySelector('[data-games-search-status]');
+    const cards = Array.from(document.querySelectorAll('[data-game-card]'));
+
+    if (!input || !status || cards.length === 0) {
+        return;
+    }
+
+    const total = cards.length;
+
+    function update() {
+        const query = input.value.trim().toLowerCase();
+        let visible = 0;
+
+        cards.forEach((card) => {
+            const haystack = card.dataset.searchText || card.textContent.toLowerCase();
+            const matches = !query || haystack.includes(query);
+            card.hidden = !matches;
+            if (matches) {
+                visible += 1;
+            }
+        });
+
+        const suffix = query ? ` for "${query}"` : '';
+        status.textContent = `Showing ${visible} of ${total} games${suffix}`;
+    }
+
+    input.addEventListener('input', update);
+});
+</script>
 {% endfilter %}{% endfilter %}
 {%- endblock -%}

@@ -55,6 +55,50 @@
     }
 }
 
+.games-search {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.games-search__label {
+    font-weight: bold;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: color-mix(in srgb, var(--accent-color) 90%, transparent);
+}
+
+.games-search__input {
+    border: 1px solid color-mix(in srgb, var(--accent-color) 70%, transparent);
+    border-radius: var(--radius);
+    padding: 10px 14px;
+    font: inherit;
+    background: color-mix(in srgb, var(--background-color) 70%, transparent);
+    color: var(--text-color);
+
+    &:focus-visible {
+        outline: 2px solid var(--accent-color);
+        outline-offset: 2px;
+    }
+}
+
+.games-search__status {
+    margin: 0;
+    font-size: 0.85rem;
+    font-family: "Fira Code", Monaco, Consolas, "Ubuntu Mono", monospace;
+    color: color-mix(in srgb, var(--text-color) 70%, transparent);
+}
+
+.games-listing {
+    display: flex;
+    flex-direction: column;
+}
+
+.game-card[hidden] {
+    display: none !important;
+}
+
 .game-container {
     display: flex;
     align-items: flex-start;
