@@ -65,25 +65,6 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>International Superstar Soccer Deluxe</title>
-        <published>2001-10-03T00:00:00+00:00</published>
-        <updated>2001-10-03T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Nikolas Moya
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/international-superstar-soccer-deluxe/"/>
-        <id>https://nikolasmoya.com/iplayed/games/international-superstar-soccer-deluxe/</id>
-        
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/international-superstar-soccer-deluxe/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
         <title>Top Gear</title>
         <published>2001-07-08T00:00:00+00:00</published>
         <updated>2001-07-08T00:00:00+00:00</updated>
@@ -119,6 +100,25 @@
         <id>https://nikolasmoya.com/iplayed/games/donkey-kong-country/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/donkey-kong-country/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>International Superstar Soccer Deluxe</title>
+        <published>2000-10-03T00:00:00+00:00</published>
+        <updated>2000-10-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/international-superstar-soccer-deluxe/"/>
+        <id>https://nikolasmoya.com/iplayed/games/international-superstar-soccer-deluxe/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/international-superstar-soccer-deluxe/"></content>
         
     </entry>
     <entry xml:lang="en">
