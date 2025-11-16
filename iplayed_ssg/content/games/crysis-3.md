@@ -14,12 +14,12 @@ completed_at = "2013-02-07"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2on3.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2on3.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2on3.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2on3.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Time played  | 6 hours |
-| Played platforms    | PlayStation 3 |
-| Completed at | 2013/02/07 |
+|                  |               |
+| ---------------- | ------------- |
+| Time played      | 6 hours       |
+| Played platforms | PlayStation 3 |
+| Completed at     | 2013/02/07    |
 
 

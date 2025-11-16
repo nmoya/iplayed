@@ -14,12 +14,12 @@ completed_at = "2007-06-04"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coaesz.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coaesz.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/coaesz.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/coaesz.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Time played  | 12 hours |
-| Played platforms    | PC (Microsoft Windows) |
-| Completed at | 2007/06/04 |
+|                  |                        |
+| ---------------- | ---------------------- |
+| Time played      | 12 hours               |
+| Played platforms | PC (Microsoft Windows) |
+| Completed at     | 2007/06/04             |
 
 

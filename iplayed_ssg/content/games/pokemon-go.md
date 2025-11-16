@@ -14,12 +14,12 @@ completed_at = "2023-03-16"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co9gmb.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co9gmb.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co9gmb.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co9gmb.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Time played  | 76 hours |
-| Played platforms    | Android |
-| Completed at | 2023/03/16 |
+|                  |            |
+| ---------------- | ---------- |
+| Time played      | 76 hours   |
+| Played platforms | Android    |
+| Completed at     | 2023/03/16 |
 
 

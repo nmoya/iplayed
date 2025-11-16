@@ -14,13 +14,13 @@ completed_at = "2021-11-19"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co8fu7.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co8fu7.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co8fu7.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co8fu7.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Time played  | 65 hours |
-| Played platforms    | PC (Microsoft Windows) |
-| Completed at | 2021/11/19 |
+|                  |                        |
+| ---------------- | ---------------------- |
+| Time played      | 65 hours               |
+| Played platforms | PC (Microsoft Windows) |
+| Completed at     | 2021/11/19             |
 
 
 

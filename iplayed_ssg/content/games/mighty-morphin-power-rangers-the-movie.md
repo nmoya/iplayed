@@ -14,12 +14,12 @@ completed_at = "1999-03-21"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co63o3.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co63o3.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co63o3.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co63o3.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Time played  | 1 hour |
-| Played platforms    | Super Nintendo Entertainment System |
-| Completed at | 1999/03/21 |
+|                  |                                     |
+| ---------------- | ----------------------------------- |
+| Time played      | 1 hour                              |
+| Played platforms | Super Nintendo Entertainment System |
+| Completed at     | 1999/03/21                          |
 
 

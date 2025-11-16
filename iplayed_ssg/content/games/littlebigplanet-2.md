@@ -14,13 +14,13 @@ completed_at = "2011-01-25"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2ijw.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ijw.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2ijw.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2ijw.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Time played  | 7 hours |
-| Played platforms    | PlayStation 3 |
-| Completed at | 2011/01/25 |
+|                  |               |
+| ---------------- | ------------- |
+| Time played      | 7 hours       |
+| Played platforms | PlayStation 3 |
+| Completed at     | 2011/01/25    |
 
 
 

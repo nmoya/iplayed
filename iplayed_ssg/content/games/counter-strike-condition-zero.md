@@ -14,12 +14,12 @@ completed_at = "2022-11-22"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1tx3.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tx3.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1tx3.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1tx3.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Time played  | 3 hours |
-| Played platforms    | PC (Microsoft Windows) |
-| Completed at | 2022/11/22 |
+|                  |                        |
+| ---------------- | ---------------------- |
+| Time played      | 3 hours                |
+| Played platforms | PC (Microsoft Windows) |
+| Completed at     | 2022/11/22             |
 
 

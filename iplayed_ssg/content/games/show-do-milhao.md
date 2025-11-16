@@ -14,11 +14,11 @@ completed_at = "2001-07-03"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2d5r.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2d5r.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2d5r.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2d5r.jpg") }}
 
 |              |            |
 | ------------ | ---------- |
-| Time played  | N/A |
+| Time played  | N/A        |
 | Completed at | 2001/07/03 |
 
 

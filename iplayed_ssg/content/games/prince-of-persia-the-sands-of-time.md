@@ -14,12 +14,12 @@ completed_at = "2009-04-19"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co4t8l.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co4t8l.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co4t8l.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co4t8l.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Time played  | 8 hours |
-| Played platforms    | PlayStation 2 |
-| Completed at | 2009/04/19 |
+|                  |               |
+| ---------------- | ------------- |
+| Time played      | 8 hours       |
+| Played platforms | PlayStation 2 |
+| Completed at     | 2009/04/19    |
 
 

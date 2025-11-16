@@ -1,175 +1,167 @@
-{%- import "macros/macros.html" as macros %}
-{% set platforms = get_taxonomy(kind="platforms") %}
-{%- set rating = get_taxonomy(kind="rating") %}
-{%- set active_path = current_path | default(value="none") %}
-{%- set hash = "NA" %}
+{%- import "macros/feed.html" as feed_macros -%}
+{%- import "macros/post.html" as post_macros -%}
 
+<!doctype html>
+<html lang="{{ lang }}">
 
-<!DOCTYPE html>
-<html lang="{{ config.default_language }}">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        {% include "partials/content_security_policy.html" %}
+        <title>{%- block title -%}{{ config.title }}{%- endblock -%}</title>
 
-  <head>
-    {%- include "partials/head.html" %}
-  </head>
-  {% block body %}
+        <link rel="preload" href="{{ get_url(path="fonts/FiraCode-Regular.woff2") }}" as="font" type="font/woff2"
+            crossorigin="anonymous">
+        <link rel="preload" href="{{ get_url(path="fonts/FiraCode-Bold.woff2") }}" as="font" type="font/woff2"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="{{ get_url(path="css/style.css", cachebust=true) }}">
+        {%- if page.extra.stylesheets or section.extra.stylesheets %}
+        {%- for stylesheet in page.extra.stylesheets | default(value=section.extra.stylesheets) %}
+        <link rel="stylesheet" href="{{ get_url(path=stylesheet, cachebust=true) }}">
+        {% endfor -%}
+        {%- endif %}
 
-  <body id="posts">{% endblock body %}
-    <div class="block-left">
-      <div class="content">
-        {% if active_path != "/" %}<a href="/" class="logo"><img src="{{ " /" ~ config.extra.logo ~ "?v=" ~
-            get_hash(path=config.extra.logo, sha_type=512, base64=false) | safe }}" alt="logo" width="64"
-            height="64"></a>{% endif %}
-        {% block left %}
-        <h1 class="section-title">{%- block page_title %}{% if page.title %}{{ page.title }}{% elif section.title %}{{
-          section.title }}{% elif term.name %}{{ '#' ~ term.name }}{% elif taxonomy.name %}{{ taxonomy.name | title }}{%
-          endif %}{% endblock page_title %}</h1>
-        {% endblock left %}
-      </div>
-    </div>
-    <div class="block-right">
-      {% block nav %}
-      <div id="nav-container">
-        <nav class="nav-bar" role="navigation">
-          <ul class="nav-menu">
-            <li{% if active_path=="/" %} class="nav-active" {% endif %}><a href="{{ " /" | safe }}">Home</a></li>
-              {% if config.extra.menu.posts == true %}
-              <li{% if active_path is starting_with("/games/") or active_path is starting_with("/tags/") or active_path
-                is starting_with("/platforms/")%} class="nav-active" {% endif %}><a href="{{ " /games/" | safe }}"
-                  aria-haspopup="true">{{ config.extra.menu.posts_label }}</a>
-                <ul class="dropdown" aria-label="submenu">
-                  <li><a href="{{ " /games/" | safe }}">Games</a></li>
-                  <li><a href="{{ " /rating/" | safe }}">Ratings</a></li>
-                  <li><a href="{{ " /platforms/" | safe }}">Platforms</a></li>
-                </ul>
-                </li>
-                {% endif %}
-                {% for link in config.extra.menu.links %}
-                <li{% if page %}{% if active_path is starting_with(link.url) %} class="nav-active" {% endif %}{% endif
-                  %}>
-                  <a href="{% if link.url is starting_with(" @") %}{{ get_url(path=link.url, trailing_slash=true) | safe
-                    }}{% else %}{{ link.url | safe }}{% endif %}">{{ link.name }}</a></li>
-                  {% endfor %}
-          </ul>
-        </nav>
-        {% if config.build_search_index == true %}
-        <script defer
-          src="{{ '/elasticlunr.min.js?v=' ~ get_hash(path='/elasticlunr.min.js', sha_type=512, base64=false) | safe }}"></script>
-        <script defer src="/search.js" ,
-          integrity="sha512-{{ get_hash(path='/search.js', sha_type=512, base64=true) | safe }}"></script>
-        <nav class="search-container" id="search-nav">
-          <input id="search" type="search" placeholder="Search" aria-label="Search">
-          <div class="search-results">
-            <div class="search-results__items">
-            </div>
-          </div>
-        </nav>
+        {%- if config.extra.favicon %}
+        {% set image_meta = get_image_metadata(path=config.extra.favicon) -%}
+        <link rel="icon" type="{{ image_meta.mime | safe }}" href="{{ get_url(path=config.extra.favicon) }}">
+        {%- if image_meta.mime is ending_with("png") %}
+        {% set resized_image = resize_image(path=config.extra.favicon, width=180, height=180, op="fit") -%}
+        <link rel="apple-touch-icon" href="{{ resized_image.url | safe }}">
+        {%- endif -%}
+        {%- elif config.extra.favicon_emoji %}
+        <link rel="icon"
+            href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>{{ config.extra.favicon_emoji }}</text></svg>">
+        {%- endif %}
+
+        {%- if config.extra.close_responsive_menu_on_resize %}
+        <script src="{{ get_url(path="js/auto-close-popover-on-resize.js", cachebust=true) }}" defer></script>
+        {%- endif %}
+        {%- if page.extra.copy_button | default(value=section.extra.copy_button |
+        default(value=config.extra.copy_button)) %}
+        <script src="{{ get_url(path="js/copy-code-to-clipboard.js", cachebust=true) }}" defer></script>
+        {%- endif %}
+        <script src="{{ get_url(path="js/theme-switcher.js", cachebust=true) }}" defer></script>
+
+        {# Canonical and alternate links -#}
+        {% if current_url -%}
+        <link rel="canonical" href="{{ current_url | safe }}">
+        {% endif -%}
+        {%- if config.generate_feeds %}
+        {%- for feed in config.feed_filenames -%}
+        {{ feed_macros::link_alternate(filename=feed, title=config.title) }}
+        {% endfor -%}
+        {%- block feeds -%}{%- endblock -%}
         {% endif %}
-      </div>
-      {% endblock nav %}
-      {% block right %}
-      <div class="content">
-        {% block date %}<div class="date-highlight">{% if page.date %}{{ page.date | date(format="%d %b %Y") }}{% else
-          %}x{% endif %}</div>{% endblock date %}
-        {% block content %}{% endblock content %}
-        {% block paginator %}
-        {% if paginator.previous or paginator.next %}
-        <nav class="pagination">
-          {% if paginator.previous %}
-          <a class="pagination_pager" href="{{ paginator.previous }}">prev</a>
-          {% else %}
-          <a href="#" class="pagination_pager disabled">prev</a>
-          {% endif %}
-          {% if paginator.next %}
-          <a class="pagination_pager" href="{{ paginator.next }}">next</a>
-          {% else %}
-          <a href="#" class="pagination_pager disabled">next</a>
-          {% endif %}
-        </nav>
-        {% endif %}
-        {% endblock paginator %}
-      </div>
-      {% endblock right %}
-      {% block footer %}
-      {% if config.extra.footer.enabled == true %}
-      <section class="footer-content">
-        {% set current_year = now() | date(format="%Y") %}
-        <footer id="footer-block">
-          {% if config.extra.footer.links %}
-          <nav class="nav-footer" role="navigation">
-            <ul class="footer-links" aria-label="footer links">
-              <li><a href="{{ " /" | safe }}">home</a></li>
-              {%- if config.extra.generate_sitemap %}<li><a href="/sitemap.xml">sitemap</a></li>{% endif %}
-              {%- for link in config.extra.footer.links -%}
-              <li><a href="{% if link.url is starting_with(" @") %}{{ get_url(path=link.url, trailing_slash=true) | safe
-                  }}{% else %}{{ link.url | safe }}{% endif %}">{{ link.name }}</a></li>
-              {%- endfor %}
-            </ul>
-          </nav>
-          {%- endif %}
-          <p>{% if config.extra.footer.hash %}{{ hash | truncate(length=7, end="") }} {% endif %}{% if
-            config.extra.footer.copyright %}<b>©</b> {{ current_year }}{% endif %} {% if config.extra.footer.author %}{{
-            config.author }}{% endif %}</p>
-          {% if config.extra.footer.stack == true %}
-          <p>Powered by <a href="https://www.getzola.org" target="_blank">Zola</a> & <a
-              href="https://halve-z.netlify.app" target="_blank">Halve-Z</a></p>
-          {% endif %}
+
+        {#- Standard meta tags -#}
+        {%- if page.authors -%}
+        {%- for author in page.authors %}
+        <meta name="author" content="{{ author }}">
+        {%- endfor -%}
+        {%- elif page and config.author %}
+        <meta name="author" content="{{ config.author }}">
+        {%- endif %}
+        {%- block description -%}
+        {%- if config.description %}
+        <meta name="description" content="{{ config.description }}">
+        {%- endif %}
+        {%- endblock %}
+        {% block robots -%}
+        <meta name="robots" content="index, follow">
+        {%- endblock %}
+        <meta name="theme-color" content="#211f1a">
+        <meta name="color-scheme" content="dark">
+
+        {# Social media meta tags -#}
+        {#- FIXME: Refactor all of these to blocks/set-blocks when Tera V2 is available. -#}
+        {#- See this GitHub comment: https://github.com/Keats/tera/issues/637#issuecomment-2974769236 -#}
+        {%- if current_path and current_path == "/" -%}
+        {%- set page_title = config.title -%}
+        <meta property="og:title" content="{{ page_title }}">
+        {% elif current_path -%}
+        {%- set page_title = page.title | default(value=section.title | default(value=taxonomy.name | capitalize |
+        default(value=config.title))) -%}
+        <meta property="og:title" content="{{ page_title | replace(from='"', to="&quot;") | safe }}">
+        {% endif -%}
+
+        {% if page -%}
+        <meta property="og:type" content="article">
+        {% else -%}
+        <meta property="og:type" content="website">
+        {% endif -%}
+
+        {%- if page.extra.social_media_image.path or section.extra.social_media_image.path -%}
+        {%- set relative_path = page.extra.social_media_image.path | default(value=section.extra.social_media_image.path) -%}
+        {%- set base_path = page.colocated_path | default(value=section.relative_path | trim_end_matches(pat="_index.md")) -%}
+        {%- set absolute_path = base_path ~ relative_path -%}
+        {%- set image_meta = get_image_metadata(path=absolute_path) -%}
+        {%- set resized_image = resize_image(path=absolute_path, width=1200, height=675, op="fit") -%}
+
+        <meta property="og:image" content="{{ resized_image.url | safe }}">
+        <meta property="og:image:width" content="{{ resized_image.width }}">
+        <meta property="og:image:height" content="{{ resized_image.height }}">
+        <meta property="og:image:type" content="{{ image_meta.mime | safe }}">
+        {% if page.extra.social_media_image.alt_text or page.extra.social_media_image.alt_text -%}
+        {%- set alt_text = page.extra.social_media_image.alt_text | default(value=page.extra.social_media_image.alt_text) -%}
+        <meta property="og:image:alt" content="{{ alt_text | replace(from='"', to=" &quot;") | safe }}">
+        {% endif -%}
+        <meta name="twitter:card" content="summary_large_image">
+        {% endif -%}
+
+        {%- if current_url -%}
+        {% set permalink = page.permalink | default(value=section.permalink | default(value=current_url)) -%}
+        <meta property="og:url" content="{{ permalink | safe }}">
+        {% endif -%}
+
+        {%- if page.description -%}
+        <meta property="og:description" content="{{ page.description | markdown(inline=true) | striptags }}">
+        {% elif page.summary -%}
+        {%- set inline_summary = page.summary | linebreaksbr | replace(from="<br>", to=" ") | striptags -%}
+        <meta property="og:description" content="{{ inline_summary | trim_end_matches(pat=" .") | safe }}…">
+        {%- elif section.description -%}
+        <meta property="og:description" content="{{ section.description | markdown(inline=true) | striptags }}">
+        {% elif config.description -%}
+        <meta property="og:description" content="{{ config.description }}">
+        {% endif -%}
+        <meta property="og:site_name" content="{{ config.title }}">
+        <meta property="og:updated_time" content="{{ now() }}">
+        {%- if page.date %}
+        <meta property="article:published_time" content="{{ page.date | date(format=" %+") }}">
+        {%- endif -%}
+        {%- if page.updated %}
+        <meta property="article:modified_time" content="{{ page.updated | date(format=" %+") }}">
+        {%- endif -%}
+        {%- if page.taxonomies and page.taxonomies.categories %}
+        <meta property="article:section" content="{{ page.taxonomies.categories[0] }}">
+        {%- endif -%}
+        {%- if page.taxonomies and page.taxonomies.tags -%}
+        {%- for tag in page.taxonomies.tags %}
+        <meta property="article:tag" content="{{ tag }}">
+        {%- endfor -%}
+        {%- endif -%}
+        {%- if config.extra.fediverse_creator %}
+        <meta name="fediverse:creator" content="{{ config.extra.fediverse_creator }}">
+        {%- endif %}
+    </head>
+
+    <body class="layout-{{ config.extra.layout }}">
+        <header class="header">
+            {% filter indent -%}{%- filter indent -%}
+            {%- block header -%}
+            {% include "partials/header.html" %}
+            {%- endblock -%}
+            {%- endfilter -%}{%- endfilter %}
+        </header>
+        <main id="main">
+            {% block main %}{% endblock %}
+        </main>
+        <footer class="footer">
+            {% filter indent -%}{%- filter indent -%}
+            {%- block footer -%}
+            {% include "partials/footer.html" %}
+            {%- endblock -%}
+            {%- endfilter -%}{%- endfilter %}
         </footer>
-      </section>
-      {% endif %}
-      {% endblock footer %}
-    </div>
-    {% if config.extra.manifest %}
-    <div class="toastBox"></div>
-    {% if config.extra.menu.games == true %}
-    {% set games = get_section(path="games/_index.md") %}
-    {% set raw_games_config = load_data(path="/games/_index.md", format="plain") | replace(from="+++", to="") %}
-    {% set games_config = load_data(literal=raw_games_config, format="toml") %}
-    {% set post_count = games.pages | length %}
-    {% if games_config.paginate_by %}
-    {% set games_page_count = post_count / games_config.paginate_by | round(method="ceil") | int | default(value=0) %}
-    {% endif %}
-    {% endif %}
-    <span id="precache-payload">/sw-load.js?v={{get_hash(path='/sw-load.js', sha_type=512, base64=false) | safe }}
-      /fireball.gif?v={{ get_hash(path='/fireball.gif', sha_type=512, base64=false) }} /favicon.ico?v={{
-      get_hash(path='/favicon.ico', sha_type=512, base64=false) }} /favicon-16x16.png?v={{
-      get_hash(path='/favicon-16x16.png', sha_type=512, base64=false) }} /favicon-32x32.png?v={{
-      get_hash(path='/favicon-32x32.png', sha_type=512, base64=false) }} /icon-192x192.png?v={{
-      get_hash(path='/icon-192x192.png', sha_type=512, base64=false) }} /icon-512x512.png?v={{
-      get_hash(path='/icon-512x512.png', sha_type=512, base64=false) }} /apple-touch-icon.png?v={{
-      get_hash(path='/apple-touch-icon.png', sha_type=512, base64=false) }} /main.css?v={{ get_hash(path='/main.css',
-      sha_type=512, base64=false) }} /nerd-fonts.css?v={{ get_hash(path='/nerd-fonts.css', sha_type=512, base64=false)
-      }} /unstyle.css?v={{ get_hash(path='/unstyle.css', sha_type=512, base64=false) }} /langs.css?v={{
-      get_hash(path='/langs.css', sha_type=512, base64=false) }} /syntax-theme-light.css?v={{
-      get_hash(path='/syntax-theme-light.css', sha_type=512, base64=false) }} /syntax-theme-dark.css?v={{
-      get_hash(path='/syntax-theme-dark.css', sha_type=512, base64=false) }} /sw-style.css?v={{
-      get_hash(path="/sw-style.css", sha_type=512, base64=false) }} {% if posts_config.paginate_by %}{% for i in
-      range(start=2, end=posts_page_count + 1) %}{{ "/posts/page/" ~ i ~ "/" | safe }} {% endfor %}{% endif %}{% if
-      config.taxonomies %}{% for taxonomy in config.taxonomies %}{% set inner_taxonomy =
-      get_taxonomy(kind=taxonomy.name) %}{{ "/" ~ taxonomy.name ~ "/" | safe }} {% for term in inner_taxonomy.items %}{{
-      term.path | safe }} {% endfor %}{% endfor %}{% endif %}{% if posts.pages %}{% for post in posts.pages %}{{
-      post.path | safe }} {% if post.assets %}{% for asset in post.assets %}{{ asset ~ "?v=" ~ get_hash(path=asset,
-      sha_type=512, base64=false) | safe }} {% endfor %}{%endif%}{% endfor %}{% endif %}{% for link in
-      config.extra.menu.links %}{% if link.url is starting_with("@") %}{{ get_url(path=link.url, trailing_slash=true) |
-      safe }}{% else %}{{ link.url | safe }}{% endif %} {% endfor %}{% if config.extra.footer.enabled %}{% for link in
-      config.extra.footer.links %}{% if link.name == "posts" %}{% continue %}{% endif %}{% if link.url is
-      starting_with("@") %}{{ get_url(path=link.url, trailing_slash=true) | safe }}{% else %}{{ link.url | safe }}{%
-      endif %} {% endfor %}{% endif %}{% if config.extra.menu.posts == true %}{{ "/posts/" | safe }} {% endif %}{% for
-      link in config.extra.images.categories %}{% if link.image is not matching("^http[s]?://") %}{{ link.image ~ "?v="
-      ~ get_hash(path=link.image, sha_type=512, base64=false) | safe }} {% endif %}{% endfor %}{% if
-      config.extra.images.home is not matching("^http[s]?://") %}{{ config.extra.images.home ~ "?v=" ~
-      get_hash(path=config.extra.images.home, sha_type=512, base64=false) | safe }} {% endif %}{% if
-      config.extra.images.post_list is not matching("^http[s]?://") %}{{ config.extra.images.post_list ~ "?v=" ~
-      get_hash(path=config.extra.images.post_list, sha_type=512, base64=false) | safe }} {% endif %}{% if
-      config.extra.images.default_post is not matching("^http[s]?://") %}{{ config.extra.images.default_post ~ "?v=" ~
-      get_hash(path=config.extra.images.default_post, sha_type=512, base64=false) | safe }}{% endif %} {{ "/" ~
-      config.extra.logo ~ "?v=" ~ get_hash(path=config.extra.logo, sha_type=512, base64=false) | safe }} {% if
-      config.extra.home.glitch %}{{ '/glitch.css' ~ "?v=" ~ get_hash(path='/glitch.css', sha_type=512, base64=false) |
-      safe }} {% endif %}{% if config.generate_sitemap %}{{ "/sitemap.xml" | safe }} {% endif %}{% if
-      config.build_search_index == true %}{{ '/search_index.en.json' }} /search.js {{ '/elasticlunr.min.js' ~ "?v=" ~
-      get_hash(path='/elasticlunr.min.js', sha_type=512, base64=false) | safe }}{% endif %}"></span>
-    <script type="module" integrity="sha512-{{ get_hash(path='sw-load.js', sha_type=512, base64=true) | safe }}"
-      src="{{ '/sw-load.js?v=' ~ get_hash(path='/sw-load.js', sha_type=512, base64=false) | safe }}"></script>
-    {%- endif %}
-  </body>
+    </body>
 
 </html>

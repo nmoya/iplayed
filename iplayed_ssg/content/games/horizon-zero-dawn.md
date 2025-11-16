@@ -14,13 +14,13 @@ completed_at = "2018-04-11"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2una.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2una.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2una.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2una.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Rating       | 7.0 |
-| Time played  | 25 hours |
-| Played platforms    | PlayStation 4 |
-| Completed at | 2018/04/11 |
+|                  |               |
+| ---------------- | ------------- |
+| Rating           | 7.0           |
+| Time played      | 25 hours      |
+| Played platforms | PlayStation 4 |
+| Completed at     | 2018/04/11    |
 
 

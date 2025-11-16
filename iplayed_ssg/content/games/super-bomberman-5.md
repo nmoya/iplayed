@@ -14,11 +14,11 @@ completed_at = "1999-03-03"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2w8i.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2w8i.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2w8i.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2w8i.jpg") }}
 
 |              |            |
 | ------------ | ---------- |
-| Time played  | 1 hour |
+| Time played  | 1 hour     |
 | Completed at | 1999/03/03 |
 
 

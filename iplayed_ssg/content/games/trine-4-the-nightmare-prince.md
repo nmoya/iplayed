@@ -14,13 +14,13 @@ completed_at = "2019-10-02"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1qsm.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qsm.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1qsm.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1qsm.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Time played  | 10 hours |
-| Played platforms    | PC (Microsoft Windows) |
-| Completed at | 2019/10/02 |
+|                  |                        |
+| ---------------- | ---------------------- |
+| Time played      | 10 hours               |
+| Played platforms | PC (Microsoft Windows) |
+| Completed at     | 2019/10/02             |
 
 
 

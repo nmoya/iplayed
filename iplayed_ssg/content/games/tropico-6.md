@@ -14,14 +14,14 @@ completed_at = "2021-08-04"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1idx.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1idx.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1idx.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1idx.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Rating       | 8.0 |
-| Time played  | 25 hours |
-| Played platforms    | PC (Microsoft Windows) |
-| Completed at | 2021/08/04 |
+|                  |                        |
+| ---------------- | ---------------------- |
+| Rating           | 8.0                    |
+| Time played      | 25 hours               |
+| Played platforms | PC (Microsoft Windows) |
+| Completed at     | 2021/08/04             |
 
 
 

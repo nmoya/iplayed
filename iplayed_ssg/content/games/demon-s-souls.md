@@ -14,12 +14,12 @@ completed_at = "2010-10-23"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co27sk.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co27sk.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co27sk.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co27sk.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Time played  | 23 hours |
-| Played platforms    | PlayStation 3 |
-| Completed at | 2010/10/23 |
+|                  |               |
+| ---------------- | ------------- |
+| Time played      | 23 hours      |
+| Played platforms | PlayStation 3 |
+| Completed at     | 2010/10/23    |
 
 

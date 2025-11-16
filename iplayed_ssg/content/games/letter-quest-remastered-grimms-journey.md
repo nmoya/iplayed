@@ -14,13 +14,13 @@ completed_at = "2017-04-08"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co86zk.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co86zk.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co86zk.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co86zk.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Rating       | 8.0 |
-| Time played  | 9 hours |
-| Played platforms    | PlayStation 4 |
-| Completed at | 2017/04/08 |
+|                  |               |
+| ---------------- | ------------- |
+| Rating           | 8.0           |
+| Time played      | 9 hours       |
+| Played platforms | PlayStation 4 |
+| Completed at     | 2017/04/08    |
 
 

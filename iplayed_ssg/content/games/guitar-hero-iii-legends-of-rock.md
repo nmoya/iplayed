@@ -14,13 +14,13 @@ completed_at = "2014-03-18"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1wqm.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wqm.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1wqm.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1wqm.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Rating       | 10.0 |
-| Time played  | 83 hours |
-| Played platforms    | PlayStation 2 |
-| Completed at | 2014/03/18 |
+|                  |               |
+| ---------------- | ------------- |
+| Rating           | 10.0          |
+| Time played      | 83 hours      |
+| Played platforms | PlayStation 2 |
+| Completed at     | 2014/03/18    |
 
 

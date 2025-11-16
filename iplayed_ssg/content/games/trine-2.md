@@ -14,14 +14,14 @@ completed_at = "2016-02-12"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co25z7.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co25z7.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co25z7.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co25z7.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Rating       | 7.0 |
-| Time played  | 8 hours |
-| Played platforms    | PlayStation 3 |
-| Completed at | 2016/02/12 |
+|                  |               |
+| ---------------- | ------------- |
+| Rating           | 7.0           |
+| Time played      | 8 hours       |
+| Played platforms | PlayStation 3 |
+| Completed at     | 2016/02/12    |
 
 
 

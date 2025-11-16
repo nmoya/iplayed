@@ -14,12 +14,12 @@ completed_at = "2001-10-09"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co7ozx.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ozx.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co7ozx.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co7ozx.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Time played  | 4 hours |
-| Played platforms    | Nintendo Entertainment System |
-| Completed at | 2001/10/09 |
+|                  |                               |
+| ---------------- | ----------------------------- |
+| Time played      | 4 hours                       |
+| Played platforms | Nintendo Entertainment System |
+| Completed at     | 2001/10/09                    |
 
 

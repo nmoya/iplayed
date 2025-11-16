@@ -14,12 +14,12 @@ completed_at = "2024-12-05"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2qgw.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2qgw.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2qgw.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2qgw.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Time played  | 10 hours |
-| Played platforms    | PC (Microsoft Windows) |
-| Completed at | 2024/12/05 |
+|                  |                        |
+| ---------------- | ---------------------- |
+| Time played      | 10 hours               |
+| Played platforms | PC (Microsoft Windows) |
+| Completed at     | 2024/12/05             |
 
 

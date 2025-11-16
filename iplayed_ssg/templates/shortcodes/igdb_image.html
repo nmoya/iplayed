@@ -1,0 +1,52 @@
+{#- Responsive IGDB image helper that builds a srcset from IGDB's size tokens -#}
+{%- set alt_text = alt | default(value="") -%}
+{%- set caption_text = caption | default(value="") -%}
+{%- set lazy_load = lazy | default(value=true) -%}
+
+{%- set igdb_tokens = ["t_cover_small", "t_cover_big", "t_cover_large", "t_720p", "t_1080p"] -%}
+{%- set igdb_widths = [90, 264, 512, 1280, 1920] -%}
+
+{%- set fallback_url = src -%}
+{%- set fallback_width = 0 -%}
+{%- set srcset_candidates = [] -%}
+{%- set build_success = false -%}
+
+{%- set upload_parts = src | split(pat="/upload/") -%}
+{%- if upload_parts | length == 2 -%}
+    {%- set suffix_parts = upload_parts.1 | split(pat="/") -%}
+    {%- if suffix_parts | length >= 2 -%}
+        {%- set prefix = upload_parts.0 ~ "/upload/" -%}
+        {%- set asset_path = suffix_parts | slice(start=1) | join(sep="/") -%}
+        {%- set token_count = igdb_tokens | length -%}
+        {%- for idx in range(end=token_count) -%}
+            {%- set token = igdb_tokens[idx] -%}
+            {%- set width = igdb_widths[idx] -%}
+            {%- set candidate_url = prefix ~ token ~ "/" ~ asset_path -%}
+            {%- set candidate = candidate_url ~ " " ~ width ~ "w" -%}
+            {%- set srcset_candidates = srcset_candidates | concat(with=candidate) -%}
+        {%- endfor -%}
+        {%- set fallback_token = igdb_tokens | last -%}
+        {%- set fallback_width = igdb_widths | last -%}
+        {%- set fallback_url = prefix ~ fallback_token ~ "/" ~ asset_path -%}
+        {%- set build_success = true -%}
+    {%- endif -%}
+{%- endif -%}
+
+{%- if caption_text -%}
+<figure>
+    {% endif -%}
+
+    <img src="{{ fallback_url | safe }}" alt="{{ alt_text }}" {% if fallback_width> 0 %}width="{{ fallback_width }}"{%
+    endif %}
+    {% if build_success -%}
+    srcset="{{ srcset_candidates | join(sep=", ") | safe }}"
+    sizes="(min-width: 920px) 784px, (min-width: 700px) calc(82vw + 46px), calc(100vw - 40px)"
+    {%- endif %}
+    {% if lazy_load %}loading="lazy"{% else %}fetchpriority="high"{% endif %}>
+
+    {%- if caption_text %}
+    <figcaption>
+        <p>{{ caption_text | markdown(inline=true) | safe }}</p>
+    </figcaption>
+</figure>
+{%- endif %}

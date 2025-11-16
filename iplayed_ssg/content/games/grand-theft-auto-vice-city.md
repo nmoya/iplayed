@@ -14,12 +14,12 @@ completed_at = "2003-03-24"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2lbb.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lbb.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2lbb.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2lbb.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Time played  | 17 hours |
-| Played platforms    | PC (Microsoft Windows) |
-| Completed at | 2003/03/24 |
+|                  |                        |
+| ---------------- | ---------------------- |
+| Time played      | 17 hours               |
+| Played platforms | PC (Microsoft Windows) |
+| Completed at     | 2003/03/24             |
 
 

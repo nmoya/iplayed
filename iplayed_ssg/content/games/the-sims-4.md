@@ -14,14 +14,14 @@ completed_at = "2020-03-24"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co3h3l.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co3h3l.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co3h3l.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co3h3l.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Rating       | 7.0 |
-| Time played  | 8 hours |
-| Played platforms    | PlayStation 4, PC (Microsoft Windows) |
-| Completed at | 2020/03/24 |
+|                  |                                       |
+| ---------------- | ------------------------------------- |
+| Rating           | 7.0                                   |
+| Time played      | 8 hours                               |
+| Played platforms | PlayStation 4, PC (Microsoft Windows) |
+| Completed at     | 2020/03/24                            |
 
 
 

@@ -14,12 +14,12 @@ completed_at = "2005-03-14"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co3ddc.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ddc.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co3ddc.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co3ddc.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Time played  | 20 hours |
-| Played platforms    | PlayStation 2 |
-| Completed at | 2005/03/14 |
+|                  |               |
+| ---------------- | ------------- |
+| Time played      | 20 hours      |
+| Played platforms | PlayStation 2 |
+| Completed at     | 2005/03/14    |
 
 

@@ -14,13 +14,13 @@ completed_at = "2022-06-16"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1v88.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v88.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1v88.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1v88.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Rating       | 8.0 |
-| Time played  | 2 hours |
-| Played platforms    | PC (Microsoft Windows), PlayStation 4 |
-| Completed at | 2022/06/16 |
+|                  |                                       |
+| ---------------- | ------------------------------------- |
+| Rating           | 8.0                                   |
+| Time played      | 2 hours                               |
+| Played platforms | PC (Microsoft Windows), PlayStation 4 |
+| Completed at     | 2022/06/16                            |
 
 

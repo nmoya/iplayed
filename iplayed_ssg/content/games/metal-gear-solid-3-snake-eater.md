@@ -14,12 +14,12 @@ completed_at = "2007-11-01"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co5ei5.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co5ei5.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co5ei5.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co5ei5.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Time played  | 15 hours |
-| Played platforms    | PlayStation 2 |
-| Completed at | 2007/11/01 |
+|                  |               |
+| ---------------- | ------------- |
+| Time played      | 15 hours      |
+| Played platforms | PlayStation 2 |
+| Completed at     | 2007/11/01    |
 
 

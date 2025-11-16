@@ -14,12 +14,12 @@ completed_at = "2008-03-15"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co8yzk.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co8yzk.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co8yzk.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co8yzk.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Time played  | 10 hours |
-| Played platforms    | PlayStation |
-| Completed at | 2008/03/15 |
+|                  |             |
+| ---------------- | ----------- |
+| Time played      | 10 hours    |
+| Played platforms | PlayStation |
+| Completed at     | 2008/03/15  |
 
 

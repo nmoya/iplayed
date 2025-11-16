@@ -14,14 +14,14 @@ completed_at = "2020-10-23"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co3p2d.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p2d.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co3p2d.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co3p2d.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Rating       | 8.0 |
-| Time played  | 55 hours |
-| Played platforms    | Nintendo Switch |
-| Completed at | 2020/10/23 |
+|                  |                 |
+| ---------------- | --------------- |
+| Rating           | 8.0             |
+| Time played      | 55 hours        |
+| Played platforms | Nintendo Switch |
+| Completed at     | 2020/10/23      |
 
 
 

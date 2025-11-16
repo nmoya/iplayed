@@ -14,12 +14,12 @@ completed_at = "2016-05-02"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1rcb.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rcb.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1rcb.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1rcb.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Time played  | 95 hours |
-| Played platforms    | PlayStation 4 |
-| Completed at | 2016/05/02 |
+|                  |               |
+| ---------------- | ------------- |
+| Time played      | 95 hours      |
+| Played platforms | PlayStation 4 |
+| Completed at     | 2016/05/02    |
 
 

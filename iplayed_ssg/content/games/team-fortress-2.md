@@ -14,12 +14,12 @@ completed_at = "2023-03-18"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co6rzl.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co6rzl.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co6rzl.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co6rzl.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Time played  | 302 hours |
-| Played platforms    | PC |
-| Completed at | 2023/03/18 |
+|                  |            |
+| ---------------- | ---------- |
+| Time played      | 302 hours  |
+| Played platforms | PC         |
+| Completed at     | 2023/03/18 |
 
 

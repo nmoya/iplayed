@@ -7,3 +7,6 @@
 [submodule "iplayed_cli/pyxelate"]
 	path = iplayed_cli/pyxelate
 	url = https://github.com/sedthh/pyxelate.git
+[submodule "iplayed_ssg/themes/terminus"]
+	path = iplayed_ssg/themes/terminus
+	url = https://github.com/ebkalderon/terminus.git

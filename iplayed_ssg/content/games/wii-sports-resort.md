@@ -14,12 +14,12 @@ completed_at = "2009-07-21"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2may.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2may.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2may.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2may.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Time played  | 8 hours |
-| Played platforms    | Wii |
-| Completed at | 2009/07/21 |
+|                  |            |
+| ---------------- | ---------- |
+| Time played      | 8 hours    |
+| Played platforms | Wii        |
+| Completed at     | 2009/07/21 |
 
 

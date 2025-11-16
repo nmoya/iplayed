@@ -1,24 +1,17 @@
 {% extends "base.html" %}
 
-{% block right %}
-<div class="inner-post content">
-  {% block date %}{{ super() }}{% endblock date%}
-  <div class="entry-meta">
-    <p>{% for term in terms %}#<a href="{{ " /" ~ taxonomy.name ~ "/" ~ term.name ~ "/" | safe }}">{{ term.name
-        }}</a><sup>{{ term.pages | length }}</sup> {% endfor %}</p>
-  </div>
-  {%- for term in terms %}
-  <h2 class="entry-title"><a href="{{ " /" ~ taxonomy.name ~ "/" ~ term.name ~ "/" | safe }}">#</a>{{ term.name | safe}}
-  </h2>
-  <ul>
-    {%- for page in term.pages %}
-    <li class="entry-info"><a href="{{ " /games/" ~ page.slug ~ "/" | safe }}">{{ page.title | safe }}</a> <time
-        datetime="{{ page.date }}">{{ page.date | date(format="%F") }}</time></li>
-    {%- endfor %}
-  </ul>
-  {%- endfor %}
-</div>
-{% block paginator %}
-{{ super() }}
-{% endblock paginator %}
-{% endblock right %}
+{%- block title -%}
+{{ taxonomy.name | title }} | {{ config.title }}
+{%- endblock -%}
+
+{%- block main -%}
+        <h1>{{ taxonomy.name | title }}</h1>
+
+        {%- set num_terms = terms | length %}
+        <ul class="taxonomy-list{%- if num_terms > 16 %} three-column{%- elif num_terms > 8 %} two-column{%- endif -%}">
+            {%- for term in terms %}
+            {%- set page_count = [term.page_count ~ " post", term.page_count | pluralize] | join %}
+            <li><a href="{{ term.permalink | safe }}">{{ term.name }}</a> ({{ page_count }})</li>
+            {%- endfor %}
+        </ul>
+{%- endblock -%}

@@ -14,13 +14,13 @@ completed_at = "2024-12-04"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co9f4g.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co9f4g.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co9f4g.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co9f4g.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Rating       | 10.0 |
-| Time played  | 32 hours |
-| Played platforms    | PC (Microsoft Windows), Nintendo Switch |
-| Completed at | 2024/12/04 |
+|                  |                                         |
+| ---------------- | --------------------------------------- |
+| Rating           | 10.0                                    |
+| Time played      | 32 hours                                |
+| Played platforms | PC (Microsoft Windows), Nintendo Switch |
+| Completed at     | 2024/12/04                              |
 
 

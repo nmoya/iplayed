@@ -92,7 +92,7 @@ def completion_to_frontmatter(data: DataEntry):
 
 
 def completion_to_markdown_body(data: DataEntry):
-    #     {{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co4t5o.jpg") }}
+    #     {{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co4t5o.jpg") }}
     # |              |            |
     # | ------------ | ---------- |
     # | Rating       | 7.5        |
@@ -102,7 +102,7 @@ def completion_to_markdown_body(data: DataEntry):
     markdown = []
     img = data.game.cover.sized_url() if data.game.cover else None
     if img:
-        markdown.append(f'{{{{ image(src="{img}") }}}}\n')
+        markdown.append(f'{{{{ igdb_image(src="{img}") }}}}\n')
 
     markdown.append("|              |            |")
     markdown.append("| ------------ | ---------- |")

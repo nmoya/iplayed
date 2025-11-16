@@ -14,12 +14,12 @@ completed_at = "2006-07-12"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2unc.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2unc.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2unc.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2unc.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Time played  | 38 hours |
-| Played platforms    | PlayStation |
-| Completed at | 2006/07/12 |
+|                  |             |
+| ---------------- | ----------- |
+| Time played      | 38 hours    |
+| Played platforms | PlayStation |
+| Completed at     | 2006/07/12  |
 
 

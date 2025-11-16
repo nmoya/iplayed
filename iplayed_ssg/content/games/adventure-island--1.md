@@ -14,11 +14,11 @@ completed_at = "2013-05-17"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2umb.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2umb.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2umb.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2umb.jpg") }}
 
 |              |            |
 | ------------ | ---------- |
-| Time played  | 2 hours |
+| Time played  | 2 hours    |
 | Completed at | 2013/05/17 |
 
 

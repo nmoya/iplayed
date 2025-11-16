@@ -14,14 +14,14 @@ completed_at = "2017-11-25"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1mvj.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1mvj.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1mvj.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1mvj.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Rating       | 7.0 |
-| Time played  | 30 hours |
-| Played platforms    | PlayStation 4 |
-| Completed at | 2017/11/25 |
+|                  |               |
+| ---------------- | ------------- |
+| Rating           | 7.0           |
+| Time played      | 30 hours      |
+| Played platforms | PlayStation 4 |
+| Completed at     | 2017/11/25    |
 
 
 

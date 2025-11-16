@@ -14,12 +14,12 @@ completed_at = "2023-04-08"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co7kod.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co7kod.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co7kod.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co7kod.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Time played  | 24 hours |
-| Played platforms    | PC (Microsoft Windows) |
-| Completed at | 2023/04/08 |
+|                  |                        |
+| ---------------- | ---------------------- |
+| Time played      | 24 hours               |
+| Played platforms | PC (Microsoft Windows) |
+| Completed at     | 2023/04/08             |
 
 

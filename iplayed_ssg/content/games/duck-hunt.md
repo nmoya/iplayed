@@ -14,12 +14,12 @@ completed_at = "1999-07-27"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co42pf.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co42pf.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co42pf.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co42pf.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Time played  | N/A |
-| Played platforms    | Nintendo Entertainment System |
-| Completed at | 1999/07/27 |
+|                  |                               |
+| ---------------- | ----------------------------- |
+| Time played      | N/A                           |
+| Played platforms | Nintendo Entertainment System |
+| Completed at     | 1999/07/27                    |
 
 

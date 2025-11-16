@@ -14,12 +14,12 @@ completed_at = "2014-11-25"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co25gh.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co25gh.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co25gh.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co25gh.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Time played  | 3 hours |
-| Played platforms    | PlayStation |
-| Completed at | 2014/11/25 |
+|                  |             |
+| ---------------- | ----------- |
+| Time played      | 3 hours     |
+| Played platforms | PlayStation |
+| Completed at     | 2014/11/25  |
 
 

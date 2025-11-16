@@ -14,12 +14,12 @@ completed_at = "2004-07-28"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co3izi.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co3izi.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co3izi.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co3izi.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Time played  | 3 hours |
-| Played platforms    | PC (Microsoft Windows) |
-| Completed at | 2004/07/28 |
+|                  |                        |
+| ---------------- | ---------------------- |
+| Time played      | 3 hours                |
+| Played platforms | PC (Microsoft Windows) |
+| Completed at     | 2004/07/28             |
 
 

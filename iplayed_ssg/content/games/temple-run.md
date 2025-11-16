@@ -14,12 +14,12 @@ completed_at = "2011-08-15"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2rk3.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2rk3.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2rk3.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2rk3.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Time played  | 9 hours |
-| Played platforms    | iOS |
-| Completed at | 2011/08/15 |
+|                  |            |
+| ---------------- | ---------- |
+| Time played      | 9 hours    |
+| Played platforms | iOS        |
+| Completed at     | 2011/08/15 |
 
 

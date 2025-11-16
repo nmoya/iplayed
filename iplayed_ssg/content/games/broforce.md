@@ -14,12 +14,12 @@ completed_at = "2015-03-17"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co28vv.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co28vv.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co28vv.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co28vv.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Time played  | 7 hours |
-| Played platforms    | PC (Microsoft Windows) |
-| Completed at | 2015/03/17 |
+|                  |                        |
+| ---------------- | ---------------------- |
+| Time played      | 7 hours                |
+| Played platforms | PC (Microsoft Windows) |
+| Completed at     | 2015/03/17             |
 
 

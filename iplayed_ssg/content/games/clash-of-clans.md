@@ -14,12 +14,12 @@ completed_at = "2012-08-09"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1mb8.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1mb8.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1mb8.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1mb8.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Time played  | 39 hours |
-| Played platforms    | Android |
-| Completed at | 2012/08/09 |
+|                  |            |
+| ---------------- | ---------- |
+| Time played      | 39 hours   |
+| Played platforms | Android    |
+| Completed at     | 2012/08/09 |
 
 

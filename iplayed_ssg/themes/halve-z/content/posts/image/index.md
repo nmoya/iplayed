@@ -30,10 +30,10 @@ Example of a local image with a link and caption.
 #### Output
 
 ```html
-{{ image(src="/fireball.gif", link="https://halve-z.netlify.app/", alt="Fireball", caption="8bit fireball") }}
+{{ igdb_image(src="/fireball.gif", link="https://halve-z.netlify.app/", alt="Fireball", caption="8bit fireball") }}
 ```
 
-{{ image(src="/fireball.gif", link="https://halve-z.netlify.app/", alt="Fireball", caption="8bit fireball") }}
+{{ igdb_image(src="/fireball.gif", link="https://halve-z.netlify.app/", alt="Fireball", caption="8bit fireball") }}
 
 ### Image only
 
@@ -48,10 +48,10 @@ Example of an image without any text or links.
 #### Output
 
 ```html
-{{ image(src="yawn.gif") }}
+{{ igdb_image(src="yawn.gif") }}
 ```
 
-{{ image(src="yawn.gif") }}
+{{ igdb_image(src="yawn.gif") }}
 
 ### External
 
@@ -66,10 +66,10 @@ Example of an external image.
 #### Output
 
 ```html
-{{ image(src="https://halve-z.netlify.app/fireball.gif") }}
+{{ igdb_image(src="https://halve-z.netlify.app/fireball.gif") }}
 ```
 
-{{ image(src="https://halve-z.netlify.app/fireball.gif") }}
+{{ igdb_image(src="https://halve-z.netlify.app/fireball.gif") }}
 
 ## CSP
 
@@ -98,4 +98,4 @@ csp_img = ["raw.githubusercontent.com/charlesrocket/beastie/"]
 
 #### Output
 
-{{ image(src="https://raw.githubusercontent.com/charlesrocket/beastie/master/doc/screenshot.gif", caption="CSP test image") }}
+{{ igdb_image(src="https://raw.githubusercontent.com/charlesrocket/beastie/master/doc/screenshot.gif", caption="CSP test image") }}

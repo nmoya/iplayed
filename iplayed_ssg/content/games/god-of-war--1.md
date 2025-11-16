@@ -14,13 +14,13 @@ completed_at = "2018-08-25"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1tmu.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tmu.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1tmu.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1tmu.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Rating       | 10.0 |
-| Time played  | 20 hours |
-| Played platforms    | PlayStation 4 |
-| Completed at | 2018/08/25 |
+|                  |               |
+| ---------------- | ------------- |
+| Rating           | 10.0          |
+| Time played      | 20 hours      |
+| Played platforms | PlayStation 4 |
+| Completed at     | 2018/08/25    |
 
 

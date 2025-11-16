@@ -14,13 +14,13 @@ completed_at = "2012-07-08"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/uqzcexfghnshgovzddux.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/uqzcexfghnshgovzddux.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/uqzcexfghnshgovzddux.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/uqzcexfghnshgovzddux.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Time played  | 13 hours |
-| Played platforms    | PlayStation 3 |
-| Completed at | 2012/07/08 |
+|                  |               |
+| ---------------- | ------------- |
+| Time played      | 13 hours      |
+| Played platforms | PlayStation 3 |
+| Completed at     | 2012/07/08    |
 
 
 

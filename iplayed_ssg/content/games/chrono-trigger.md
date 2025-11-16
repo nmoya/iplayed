@@ -14,12 +14,12 @@ completed_at = "2024-12-05"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co3plw.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co3plw.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co3plw.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/co3plw.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Time played  | 25 hours |
-| Played platforms    | Super Nintendo Entertainment System |
-| Completed at | 2024/12/05 |
+|                  |                                     |
+| ---------------- | ----------------------------------- |
+| Time played      | 25 hours                            |
+| Played platforms | Super Nintendo Entertainment System |
+| Completed at     | 2024/12/05                          |
 
 

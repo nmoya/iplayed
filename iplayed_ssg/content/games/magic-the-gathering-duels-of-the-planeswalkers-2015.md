@@ -14,12 +14,12 @@ completed_at = "2014-07-28"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/zq3yopwdxgbwiforg3l3.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/zq3yopwdxgbwiforg3l3.jpg"
 +++
-{{ image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/zq3yopwdxgbwiforg3l3.jpg") }}
+{{ igdb_image(src="https://images.igdb.com/igdb/image/upload/t_cover_big/zq3yopwdxgbwiforg3l3.jpg") }}
 
-|              |            |
-| ------------ | ---------- |
-| Time played  | 9 hours |
-| Played platforms    | PC (Microsoft Windows) |
-| Completed at | 2014/07/28 |
+|                  |                        |
+| ---------------- | ---------------------- |
+| Time played      | 9 hours                |
+| Played platforms | PC (Microsoft Windows) |
+| Completed at     | 2014/07/28             |
 
 
