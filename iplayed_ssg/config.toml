@@ -51,7 +51,6 @@ main_menu = [
 ]
 
 socials = [
-    { name = "github", url = "https://github.com/nmoya" },
 ]
 
 [extra.content_security_policy]

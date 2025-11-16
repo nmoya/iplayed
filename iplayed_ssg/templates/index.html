@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {%- block title -%}
-{{ section.title | default(value="Stats") }} | {{ config.title }}
+{{ section.title | default(value="Home") }} | {{ config.title }}
 {%- endblock -%}
 
 {%- block description -%}
@@ -329,15 +329,16 @@
 
                 const gameEl = document.createElement('strong');
                 gameEl.className = 'stats-list__game';
+                const link = document.createElement('a');
                 if (entry.permalink) {
-                    const link = document.createElement('a');
                     link.href = entry.permalink;
-                    link.textContent = entry.name;
-                    link.className = 'stats-list__game-link';
-                    gameEl.appendChild(link);
                 } else {
-                    gameEl.textContent = entry.name;
+                    link.setAttribute('aria-disabled', 'true');
+                    link.href = 'javascript:void(0)';
                 }
+                link.textContent = entry.name;
+                link.className = 'stats-list__game-link';
+                gameEl.appendChild(link);
 
                 row.append(dateEl, gameEl);
                 els.recentList.appendChild(row);
@@ -364,7 +365,16 @@
 
                 const gameEl = document.createElement('strong');
                 gameEl.className = 'stats-list__game';
-                gameEl.textContent = info.name;
+                const link = document.createElement('a');
+                link.className = 'stats-list__game-link';
+                if (info.permalink) {
+                    link.href = info.permalink;
+                } else {
+                    link.setAttribute('aria-disabled', 'true');
+                    link.href = 'javascript:void(0)';
+                }
+                link.textContent = info.name;
+                gameEl.appendChild(link);
 
                 const hoursEl = document.createElement('span');
                 hoursEl.className = 'stats-list__hours';
@@ -417,12 +427,13 @@
                     gamesByYearMonth[year] = gamesByYearMonth[year] || {};
                     gamesByYearMonth[year][month] = gamesByYearMonth[year][month] || [];
                     gamesByYearMonth[year][month].push({ name: gameName, hours: hoursPlayed });
+                    const gamePermalink = gameInfo.slug ? `${gamesBaseUrl}${gameInfo.slug}/` : null;
                     recentCompletions.push({
                         name: gameName,
                         slug: gameInfo.slug,
                         completedAt: date,
                         displayDate: date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' }),
-                        permalink: gameInfo.slug ? `${gamesBaseUrl}${gameInfo.slug}/` : null
+                        permalink: gamePermalink
                     });
 
                     (completionInfo.played_platforms || []).forEach((platform) => {
@@ -433,7 +444,7 @@
                     (gameInfo.genres || []).forEach((genre) => {
                         const genreName = genre?.name || 'Unknown';
                         if (!topGamesByGenre[genreName] || hoursPlayed > topGamesByGenre[genreName].hours) {
-                            topGamesByGenre[genreName] = { name: gameName, hours: hoursPlayed };
+                            topGamesByGenre[genreName] = { name: gameName, hours: hoursPlayed, permalink: gamePermalink };
                         }
                         genreCounts[genreName] = (genreCounts[genreName] || 0) + 1;
                         genreHoursCounts[genreName] = (genreHoursCounts[genreName] || 0) + hoursPlayed;

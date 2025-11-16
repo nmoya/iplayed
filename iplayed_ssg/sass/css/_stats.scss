@@ -154,9 +154,10 @@
 
 
 .stats-list__item {
-    display: flex;
+    display: grid;
+    grid-template-columns: 2fr 3fr minmax(90px, auto);
     align-items: center;
-    gap: 16px;
+    gap: 12px;
     padding: 10px 14px;
     border-radius: 4px;
     border: 1px solid color-mix(in srgb, var(--accent-color) 30%, transparent);
@@ -165,13 +166,11 @@
 
 
 .stats-list__genre {
-    flex: 2;
     font-weight: 600;
 }
 
 
 .stats-list__game {
-    flex: 3;
     color: var(--accent-color);
     font-size: 1rem;
 }
@@ -188,8 +187,8 @@
 
 
 .stats-list__hours {
-    margin-left: auto;
     font-family: "Fira Code", Monaco, Consolas, "Ubuntu Mono", monospace;
+    text-align: right;
 }
 
 .stats-list__date {
