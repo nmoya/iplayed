@@ -46,7 +46,6 @@ toc = true
 
 main_menu = [
     { name = "Games", url = "games", trailing_slash = true },
-    { name = "Stats", url = "stats", trailing_slash = true },
     { name = "Platforms", url = "platforms", trailing_slash = true },
     { name = "Genres", url = "genres", trailing_slash = true },
 ]
@@ -91,5 +90,4 @@ links = [
     { name = "Games", url = "/games/" },
     { name = "platforms", url = "/platforms" },
     { name = "genres", url = "/genres" },
-    { name = "Stats", url = "/stats/" },
 ]
