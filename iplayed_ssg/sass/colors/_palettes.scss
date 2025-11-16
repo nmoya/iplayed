@@ -1,0 +1,69 @@
+@use "sass:map";
+
+$palettes: (
+    "current": (
+        selector: ":root, [data-theme=\"current\"]",
+        background: #211f1a,
+        text: whitesmoke,
+        accent: rgb(255, 168, 106),
+        footnote: rgba(255, 255, 255, 0.5),
+    ),
+    "tokyo-night": (
+        background: #1a1b26,
+        text: #c0caf5,
+        accent: #7aa2f7,
+        footnote: rgba(192, 202, 245, 0.6),
+    ),
+    "solarized-dark": (
+        background: #002b36,
+        text: #839496,
+        accent: #268bd2,
+        footnote: rgba(131, 148, 150, 0.6),
+    ),
+    "nord": (
+        background: #2e3440,
+        text: #d8dee9,
+        accent: #5e81ac,
+        footnote: rgba(216, 222, 233, 0.6),
+    ),
+    "one-dark": (
+        background: #282c34,
+        text: #abb2bf,
+        accent: #61afef,
+        footnote: rgba(171, 178, 191, 0.6),
+    ),
+    "gruvbox-dark": (
+        background: #282828,
+        text: #ebdbb2,
+        accent: #fe8019,
+        footnote: rgba(235, 219, 178, 0.6),
+    ),
+    "oled-abyss": (
+        background: #000,
+        text: #fff,
+        accent: #00d4ff,
+        footnote: rgba(255, 255, 255, 0.7),
+    ),
+    "solar-flare": (
+        background: #fff,
+        text: #1a1a1a,
+        accent: #ff4500,
+        footnote: rgba(26, 26, 26, 0.6),
+    ),
+);
+
+@mixin emit($name, $tokens) {
+    $selector: map.get($tokens, selector);
+
+    @if $selector == null {
+        $selector: '[data-theme="#{$name}"]';
+    }
+
+    #{$selector} {
+        --background-color: #{map.get($tokens, background)};
+        --text-color: #{map.get($tokens, text)};
+        --accent-color: #{map.get($tokens, accent)};
+        --footnote-color: #{map.get($tokens, footnote)};
+    }
+}
+

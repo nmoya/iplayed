@@ -1,5 +1,4 @@
 {% if config.extra.content_security_policy.enable == true -%}
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'
     {%- set allowed_domains = [] -%}
 
     {#- Allow WebSocket protocol and localhost asset hosts while running `zola serve` -#}
@@ -27,6 +26,7 @@
 
     {%- set extra_domains = config.extra.content_security_policy.allowed_domains -%}
     {%- set allowed_domains = allowed_domains | concat(with=extra_domains) -%}
+    {%- set csp_content = "default-src 'self'" -%}
 
     {%- for directive, entries in allowed_domains | group_by(attribute="directive") -%}
         {%- set_global domains = [] -%}
@@ -37,8 +37,8 @@
 
         {%- set domains = domains | join(sep=" ") -%}
         {%- if domains -%}
-            ; {{ directive }} {{ domains | safe }}
+            {%- set_global csp_content = csp_content ~ "; " ~ directive ~ " " ~ domains -%}
         {%- endif -%}
     {%- endfor -%}
-">
+    <meta http-equiv="Content-Security-Policy" content="{{ csp_content | trim }}">
 {% endif -%}

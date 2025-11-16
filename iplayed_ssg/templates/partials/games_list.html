@@ -6,7 +6,7 @@
 <section class="games-search" aria-label="Filter games">
     <label class="games-search__label" for="games-search-input">Search the archive</label>
     <input id="games-search-input" class="games-search__input" type="search" name="query"
-        placeholder="Type a title, platform, or genre…" autocomplete="off" data-games-search-input>
+        placeholder="Type a title, platform, or genre&hellip;" autocomplete="off" data-games-search-input>
     <p class="games-search__status" data-games-search-status aria-live="polite">
         Showing {{ games_list | length }} games
     </p>
@@ -60,7 +60,6 @@
                             {% for platform in platforms %}
                             {% set platform_url = get_taxonomy_url(kind="platforms", name=platform, lang=page.lang) %}
                             <a class="terminal-chip" rel="tag" href="{{ platform_url | safe }}">{{ platform }}</a>
-                            <!-- <span class="game-entry__chip">{{ platform }}</span> -->
                             {% endfor %}
                         </span>
                     </span>

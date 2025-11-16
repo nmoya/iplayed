@@ -13,7 +13,6 @@
 {%- endblock -%}
 
 {%- block main -%}
-{%- filter indent -%}{%- filter indent -%}
 {%- if section.content -%}
 <header class="content {%- if section.extra.framed %} framed{%- endif -%}">
     {{ section.content | indent | safe }}
@@ -36,5 +35,4 @@
     </ul>
 </nav>
 {%- endif %}
-{% endfilter %}{% endfilter %}
 {%- endblock -%}

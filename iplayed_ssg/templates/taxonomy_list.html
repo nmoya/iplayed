@@ -5,7 +5,6 @@
 {%- endblock -%}
 
 {%- block main -%}
-{%- filter indent -%}{%- filter indent -%}
 {%- set term_count = terms | length -%}
 {%- if taxonomy.name is ending_with("ies") -%}
 {%- set singular_name = taxonomy.name | replace(from="ies", to="y") -%}
@@ -23,7 +22,7 @@
     {% if term_count > 0 %}
     <section class="taxonomy-search" aria-label="Filter {{ taxonomy.name }}">
         <label class="games-search__label" for="taxonomy-search-input">Search {{ taxonomy.name | title }}</label>
-        <input id="taxonomy-search-input" class="games-search__input" type="search" placeholder="Type a name…"
+        <input id="taxonomy-search-input" class="games-search__input" type="search" placeholder="Type a name&hellip;"
             autocomplete="off" data-taxonomy-search>
         <p class="taxonomy-search__status" data-taxonomy-search-status aria-live="polite">
             Showing {{ term_count }} {{ taxonomy.name }}
@@ -78,5 +77,4 @@
         input.addEventListener('input', update);
     });
 </script>
-{% endfilter %}{% endfilter %}
 {%- endblock -%}

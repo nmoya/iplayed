@@ -22,7 +22,6 @@
 {%- set cover = page.extra.url_cover_big | default(value=page.extra.url_cover_small | default(value="")) -%}
 {%- set playtime = page.extra.playtime | default(value="") -%}
 
-{%- filter indent -%}{%- filter indent -%}
 <article class="post content">
   <header>
     <h1 class="post-title">{{ page.title }}</h1>
@@ -91,5 +90,4 @@
 </article>
 
 
-{% endfilter %}{% endfilter %}
 {%- endblock -%}
