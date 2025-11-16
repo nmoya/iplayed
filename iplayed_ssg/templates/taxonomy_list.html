@@ -24,7 +24,7 @@
         <label class="games-search__label" for="taxonomy-search-input">Search {{ taxonomy.name | title }}</label>
         <input id="taxonomy-search-input" class="games-search__input" type="search" placeholder="Type a name&hellip;"
             autocomplete="off" data-taxonomy-search>
-        <p class="taxonomy-search__status" data-taxonomy-search-status aria-live="polite">
+        <p class="taxonomy-search__status" data-taxonomy-search-status data-taxonomy-label="{{ taxonomy.name | escape }}" aria-live="polite">
             Showing {{ term_count }} {{ taxonomy.name }}
         </p>
     </section>
@@ -45,36 +45,5 @@
     {% endif %}
 </section>
 
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const input = document.querySelector('[data-taxonomy-search]');
-        const status = document.querySelector('[data-taxonomy-search-status]');
-        const cards = Array.from(document.querySelectorAll('[data-taxonomy-card]'));
-
-        if (!input || !status || cards.length === 0) {
-            return;
-        }
-
-        const total = cards.length;
-
-        function update() {
-            const query = input.value.trim().toLowerCase();
-            let visible = 0;
-
-            cards.forEach((card) => {
-                const haystack = card.dataset.searchText || card.textContent.toLowerCase();
-                const matches = !query || haystack.includes(query);
-                card.hidden = !matches;
-                if (matches) {
-                    visible += 1;
-                }
-            });
-
-            const suffix = query ? ` for "${query}"` : '';
-            status.textContent = `Showing ${visible} of ${total} {{ taxonomy.name }}` + suffix;
-        }
-
-        input.addEventListener('input', update);
-    });
-</script>
+<script src="{{ get_url(path="js/taxonomy-search.js", cachebust=true) }}" defer></script>
 {%- endblock -%}
