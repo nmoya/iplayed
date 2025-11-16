@@ -59,7 +59,7 @@ socials = [
 enable = true
 allowed_domains = [
     { directive = "connect-src", domains = ["'self'", "cloudflareinsights.com"] },
-    { directive = "script-src", domains = ["'self'", "static.cloudflareinsights.com"] },
+    { directive = "script-src-elem", domains = ["'self'", "static.cloudflareinsights.com", "cdn.jsdelivr.net"] },
     { directive = "img-src", domains = ["'self'", "https://*.githubusercontent.com", "https://images.igdb.com"] }
 ]
 
