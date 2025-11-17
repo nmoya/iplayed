@@ -248,16 +248,16 @@
                         {
                             label: 'Completions',
                             data: counts,
-                            backgroundColor: themeColors.accentSoft,
-                            borderColor: themeColors.accent,
+                            backgroundColor: themeColors.highlight,
+                            borderColor: themeColors.highlight,
                             borderWidth: 1.5,
                             borderRadius: 4
                         },
                         {
                             label: 'Hours',
                             data: hours,
-                            backgroundColor: themeColors.highlight,
-                            borderColor: themeColors.highlight,
+                            backgroundColor: themeColors.accentSoft,
+                            borderColor: themeColors.accent,
                             borderWidth: 1.5,
                             borderRadius: 4
                         }
