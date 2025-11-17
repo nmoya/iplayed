@@ -46,44 +46,6 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>Animal Well</title>
-        <published>2024-12-05T00:00:00+00:00</published>
-        <updated>2024-12-05T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Nikolas Moya
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/animal-well/"/>
-        <id>https://nikolasmoya.com/iplayed/games/animal-well/</id>
-        
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/animal-well/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Balatro</title>
-        <published>2024-12-04T00:00:00+00:00</published>
-        <updated>2024-12-04T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Nikolas Moya
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/balatro/"/>
-        <id>https://nikolasmoya.com/iplayed/games/balatro/</id>
-        
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/balatro/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
         <title>A Short Hike</title>
         <published>2024-11-11T00:00:00+00:00</published>
         <updated>2024-11-11T00:00:00+00:00</updated>
@@ -100,6 +62,44 @@
         <id>https://nikolasmoya.com/iplayed/games/a-short-hike/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/a-short-hike/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Balatro</title>
+        <published>2024-10-04T00:00:00+00:00</published>
+        <updated>2024-10-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/balatro/"/>
+        <id>https://nikolasmoya.com/iplayed/games/balatro/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/balatro/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Animal Well</title>
+        <published>2024-09-05T00:00:00+00:00</published>
+        <updated>2024-09-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/animal-well/"/>
+        <id>https://nikolasmoya.com/iplayed/games/animal-well/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/animal-well/"></content>
         
     </entry>
     <entry xml:lang="en">

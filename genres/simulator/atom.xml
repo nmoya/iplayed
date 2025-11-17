@@ -125,9 +125,28 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>Satisfactory</title>
+        <published>2024-09-13T00:00:00+00:00</published>
+        <updated>2024-09-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/satisfactory/"/>
+        <id>https://nikolasmoya.com/iplayed/games/satisfactory/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/satisfactory/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>Dave the Diver</title>
-        <published>2024-12-05T00:00:00+00:00</published>
-        <updated>2024-12-05T00:00:00+00:00</updated>
+        <published>2024-08-05T00:00:00+00:00</published>
+        <updated>2024-08-05T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -153,8 +172,8 @@
     </entry>
     <entry xml:lang="en">
         <title>Per Aspera</title>
-        <published>2024-12-05T00:00:00+00:00</published>
-        <updated>2024-12-05T00:00:00+00:00</updated>
+        <published>2024-07-05T00:00:00+00:00</published>
+        <updated>2024-07-05T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -173,25 +192,6 @@
 &lt;p&gt;❌ Per Aspera: Green Mars&lt;&#x2F;p&gt;
 &lt;p&gt;❌ Per Aspera: Home&lt;&#x2F;p&gt;
 </content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Satisfactory</title>
-        <published>2024-09-13T00:00:00+00:00</published>
-        <updated>2024-09-13T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Nikolas Moya
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/satisfactory/"/>
-        <id>https://nikolasmoya.com/iplayed/games/satisfactory/</id>
-        
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/satisfactory/"></content>
         
     </entry>
     <entry xml:lang="en">

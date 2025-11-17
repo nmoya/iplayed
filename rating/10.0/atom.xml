@@ -69,8 +69,8 @@
     </entry>
     <entry xml:lang="en">
         <title>Balatro</title>
-        <published>2024-12-04T00:00:00+00:00</published>
-        <updated>2024-12-04T00:00:00+00:00</updated>
+        <published>2024-10-04T00:00:00+00:00</published>
+        <updated>2024-10-04T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -84,6 +84,25 @@
         <id>https://nikolasmoya.com/iplayed/games/balatro/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/balatro/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Elden Ring</title>
+        <published>2024-06-05T00:00:00+00:00</published>
+        <updated>2024-06-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/elden-ring/"/>
+        <id>https://nikolasmoya.com/iplayed/games/elden-ring/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/elden-ring/"></content>
         
     </entry>
     <entry xml:lang="en">

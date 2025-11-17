@@ -160,6 +160,25 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>Chrono Trigger</title>
+        <published>2024-12-11T00:00:00+00:00</published>
+        <updated>2024-12-11T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/chrono-trigger/"/>
+        <id>https://nikolasmoya.com/iplayed/games/chrono-trigger/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/chrono-trigger/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>A Short Hike</title>
         <published>2024-11-11T00:00:00+00:00</published>
         <updated>2024-11-11T00:00:00+00:00</updated>

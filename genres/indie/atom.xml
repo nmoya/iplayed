@@ -242,9 +242,9 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>Animal Well</title>
-        <published>2024-12-05T00:00:00+00:00</published>
-        <updated>2024-12-05T00:00:00+00:00</updated>
+        <title>A Short Hike</title>
+        <published>2024-11-11T00:00:00+00:00</published>
+        <updated>2024-11-11T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -254,16 +254,16 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/animal-well/"/>
-        <id>https://nikolasmoya.com/iplayed/games/animal-well/</id>
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/a-short-hike/"/>
+        <id>https://nikolasmoya.com/iplayed/games/a-short-hike/</id>
         
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/animal-well/"></content>
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/a-short-hike/"></content>
         
     </entry>
     <entry xml:lang="en">
         <title>Evoland</title>
-        <published>2024-12-05T00:00:00+00:00</published>
-        <updated>2024-12-05T00:00:00+00:00</updated>
+        <published>2024-10-22T00:00:00+00:00</published>
+        <updated>2024-10-22T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -280,9 +280,9 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>Jupiter Hell</title>
-        <published>2024-12-05T00:00:00+00:00</published>
-        <updated>2024-12-05T00:00:00+00:00</updated>
+        <title>Balatro</title>
+        <published>2024-10-04T00:00:00+00:00</published>
+        <updated>2024-10-04T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -292,16 +292,54 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/jupiter-hell/"/>
-        <id>https://nikolasmoya.com/iplayed/games/jupiter-hell/</id>
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/balatro/"/>
+        <id>https://nikolasmoya.com/iplayed/games/balatro/</id>
         
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/jupiter-hell/"></content>
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/balatro/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Satisfactory</title>
+        <published>2024-09-13T00:00:00+00:00</published>
+        <updated>2024-09-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/satisfactory/"/>
+        <id>https://nikolasmoya.com/iplayed/games/satisfactory/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/satisfactory/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Animal Well</title>
+        <published>2024-09-05T00:00:00+00:00</published>
+        <updated>2024-09-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/animal-well/"/>
+        <id>https://nikolasmoya.com/iplayed/games/animal-well/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/animal-well/"></content>
         
     </entry>
     <entry xml:lang="en">
         <title>Per Aspera</title>
-        <published>2024-12-05T00:00:00+00:00</published>
-        <updated>2024-12-05T00:00:00+00:00</updated>
+        <published>2024-07-05T00:00:00+00:00</published>
+        <updated>2024-07-05T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -323,9 +361,9 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>The Witness</title>
-        <published>2024-12-05T00:00:00+00:00</published>
-        <updated>2024-12-05T00:00:00+00:00</updated>
+        <title>Jupiter Hell</title>
+        <published>2024-04-05T00:00:00+00:00</published>
+        <updated>2024-04-05T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -335,67 +373,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/the-witness/"/>
-        <id>https://nikolasmoya.com/iplayed/games/the-witness/</id>
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/jupiter-hell/"/>
+        <id>https://nikolasmoya.com/iplayed/games/jupiter-hell/</id>
         
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/the-witness/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Balatro</title>
-        <published>2024-12-04T00:00:00+00:00</published>
-        <updated>2024-12-04T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Nikolas Moya
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/balatro/"/>
-        <id>https://nikolasmoya.com/iplayed/games/balatro/</id>
-        
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/balatro/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>A Short Hike</title>
-        <published>2024-11-11T00:00:00+00:00</published>
-        <updated>2024-11-11T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Nikolas Moya
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/a-short-hike/"/>
-        <id>https://nikolasmoya.com/iplayed/games/a-short-hike/</id>
-        
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/a-short-hike/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Satisfactory</title>
-        <published>2024-09-13T00:00:00+00:00</published>
-        <updated>2024-09-13T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Nikolas Moya
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/satisfactory/"/>
-        <id>https://nikolasmoya.com/iplayed/games/satisfactory/</id>
-        
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/satisfactory/"></content>
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/jupiter-hell/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -1065,6 +1046,25 @@
         <id>https://nikolasmoya.com/iplayed/games/slay-the-spire/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/slay-the-spire/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>The Witness</title>
+        <published>2018-12-28T00:00:00+00:00</published>
+        <updated>2018-12-28T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/the-witness/"/>
+        <id>https://nikolasmoya.com/iplayed/games/the-witness/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/the-witness/"></content>
         
     </entry>
     <entry xml:lang="en">

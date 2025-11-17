@@ -50,8 +50,8 @@
     </entry>
     <entry xml:lang="en">
         <title>Evoland</title>
-        <published>2024-12-05T00:00:00+00:00</published>
-        <updated>2024-12-05T00:00:00+00:00</updated>
+        <published>2024-10-22T00:00:00+00:00</published>
+        <updated>2024-10-22T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -68,28 +68,9 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>Jupiter Hell</title>
-        <published>2024-12-05T00:00:00+00:00</published>
-        <updated>2024-12-05T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Nikolas Moya
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/jupiter-hell/"/>
-        <id>https://nikolasmoya.com/iplayed/games/jupiter-hell/</id>
-        
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/jupiter-hell/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
         <title>Balatro</title>
-        <published>2024-12-04T00:00:00+00:00</published>
-        <updated>2024-12-04T00:00:00+00:00</updated>
+        <published>2024-10-04T00:00:00+00:00</published>
+        <updated>2024-10-04T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -103,6 +84,25 @@
         <id>https://nikolasmoya.com/iplayed/games/balatro/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/balatro/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Jupiter Hell</title>
+        <published>2024-04-05T00:00:00+00:00</published>
+        <updated>2024-04-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/jupiter-hell/"/>
+        <id>https://nikolasmoya.com/iplayed/games/jupiter-hell/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/jupiter-hell/"></content>
         
     </entry>
     <entry xml:lang="en">

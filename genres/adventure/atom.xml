@@ -299,9 +299,9 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>South Park: The Stick of Truth</title>
-        <published>2024-12-27T00:00:00+00:00</published>
-        <updated>2024-12-27T00:00:00+00:00</updated>
+        <title>A Short Hike</title>
+        <published>2024-11-11T00:00:00+00:00</published>
+        <updated>2024-11-11T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -311,20 +311,79 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/south-park-the-stick-of-truth/"/>
-        <id>https://nikolasmoya.com/iplayed/games/south-park-the-stick-of-truth/</id>
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/a-short-hike/"/>
+        <id>https://nikolasmoya.com/iplayed/games/a-short-hike/</id>
         
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/south-park-the-stick-of-truth/">&lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;post-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;a&gt;
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/a-short-hike/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Far Cry 6</title>
+        <published>2024-11-05T00:00:00+00:00</published>
+        <updated>2024-11-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/far-cry-6/"/>
+        <id>https://nikolasmoya.com/iplayed/games/far-cry-6/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/far-cry-6/">&lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;post-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;a&gt;
 &lt;&#x2F;h3&gt;
-&lt;p&gt;❌ South Park: The Stick of Truth - Super Samurai Spaceman Pack&lt;&#x2F;p&gt;
-&lt;p&gt;❌ South Park: The Stick of Truth - Ultimate Fellowship Pack&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Far Cry 6: Collapse&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Far Cry 6: Insanity&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Far Cry 6: Control&lt;&#x2F;p&gt;
+&lt;p&gt;❌ Far Cry 6: Danny &amp;amp; Dani Vs. Everybody&lt;&#x2F;p&gt;
 </content>
         
     </entry>
     <entry xml:lang="en">
+        <title>Evoland</title>
+        <published>2024-10-22T00:00:00+00:00</published>
+        <updated>2024-10-22T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/evoland/"/>
+        <id>https://nikolasmoya.com/iplayed/games/evoland/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/evoland/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Satisfactory</title>
+        <published>2024-09-13T00:00:00+00:00</published>
+        <updated>2024-09-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/satisfactory/"/>
+        <id>https://nikolasmoya.com/iplayed/games/satisfactory/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/satisfactory/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>Animal Well</title>
-        <published>2024-12-05T00:00:00+00:00</published>
-        <updated>2024-12-05T00:00:00+00:00</updated>
+        <published>2024-09-05T00:00:00+00:00</published>
+        <updated>2024-09-05T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -342,8 +401,8 @@
     </entry>
     <entry xml:lang="en">
         <title>Dave the Diver</title>
-        <published>2024-12-05T00:00:00+00:00</published>
-        <updated>2024-12-05T00:00:00+00:00</updated>
+        <published>2024-08-05T00:00:00+00:00</published>
+        <updated>2024-08-05T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -369,8 +428,8 @@
     </entry>
     <entry xml:lang="en">
         <title>Elden Ring: Shadow of the Erdtree - Collector&#x27;s Edition</title>
-        <published>2024-12-05T00:00:00+00:00</published>
-        <updated>2024-12-05T00:00:00+00:00</updated>
+        <published>2024-07-05T00:00:00+00:00</published>
+        <updated>2024-07-05T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -388,8 +447,8 @@
     </entry>
     <entry xml:lang="en">
         <title>Elden Ring</title>
-        <published>2024-12-05T00:00:00+00:00</published>
-        <updated>2024-12-05T00:00:00+00:00</updated>
+        <published>2024-06-05T00:00:00+00:00</published>
+        <updated>2024-06-05T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -406,9 +465,9 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>Evoland</title>
-        <published>2024-12-05T00:00:00+00:00</published>
-        <updated>2024-12-05T00:00:00+00:00</updated>
+        <title>South Park: The Stick of Truth</title>
+        <published>2024-05-27T00:00:00+00:00</published>
+        <updated>2024-05-27T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -418,92 +477,14 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/evoland/"/>
-        <id>https://nikolasmoya.com/iplayed/games/evoland/</id>
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/south-park-the-stick-of-truth/"/>
+        <id>https://nikolasmoya.com/iplayed/games/south-park-the-stick-of-truth/</id>
         
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/evoland/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Far Cry 6</title>
-        <published>2024-12-05T00:00:00+00:00</published>
-        <updated>2024-12-05T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Nikolas Moya
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/far-cry-6/"/>
-        <id>https://nikolasmoya.com/iplayed/games/far-cry-6/</id>
-        
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/far-cry-6/">&lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;post-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;a&gt;
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/south-park-the-stick-of-truth/">&lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;post-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;a&gt;
 &lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Far Cry 6: Collapse&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Far Cry 6: Insanity&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Far Cry 6: Control&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Far Cry 6: Danny &amp;amp; Dani Vs. Everybody&lt;&#x2F;p&gt;
+&lt;p&gt;❌ South Park: The Stick of Truth - Super Samurai Spaceman Pack&lt;&#x2F;p&gt;
+&lt;p&gt;❌ South Park: The Stick of Truth - Ultimate Fellowship Pack&lt;&#x2F;p&gt;
 </content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>The Witness</title>
-        <published>2024-12-05T00:00:00+00:00</published>
-        <updated>2024-12-05T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Nikolas Moya
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/the-witness/"/>
-        <id>https://nikolasmoya.com/iplayed/games/the-witness/</id>
-        
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/the-witness/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>A Short Hike</title>
-        <published>2024-11-11T00:00:00+00:00</published>
-        <updated>2024-11-11T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Nikolas Moya
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/a-short-hike/"/>
-        <id>https://nikolasmoya.com/iplayed/games/a-short-hike/</id>
-        
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/a-short-hike/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Satisfactory</title>
-        <published>2024-09-13T00:00:00+00:00</published>
-        <updated>2024-09-13T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Nikolas Moya
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/satisfactory/"/>
-        <id>https://nikolasmoya.com/iplayed/games/satisfactory/</id>
-        
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/satisfactory/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -1759,6 +1740,25 @@
         <id>https://nikolasmoya.com/iplayed/games/red-dead-redemption-2/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/red-dead-redemption-2/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>The Witness</title>
+        <published>2018-12-28T00:00:00+00:00</published>
+        <updated>2018-12-28T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/the-witness/"/>
+        <id>https://nikolasmoya.com/iplayed/games/the-witness/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/the-witness/"></content>
         
     </entry>
     <entry xml:lang="en">

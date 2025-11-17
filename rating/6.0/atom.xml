@@ -84,6 +84,25 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>Evoland</title>
+        <published>2024-10-22T00:00:00+00:00</published>
+        <updated>2024-10-22T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/evoland/"/>
+        <id>https://nikolasmoya.com/iplayed/games/evoland/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/evoland/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>Dragon&#x27;s Dogma</title>
         <published>2019-01-31T00:00:00+00:00</published>
         <updated>2019-01-31T00:00:00+00:00</updated>
