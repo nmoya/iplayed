@@ -1,17 +1,17 @@
 +++
 title = "Far Cry 6"
-description = "24 hours and 31 minutes - PC (Microsoft Windows)"
-date = "2024-12-05"
-updated = "2024-12-05"
+description = "3 hours - PC (Microsoft Windows)"
+date = "2024-11-05"
+updated = "2024-11-05"
 in_search_index = true
 [taxonomies]
 platforms = ['pc (microsoft windows)']
-rating = []
+rating = ['3.0']
 genres = ['shooter', 'adventure']
 [extra]
-subtitle = "24 hours and 31 minutes - PC (Microsoft Windows)"
-playtime = "24 hours and 31 minutes"
-completed_at = "2024-12-05"
+subtitle = "3 hours - PC (Microsoft Windows)"
+playtime = "3 hours"
+completed_at = "2024-11-05"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2npg.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2npg.jpg"
 +++
