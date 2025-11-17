@@ -7,6 +7,23 @@
     <label class="games-search__label" for="games-search-input">Search the archive</label>
     <input id="games-search-input" class="games-search__input" type="search" name="query"
         placeholder="Type a title, platform, or genre&hellip;" autocomplete="off" data-games-search-input>
+
+    <div class="games-search__filters">
+        <div class="games-search__filter">
+            <label class="games-search__filter-label" for="games-rating-filter">Rating filter</label>
+            {%- set rating_options = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0] -%}
+            <div id="games-rating-filter" class="games-search__checkboxes" data-games-rating-checkboxes>
+                {% for score in rating_options %}
+                <label class="games-search__checkbox">
+                    <input type="checkbox" value="{{ score }}" data-rating-filter-checkbox>
+                    <span>{{ score }}/10</span>
+                </label>
+                {% endfor %}
+            </div>
+            <p class="games-search__help">Select one or more ratings to narrow down the list.</p>
+        </div>
+    </div>
+
     <p class="games-search__status" data-games-search-status aria-live="polite">
         Showing {{ games_list | length }} games
     </p>
@@ -21,8 +38,23 @@
     {%- set platforms = page.taxonomies.platforms | default(value=[]) -%}
     {%- set genres = page.taxonomies.genres | default(value=[]) -%}
     {%- set rating_values = page.taxonomies.rating | default(value=[]) -%}
+    {%- set has_rating = rating_values | length > 0 -%}
+    {%- if has_rating -%}
+    {%- set rating_raw = rating_values | first -%}
+    {%- set rating_value = rating_raw | float -%}
+    {%- set rating_display = rating_raw | trim_end_matches(pat=".0") -%}
+    {%- set rating_percent = (rating_value / 10.0 * 100.0) -%}
+    {%- set rating_int = rating_value | int -%}
+    {%- else -%}
+    {%- set rating_raw = "" -%}
+    {%- set rating_value = 0 -%}
+    {%- set rating_display = "" -%}
+    {%- set rating_percent = 0 -%}
+    {%- set rating_int = "" -%}
+    {%- endif -%}
     {%- set search_context = [page.title, subtitle, playtime, platforms | join(sep=" "), genres | join(sep=" "), rating_values | join(sep=" "), completed] | join(sep=" ") -%}
-    <div class="game-card" data-game-card data-search-text="{{ search_context | lower | escape }}">
+    <div class="game-card" data-game-card data-search-text="{{ search_context | lower | escape }}"
+        data-rating="{{ rating_int }}">
         <div class="game-container">
             {%- if page.extra.url_cover_small -%}
             <div class="game-entry__image">
@@ -40,11 +72,7 @@
                         <span class="game-entry__badge-value">{{ playtime }}</span>
                     </span>
                     {% endif %}
-                    {% if rating_values | length > 0 %}
-                    {% set rating_raw = rating_values | first %}
-                    {% set rating_value = rating_raw | float %}
-                    {% set rating_display = rating_raw | trim_end_matches(pat=".0") %}
-                    {% set rating_percent = (rating_value / 10.0 * 100.0) %}
+                    {% if has_rating %}
                     <span class="game-entry__badge">
                         <span class="game-entry__badge-label">Rating</span>
                         <span class="game-entry__badge-value">{{ rating_display }}/10</span>
