@@ -237,44 +237,122 @@
                 els.genreCanvas.replaceWith(createEmptyState('genre breakdowns'));
                 return;
             }
-            const counts = genres.map((genre) => genreCounts[genre] || 0);
-            const hours = genres.map((genre) => genreHours[genre] || 0);
+
+            const points = genres.map((genre) => {
+                const completions = genreCounts[genre] || 0;
+                const hours = genreHours[genre] || 0;
+                const avgHours = completions ? hours / completions : 0;
+                return {
+                    genre,
+                    completions,
+                    hours,
+                    avgHours
+                };
+            }).filter((point) => point.completions > 0 || point.hours > 0);
+
+            if (!points.length) {
+                els.genreCanvas.replaceWith(createEmptyState('genre breakdowns'));
+                return;
+            }
+
+            const maxAverageHours = Math.max(...points.map((point) => point.avgHours), 1);
+            const radiusForAverage = (avgHours) => {
+                const minRadius = 6;
+                const maxRadius = 28;
+                const scale = (avgHours / maxAverageHours) || 0;
+                return minRadius + scale * (maxRadius - minRadius);
+            };
+
+            const dataset = points.map((point) => {
+                const plottedCompletions = point.completions > 0 ? point.completions : 1;
+                const plottedHours = point.hours > 0 ? point.hours : 0.1;
+                return {
+                    x: plottedCompletions,
+                    y: plottedHours,
+                    r: radiusForAverage(point.avgHours),
+                    genre: point.genre,
+                    completions: point.completions,
+                    hours: point.hours,
+                    avgHours: point.avgHours
+                };
+            });
+
+            const maxHours = Math.max(...points.map((point) => point.hours), 0);
+            const maxCompletions = Math.max(...points.map((point) => point.completions), 0);
+            const suggestedMaxHours = Math.max(maxHours ? Math.ceil(maxHours * 1.15) : 1, 1);
+            const suggestedMaxCompletions = Math.max(maxCompletions ? Math.ceil(maxCompletions * 1.15) : 1, 1);
 
             charts.genre = new Chart(els.genreCanvas, {
-                type: 'bar',
+                type: 'bubble',
                 data: {
-                    labels: genres,
                     datasets: [
                         {
-                            label: 'Completions',
-                            data: counts,
-                            backgroundColor: themeColors.highlight,
-                            borderColor: themeColors.highlight,
-                            borderWidth: 1.5,
-                            borderRadius: 4
-                        },
-                        {
-                            label: 'Hours',
-                            data: hours,
+                            label: 'Genre dedication',
+                            data: dataset,
                             backgroundColor: themeColors.accentSoft,
                             borderColor: themeColors.accent,
-                            borderWidth: 1.5,
-                            borderRadius: 4
+                            borderWidth: 1.5
                         }
                     ]
                 },
                 options: {
                     responsive: true,
-                    interaction: { mode: 'index', intersect: false },
+                    interaction: { mode: 'nearest', intersect: true },
                     scales: {
                         x: {
-                            ticks: { color: themeColors.text },
+                            type: 'logarithmic',
+                            title: {
+                                display: true,
+                                text: 'Completions'
+                            },
+                            min: 0.8,
+                            suggestedMax: suggestedMaxCompletions,
+                            ticks: {
+                                color: themeColors.text,
+                                callback: (value) => numberFormatter.format(value)
+                            },
                             grid: { color: themeColors.grid, drawBorder: false }
                         },
                         y: {
-                            beginAtZero: true,
-                            ticks: { color: themeColors.text },
+                            type: 'logarithmic',
+                            title: {
+                                display: true,
+                                text: 'Hours played'
+                            },
+                            min: 1,
+                            suggestedMax: suggestedMaxHours,
+                            ticks: {
+                                color: themeColors.text,
+                                callback: (value) => formatHours(value)
+                            },
                             grid: { color: themeColors.grid, drawBorder: false }
+                        }
+                    },
+                    plugins: {
+                        tooltip: {
+                            callbacks: {
+                                title(context) {
+                                    const raw = context[0]?.raw;
+                                    return raw?.genre || 'Genre';
+                                },
+                                label(context) {
+                                    const raw = context.raw || {};
+                                    const details = [];
+                                    if (Number.isFinite(raw.completions)) {
+                                        details.push(`Completions: ${raw.completions}`);
+                                    }
+                                    if (Number.isFinite(raw.hours)) {
+                                        details.push(`Hours: ${formatHours(raw.hours)}`);
+                                    }
+                                    if (Number.isFinite(raw.avgHours) && raw.avgHours > 0) {
+                                        details.push(`Avg hours/game: ${numberFormatter.format(raw.avgHours)}`);
+                                    }
+                                    return details;
+                                }
+                            }
+                        },
+                        legend: {
+                            display: false
                         }
                     }
                 }
@@ -297,7 +375,6 @@
 
                 const coverEl = document.createElement('span');
                 coverEl.className = 'stats-list__cover';
-                console.log(entry);
                 if (entry.cover) {
                     const img = document.createElement('img');
                     img.src = entry.cover;
