@@ -85,12 +85,3 @@ footer = true
 paths = "safe"
 taxonomies = "safe"
 anchors = "safe"
-
-[extra.menu]
-games = true
-games_label = "Games"
-links = [
-    { name = "Games", url = "/games/" },
-    { name = "platforms", url = "/platforms" },
-    { name = "genres", url = "/genres" },
-]
