@@ -45,6 +45,7 @@ show_default_author = false
 toc = true
 
 main_menu = [
+    { name = "Stats", url = "", trailing_slash = true },
     { name = "Games", url = "games", trailing_slash = true },
     { name = "Platforms", url = "platforms", trailing_slash = true },
     { name = "Genres", url = "genres", trailing_slash = true },
