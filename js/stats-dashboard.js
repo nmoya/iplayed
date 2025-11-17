@@ -293,7 +293,23 @@
 
             entries.forEach((entry) => {
                 const row = document.createElement('div');
-                row.className = 'stats-list__item';
+                row.className = 'stats-list__item stats-list__item--recent';
+
+                const coverEl = document.createElement('span');
+                coverEl.className = 'stats-list__cover';
+                console.log(entry);
+                if (entry.cover) {
+                    const img = document.createElement('img');
+                    img.src = entry.cover;
+                    img.alt = `Cover art for ${entry.name}`;
+                    img.loading = 'lazy';
+                    img.decoding = 'async';
+                    coverEl.appendChild(img);
+                } else {
+                    coverEl.classList.add('stats-list__cover--placeholder');
+                    coverEl.textContent = (entry.name || '?').charAt(0).toUpperCase();
+                    coverEl.setAttribute('aria-hidden', 'true');
+                }
 
                 const dateEl = document.createElement('span');
                 dateEl.className = 'stats-list__date';
@@ -312,7 +328,7 @@
                 link.className = 'stats-list__game-link';
                 gameEl.appendChild(link);
 
-                row.append(dateEl, gameEl);
+                row.append(coverEl, gameEl, dateEl);
                 els.recentList.appendChild(row);
             });
         }
@@ -404,6 +420,7 @@
                         name: gameName,
                         slug: gameInfo.slug,
                         completedAt: date,
+                        cover: gameInfo.cover?.url || null,
                         displayDate: date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' }),
                         permalink: gamePermalink
                     });
