@@ -9,7 +9,7 @@ from widgets.platform_picker import CheckboxInput
 from widgets.star_rating_bar import StarRating
 
 
-class DataEntryView(Screen):
+class DataEntryScreen(Screen):
     CSS = """
     .date-input {
         width: 15;
@@ -102,6 +102,7 @@ class DataEntryView(Screen):
         elif event.button.id == "delete":
             delete_completion(self.data.game.id)
             deploy_markdown_files()
+            self.dismiss(self.data.game.id)
             self.dismiss(self.data.game.id)
             self.dismiss(self.data.game.id)
             self.dismiss(self.data.game.id)

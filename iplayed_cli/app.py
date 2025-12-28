@@ -1,4 +1,4 @@
-from screens.main_menu import MainMenu
+from screens.main_menu_screen import MainMenuScreen
 from textual.app import App
 
 
@@ -21,7 +21,7 @@ class IPlayedCLI(App):
 
     def on_mount(self) -> None:
         self.theme = "gruvbox"
-        super().push_screen(MainMenu())
+        super().push_screen(MainMenuScreen())
 
 
 if __name__ == "__main__":

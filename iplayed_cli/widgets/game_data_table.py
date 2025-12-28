@@ -4,7 +4,7 @@ from enum import Enum
 import humanize
 from completions_file_db import delete_completion
 from data_schema import DataEntry
-from screens.data_entry_view import DataEntryView
+from screens.data_entry_screen import DataEntryScreen
 from textual.coordinate import Coordinate
 from textual.widget import Widget
 from textual.widgets import DataTable
@@ -80,7 +80,7 @@ class GameDataTableBase(Widget):
         data = next((c for c in self.data if c.game.id == game_id), None)
         if not data:
             return
-        self.app.push_screen(DataEntryView(data=data), self.on_data_entry_view_close)
+        self.app.push_screen(DataEntryScreen(data=data), self.on_data_entry_view_close)
 
     def focus(self, scroll_visible: bool = True) -> Widget:
         self.table.focus()

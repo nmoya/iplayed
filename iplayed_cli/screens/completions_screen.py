@@ -11,7 +11,7 @@ from widgets.game_data_table import CompletionsTable, RemoteResultsTable
 console = Console()
 
 
-class CompletionsView(Screen):
+class CompletionsScreen(Screen):
     CSS = """
     .hidden {
         display: none;

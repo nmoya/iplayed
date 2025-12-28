@@ -1,5 +1,5 @@
-from screens.completions_view import CompletionsView
-from screens.config_review import ConfigurationRevision
+from screens.completions_screen import CompletionsScreen
+from screens.config_review_screen import ConfigurationRevisionScreen
 from screens.generation_screen import GenerationScreen
 from textual.app import ComposeResult
 from textual.containers import Vertical
@@ -7,7 +7,7 @@ from textual.screen import Screen
 from textual.widgets import Button, Footer, Header
 
 
-class MainMenu(Screen):
+class MainMenuScreen(Screen):
     CSS = """
     #main-menu-buttons {
         width: 40;
@@ -49,10 +49,10 @@ class MainMenu(Screen):
             self.action_content_management()
 
     def action_completions(self) -> None:
-        self.app.push_screen(CompletionsView())
+        self.app.push_screen(CompletionsScreen())
 
     def action_configurations(self) -> None:
-        self.app.push_screen(ConfigurationRevision())
+        self.app.push_screen(ConfigurationRevisionScreen())
 
     def action_content_management(self) -> None:
         self.app.push_screen(GenerationScreen())
