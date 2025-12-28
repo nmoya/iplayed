@@ -1,5 +1,6 @@
 import datetime as dt
 import json
+from datetime import datetime
 
 import toolz as z
 
@@ -43,3 +44,12 @@ def write_markdown(file_path: str, content: str):
     """Write content to a Markdown file."""
     with open(file_path, "w", encoding="utf-8") as file:
         file.write(content)
+
+
+def to_naive_datetime(dt_obj: dt.datetime | None, default=None) -> dt.datetime:
+    default = default or datetime.min.replace(tzinfo=None)
+    if dt_obj is None:
+        return default
+    if hasattr(dt_obj, "tzinfo") and dt_obj.tzinfo is not None:
+        return dt_obj.replace(tzinfo=None)
+    return dt_obj

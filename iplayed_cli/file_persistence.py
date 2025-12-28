@@ -7,7 +7,7 @@ import utils
 from completions_to_markdown import completion_to_markdown, markdown_filename
 from data_schema import DataEntry
 from igdb import get_igdb_game_by_id
-from utils import read_and_validate_json
+from utils import read_and_validate_json, to_naive_datetime
 
 
 class CompletionsDatabase:
@@ -40,7 +40,10 @@ class CompletionsDatabase:
         return self.completions
 
     def commit(self) -> None:
-        completions_json = [entry.model_dump(mode="json") for entry in self.completions]
+        by_completion_date = sorted(
+            self.completions, key=lambda c: to_naive_datetime(c.completion.completed_at), reverse=True
+        )
+        completions_json = [entry.model_dump(mode="json") for entry in by_completion_date]
         with open(self.completions_filepath, "w") as f:
             json.dump(completions_json, f, indent=4, ensure_ascii=True)
 
