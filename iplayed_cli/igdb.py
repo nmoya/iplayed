@@ -1,5 +1,4 @@
 import asyncio
-import json
 import time
 from functools import cmp_to_key, partial
 from urllib.parse import urlencode

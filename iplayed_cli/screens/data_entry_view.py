@@ -103,3 +103,6 @@ class DataEntryView(Screen):
             delete_completion(self.data.game.id)
             deploy_markdown_files()
             self.dismiss(self.data.game.id)
+            self.dismiss(self.data.game.id)
+            self.dismiss(self.data.game.id)
+            self.dismiss(self.data.game.id)

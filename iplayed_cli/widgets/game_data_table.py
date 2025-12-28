@@ -3,8 +3,8 @@ from enum import Enum
 
 import humanize
 from completions_file_db import delete_completion
-from data_entry_view import DataEntryView
 from data_schema import DataEntry
+from screens.data_entry_view import DataEntryView
 from textual.coordinate import Coordinate
 from textual.widget import Widget
 from textual.widgets import DataTable

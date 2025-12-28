@@ -2,7 +2,6 @@ from datetime import datetime
 from enum import Enum
 from typing import List
 
-import humanize
 import pydantic
 from pydantic import BaseModel, Field, field_serializer
 

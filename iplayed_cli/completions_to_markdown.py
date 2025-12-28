@@ -1,9 +1,7 @@
-import datetime as dt
 import math
 import os
 
 from data_schema import DataEntry
-from utils import humanize_hours
 
 
 def render_list_value(key: str, value: list):
