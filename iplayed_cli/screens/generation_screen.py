@@ -2,7 +2,7 @@ import asyncio
 import threading
 from typing import Callable
 
-from completions_file_db import deploy_markdown_files, refresh_all_igdb_games
+from file_persistence import completions_db
 from textual.app import ComposeResult
 from textual.containers import Center, Middle
 from textual.message import Message
@@ -30,8 +30,8 @@ class GenerationScreen(Screen):
 
     async def on_button_pressed(self, event: Button.Pressed) -> None:
         task_map = {
-            "markdown": deploy_markdown_files,
-            "igdb_refresh": refresh_all_igdb_games,
+            "markdown": completions_db.deploy_markdown_files,
+            "igdb_refresh": completions_db.refresh_all_igdb_games,
         }
         func = task_map.get(event.button.id)
         if func:

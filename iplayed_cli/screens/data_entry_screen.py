@@ -1,5 +1,5 @@
-from completions_file_db import add_or_update_completion, delete_completion, deploy_markdown_files
 from data_schema import DataEntry, PersonalCompletion
+from file_persistence import completions_db
 from textual.containers import Horizontal, VerticalScroll
 from textual.screen import Screen
 from textual.widgets import Button, Footer, Header
@@ -96,14 +96,10 @@ class DataEntryScreen(Screen):
                     rating=rating,
                 ),
             )
-            add_or_update_completion(data_entry)
-            deploy_markdown_files()
+            completions_db.add_or_update_completion(data_entry)
+            completions_db.deploy_markdown_files()
             self.dismiss(data_entry)
         elif event.button.id == "delete":
-            delete_completion(self.data.game.id)
-            deploy_markdown_files()
-            self.dismiss(self.data.game.id)
-            self.dismiss(self.data.game.id)
-            self.dismiss(self.data.game.id)
-            self.dismiss(self.data.game.id)
+            completions_db.delete_completion(self.data.game.id)
+            completions_db.deploy_markdown_files()
             self.dismiss(self.data.game.id)

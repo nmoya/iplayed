@@ -2,8 +2,8 @@ import datetime as dt
 from enum import Enum
 
 import humanize
-from completions_file_db import delete_completion
 from data_schema import DataEntry
+from file_persistence import completions_db
 from screens.data_entry_screen import DataEntryScreen
 from textual.coordinate import Coordinate
 from textual.widget import Widget
@@ -129,7 +129,7 @@ class CompletionsTable(GameDataTableBase):
         if not self.table.has_focus:
             return
         game_id = self.table.coordinate_to_cell_key(self.table.cursor_coordinate).row_key.value
-        self.data = delete_completion(game_id)
+        self.data = completions_db.delete_completion(game_id)
         self.load(self.data, self.table.cursor_row)
 
 

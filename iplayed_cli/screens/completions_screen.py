@@ -1,5 +1,5 @@
-from completions_file_db import read_completions_file
 from data_schema import DataEntry
+from file_persistence import completions_db
 from igdb import search_igdb_game
 from rich.console import Console
 from textual.app import ComposeResult
@@ -36,7 +36,7 @@ class CompletionsScreen(Screen):
 
     def __init__(self):
         super().__init__()
-        self.completions = read_completions_file()
+        self.completions = completions_db.completions
         self.last_search_results = []
 
     def compose(self) -> ComposeResult:
@@ -60,13 +60,8 @@ class CompletionsScreen(Screen):
         return self.query_one("#remote", RemoteResultsTable)
 
     def local_search(self, query: str) -> None:
-        query = query.strip().lower()
-        if query:
-            self.completions = [c for c in read_completions_file() if query in c.game.name.lower()]
-        else:
-            self.completions = read_completions_file()
         table = self.completions_table()
-        table.load(self.completions)
+        table.load(completions_db.search(query))
 
     def action_filter_by_text(self) -> None:
         input_widget = self.query_one("#filter_input", Input)
