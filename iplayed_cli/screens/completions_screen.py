@@ -59,9 +59,11 @@ class CompletionsScreen(Screen):
     def remote_table(self) -> RemoteResultsTable:
         return self.query_one("#remote", RemoteResultsTable)
 
-    def local_search(self, query: str) -> None:
+    def local_search(self, query: str) -> list[DataEntry]:
         table = self.completions_table()
-        table.load(completions_db.search(query))
+        results = completions_db.search(query)
+        table.load(results)
+        return results
 
     def action_filter_by_text(self) -> None:
         input_widget = self.query_one("#filter_input", Input)
@@ -83,8 +85,9 @@ class CompletionsScreen(Screen):
         if len(query) == 0:
             self.remote_table().add_class("hidden")
             self.last_search_results = []
-        self.local_search(query)
-        await self.remote_search(query)
+        results = self.local_search(query)
+        if len(results) == 0:
+            await self.remote_search(query)
         self.completions_table().focus()
 
     def action_quit(self) -> None:
