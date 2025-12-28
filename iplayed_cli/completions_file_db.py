@@ -1,10 +1,8 @@
 import json
-import os
 import shutil
 from typing import Callable
 
 import config
-import pixelate
 import utils
 from completions_to_markdown import completion_to_markdown, markdown_filename
 from data_schema import DataEntry
@@ -56,25 +54,6 @@ def deploy_markdown_files(progress_fn: Callable[[int, int, str], None] | None = 
         progress_fn(len(completions), len(completions), "")
 
 
-def generate_pixelated_covers(progress_fn: Callable[[int, int, str], None] | None = None) -> None:
-    completions = read_completions_file()
-    for i, data in enumerate(completions):
-        print(f"Generating cover for {data.game.name} ({i + 1}/{len(completions)})")
-        if progress_fn:
-            progress_fn(i, len(completions), data.game.name)
-        filename = f"{config.SSG_PIXELATED_COVERS_DIRECTORY}/{data.game.slug}.png"
-        if not data.game.cover:
-            continue
-        if os.path.exists(filename):
-            continue
-        original = pixelate.download_image(data.game.cover.sized_url("t_cover_big"))
-        pixelation = pixelate.apply_pixelation(original, 0.5)
-        pixelate.save_image(pixelation, filename)
-
-    if progress_fn:
-        progress_fn(len(completions), len(completions), "")
-
-
 def refresh_all_igdb_games(progress_fn: Callable[[int, int, str], None] | None = None) -> None:
     completions = read_completions_file()
     total = len(completions)
@@ -108,5 +87,3 @@ def refresh_all_igdb_games(progress_fn: Callable[[int, int, str], None] | None =
 # best_element = max(results, key=lambda element: element.similarity)
 # rprint(best_element.game_name)
 # rprint(best_element.main_story)
-
-# generate_pixelated_covers(None)

@@ -2,7 +2,7 @@ import asyncio
 import threading
 from typing import Callable
 
-from completions_file_db import deploy_markdown_files, generate_pixelated_covers, refresh_all_igdb_games
+from completions_file_db import deploy_markdown_files, refresh_all_igdb_games
 from textual.app import ComposeResult
 from textual.containers import Center, Middle
 from textual.message import Message
@@ -24,7 +24,6 @@ class GenerationScreen(Screen):
             with Middle():
                 yield Button("Generate All Markdown Files", id="markdown")
                 yield Button("Refresh All IGDB Game entries", id="igdb_refresh")
-                yield Button("Generate All Pixelated Images", id="images")
                 yield ProgressBar(id="progress", total=10)
                 yield Static("Status", id="status")
         yield Footer()
@@ -32,7 +31,6 @@ class GenerationScreen(Screen):
     async def on_button_pressed(self, event: Button.Pressed) -> None:
         task_map = {
             "markdown": deploy_markdown_files,
-            "images": generate_pixelated_covers,
             "igdb_refresh": refresh_all_igdb_games,
         }
         func = task_map.get(event.button.id)

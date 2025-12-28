@@ -27,16 +27,10 @@ class ConfigurationRevision(Screen):
             TextInput(
                 title="Static site generator directory", default=config.SSG_DIRECTORY, id="ssg_dir", disabled=True
             ),
-            TextInput(
-                title="Pixelated covers directory",
-                default=config.SSG_PIXELATED_COVERS_DIRECTORY,
-                id="covers_dir",
-                disabled=True,
-            ),
             Static(
                 "This will build the static site generator with the current local data. "
                 "It will read the completions file and generate markdown files for each game. "
-                "It will also copy the completions file to the static site generator directory."
+                "It will also copy the completions file to the static site generator directory. "
                 "Modify values in .env file",
             ),
             Horizontal(Button("Confirm", id="confirm")),
