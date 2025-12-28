@@ -31,6 +31,7 @@ class CompletionsScreen(Screen):
     BINDINGS = [
         ("ctrl+f", "filter_by_text", "Filter by Game Name"),
         ("f", "filter_by_text", "Filter by Game Name"),
+        ("g", "force_remote_search", "Remote IGDB Search"),
         ("escape", "quit", "Back"),
     ]
 
@@ -88,6 +89,15 @@ class CompletionsScreen(Screen):
         results = self.local_search(query)
         if len(results) == 0:
             await self.remote_search(query)
+        self.completions_table().focus()
+
+    async def action_force_remote_search(self) -> None:
+        """Force a remote search using the current input value, even if skipped before."""
+        input_widget = self.query_one("#filter_input", Input)
+        query = input_widget.value.strip()
+        if len(query) == 0:
+            return
+        await self.remote_search(query)
         self.completions_table().focus()
 
     def action_quit(self) -> None:
