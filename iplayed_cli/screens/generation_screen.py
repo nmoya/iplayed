@@ -11,7 +11,11 @@ from textual.widgets import Button, Footer, Header, ProgressBar, Static
 
 
 class GenerationScreen(Screen):
-    BINDINGS = [("escape", "app.pop_screen", "Back")]
+    BINDINGS = [
+        ("escape", "app.pop_screen", "Back"),
+        ("1", "generate_markdown", "Generate All Markdown Files"),
+        ("2", "refresh_igdb", "Refresh All IGDB Game entries"),
+    ]
 
     class GenerationComplete(Message):
         def __init__(self, task_name: str) -> None:
@@ -22,11 +26,22 @@ class GenerationScreen(Screen):
         yield Header()
         with Center():
             with Middle():
-                yield Button("Generate All Markdown Files", id="markdown")
-                yield Button("Refresh All IGDB Game entries", id="igdb_refresh")
+                yield Button("[1] Generate All Markdown Files", id="markdown")
+                yield Button("[2] Refresh All IGDB Game entries", id="igdb_refresh")
                 yield ProgressBar(id="progress", total=10)
                 yield Static("Status", id="status")
         yield Footer()
+
+    async def action_generate_markdown(self) -> None:
+        await self._press_button_by_id("markdown")
+
+    async def action_refresh_igdb(self) -> None:
+        await self._press_button_by_id("igdb_refresh")
+
+    async def _press_button_by_id(self, btn_id: str) -> None:
+        btn = self.query_one(f"#{btn_id}", Button)
+        if btn:
+            await self.on_button_pressed(Button.Pressed(btn))
 
     async def on_button_pressed(self, event: Button.Pressed) -> None:
         task_map = {

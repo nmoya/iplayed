@@ -33,9 +33,9 @@ class MainMenuScreen(Screen):
     def compose(self) -> ComposeResult:
         yield Header()
         yield Vertical(
-            Button("1. Manage Completions", id="completions"),
-            Button("2. Review configuration", id="configurations"),
-            Button("3. Content management", id="content_management"),
+            Button("[1] Manage Completions", id="completions"),
+            Button("[2] Review configuration", id="configurations"),
+            Button("[3] Content management", id="content_management"),
             id="main-menu-buttons",
         )
         yield Footer()
