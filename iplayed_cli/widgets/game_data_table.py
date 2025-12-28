@@ -50,6 +50,25 @@ class GameDataTableBase(Widget):
     def load(self, data: list[DataEntry], cursor_row: int = 0) -> None:
         raise NotImplementedError("Subclasses must implement `load()`")
 
+        def get_columns(self) -> list[str]:
+            """Return a list of column names. Subclasses should override."""
+            return []
+
+        def get_row_data(self, entry: DataEntry) -> list[str]:
+            """Return a list of cell values for a row. Subclasses should override."""
+            return []
+
+        def load(self, data: list[DataEntry], cursor_row: int = 0) -> None:
+            """Generalized load method using get_columns and get_row_data."""
+            self.data = data
+            self.table.clear(columns=True)
+            columns = self.get_columns()
+            if columns:
+                self.table.add_columns(*columns)
+            for entry in data:
+                self.table.add_row(*self.get_row_data(entry), key=entry.game.id)
+            self.table.cursor_coordinate = Coordinate(row=cursor_row, column=0)
+
     def action_sort_by_name(self) -> None:
         self.last_sort_type = SortType.NAME
         self.data.sort(key=lambda c: c.game.name.lower())
@@ -110,6 +129,18 @@ class CompletionsTable(GameDataTableBase):
             )
         self.table.cursor_coordinate = Coordinate(row=cursor_row, column=0)
 
+        def get_columns(self) -> list[str]:
+            return ["Game", "Hours Played", "Completed at", "Rating", "Played platforms"]
+
+        def get_row_data(self, entry: DataEntry) -> list[str]:
+            return [
+                entry.game.name,
+                humanize_hours(entry.completion.hours_played),
+                humanize.naturaldate(entry.completion.completed_at),
+                f"{entry.completion.rating:.1f}" if entry.completion.rating else "N/A",
+                ", ".join(entry.completion.played_platforms_names) if entry.completion.played_platforms else "N/A",
+            ]
+
     def action_sort_by_hours_played(self) -> None:
         self.last_sort_type = SortType.HOURS_PLAYED
         self.data.sort(key=lambda c: c.completion.hours_played or 0, reverse=True)
@@ -146,3 +177,13 @@ class RemoteResultsTable(GameDataTableBase):
                 key=entry.game.id,
             )
         self.table.cursor_coordinate = Coordinate(row=cursor_row, column=0)
+
+        def get_columns(self) -> list[str]:
+            return ["Id", "Game", "Platforms"]
+
+        def get_row_data(self, entry: DataEntry) -> list[str]:
+            return [
+                str(entry.game.id),
+                entry.game.name,
+                ", ".join(p.name for p in entry.game.platforms),
+            ]

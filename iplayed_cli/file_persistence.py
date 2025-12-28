@@ -85,7 +85,7 @@ class CompletionsDatabase:
 
 
 completions_db = CompletionsDatabase()
-print(completions_db)
+
 
 if __name__ == "__main__":
     completions_db.commit()

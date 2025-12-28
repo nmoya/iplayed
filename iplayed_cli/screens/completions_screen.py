@@ -74,11 +74,17 @@ class CompletionsScreen(Screen):
     async def remote_search(self, query: str) -> None:
         if len(query) == 0:
             return
+        # Show loading indicator
+        table = self.remote_table()
+        table.remove_class("hidden")
+        table.table.clear(columns=True)
+        table.table.add_columns("Loading...")
+        table.table.add_row("Searching IGDB...")
+        self.refresh()
+        # Perform remote search
         remote_results = await search_igdb_game(query)
         remote = [DataEntry.from_base_igdb_game(game) for game in remote_results]
         self.last_search_results = remote
-        table = self.remote_table()
-        table.remove_class("hidden")
         table.load(remote)
 
     async def on_input_submitted(self, event: Input.Submitted) -> None:
