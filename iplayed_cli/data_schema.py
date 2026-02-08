@@ -148,6 +148,9 @@ class PersonalCompletion(BaseModel):
     played_platforms: List[BaseIGDBReference] = Field(default_factory=list)
     played_dlcs: List[BaseIGDBReference] = Field(default_factory=list)
     is_favorite: bool = False
+    all_achievements_unlocked: bool = False
+    backseat_gaming: bool = False
+    comments: str = ""
     rating: float | None = None
 
     @property

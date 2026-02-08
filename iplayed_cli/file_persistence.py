@@ -88,4 +88,7 @@ completions_db = CompletionsDatabase()
 
 
 if __name__ == "__main__":
+    for completion in completions_db.completions:
+        pass
+
     completions_db.commit()
