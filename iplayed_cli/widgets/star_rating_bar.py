@@ -14,8 +14,13 @@ class StarRating(Widget):
     DEFAULT_CSS = """
     StarRating {
         layout: horizontal;
-        padding: 1;
-        height: auto;
+        padding: 0 1;
+        height: 4;
+        min-height: 4;
+        max-height: 4;
+        width: 60;
+        max-width: 80;
+        content-align: left top;
         border: round yellow;
     }
 
@@ -52,8 +57,11 @@ class StarRating(Widget):
         self.max_stars = max_stars
         self.cursor_index = self.rating
         self.can_focus = True
-        self.styles.height = "auto"
-        self.styles.max_height = 8
+        self.styles.height = 4
+        self.styles.min_height = 4
+        self.styles.max_height = 4
+        self.styles.width = 60
+        self.styles.max_width = 80
 
     def compose(self):
         yield Vertical(

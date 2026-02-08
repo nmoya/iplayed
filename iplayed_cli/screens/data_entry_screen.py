@@ -5,7 +5,7 @@ from data_schema import DataEntry, PersonalCompletion
 from file_persistence import completions_db
 from textual.containers import Horizontal, VerticalScroll
 from textual.screen import Screen
-from textual.widgets import Button, Footer, Header
+from textual.widgets import Button, Footer, Header, Static
 from widgets.date_picker import DatePicker
 from widgets.hours_played_input import HoursPlayedInput
 from widgets.platform_picker import CheckboxInput
@@ -37,15 +37,77 @@ class DataEntryScreen(Screen):
     }
 
     Vertical {
-        padding-bottom: 1;
+        padding: 0;
+        margin: 0;
+    }
+
+    VerticalScroll {
+        padding: 0 1 2 1;
+        content-align: left top;
+    }
+
+    Vertical > * {
+        margin: 0 0 1 0;
+        padding: 0;
+    }
+
+    VerticalScroll > * {
+        margin: 0 0 1 0;
+        padding: 0;
+    }
+
+    CheckboxInput,
+    DatePicker,
+    StarRating,
+    TextInput,
+    HoursPlayedInput,
+    SelectionList,
+    Static,
+    Input {
+        margin: 0;
+        padding: 0;
+        max-width: 80;
+    }
+
+    CheckboxInput {
+        margin-bottom: 2;
+    }
+
+    DatePicker {
+        margin-top: 1;
+        margin-bottom: 1;
+        width: 60;
+        max-width: 80;
+    }
+
+    StarRating {
+        width: 60;
+        max-width: 80;
+    }
+
+    SelectionList {
+        min-width: 40;
+        max-width: 80;
+    }
+
+    .hint {
+        color: #777;
+        margin: 0 0 1 1;
+        padding: 0;
+    }
+
+    StarRating .star-row {
+        margin-top: 0;
     }
 
     .button-row {
-        margin-top: 1;
+        margin-top: 0;
+        align-horizontal: center;
     }
 
     Button {
         margin-right: 1;
+        min-width: 14;
     }
     """
     BINDINGS = [("escape", "app.pop_screen", "Back")]
@@ -85,12 +147,14 @@ class DataEntryScreen(Screen):
         content.append(
             StarRating(title="How would you rate this game?", rating=self.data.completion.rating, id="rating")
         )
+        content.append(Static("Left/Right to move, Space to confirm", classes="hint"))
         content.append(TextInput(default=self.data.completion.comments, title="Additional Comments", id="comments"))
         content.append(
             HoursPlayedInput(
                 default=self.data.completion.hours_played, game_name=self.data.game.name, id="hours_played"
             ),
         )
+        content.append(Static("Use the HLTB button if you're unsure.", classes="hint"))
         content.append(
             Horizontal(Button("💾 Save", id="save"), Button("🗑️ Delete", id="delete"), classes="button-row"),
         )

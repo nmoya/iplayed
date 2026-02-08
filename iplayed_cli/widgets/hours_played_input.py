@@ -19,6 +19,7 @@ class HoursPlayedInput(Widget):
         self.title = title
         self.styles.height = "auto"
         self.styles.max_height = 5
+        self.styles.max_width = 80
         self.game_name = game_name
 
     def compose(self):
@@ -35,7 +36,8 @@ class HoursPlayedInput(Widget):
         button = Button("From HLTB", id="default_hours")
         button.styles.height = 3
         row = Horizontal(input_field, button)
-        row.styles.width = "100%"
+        row.styles.width = "auto"
+        row.styles.max_width = 80
         row.styles.gap = 1
         yield row
 
