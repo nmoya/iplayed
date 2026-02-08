@@ -519,12 +519,12 @@
                     totalHours += hoursPlayed;
                 });
 
-                const latestThree = recentCompletions
+                const latestFive = recentCompletions
                     .filter((item) => item.completedAt instanceof Date && !Number.isNaN(item.completedAt.getTime()))
                     .sort((a, b) => b.completedAt - a.completedAt)
-                    .slice(0, 3);
+                    .slice(0, 5);
 
-                renderRecentCompletions(latestThree);
+                renderRecentCompletions(latestFive);
                 updateTotals(totalHours, completions.length);
                 renderYearTabs(gamesByYearMonth);
                 renderPlatformHistogram(platformCounts);
