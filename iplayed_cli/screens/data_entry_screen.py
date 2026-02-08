@@ -1,3 +1,6 @@
+from enum import Enum
+from typing import NamedTuple
+
 from data_schema import DataEntry, PersonalCompletion
 from file_persistence import completions_db
 from textual.containers import Horizontal, VerticalScroll
@@ -7,6 +10,16 @@ from widgets.date_picker import DatePicker
 from widgets.hours_played_input import HoursPlayedInput
 from widgets.platform_picker import CheckboxInput
 from widgets.star_rating_bar import StarRating
+from widgets.text_input import TextInput
+
+CheckboxOption = NamedTuple("CheckboxOption", [("id", int), ("name", str), ("store_field", str)])
+
+
+class DetailsCheckboxOption(Enum):
+    ALL_ACHIEVEMENTS_UNLOCKED = CheckboxOption(
+        id=1, name="All Achievements Unlocked", store_field="all_achievements_unlocked"
+    )
+    BACKSEAT_GAMING = CheckboxOption(id=2, name="Backseat Gaming", store_field="backseat_gaming")
 
 
 class DataEntryScreen(Screen):
@@ -42,13 +55,22 @@ class DataEntryScreen(Screen):
         self.data = data
 
     def build_form_content(self):
+        details_selected_options = [
+            option.value for option in DetailsCheckboxOption if getattr(self.data.completion, option.value.store_field)
+        ]
         content = [
             CheckboxInput(
                 title="Select the platform(s) you played on",
                 options=self.data.game.platforms,
                 selected_options=self.data.completion.played_platforms,
                 id="platforms",
-            )
+            ),
+            CheckboxInput(
+                title="Check the applicable details:",
+                options=[v.value for v in DetailsCheckboxOption],
+                selected_options=details_selected_options,
+                id="details",
+            ),
         ]
         if self.data.game.dlcs:
             content.append(
@@ -63,6 +85,7 @@ class DataEntryScreen(Screen):
         content.append(
             StarRating(title="How would you rate this game?", rating=self.data.completion.rating, id="rating")
         )
+        content.append(TextInput(default=self.data.completion.comments, title="Additional Comments", id="comments"))
         content.append(
             HoursPlayedInput(
                 default=self.data.completion.hours_played, game_name=self.data.game.name, id="hours_played"
@@ -82,6 +105,9 @@ class DataEntryScreen(Screen):
         if event.button.id == "save":
             played_platforms = self.query_one("#platforms", CheckboxInput).selected
             played_dlcs = self.query_one("#dlcs", CheckboxInput).selected if self.data.game.dlcs else []
+            details_selections = self.query_one("#details", CheckboxInput).selected
+            all_achievements_unlocked = DetailsCheckboxOption.ALL_ACHIEVEMENTS_UNLOCKED.value.name in details_selections
+            backseat_gaming = DetailsCheckboxOption.BACKSEAT_GAMING.value.name in details_selections
             date = self.query_one(DatePicker).value
             hours_played = self.query_one(HoursPlayedInput).value
             rating = self.query_one(StarRating).value
@@ -92,6 +118,9 @@ class DataEntryScreen(Screen):
                     hours_played=hours_played,
                     played_platforms=self.data.selection_refs(self.data.game.platforms, played_platforms),
                     played_dlcs=self.data.selection_refs(self.data.game.dlcs, played_dlcs),
+                    all_achievements_unlocked=all_achievements_unlocked,
+                    backseat_gaming=backseat_gaming,
+                    comments=self.query_one("#comments", TextInput).value,
                     is_favorite=False,
                     rating=rating,
                 ),

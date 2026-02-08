@@ -6,7 +6,7 @@ updated = "2011-03-15"
 in_search_index = true
 [taxonomies]
 platforms = ['playstation 3']
-rating = []
+rating = ['8.0']
 genres = ['adventure']
 [extra]
 subtitle = "9 hours and 58 minutes - PlayStation 3"
