@@ -12,6 +12,7 @@ class CheckboxInput(Widget):
         self.styles.height = "auto"
         self.styles.max_height = max(3, len(options) + 2)
         self.styles.max_width = 80
+        self.can_focus = True
 
     def is_selected(self, option) -> bool:
         option_ids = [opt.id for opt in self.selected_options]

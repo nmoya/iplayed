@@ -59,7 +59,6 @@ class DataEntryScreen(Screen):
     CheckboxInput,
     DatePicker,
     StarRating,
-    TextInput,
     HoursPlayedInput,
     SelectionList,
     Static,
@@ -67,6 +66,13 @@ class DataEntryScreen(Screen):
         margin: 0;
         padding: 0;
         max-width: 80;
+    }
+
+    TextInput {
+        margin: 0;
+        padding: 0;
+        max-width: 80;
+        margin-top: 1;
     }
 
     CheckboxInput {
@@ -164,6 +170,10 @@ class DataEntryScreen(Screen):
         yield Header(name=f"🎮 {self.data.game.name}")
         yield VerticalScroll(*self.build_form_content())
         yield Footer()
+
+    def on_mount(self) -> None:
+        platform = self.query_one("#platforms", CheckboxInput)
+        platform.focus()
 
     def on_button_pressed(self, event: Button.Pressed) -> None:
         if event.button.id == "save":
