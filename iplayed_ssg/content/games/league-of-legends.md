@@ -14,4 +14,6 @@ playtime = "432 hours"
 completed_at = "2019-03-18"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coabh7.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coabh7.jpg"
+all_achievements_unlocked = false
+backseat_gaming = false
 +++

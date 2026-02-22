@@ -14,4 +14,6 @@ playtime = ""
 completed_at = "2013-09-05"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co28o7.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co28o7.jpg"
+all_achievements_unlocked = false
+backseat_gaming = false
 +++

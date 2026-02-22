@@ -14,4 +14,6 @@ playtime = "25 hours and 36 minutes"
 completed_at = "2021-08-23"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coa2k2.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coa2k2.jpg"
+all_achievements_unlocked = false
+backseat_gaming = false
 +++

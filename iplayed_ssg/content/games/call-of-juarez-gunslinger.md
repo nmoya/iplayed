@@ -14,4 +14,6 @@ playtime = "5 hours and 4 minutes"
 completed_at = "2013-05-24"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coag64.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coag64.jpg"
+all_achievements_unlocked = false
+backseat_gaming = false
 +++

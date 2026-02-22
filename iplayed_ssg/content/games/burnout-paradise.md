@@ -14,6 +14,8 @@ playtime = "13 hours and 5 minutes"
 completed_at = "2010-07-04"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co28p7.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co28p7.jpg"
+all_achievements_unlocked = false
+backseat_gaming = false
 +++
 ### Additional Content
 

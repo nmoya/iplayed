@@ -14,4 +14,6 @@ playtime = "189 hours"
 completed_at = "2024-06-05"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co4jni.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co4jni.jpg"
+all_achievements_unlocked = true
+backseat_gaming = false
 +++

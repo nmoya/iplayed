@@ -14,6 +14,8 @@ playtime = "5 hours"
 completed_at = "2023-05-02"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1xdw.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xdw.jpg"
+all_achievements_unlocked = false
+backseat_gaming = false
 +++
 ### Additional Content
 

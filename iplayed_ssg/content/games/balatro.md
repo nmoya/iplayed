@@ -14,4 +14,6 @@ playtime = "32 hours"
 completed_at = "2024-10-04"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co9f4g.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co9f4g.jpg"
+all_achievements_unlocked = false
+backseat_gaming = false
 +++

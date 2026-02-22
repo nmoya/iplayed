@@ -14,4 +14,6 @@ playtime = "28 hours and 55 minutes"
 completed_at = "2004-03-11"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co20af.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co20af.jpg"
+all_achievements_unlocked = false
+backseat_gaming = false
 +++

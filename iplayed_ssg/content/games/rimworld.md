@@ -14,6 +14,8 @@ playtime = "61 hours and 57 minutes"
 completed_at = "2018-10-07"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coaaqj.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coaaqj.jpg"
+all_achievements_unlocked = false
+backseat_gaming = false
 +++
 ### Additional Content
 

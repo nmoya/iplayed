@@ -14,6 +14,8 @@ playtime = "10 hours and 43 minutes"
 completed_at = "2022-01-12"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coaavb.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coaavb.jpg"
+all_achievements_unlocked = false
+backseat_gaming = false
 +++
 ### Additional Content
 

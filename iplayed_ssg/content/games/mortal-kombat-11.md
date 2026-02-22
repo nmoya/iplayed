@@ -14,6 +14,8 @@ playtime = "12 hours"
 completed_at = "2020-01-02"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co20mh.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co20mh.jpg"
+all_achievements_unlocked = false
+backseat_gaming = false
 +++
 ### Additional Content
 

@@ -14,6 +14,8 @@ playtime = "15 hours"
 completed_at = "2018-01-28"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2acd.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2acd.jpg"
+all_achievements_unlocked = false
+backseat_gaming = false
 +++
 ### Additional Content
 

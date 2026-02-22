@@ -14,4 +14,6 @@ playtime = "30 hours and 9 minutes"
 completed_at = "2019-03-24"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2a23.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2a23.jpg"
+all_achievements_unlocked = false
+backseat_gaming = false
 +++

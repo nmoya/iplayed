@@ -14,6 +14,8 @@ playtime = "15 hours and 45 minutes"
 completed_at = "2015-05-24"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co20pd.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co20pd.jpg"
+all_achievements_unlocked = false
+backseat_gaming = false
 +++
 ### Additional Content
 

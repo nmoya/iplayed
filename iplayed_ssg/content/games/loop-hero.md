@@ -14,4 +14,6 @@ playtime = "28 hours and 28 minutes"
 completed_at = "2021-03-10"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2mfy.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mfy.jpg"
+all_achievements_unlocked = false
+backseat_gaming = false
 +++

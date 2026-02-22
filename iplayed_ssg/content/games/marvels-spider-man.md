@@ -14,6 +14,8 @@ playtime = "18 hours"
 completed_at = "2019-01-12"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1r77.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r77.jpg"
+all_achievements_unlocked = false
+backseat_gaming = false
 +++
 ### Additional Content
 

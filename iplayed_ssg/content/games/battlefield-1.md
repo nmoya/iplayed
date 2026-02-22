@@ -14,6 +14,8 @@ playtime = "50 hours"
 completed_at = "2017-09-29"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2n9d.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2n9d.jpg"
+all_achievements_unlocked = false
+backseat_gaming = false
 +++
 ### Additional Content
 

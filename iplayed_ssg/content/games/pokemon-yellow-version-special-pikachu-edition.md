@@ -14,4 +14,6 @@ playtime = ""
 completed_at = "1999-09-04"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co5pih.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pih.jpg"
+all_achievements_unlocked = false
+backseat_gaming = false
 +++
