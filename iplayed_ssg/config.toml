@@ -12,6 +12,7 @@ taxonomies = [
     { name = "platforms", slugify = "lower", feed = true },
     { name = "genres", slugify = "lower", feed = true },
     { name = "rating", slugify = "none", feed = true },
+    { name = "flags", slugify = "safe", feed = false },
 ]
 
 build_search_index = true

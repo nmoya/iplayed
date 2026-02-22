@@ -21,6 +21,8 @@
 {%- set genres = page.taxonomies.genres | default(value=[]) -%}
 {%- set cover = page.extra.url_cover_big | default(value=page.extra.url_cover_small | default(value="")) -%}
 {%- set playtime = page.extra.playtime | default(value="") -%}
+{%- set all_achievements_unlocked = page.extra.all_achievements_unlocked | default(value=false) -%}
+{%- set backseat_mode = page.extra.backseat_mode | default(value=page.extra.backseat_gaming | default(value=false)) -%}
 
 <article class="post content">
   <header>
@@ -79,6 +81,23 @@
           {% set genre_url = get_taxonomy_url(kind="genres", name=genre, lang=page.lang) %}
           <a class="terminal-chip" rel="tag" href="{{ genre_url | safe }}">{{ genre }}</a>
           {% endfor %}
+        </dd>
+        {% endif %}
+        {% if all_achievements_unlocked or backseat_mode %}
+        <dt class="terminal-meta__label">Flags</dt>
+        <dd class="terminal-meta__value terminal-meta__value--wrap">
+          {% if all_achievements_unlocked %}
+          {% set achievements_url = get_taxonomy_url(kind="flags", name="all achievements unlocked", lang=page.lang) %}
+          <a class="terminal-chip" rel="tag" href="{{ achievements_url | safe }}">
+            ⭐ All Achievements
+          </a>
+          {% endif %}
+          {% if backseat_mode %}
+          {% set backseat_url = get_taxonomy_url(kind="flags", name="backseat mode", lang=page.lang) %}
+          <a class="terminal-chip" rel="tag" href="{{ backseat_url | safe }}">
+            🛋️ Backseat Gaming
+          </a>
+          {% endif %}
         </dd>
         {% endif %}
       </dl>

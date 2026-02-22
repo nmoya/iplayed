@@ -81,6 +81,7 @@ def completion_to_frontmatter(data: DataEntry):
             "platforms": [s.lower() for s in data.completion.played_platforms_names],
             "rating": [str(data.completion.rating)] if data.completion.rating else [],
             "genres": [g.name.lower() for g in data.game.genres],
+            "flags": [],
         },
         "extra": {
             "subtitle": subtitle,
@@ -92,6 +93,12 @@ def completion_to_frontmatter(data: DataEntry):
             "backseat_gaming": data.completion.backseat_gaming,
         },
     }
+    flags = []
+    if data.completion.all_achievements_unlocked:
+        flags.append("all achievements unlocked")
+    if data.completion.backseat_gaming:
+        flags.append("backseat mode")
+    frontmatter["taxonomies"]["flags"] = flags
     return dict_to_frontmatter(frontmatter)
 
 

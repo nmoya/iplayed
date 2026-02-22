@@ -6,9 +6,9 @@ updated = "2014-10-13"
 in_search_index = true
 [taxonomies]
 platforms = ['pc (microsoft windows)']
-rating = []
+rating = ['8.0']
 genres = ['adventure']
-flags = []
+flags = ['backseat mode']
 [extra]
 subtitle = "18 hours and 19 minutes - PC (Microsoft Windows)"
 playtime = "18 hours and 19 minutes"
@@ -16,7 +16,7 @@ completed_at = "2014-10-13"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1vzu.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vzu.jpg"
 all_achievements_unlocked = false
-backseat_gaming = false
+backseat_gaming = true
 +++
 ### Additional Content
 
