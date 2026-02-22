@@ -21,6 +21,6 @@ backseat_gaming = false
 ### Additional Content
 
 
-❌ Assassin's Creed Brotherhood: Copernicus Conspiracy
-
 ❌ Assassin's Creed Brotherhood: The Da Vinci Disappearance
+
+❌ Assassin's Creed Brotherhood: Copernicus Conspiracy

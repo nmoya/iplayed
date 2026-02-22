@@ -23,8 +23,8 @@ backseat_gaming = false
 
 ❌ Call of Duty: WWII - The Resistance DLC Pack 1
 
+❌ Call of Duty: WWII - United Front DLC
+
 ❌ Call of Duty: WWII - The War Machine DLC Pack 2
 
 ❌ Call of Duty: WWII - Shadow War
-
-❌ Call of Duty: WWII - United Front DLC

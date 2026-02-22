@@ -21,6 +21,6 @@ backseat_gaming = false
 ### Additional Content
 
 
-❌ Assassin's Creed Odyssey: Prince of Persia
+❌ Assassin's Creed Odyssey: The Blind King
 
 ❌ Assassin's Creed Odyssey: The Lost Tales of Greece

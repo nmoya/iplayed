@@ -7,7 +7,7 @@ in_search_index = true
 [taxonomies]
 platforms = ['playstation 4']
 rating = ['7.0']
-genres = ['puzzle', 'adventure']
+genres = ['adventure']
 flags = []
 [extra]
 subtitle = "12 hours - PlayStation 4"

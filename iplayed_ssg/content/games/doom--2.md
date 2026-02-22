@@ -7,7 +7,7 @@ in_search_index = true
 [taxonomies]
 platforms = ['playstation 4']
 rating = ['7.0']
-genres = ['shooter', 'puzzle']
+genres = ['shooter']
 flags = []
 [extra]
 subtitle = "10 hours - PlayStation 4"
@@ -21,8 +21,8 @@ backseat_gaming = false
 ### Additional Content
 
 
-❌ Doom: Hell Followed
-
 ❌ Doom: Bloodfall
 
 ❌ Doom: Unto the Evil
+
+❌ Doom: Hell Followed

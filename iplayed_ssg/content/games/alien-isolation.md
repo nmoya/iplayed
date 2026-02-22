@@ -21,16 +21,16 @@ backseat_gaming = true
 ### Additional Content
 
 
-❌ Alien: Isolation - Trauma
-
 ❌ Alien: Isolation - Last Survivor
-
-❌ Alien: Isolation - Crew Expendable
 
 ❌ Alien: Isolation - Lost Contact
 
-❌ Alien: Isolation - Corporate Lockdown
+❌ Alien: Isolation - Safe Haven
 
 ❌ Alien: Isolation - The Trigger
 
-❌ Alien: Isolation - Safe Haven
+❌ Alien: Isolation - Corporate Lockdown
+
+❌ Alien: Isolation - Crew Expendable
+
+❌ Alien: Isolation - Trauma

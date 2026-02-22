@@ -21,6 +21,4 @@ backseat_gaming = false
 ### Additional Content
 
 
-❌ Risk of Rain 2: Alloyed Collective
-
 ❌ Risk of Rain 2: EXXXXXXX-X

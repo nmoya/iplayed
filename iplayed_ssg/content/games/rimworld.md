@@ -21,8 +21,8 @@ backseat_gaming = false
 ### Additional Content
 
 
+❌ RimWorld: Ideology
+
 ❌ RimWorld: Royalty
 
 ❌ RimWorld: Biotech
-
-❌ RimWorld: Ideology

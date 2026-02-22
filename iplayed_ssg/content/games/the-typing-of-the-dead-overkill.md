@@ -23,10 +23,10 @@ backseat_gaming = false
 
 ❌ The Typing of the Dead: Overkill - Silver Screen DLC
 
+❌ The Typing of the Dead: Overkill - Love at First Bite DLC
+
 ❌ The Typing of the Dead: Overkill - Filth DLC
 
 ❌ The Typing of the Dead: Overkill - Dancing with the Dead DLC
-
-❌ The Typing of the Dead: Overkill - Love at First Bite DLC
 
 ❌ The Typing of the Dead: Overkill - Shakespeare DLC

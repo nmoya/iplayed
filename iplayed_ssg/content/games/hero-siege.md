@@ -21,11 +21,11 @@ backseat_gaming = false
 ### Additional Content
 
 
+❌ Hero Siege: Class - Shield Lancer
+
 ❌ Hero Siege: Stormweaver
 
 ❌ Hero Siege: Class - Butcher
-
-❌ Hero Siege: Class - Shield Lancer
 
 ❌ Hero Siege: Class - Shaman
 

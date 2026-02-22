@@ -7,7 +7,7 @@ in_search_index = true
 [taxonomies]
 platforms = ['playstation 4']
 rating = ['8.0']
-genres = ['shooter', 'simulator', 'adventure', 'indie', 'arcade']
+genres = ['shooter', 'puzzle', 'simulator', 'adventure', 'indie', 'arcade']
 flags = []
 [extra]
 subtitle = "8 hours - PlayStation 4"

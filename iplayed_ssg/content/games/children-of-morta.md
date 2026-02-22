@@ -21,6 +21,6 @@ backseat_gaming = false
 ### Additional Content
 
 
-❌ Children of Morta: Paws and Claws
-
 ❌ Children of Morta: Ancient Spirits
+
+❌ Children of Morta: Paws and Claws

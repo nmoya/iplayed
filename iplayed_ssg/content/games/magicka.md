@@ -21,19 +21,23 @@ backseat_gaming = false
 ### Additional Content
 
 
+❌ Magicka: The Stars are Left
+
 ❌ Magicka: The Other Side of the Coin
 
-❌ Magicka: Wizard's Survival Kit
+❌ Magicka: Free Jolnirs Workshop
 
 ❌ Magicka: Party Robes
 
-❌ Magicka: Marshlands
+❌ Magicka: Dungeons and Gargoyles
 
-❌ Magicka: The Stars are Left
+❌ Magicka: The Watchtower
+
+❌ Magicka: Wizard's Survival Kit
 
 ❌ Magicka: Frozen Lake
 
-❌ Magicka: Dungeons and Gargoyles
+❌ Magicka: Marshlands
 
 ❌ Magicka: Nippon
 
@@ -43,10 +47,6 @@ backseat_gaming = false
 
 ❌ Magicka: Grimnir's Laboratory
 
-❌ Magicka: The Watchtower
-
 ❌ Magicka: Lonely Island Cruise
-
-❌ Magicka: Free Jolnirs Workshop
 
 ❌ Magicka: Tower of Niflheim

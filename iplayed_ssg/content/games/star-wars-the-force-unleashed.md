@@ -21,12 +21,12 @@ backseat_gaming = false
 ### Additional Content
 
 
-❌ Star Wars: The Force Unleashed - Jedi Temple Mission Pack
+❌ Star Wars: The Force Unleashed - Tatooine Mission Pack
 
 ❌ Star Wars: The Force Unleashed - Character Pack 2
 
-❌ Star Wars: The Force Unleashed - Tatooine Mission Pack
+❌ Star Wars: The Force Unleashed - Character Pack 1
+
+❌ Star Wars: The Force Unleashed - Jedi Temple Mission Pack
 
 ❌ Star Wars: The Force Unleashed - Hoth Mission Pack
-
-❌ Star Wars: The Force Unleashed - Character Pack 1

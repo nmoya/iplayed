@@ -23,12 +23,12 @@ backseat_gaming = false
 
 ❌ Dave the Diver: Potion Craft
 
+✅ Dave the Diver: Balatro
+
 ✅ Dave the Diver: Dredge
 
 ❌ Dave the Diver: Ichiban's Holiday
 
-✅ Dave the Diver: Godzilla
-
-✅ Dave the Diver: Balatro
-
 ❌ Dave the Diver: Mxmtoon
+
+✅ Dave the Diver: Godzilla

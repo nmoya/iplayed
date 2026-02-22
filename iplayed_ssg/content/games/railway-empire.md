@@ -21,15 +21,13 @@ backseat_gaming = false
 ### Additional Content
 
 
-❌ Railway Empire: Down Under
-
-❌ Railway Empire: Mexico
-
 ❌ Railway Empire: France
 
-❌ Railway Empire: Great Britain & Ireland
+❌ Railway Empire: Down Under
 
 ❌ Railway Empire: Crossing the Andes
+
+❌ Railway Empire: The Great Lakes
 
 ❌ Railway Empire: Northern Europe
 
@@ -37,4 +35,6 @@ backseat_gaming = false
 
 ❌ Railway Empire: Germany
 
-❌ Railway Empire: The Great Lakes
+❌ Railway Empire: Mexico
+
+❌ Railway Empire: Great Britain & Ireland

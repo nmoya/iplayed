@@ -7,7 +7,7 @@ in_search_index = true
 [taxonomies]
 platforms = ['wii']
 rating = []
-genres = ['shooter', 'racing', 'simulator', 'sport']
+genres = ['racing', 'simulator', 'sport']
 flags = []
 [extra]
 subtitle = "8 hours and 53 minutes - Wii"

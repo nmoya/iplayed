@@ -13,13 +13,21 @@ flags = []
 subtitle = "52 hours and 33 minutes - PlayStation 3"
 playtime = "52 hours and 33 minutes"
 completed_at = "2010-09-26"
-url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co5vwl.jpg"
-url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co5vwl.jpg"
+url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coavu6.jpg"
+url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coavu6.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
 +++
 ### Additional Content
 
+
+❌ The Sims 3: Aurora Skies
+
+❌ The Sims 3: Sunlit Tides
+
+❌ The Sims 3: Barnacle Bay
+
+❌ The Sims 3: Midnight Hollow
 
 ❌ The Sims 3: Monte Vista
 
@@ -29,16 +37,8 @@ backseat_gaming = false
 
 ❌ The Sims 3: Riverview
 
-❌ The Sims 3: Barnacle Bay
-
-❌ The Sims 3: Sunlit Tides
-
-❌ The Sims 3: Lucky Palms
-
 ❌ The Sims 3: Lunar Lakes
 
 ❌ The Sims 3: Hidden Springs
 
-❌ The Sims 3: Aurora Skies
-
-❌ The Sims 3: Midnight Hollow
+❌ The Sims 3: Lucky Palms

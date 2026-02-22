@@ -21,9 +21,9 @@ backseat_gaming = false
 ### Additional Content
 
 
-❌ Far Cry 6: Collapse
-
 ❌ Far Cry 6: Insanity
+
+❌ Far Cry 6: Collapse
 
 ❌ Far Cry 6: Control
 

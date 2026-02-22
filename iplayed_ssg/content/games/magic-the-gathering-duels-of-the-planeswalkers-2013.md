@@ -23,6 +23,6 @@ backseat_gaming = false
 
 ❌ Magic: The Gathering - Duels of the Planeswalkers 2013: Deck Pack 1
 
-❌ Magic: The Gathering - Duels of the Planeswalkers 2013: Deck Pack 3
-
 ❌ Magic: The Gathering - Duels of the Planeswalkers 2013: Deck Pack 2
+
+❌ Magic: The Gathering - Duels of the Planeswalkers 2013: Deck Pack 3

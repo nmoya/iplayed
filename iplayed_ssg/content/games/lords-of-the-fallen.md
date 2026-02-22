@@ -21,10 +21,10 @@ backseat_gaming = false
 ### Additional Content
 
 
-❌ Lords of the Fallen: The Foundation Boost
+❌ Lords of the Fallen: The Arcane Boost
 
 ❌ Lords of the Fallen: The Monk's Decipher
 
-❌ Lords of the Fallen: The Arcane Boost
+❌ Lords of the Fallen: The Foundation Boost
 
 ❌ Lords of the Fallen: Ancient Labyrinth

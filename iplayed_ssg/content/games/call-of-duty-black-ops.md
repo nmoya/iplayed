@@ -21,10 +21,10 @@ backseat_gaming = false
 ### Additional Content
 
 
-❌ Call of Duty: Black Ops - Escalation
+❌ Call of Duty: Black Ops - First Strike
 
 ❌ Call of Duty: Black Ops - Annihilation
 
-❌ Call of Duty: Black Ops - First Strike
-
 ❌ Call of Duty: Black Ops - Rezurrection
+
+❌ Call of Duty: Black Ops - Escalation

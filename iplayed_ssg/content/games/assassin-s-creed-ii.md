@@ -21,6 +21,6 @@ backseat_gaming = false
 ### Additional Content
 
 
-❌ Assassin's Creed II: Bonfire of the Vanities
-
 ❌ Assassin's Creed II: Battle of Forlì
+
+❌ Assassin's Creed II: Bonfire of the Vanities

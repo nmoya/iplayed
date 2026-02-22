@@ -27,8 +27,8 @@ backseat_gaming = false
 
 ❌ Fallout 4: Far Harbor
 
-❌ Fallout 4: Nuka World
+❌ Fallout 4: Automatron
 
 ❌ Fallout 4: Vault-Tec Workshop
 
-❌ Fallout 4: Automatron
+❌ Fallout 4: Nuka World

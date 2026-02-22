@@ -18,3 +18,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co95gk.jp
 all_achievements_unlocked = true
 backseat_gaming = false
 +++
+### Additional Content
+
+
+❌ Elden Ring: Nightreign - The Forsaken Hollows

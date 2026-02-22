@@ -18,7 +18,3 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co65ac.jp
 all_achievements_unlocked = false
 backseat_gaming = false
 +++
-### Additional Content
-
-
-❌ Outer Wilds: Echoes of the Eye

@@ -18,7 +18,3 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pi4.jp
 all_achievements_unlocked = false
 backseat_gaming = false
 +++
-### Additional Content
-
-
-❌ Pokémon Red & Green: Nintendo Space World '97 Maboroshi no Mew Present

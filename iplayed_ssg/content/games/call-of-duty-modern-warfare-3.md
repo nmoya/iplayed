@@ -21,10 +21,10 @@ backseat_gaming = false
 ### Additional Content
 
 
+❌ Call of Duty: Modern Warfare 3 - Collection 3: Chaos Pack
+
 ❌ Call of Duty: Modern Warfare 3 - Collection 1
 
 ❌ Call of Duty: Modern Warfare 3 - Collection 4: Final Assault
-
-❌ Call of Duty: Modern Warfare 3 - Collection 3: Chaos Pack
 
 ❌ Call of Duty: Modern Warfare 3 - Collection 2

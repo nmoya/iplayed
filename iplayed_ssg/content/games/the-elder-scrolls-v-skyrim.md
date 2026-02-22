@@ -24,5 +24,3 @@ backseat_gaming = false
 ❌ The Elder Scrolls V: Skyrim - Hearthfire
 
 ❌ The Elder Scrolls V: Skyrim - Dawnguard
-
-❌ The Elder Scrolls V: Skyrim - Dragonborn

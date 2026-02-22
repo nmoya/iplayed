@@ -21,8 +21,8 @@ backseat_gaming = false
 ### Additional Content
 
 
-✅ Dark Souls II: Crown of the Ivory King
+✅ Dark Souls II: Crown of the Sunken King
 
 ✅ Dark Souls II: Crown of the Old Iron King
 
-✅ Dark Souls II: Crown of the Sunken King
+✅ Dark Souls II: Crown of the Ivory King

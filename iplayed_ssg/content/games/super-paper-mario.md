@@ -13,8 +13,8 @@ flags = []
 subtitle = "18 hours and 19 minutes - Wii"
 playtime = "18 hours and 19 minutes"
 completed_at = "2007-04-10"
-url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co21rp.jpg"
-url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co21rp.jpg"
+url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coba44.jpg"
+url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coba44.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
 +++

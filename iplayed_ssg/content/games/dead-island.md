@@ -21,6 +21,6 @@ backseat_gaming = false
 ### Additional Content
 
 
-❌ Dead Island: Ryder White
-
 ❌ Dead Island: Bloodbath Arena
+
+❌ Dead Island: Ryder White

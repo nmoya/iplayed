@@ -23,14 +23,14 @@ backseat_gaming = false
 
 ❌ Shadow of the Tomb Raider: The Path Home
 
-❌ Shadow of the Tomb Raider: The Pillar
+❌ Shadow of the Tomb Raider: The Grand Caiman
+
+❌ Shadow of the Tomb Raider: The Forge
 
 ❌ Shadow of the Tomb Raider: The Price of Survival
 
-❌ Shadow of the Tomb Raider: The Grand Caiman
-
 ❌ Shadow of the Tomb Raider: The Nightmare
 
-❌ Shadow of the Tomb Raider: The Serpent's Heart
+❌ Shadow of the Tomb Raider: The Pillar
 
-❌ Shadow of the Tomb Raider: The Forge
+❌ Shadow of the Tomb Raider: The Serpent's Heart

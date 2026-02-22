@@ -13,8 +13,8 @@ flags = []
 subtitle = "33 hours and 30 minutes - PC (Microsoft Windows)"
 playtime = "33 hours and 30 minutes"
 completed_at = "2025-04-14"
-url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co91n4.jpg"
-url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co91n4.jpg"
+url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coaugi.jpg"
+url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coaugi.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
 +++

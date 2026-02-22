@@ -7,7 +7,7 @@ in_search_index = true
 [taxonomies]
 platforms = ['pc (microsoft windows)']
 rating = ['10.0']
-genres = ['role-playing (rpg)', 'turn-based strategy (tbs)', 'adventure']
+genres = ['role-playing (rpg)', 'adventure', 'indie']
 flags = []
 [extra]
 subtitle = "50 hours - PC (Microsoft Windows)"

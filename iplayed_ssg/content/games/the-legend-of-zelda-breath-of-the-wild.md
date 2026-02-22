@@ -21,6 +21,6 @@ backseat_gaming = false
 ### Additional Content
 
 
-❌ The Legend of Zelda: Breath of the Wild - The Champions' Ballad
-
 ❌ The Legend of Zelda: Breath of the Wild - The Master Trials
+
+❌ The Legend of Zelda: Breath of the Wild - The Champions' Ballad

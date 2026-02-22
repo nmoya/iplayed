@@ -23,10 +23,10 @@ backseat_gaming = false
 
 ❌ Final Fantasy XV: Episode Gladiolus
 
-❌ Final Fantasy XV: Episode Ardyn
-
-❌ Final Fantasy XV: Episode Prompto
-
 ❌ Final Fantasy XV: Assassin's Festival
 
 ❌ Final Fantasy XV: Episode Ignis
+
+❌ Final Fantasy XV: Episode Ardyn
+
+❌ Final Fantasy XV: Episode Prompto

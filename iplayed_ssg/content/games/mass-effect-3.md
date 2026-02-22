@@ -7,7 +7,7 @@ in_search_index = true
 [taxonomies]
 platforms = ['playstation 3']
 rating = []
-genres = ['shooter', 'role-playing (rpg)', 'adventure']
+genres = ['shooter', 'role-playing (rpg)', 'strategy', 'adventure']
 flags = []
 [extra]
 subtitle = "24 hours and 28 minutes - PlayStation 3"
@@ -29,10 +29,16 @@ backseat_gaming = false
 
 ❌ Mass Effect 3: Retaliation
 
+❌ Mass Effect 3: Reckoning
+
+❌ Mass Effect: Genesis 2
+
 ❌ Mass Effect 3: Omega
 
 ❌ Mass Effect 3: From Ashes
 
 ❌ Mass Effect 3: Extended Cut
 
-❌ Mass Effect: Genesis 2
+❌ Mass Effect 3: Earth
+
+❌ Mass Effect 3: Resurgence Pack

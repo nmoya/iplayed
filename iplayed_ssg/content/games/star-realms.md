@@ -21,34 +21,34 @@ backseat_gaming = false
 ### Additional Content
 
 
-❌ Star Realms: Colony Wars
-
-❌ Star Realms: United - Missions
-
-❌ Star Realms: High Alert - Invasion
-
-❌ Star Realms: Frontiers Promos
-
 ❌ Star Realms: Cosmic Gambit
-
-❌ Star Realms: Command
-
-❌ Star Realms: Stellar Allies
-
-❌ Star Realms: Bases and Battleships
-
-❌ Star Realms: Frontiers
-
-❌ Star Realms: Frontiers Events
-
-❌ Star Realms: Full Version
-
-❌ Star Realms: United - Assault
-
-❌ Star Realms: United - Heroes
 
 ❌ Star Realms: Command Decks
 
-❌ Star Realms: Heroes
+❌ Star Realms: Full Version
 
 ❌ Star Realms: Fleets and Fortresses
+
+❌ Star Realms: Stellar Allies
+
+❌ Star Realms: Frontiers Events
+
+❌ Star Realms: United - Heroes
+
+❌ Star Realms: Frontiers
+
+❌ Star Realms: United - Missions
+
+❌ Star Realms: Command
+
+❌ Star Realms: Heroes
+
+❌ Star Realms: Colony Wars
+
+❌ Star Realms: Frontiers Promos
+
+❌ Star Realms: Bases and Battleships
+
+❌ Star Realms: United - Assault
+
+❌ Star Realms: High Alert - Invasion

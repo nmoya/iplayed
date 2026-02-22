@@ -23,8 +23,8 @@ backseat_gaming = false
 
 ❌ Borderlands: The Zombie Island of Dr. Ned
 
-❌ Borderlands: The Secret Armory of General Knoxx
-
 ❌ Borderlands: Mad Moxxi's Underdome Riot
+
+❌ Borderlands: The Secret Armory of General Knoxx
 
 ❌ Borderlands: Claptrap's New Robot Revolution

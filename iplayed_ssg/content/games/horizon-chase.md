@@ -13,8 +13,8 @@ flags = []
 subtitle = "5 hours and 37 minutes - Android"
 playtime = "5 hours and 37 minutes"
 completed_at = "2013-08-03"
-url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co22hf.jpg"
-url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co22hf.jpg"
+url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/cob6ez.jpg"
+url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/cob6ez.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
 +++

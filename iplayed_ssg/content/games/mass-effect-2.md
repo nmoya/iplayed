@@ -21,13 +21,11 @@ backseat_gaming = false
 ### Additional Content
 
 
-❌ Mass Effect 2: Normandy Crash Site
-
-❌ Mass Effect: Genesis
-
-❌ Mass Effect 2: Overlord
+❌ Mass Effect 2: Arrival
 
 ❌ Mass Effect 2: Cerberus Network
+
+❌ Mass Effect: Genesis
 
 ❌ Mass Effect 2: Zaeed - The Price of Revenge
 
@@ -35,6 +33,8 @@ backseat_gaming = false
 
 ❌ Mass Effect 2: Kasumi - Stolen Memory
 
-❌ Mass Effect 2: Arrival
+❌ Mass Effect 2: Normandy Crash Site
 
 ❌ Mass Effect 2: Lair of the Shadow Broker
+
+❌ Mass Effect 2: Overlord

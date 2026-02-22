@@ -21,14 +21,16 @@ backseat_gaming = false
 ### Additional Content
 
 
-❌ Vampire Survivors: Operation Guns
-
-❌ Vampire Survivors: Tides of the Foscari
-
-❌ Vampire Survivors: Legacy of the Moonspell
+❌ Vampire Survivors: Ante Chamber
 
 ❌ Vampire Survivors: Emergency Meeting
 
 ❌ Vampire Survivors: Emerald Diorama
 
 ❌ Vampire Survivors: Ode to Castlevania
+
+❌ Vampire Survivors: Operation Guns
+
+❌ Vampire Survivors: Tides of the Foscari
+
+❌ Vampire Survivors: Legacy of the Moonspell

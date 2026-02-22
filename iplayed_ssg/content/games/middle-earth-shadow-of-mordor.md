@@ -21,6 +21,6 @@ backseat_gaming = false
 ### Additional Content
 
 
-❌ Middle-earth: Shadow of Mordor - Lord of the Hunt
-
 ❌ Middle-earth: Shadow of Mordor - The Bright Lord
+
+❌ Middle-earth: Shadow of Mordor - Lord of the Hunt

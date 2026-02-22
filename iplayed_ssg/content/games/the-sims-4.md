@@ -21,38 +21,38 @@ backseat_gaming = false
 ### Additional Content
 
 
-❌ The Sims 4: Fitness Stuff
-
-❌ The Sims 4: StrangerVille
-
 ❌ The Sims 4: Realm of Magic
 
-❌ The Sims 4: Tiny Living Stuff
+❌ The Sims 4: Paranormal Stuff
 
 ❌ The Sims 4: Nifty Knitting Stuff
 
-✅ The Sims 4: Outdoor Retreat
-
-❌ The Sims 4: Dream Home Decorator
-
-❌ The Sims 4: Spa Day
-
-❌ The Sims 4: My Wedding Stories
-
-❌ The Sims 4: Journey to Batuu
+❌ The Sims 4: Tiny Living Stuff
 
 ❌ The Sims 4: Home Chef Hustle Stuff Pack
 
 ❌ The Sims 4: Crystal Creations
 
-✅ The Sims 4: Dine Out
-
-❌ The Sims 4: Jungle Adventure
-
-❌ The Sims 4: Vampires
+❌ The Sims 4: Dream Home Decorator
 
 ❌ The Sims 4: Parenthood
 
-❌ The Sims 4: Paranormal Stuff
+❌ The Sims 4: Spa Day
+
+✅ The Sims 4: Dine Out
+
+❌ The Sims 4: Fitness Stuff
 
 ❌ The Sims 4: Werewolves
+
+❌ The Sims 4: Vampires
+
+✅ The Sims 4: Outdoor Retreat
+
+❌ The Sims 4: StrangerVille
+
+❌ The Sims 4: Journey to Batuu
+
+❌ The Sims 4: My Wedding Stories
+
+❌ The Sims 4: Jungle Adventure
