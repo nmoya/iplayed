@@ -88,6 +88,8 @@ def completion_to_frontmatter(data: DataEntry):
             "completed_at": data.completion.completed_at.strftime("%Y-%m-%d"),
             "url_cover_small": data.game.cover.sized_url("t_cover_small") if data.game.cover else None,
             "url_cover_big": data.game.cover.sized_url("t_cover_big") if data.game.cover else None,
+            "all_achievements_unlocked": data.completion.all_achievements_unlocked,
+            "backseat_gaming": data.completion.backseat_gaming,
         },
     }
     return dict_to_frontmatter(frontmatter)
