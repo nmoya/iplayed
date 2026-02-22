@@ -1506,6 +1506,25 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>The Room</title>
+        <published>2020-05-24T00:00:00+00:00</published>
+        <updated>2020-05-24T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/the-room/"/>
+        <id>https://nikolasmoya.com/iplayed/games/the-room/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/the-room/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>Black Mesa</title>
         <published>2020-03-22T00:00:00+00:00</published>
         <updated>2020-03-22T00:00:00+00:00</updated>
@@ -3298,25 +3317,6 @@
         <id>https://nikolasmoya.com/iplayed/games/metal-gear-solid/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/metal-gear-solid/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>The Room</title>
-        <published>2011-07-07T00:00:00+00:00</published>
-        <updated>2011-07-07T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Nikolas Moya
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/the-room/"/>
-        <id>https://nikolasmoya.com/iplayed/games/the-room/</id>
-        
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/the-room/"></content>
         
     </entry>
     <entry xml:lang="en">

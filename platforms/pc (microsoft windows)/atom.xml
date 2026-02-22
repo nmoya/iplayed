@@ -46,6 +46,25 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>Marvel Rivals</title>
+        <published>2026-02-04T00:00:00+00:00</published>
+        <updated>2026-02-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/marvel-rivals/"/>
+        <id>https://nikolasmoya.com/iplayed/games/marvel-rivals/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/marvel-rivals/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>Streets of Rage 4</title>
         <published>2026-01-24T00:00:00+00:00</published>
         <updated>2026-01-24T00:00:00+00:00</updated>
@@ -514,6 +533,25 @@
         <id>https://nikolasmoya.com/iplayed/games/evoland/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/evoland/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Counter-Strike 2</title>
+        <published>2024-10-13T00:00:00+00:00</published>
+        <updated>2024-10-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/counter-strike-2/"/>
+        <id>https://nikolasmoya.com/iplayed/games/counter-strike-2/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/counter-strike-2/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -1739,6 +1777,25 @@
         <id>https://nikolasmoya.com/iplayed/games/factorio/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/factorio/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>The Room</title>
+        <published>2020-05-24T00:00:00+00:00</published>
+        <updated>2020-05-24T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/the-room/"/>
+        <id>https://nikolasmoya.com/iplayed/games/the-room/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/the-room/"></content>
         
     </entry>
     <entry xml:lang="en">

@@ -4,6 +4,15 @@
         <loc>https://nikolasmoya.com/iplayed/</loc>
     </url>
     <url>
+        <loc>https://nikolasmoya.com/iplayed/flags/</loc>
+    </url>
+    <url>
+        <loc>https://nikolasmoya.com/iplayed/flags/all achievements unlocked/</loc>
+    </url>
+    <url>
+        <loc>https://nikolasmoya.com/iplayed/flags/backseat mode/</loc>
+    </url>
+    <url>
         <loc>https://nikolasmoya.com/iplayed/games/</loc>
     </url>
     <url>
@@ -257,6 +266,10 @@
     <url>
         <loc>https://nikolasmoya.com/iplayed/games/cookie-clicker/</loc>
         <lastmod>2013-08-24</lastmod>
+    </url>
+    <url>
+        <loc>https://nikolasmoya.com/iplayed/games/counter-strike-2/</loc>
+        <lastmod>2024-10-13</lastmod>
     </url>
     <url>
         <loc>https://nikolasmoya.com/iplayed/games/counter-strike-condition-zero/</loc>
@@ -943,6 +956,10 @@
         <lastmod>2007-05-05</lastmod>
     </url>
     <url>
+        <loc>https://nikolasmoya.com/iplayed/games/marvel-rivals/</loc>
+        <lastmod>2026-02-04</lastmod>
+    </url>
+    <url>
         <loc>https://nikolasmoya.com/iplayed/games/marvels-spider-man/</loc>
         <lastmod>2019-01-12</lastmod>
     </url>
@@ -1616,7 +1633,7 @@
     </url>
     <url>
         <loc>https://nikolasmoya.com/iplayed/games/the-room/</loc>
-        <lastmod>2011-07-07</lastmod>
+        <lastmod>2020-05-24</lastmod>
     </url>
     <url>
         <loc>https://nikolasmoya.com/iplayed/games/the-simpsons-hit-run/</loc>

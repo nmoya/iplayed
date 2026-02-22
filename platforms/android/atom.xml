@@ -184,25 +184,6 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>The Room</title>
-        <published>2011-07-07T00:00:00+00:00</published>
-        <updated>2011-07-07T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Nikolas Moya
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/the-room/"/>
-        <id>https://nikolasmoya.com/iplayed/games/the-room/</id>
-        
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/the-room/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
         <title>Fruit Ninja</title>
         <published>2011-05-06T00:00:00+00:00</published>
         <updated>2011-05-06T00:00:00+00:00</updated>
