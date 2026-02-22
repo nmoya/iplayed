@@ -8,6 +8,7 @@ in_search_index = true
 platforms = []
 rating = []
 genres = ['shooter', 'platform', 'arcade']
+flags = []
 [extra]
 subtitle = ""
 playtime = ""

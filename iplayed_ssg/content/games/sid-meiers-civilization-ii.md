@@ -8,6 +8,7 @@ in_search_index = true
 platforms = []
 rating = []
 genres = ['strategy', 'turn-based strategy (tbs)']
+flags = []
 [extra]
 subtitle = "21 hours and 11 minutes - "
 playtime = "21 hours and 11 minutes"

@@ -8,6 +8,7 @@ in_search_index = true
 platforms = ['pc (microsoft windows)']
 rating = ['8.0']
 genres = ['shooter', 'role-playing (rpg)', 'adventure', 'indie']
+flags = []
 [extra]
 subtitle = "11 hours - PC (Microsoft Windows)"
 playtime = "11 hours"

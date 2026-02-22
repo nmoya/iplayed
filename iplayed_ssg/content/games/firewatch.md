@@ -8,6 +8,7 @@ in_search_index = true
 platforms = ['pc (microsoft windows)', 'nintendo switch']
 rating = ['7.0']
 genres = ['adventure', 'indie']
+flags = []
 [extra]
 subtitle = "3 hours and 12 minutes - PC (Microsoft Windows), Nintendo Switch"
 playtime = "3 hours and 12 minutes"

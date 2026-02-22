@@ -8,6 +8,7 @@ in_search_index = true
 platforms = ['playstation']
 rating = []
 genres = ['racing', 'sport']
+flags = []
 [extra]
 subtitle = "2 hours - PlayStation"
 playtime = "2 hours"

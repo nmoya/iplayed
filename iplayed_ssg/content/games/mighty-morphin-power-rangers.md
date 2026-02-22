@@ -8,6 +8,7 @@ in_search_index = true
 platforms = []
 rating = []
 genres = ['fighting', 'platform', "hack and slash/beat 'em up", 'adventure']
+flags = []
 [extra]
 subtitle = "1 hours and 1 minutes - "
 playtime = "1 hours and 1 minutes"

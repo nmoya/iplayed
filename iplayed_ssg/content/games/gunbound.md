@@ -8,6 +8,7 @@ in_search_index = true
 platforms = ['pc (microsoft windows)']
 rating = []
 genres = ['tactical']
+flags = []
 [extra]
 subtitle = "PC (Microsoft Windows)"
 playtime = ""

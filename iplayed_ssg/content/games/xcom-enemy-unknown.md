@@ -8,6 +8,7 @@ in_search_index = true
 platforms = ['playstation 3']
 rating = []
 genres = ['role-playing (rpg)', 'simulator', 'strategy', 'turn-based strategy (tbs)', 'tactical']
+flags = []
 [extra]
 subtitle = "26 hours and 40 minutes - PlayStation 3"
 playtime = "26 hours and 40 minutes"

@@ -8,6 +8,7 @@ in_search_index = true
 platforms = ['ios']
 rating = []
 genres = ['puzzle']
+flags = []
 [extra]
 subtitle = "iOS"
 playtime = ""

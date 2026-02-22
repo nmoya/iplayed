@@ -8,6 +8,7 @@ in_search_index = true
 platforms = ['xbox series x|s']
 rating = []
 genres = ['music', 'platform', 'puzzle', 'role-playing (rpg)', 'adventure', 'indie']
+flags = []
 [extra]
 subtitle = "4 hours and 9 minutes - Xbox Series X|S"
 playtime = "4 hours and 9 minutes"

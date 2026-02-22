@@ -8,6 +8,7 @@ in_search_index = true
 platforms = ['playstation']
 rating = []
 genres = ['adventure']
+flags = []
 [extra]
 subtitle = "12 hours and 15 minutes - PlayStation"
 playtime = "12 hours and 15 minutes"

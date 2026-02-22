@@ -8,6 +8,7 @@ in_search_index = true
 platforms = ['android']
 rating = []
 genres = ['role-playing (rpg)', 'strategy', 'turn-based strategy (tbs)', 'indie', 'card & board game']
+flags = []
 [extra]
 subtitle = "12 hours and 51 minutes - Android"
 playtime = "12 hours and 51 minutes"

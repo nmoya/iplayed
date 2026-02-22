@@ -8,6 +8,7 @@ in_search_index = true
 platforms = ['pc (microsoft windows)', 'nintendo switch']
 rating = ['10.0']
 genres = ['strategy', 'turn-based strategy (tbs)', 'indie', 'card & board game']
+flags = []
 [extra]
 subtitle = "32 hours - PC (Microsoft Windows), Nintendo Switch"
 playtime = "32 hours"

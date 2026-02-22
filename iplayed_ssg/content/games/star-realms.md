@@ -8,6 +8,7 @@ in_search_index = true
 platforms = ['pc (microsoft windows)', 'ios']
 rating = []
 genres = ['strategy', 'turn-based strategy (tbs)', 'card & board game']
+flags = []
 [extra]
 subtitle = "5 hours - PC (Microsoft Windows), iOS"
 playtime = "5 hours"

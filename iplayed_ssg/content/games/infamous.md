@@ -8,6 +8,7 @@ in_search_index = true
 platforms = ['playstation 3']
 rating = []
 genres = ['shooter', 'platform', 'adventure']
+flags = []
 [extra]
 subtitle = "PlayStation 3"
 playtime = ""

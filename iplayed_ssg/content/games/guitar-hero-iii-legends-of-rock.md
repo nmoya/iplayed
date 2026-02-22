@@ -8,6 +8,7 @@ in_search_index = true
 platforms = ['playstation 2']
 rating = ['10.0']
 genres = ['music', 'simulator']
+flags = []
 [extra]
 subtitle = "83 hours - PlayStation 2"
 playtime = "83 hours"

@@ -8,6 +8,7 @@ in_search_index = true
 platforms = ['super nintendo entertainment system']
 rating = []
 genres = ['racing', 'arcade']
+flags = []
 [extra]
 subtitle = "2 hours and 12 minutes - Super Nintendo Entertainment System"
 playtime = "2 hours and 12 minutes"

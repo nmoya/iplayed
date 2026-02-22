@@ -8,6 +8,7 @@ in_search_index = true
 platforms = ['nintendo switch']
 rating = ['9.0']
 genres = ['adventure', 'indie']
+flags = []
 [extra]
 subtitle = "10 hours - Nintendo Switch"
 playtime = "10 hours"

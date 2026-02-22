@@ -8,6 +8,7 @@ in_search_index = true
 platforms = ['playstation 3']
 rating = []
 genres = ['shooter', "hack and slash/beat 'em up"]
+flags = []
 [extra]
 subtitle = "18 hours and 20 minutes - PlayStation 3"
 playtime = "18 hours and 20 minutes"

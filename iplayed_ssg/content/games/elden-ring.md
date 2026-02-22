@@ -8,6 +8,7 @@ in_search_index = true
 platforms = ['pc (microsoft windows)']
 rating = ['10.0']
 genres = ['role-playing (rpg)', 'adventure']
+flags = ['all achievements unlocked']
 [extra]
 subtitle = "189 hours - PC (Microsoft Windows)"
 playtime = "189 hours"

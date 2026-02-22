@@ -8,6 +8,7 @@ in_search_index = true
 platforms = ['playstation']
 rating = []
 genres = ['platform', 'arcade', 'card & board game']
+flags = []
 [extra]
 subtitle = "PlayStation"
 playtime = ""

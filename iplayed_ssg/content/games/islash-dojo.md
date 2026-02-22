@@ -8,6 +8,7 @@ in_search_index = true
 platforms = ['ios']
 rating = []
 genres = ["hack and slash/beat 'em up"]
+flags = []
 [extra]
 subtitle = "iOS"
 playtime = ""

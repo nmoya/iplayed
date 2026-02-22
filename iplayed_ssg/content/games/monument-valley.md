@@ -8,6 +8,7 @@ in_search_index = true
 platforms = ['ios']
 rating = []
 genres = ['puzzle', 'strategy', 'adventure']
+flags = []
 [extra]
 subtitle = "1 hours and 28 minutes - iOS"
 playtime = "1 hours and 28 minutes"

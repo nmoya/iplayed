@@ -8,6 +8,7 @@ in_search_index = true
 platforms = ['wii']
 rating = []
 genres = ['platform', 'role-playing (rpg)', 'adventure']
+flags = []
 [extra]
 subtitle = "18 hours and 19 minutes - Wii"
 playtime = "18 hours and 19 minutes"

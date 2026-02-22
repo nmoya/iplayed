@@ -8,6 +8,7 @@ in_search_index = true
 platforms = ['game boy']
 rating = []
 genres = ['role-playing (rpg)', 'turn-based strategy (tbs)', 'adventure']
+flags = []
 [extra]
 subtitle = "Game Boy"
 playtime = ""

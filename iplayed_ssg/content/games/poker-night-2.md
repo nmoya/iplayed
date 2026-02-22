@@ -8,6 +8,7 @@ in_search_index = true
 platforms = ['playstation 3']
 rating = []
 genres = ['puzzle', 'sport', 'strategy', 'turn-based strategy (tbs)', 'card & board game']
+flags = []
 [extra]
 subtitle = "5 hours and 3 minutes - PlayStation 3"
 playtime = "5 hours and 3 minutes"

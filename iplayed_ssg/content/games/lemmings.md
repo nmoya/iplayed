@@ -8,6 +8,7 @@ in_search_index = true
 platforms = []
 rating = []
 genres = ['puzzle']
+flags = []
 [extra]
 subtitle = "8 hours and 19 minutes - "
 playtime = "8 hours and 19 minutes"

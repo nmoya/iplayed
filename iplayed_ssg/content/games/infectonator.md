@@ -8,6 +8,7 @@ in_search_index = true
 platforms = ['android']
 rating = []
 genres = ['simulator', 'strategy']
+flags = []
 [extra]
 subtitle = "Android"
 playtime = ""

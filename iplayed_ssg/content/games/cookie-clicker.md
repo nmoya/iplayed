@@ -8,6 +8,7 @@ in_search_index = true
 platforms = ['pc (microsoft windows)']
 rating = []
 genres = ['point-and-click', 'simulator', 'strategy', 'indie']
+flags = []
 [extra]
 subtitle = "154 hours and 5 minutes - PC (Microsoft Windows)"
 playtime = "154 hours and 5 minutes"

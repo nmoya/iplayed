@@ -8,6 +8,7 @@ in_search_index = true
 platforms = []
 rating = []
 genres = ['strategy']
+flags = []
 [extra]
 subtitle = "0 hours and 34 minutes - "
 playtime = "0 hours and 34 minutes"

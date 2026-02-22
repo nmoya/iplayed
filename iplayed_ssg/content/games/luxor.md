@@ -8,6 +8,7 @@ in_search_index = true
 platforms = ['pc (microsoft windows)']
 rating = []
 genres = ['point-and-click', 'shooter', 'puzzle', 'adventure', 'arcade']
+flags = []
 [extra]
 subtitle = "PC (Microsoft Windows)"
 playtime = ""

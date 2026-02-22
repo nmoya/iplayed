@@ -8,6 +8,7 @@ in_search_index = true
 platforms = ['android']
 rating = []
 genres = ['point-and-click', 'puzzle', 'adventure', 'indie']
+flags = []
 [extra]
 subtitle = "2 hours and 34 minutes - Android"
 playtime = "2 hours and 34 minutes"

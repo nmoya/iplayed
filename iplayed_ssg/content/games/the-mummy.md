@@ -8,6 +8,7 @@ in_search_index = true
 platforms = []
 rating = []
 genres = ['platform']
+flags = []
 [extra]
 subtitle = ""
 playtime = ""

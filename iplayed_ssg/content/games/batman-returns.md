@@ -8,6 +8,7 @@ in_search_index = true
 platforms = []
 rating = []
 genres = ['platform', 'adventure']
+flags = []
 [extra]
 subtitle = "15 hours - "
 playtime = "15 hours"

@@ -8,6 +8,7 @@ in_search_index = true
 platforms = ['dos']
 rating = []
 genres = ['shooter']
+flags = []
 [extra]
 subtitle = "12 hours and 52 minutes - DOS"
 playtime = "12 hours and 52 minutes"

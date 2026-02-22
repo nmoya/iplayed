@@ -8,6 +8,7 @@ in_search_index = true
 platforms = []
 rating = []
 genres = ['fighting', 'racing']
+flags = []
 [extra]
 subtitle = "7 hours and 46 minutes - "
 playtime = "7 hours and 46 minutes"

@@ -8,6 +8,7 @@ in_search_index = true
 platforms = ['android']
 rating = []
 genres = ['racing', 'sport', 'indie']
+flags = []
 [extra]
 subtitle = "5 hours and 37 minutes - Android"
 playtime = "5 hours and 37 minutes"

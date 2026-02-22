@@ -8,6 +8,7 @@ in_search_index = true
 platforms = ['nintendo 64']
 rating = []
 genres = ['shooter']
+flags = []
 [extra]
 subtitle = "7 hours and 54 minutes - Nintendo 64"
 playtime = "7 hours and 54 minutes"

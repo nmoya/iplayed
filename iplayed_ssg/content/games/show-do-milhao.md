@@ -8,6 +8,7 @@ in_search_index = true
 platforms = []
 rating = ['4.0']
 genres = ['quiz/trivia']
+flags = []
 [extra]
 subtitle = "8 hours and 30 minutes - "
 playtime = "8 hours and 30 minutes"

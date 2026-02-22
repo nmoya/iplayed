@@ -8,6 +8,7 @@ in_search_index = true
 platforms = []
 rating = ['6.0']
 genres = ['role-playing (rpg)', "hack and slash/beat 'em up"]
+flags = []
 [extra]
 subtitle = "26 hours - "
 playtime = "26 hours"
