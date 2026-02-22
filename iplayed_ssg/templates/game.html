@@ -36,10 +36,31 @@
       </figure>
       {% endif %}
       <dl class="terminal-meta">
+        {% if completed %}
+        <dt class="terminal-meta__label">Completed</dt>
+        <dd class="terminal-meta__value">
+          <time class="terminal-value" datetime="{{ completed }}">{{ completed | date(format="%d %b %Y") }}</time>
+        </dd>
+        {% endif %}
         {% if playtime %}
         <dt class="terminal-meta__label">Playtime</dt>
         <dd class="terminal-meta__value">
           <span class="terminal-value">{{ playtime }}</span>
+        </dd>
+        {% endif %}
+        {% if rating_values | length > 0 %}
+        {% set rating_raw = rating_values | first %}
+        {% set rating_value = rating_raw | float %}
+        {% set rating_display = rating_raw | trim_end_matches(pat=".0") %}
+        {% set rating_percent = (rating_value / 10.0 * 100.0) %}
+        <dt class="terminal-meta__label">Rating</dt>
+        <dd class="terminal-meta__value">
+          <div class="terminal-rating" aria-label="Rating: {{ rating_value }} out of 10">
+            <div class="terminal-rating__scale" role="img" aria-label="{{ rating_value }} out of 10">
+              <span class="terminal-rating__fill" style="width: {{ rating_percent }}%;"></span>
+            </div>
+            <span class="terminal-rating__score">{{ rating_display }}/10</span>
+          </div>
         </dd>
         {% endif %}
         {% if platforms %}
@@ -58,27 +79,6 @@
           {% set genre_url = get_taxonomy_url(kind="genres", name=genre, lang=page.lang) %}
           <a class="terminal-chip" rel="tag" href="{{ genre_url | safe }}">{{ genre }}</a>
           {% endfor %}
-        </dd>
-        {% endif %}
-        {% if rating_values | length > 0 %}
-        {% set rating_raw = rating_values | first %}
-        {% set rating_value = rating_raw | float %}
-        {% set rating_display = rating_raw | trim_end_matches(pat=".0") %}
-        {% set rating_percent = (rating_value / 10.0 * 100.0) %}
-        <dt class="terminal-meta__label">Rating</dt>
-        <dd class="terminal-meta__value">
-          <div class="terminal-rating" aria-label="Rating: {{ rating_value }} out of 10">
-            <div class="terminal-rating__scale" role="img" aria-label="{{ rating_value }} out of 10">
-              <span class="terminal-rating__fill" style="width: {{ rating_percent }}%;"></span>
-            </div>
-            <span class="terminal-rating__score">{{ rating_display }}/10</span>
-          </div>
-        </dd>
-        {% endif %}
-        {% if completed %}
-        <dt class="terminal-meta__label">Completed</dt>
-        <dd class="terminal-meta__value">
-          <time class="terminal-value" datetime="{{ completed }}">{{ completed | date(format="%d %b %Y") }}</time>
         </dd>
         {% endif %}
       </dl>
