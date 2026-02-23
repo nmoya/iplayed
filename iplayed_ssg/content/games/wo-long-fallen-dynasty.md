@@ -17,12 +17,13 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co4v3
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co4v34.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Wo Long: Fallen Dynasty - Conqueror of Jiangdong"
+completed = false
+[[extra.additional_content]]
+name = "Wo Long: Fallen Dynasty - Upheaval in Jingxiang"
+completed = false
+[[extra.additional_content]]
+name = "Wo Long: Fallen Dynasty - Battle of Zhongyuan"
+completed = false
 +++
-### Additional Content
-
-
-❌ Wo Long: Fallen Dynasty - Conqueror of Jiangdong
-
-❌ Wo Long: Fallen Dynasty - Upheaval in Jingxiang
-
-❌ Wo Long: Fallen Dynasty - Battle of Zhongyuan

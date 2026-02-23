@@ -17,10 +17,10 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co3p2
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p2d.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "The Legend of Zelda: Breath of the Wild - The Master Trials"
+completed = false
+[[extra.additional_content]]
+name = "The Legend of Zelda: Breath of the Wild - The Champions' Ballad"
+completed = false
 +++
-### Additional Content
-
-
-❌ The Legend of Zelda: Breath of the Wild - The Master Trials
-
-❌ The Legend of Zelda: Breath of the Wild - The Champions' Ballad

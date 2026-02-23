@@ -17,10 +17,10 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coaeo
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coaeoe.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Monument Valley: Ida's Dream"
+completed = false
+[[extra.additional_content]]
+name = "Monument Valley: Forgotten Shores"
+completed = false
 +++
-### Additional Content
-
-
-❌ Monument Valley: Ida's Dream
-
-❌ Monument Valley: Forgotten Shores

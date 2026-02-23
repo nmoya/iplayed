@@ -17,8 +17,7 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co9vo
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co9voo.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Doodle Devil: Pack"
+completed = false
 +++
-### Additional Content
-
-
-❌ Doodle Devil: Pack

@@ -17,16 +17,19 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co25x
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co25xx.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Star Wars: The Force Unleashed - Tatooine Mission Pack"
+completed = false
+[[extra.additional_content]]
+name = "Star Wars: The Force Unleashed - Character Pack 2"
+completed = false
+[[extra.additional_content]]
+name = "Star Wars: The Force Unleashed - Character Pack 1"
+completed = false
+[[extra.additional_content]]
+name = "Star Wars: The Force Unleashed - Jedi Temple Mission Pack"
+completed = false
+[[extra.additional_content]]
+name = "Star Wars: The Force Unleashed - Hoth Mission Pack"
+completed = false
 +++
-### Additional Content
-
-
-❌ Star Wars: The Force Unleashed - Tatooine Mission Pack
-
-❌ Star Wars: The Force Unleashed - Character Pack 2
-
-❌ Star Wars: The Force Unleashed - Character Pack 1
-
-❌ Star Wars: The Force Unleashed - Jedi Temple Mission Pack
-
-❌ Star Wars: The Force Unleashed - Hoth Mission Pack

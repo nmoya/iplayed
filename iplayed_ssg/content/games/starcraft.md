@@ -17,8 +17,7 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co9n6
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co9n6m.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "StarCraft: Precursor"
+completed = false
 +++
-### Additional Content
-
-
-❌ StarCraft: Precursor

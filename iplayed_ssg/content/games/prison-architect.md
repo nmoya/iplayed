@@ -17,30 +17,40 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co62c
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co62ch.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Prison Architect: Cleared for Transfer"
+completed = false
+[[extra.additional_content]]
+name = "Prison Architect: Undead"
+completed = false
+[[extra.additional_content]]
+name = "Prison Architect: Escape Mode"
+completed = false
+[[extra.additional_content]]
+name = "Prison Architect: Free for life"
+completed = false
+[[extra.additional_content]]
+name = "Prison Architect: Second Chances"
+completed = false
+[[extra.additional_content]]
+name = "Prison Architect: Island Bound"
+completed = false
+[[extra.additional_content]]
+name = "Prison Architect: Perfect Storm"
+completed = false
+[[extra.additional_content]]
+name = "Prison Architect: All Day and a Night"
+completed = false
+[[extra.additional_content]]
+name = "Prison Architect: Gangs"
+completed = false
+[[extra.additional_content]]
+name = "Prison Architect: Going Green"
+completed = false
+[[extra.additional_content]]
+name = "Prison Architect: Psych Ward - Warden's Edition"
+completed = false
+[[extra.additional_content]]
+name = "Prison Architect: Aficionado"
+completed = false
 +++
-### Additional Content
-
-
-❌ Prison Architect: Cleared for Transfer
-
-❌ Prison Architect: Undead
-
-❌ Prison Architect: Escape Mode
-
-❌ Prison Architect: Free for life
-
-❌ Prison Architect: Second Chances
-
-❌ Prison Architect: Island Bound
-
-❌ Prison Architect: Perfect Storm
-
-❌ Prison Architect: All Day and a Night
-
-❌ Prison Architect: Gangs
-
-❌ Prison Architect: Going Green
-
-❌ Prison Architect: Psych Ward - Warden's Edition
-
-❌ Prison Architect: Aficionado

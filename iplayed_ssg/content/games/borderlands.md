@@ -17,14 +17,16 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co20t
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co20tx.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Borderlands: The Zombie Island of Dr. Ned"
+completed = false
+[[extra.additional_content]]
+name = "Borderlands: Mad Moxxi's Underdome Riot"
+completed = false
+[[extra.additional_content]]
+name = "Borderlands: The Secret Armory of General Knoxx"
+completed = false
+[[extra.additional_content]]
+name = "Borderlands: Claptrap's New Robot Revolution"
+completed = false
 +++
-### Additional Content
-
-
-❌ Borderlands: The Zombie Island of Dr. Ned
-
-❌ Borderlands: Mad Moxxi's Underdome Riot
-
-❌ Borderlands: The Secret Armory of General Knoxx
-
-❌ Borderlands: Claptrap's New Robot Revolution

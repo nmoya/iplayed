@@ -17,24 +17,31 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1yn
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ynm.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Railway Empire: France"
+completed = false
+[[extra.additional_content]]
+name = "Railway Empire: Down Under"
+completed = false
+[[extra.additional_content]]
+name = "Railway Empire: Crossing the Andes"
+completed = false
+[[extra.additional_content]]
+name = "Railway Empire: The Great Lakes"
+completed = false
+[[extra.additional_content]]
+name = "Railway Empire: Northern Europe"
+completed = false
+[[extra.additional_content]]
+name = "Railway Empire: Japan"
+completed = false
+[[extra.additional_content]]
+name = "Railway Empire: Germany"
+completed = false
+[[extra.additional_content]]
+name = "Railway Empire: Mexico"
+completed = false
+[[extra.additional_content]]
+name = "Railway Empire: Great Britain & Ireland"
+completed = false
 +++
-### Additional Content
-
-
-❌ Railway Empire: France
-
-❌ Railway Empire: Down Under
-
-❌ Railway Empire: Crossing the Andes
-
-❌ Railway Empire: The Great Lakes
-
-❌ Railway Empire: Northern Europe
-
-❌ Railway Empire: Japan
-
-❌ Railway Empire: Germany
-
-❌ Railway Empire: Mexico
-
-❌ Railway Empire: Great Britain & Ireland

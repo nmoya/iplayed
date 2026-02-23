@@ -17,28 +17,37 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coavu
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coavu6.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "The Sims 3: Aurora Skies"
+completed = false
+[[extra.additional_content]]
+name = "The Sims 3: Sunlit Tides"
+completed = false
+[[extra.additional_content]]
+name = "The Sims 3: Barnacle Bay"
+completed = false
+[[extra.additional_content]]
+name = "The Sims 3: Midnight Hollow"
+completed = false
+[[extra.additional_content]]
+name = "The Sims 3: Monte Vista"
+completed = false
+[[extra.additional_content]]
+name = "The Sims 3: Dragon Valley"
+completed = false
+[[extra.additional_content]]
+name = "The Sims 3: Roaring Heights"
+completed = false
+[[extra.additional_content]]
+name = "The Sims 3: Riverview"
+completed = false
+[[extra.additional_content]]
+name = "The Sims 3: Lunar Lakes"
+completed = false
+[[extra.additional_content]]
+name = "The Sims 3: Hidden Springs"
+completed = false
+[[extra.additional_content]]
+name = "The Sims 3: Lucky Palms"
+completed = false
 +++
-### Additional Content
-
-
-❌ The Sims 3: Aurora Skies
-
-❌ The Sims 3: Sunlit Tides
-
-❌ The Sims 3: Barnacle Bay
-
-❌ The Sims 3: Midnight Hollow
-
-❌ The Sims 3: Monte Vista
-
-❌ The Sims 3: Dragon Valley
-
-❌ The Sims 3: Roaring Heights
-
-❌ The Sims 3: Riverview
-
-❌ The Sims 3: Lunar Lakes
-
-❌ The Sims 3: Hidden Springs
-
-❌ The Sims 3: Lucky Palms

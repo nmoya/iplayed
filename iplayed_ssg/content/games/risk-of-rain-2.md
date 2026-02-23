@@ -17,8 +17,7 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coaav
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coaavb.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Risk of Rain 2: EXXXXXXX-X"
+completed = false
 +++
-### Additional Content
-
-
-❌ Risk of Rain 2: EXXXXXXX-X

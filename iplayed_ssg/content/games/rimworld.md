@@ -17,12 +17,13 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coaaq
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coaaqj.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "RimWorld: Ideology"
+completed = false
+[[extra.additional_content]]
+name = "RimWorld: Royalty"
+completed = false
+[[extra.additional_content]]
+name = "RimWorld: Biotech"
+completed = false
 +++
-### Additional Content
-
-
-❌ RimWorld: Ideology
-
-❌ RimWorld: Royalty
-
-❌ RimWorld: Biotech

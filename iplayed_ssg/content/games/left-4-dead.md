@@ -17,14 +17,16 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1qr
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qrm.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Left 4 Dead: Crash Course"
+completed = false
+[[extra.additional_content]]
+name = "Left 4 Dead: The Sacrifice"
+completed = false
+[[extra.additional_content]]
+name = "Left 4 Dead: The Survival Pack"
+completed = false
+[[extra.additional_content]]
+name = "Left 4 Dead: The Last Stand"
+completed = false
 +++
-### Additional Content
-
-
-❌ Left 4 Dead: Crash Course
-
-❌ Left 4 Dead: The Sacrifice
-
-❌ Left 4 Dead: The Survival Pack
-
-❌ Left 4 Dead: The Last Stand

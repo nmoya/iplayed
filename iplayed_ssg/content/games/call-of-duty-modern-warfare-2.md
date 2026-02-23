@@ -17,10 +17,10 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co3cw
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co3cwt.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Call of Duty: Modern Warfare 2 - Resurgence Pack"
+completed = false
+[[extra.additional_content]]
+name = "Call of Duty: Modern Warfare 2 - Stimulus Package"
+completed = false
 +++
-### Additional Content
-
-
-❌ Call of Duty: Modern Warfare 2 - Resurgence Pack
-
-❌ Call of Duty: Modern Warfare 2 - Stimulus Package

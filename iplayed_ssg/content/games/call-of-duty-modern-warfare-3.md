@@ -17,14 +17,16 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1wk
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wkn.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Call of Duty: Modern Warfare 3 - Collection 3: Chaos Pack"
+completed = false
+[[extra.additional_content]]
+name = "Call of Duty: Modern Warfare 3 - Collection 1"
+completed = false
+[[extra.additional_content]]
+name = "Call of Duty: Modern Warfare 3 - Collection 4: Final Assault"
+completed = false
+[[extra.additional_content]]
+name = "Call of Duty: Modern Warfare 3 - Collection 2"
+completed = false
 +++
-### Additional Content
-
-
-❌ Call of Duty: Modern Warfare 3 - Collection 3: Chaos Pack
-
-❌ Call of Duty: Modern Warfare 3 - Collection 1
-
-❌ Call of Duty: Modern Warfare 3 - Collection 4: Final Assault
-
-❌ Call of Duty: Modern Warfare 3 - Collection 2

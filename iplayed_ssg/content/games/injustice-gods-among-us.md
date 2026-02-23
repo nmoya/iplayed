@@ -17,44 +17,61 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co861
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co8616.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Injustice: Gods Among Us - Zombie Mode"
+completed = false
+[[extra.additional_content]]
+name = "Injustice: Gods Among Us - Zatanna"
+completed = false
+[[extra.additional_content]]
+name = "Injustice: Gods Among Us - Killing Joke Pack"
+completed = false
+[[extra.additional_content]]
+name = "Injustice: Gods Among Us - Red Son Pack 2"
+completed = false
+[[extra.additional_content]]
+name = "Injustice: Gods Among Us - Arkham City Skin Pack"
+completed = false
+[[extra.additional_content]]
+name = "Injustice: Gods Among Us - The Man of Steel: Zod"
+completed = false
+[[extra.additional_content]]
+name = "Injustice: Gods Among Us - Ame-Comi Skins"
+completed = false
+[[extra.additional_content]]
+name = "Injustice: Gods Among Us - The Man of Steel Pack: Superman"
+completed = false
+[[extra.additional_content]]
+name = "Injustice: Gods Among Us - Red Son Pack"
+completed = false
+[[extra.additional_content]]
+name = "Injustice: Gods Among Us - Scorpion"
+completed = false
+[[extra.additional_content]]
+name = "Injustice: Gods Among Us - Flashpoint Skin Pack"
+completed = false
+[[extra.additional_content]]
+name = "Injustice: Gods Among Us - Batgirl"
+completed = false
+[[extra.additional_content]]
+name = "Injustice: Gods Among Us - Lobo"
+completed = false
+[[extra.additional_content]]
+name = "Injustice: Gods Among Us - General Zod"
+completed = false
+[[extra.additional_content]]
+name = "Injustice: Gods Among Us - Teen Titans Skins"
+completed = false
+[[extra.additional_content]]
+name = "Injustice: Gods Among Us - Blackest Night Pack 2"
+completed = false
+[[extra.additional_content]]
+name = "Injustice: Gods Among Us - Martian Manhunter"
+completed = false
+[[extra.additional_content]]
+name = "Injustice: Gods Among Us - Bad Girls Skins"
+completed = false
+[[extra.additional_content]]
+name = "Injustice: Gods Among Us - Blackest Night Pack 1"
+completed = false
 +++
-### Additional Content
-
-
-❌ Injustice: Gods Among Us - Zombie Mode
-
-❌ Injustice: Gods Among Us - Zatanna
-
-❌ Injustice: Gods Among Us - Killing Joke Pack
-
-❌ Injustice: Gods Among Us - Red Son Pack 2
-
-❌ Injustice: Gods Among Us - Arkham City Skin Pack
-
-❌ Injustice: Gods Among Us - The Man of Steel: Zod
-
-❌ Injustice: Gods Among Us - Ame-Comi Skins
-
-❌ Injustice: Gods Among Us - The Man of Steel Pack: Superman
-
-❌ Injustice: Gods Among Us - Red Son Pack
-
-❌ Injustice: Gods Among Us - Scorpion
-
-❌ Injustice: Gods Among Us - Flashpoint Skin Pack
-
-❌ Injustice: Gods Among Us - Batgirl
-
-❌ Injustice: Gods Among Us - Lobo
-
-❌ Injustice: Gods Among Us - General Zod
-
-❌ Injustice: Gods Among Us - Teen Titans Skins
-
-❌ Injustice: Gods Among Us - Blackest Night Pack 2
-
-❌ Injustice: Gods Among Us - Martian Manhunter
-
-❌ Injustice: Gods Among Us - Bad Girls Skins
-
-❌ Injustice: Gods Among Us - Blackest Night Pack 1

@@ -17,14 +17,16 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1y2
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1y2f.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Left 4 Dead 2: The Sacrifice"
+completed = false
+[[extra.additional_content]]
+name = "Left 4 Dead 2: Cold Stream"
+completed = false
+[[extra.additional_content]]
+name = "Left 4 Dead 2: The Passing"
+completed = false
+[[extra.additional_content]]
+name = "Left 4 Dead 2: The Last Stand"
+completed = false
 +++
-### Additional Content
-
-
-❌ Left 4 Dead 2: The Sacrifice
-
-❌ Left 4 Dead 2: Cold Stream
-
-❌ Left 4 Dead 2: The Passing
-
-❌ Left 4 Dead 2: The Last Stand

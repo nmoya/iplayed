@@ -17,8 +17,7 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1x7
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1x78.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Dark Souls: Artorias of the Abyss"
+completed = false
 +++
-### Additional Content
-
-
-❌ Dark Souls: Artorias of the Abyss

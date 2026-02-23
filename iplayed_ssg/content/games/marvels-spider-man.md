@@ -17,12 +17,13 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1r7
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r77.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Marvel's Spider-Man: The Heist"
+completed = false
+[[extra.additional_content]]
+name = "Marvel's Spider-Man: Turf Wars"
+completed = false
+[[extra.additional_content]]
+name = "Marvel's Spider-Man: Silver Lining"
+completed = false
 +++
-### Additional Content
-
-
-❌ Marvel's Spider-Man: The Heist
-
-❌ Marvel's Spider-Man: Turf Wars
-
-❌ Marvel's Spider-Man: Silver Lining

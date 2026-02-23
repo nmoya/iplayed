@@ -17,20 +17,25 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1vc
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vcn.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Shadow of the Tomb Raider: The Path Home"
+completed = false
+[[extra.additional_content]]
+name = "Shadow of the Tomb Raider: The Grand Caiman"
+completed = false
+[[extra.additional_content]]
+name = "Shadow of the Tomb Raider: The Forge"
+completed = false
+[[extra.additional_content]]
+name = "Shadow of the Tomb Raider: The Price of Survival"
+completed = false
+[[extra.additional_content]]
+name = "Shadow of the Tomb Raider: The Nightmare"
+completed = false
+[[extra.additional_content]]
+name = "Shadow of the Tomb Raider: The Pillar"
+completed = false
+[[extra.additional_content]]
+name = "Shadow of the Tomb Raider: The Serpent's Heart"
+completed = false
 +++
-### Additional Content
-
-
-❌ Shadow of the Tomb Raider: The Path Home
-
-❌ Shadow of the Tomb Raider: The Grand Caiman
-
-❌ Shadow of the Tomb Raider: The Forge
-
-❌ Shadow of the Tomb Raider: The Price of Survival
-
-❌ Shadow of the Tomb Raider: The Nightmare
-
-❌ Shadow of the Tomb Raider: The Pillar
-
-❌ Shadow of the Tomb Raider: The Serpent's Heart

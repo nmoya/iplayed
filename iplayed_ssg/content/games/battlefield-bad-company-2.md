@@ -17,10 +17,10 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1xb
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xbi.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Battlefield: Bad Company 2 - Onslaught"
+completed = false
+[[extra.additional_content]]
+name = "Battlefield: Bad Company 2 - Specact Kit Upgrade"
+completed = false
 +++
-### Additional Content
-
-
-❌ Battlefield: Bad Company 2 - Onslaught
-
-❌ Battlefield: Bad Company 2 - Specact Kit Upgrade

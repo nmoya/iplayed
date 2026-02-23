@@ -17,8 +17,7 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1rb
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rbv.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Streets of Rogue: Character Pack Edition"
+completed = false
 +++
-### Additional Content
-
-
-❌ Streets of Rogue: Character Pack Edition

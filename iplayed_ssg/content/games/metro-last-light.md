@@ -17,12 +17,13 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2h9
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2h9d.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Metro: Last Light - Tower Pack"
+completed = false
+[[extra.additional_content]]
+name = "Metro: Last Light - Chronicles Pack"
+completed = false
+[[extra.additional_content]]
+name = "Metro: Last Light - Faction Pack"
+completed = false
 +++
-### Additional Content
-
-
-❌ Metro: Last Light - Tower Pack
-
-❌ Metro: Last Light - Chronicles Pack
-
-❌ Metro: Last Light - Faction Pack

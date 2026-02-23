@@ -17,10 +17,10 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2iw
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2iw2.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Children of Morta: Ancient Spirits"
+completed = false
+[[extra.additional_content]]
+name = "Children of Morta: Paws and Claws"
+completed = false
 +++
-### Additional Content
-
-
-❌ Children of Morta: Ancient Spirits
-
-❌ Children of Morta: Paws and Claws

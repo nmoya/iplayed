@@ -17,10 +17,10 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2f1
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2f1v.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Duke Nukem Forever: Hail to the Icons Parody Pack"
+completed = false
+[[extra.additional_content]]
+name = "Duke Nukem Forever: The Doctor Who Cloned Me"
+completed = false
 +++
-### Additional Content
-
-
-❌ Duke Nukem Forever: Hail to the Icons Parody Pack
-
-❌ Duke Nukem Forever: The Doctor Who Cloned Me

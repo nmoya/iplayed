@@ -17,10 +17,10 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1rs
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rs4.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Portal 2: In Motion"
+completed = false
+[[extra.additional_content]]
+name = "Portal 2: Peer Review"
+completed = false
 +++
-### Additional Content
-
-
-❌ Portal 2: In Motion
-
-❌ Portal 2: Peer Review

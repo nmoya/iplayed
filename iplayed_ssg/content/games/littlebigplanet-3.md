@@ -17,8 +17,7 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co3t1
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co3t1c.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "LittleBigPlanet 3: The Journey Home"
+completed = false
 +++
-### Additional Content
-
-
-❌ LittleBigPlanet 3: The Journey Home

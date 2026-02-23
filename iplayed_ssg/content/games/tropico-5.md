@@ -17,32 +17,43 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2ac
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2acd.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Tropico 5: Map Pack"
+completed = false
+[[extra.additional_content]]
+name = "Tropico 5: T-Day"
+completed = false
+[[extra.additional_content]]
+name = "Tropico 5: Joint Venture"
+completed = false
+[[extra.additional_content]]
+name = "Tropico 5: The Supercomputer"
+completed = false
+[[extra.additional_content]]
+name = "Tropico 5: Supervillain"
+completed = false
+[[extra.additional_content]]
+name = "Tropico 5: Epic Meltdown"
+completed = false
+[[extra.additional_content]]
+name = "Tropico 5: Gone Green"
+completed = false
+[[extra.additional_content]]
+name = "Tropico 5: Surfs Up!"
+completed = false
+[[extra.additional_content]]
+name = "Tropico 5: Mad World"
+completed = false
+[[extra.additional_content]]
+name = "Tropico 5: The Big Cheese"
+completed = false
+[[extra.additional_content]]
+name = "Tropico 5: Generalissimo"
+completed = false
+[[extra.additional_content]]
+name = "Tropico 5: Inquisition"
+completed = false
+[[extra.additional_content]]
+name = "Tropico 5: Paradise Lost"
+completed = false
 +++
-### Additional Content
-
-
-❌ Tropico 5: Map Pack
-
-❌ Tropico 5: T-Day
-
-❌ Tropico 5: Joint Venture
-
-❌ Tropico 5: The Supercomputer
-
-❌ Tropico 5: Supervillain
-
-❌ Tropico 5: Epic Meltdown
-
-❌ Tropico 5: Gone Green
-
-❌ Tropico 5: Surfs Up!
-
-❌ Tropico 5: Mad World
-
-❌ Tropico 5: The Big Cheese
-
-❌ Tropico 5: Generalissimo
-
-❌ Tropico 5: Inquisition
-
-❌ Tropico 5: Paradise Lost

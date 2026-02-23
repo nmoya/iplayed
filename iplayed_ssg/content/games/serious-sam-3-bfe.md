@@ -17,8 +17,7 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2hd
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2hd4.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Serious Sam 3: Jewel of the Nile"
+completed = false
 +++
-### Additional Content
-
-
-❌ Serious Sam 3: Jewel of the Nile

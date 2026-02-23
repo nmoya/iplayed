@@ -17,12 +17,13 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co21a
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co21a6.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Far Cry 5: Lost on Mars"
+completed = false
+[[extra.additional_content]]
+name = "Far Cry 5: Dead Living Zombies"
+completed = false
+[[extra.additional_content]]
+name = "Far Cry 5: Hours of Darkness"
+completed = false
 +++
-### Additional Content
-
-
-❌ Far Cry 5: Lost on Mars
-
-❌ Far Cry 5: Dead Living Zombies
-
-❌ Far Cry 5: Hours of Darkness

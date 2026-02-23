@@ -17,12 +17,13 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co65y
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co65yq.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Dying Light: Hellraid"
+completed = false
+[[extra.additional_content]]
+name = "Dying Light: Bozak Horde"
+completed = false
+[[extra.additional_content]]
+name = "Dying Light: Cuisine & Cargo"
+completed = false
 +++
-### Additional Content
-
-
-❌ Dying Light: Hellraid
-
-❌ Dying Light: Bozak Horde
-
-❌ Dying Light: Cuisine & Cargo

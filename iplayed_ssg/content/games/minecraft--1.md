@@ -17,8 +17,7 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co8fu
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co8fu7.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Minecraft: Cybersafe AI: Dig Deeper"
+completed = false
 +++
-### Additional Content
-
-
-❌ Minecraft: Cybersafe AI: Dig Deeper

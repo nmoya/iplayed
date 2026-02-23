@@ -17,4 +17,5 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co5ei
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co5ei5.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+additional_content = []
 +++

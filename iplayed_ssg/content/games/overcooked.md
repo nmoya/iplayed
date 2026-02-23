@@ -17,10 +17,10 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co262
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co262g.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Overcooked!: The Festive Seasoning"
+completed = false
+[[extra.additional_content]]
+name = "Overcooked!: The Lost Morsel"
+completed = false
 +++
-### Additional Content
-
-
-❌ Overcooked!: The Festive Seasoning
-
-❌ Overcooked!: The Lost Morsel

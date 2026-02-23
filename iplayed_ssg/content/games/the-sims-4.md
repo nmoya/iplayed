@@ -17,42 +17,58 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co3h3
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co3h3l.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "The Sims 4: Realm of Magic"
+completed = false
+[[extra.additional_content]]
+name = "The Sims 4: Paranormal Stuff"
+completed = false
+[[extra.additional_content]]
+name = "The Sims 4: Nifty Knitting Stuff"
+completed = false
+[[extra.additional_content]]
+name = "The Sims 4: Tiny Living Stuff"
+completed = false
+[[extra.additional_content]]
+name = "The Sims 4: Home Chef Hustle Stuff Pack"
+completed = false
+[[extra.additional_content]]
+name = "The Sims 4: Crystal Creations"
+completed = false
+[[extra.additional_content]]
+name = "The Sims 4: Dream Home Decorator"
+completed = false
+[[extra.additional_content]]
+name = "The Sims 4: Parenthood"
+completed = false
+[[extra.additional_content]]
+name = "The Sims 4: Spa Day"
+completed = false
+[[extra.additional_content]]
+name = "The Sims 4: Dine Out"
+completed = true
+[[extra.additional_content]]
+name = "The Sims 4: Fitness Stuff"
+completed = false
+[[extra.additional_content]]
+name = "The Sims 4: Werewolves"
+completed = false
+[[extra.additional_content]]
+name = "The Sims 4: Vampires"
+completed = false
+[[extra.additional_content]]
+name = "The Sims 4: Outdoor Retreat"
+completed = true
+[[extra.additional_content]]
+name = "The Sims 4: StrangerVille"
+completed = false
+[[extra.additional_content]]
+name = "The Sims 4: Journey to Batuu"
+completed = false
+[[extra.additional_content]]
+name = "The Sims 4: My Wedding Stories"
+completed = false
+[[extra.additional_content]]
+name = "The Sims 4: Jungle Adventure"
+completed = false
 +++
-### Additional Content
-
-
-❌ The Sims 4: Realm of Magic
-
-❌ The Sims 4: Paranormal Stuff
-
-❌ The Sims 4: Nifty Knitting Stuff
-
-❌ The Sims 4: Tiny Living Stuff
-
-❌ The Sims 4: Home Chef Hustle Stuff Pack
-
-❌ The Sims 4: Crystal Creations
-
-❌ The Sims 4: Dream Home Decorator
-
-❌ The Sims 4: Parenthood
-
-❌ The Sims 4: Spa Day
-
-✅ The Sims 4: Dine Out
-
-❌ The Sims 4: Fitness Stuff
-
-❌ The Sims 4: Werewolves
-
-❌ The Sims 4: Vampires
-
-✅ The Sims 4: Outdoor Retreat
-
-❌ The Sims 4: StrangerVille
-
-❌ The Sims 4: Journey to Batuu
-
-❌ The Sims 4: My Wedding Stories
-
-❌ The Sims 4: Jungle Adventure

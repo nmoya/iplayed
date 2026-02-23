@@ -17,12 +17,13 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1xi
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xii.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Assassin's Creed III: The Hidden Secrets Pack"
+completed = false
+[[extra.additional_content]]
+name = "Assassin's Creed III: Benedict Arnold"
+completed = false
+[[extra.additional_content]]
+name = "Assassin's Creed III: The Tyranny of King Washington"
+completed = false
 +++
-### Additional Content
-
-
-❌ Assassin's Creed III: The Hidden Secrets Pack
-
-❌ Assassin's Creed III: Benedict Arnold
-
-❌ Assassin's Creed III: The Tyranny of King Washington

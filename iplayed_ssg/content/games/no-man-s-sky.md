@@ -17,8 +17,7 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coacr
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coacrk.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "No Man's Sky: Starborn Phoenix Ship"
+completed = false
 +++
-### Additional Content
-
-
-❌ No Man's Sky: Starborn Phoenix Ship

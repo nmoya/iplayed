@@ -17,10 +17,10 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co4p0
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co4p0f.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "LittleBigPlanet: Metal Gear Solid Level Kit"
+completed = false
+[[extra.additional_content]]
+name = "LittleBigPlanet: Pirates of the Caribbean Level Kit"
+completed = false
 +++
-### Additional Content
-
-
-❌ LittleBigPlanet: Metal Gear Solid Level Kit
-
-❌ LittleBigPlanet: Pirates of the Caribbean Level Kit

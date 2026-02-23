@@ -17,16 +17,19 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co6nz
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co6nz1.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Final Fantasy XV: Episode Gladiolus"
+completed = false
+[[extra.additional_content]]
+name = "Final Fantasy XV: Assassin's Festival"
+completed = false
+[[extra.additional_content]]
+name = "Final Fantasy XV: Episode Ignis"
+completed = false
+[[extra.additional_content]]
+name = "Final Fantasy XV: Episode Ardyn"
+completed = false
+[[extra.additional_content]]
+name = "Final Fantasy XV: Episode Prompto"
+completed = false
 +++
-### Additional Content
-
-
-❌ Final Fantasy XV: Episode Gladiolus
-
-❌ Final Fantasy XV: Assassin's Festival
-
-❌ Final Fantasy XV: Episode Ignis
-
-❌ Final Fantasy XV: Episode Ardyn
-
-❌ Final Fantasy XV: Episode Prompto

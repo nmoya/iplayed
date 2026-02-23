@@ -17,8 +17,7 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co62a
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co62ao.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Cuphead: The Delicious Last Course"
+completed = false
 +++
-### Additional Content
-
-
-❌ Cuphead: The Delicious Last Course

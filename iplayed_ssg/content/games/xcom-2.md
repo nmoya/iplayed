@@ -17,12 +17,13 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1mv
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1mvj.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "XCOM 2: Shen's Last Gift"
+completed = false
+[[extra.additional_content]]
+name = "XCOM 2: Anarchy's Children"
+completed = false
+[[extra.additional_content]]
+name = "XCOM 2: Alien Hunters"
+completed = false
 +++
-### Additional Content
-
-
-❌ XCOM 2: Shen's Last Gift
-
-❌ XCOM 2: Anarchy's Children
-
-❌ XCOM 2: Alien Hunters

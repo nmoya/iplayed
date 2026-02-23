@@ -17,14 +17,16 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2lc
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lcv.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Red Dead Redemption: Myths and Mavericks"
+completed = false
+[[extra.additional_content]]
+name = "Red Dead Redemption: Outlaws to the End"
+completed = false
+[[extra.additional_content]]
+name = "Red Dead Redemption: Legends and Killers"
+completed = false
+[[extra.additional_content]]
+name = "Red Dead Redemption: Liars and Cheats"
+completed = false
 +++
-### Additional Content
-
-
-❌ Red Dead Redemption: Myths and Mavericks
-
-❌ Red Dead Redemption: Outlaws to the End
-
-❌ Red Dead Redemption: Legends and Killers
-
-❌ Red Dead Redemption: Liars and Cheats

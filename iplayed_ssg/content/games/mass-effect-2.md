@@ -17,24 +17,31 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co20a
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co20ac.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Mass Effect 2: Arrival"
+completed = false
+[[extra.additional_content]]
+name = "Mass Effect 2: Cerberus Network"
+completed = false
+[[extra.additional_content]]
+name = "Mass Effect: Genesis"
+completed = false
+[[extra.additional_content]]
+name = "Mass Effect 2: Zaeed - The Price of Revenge"
+completed = false
+[[extra.additional_content]]
+name = "Mass Effect 2: Firewalker Pack"
+completed = false
+[[extra.additional_content]]
+name = "Mass Effect 2: Kasumi - Stolen Memory"
+completed = false
+[[extra.additional_content]]
+name = "Mass Effect 2: Normandy Crash Site"
+completed = false
+[[extra.additional_content]]
+name = "Mass Effect 2: Lair of the Shadow Broker"
+completed = false
+[[extra.additional_content]]
+name = "Mass Effect 2: Overlord"
+completed = false
 +++
-### Additional Content
-
-
-❌ Mass Effect 2: Arrival
-
-❌ Mass Effect 2: Cerberus Network
-
-❌ Mass Effect: Genesis
-
-❌ Mass Effect 2: Zaeed - The Price of Revenge
-
-❌ Mass Effect 2: Firewalker Pack
-
-❌ Mass Effect 2: Kasumi - Stolen Memory
-
-❌ Mass Effect 2: Normandy Crash Site
-
-❌ Mass Effect 2: Lair of the Shadow Broker
-
-❌ Mass Effect 2: Overlord

@@ -17,14 +17,16 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2np
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2npg.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Far Cry 6: Insanity"
+completed = false
+[[extra.additional_content]]
+name = "Far Cry 6: Collapse"
+completed = false
+[[extra.additional_content]]
+name = "Far Cry 6: Control"
+completed = false
+[[extra.additional_content]]
+name = "Far Cry 6: Danny & Dani Vs. Everybody"
+completed = false
 +++
-### Additional Content
-
-
-❌ Far Cry 6: Insanity
-
-❌ Far Cry 6: Collapse
-
-❌ Far Cry 6: Control
-
-❌ Far Cry 6: Danny & Dani Vs. Everybody

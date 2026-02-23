@@ -17,52 +17,73 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1qg
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qgc.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Dungeon Defenders: Anniversary Pack"
+completed = false
+[[extra.additional_content]]
+name = "Dungeon Defenders: Quest for the Lost Eternia Shards Part 3"
+completed = false
+[[extra.additional_content]]
+name = "Dungeon Defenders: President's Day Surprise"
+completed = false
+[[extra.additional_content]]
+name = "Dungeon Defenders: The Great Turkey Hunt! Mission & Costumes"
+completed = false
+[[extra.additional_content]]
+name = "Dungeon Defenders: Warping Core Challenge Mission Pack"
+completed = false
+[[extra.additional_content]]
+name = "Dungeon Defenders: The Tinkerer's Lab Mission Pack"
+completed = false
+[[extra.additional_content]]
+name = "Dungeon Defenders: Etherian Festival of Love"
+completed = false
+[[extra.additional_content]]
+name = "Dungeon Defenders: Jester Hero DLC"
+completed = false
+[[extra.additional_content]]
+name = "Dungeon Defenders: Talay Mining Complex Mission Pack"
+completed = false
+[[extra.additional_content]]
+name = "Dungeon Defenders: Quest for the Lost Eternia Shards Part 1"
+completed = false
+[[extra.additional_content]]
+name = "Dungeon Defenders: Quest for the Lost Eternia Shards Part 4"
+completed = false
+[[extra.additional_content]]
+name = "Dungeon Defenders: Series EV Hero DLC"
+completed = false
+[[extra.additional_content]]
+name = "Dungeon Defenders: Summoner Hero DLC"
+completed = false
+[[extra.additional_content]]
+name = "Dungeon Defenders: Barbarian Hero DLC"
+completed = false
+[[extra.additional_content]]
+name = "Dungeon Defenders: New Heroes DLC"
+completed = false
+[[extra.additional_content]]
+name = "Dungeon Defenders: Quest for the Lost Eternia Shards Part 2"
+completed = false
+[[extra.additional_content]]
+name = "Dungeon Defenders: Etherian Holiday Extravaganza"
+completed = false
+[[extra.additional_content]]
+name = "Dungeon Defenders: Hermit Hero"
+completed = false
+[[extra.additional_content]]
+name = "Dungeon Defenders: Warden Hero DLC"
+completed = false
+[[extra.additional_content]]
+name = "Dungeon Defenders: City in the Cliffs Mission Pack"
+completed = false
+[[extra.additional_content]]
+name = "Dungeon Defenders: Karathiki Jungle Mission Pack"
+completed = false
+[[extra.additional_content]]
+name = "Dungeon Defenders: Halloween Mission Pack"
+completed = false
+[[extra.additional_content]]
+name = "Dungeon Defenders: Assault Mission Pack"
+completed = false
 +++
-### Additional Content
-
-
-❌ Dungeon Defenders: Anniversary Pack
-
-❌ Dungeon Defenders: Quest for the Lost Eternia Shards Part 3
-
-❌ Dungeon Defenders: President's Day Surprise
-
-❌ Dungeon Defenders: The Great Turkey Hunt! Mission & Costumes
-
-❌ Dungeon Defenders: Warping Core Challenge Mission Pack
-
-❌ Dungeon Defenders: The Tinkerer's Lab Mission Pack
-
-❌ Dungeon Defenders: Etherian Festival of Love
-
-❌ Dungeon Defenders: Jester Hero DLC
-
-❌ Dungeon Defenders: Talay Mining Complex Mission Pack
-
-❌ Dungeon Defenders: Quest for the Lost Eternia Shards Part 1
-
-❌ Dungeon Defenders: Quest for the Lost Eternia Shards Part 4
-
-❌ Dungeon Defenders: Series EV Hero DLC
-
-❌ Dungeon Defenders: Summoner Hero DLC
-
-❌ Dungeon Defenders: Barbarian Hero DLC
-
-❌ Dungeon Defenders: New Heroes DLC
-
-❌ Dungeon Defenders: Quest for the Lost Eternia Shards Part 2
-
-❌ Dungeon Defenders: Etherian Holiday Extravaganza
-
-❌ Dungeon Defenders: Hermit Hero
-
-❌ Dungeon Defenders: Warden Hero DLC
-
-❌ Dungeon Defenders: City in the Cliffs Mission Pack
-
-❌ Dungeon Defenders: Karathiki Jungle Mission Pack
-
-❌ Dungeon Defenders: Halloween Mission Pack
-
-❌ Dungeon Defenders: Assault Mission Pack

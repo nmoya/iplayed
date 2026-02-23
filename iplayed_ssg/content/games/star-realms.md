@@ -17,38 +17,52 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1xd
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xdw.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Star Realms: Cosmic Gambit"
+completed = false
+[[extra.additional_content]]
+name = "Star Realms: Command Decks"
+completed = false
+[[extra.additional_content]]
+name = "Star Realms: Full Version"
+completed = false
+[[extra.additional_content]]
+name = "Star Realms: Fleets and Fortresses"
+completed = false
+[[extra.additional_content]]
+name = "Star Realms: Stellar Allies"
+completed = false
+[[extra.additional_content]]
+name = "Star Realms: Frontiers Events"
+completed = false
+[[extra.additional_content]]
+name = "Star Realms: United - Heroes"
+completed = false
+[[extra.additional_content]]
+name = "Star Realms: Frontiers"
+completed = false
+[[extra.additional_content]]
+name = "Star Realms: United - Missions"
+completed = false
+[[extra.additional_content]]
+name = "Star Realms: Command"
+completed = false
+[[extra.additional_content]]
+name = "Star Realms: Heroes"
+completed = false
+[[extra.additional_content]]
+name = "Star Realms: Colony Wars"
+completed = false
+[[extra.additional_content]]
+name = "Star Realms: Frontiers Promos"
+completed = false
+[[extra.additional_content]]
+name = "Star Realms: Bases and Battleships"
+completed = false
+[[extra.additional_content]]
+name = "Star Realms: United - Assault"
+completed = false
+[[extra.additional_content]]
+name = "Star Realms: High Alert - Invasion"
+completed = false
 +++
-### Additional Content
-
-
-❌ Star Realms: Cosmic Gambit
-
-❌ Star Realms: Command Decks
-
-❌ Star Realms: Full Version
-
-❌ Star Realms: Fleets and Fortresses
-
-❌ Star Realms: Stellar Allies
-
-❌ Star Realms: Frontiers Events
-
-❌ Star Realms: United - Heroes
-
-❌ Star Realms: Frontiers
-
-❌ Star Realms: United - Missions
-
-❌ Star Realms: Command
-
-❌ Star Realms: Heroes
-
-❌ Star Realms: Colony Wars
-
-❌ Star Realms: Frontiers Promos
-
-❌ Star Realms: Bases and Battleships
-
-❌ Star Realms: United - Assault
-
-❌ Star Realms: High Alert - Invasion

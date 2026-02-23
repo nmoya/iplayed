@@ -23,6 +23,8 @@
 {%- set playtime = page.extra.playtime | default(value="") -%}
 {%- set all_achievements_unlocked = page.extra.all_achievements_unlocked | default(value=false) -%}
 {%- set backseat_mode = page.extra.backseat_mode | default(value=page.extra.backseat_gaming | default(value=false)) -%}
+{%- set additional_content = page.extra.additional_content | default(value=[]) -%}
+{%- set content_main = page.content %}
 
 <article class="post content">
   <header>
@@ -102,10 +104,35 @@
         {% endif %}
       </dl>
     </div>
+    {% if additional_content | length > 0 %}
+    <section class="additional-content" aria-label="Additional content status">
+      <h3>Additional Content</h3>
+      <ul class="addon-list">
+        {% for addon in additional_content %}
+        {% set addon_status_class = "addon-status--done" %}
+        {% if not addon.completed %}
+        {% set addon_status_class = "addon-status--pending" %}
+        {% endif %}
+        {% set addon_status_label = "" %}
+        {% if not addon.completed %}
+        {% set addon_status_label = "" %}
+        {% endif %}
+        <div class="addon-status {{ addon_status_class }}" role="status" aria-label="{{ addon_status_label }}">
+          <span class="addon-status__dot" aria-hidden="true"></span>
+          <span class="addon-status__text">{{ addon.name }}</span>
+          <span class="addon-status__state">{{ addon_status_label }}</span>
+        </div>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
   </section>
   {% endif %}
 
-  {{ page.content | safe }}
+
+
+
+  {{ content_main | safe }}
 </article>
 
 

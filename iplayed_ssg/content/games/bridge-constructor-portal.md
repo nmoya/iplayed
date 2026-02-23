@@ -17,8 +17,7 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co230
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co230j.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Bridge Constructor Portal: Portal Proficiency"
+completed = false
 +++
-### Additional Content
-
-
-❌ Bridge Constructor Portal: Portal Proficiency

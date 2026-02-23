@@ -17,20 +17,25 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co4bz
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co4bzv.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Vampire Survivors: Ante Chamber"
+completed = false
+[[extra.additional_content]]
+name = "Vampire Survivors: Emergency Meeting"
+completed = false
+[[extra.additional_content]]
+name = "Vampire Survivors: Emerald Diorama"
+completed = false
+[[extra.additional_content]]
+name = "Vampire Survivors: Ode to Castlevania"
+completed = false
+[[extra.additional_content]]
+name = "Vampire Survivors: Operation Guns"
+completed = false
+[[extra.additional_content]]
+name = "Vampire Survivors: Tides of the Foscari"
+completed = false
+[[extra.additional_content]]
+name = "Vampire Survivors: Legacy of the Moonspell"
+completed = false
 +++
-### Additional Content
-
-
-❌ Vampire Survivors: Ante Chamber
-
-❌ Vampire Survivors: Emergency Meeting
-
-❌ Vampire Survivors: Emerald Diorama
-
-❌ Vampire Survivors: Ode to Castlevania
-
-❌ Vampire Survivors: Operation Guns
-
-❌ Vampire Survivors: Tides of the Foscari
-
-❌ Vampire Survivors: Legacy of the Moonspell

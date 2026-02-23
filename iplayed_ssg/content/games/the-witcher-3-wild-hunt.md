@@ -17,16 +17,19 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coaar
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coaarl.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "The Witcher 3: Wild Hunt - New Quest 'Where the Cat and Wolf Play...'"
+completed = false
+[[extra.additional_content]]
+name = "The Witcher 3: Wild Hunt - New Quest 'Contract: Skellige's Most Wanted'"
+completed = false
+[[extra.additional_content]]
+name = "The Witcher 3: Wild Hunt - New Quest: Scavenger Hunt: Wolf School Gear"
+completed = false
+[[extra.additional_content]]
+name = "The Witcher 3: Wild Hunt - New Quest 'Fool's Gold'"
+completed = false
+[[extra.additional_content]]
+name = "The Witcher 3: Wild Hunt - New Quest 'Contract: Missing Miners'"
+completed = false
 +++
-### Additional Content
-
-
-❌ The Witcher 3: Wild Hunt - New Quest 'Where the Cat and Wolf Play...'
-
-❌ The Witcher 3: Wild Hunt - New Quest 'Contract: Skellige's Most Wanted'
-
-❌ The Witcher 3: Wild Hunt - New Quest: Scavenger Hunt: Wolf School Gear
-
-❌ The Witcher 3: Wild Hunt - New Quest 'Fool's Gold'
-
-❌ The Witcher 3: Wild Hunt - New Quest 'Contract: Missing Miners'

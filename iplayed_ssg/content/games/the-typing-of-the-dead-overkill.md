@@ -17,16 +17,19 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co3w6
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co3w65.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "The Typing of the Dead: Overkill - Silver Screen DLC"
+completed = false
+[[extra.additional_content]]
+name = "The Typing of the Dead: Overkill - Love at First Bite DLC"
+completed = false
+[[extra.additional_content]]
+name = "The Typing of the Dead: Overkill - Filth DLC"
+completed = false
+[[extra.additional_content]]
+name = "The Typing of the Dead: Overkill - Dancing with the Dead DLC"
+completed = false
+[[extra.additional_content]]
+name = "The Typing of the Dead: Overkill - Shakespeare DLC"
+completed = false
 +++
-### Additional Content
-
-
-❌ The Typing of the Dead: Overkill - Silver Screen DLC
-
-❌ The Typing of the Dead: Overkill - Love at First Bite DLC
-
-❌ The Typing of the Dead: Overkill - Filth DLC
-
-❌ The Typing of the Dead: Overkill - Dancing with the Dead DLC
-
-❌ The Typing of the Dead: Overkill - Shakespeare DLC

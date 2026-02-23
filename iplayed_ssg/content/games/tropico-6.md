@@ -17,24 +17,31 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1id
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1idx.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Tropico 6: Lobbyistico"
+completed = false
+[[extra.additional_content]]
+name = "Tropico 6: Tropican Shores"
+completed = false
+[[extra.additional_content]]
+name = "Tropico 6: Caribbean Skies"
+completed = false
+[[extra.additional_content]]
+name = "Tropico 6: Spitter"
+completed = false
+[[extra.additional_content]]
+name = "Tropico 6: New Frontiers"
+completed = false
+[[extra.additional_content]]
+name = "Tropico 6: The Llama of Wall Street"
+completed = false
+[[extra.additional_content]]
+name = "Tropico 6: Going Viral"
+completed = false
+[[extra.additional_content]]
+name = "Tropico 6: Festival"
+completed = false
+[[extra.additional_content]]
+name = "Tropico 6: Return to Nature"
+completed = false
 +++
-### Additional Content
-
-
-❌ Tropico 6: Lobbyistico
-
-❌ Tropico 6: Tropican Shores
-
-❌ Tropico 6: Caribbean Skies
-
-❌ Tropico 6: Spitter
-
-❌ Tropico 6: New Frontiers
-
-❌ Tropico 6: The Llama of Wall Street
-
-❌ Tropico 6: Going Viral
-
-❌ Tropico 6: Festival
-
-❌ Tropico 6: Return to Nature

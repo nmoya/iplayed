@@ -17,10 +17,10 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co28o
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co28oa.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Dante's Inferno: Trials of St. Lucia"
+completed = false
+[[extra.additional_content]]
+name = "Dante's Inferno: Dark Forest Pack"
+completed = false
 +++
-### Additional Content
-
-
-❌ Dante's Inferno: Trials of St. Lucia
-
-❌ Dante's Inferno: Dark Forest Pack

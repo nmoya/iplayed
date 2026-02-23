@@ -17,28 +17,37 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co9ba
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co9ba3.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Borderlands 2: Sir Hammerlock vs. the Son of Crawmerax"
+completed = false
+[[extra.additional_content]]
+name = "Borderlands 2: Captain Scarlett and Her Pirate's Booty"
+completed = false
+[[extra.additional_content]]
+name = "Borderlands 2: Mad Moxxi and the Wedding Day Massacre"
+completed = false
+[[extra.additional_content]]
+name = "Borderlands 2: Creature Slaughterdome"
+completed = false
+[[extra.additional_content]]
+name = "Borderlands 2: T.K. Baha's Bloody Harvest"
+completed = false
+[[extra.additional_content]]
+name = "Borderlands 2: Commander Lilith and the Fight for Sanctuary"
+completed = false
+[[extra.additional_content]]
+name = "Borderlands 2: Tiny Tina's Assault on Dragon Keep"
+completed = false
+[[extra.additional_content]]
+name = "Borderlands 2: How Marcus Saved Mercenary Day"
+completed = false
+[[extra.additional_content]]
+name = "Borderlands 2: The Horrible Hunger of the Ravenous Wattle Gobbler"
+completed = false
+[[extra.additional_content]]
+name = "Borderlands 2: Sir Hammerlock's Big Game Hunt"
+completed = false
+[[extra.additional_content]]
+name = "Borderlands 2: Mr. Torgue's Campaign of Carnage"
+completed = false
 +++
-### Additional Content
-
-
-❌ Borderlands 2: Sir Hammerlock vs. the Son of Crawmerax
-
-❌ Borderlands 2: Captain Scarlett and Her Pirate's Booty
-
-❌ Borderlands 2: Mad Moxxi and the Wedding Day Massacre
-
-❌ Borderlands 2: Creature Slaughterdome
-
-❌ Borderlands 2: T.K. Baha's Bloody Harvest
-
-❌ Borderlands 2: Commander Lilith and the Fight for Sanctuary
-
-❌ Borderlands 2: Tiny Tina's Assault on Dragon Keep
-
-❌ Borderlands 2: How Marcus Saved Mercenary Day
-
-❌ Borderlands 2: The Horrible Hunger of the Ravenous Wattle Gobbler
-
-❌ Borderlands 2: Sir Hammerlock's Big Game Hunt
-
-❌ Borderlands 2: Mr. Torgue's Campaign of Carnage

@@ -17,16 +17,19 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2ij
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ijw.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "LittleBigPlanet 2: Muppets Premium Level Kit"
+completed = false
+[[extra.additional_content]]
+name = "LittleBigPlanet 2: Move Pack"
+completed = false
+[[extra.additional_content]]
+name = "LittleBigPlanet 2: Cross-Controller Pack"
+completed = false
+[[extra.additional_content]]
+name = "LittleBigPlanet 2 Toy Story Level Kit DLC"
+completed = false
+[[extra.additional_content]]
+name = "LittleBigPlanet 2: DC Comics Premium Level Pack"
+completed = false
 +++
-### Additional Content
-
-
-❌ LittleBigPlanet 2: Muppets Premium Level Kit
-
-❌ LittleBigPlanet 2: Move Pack
-
-❌ LittleBigPlanet 2: Cross-Controller Pack
-
-❌ LittleBigPlanet 2 Toy Story Level Kit DLC
-
-❌ LittleBigPlanet 2: DC Comics Premium Level Pack

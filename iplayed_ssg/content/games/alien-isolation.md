@@ -17,20 +17,25 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1vz
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vzu.jpg"
 all_achievements_unlocked = false
 backseat_gaming = true
+[[extra.additional_content]]
+name = "Alien: Isolation - Last Survivor"
+completed = false
+[[extra.additional_content]]
+name = "Alien: Isolation - Lost Contact"
+completed = false
+[[extra.additional_content]]
+name = "Alien: Isolation - Safe Haven"
+completed = false
+[[extra.additional_content]]
+name = "Alien: Isolation - The Trigger"
+completed = false
+[[extra.additional_content]]
+name = "Alien: Isolation - Corporate Lockdown"
+completed = false
+[[extra.additional_content]]
+name = "Alien: Isolation - Crew Expendable"
+completed = false
+[[extra.additional_content]]
+name = "Alien: Isolation - Trauma"
+completed = false
 +++
-### Additional Content
-
-
-❌ Alien: Isolation - Last Survivor
-
-❌ Alien: Isolation - Lost Contact
-
-❌ Alien: Isolation - Safe Haven
-
-❌ Alien: Isolation - The Trigger
-
-❌ Alien: Isolation - Corporate Lockdown
-
-❌ Alien: Isolation - Crew Expendable
-
-❌ Alien: Isolation - Trauma

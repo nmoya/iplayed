@@ -17,8 +17,7 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co907
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co907c.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Age of Mythology: The Golden Gift"
+completed = false
 +++
-### Additional Content
-
-
-❌ Age of Mythology: The Golden Gift

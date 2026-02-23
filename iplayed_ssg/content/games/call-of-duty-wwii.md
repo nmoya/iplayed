@@ -17,14 +17,16 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1rd
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rdj.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Call of Duty: WWII - The Resistance DLC Pack 1"
+completed = false
+[[extra.additional_content]]
+name = "Call of Duty: WWII - United Front DLC"
+completed = false
+[[extra.additional_content]]
+name = "Call of Duty: WWII - The War Machine DLC Pack 2"
+completed = false
+[[extra.additional_content]]
+name = "Call of Duty: WWII - Shadow War"
+completed = false
 +++
-### Additional Content
-
-
-❌ Call of Duty: WWII - The Resistance DLC Pack 1
-
-❌ Call of Duty: WWII - United Front DLC
-
-❌ Call of Duty: WWII - The War Machine DLC Pack 2
-
-❌ Call of Duty: WWII - Shadow War

@@ -17,22 +17,28 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co3jt
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co3jtb.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Hero Siege: Class - Shield Lancer"
+completed = false
+[[extra.additional_content]]
+name = "Hero Siege: Stormweaver"
+completed = false
+[[extra.additional_content]]
+name = "Hero Siege: Class - Butcher"
+completed = false
+[[extra.additional_content]]
+name = "Hero Siege: Class - Shaman"
+completed = false
+[[extra.additional_content]]
+name = "Hero Siege: Class - Marauder"
+completed = false
+[[extra.additional_content]]
+name = "Hero Siege: Class - Amazon"
+completed = false
+[[extra.additional_content]]
+name = "Hero Siege: Class - Samurai"
+completed = false
+[[extra.additional_content]]
+name = "Hero Siege: Wrath of Mevius"
+completed = false
 +++
-### Additional Content
-
-
-❌ Hero Siege: Class - Shield Lancer
-
-❌ Hero Siege: Stormweaver
-
-❌ Hero Siege: Class - Butcher
-
-❌ Hero Siege: Class - Shaman
-
-❌ Hero Siege: Class - Marauder
-
-❌ Hero Siege: Class - Amazon
-
-❌ Hero Siege: Class - Samurai
-
-❌ Hero Siege: Wrath of Mevius

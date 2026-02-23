@@ -17,36 +17,49 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1qr
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qru.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Magicka: The Stars are Left"
+completed = false
+[[extra.additional_content]]
+name = "Magicka: The Other Side of the Coin"
+completed = false
+[[extra.additional_content]]
+name = "Magicka: Free Jolnirs Workshop"
+completed = false
+[[extra.additional_content]]
+name = "Magicka: Party Robes"
+completed = false
+[[extra.additional_content]]
+name = "Magicka: Dungeons and Gargoyles"
+completed = false
+[[extra.additional_content]]
+name = "Magicka: The Watchtower"
+completed = false
+[[extra.additional_content]]
+name = "Magicka: Wizard's Survival Kit"
+completed = false
+[[extra.additional_content]]
+name = "Magicka: Frozen Lake"
+completed = false
+[[extra.additional_content]]
+name = "Magicka: Marshlands"
+completed = false
+[[extra.additional_content]]
+name = "Magicka: Nippon"
+completed = false
+[[extra.additional_content]]
+name = "Magicka: Dungeons and Daemons"
+completed = false
+[[extra.additional_content]]
+name = "Magicka: Final Frontier"
+completed = false
+[[extra.additional_content]]
+name = "Magicka: Grimnir's Laboratory"
+completed = false
+[[extra.additional_content]]
+name = "Magicka: Lonely Island Cruise"
+completed = false
+[[extra.additional_content]]
+name = "Magicka: Tower of Niflheim"
+completed = false
 +++
-### Additional Content
-
-
-❌ Magicka: The Stars are Left
-
-❌ Magicka: The Other Side of the Coin
-
-❌ Magicka: Free Jolnirs Workshop
-
-❌ Magicka: Party Robes
-
-❌ Magicka: Dungeons and Gargoyles
-
-❌ Magicka: The Watchtower
-
-❌ Magicka: Wizard's Survival Kit
-
-❌ Magicka: Frozen Lake
-
-❌ Magicka: Marshlands
-
-❌ Magicka: Nippon
-
-❌ Magicka: Dungeons and Daemons
-
-❌ Magicka: Final Frontier
-
-❌ Magicka: Grimnir's Laboratory
-
-❌ Magicka: Lonely Island Cruise
-
-❌ Magicka: Tower of Niflheim

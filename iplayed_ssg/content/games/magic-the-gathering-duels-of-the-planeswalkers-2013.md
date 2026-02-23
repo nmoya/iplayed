@@ -17,12 +17,13 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/uqzce
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/uqzcexfghnshgovzddux.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Magic: The Gathering - Duels of the Planeswalkers 2013: Deck Pack 1"
+completed = false
+[[extra.additional_content]]
+name = "Magic: The Gathering - Duels of the Planeswalkers 2013: Deck Pack 2"
+completed = false
+[[extra.additional_content]]
+name = "Magic: The Gathering - Duels of the Planeswalkers 2013: Deck Pack 3"
+completed = false
 +++
-### Additional Content
-
-
-❌ Magic: The Gathering - Duels of the Planeswalkers 2013: Deck Pack 1
-
-❌ Magic: The Gathering - Duels of the Planeswalkers 2013: Deck Pack 2
-
-❌ Magic: The Gathering - Duels of the Planeswalkers 2013: Deck Pack 3

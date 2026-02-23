@@ -17,32 +17,43 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coaaq
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coaaqr.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Sid Meier's Civilization VI: Poland Civilization & Scenario Pack"
+completed = false
+[[extra.additional_content]]
+name = "Sid Meier's Civilization VI: Aztec Civilization Pack"
+completed = false
+[[extra.additional_content]]
+name = "Sid Meier's Civilization VI: Australia Civilization & Scenario Pack"
+completed = false
+[[extra.additional_content]]
+name = "Sid Meier's Civilization VI: Maya & Gran Colombia Pack"
+completed = false
+[[extra.additional_content]]
+name = "Sid Meier's Civilization VI: Vietnam & Kublai Khan Pack"
+completed = false
+[[extra.additional_content]]
+name = "Sid Meier's Civilization VI: Ethiopia Pack"
+completed = false
+[[extra.additional_content]]
+name = "Sid Meier's Civilization VI: Vikings Scenario Pack"
+completed = false
+[[extra.additional_content]]
+name = "Sid Meier's Civilization VI: Babylon Pack"
+completed = false
+[[extra.additional_content]]
+name = "Sid Meier's Civilization VI: Portugal Pack"
+completed = false
+[[extra.additional_content]]
+name = "Sid Meier's Civilization VI: Byzantium & Gaul Pack"
+completed = false
+[[extra.additional_content]]
+name = "Sid Meier's Civilization VI: Persia and Macedon Civilization & Scenario Pack"
+completed = false
+[[extra.additional_content]]
+name = "Sid Meier's Civilization VI: Khmer and Indonesia Civilization & Scenario Pack"
+completed = false
+[[extra.additional_content]]
+name = "Sid Meier's Civilization VI: Nubia Civilization & Scenario Pack"
+completed = false
 +++
-### Additional Content
-
-
-❌ Sid Meier's Civilization VI: Poland Civilization & Scenario Pack
-
-❌ Sid Meier's Civilization VI: Aztec Civilization Pack
-
-❌ Sid Meier's Civilization VI: Australia Civilization & Scenario Pack
-
-❌ Sid Meier's Civilization VI: Maya & Gran Colombia Pack
-
-❌ Sid Meier's Civilization VI: Vietnam & Kublai Khan Pack
-
-❌ Sid Meier's Civilization VI: Ethiopia Pack
-
-❌ Sid Meier's Civilization VI: Vikings Scenario Pack
-
-❌ Sid Meier's Civilization VI: Babylon Pack
-
-❌ Sid Meier's Civilization VI: Portugal Pack
-
-❌ Sid Meier's Civilization VI: Byzantium & Gaul Pack
-
-❌ Sid Meier's Civilization VI: Persia and Macedon Civilization & Scenario Pack
-
-❌ Sid Meier's Civilization VI: Khmer and Indonesia Civilization & Scenario Pack
-
-❌ Sid Meier's Civilization VI: Nubia Civilization & Scenario Pack

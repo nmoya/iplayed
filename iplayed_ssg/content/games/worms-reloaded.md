@@ -17,14 +17,16 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1xm
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xmk.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Worms Reloaded: Time Attack Pack"
+completed = false
+[[extra.additional_content]]
+name = "Worms Reloaded: Forts Pack"
+completed = false
+[[extra.additional_content]]
+name = "Worms Reloaded: Retro Pack"
+completed = false
+[[extra.additional_content]]
+name = "Worms Reloaded: Puzzle Pack"
+completed = false
 +++
-### Additional Content
-
-
-❌ Worms Reloaded: Time Attack Pack
-
-❌ Worms Reloaded: Forts Pack
-
-❌ Worms Reloaded: Retro Pack
-
-❌ Worms Reloaded: Puzzle Pack

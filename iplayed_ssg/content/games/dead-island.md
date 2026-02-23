@@ -17,10 +17,10 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co3ly
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co3lym.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Dead Island: Bloodbath Arena"
+completed = false
+[[extra.additional_content]]
+name = "Dead Island: Ryder White"
+completed = false
 +++
-### Additional Content
-
-
-❌ Dead Island: Bloodbath Arena
-
-❌ Dead Island: Ryder White

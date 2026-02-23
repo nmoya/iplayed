@@ -17,10 +17,10 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co25r
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co25rk.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Kingdoms of Amalur: Reckoning - The Legend of Dead Kel"
+completed = false
+[[extra.additional_content]]
+name = "Kingdoms of Amalur: Reckoning - Teeth of Naros"
+completed = false
 +++
-### Additional Content
-
-
-❌ Kingdoms of Amalur: Reckoning - The Legend of Dead Kel
-
-❌ Kingdoms of Amalur: Reckoning - Teeth of Naros

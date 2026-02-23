@@ -17,12 +17,13 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1nc
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nc7.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Doom: Bloodfall"
+completed = false
+[[extra.additional_content]]
+name = "Doom: Unto the Evil"
+completed = false
+[[extra.additional_content]]
+name = "Doom: Hell Followed"
+completed = false
 +++
-### Additional Content
-
-
-❌ Doom: Bloodfall
-
-❌ Doom: Unto the Evil
-
-❌ Doom: Hell Followed

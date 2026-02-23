@@ -17,10 +17,10 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1tn
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tnw.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "The Elder Scrolls V: Skyrim - Hearthfire"
+completed = false
+[[extra.additional_content]]
+name = "The Elder Scrolls V: Skyrim - Dawnguard"
+completed = false
 +++
-### Additional Content
-
-
-❌ The Elder Scrolls V: Skyrim - Hearthfire
-
-❌ The Elder Scrolls V: Skyrim - Dawnguard

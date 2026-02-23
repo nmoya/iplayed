@@ -17,28 +17,37 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1x7
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1x7q.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Mass Effect 3: Rebellion Pack"
+completed = false
+[[extra.additional_content]]
+name = "Mass Effect 3: Leviathan"
+completed = false
+[[extra.additional_content]]
+name = "Mass Effect 3: Citadel"
+completed = false
+[[extra.additional_content]]
+name = "Mass Effect 3: Retaliation"
+completed = false
+[[extra.additional_content]]
+name = "Mass Effect 3: Reckoning"
+completed = false
+[[extra.additional_content]]
+name = "Mass Effect: Genesis 2"
+completed = false
+[[extra.additional_content]]
+name = "Mass Effect 3: Omega"
+completed = false
+[[extra.additional_content]]
+name = "Mass Effect 3: From Ashes"
+completed = false
+[[extra.additional_content]]
+name = "Mass Effect 3: Extended Cut"
+completed = false
+[[extra.additional_content]]
+name = "Mass Effect 3: Earth"
+completed = false
+[[extra.additional_content]]
+name = "Mass Effect 3: Resurgence Pack"
+completed = false
 +++
-### Additional Content
-
-
-❌ Mass Effect 3: Rebellion Pack
-
-❌ Mass Effect 3: Leviathan
-
-❌ Mass Effect 3: Citadel
-
-❌ Mass Effect 3: Retaliation
-
-❌ Mass Effect 3: Reckoning
-
-❌ Mass Effect: Genesis 2
-
-❌ Mass Effect 3: Omega
-
-❌ Mass Effect 3: From Ashes
-
-❌ Mass Effect 3: Extended Cut
-
-❌ Mass Effect 3: Earth
-
-❌ Mass Effect 3: Resurgence Pack

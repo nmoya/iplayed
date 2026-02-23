@@ -17,18 +17,22 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coaav
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coaav7.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Dave the Diver: Potion Craft"
+completed = false
+[[extra.additional_content]]
+name = "Dave the Diver: Balatro"
+completed = true
+[[extra.additional_content]]
+name = "Dave the Diver: Dredge"
+completed = true
+[[extra.additional_content]]
+name = "Dave the Diver: Ichiban's Holiday"
+completed = false
+[[extra.additional_content]]
+name = "Dave the Diver: Mxmtoon"
+completed = false
+[[extra.additional_content]]
+name = "Dave the Diver: Godzilla"
+completed = true
 +++
-### Additional Content
-
-
-❌ Dave the Diver: Potion Craft
-
-✅ Dave the Diver: Balatro
-
-✅ Dave the Diver: Dredge
-
-❌ Dave the Diver: Ichiban's Holiday
-
-❌ Dave the Diver: Mxmtoon
-
-✅ Dave the Diver: Godzilla

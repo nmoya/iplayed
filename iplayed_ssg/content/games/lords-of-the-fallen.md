@@ -17,14 +17,16 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1nz
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nzt.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Lords of the Fallen: The Arcane Boost"
+completed = false
+[[extra.additional_content]]
+name = "Lords of the Fallen: The Monk's Decipher"
+completed = false
+[[extra.additional_content]]
+name = "Lords of the Fallen: The Foundation Boost"
+completed = false
+[[extra.additional_content]]
+name = "Lords of the Fallen: Ancient Labyrinth"
+completed = false
 +++
-### Additional Content
-
-
-❌ Lords of the Fallen: The Arcane Boost
-
-❌ Lords of the Fallen: The Monk's Decipher
-
-❌ Lords of the Fallen: The Foundation Boost
-
-❌ Lords of the Fallen: Ancient Labyrinth

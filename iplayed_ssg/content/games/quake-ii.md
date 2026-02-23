@@ -17,12 +17,13 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co9bg
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co9bg8.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+[[extra.additional_content]]
+name = "Zaero for Quake II"
+completed = false
+[[extra.additional_content]]
+name = "Juggernaut: The New Story For Quake II"
+completed = false
+[[extra.additional_content]]
+name = "Quake II Netpack I: Extremities"
+completed = false
 +++
-### Additional Content
-
-
-❌ Zaero for Quake II
-
-❌ Juggernaut: The New Story For Quake II
-
-❌ Quake II Netpack I: Extremities
