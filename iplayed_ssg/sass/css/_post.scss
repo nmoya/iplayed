@@ -104,31 +104,31 @@
     }
 }
 
-.games-search__checkboxes {
+.games-search__chips {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
 }
 
-.games-search__checkbox {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    padding: 6px 10px;
-    border: 1px solid color-mix(in srgb, var(--accent-color) 40%, transparent);
-    border-radius: var(--radius);
+.games-search__chip {
+    border: 1px dashed color-mix(in srgb, var(--accent-color) 60%, transparent);
     background: color-mix(in srgb, var(--background-color) 70%, transparent);
-    font-size: 0.9rem;
+    color: var(--text-color);
+    padding: 8px 12px;
+    border-radius: var(--radius);
+    font: inherit;
     cursor: pointer;
+    transition: background 120ms ease, border-color 120ms ease, color 120ms ease;
 
-    input {
-        accent-color: var(--accent-color);
-        width: 16px;
-        height: 16px;
+    &.is-active {
+        background: color-mix(in srgb, var(--accent-color) 22%, transparent);
+        border-color: color-mix(in srgb, var(--accent-color) 75%, transparent);
+        color: var(--background-color);
     }
 
-    span {
-        font-family: "Fira Code", Monaco, Consolas, "Ubuntu Mono", monospace;
+    &:focus-visible {
+        outline: 2px solid var(--accent-color);
+        outline-offset: 2px;
     }
 }
 

@@ -4,7 +4,7 @@
     function initGamesSearch() {
         const input = document.querySelector('[data-games-search-input]');
         const status = document.querySelector('[data-games-search-status]');
-        const ratingCheckboxes = Array.from(document.querySelectorAll('[data-rating-filter-checkbox]'));
+        const ratingChips = Array.from(document.querySelectorAll('[data-rating-chip]'));
         const cards = Array.from(document.querySelectorAll('[data-game-card]'));
 
         if (!input || !status || cards.length === 0) {
@@ -15,19 +15,21 @@
 
         const update = () => {
             const query = input.value.trim().toLowerCase();
-            const selectedRatings = ratingCheckboxes
-                .filter((checkbox) => checkbox.checked)
-                .map((checkbox) => parseInt(checkbox.value, 10))
-                .filter((value) => Number.isFinite(value));
-            const hasRatingFilter = selectedRatings.length > 0;
+            const activeChip = ratingChips.find((chip) => chip.classList.contains('is-active'));
+            const value = activeChip ? activeChip.value : '';
+            const isUnrated = value === 'unrated';
+            const exactRating = !isUnrated && value !== '' ? parseInt(value, 10) : NaN;
+            const hasRatingFilter = value !== '';
             let visible = 0;
 
             cards.forEach((card) => {
                 const haystack = card.dataset.searchText || card.textContent.toLowerCase();
                 const matchesQuery = !query || haystack.includes(query);
                 const cardRating = Number(card.dataset.rating);
+                const hasCardRating = card.dataset.rating.length > 0;
                 const matchesRating = !hasRatingFilter
-                    || (Number.isFinite(cardRating) && selectedRatings.includes(cardRating));
+                    || (isUnrated && !hasCardRating)
+                    || (!isUnrated && hasCardRating && cardRating === exactRating);
                 const matches = matchesQuery && matchesRating;
                 card.hidden = !matches;
                 if (matches) {
@@ -40,16 +42,19 @@
                 suffixParts.push(`"${query}"`);
             }
             if (hasRatingFilter) {
-                const formattedRatings = selectedRatings.sort((a, b) => b - a).map((rating) => `${rating}/10`);
-                suffixParts.push(`ratings ${formattedRatings.join(', ')}`);
+                suffixParts.push(isUnrated ? 'unrated' : `rating ${exactRating}/10`);
             }
             const suffix = suffixParts.length ? ` for ${suffixParts.join(' & ')}` : '';
             status.textContent = `Showing ${visible} of ${total} games${suffix}`;
         };
 
         input.addEventListener('input', update);
-        ratingCheckboxes.forEach((checkbox) => {
-            checkbox.addEventListener('change', update);
+        ratingChips.forEach((chip) => {
+            chip.addEventListener('click', () => {
+                ratingChips.forEach((c) => c.classList.remove('is-active'));
+                chip.classList.add('is-active');
+                update();
+            });
         });
 
         update();

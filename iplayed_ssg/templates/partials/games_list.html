@@ -11,16 +11,15 @@
     <div class="games-search__filters">
         <div class="games-search__filter">
             <label class="games-search__filter-label" for="games-rating-filter">Rating filter</label>
-            {%- set rating_options = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0] -%}
-            <div id="games-rating-filter" class="games-search__checkboxes" data-games-rating-checkboxes>
-                {% for score in rating_options %}
-                <label class="games-search__checkbox">
-                    <input type="checkbox" value="{{ score }}" data-rating-filter-checkbox>
-                    <span>{{ score }}/10</span>
-                </label>
+            <div id="games-rating-filter" class="games-search__chips" data-games-rating-chips>
+                <button type="button" class="games-search__chip is-active" data-rating-chip value="">All</button>
+                <button type="button" class="games-search__chip" data-rating-chip value="unrated">Unrated</button>
+                {% for score in range(start=1, end=11, step=-1) %}
+                <button type="button" class="games-search__chip" data-rating-chip
+                    value="{{ score }}">{{ score }}/10</button>
                 {% endfor %}
             </div>
-            <p class="games-search__help">Select one or more ratings to narrow down the list.</p>
+            <p class="games-search__help">Filter by exact rating or show unrated titles. “All” shows everything.</p>
         </div>
     </div>
 
