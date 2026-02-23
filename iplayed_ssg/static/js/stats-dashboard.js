@@ -17,7 +17,10 @@
         const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
         const els = {
             total: document.getElementById('hoursPlayedDisplay'),
-            totalCaption: document.getElementById('hoursPlayedSubheading'),
+            hoursCell: document.getElementById('hoursCell'),
+            gamesMonthsCell: document.getElementById('gamesMonthsCell'),
+            avgPerMonthCell: document.getElementById('avgPerMonthCell'),
+            rangeEl: document.getElementById('hoursPlayedRange'),
             tabs: document.getElementById('year-tabs'),
             heatmap: document.getElementById('monthly-heatmap'),
             monthDetail: document.getElementById('month-detail'),
@@ -92,6 +95,7 @@
         }
 
         const numberFormatter = new Intl.NumberFormat('en-US', { maximumFractionDigits: 1 });
+        const avgFormatter = new Intl.NumberFormat('en-US', { maximumFractionDigits: 2 });
         const heatmapStripeConfig = {
             stripeCount: 5,
             filledSymbol: '|',
@@ -117,13 +121,32 @@
             }).join('');
         }
 
-        function updateTotals(totalHours, totalGames) {
-            if (els.total) {
-                els.total.textContent = formatHours(totalHours);
-            }
-            if (els.totalCaption) {
-                const gamesLabel = totalGames === 1 ? 'game' : 'games';
-                els.totalCaption.textContent = `Across ${totalGames} completed ${gamesLabel}`;
+        function updateTotals(totalHours, totalGames, monthsCovered, avgGamesPerMonth, periodLabel) {
+            if (!els.hoursCell || !els.gamesMonthsCell || !els.avgPerMonthCell || !els.rangeEl) return;
+
+            const totalDays = totalHours / 24;
+            const gamesLabel = totalGames === 1 ? 'game' : 'games';
+            const hoursInThousands = totalHours >= 1000 ? numberFormatter.format(totalHours / 1000) + 'k' : formatHours(totalHours);
+
+            // Cell 1: hours and equivalent in days
+            els.hoursCell.textContent = `${hoursInThousands} hours (${numberFormatter.format(totalDays)} days)`;
+
+            // Cell 2: games across months
+            els.gamesMonthsCell.textContent = `${totalGames} ${gamesLabel}`;
+
+            // Cell 3: average games per month
+            els.avgPerMonthCell.textContent = `${avgFormatter.format(avgGamesPerMonth)} /month`;
+
+            // Range in header: show as "since START until END" or "since YEAR"
+            if (periodLabel) {
+                const parts = periodLabel.split('–');
+                if (parts.length === 2) {
+                    els.rangeEl.textContent = `from ${parts[0]} to ${parts[1]}`;
+                } else {
+                    els.rangeEl.textContent = `since ${periodLabel}`;
+                }
+            } else {
+                els.rangeEl.textContent = '';
             }
         }
 
@@ -588,6 +611,8 @@
                 const topGamesByGenre = {};
                 const recentCompletions = [];
                 let totalHours = 0;
+                let earliestDate = null;
+                let latestDate = null;
 
                 completions.forEach((entry) => {
                     const completionInfo = entry?.completion;
@@ -603,6 +628,10 @@
                     const month = date.getMonth();
                     const hoursPlayed = Number(completionInfo.hours_played) || 0;
                     const gameName = gameInfo.name || 'Unknown game';
+
+                    // track earliest / latest completion dates
+                    if (!earliestDate || date < earliestDate) earliestDate = date;
+                    if (!latestDate || date > latestDate) latestDate = date;
 
                     gamesByYearMonth[year] = gamesByYearMonth[year] || {};
                     gamesByYearMonth[year][month] = gamesByYearMonth[year][month] || [];
@@ -648,8 +677,19 @@
                     .sort((a, b) => b.completedAt - a.completedAt)
                     .slice(0, 5);
 
+                // Compute months covered (inclusive)
+                let monthsCovered = 0;
+                let periodLabel = null;
+                if (earliestDate && latestDate) {
+                    monthsCovered = (latestDate.getFullYear() - earliestDate.getFullYear()) * 12 + (latestDate.getMonth() - earliestDate.getMonth()) + 1;
+                    const startYear = earliestDate.getFullYear();
+                    const endYear = latestDate.getFullYear();
+                    periodLabel = startYear === endYear ? `${startYear}` : `${startYear}–${endYear}`;
+                }
+                const avgGamesPerMonth = monthsCovered > 0 ? (completions.length / monthsCovered) : 0;
+
                 renderRecentCompletions(latestFive);
-                updateTotals(totalHours, completions.length);
+                updateTotals(totalHours, completions.length, monthsCovered, avgGamesPerMonth, periodLabel);
                 renderYearTabs(gamesByYearMonth);
                 renderPlatformHistogram(platformCounts);
                 renderRatingHistogram(ratingCounts);
@@ -660,9 +700,9 @@
                 if (els.monthDetail) {
                     els.monthDetail.textContent = 'Unable to load statistics right now.';
                 }
-                if (els.total && els.totalCaption) {
+                if (els.total && els.rangeEl) {
                     els.total.textContent = '';
-                    els.totalCaption.textContent = error.message;
+                    els.rangeEl.textContent = error.message;
                 }
             }
         }

@@ -36,10 +36,31 @@
 
         <article class="stats-card stats-card--highlight">
             <header>
-                <h2>Hours Played</h2>
+                <h2>Time played <span id="hoursPlayedRange" class="stats-card__range"></span></h2>
             </header>
-            <p id="hoursPlayedDisplay" class="stats-total" aria-live="polite">Loading</p>
-            <p id="hoursPlayedSubheading" class="stats-total__caption"></p>
+            <div id="hoursPlayedDisplay" class="stats-total-grid" aria-live="polite" role="group"
+                aria-label="Hours played and derived stats">
+
+                <div class="stats-conversions" aria-hidden="false">
+                    <div class="stats-conversion">
+                        <span class="stats-conversion__label">Hours / Days</span>
+                        <span class="stats-conversion__value" id="hoursCell">—</span>
+                    </div>
+                    <div class="stats-conversion">
+                        <span class="stats-conversion__label">Games</span>
+                        <span class="stats-conversion__value" id="gamesMonthsCell">—</span>
+                    </div>
+                    <div class="stats-conversion">
+                        <span class="stats-conversion__label">Avg games per month</span>
+                        <span class="stats-conversion__value" id="avgPerMonthCell">—</span>
+                    </div>
+                </div>
+
+
+
+                <p class="sr-only" id="hoursPlayedDesc">Total hours played and derived conversions. Values are derived
+                    from the same base total.</p>
+            </div>
         </article>
         <article class="stats-card">
             <header>
