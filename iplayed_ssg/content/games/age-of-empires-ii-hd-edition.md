@@ -6,7 +6,7 @@ updated = "2013-04-17"
 in_search_index = true
 [taxonomies]
 platforms = ['pc (microsoft windows)']
-rating = []
+rating = ['6.0']
 genres = ['real time strategy (rts)', 'strategy']
 flags = []
 [extra]

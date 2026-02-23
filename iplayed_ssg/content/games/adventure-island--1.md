@@ -6,7 +6,7 @@ updated = "2013-05-17"
 in_search_index = true
 [taxonomies]
 platforms = []
-rating = []
+rating = ['5.0']
 genres = ['point-and-click', 'adventure']
 flags = []
 [extra]

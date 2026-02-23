@@ -1,17 +1,17 @@
 +++
 title = "Age of Empires"
-description = "21 hours and 20 minutes - PC (Microsoft Windows)"
+description = "21 hours and 21 minutes - PC (Microsoft Windows)"
 date = "2023-04-04"
 updated = "2023-04-04"
 in_search_index = true
 [taxonomies]
 platforms = ['pc (microsoft windows)']
-rating = []
+rating = ['8.0']
 genres = ['strategy']
 flags = []
 [extra]
-subtitle = "21 hours and 20 minutes - PC (Microsoft Windows)"
-playtime = "21 hours and 20 minutes"
+subtitle = "21 hours and 21 minutes - PC (Microsoft Windows)"
+playtime = "21 hours and 21 minutes"
 completed_at = "2023-04-04"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1zsh.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zsh.jpg"
