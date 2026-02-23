@@ -12,7 +12,7 @@
             crossorigin="anonymous">
         <link rel="preload" href="https://nikolasmoya.com/iplayed/fonts/FiraCode-Bold.woff2" as="font" type="font/woff2"
             crossorigin="anonymous">
-        <link rel="stylesheet" href="https://nikolasmoya.com/iplayed/css/style.css?h=8cf44715ecd4e7ecd5b5">
+        <link rel="stylesheet" href="https://nikolasmoya.com/iplayed/css/style.css?h=e2ca14c40882b84cb2bc">
         <script src="https://nikolasmoya.com/iplayed/js/auto-close-popover-on-resize.js?h=4ef87d6fc7b98b22e044" defer></script>
         <script src="https://nikolasmoya.com/iplayed/js/copy-code-to-clipboard.js?h=6aac77c47d552a0ac847" defer></script>
         <!-- <script src="https://nikolasmoya.com/iplayed/js/theme-switcher.js?h=c7049c13f5599d2609bf" defer></script> -->
@@ -27,7 +27,7 @@
         <meta property="og:type" content="website">
         <meta property="og:url" content="https://nikolasmoya.com/iplayed/">
         <meta property="og:description" content="Games and statistics have always been a part of my life—so I brought them together in a sleek game completionist tracker."><meta property="og:site_name" content="iPlayed">
-        <meta property="og:updated_time" content="2026-02-23T00:26:42.508067095+00:00">
+        <meta property="og:updated_time" content="2026-02-23T00:48:04.266631713+00:00">
     </head>
 
     <body class="layout-center">
@@ -100,6 +100,14 @@
 
         <article class="stats-card">
             <header>
+                <h2>Distribution of ratings across games</h2>
+                <p class="stats-card__subtitle">Ratings skew high — I buy games I already expect to enjoy.</p>
+            </header>
+            <canvas id="ratingHistogram" width="420" height="320" aria-label="Ratings histogram"></canvas>
+        </article>
+
+        <article class="stats-card">
+            <header>
                 <h2>Hours and completions per genre</h2>
                 <p class="stats-card__subtitle">Games completed vs. hours invested.</p>
             </header>
@@ -116,7 +124,7 @@
     </div>
 </section>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.min.js" defer></script>
-<script src="https://nikolasmoya.com/iplayed/js/stats-dashboard.js?h=bfdbffa9dba372ce7a3d" defer></script>
+<script src="https://nikolasmoya.com/iplayed/js/stats-dashboard.js?h=9de3e42e9a8ed222b684" defer></script>
         </main>
         <footer class="footer"><!-- <p class="copyright">
     <span>© <time>2026</time> Nikolas Moya</span>

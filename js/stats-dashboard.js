@@ -22,6 +22,7 @@
             heatmap: document.getElementById('monthly-heatmap'),
             monthDetail: document.getElementById('month-detail'),
             platformCanvas: document.getElementById('platformHistogram'),
+            ratingCanvas: document.getElementById('ratingHistogram'),
             genreCanvas: document.getElementById('genreComparison'),
             topList: document.getElementById('topGamesByGenre'),
             recentList: document.getElementById('recentCompletions')
@@ -210,6 +211,49 @@
                     plugins: {
                         legend: { display: false }
                     },
+                    scales: {
+                        x: {
+                            ticks: { color: themeColors.text },
+                            grid: { color: themeColors.grid, drawBorder: false }
+                        },
+                        y: {
+                            beginAtZero: true,
+                            ticks: { color: themeColors.text },
+                            grid: { color: themeColors.grid, drawBorder: false }
+                        }
+                    }
+                }
+            });
+        }
+
+        function renderRatingHistogram(ratingCounts) {
+            if (!els.ratingCanvas || typeof Chart === 'undefined') {
+                return;
+            }
+            const labels = ['10', '9', '8', '7', '6', '5', '4', '3', '2', '1', '0', 'Unrated'];
+            const data = labels.map((label) => ratingCounts[label] || 0);
+            const total = data.reduce((sum, val) => sum + val, 0);
+            if (total === 0) {
+                els.ratingCanvas.replaceWith(createEmptyState('ratings'));
+                return;
+            }
+
+            charts.rating = new Chart(els.ratingCanvas, {
+                type: 'bar',
+                data: {
+                    labels,
+                    datasets: [{
+                        label: 'Games',
+                        data,
+                        backgroundColor: themeColors.accentSoft,
+                        borderColor: themeColors.accent,
+                        borderWidth: 1.5,
+                        borderRadius: 4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: { legend: { display: false } },
                     scales: {
                         x: {
                             ticks: { color: themeColors.text },
@@ -468,6 +512,7 @@
 
                 const gamesByYearMonth = {};
                 const platformCounts = {};
+                const ratingCounts = {};
                 const genreHoursCounts = {};
                 const genreCounts = {};
                 const topGamesByGenre = {};
@@ -507,6 +552,15 @@
                         platformCounts[name] = (platformCounts[name] || 0) + 1;
                     });
 
+                    const rawRating = completionInfo.rating;
+                    if (Number.isFinite(rawRating)) {
+                        const rounded = Math.round(rawRating);
+                        const bucket = Math.min(10, Math.max(0, rounded)).toString();
+                        ratingCounts[bucket] = (ratingCounts[bucket] || 0) + 1;
+                    } else {
+                        ratingCounts['Unrated'] = (ratingCounts['Unrated'] || 0) + 1;
+                    }
+
                     (gameInfo.genres || []).forEach((genre) => {
                         const genreName = genre?.name || 'Unknown';
                         if (!topGamesByGenre[genreName] || hoursPlayed > topGamesByGenre[genreName].hours) {
@@ -528,6 +582,7 @@
                 updateTotals(totalHours, completions.length);
                 renderYearTabs(gamesByYearMonth);
                 renderPlatformHistogram(platformCounts);
+                renderRatingHistogram(ratingCounts);
                 renderGenreComparison(genreCounts, genreHoursCounts);
                 renderTopGames(topGamesByGenre);
             } catch (error) {
