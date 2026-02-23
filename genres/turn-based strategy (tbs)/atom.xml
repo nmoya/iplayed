@@ -5,49 +5,8 @@
     <link rel="self" type="application/atom+xml" href="https://nikolasmoya.com/iplayed/genres/turn-based strategy (tbs)/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2025-08-02T00:00:00+00:00</updated>
+    <updated>2024-10-22T00:00:00+00:00</updated>
     <id>https://nikolasmoya.com/iplayed/genres/turn-based strategy (tbs)/atom.xml</id>
-    <entry xml:lang="en">
-        <title>Clair Obscur: Expedition 33</title>
-        <published>2025-08-02T00:00:00+00:00</published>
-        <updated>2025-08-02T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Nikolas Moya
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/clair-obscur-expedition-33/"/>
-        <id>https://nikolasmoya.com/iplayed/games/clair-obscur-expedition-33/</id>
-        
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/clair-obscur-expedition-33/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Sea of Stars</title>
-        <published>2025-01-18T00:00:00+00:00</published>
-        <updated>2025-01-18T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Nikolas Moya
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/sea-of-stars/"/>
-        <id>https://nikolasmoya.com/iplayed/games/sea-of-stars/</id>
-        
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/sea-of-stars/">&lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;post-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;a&gt;
-&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Sea of Stars: Throes of the Watchmaker&lt;&#x2F;p&gt;
-</content>
-        
-    </entry>
     <entry xml:lang="en">
         <title>Evoland</title>
         <published>2024-10-22T00:00:00+00:00</published>
@@ -140,25 +99,7 @@
         <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/star-realms/"/>
         <id>https://nikolasmoya.com/iplayed/games/star-realms/</id>
         
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/star-realms/">&lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;post-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;a&gt;
-&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Star Realms: Colony Wars&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Star Realms: United - Missions&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Star Realms: High Alert - Invasion&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Star Realms: Frontiers Promos&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Star Realms: Cosmic Gambit&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Star Realms: Command&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Star Realms: Stellar Allies&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Star Realms: Bases and Battleships&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Star Realms: Frontiers&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Star Realms: Frontiers Events&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Star Realms: Full Version&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Star Realms: United - Assault&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Star Realms: United - Heroes&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Star Realms: Command Decks&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Star Realms: Heroes&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Star Realms: Fleets and Fortresses&lt;&#x2F;p&gt;
-</content>
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/star-realms/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -177,10 +118,7 @@
         <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/pokemon-red-version/"/>
         <id>https://nikolasmoya.com/iplayed/games/pokemon-red-version/</id>
         
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/pokemon-red-version/">&lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;post-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;a&gt;
-&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Pokémon Red &amp;amp; Green: Nintendo Space World &#x27;97 Maboroshi no Mew Present&lt;&#x2F;p&gt;
-</content>
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/pokemon-red-version/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -199,24 +137,7 @@
         <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/sid-meier-s-civilization-v/"/>
         <id>https://nikolasmoya.com/iplayed/games/sid-meier-s-civilization-v/</id>
         
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/sid-meier-s-civilization-v/">&lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;post-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;a&gt;
-&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Sid Meier&#x27;s Civilization V: Cradle of Civilization Map Pack - Americas&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Sid Meier&#x27;s Civilization V: Scrambled Nations Map Pack&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Sid Meier&#x27;s Civilization V: Scrambled Continents&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Sid Meier&#x27;s Civilization V: Scenario Pack - Conquest of the New World Deluxe&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Sid Meier&#x27;s Civilization V: Civ and Scenario Pack - Mongols (Genghis Khan)&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Sid Meier&#x27;s Civilization V: Cradle of Civilization Map Pack - Mesopotamia&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Sid Meier&#x27;s Civilization V: Cradle of Civilization Map Pack - Asia&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Sid Meier&#x27;s Civilization V: Civ and Scenario Double Pack - Spain and Inca&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Sid Meier&#x27;s Civilization V: Civ and Scenario Pack - Denmark (The Vikings)&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Sid Meier&#x27;s Civilization V: Scenario Pack - Wonders of the Ancient World&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Sid Meier&#x27;s Civilization V: Civ and Scenario Pack - Polynesia&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Sid Meier&#x27;s Civilization V: Cradle of Civilization Map Pack - Mediterranean&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Sid Meier&#x27;s Civilization V: Babylon (Nebuchadnezzar II)&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Sid Meier&#x27;s Civilization V: Explorer&#x27;s Map Pack&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Sid Meier&#x27;s Civilization V: Civ and Scenario Pack - Korea&lt;&#x2F;p&gt;
-</content>
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/sid-meier-s-civilization-v/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -254,10 +175,7 @@
         <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/monster-train/"/>
         <id>https://nikolasmoya.com/iplayed/games/monster-train/</id>
         
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/monster-train/">&lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;post-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;a&gt;
-&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Monster Train: The Last Divinity&lt;&#x2F;p&gt;
-</content>
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/monster-train/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -352,12 +270,7 @@
         <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/xcom-2/"/>
         <id>https://nikolasmoya.com/iplayed/games/xcom-2/</id>
         
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/xcom-2/">&lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;post-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;a&gt;
-&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ XCOM 2: Shen&#x27;s Last Gift&lt;&#x2F;p&gt;
-&lt;p&gt;❌ XCOM 2: Anarchy&#x27;s Children&lt;&#x2F;p&gt;
-&lt;p&gt;❌ XCOM 2: Alien Hunters&lt;&#x2F;p&gt;
-</content>
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/xcom-2/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -395,22 +308,7 @@
         <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/sid-meiers-civilization-vi/"/>
         <id>https://nikolasmoya.com/iplayed/games/sid-meiers-civilization-vi/</id>
         
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/sid-meiers-civilization-vi/">&lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;post-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;a&gt;
-&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Sid Meier&#x27;s Civilization VI: Ethiopia Pack&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Sid Meier&#x27;s Civilization VI: Portugal Pack&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Sid Meier&#x27;s Civilization VI: Vietnam &amp;amp; Kublai Khan Pack&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Sid Meier&#x27;s Civilization VI: Maya &amp;amp; Gran Colombia Pack&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Sid Meier&#x27;s Civilization VI: Byzantium &amp;amp; Gaul Pack&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Sid Meier&#x27;s Civilization VI: Aztec Civilization Pack&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Sid Meier&#x27;s Civilization VI: Babylon Pack&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Sid Meier&#x27;s Civilization VI: Poland Civilization &amp;amp; Scenario Pack&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Sid Meier&#x27;s Civilization VI: Nubia Civilization &amp;amp; Scenario Pack&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Sid Meier&#x27;s Civilization VI: Vikings Scenario Pack&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Sid Meier&#x27;s Civilization VI: Khmer and Indonesia Civilization &amp;amp; Scenario Pack&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Sid Meier&#x27;s Civilization VI: Australia Civilization &amp;amp; Scenario Pack&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Sid Meier&#x27;s Civilization VI: Persia and Macedon Civilization &amp;amp; Scenario Pack&lt;&#x2F;p&gt;
-</content>
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/sid-meiers-civilization-vi/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -543,12 +441,7 @@
         <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/magic-the-gathering-duels-of-the-planeswalkers-2013/"/>
         <id>https://nikolasmoya.com/iplayed/games/magic-the-gathering-duels-of-the-planeswalkers-2013/</id>
         
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/magic-the-gathering-duels-of-the-planeswalkers-2013/">&lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;post-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;a&gt;
-&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Magic: The Gathering - Duels of the Planeswalkers 2013: Deck Pack 1&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Magic: The Gathering - Duels of the Planeswalkers 2013: Deck Pack 3&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Magic: The Gathering - Duels of the Planeswalkers 2013: Deck Pack 2&lt;&#x2F;p&gt;
-</content>
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/magic-the-gathering-duels-of-the-planeswalkers-2013/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -586,13 +479,7 @@
         <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/worms-reloaded/"/>
         <id>https://nikolasmoya.com/iplayed/games/worms-reloaded/</id>
         
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/worms-reloaded/">&lt;h3 id=&quot;Additional_Content&quot;&gt;Additional Content&lt;a class=&quot;post-anchor&quot; href=&quot;#Additional_Content&quot; aria-label=&quot;Anchor link for: Additional_Content&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;a&gt;
-&lt;&#x2F;h3&gt;
-&lt;p&gt;❌ Worms Reloaded: Time Attack Pack&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Worms Reloaded: Forts Pack&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Worms Reloaded: Retro Pack&lt;&#x2F;p&gt;
-&lt;p&gt;❌ Worms Reloaded: Puzzle Pack&lt;&#x2F;p&gt;
-</content>
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/worms-reloaded/"></content>
         
     </entry>
     <entry xml:lang="en">
