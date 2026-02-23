@@ -32,6 +32,7 @@ class GameDataTableBase(Widget):
         super().__init__(id=id, **kwargs)
         self.data: list[DataEntry] = []
         self.last_sort_type: Enum | None = None
+        self.last_sort_reverse: bool = False
         self.table = DataTable()
         self.table.cursor_type = "row"
 
@@ -50,29 +51,19 @@ class GameDataTableBase(Widget):
     def load(self, data: list[DataEntry], cursor_row: int = 0) -> None:
         raise NotImplementedError("Subclasses must implement `load()`")
 
-        def get_columns(self) -> list[str]:
-            """Return a list of column names. Subclasses should override."""
-            return []
-
-        def get_row_data(self, entry: DataEntry) -> list[str]:
-            """Return a list of cell values for a row. Subclasses should override."""
-            return []
-
-        def load(self, data: list[DataEntry], cursor_row: int = 0) -> None:
-            """Generalized load method using get_columns and get_row_data."""
-            self.data = data
-            self.table.clear(columns=True)
-            columns = self.get_columns()
-            if columns:
-                self.table.add_columns(*columns)
-            for entry in data:
-                self.table.add_row(*self.get_row_data(entry), key=entry.game.id)
-            self.table.cursor_coordinate = Coordinate(row=cursor_row, column=0)
+    def _sort_data(self, sort_type: SortType, key_fn, initial_reverse: bool = False) -> None:
+        if not self.data:
+            return
+        reverse = initial_reverse
+        if self.last_sort_type == sort_type:
+            reverse = not self.last_sort_reverse
+        self.data.sort(key=key_fn, reverse=reverse)
+        self.last_sort_type = sort_type
+        self.last_sort_reverse = reverse
+        self.load(self.data)
 
     def action_sort_by_name(self) -> None:
-        self.last_sort_type = SortType.NAME
-        self.data.sort(key=lambda c: c.game.name.lower())
-        self.load(self.data)
+        self._sort_data(SortType.NAME, key_fn=lambda c: c.game.name.lower(), initial_reverse=False)
 
     def on_data_entry_view_close(self, data: DataEntry | int | None) -> None:
         if data is None:
@@ -108,6 +99,7 @@ class GameDataTableBase(Widget):
 
 class CompletionsTable(GameDataTableBase):
     BINDINGS = [
+        ("n", "sort_by_name", "Sort By Name"),
         ("w", "sort_by_hours_played", "Sort By Hours Played"),
         ("q", "sort_by_completion_date", "Sort By Completion Date"),
         ("r", "sort_by_rating", "Sort By Rating"),
@@ -129,32 +121,26 @@ class CompletionsTable(GameDataTableBase):
             )
         self.table.cursor_coordinate = Coordinate(row=cursor_row, column=0)
 
-        def get_columns(self) -> list[str]:
-            return ["Game", "Hours Played", "Completed at", "Rating", "Played platforms"]
-
-        def get_row_data(self, entry: DataEntry) -> list[str]:
-            return [
-                entry.game.name,
-                humanize_hours(entry.completion.hours_played),
-                humanize.naturaldate(entry.completion.completed_at),
-                f"{entry.completion.rating:.1f}" if entry.completion.rating else "N/A",
-                ", ".join(entry.completion.played_platforms_names) if entry.completion.played_platforms else "N/A",
-            ]
-
     def action_sort_by_hours_played(self) -> None:
-        self.last_sort_type = SortType.HOURS_PLAYED
-        self.data.sort(key=lambda c: c.completion.hours_played or 0, reverse=True)
-        self.load(self.data)
+        self._sort_data(
+            SortType.HOURS_PLAYED,
+            key_fn=lambda c: c.completion.hours_played or 0,
+            initial_reverse=True,
+        )
 
     def action_sort_by_completion_date(self) -> None:
-        self.last_sort_type = SortType.COMPLETION_DATE
-        self.data.sort(key=lambda c: (c.completion.completed_at.date() if c.completion.completed_at else dt.date.min))
-        self.load(self.data)
+        self._sort_data(
+            SortType.COMPLETION_DATE,
+            key_fn=lambda c: (c.completion.completed_at.date() if c.completion.completed_at else dt.date.min),
+            initial_reverse=True,
+        )
 
     def action_sort_by_rating(self) -> None:
-        self.last_sort_type = SortType.RATING
-        self.data.sort(key=lambda c: c.completion.rating or 0, reverse=True)
-        self.load(self.data)
+        self._sort_data(
+            SortType.RATING,
+            key_fn=lambda c: c.completion.rating or 0,
+            initial_reverse=True,
+        )
 
     def action_delete(self) -> None:
         if not self.table.has_focus:
@@ -177,13 +163,3 @@ class RemoteResultsTable(GameDataTableBase):
                 key=entry.game.id,
             )
         self.table.cursor_coordinate = Coordinate(row=cursor_row, column=0)
-
-        def get_columns(self) -> list[str]:
-            return ["Id", "Game", "Platforms"]
-
-        def get_row_data(self, entry: DataEntry) -> list[str]:
-            return [
-                str(entry.game.id),
-                entry.game.name,
-                ", ".join(p.name for p in entry.game.platforms),
-            ]
