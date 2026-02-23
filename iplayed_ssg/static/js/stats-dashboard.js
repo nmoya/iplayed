@@ -462,7 +462,10 @@
                 return;
             }
             els.topList.innerHTML = '';
-            const entries = Object.entries(topGamesByGenre).sort(([a], [b]) => a.localeCompare(b));
+            const entries = Object.entries(topGamesByGenre).sort(([genreA, infoA], [genreB, infoB]) => {
+                const diff = (infoB?.hours || 0) - (infoA?.hours || 0);
+                return diff !== 0 ? diff : genreA.localeCompare(genreB);
+            });
             if (!entries.length) {
                 els.topList.innerHTML = '<p class="stats-empty">No genre data yet.</p>';
                 return;
