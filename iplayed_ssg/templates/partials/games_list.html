@@ -65,6 +65,11 @@
                     <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
                 </h2>
                 <div class="game-entry__meta">
+                    <span class="game-entry__badge">
+                        <span class="game-entry__badge-label">Completed</span>
+                        <span class="game-entry__badge-value"><time
+                                datetime="{{ completed }}">{{ completed | date(format="%d %b %Y") }}</time></span>
+                    </span>
                     {% if playtime %}
                     <span class="game-entry__badge">
                         <span class="game-entry__badge-label">Playtime</span>
@@ -80,7 +85,7 @@
                         </span>
                     </span>
                     {% endif %}
-                    {% if platforms %}
+                    <!-- {% if platforms %}
                     <span class="game-entry__badge game-entry__badge--chips">
                         <span class="game-entry__badge-label">Platforms</span>
                         <span class="game-entry__badge-value">
@@ -90,7 +95,7 @@
                             {% endfor %}
                         </span>
                     </span>
-                    {% endif %}
+                    {% endif %} -->
                 </div>
             </article>
         </div>
