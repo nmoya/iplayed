@@ -185,7 +185,10 @@
             if (!els.platformCanvas || typeof Chart === 'undefined') {
                 return;
             }
-            const entries = Object.entries(platformCounts);
+            const entries = Object.entries(platformCounts).sort((a, b) => {
+                const diff = b[1] - a[1];
+                return diff !== 0 ? diff : a[0].localeCompare(b[0]);
+            });
             if (!entries.length) {
                 els.platformCanvas.replaceWith(createEmptyState('platform data'));
                 return;
