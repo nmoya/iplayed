@@ -39,6 +39,49 @@
             tooltipBg: 'rgba(0, 0, 0, 0.85)'
         };
 
+        // Color helper: parse common color formats and mix two colors.
+        function parseColorString(col) {
+            if (!col) return { r: 0, g: 0, b: 0 };
+            const s = col.trim();
+            if (s.startsWith('#')) {
+                let hex = s.slice(1);
+                if (hex.length === 3) {
+                    hex = hex.split('').map((c) => c + c).join('');
+                }
+                const intVal = parseInt(hex, 16);
+                return { r: (intVal >> 16) & 255, g: (intVal >> 8) & 255, b: intVal & 255 };
+            }
+            const rgbMatch = s.match(/rgba?\((\d+),\s*(\d+),\s*(\d+)/i);
+            if (rgbMatch) {
+                return { r: Number(rgbMatch[1]), g: Number(rgbMatch[2]), b: Number(rgbMatch[3]) };
+            }
+            // Fallback: use computed style to resolve named colors
+            try {
+                const el = document.createElement('div');
+                el.style.color = s;
+                document.body.appendChild(el);
+                const resolved = getComputedStyle(el).color;
+                document.body.removeChild(el);
+                const fallbackMatch = resolved.match(/rgba?\((\d+),\s*(\d+),\s*(\d+)/i);
+                if (fallbackMatch) {
+                    return { r: Number(fallbackMatch[1]), g: Number(fallbackMatch[2]), b: Number(fallbackMatch[3]) };
+                }
+            } catch (e) {
+                // ignore
+            }
+            return { r: 0, g: 0, b: 0 };
+        }
+
+        function mixColors(colorA, colorB, t) {
+            const a = parseColorString(colorA);
+            const b = parseColorString(colorB);
+            const clamp = (v) => Math.max(0, Math.min(255, Math.round(v)));
+            const r = clamp(a.r * (1 - t) + b.r * t);
+            const g = clamp(a.g * (1 - t) + b.g * t);
+            const bl = clamp(a.b * (1 - t) + b.b * t);
+            return `rgb(${r}, ${g}, ${bl})`;
+        }
+
         if (typeof Chart !== 'undefined') {
             Chart.defaults.color = themeColors.text;
             Chart.defaults.font.family = '"Fira Code", Monaco, Consolas, "Ubuntu Mono", monospace';
@@ -128,6 +171,27 @@
       `;
                 const alpha = 0.08 + (value / maxCount) * 0.92;
                 cell.style.setProperty('--stats-heat-alpha', `${(alpha * 100).toFixed(0)}%`);
+
+                // Improve contrast for low-count months by interpolating the
+                // month label color from a light gray up to the theme text color
+                // based on the completion ratio.
+                try {
+                    // Use a distinct darker gray for months with zero completions
+                    const zeroLabelColor = '#9e9e9e';
+                    // Slightly lighter endpoint to improve contrast on near-empty months
+                    const lowLabelColor = '#f1f1f1';
+                    // Use a gentle ease curve so very small ratios stay close to light
+                    const rawRatio = Math.max(0, Math.min(1, maxCount ? value / maxCount : 0));
+                    const curveExponent = 0.65; // <1 biases towards lighter labels for small values
+                    const ratio = Math.pow(rawRatio, curveExponent);
+                    const mixed = mixColors(lowLabelColor, themeColors.text || '#000000', ratio);
+                    const monthEl = cell.querySelector('.stats-heatmap__month');
+                    if (monthEl) {
+                        monthEl.style.color = value === 0 ? zeroLabelColor : mixed;
+                    }
+                } catch (e) {
+                    // If anything goes wrong, leave color as-is.
+                }
 
                 cell.addEventListener('click', () => {
                     if (activeCell) {
