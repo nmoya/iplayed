@@ -6,7 +6,7 @@ updated = "2019-09-04"
 in_search_index = true
 [taxonomies]
 platforms = ['pc (microsoft windows)']
-rating = []
+rating = ['9.0']
 genres = ['role-playing (rpg)', 'adventure', 'indie']
 flags = []
 [extra]
@@ -19,8 +19,8 @@ all_achievements_unlocked = false
 backseat_gaming = false
 [[extra.additional_content]]
 name = "Children of Morta: Ancient Spirits"
-completed = false
+completed = true
 [[extra.additional_content]]
 name = "Children of Morta: Paws and Claws"
-completed = false
+completed = true
 +++

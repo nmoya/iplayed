@@ -6,7 +6,7 @@ updated = "2021-08-09"
 in_search_index = true
 [taxonomies]
 platforms = ['pc (microsoft windows)']
-rating = []
+rating = ['8.0']
 genres = ['role-playing (rpg)', 'strategy']
 flags = []
 [extra]

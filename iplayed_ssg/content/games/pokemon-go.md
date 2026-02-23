@@ -6,7 +6,7 @@ updated = "2023-03-16"
 in_search_index = true
 [taxonomies]
 platforms = ['android']
-rating = []
+rating = ['7.0']
 genres = ['role-playing (rpg)', 'simulator']
 flags = []
 [extra]

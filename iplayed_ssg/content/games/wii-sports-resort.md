@@ -6,7 +6,7 @@ updated = "2009-07-21"
 in_search_index = true
 [taxonomies]
 platforms = ['wii']
-rating = []
+rating = ['8.0']
 genres = ['racing', 'simulator', 'sport']
 flags = []
 [extra]

@@ -1,16 +1,16 @@
 +++
 title = "The Sims 3"
-description = "52 hours and 33 minutes - PlayStation 3"
+description = "52 hours and 33 minutes - PC (Microsoft Windows)"
 date = "2010-09-26"
 updated = "2010-09-26"
 in_search_index = true
 [taxonomies]
-platforms = ['playstation 3']
-rating = []
+platforms = ['pc (microsoft windows)']
+rating = ['8.0']
 genres = ['role-playing (rpg)', 'simulator', 'strategy']
 flags = []
 [extra]
-subtitle = "52 hours and 33 minutes - PlayStation 3"
+subtitle = "52 hours and 33 minutes - PC (Microsoft Windows)"
 playtime = "52 hours and 33 minutes"
 completed_at = "2010-09-26"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coavu6.jpg"

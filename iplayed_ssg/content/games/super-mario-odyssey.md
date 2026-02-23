@@ -6,7 +6,7 @@ updated = "2022-10-25"
 in_search_index = true
 [taxonomies]
 platforms = ['nintendo switch']
-rating = []
+rating = ['8.0']
 genres = ['platform', 'adventure']
 flags = []
 [extra]

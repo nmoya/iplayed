@@ -6,7 +6,7 @@ updated = "2023-03-17"
 in_search_index = true
 [taxonomies]
 platforms = ['playstation']
-rating = []
+rating = ['10.0']
 genres = ['shooter', 'platform', 'puzzle', 'adventure']
 flags = []
 [extra]

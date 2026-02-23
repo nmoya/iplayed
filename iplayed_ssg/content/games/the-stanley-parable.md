@@ -1,17 +1,17 @@
 +++
 title = "The Stanley Parable"
-description = "1 hours and 27 minutes - PC (Microsoft Windows)"
+description = "9 hours - PC (Microsoft Windows)"
 date = "2022-11-16"
 updated = "2022-11-16"
 in_search_index = true
 [taxonomies]
 platforms = ['pc (microsoft windows)']
-rating = []
+rating = ['9.0']
 genres = ['adventure', 'indie']
 flags = []
 [extra]
-subtitle = "1 hours and 27 minutes - PC (Microsoft Windows)"
-playtime = "1 hours and 27 minutes"
+subtitle = "9 hours - PC (Microsoft Windows)"
+playtime = "9 hours"
 completed_at = "2022-11-16"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1rc9.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rc9.jpg"

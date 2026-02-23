@@ -1,17 +1,17 @@
 +++
 title = "Shadow of the Tomb Raider"
-description = "12 hours and 39 minutes - PC (Microsoft Windows)"
+description = "12 hours and 37 minutes - PC (Microsoft Windows)"
 date = "2018-09-28"
 updated = "2018-09-28"
 in_search_index = true
 [taxonomies]
 platforms = ['pc (microsoft windows)']
-rating = []
+rating = ['9.0']
 genres = ['shooter', 'puzzle', 'adventure']
 flags = []
 [extra]
-subtitle = "12 hours and 39 minutes - PC (Microsoft Windows)"
-playtime = "12 hours and 39 minutes"
+subtitle = "12 hours and 37 minutes - PC (Microsoft Windows)"
+playtime = "12 hours and 37 minutes"
 completed_at = "2018-09-28"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1vcn.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vcn.jpg"

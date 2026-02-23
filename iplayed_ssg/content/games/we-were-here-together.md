@@ -6,7 +6,7 @@ updated = "2019-10-28"
 in_search_index = true
 [taxonomies]
 platforms = ['pc (microsoft windows)']
-rating = []
+rating = ['8.0']
 genres = ['puzzle', 'adventure', 'indie']
 flags = []
 [extra]

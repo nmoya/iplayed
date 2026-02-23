@@ -6,7 +6,7 @@ updated = "2007-04-25"
 in_search_index = true
 [taxonomies]
 platforms = ['playstation']
-rating = []
+rating = ['3.0']
 genres = ['role-playing (rpg)', 'strategy', 'tactical']
 flags = []
 [extra]

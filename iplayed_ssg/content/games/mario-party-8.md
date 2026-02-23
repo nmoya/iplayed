@@ -6,7 +6,7 @@ updated = "2007-05-13"
 in_search_index = true
 [taxonomies]
 platforms = ['wii']
-rating = []
+rating = ['6.0']
 genres = ['puzzle', 'card & board game']
 flags = []
 [extra]

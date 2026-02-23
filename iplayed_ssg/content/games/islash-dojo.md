@@ -6,7 +6,7 @@ updated = "2020-06-17"
 in_search_index = true
 [taxonomies]
 platforms = ['ios']
-rating = []
+rating = ['3.0']
 genres = ["hack and slash/beat 'em up"]
 flags = []
 [extra]

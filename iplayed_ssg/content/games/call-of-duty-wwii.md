@@ -6,7 +6,7 @@ updated = "2017-11-25"
 in_search_index = true
 [taxonomies]
 platforms = ['pc (microsoft windows)']
-rating = []
+rating = ['7.0']
 genres = ['shooter']
 flags = []
 [extra]

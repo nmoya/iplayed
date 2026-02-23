@@ -6,7 +6,7 @@ updated = "2004-03-11"
 in_search_index = true
 [taxonomies]
 platforms = ['playstation']
-rating = []
+rating = ['8.0']
 genres = ['racing', 'simulator']
 flags = []
 [extra]

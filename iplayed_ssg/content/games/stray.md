@@ -6,7 +6,7 @@ updated = "2023-06-09"
 in_search_index = true
 [taxonomies]
 platforms = ['playstation 5']
-rating = []
+rating = ['10.0']
 genres = ['platform', 'adventure', 'indie']
 flags = []
 [extra]

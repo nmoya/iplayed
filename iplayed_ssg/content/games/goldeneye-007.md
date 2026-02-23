@@ -6,7 +6,7 @@ updated = "2001-08-05"
 in_search_index = true
 [taxonomies]
 platforms = ['nintendo 64']
-rating = []
+rating = ['8.0']
 genres = ['shooter']
 flags = []
 [extra]

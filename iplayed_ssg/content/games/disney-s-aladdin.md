@@ -6,7 +6,7 @@ updated = "1999-09-01"
 in_search_index = true
 [taxonomies]
 platforms = ['super nintendo entertainment system']
-rating = []
+rating = ['10.0']
 genres = ['platform', 'adventure', 'arcade']
 flags = []
 [extra]

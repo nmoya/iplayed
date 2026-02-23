@@ -1,17 +1,17 @@
 +++
 title = "Sid Meier's Civilization V"
-description = "40 hours and 4 minutes - PC (Microsoft Windows)"
+description = "61 hours - PC (Microsoft Windows)"
 date = "2022-10-14"
 updated = "2022-10-14"
 in_search_index = true
 [taxonomies]
 platforms = ['pc (microsoft windows)']
-rating = []
+rating = ['9.0']
 genres = ['simulator', 'strategy', 'turn-based strategy (tbs)']
 flags = []
 [extra]
-subtitle = "40 hours and 4 minutes - PC (Microsoft Windows)"
-playtime = "40 hours and 4 minutes"
+subtitle = "61 hours - PC (Microsoft Windows)"
+playtime = "61 hours"
 completed_at = "2022-10-14"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co20up.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co20up.jpg"

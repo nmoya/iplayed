@@ -6,7 +6,7 @@ updated = "2010-04-22"
 in_search_index = true
 [taxonomies]
 platforms = ['pc (microsoft windows)']
-rating = []
+rating = ['9.0']
 genres = ['real time strategy (rts)', 'strategy']
 flags = []
 [extra]
@@ -19,5 +19,5 @@ all_achievements_unlocked = false
 backseat_gaming = false
 [[extra.additional_content]]
 name = "StarCraft II: Nova Covert Ops"
-completed = false
+completed = true
 +++

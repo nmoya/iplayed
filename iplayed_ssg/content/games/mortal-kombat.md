@@ -6,7 +6,7 @@ updated = "2011-04-11"
 in_search_index = true
 [taxonomies]
 platforms = []
-rating = []
+rating = ['7.0']
 genres = ['fighting']
 flags = []
 [extra]

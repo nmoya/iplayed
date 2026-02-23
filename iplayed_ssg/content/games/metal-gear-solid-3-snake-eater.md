@@ -6,7 +6,7 @@ updated = "2007-11-01"
 in_search_index = true
 [taxonomies]
 platforms = ['playstation 2']
-rating = []
+rating = ['10.0']
 genres = ['shooter', 'tactical', 'adventure']
 flags = []
 [extra]

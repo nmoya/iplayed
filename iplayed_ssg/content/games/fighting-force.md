@@ -6,7 +6,7 @@ updated = "2005-05-02"
 in_search_index = true
 [taxonomies]
 platforms = ['playstation']
-rating = []
+rating = ['7.0']
 genres = ['fighting', 'strategy', "hack and slash/beat 'em up"]
 flags = []
 [extra]

@@ -1,17 +1,17 @@
 +++
 title = "Tomb Raider: Chronicles"
-description = "PlayStation"
+description = "10 hours and 50 minutes - PlayStation"
 date = "2010-10-19"
 updated = "2010-10-19"
 in_search_index = true
 [taxonomies]
 platforms = ['playstation']
-rating = []
+rating = ['9.0']
 genres = ['shooter', 'adventure']
 flags = []
 [extra]
-subtitle = "PlayStation"
-playtime = ""
+subtitle = "10 hours and 50 minutes - PlayStation"
+playtime = "10 hours and 50 minutes"
 completed_at = "2010-10-19"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co3h20.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co3h20.jpg"

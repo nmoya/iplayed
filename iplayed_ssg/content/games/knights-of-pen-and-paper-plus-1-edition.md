@@ -6,7 +6,7 @@ updated = "2012-01-02"
 in_search_index = true
 [taxonomies]
 platforms = ['android']
-rating = []
+rating = ['8.0']
 genres = ['role-playing (rpg)', 'strategy', 'turn-based strategy (tbs)', 'indie', 'card & board game']
 flags = []
 [extra]

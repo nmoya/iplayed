@@ -6,7 +6,7 @@ updated = "2022-03-13"
 in_search_index = true
 [taxonomies]
 platforms = ['ios']
-rating = []
+rating = ['3.0']
 genres = ['shooter', 'puzzle', 'simulator', 'indie']
 flags = []
 [extra]

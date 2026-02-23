@@ -6,7 +6,7 @@ updated = "2012-09-26"
 in_search_index = true
 [taxonomies]
 platforms = []
-rating = []
+rating = ['9.0']
 genres = []
 flags = []
 [extra]

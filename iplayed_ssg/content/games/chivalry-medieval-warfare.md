@@ -6,7 +6,7 @@ updated = "2012-01-13"
 in_search_index = true
 [taxonomies]
 platforms = ['pc (microsoft windows)']
-rating = []
+rating = ['6.0']
 genres = ['fighting', "hack and slash/beat 'em up", 'indie']
 flags = []
 [extra]

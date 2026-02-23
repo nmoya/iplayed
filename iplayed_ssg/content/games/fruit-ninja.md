@@ -6,7 +6,7 @@ updated = "2011-05-06"
 in_search_index = true
 [taxonomies]
 platforms = ['android']
-rating = []
+rating = ['8.0']
 genres = ['arcade']
 flags = []
 [extra]

@@ -6,7 +6,7 @@ updated = "1999-04-17"
 in_search_index = true
 [taxonomies]
 platforms = ['super nintendo entertainment system']
-rating = []
+rating = ['8.0']
 genres = ['platform']
 flags = []
 [extra]

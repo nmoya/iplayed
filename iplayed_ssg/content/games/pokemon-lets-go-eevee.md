@@ -6,7 +6,7 @@ updated = "2023-03-05"
 in_search_index = true
 [taxonomies]
 platforms = ['nintendo switch']
-rating = []
+rating = ['8.0']
 genres = ['role-playing (rpg)', 'adventure']
 flags = []
 [extra]

@@ -6,7 +6,7 @@ updated = "2010-08-20"
 in_search_index = true
 [taxonomies]
 platforms = ['pc (microsoft windows)']
-rating = []
+rating = ['6.0']
 genres = ['platform', 'strategy', 'turn-based strategy (tbs)']
 flags = []
 [extra]

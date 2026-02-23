@@ -6,7 +6,7 @@ updated = "2014-03-18"
 in_search_index = true
 [taxonomies]
 platforms = ['pc (microsoft windows)']
-rating = []
+rating = ['9.0']
 genres = ['role-playing (rpg)', "hack and slash/beat 'em up", 'adventure']
 flags = []
 [extra]

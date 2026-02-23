@@ -6,7 +6,7 @@ updated = "2008-03-04"
 in_search_index = true
 [taxonomies]
 platforms = []
-rating = []
+rating = ['7.0']
 genres = ["hack and slash/beat 'em up", 'adventure']
 flags = []
 [extra]

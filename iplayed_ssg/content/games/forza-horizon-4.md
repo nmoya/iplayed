@@ -6,7 +6,7 @@ updated = "2018-10-25"
 in_search_index = true
 [taxonomies]
 platforms = ['pc (microsoft windows)']
-rating = []
+rating = ['7.0']
 genres = ['racing', 'sport', 'adventure']
 flags = []
 [extra]
@@ -37,7 +37,7 @@ name = "Forza Horizon 4: Welcome Pack"
 completed = false
 [[extra.additional_content]]
 name = "Forza Horizon 4: Best of Bond Car Pack"
-completed = false
+completed = true
 [[extra.additional_content]]
 name = "Forza Horizon 4: VIP"
 completed = false

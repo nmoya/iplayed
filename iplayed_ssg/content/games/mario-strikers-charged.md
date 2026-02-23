@@ -6,7 +6,7 @@ updated = "2007-05-05"
 in_search_index = true
 [taxonomies]
 platforms = ['wii']
-rating = []
+rating = ['7.0']
 genres = ['sport']
 flags = []
 [extra]

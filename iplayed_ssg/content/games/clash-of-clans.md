@@ -6,7 +6,7 @@ updated = "2012-08-09"
 in_search_index = true
 [taxonomies]
 platforms = ['android']
-rating = []
+rating = ['2.0']
 genres = ['real time strategy (rts)', 'strategy']
 flags = []
 [extra]

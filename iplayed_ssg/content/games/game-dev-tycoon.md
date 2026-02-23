@@ -6,7 +6,7 @@ updated = "2012-12-14"
 in_search_index = true
 [taxonomies]
 platforms = ['pc (microsoft windows)']
-rating = []
+rating = ['8.0']
 genres = ['simulator', 'strategy', 'indie']
 flags = []
 [extra]

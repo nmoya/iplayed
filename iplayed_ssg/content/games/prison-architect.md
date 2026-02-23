@@ -6,7 +6,7 @@ updated = "2022-12-16"
 in_search_index = true
 [taxonomies]
 platforms = ['pc (microsoft windows)']
-rating = []
+rating = ['9.0']
 genres = ['simulator', 'strategy', 'adventure', 'indie']
 flags = []
 [extra]
@@ -19,7 +19,7 @@ all_achievements_unlocked = false
 backseat_gaming = false
 [[extra.additional_content]]
 name = "Prison Architect: Cleared for Transfer"
-completed = false
+completed = true
 [[extra.additional_content]]
 name = "Prison Architect: Undead"
 completed = false
@@ -28,10 +28,10 @@ name = "Prison Architect: Escape Mode"
 completed = false
 [[extra.additional_content]]
 name = "Prison Architect: Free for life"
-completed = false
+completed = true
 [[extra.additional_content]]
 name = "Prison Architect: Second Chances"
-completed = false
+completed = true
 [[extra.additional_content]]
 name = "Prison Architect: Island Bound"
 completed = false
@@ -46,7 +46,7 @@ name = "Prison Architect: Gangs"
 completed = false
 [[extra.additional_content]]
 name = "Prison Architect: Going Green"
-completed = false
+completed = true
 [[extra.additional_content]]
 name = "Prison Architect: Psych Ward - Warden's Edition"
 completed = false

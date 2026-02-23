@@ -6,7 +6,7 @@ updated = "1999-12-25"
 in_search_index = true
 [taxonomies]
 platforms = ['super nintendo entertainment system']
-rating = []
+rating = ['6.0']
 genres = ['point-and-click', 'puzzle', 'adventure']
 flags = []
 [extra]

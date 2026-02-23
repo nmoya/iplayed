@@ -1,16 +1,16 @@
 +++
 title = "Unreal Tournament III: Black Edition"
-description = ""
+description = "PC (Microsoft Windows)"
 date = "2007-12-20"
 updated = "2007-12-20"
 in_search_index = true
 [taxonomies]
-platforms = []
-rating = []
+platforms = ['pc (microsoft windows)']
+rating = ['6.0']
 genres = ['shooter']
 flags = []
 [extra]
-subtitle = ""
+subtitle = "PC (Microsoft Windows)"
 playtime = ""
 completed_at = "2007-12-20"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co288l.jpg"

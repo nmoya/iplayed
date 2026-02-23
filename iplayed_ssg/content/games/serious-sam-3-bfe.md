@@ -6,7 +6,7 @@ updated = "2011-11-23"
 in_search_index = true
 [taxonomies]
 platforms = ['pc (microsoft windows)']
-rating = []
+rating = ['6.0']
 genres = ['shooter', 'puzzle', 'indie']
 flags = []
 [extra]
@@ -19,5 +19,5 @@ all_achievements_unlocked = false
 backseat_gaming = false
 [[extra.additional_content]]
 name = "Serious Sam 3: Jewel of the Nile"
-completed = false
+completed = true
 +++

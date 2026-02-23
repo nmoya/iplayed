@@ -6,7 +6,7 @@ updated = "2013-08-03"
 in_search_index = true
 [taxonomies]
 platforms = ['android']
-rating = []
+rating = ['10.0']
 genres = ['racing', 'sport', 'indie']
 flags = []
 [extra]

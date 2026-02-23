@@ -6,7 +6,7 @@ updated = "2011-08-20"
 in_search_index = true
 [taxonomies]
 platforms = ['ios']
-rating = []
+rating = ['9.0']
 genres = ['puzzle', 'strategy', 'adventure']
 flags = []
 [extra]

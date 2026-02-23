@@ -6,7 +6,7 @@ updated = "2012-12-11"
 in_search_index = true
 [taxonomies]
 platforms = ['playstation 3']
-rating = []
+rating = ['7.0']
 genres = ['role-playing (rpg)', 'simulator', 'strategy', 'turn-based strategy (tbs)', 'tactical']
 flags = []
 [extra]

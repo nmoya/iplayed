@@ -1,17 +1,17 @@
 +++
 title = "Super Mario Kart"
-description = "2 hours and 12 minutes - Super Nintendo Entertainment System"
+description = "22 hours - Super Nintendo Entertainment System"
 date = "1999-12-08"
 updated = "1999-12-08"
 in_search_index = true
 [taxonomies]
 platforms = ['super nintendo entertainment system']
-rating = []
+rating = ['10.0']
 genres = ['racing', 'arcade']
 flags = []
 [extra]
-subtitle = "2 hours and 12 minutes - Super Nintendo Entertainment System"
-playtime = "2 hours and 12 minutes"
+subtitle = "22 hours - Super Nintendo Entertainment System"
+playtime = "22 hours"
 completed_at = "1999-12-08"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co21w8.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co21w8.jpg"

@@ -6,7 +6,7 @@ updated = "2021-08-23"
 in_search_index = true
 [taxonomies]
 platforms = []
-rating = []
+rating = ['5.0']
 genres = ['role-playing (rpg)', 'adventure']
 flags = []
 [extra]

@@ -1,17 +1,17 @@
 +++
 title = "The Elder Scrolls V: Skyrim"
-description = "34 hours and 43 minutes - PlayStation 3"
+description = "54 hours - PlayStation 3"
 date = "2011-11-11"
 updated = "2011-11-11"
 in_search_index = true
 [taxonomies]
 platforms = ['playstation 3']
-rating = []
+rating = ['9.0']
 genres = ['role-playing (rpg)', 'adventure']
 flags = []
 [extra]
-subtitle = "34 hours and 43 minutes - PlayStation 3"
-playtime = "34 hours and 43 minutes"
+subtitle = "54 hours - PlayStation 3"
+playtime = "54 hours"
 completed_at = "2011-11-11"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1tnw.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tnw.jpg"

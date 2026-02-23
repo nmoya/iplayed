@@ -6,7 +6,7 @@ updated = "2012-04-08"
 in_search_index = true
 [taxonomies]
 platforms = ['android']
-rating = []
+rating = ['4.0']
 genres = ['puzzle', 'strategy', 'arcade']
 flags = []
 [extra]

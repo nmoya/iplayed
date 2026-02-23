@@ -6,7 +6,7 @@ updated = "2006-10-23"
 in_search_index = true
 [taxonomies]
 platforms = []
-rating = []
+rating = ['8.0']
 genres = ['shooter', 'platform', 'arcade']
 flags = []
 [extra]

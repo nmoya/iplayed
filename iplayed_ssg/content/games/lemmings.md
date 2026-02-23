@@ -6,7 +6,7 @@ updated = "2001-12-10"
 in_search_index = true
 [taxonomies]
 platforms = []
-rating = []
+rating = ['10.0']
 genres = ['puzzle']
 flags = []
 [extra]

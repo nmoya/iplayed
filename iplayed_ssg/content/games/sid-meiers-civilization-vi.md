@@ -6,7 +6,7 @@ updated = "2016-10-17"
 in_search_index = true
 [taxonomies]
 platforms = ['pc (microsoft windows)']
-rating = []
+rating = ['9.0']
 genres = ['simulator', 'strategy', 'turn-based strategy (tbs)']
 flags = []
 [extra]
@@ -22,10 +22,10 @@ name = "Sid Meier's Civilization VI: Poland Civilization & Scenario Pack"
 completed = false
 [[extra.additional_content]]
 name = "Sid Meier's Civilization VI: Aztec Civilization Pack"
-completed = false
+completed = true
 [[extra.additional_content]]
 name = "Sid Meier's Civilization VI: Australia Civilization & Scenario Pack"
-completed = false
+completed = true
 [[extra.additional_content]]
 name = "Sid Meier's Civilization VI: Maya & Gran Colombia Pack"
 completed = false
@@ -43,7 +43,7 @@ name = "Sid Meier's Civilization VI: Babylon Pack"
 completed = false
 [[extra.additional_content]]
 name = "Sid Meier's Civilization VI: Portugal Pack"
-completed = false
+completed = true
 [[extra.additional_content]]
 name = "Sid Meier's Civilization VI: Byzantium & Gaul Pack"
 completed = false

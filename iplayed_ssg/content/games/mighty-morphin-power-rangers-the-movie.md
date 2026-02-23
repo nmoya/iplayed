@@ -6,7 +6,7 @@ updated = "1999-03-21"
 in_search_index = true
 [taxonomies]
 platforms = ['super nintendo entertainment system']
-rating = []
+rating = ['6.0']
 genres = ['fighting', "hack and slash/beat 'em up"]
 flags = []
 [extra]

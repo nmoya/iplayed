@@ -6,7 +6,7 @@ updated = "2005-03-14"
 in_search_index = true
 [taxonomies]
 platforms = ['playstation 2']
-rating = []
+rating = ['10.0']
 genres = ['puzzle', "hack and slash/beat 'em up", 'adventure']
 flags = []
 [extra]

@@ -6,7 +6,7 @@ updated = "2023-03-10"
 in_search_index = true
 [taxonomies]
 platforms = ['game boy']
-rating = []
+rating = ['8.0']
 genres = ['role-playing (rpg)', 'turn-based strategy (tbs)', 'adventure']
 flags = []
 [extra]

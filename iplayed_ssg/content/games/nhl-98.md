@@ -6,7 +6,7 @@ updated = "2004-07-28"
 in_search_index = true
 [taxonomies]
 platforms = ['pc (microsoft windows)']
-rating = []
+rating = ['7.0']
 genres = ['sport', 'strategy']
 flags = []
 [extra]

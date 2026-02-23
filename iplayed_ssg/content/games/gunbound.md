@@ -6,7 +6,7 @@ updated = "2002-05-23"
 in_search_index = true
 [taxonomies]
 platforms = ['pc (microsoft windows)']
-rating = []
+rating = ['5.0']
 genres = ['tactical']
 flags = []
 [extra]

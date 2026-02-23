@@ -6,7 +6,7 @@ updated = "2010-03-23"
 in_search_index = true
 [taxonomies]
 platforms = ['playstation 3']
-rating = []
+rating = ['8.0']
 genres = ['platform']
 flags = []
 [extra]
@@ -19,7 +19,7 @@ all_achievements_unlocked = false
 backseat_gaming = false
 [[extra.additional_content]]
 name = "LittleBigPlanet: Metal Gear Solid Level Kit"
-completed = false
+completed = true
 [[extra.additional_content]]
 name = "LittleBigPlanet: Pirates of the Caribbean Level Kit"
 completed = false

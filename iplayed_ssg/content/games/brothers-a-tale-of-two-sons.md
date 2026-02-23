@@ -6,7 +6,7 @@ updated = "2013-08-08"
 in_search_index = true
 [taxonomies]
 platforms = ['playstation 3']
-rating = []
+rating = ['9.0']
 genres = ['puzzle', 'adventure', 'indie']
 flags = []
 [extra]

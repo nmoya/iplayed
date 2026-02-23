@@ -1,17 +1,17 @@
 +++
 title = "The Beginner's Guide"
-description = "1 hours and 31 minutes - PC (Microsoft Windows)"
+description = "5 hours - PC (Microsoft Windows)"
 date = "2015-06-07"
 updated = "2015-06-07"
 in_search_index = true
 [taxonomies]
 platforms = ['pc (microsoft windows)']
-rating = []
+rating = ['10.0']
 genres = ['adventure', 'indie']
 flags = []
 [extra]
-subtitle = "1 hours and 31 minutes - PC (Microsoft Windows)"
-playtime = "1 hours and 31 minutes"
+subtitle = "5 hours - PC (Microsoft Windows)"
+playtime = "5 hours"
 completed_at = "2015-06-07"
 url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2rz1.jpg"
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2rz1.jpg"

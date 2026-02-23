@@ -6,7 +6,7 @@ updated = "2025-05-01"
 in_search_index = true
 [taxonomies]
 platforms = ['pc (microsoft windows)']
-rating = []
+rating = ['7.0']
 genres = ['simulator', 'strategy', 'adventure', 'indie']
 flags = []
 [extra]
