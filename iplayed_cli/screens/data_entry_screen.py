@@ -5,7 +5,7 @@ from data_schema import DataEntry, PersonalCompletion
 from file_persistence import completions_db
 from textual.containers import Horizontal, VerticalScroll
 from textual.screen import Screen
-from textual.widgets import Button, Footer, Header, Static
+from textual.widgets import Button, Footer, Header, Input, Static
 from widgets.date_picker import DatePicker
 from widgets.hours_played_input import HoursPlayedInput
 from widgets.platform_picker import CheckboxInput
@@ -116,7 +116,18 @@ class DataEntryScreen(Screen):
         min-width: 14;
     }
     """
-    BINDINGS = [("escape", "app.pop_screen", "Back")]
+    BINDINGS = [
+        ("escape", "app.pop_screen", "Back"),
+        ("p", "focus_platforms", "Focus platforms"),
+        ("d", "focus_details", "Focus details"),
+        ("l", "focus_dlcs", "Focus DLCs"),
+        ("t", "focus_date", "Focus completion date"),
+        ("r", "focus_rating", "Focus rating"),
+        ("c", "focus_comments", "Focus comments"),
+        ("h", "focus_hours", "Focus hours played"),
+        ("ctrl+s", "save_and_close", "Save & close"),
+        ("ctrl+q", "close_without_saving", "Close without saving"),
+    ]
 
     def __init__(self, data: DataEntry):
         super().__init__()
@@ -149,7 +160,13 @@ class DataEntryScreen(Screen):
                     id="dlcs",
                 )
             )
-        content.append(DatePicker(title=" 📅 Completion Date", default_date=self.data.completion.completed_at))
+        content.append(
+            DatePicker(
+                title=" 📅 Completion Date",
+                default_date=self.data.completion.completed_at,
+                id="completion_date",
+            )
+        )
         content.append(
             StarRating(title="How would you rate this game?", rating=self.data.completion.rating, id="rating")
         )
@@ -206,3 +223,55 @@ class DataEntryScreen(Screen):
             completions_db.delete_completion(self.data.game.id)
             completions_db.deploy_markdown_files()
             self.dismiss(self.data.game.id)
+
+    def _shortcuts_blocked(self) -> bool:
+        """Return True when shortcuts should be ignored (e.g., while typing comments)."""
+        try:
+            return self.query_one("#comments", Input).has_focus
+        except Exception:
+            return False
+
+    def action_focus_platforms(self) -> None:
+        if self._shortcuts_blocked():
+            return
+        self.query_one("#platforms", CheckboxInput).focus()
+
+    def action_focus_details(self) -> None:
+        if self._shortcuts_blocked():
+            return
+        self.query_one("#details", CheckboxInput).focus()
+
+    def action_focus_dlcs(self) -> None:
+        if self._shortcuts_blocked() or not self.data.game.dlcs:
+            return
+        self.query_one("#dlcs", CheckboxInput).focus()
+
+    def action_focus_date(self) -> None:
+        if self._shortcuts_blocked():
+            return
+        self.query_one("#completion_date", DatePicker).focus()
+
+    def action_focus_rating(self) -> None:
+        if self._shortcuts_blocked():
+            return
+        self.query_one("#rating", StarRating).focus()
+
+    def action_focus_comments(self) -> None:
+        if self._shortcuts_blocked():
+            return
+        self.query_one("#comments", Input).focus()
+
+    def action_focus_hours(self) -> None:
+        if self._shortcuts_blocked():
+            return
+        self.query_one("#hours_played", Input).focus()
+
+    def action_save_and_close(self) -> None:
+        if self._shortcuts_blocked():
+            return
+        self.on_button_pressed(Button.Pressed(self.query_one("#save", Button)))
+
+    def action_close_without_saving(self) -> None:
+        if self._shortcuts_blocked():
+            return
+        self.app.pop_screen()

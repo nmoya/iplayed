@@ -7,9 +7,9 @@ from textual.widgets import Static
 
 class StarRating(Widget):
     class RatingSelected(Message):
-        def __init__(self, sender: Widget, rating: int) -> None:
+        def __init__(self, rating: int) -> None:
             self.rating = rating
-            super().__init__(sender)
+            super().__init__()
 
     DEFAULT_CSS = """
     StarRating {
@@ -97,7 +97,7 @@ class StarRating(Widget):
         elif event.key in ("enter", "space"):
             self.rating = self.cursor_index
             self.update_stars()
-            self.post_message(self.RatingSelected(self, self.rating))
+            self.post_message(self.RatingSelected(self.rating))
 
     def on_focus(self) -> None:
         self.update_stars()

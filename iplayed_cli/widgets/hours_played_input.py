@@ -53,7 +53,11 @@ class HoursPlayedInput(Widget):
             if not self.game_name:
                 return
             client = HowLongToBeat()
-            result = client.search(self.game_name)
+            try:
+                result = client.search(self.game_name)
+            except Exception:
+                # External service can fail or change; ignore errors to keep UI responsive.
+                return
             if not result:
                 return
             best = max(result, key=lambda x: x.similarity)
