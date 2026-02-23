@@ -7,18 +7,18 @@
 
 
 .stats-card {
-    border: 1px solid color-mix(in srgb, var(--accent-color) 60%, transparent);
+    border: 1px solid color-mix(in srgb, var(--accent-color) 45%, transparent);
     border-radius: 6px;
     padding: 24px;
-    background: color-mix(in srgb, var(--background-color) 85%, rgba(10, 10, 10, 0.8));
-    box-shadow: inset 0 0 18px color-mix(in srgb, var(--accent-color) 5%, transparent);
+    background: color-mix(in srgb, var(--background-color) 75%, #050505);
+    box-shadow: none;
 }
 
 
 .stats-card--highlight {
-    background: color-mix(in srgb, var(--accent-color) 12%, var(--background-color));
+    background: color-mix(in srgb, var(--accent-color) 10%, var(--background-color));
     color: var(--text-color);
-    box-shadow: 0 0 25px color-mix(in srgb, var(--accent-color) 18%, transparent);
+    box-shadow: none;
 }
 
 
@@ -140,7 +140,7 @@
     &.is-active {
         transform: translateY(-2px);
         outline: 1px solid var(--background-color);
-        box-shadow: 0 0 12px color-mix(in srgb, var(--accent-color) 40%, transparent);
+        box-shadow: none;
     }
 }
 
@@ -298,5 +298,5 @@
     border: 1px solid color-mix(in srgb, var(--accent-color) 25%, transparent);
     border-radius: 4px;
     padding: 12px;
-    box-shadow: inset 0 0 12px color-mix(in srgb, var(--accent-color) 12%, transparent);
+    box-shadow: none;
 }
