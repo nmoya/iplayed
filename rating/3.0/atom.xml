@@ -26,4 +26,99 @@
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/far-cry-6/"></content>
         
     </entry>
+    <entry xml:lang="en">
+        <title>Doodle Devil</title>
+        <published>2022-03-13T00:00:00+00:00</published>
+        <updated>2022-03-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/doodle-devil/"/>
+        <id>https://nikolasmoya.com/iplayed/games/doodle-devil/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/doodle-devil/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>ISlash Dojo</title>
+        <published>2020-06-17T00:00:00+00:00</published>
+        <updated>2020-06-17T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/islash-dojo/"/>
+        <id>https://nikolasmoya.com/iplayed/games/islash-dojo/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/islash-dojo/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Supercross 2000</title>
+        <published>2007-07-18T00:00:00+00:00</published>
+        <updated>2007-07-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/supercross-2000/"/>
+        <id>https://nikolasmoya.com/iplayed/games/supercross-2000/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/supercross-2000/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Eternal Eyes</title>
+        <published>2007-04-25T00:00:00+00:00</published>
+        <updated>2007-04-25T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/eternal-eyes/"/>
+        <id>https://nikolasmoya.com/iplayed/games/eternal-eyes/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/eternal-eyes/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Home Alone</title>
+        <published>1999-09-09T00:00:00+00:00</published>
+        <updated>1999-09-09T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/home-alone/"/>
+        <id>https://nikolasmoya.com/iplayed/games/home-alone/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/home-alone/"></content>
+        
+    </entry>
 </feed>

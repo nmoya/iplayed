@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>iPlayed - game boy color</title>
+    <subtitle>Games and statistics have always been a part of my life—so I brought them together in a sleek game completionist tracker.</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://nikolasmoya.com/iplayed/platforms/game boy color/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>1999-09-04T00:00:00+00:00</updated>
+    <id>https://nikolasmoya.com/iplayed/platforms/game boy color/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Pokémon Yellow Version: Special Pikachu Edition</title>
+        <published>1999-09-04T00:00:00+00:00</published>
+        <updated>1999-09-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/pokemon-yellow-version-special-pikachu-edition/"/>
+        <id>https://nikolasmoya.com/iplayed/games/pokemon-yellow-version-special-pikachu-edition/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/pokemon-yellow-version-special-pikachu-edition/"></content>
+        
+    </entry>
+</feed>

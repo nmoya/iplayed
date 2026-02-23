@@ -485,7 +485,7 @@
     </url>
     <url>
         <loc>https://nikolasmoya.com/iplayed/games/duke-nukem-3d-megaton-edition/</loc>
-        <lastmod>2013-02-27</lastmod>
+        <lastmod>2008-02-27</lastmod>
     </url>
     <url>
         <loc>https://nikolasmoya.com/iplayed/games/duke-nukem-3d/</loc>
@@ -810,6 +810,10 @@
     <url>
         <loc>https://nikolasmoya.com/iplayed/games/it-takes-two/</loc>
         <lastmod>2021-04-18</lastmod>
+    </url>
+    <url>
+        <loc>https://nikolasmoya.com/iplayed/games/james-bond-007-the-world-is-not-enough--1/</loc>
+        <lastmod>2026-02-23</lastmod>
     </url>
     <url>
         <loc>https://nikolasmoya.com/iplayed/games/james-bond-007-the-world-is-not-enough/</loc>
@@ -1220,6 +1224,10 @@
         <lastmod>2023-03-10</lastmod>
     </url>
     <url>
+        <loc>https://nikolasmoya.com/iplayed/games/pokemon-sword-and-pokemon-shield-double-pack/</loc>
+        <lastmod>2026-02-23</lastmod>
+    </url>
+    <url>
         <loc>https://nikolasmoya.com/iplayed/games/pokemon-sword-and-shield/</loc>
         <lastmod>2021-08-23</lastmod>
     </url>
@@ -1628,6 +1636,10 @@
         <lastmod>1999-07-22</lastmod>
     </url>
     <url>
+        <loc>https://nikolasmoya.com/iplayed/games/the-mummy--1/</loc>
+        <lastmod>2026-02-23</lastmod>
+    </url>
+    <url>
         <loc>https://nikolasmoya.com/iplayed/games/the-mummy/</loc>
         <lastmod>2002-11-21</lastmod>
     </url>
@@ -1991,6 +2003,12 @@
         <loc>https://nikolasmoya.com/iplayed/platforms/dos/</loc>
     </url>
     <url>
+        <loc>https://nikolasmoya.com/iplayed/platforms/game boy advance/</loc>
+    </url>
+    <url>
+        <loc>https://nikolasmoya.com/iplayed/platforms/game boy color/</loc>
+    </url>
+    <url>
         <loc>https://nikolasmoya.com/iplayed/platforms/game boy/</loc>
     </url>
     <url>
@@ -2039,7 +2057,13 @@
         <loc>https://nikolasmoya.com/iplayed/rating/</loc>
     </url>
     <url>
+        <loc>https://nikolasmoya.com/iplayed/rating/1.0/</loc>
+    </url>
+    <url>
         <loc>https://nikolasmoya.com/iplayed/rating/10.0/</loc>
+    </url>
+    <url>
+        <loc>https://nikolasmoya.com/iplayed/rating/2.0/</loc>
     </url>
     <url>
         <loc>https://nikolasmoya.com/iplayed/rating/3.0/</loc>

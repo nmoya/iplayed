@@ -179,6 +179,25 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>Shadow of the Colossus</title>
+        <published>2005-09-01T00:00:00+00:00</published>
+        <updated>2005-09-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/shadow-of-the-colossus/"/>
+        <id>https://nikolasmoya.com/iplayed/games/shadow-of-the-colossus/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/shadow-of-the-colossus/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>God of War</title>
         <published>2005-03-14T00:00:00+00:00</published>
         <updated>2005-03-14T00:00:00+00:00</updated>

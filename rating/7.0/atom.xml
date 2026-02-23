@@ -5,8 +5,27 @@
     <link rel="self" type="application/atom+xml" href="https://nikolasmoya.com/iplayed/rating/7.0/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2026-02-17T00:00:00+00:00</updated>
+    <updated>2026-02-23T00:00:00+00:00</updated>
     <id>https://nikolasmoya.com/iplayed/rating/7.0/atom.xml</id>
+    <entry xml:lang="en">
+        <title>James Bond 007: The World Is Not Enough</title>
+        <published>2026-02-23T00:00:00+00:00</published>
+        <updated>2026-02-23T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/james-bond-007-the-world-is-not-enough--1/"/>
+        <id>https://nikolasmoya.com/iplayed/games/james-bond-007-the-world-is-not-enough--1/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/james-bond-007-the-world-is-not-enough--1/"></content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>Final Fantasy VII Remake Intergrade</title>
         <published>2026-02-17T00:00:00+00:00</published>
@@ -103,6 +122,25 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>Green Hell</title>
+        <published>2025-05-01T00:00:00+00:00</published>
+        <updated>2025-05-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/green-hell/"/>
+        <id>https://nikolasmoya.com/iplayed/games/green-hell/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/green-hell/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>Gods Remastered</title>
         <published>2024-08-31T00:00:00+00:00</published>
         <updated>2024-08-31T00:00:00+00:00</updated>
@@ -160,6 +198,25 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>Halo Infinite</title>
+        <published>2024-01-08T00:00:00+00:00</published>
+        <updated>2024-01-08T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/halo-infinite/"/>
+        <id>https://nikolasmoya.com/iplayed/games/halo-infinite/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/halo-infinite/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>Rayman Legends</title>
         <published>2023-07-21T00:00:00+00:00</published>
         <updated>2023-07-21T00:00:00+00:00</updated>
@@ -179,6 +236,82 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>Star Realms</title>
+        <published>2023-05-02T00:00:00+00:00</published>
+        <updated>2023-05-02T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/star-realms/"/>
+        <id>https://nikolasmoya.com/iplayed/games/star-realms/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/star-realms/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Astroneer</title>
+        <published>2023-04-04T00:00:00+00:00</published>
+        <updated>2023-04-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/astroneer/"/>
+        <id>https://nikolasmoya.com/iplayed/games/astroneer/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/astroneer/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Pokémon Go</title>
+        <published>2023-03-16T00:00:00+00:00</published>
+        <updated>2023-03-16T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/pokemon-go/"/>
+        <id>https://nikolasmoya.com/iplayed/games/pokemon-go/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/pokemon-go/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Age of Empires III</title>
+        <published>2022-11-25T00:00:00+00:00</published>
+        <updated>2022-11-25T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/age-of-empires-iii/"/>
+        <id>https://nikolasmoya.com/iplayed/games/age-of-empires-iii/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/age-of-empires-iii/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>Oddworld: New &#x27;n&#x27; Tasty</title>
         <published>2022-11-18T00:00:00+00:00</published>
         <updated>2022-11-18T00:00:00+00:00</updated>
@@ -195,6 +328,44 @@
         <id>https://nikolasmoya.com/iplayed/games/oddworld-new-n-tasty/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/oddworld-new-n-tasty/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Far Cry 5</title>
+        <published>2022-11-05T00:00:00+00:00</published>
+        <updated>2022-11-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/far-cry-5/"/>
+        <id>https://nikolasmoya.com/iplayed/games/far-cry-5/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/far-cry-5/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>The Artful Escape</title>
+        <published>2022-06-05T00:00:00+00:00</published>
+        <updated>2022-06-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/the-artful-escape/"/>
+        <id>https://nikolasmoya.com/iplayed/games/the-artful-escape/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/the-artful-escape/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -255,6 +426,25 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>Monster Train</title>
+        <published>2020-05-10T00:00:00+00:00</published>
+        <updated>2020-05-10T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/monster-train/"/>
+        <id>https://nikolasmoya.com/iplayed/games/monster-train/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/monster-train/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>The Sims 4</title>
         <published>2020-03-24T00:00:00+00:00</published>
         <updated>2020-03-24T00:00:00+00:00</updated>
@@ -274,6 +464,44 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>Black Mesa</title>
+        <published>2020-03-22T00:00:00+00:00</published>
+        <updated>2020-03-22T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/black-mesa/"/>
+        <id>https://nikolasmoya.com/iplayed/games/black-mesa/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/black-mesa/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Magic: The Gathering Arena</title>
+        <published>2019-09-17T00:00:00+00:00</published>
+        <updated>2019-09-17T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/magic-the-gathering-arena/"/>
+        <id>https://nikolasmoya.com/iplayed/games/magic-the-gathering-arena/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/magic-the-gathering-arena/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>Detroit: Become Human</title>
         <published>2019-07-23T00:00:00+00:00</published>
         <updated>2019-07-23T00:00:00+00:00</updated>
@@ -290,6 +518,25 @@
         <id>https://nikolasmoya.com/iplayed/games/detroit-become-human--1/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/detroit-become-human--1/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Doom II</title>
+        <published>2019-07-16T00:00:00+00:00</published>
+        <updated>2019-07-16T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/doom-ii/"/>
+        <id>https://nikolasmoya.com/iplayed/games/doom-ii/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/doom-ii/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -331,6 +578,44 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>Forza Horizon 4</title>
+        <published>2018-10-25T00:00:00+00:00</published>
+        <updated>2018-10-25T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/forza-horizon-4/"/>
+        <id>https://nikolasmoya.com/iplayed/games/forza-horizon-4/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/forza-horizon-4/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Assassin&#x27;s Creed Odyssey</title>
+        <published>2018-10-22T00:00:00+00:00</published>
+        <updated>2018-10-22T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/assassins-creed-odyssey/"/>
+        <id>https://nikolasmoya.com/iplayed/games/assassins-creed-odyssey/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/assassins-creed-odyssey/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>Horizon Zero Dawn</title>
         <published>2018-04-11T00:00:00+00:00</published>
         <updated>2018-04-11T00:00:00+00:00</updated>
@@ -347,6 +632,44 @@
         <id>https://nikolasmoya.com/iplayed/games/horizon-zero-dawn/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/horizon-zero-dawn/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Railway Empire</title>
+        <published>2018-01-27T00:00:00+00:00</published>
+        <updated>2018-01-27T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/railway-empire/"/>
+        <id>https://nikolasmoya.com/iplayed/games/railway-empire/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/railway-empire/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Call of Duty: WWII</title>
+        <published>2017-11-25T00:00:00+00:00</published>
+        <updated>2017-11-25T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/call-of-duty-wwii/"/>
+        <id>https://nikolasmoya.com/iplayed/games/call-of-duty-wwii/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/call-of-duty-wwii/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -385,6 +708,25 @@
         <id>https://nikolasmoya.com/iplayed/games/mario-kart-8-deluxe/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/mario-kart-8-deluxe/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Styx: Shards of Darkness</title>
+        <published>2017-03-06T00:00:00+00:00</published>
+        <updated>2017-03-06T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/styx-shards-of-darkness/"/>
+        <id>https://nikolasmoya.com/iplayed/games/styx-shards-of-darkness/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/styx-shards-of-darkness/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -499,6 +841,1013 @@
         <id>https://nikolasmoya.com/iplayed/games/firewatch/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/firewatch/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>There Is No Game</title>
+        <published>2015-09-19T00:00:00+00:00</published>
+        <updated>2015-09-19T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/there-is-no-game/"/>
+        <id>https://nikolasmoya.com/iplayed/games/there-is-no-game/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/there-is-no-game/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>The Unfinished Swan</title>
+        <published>2015-01-20T00:00:00+00:00</published>
+        <updated>2015-01-20T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/the-unfinished-swan/"/>
+        <id>https://nikolasmoya.com/iplayed/games/the-unfinished-swan/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/the-unfinished-swan/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Prince of Persia: Warrior Within</title>
+        <published>2014-11-22T00:00:00+00:00</published>
+        <updated>2014-11-22T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/prince-of-persia-warrior-within/"/>
+        <id>https://nikolasmoya.com/iplayed/games/prince-of-persia-warrior-within/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/prince-of-persia-warrior-within/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Syphon Filter 2</title>
+        <published>2014-08-01T00:00:00+00:00</published>
+        <updated>2014-08-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/syphon-filter-2/"/>
+        <id>https://nikolasmoya.com/iplayed/games/syphon-filter-2/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/syphon-filter-2/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Hearthstone</title>
+        <published>2014-03-22T00:00:00+00:00</published>
+        <updated>2014-03-22T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/hearthstone/"/>
+        <id>https://nikolasmoya.com/iplayed/games/hearthstone/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/hearthstone/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Pac-Man: Championship Edition DX+</title>
+        <published>2013-09-05T00:00:00+00:00</published>
+        <updated>2013-09-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/pac-man-championship-edition-dx-plus/"/>
+        <id>https://nikolasmoya.com/iplayed/games/pac-man-championship-edition-dx-plus/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/pac-man-championship-edition-dx-plus/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Rogue Legacy</title>
+        <published>2013-06-09T00:00:00+00:00</published>
+        <updated>2013-06-09T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/rogue-legacy/"/>
+        <id>https://nikolasmoya.com/iplayed/games/rogue-legacy/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/rogue-legacy/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>XCOM: Enemy Unknown</title>
+        <published>2012-12-11T00:00:00+00:00</published>
+        <updated>2012-12-11T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/xcom-enemy-unknown/"/>
+        <id>https://nikolasmoya.com/iplayed/games/xcom-enemy-unknown/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/xcom-enemy-unknown/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Ace Combat 3: Electrosphere</title>
+        <published>2012-10-11T00:00:00+00:00</published>
+        <updated>2012-10-11T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/ace-combat-3-electrosphere/"/>
+        <id>https://nikolasmoya.com/iplayed/games/ace-combat-3-electrosphere/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/ace-combat-3-electrosphere/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Tomb Raider: The Last Revelation</title>
+        <published>2012-07-23T00:00:00+00:00</published>
+        <updated>2012-07-23T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/tomb-raider-the-last-revelation/"/>
+        <id>https://nikolasmoya.com/iplayed/games/tomb-raider-the-last-revelation/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/tomb-raider-the-last-revelation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Assassin&#x27;s Creed III</title>
+        <published>2012-07-04T00:00:00+00:00</published>
+        <updated>2012-07-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/assassin-s-creed-iii/"/>
+        <id>https://nikolasmoya.com/iplayed/games/assassin-s-creed-iii/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/assassin-s-creed-iii/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Kingdoms of Amalur: Reckoning</title>
+        <published>2012-02-06T00:00:00+00:00</published>
+        <updated>2012-02-06T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/kingdoms-of-amalur-reckoning/"/>
+        <id>https://nikolasmoya.com/iplayed/games/kingdoms-of-amalur-reckoning/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/kingdoms-of-amalur-reckoning/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Flow Free</title>
+        <published>2012-02-01T00:00:00+00:00</published>
+        <updated>2012-02-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/flow-free/"/>
+        <id>https://nikolasmoya.com/iplayed/games/flow-free/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/flow-free/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Call of Duty: Modern Warfare 3</title>
+        <published>2011-11-11T00:00:00+00:00</published>
+        <updated>2011-11-11T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/call-of-duty-modern-warfare-3/"/>
+        <id>https://nikolasmoya.com/iplayed/games/call-of-duty-modern-warfare-3/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/call-of-duty-modern-warfare-3/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Deus Ex: Human Revolution</title>
+        <published>2011-08-08T00:00:00+00:00</published>
+        <updated>2011-08-08T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/deus-ex-human-revolution/"/>
+        <id>https://nikolasmoya.com/iplayed/games/deus-ex-human-revolution/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/deus-ex-human-revolution/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Mortal Kombat</title>
+        <published>2011-04-11T00:00:00+00:00</published>
+        <updated>2011-04-11T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/mortal-kombat/"/>
+        <id>https://nikolasmoya.com/iplayed/games/mortal-kombat/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/mortal-kombat/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Dungeon Defenders</title>
+        <published>2010-12-21T00:00:00+00:00</published>
+        <updated>2010-12-21T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/dungeon-defenders/"/>
+        <id>https://nikolasmoya.com/iplayed/games/dungeon-defenders/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/dungeon-defenders/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Crysis</title>
+        <published>2010-11-10T00:00:00+00:00</published>
+        <updated>2010-11-10T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/crysis/"/>
+        <id>https://nikolasmoya.com/iplayed/games/crysis/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/crysis/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Battlefield: Bad Company</title>
+        <published>2010-08-06T00:00:00+00:00</published>
+        <updated>2010-08-06T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/battlefield-bad-company/"/>
+        <id>https://nikolasmoya.com/iplayed/games/battlefield-bad-company/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/battlefield-bad-company/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Tomb Raider: Legend</title>
+        <published>2010-07-08T00:00:00+00:00</published>
+        <updated>2010-07-08T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/tomb-raider-legend/"/>
+        <id>https://nikolasmoya.com/iplayed/games/tomb-raider-legend/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/tomb-raider-legend/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Dead Nation</title>
+        <published>2010-05-03T00:00:00+00:00</published>
+        <updated>2010-05-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/dead-nation/"/>
+        <id>https://nikolasmoya.com/iplayed/games/dead-nation/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/dead-nation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Just Cause 2</title>
+        <published>2010-03-15T00:00:00+00:00</published>
+        <updated>2010-03-15T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/just-cause-2/"/>
+        <id>https://nikolasmoya.com/iplayed/games/just-cause-2/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/just-cause-2/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Star Wars: The Force Unleashed II</title>
+        <published>2010-03-15T00:00:00+00:00</published>
+        <updated>2010-03-15T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/star-wars-the-force-unleashed-ii/"/>
+        <id>https://nikolasmoya.com/iplayed/games/star-wars-the-force-unleashed-ii/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/star-wars-the-force-unleashed-ii/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Monster Rancher Hop-A-Bout</title>
+        <published>2010-02-25T00:00:00+00:00</published>
+        <updated>2010-02-25T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/monster-rancher-hop-a-bout/"/>
+        <id>https://nikolasmoya.com/iplayed/games/monster-rancher-hop-a-bout/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/monster-rancher-hop-a-bout/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Need for Speed: Hot Pursuit</title>
+        <published>2010-01-19T00:00:00+00:00</published>
+        <updated>2010-01-19T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/need-for-speed-hot-pursuit/"/>
+        <id>https://nikolasmoya.com/iplayed/games/need-for-speed-hot-pursuit/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/need-for-speed-hot-pursuit/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Darksiders</title>
+        <published>2010-01-11T00:00:00+00:00</published>
+        <updated>2010-01-11T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/darksiders/"/>
+        <id>https://nikolasmoya.com/iplayed/games/darksiders/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/darksiders/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Grand Theft Auto 2</title>
+        <published>2009-11-19T00:00:00+00:00</published>
+        <updated>2009-11-19T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/grand-theft-auto-2/"/>
+        <id>https://nikolasmoya.com/iplayed/games/grand-theft-auto-2/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/grand-theft-auto-2/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Grand Theft Auto</title>
+        <published>2009-10-25T00:00:00+00:00</published>
+        <updated>2009-10-25T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/grand-theft-auto/"/>
+        <id>https://nikolasmoya.com/iplayed/games/grand-theft-auto/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/grand-theft-auto/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Wolfenstein</title>
+        <published>2009-08-07T00:00:00+00:00</published>
+        <updated>2009-08-07T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/wolfenstein/"/>
+        <id>https://nikolasmoya.com/iplayed/games/wolfenstein/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/wolfenstein/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Prince of Persia: The Sands of Time</title>
+        <published>2009-04-19T00:00:00+00:00</published>
+        <updated>2009-04-19T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/prince-of-persia-the-sands-of-time/"/>
+        <id>https://nikolasmoya.com/iplayed/games/prince-of-persia-the-sands-of-time/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/prince-of-persia-the-sands-of-time/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Medal of Honor: Underground</title>
+        <published>2008-03-15T00:00:00+00:00</published>
+        <updated>2008-03-15T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/medal-of-honor-underground/"/>
+        <id>https://nikolasmoya.com/iplayed/games/medal-of-honor-underground/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/medal-of-honor-underground/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>God of War: Chains of Olympus</title>
+        <published>2008-03-04T00:00:00+00:00</published>
+        <updated>2008-03-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/god-of-war-chains-of-olympus/"/>
+        <id>https://nikolasmoya.com/iplayed/games/god-of-war-chains-of-olympus/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/god-of-war-chains-of-olympus/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Mortal Kombat Trilogy</title>
+        <published>2008-01-19T00:00:00+00:00</published>
+        <updated>2008-01-19T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/mortal-kombat-trilogy/"/>
+        <id>https://nikolasmoya.com/iplayed/games/mortal-kombat-trilogy/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/mortal-kombat-trilogy/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Harvest Moon: Tree of Tranquility</title>
+        <published>2007-06-02T00:00:00+00:00</published>
+        <updated>2007-06-02T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/harvest-moon-tree-of-tranquility/"/>
+        <id>https://nikolasmoya.com/iplayed/games/harvest-moon-tree-of-tranquility/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/harvest-moon-tree-of-tranquility/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Mario Strikers Charged</title>
+        <published>2007-05-05T00:00:00+00:00</published>
+        <updated>2007-05-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/mario-strikers-charged/"/>
+        <id>https://nikolasmoya.com/iplayed/games/mario-strikers-charged/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/mario-strikers-charged/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Road Rash 3D</title>
+        <published>2007-04-27T00:00:00+00:00</published>
+        <updated>2007-04-27T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/road-rash-3d/"/>
+        <id>https://nikolasmoya.com/iplayed/games/road-rash-3d/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/road-rash-3d/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Super Paper Mario</title>
+        <published>2007-04-10T00:00:00+00:00</published>
+        <updated>2007-04-10T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/super-paper-mario/"/>
+        <id>https://nikolasmoya.com/iplayed/games/super-paper-mario/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/super-paper-mario/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Unreal Tournament 2004</title>
+        <published>2007-03-09T00:00:00+00:00</published>
+        <updated>2007-03-09T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/unreal-tournament-2004/"/>
+        <id>https://nikolasmoya.com/iplayed/games/unreal-tournament-2004/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/unreal-tournament-2004/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Worms Armageddon</title>
+        <published>2007-01-23T00:00:00+00:00</published>
+        <updated>2007-01-23T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/worms-armageddon/"/>
+        <id>https://nikolasmoya.com/iplayed/games/worms-armageddon/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/worms-armageddon/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>The Ultimate Doom</title>
+        <published>2006-11-07T00:00:00+00:00</published>
+        <updated>2006-11-07T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/the-ultimate-doom/"/>
+        <id>https://nikolasmoya.com/iplayed/games/the-ultimate-doom/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/the-ultimate-doom/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Harvest Moon: Back to Nature</title>
+        <published>2006-08-06T00:00:00+00:00</published>
+        <updated>2006-08-06T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/harvest-moon-back-to-nature/"/>
+        <id>https://nikolasmoya.com/iplayed/games/harvest-moon-back-to-nature/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/harvest-moon-back-to-nature/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>NHL 2000</title>
+        <published>2006-05-25T00:00:00+00:00</published>
+        <updated>2006-05-25T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/nhl-2000/"/>
+        <id>https://nikolasmoya.com/iplayed/games/nhl-2000/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/nhl-2000/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Breath of Fire III</title>
+        <published>2006-04-16T00:00:00+00:00</published>
+        <updated>2006-04-16T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/breath-of-fire-iii/"/>
+        <id>https://nikolasmoya.com/iplayed/games/breath-of-fire-iii/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/breath-of-fire-iii/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>The Simpsons: Hit &amp; Run</title>
+        <published>2005-09-12T00:00:00+00:00</published>
+        <updated>2005-09-12T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/the-simpsons-hit-run/"/>
+        <id>https://nikolasmoya.com/iplayed/games/the-simpsons-hit-run/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/the-simpsons-hit-run/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Battlefield 2</title>
+        <published>2005-06-01T00:00:00+00:00</published>
+        <updated>2005-06-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/battlefield-2/"/>
+        <id>https://nikolasmoya.com/iplayed/games/battlefield-2/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/battlefield-2/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Fighting Force</title>
+        <published>2005-05-02T00:00:00+00:00</published>
+        <updated>2005-05-02T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/fighting-force/"/>
+        <id>https://nikolasmoya.com/iplayed/games/fighting-force/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/fighting-force/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>NHL 98</title>
+        <published>2004-07-28T00:00:00+00:00</published>
+        <updated>2004-07-28T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/nhl-98/"/>
+        <id>https://nikolasmoya.com/iplayed/games/nhl-98/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/nhl-98/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Metal Slug 3</title>
+        <published>2003-11-23T00:00:00+00:00</published>
+        <updated>2003-11-23T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/metal-slug-3/"/>
+        <id>https://nikolasmoya.com/iplayed/games/metal-slug-3/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/metal-slug-3/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Super Mario Bros. 3</title>
+        <published>2001-10-09T00:00:00+00:00</published>
+        <updated>2001-10-09T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/super-mario-bros-3/"/>
+        <id>https://nikolasmoya.com/iplayed/games/super-mario-bros-3/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/super-mario-bros-3/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Road Rash</title>
+        <published>2001-09-23T00:00:00+00:00</published>
+        <updated>2001-09-23T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/road-rash/"/>
+        <id>https://nikolasmoya.com/iplayed/games/road-rash/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/road-rash/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Donkey Kong Country</title>
+        <published>2001-05-06T00:00:00+00:00</published>
+        <updated>2001-05-06T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/donkey-kong-country/"/>
+        <id>https://nikolasmoya.com/iplayed/games/donkey-kong-country/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/donkey-kong-country/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Choplifter III: Rescue Survive</title>
+        <published>1999-07-04T00:00:00+00:00</published>
+        <updated>1999-07-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/choplifter-iii-rescue-survive--1/"/>
+        <id>https://nikolasmoya.com/iplayed/games/choplifter-iii-rescue-survive--1/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/choplifter-iii-rescue-survive--1/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Solitaire</title>
+        <published>1999-05-21T00:00:00+00:00</published>
+        <updated>1999-05-21T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/solitaire/"/>
+        <id>https://nikolasmoya.com/iplayed/games/solitaire/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/solitaire/"></content>
         
     </entry>
 </feed>
