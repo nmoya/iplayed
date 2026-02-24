@@ -125,17 +125,16 @@
             if (!els.hoursCell || !els.gamesMonthsCell || !els.avgPerMonthCell || !els.rangeEl) return;
 
             const totalDays = totalHours / 24;
-            const gamesLabel = totalGames === 1 ? 'game' : 'games';
             const hoursInThousands = totalHours >= 1000 ? numberFormatter.format(totalHours / 1000) + 'k' : formatHours(totalHours);
 
             // Cell 1: hours and equivalent in days
             els.hoursCell.textContent = `${hoursInThousands} hours (${numberFormatter.format(totalDays)} days)`;
 
             // Cell 2: games across months
-            els.gamesMonthsCell.textContent = `${totalGames} ${gamesLabel}`;
+            els.gamesMonthsCell.textContent = `${totalGames}`;
 
             // Cell 3: average games per month
-            els.avgPerMonthCell.textContent = `${avgFormatter.format(avgGamesPerMonth)} /month`;
+            els.avgPerMonthCell.textContent = `${avgFormatter.format(avgGamesPerMonth)}`;
 
             // Range in header: show as "since START until END" or "since YEAR"
             if (periodLabel) {
