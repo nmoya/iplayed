@@ -18,7 +18,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co6e83.jp
 all_achievements_unlocked = false
 backseat_gaming = false
 comments = ""
-blurb = ""
+blurb = "Began cheering from the couch, finished with the controller in hand."
 blurb_author = "N. Moya"
 additional_content = []
 +++

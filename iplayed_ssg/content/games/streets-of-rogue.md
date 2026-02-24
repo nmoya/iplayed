@@ -18,7 +18,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rbv.jp
 all_achievements_unlocked = false
 backseat_gaming = false
 comments = ""
-blurb = ""
+blurb = "Played on my cousin's birthday!"
 blurb_author = "N. Moya"
 [[extra.additional_content]]
 name = "Streets of Rogue: Character Pack Edition"

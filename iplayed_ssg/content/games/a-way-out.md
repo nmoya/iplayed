@@ -6,7 +6,7 @@ updated = "2023-04-08"
 in_search_index = true
 [taxonomies]
 platforms = ['pc (microsoft windows)']
-rating = ['6.0']
+rating = ['5.0']
 genres = ['adventure']
 flags = []
 [extra]
@@ -18,7 +18,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vca.jp
 all_achievements_unlocked = false
 backseat_gaming = false
 comments = ""
-blurb = ""
+blurb = "Halfway throught the game, I was the one looking for a way out."
 blurb_author = "N. Moya"
 additional_content = []
 +++

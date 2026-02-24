@@ -18,7 +18,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9hh.jp
 all_achievements_unlocked = false
 backseat_gaming = false
 comments = ""
-blurb = ""
+blurb = "Great entry point if you never played the original."
 blurb_author = "N. Moya"
 additional_content = []
 +++

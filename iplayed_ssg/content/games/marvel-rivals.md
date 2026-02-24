@@ -18,7 +18,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/cobkfz.jp
 all_achievements_unlocked = true
 backseat_gaming = false
 comments = ""
-blurb = ""
+blurb = "Your biggest rival is yourself while playing this game."
 blurb_author = "N. Moya"
 additional_content = []
 +++

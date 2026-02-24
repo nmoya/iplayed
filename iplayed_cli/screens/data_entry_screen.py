@@ -6,6 +6,7 @@ from file_persistence import completions_db
 from textual.containers import Horizontal, VerticalScroll
 from textual.screen import Screen
 from textual.widgets import Button, Footer, Header, Input, Static
+from widgets.blurb_widget import BlurbWidget
 from widgets.date_picker import DatePicker
 from widgets.hours_played_input import HoursPlayedInput
 from widgets.platform_picker import CheckboxInput
@@ -115,6 +116,11 @@ class DataEntryScreen(Screen):
         margin-right: 1;
         min-width: 14;
     }
+
+    .game-title {
+        margin: 0 0 1 0;
+        padding: 0;
+    }
     """
     BINDINGS = [
         ("escape", "app.pop_screen", "Back"),
@@ -173,6 +179,9 @@ class DataEntryScreen(Screen):
         content.append(Static("Left/Right to move, Space to confirm", classes="hint"))
         content.append(TextInput(default=self.data.completion.comments, title="Additional Comments", id="comments"))
         content.append(
+            BlurbWidget(blurb=self.data.completion.blurb, blurb_author=self.data.completion.blurb_author, id="blurb")
+        )
+        content.append(
             HoursPlayedInput(
                 default=self.data.completion.hours_played, game_name=self.data.game.name, id="hours_played"
             ),
@@ -185,6 +194,7 @@ class DataEntryScreen(Screen):
 
     def compose(self):
         yield Header(name=f"🎮 {self.data.game.name}")
+        yield Static(self.data.game.name, classes="game-title")
         yield VerticalScroll(*self.build_form_content())
         yield Footer()
 
@@ -212,6 +222,8 @@ class DataEntryScreen(Screen):
                     all_achievements_unlocked=all_achievements_unlocked,
                     backseat_gaming=backseat_gaming,
                     comments=self.query_one("#comments", TextInput).value,
+                    blurb=self.query_one("#blurb", BlurbWidget).value["blurb"],
+                    blurb_author=self.query_one("#blurb", BlurbWidget).value["blurb_author"],
                     is_favorite=False,
                     rating=rating,
                 ),
