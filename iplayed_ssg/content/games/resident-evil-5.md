@@ -17,6 +17,9 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2vz
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2vzi.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+comments = ""
+blurb = ""
+blurb_author = "N. Moya"
 [[extra.additional_content]]
 name = "Resident Evil 5: Lost in Nightmares"
 completed = false

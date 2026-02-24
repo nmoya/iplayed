@@ -151,6 +151,8 @@ class PersonalCompletion(BaseModel):
     all_achievements_unlocked: bool = False
     backseat_gaming: bool = False
     comments: str = ""
+    blurb: str = ""
+    blurb_author: str = "N. Moya"
     rating: float | None = None
 
     @property

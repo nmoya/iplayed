@@ -17,6 +17,9 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co5ej
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co5eju.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+comments = ""
+blurb = ""
+blurb_author = "N. Moya"
 [[extra.additional_content]]
 name = "Metal Gear Solid 4 Database"
 completed = false

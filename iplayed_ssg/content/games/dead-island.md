@@ -17,6 +17,9 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co3ly
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co3lym.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+comments = ""
+blurb = ""
+blurb_author = "N. Moya"
 [[extra.additional_content]]
 name = "Dead Island: Bloodbath Arena"
 completed = false

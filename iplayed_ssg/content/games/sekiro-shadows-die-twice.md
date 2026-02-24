@@ -17,5 +17,8 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2a2
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2a23.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+comments = ""
+blurb = "Once and never again"
+blurb_author = "N. Moya"
 additional_content = []
 +++

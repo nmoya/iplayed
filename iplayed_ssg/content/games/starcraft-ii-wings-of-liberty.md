@@ -17,6 +17,9 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co1tn
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tnn.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+comments = ""
+blurb = ""
+blurb_author = "N. Moya"
 [[extra.additional_content]]
 name = "StarCraft II: Nova Covert Ops"
 completed = true

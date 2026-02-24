@@ -17,6 +17,9 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/cob0r
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/cob0ry.jpg"
 all_achievements_unlocked = false
 backseat_gaming = true
+comments = ""
+blurb = ""
+blurb_author = "N. Moya"
 [[extra.additional_content]]
 name = "Resident Evil 7: Biohazard - Not A Hero"
 completed = false

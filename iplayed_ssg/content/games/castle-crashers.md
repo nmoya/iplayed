@@ -17,6 +17,9 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coask
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coaskv.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+comments = ""
+blurb = ""
+blurb_author = "N. Moya"
 [[extra.additional_content]]
 name = "Castle Crashers: Painter Boss Paradise"
 completed = false

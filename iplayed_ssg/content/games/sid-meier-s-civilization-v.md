@@ -17,6 +17,9 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co20u
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co20up.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+comments = ""
+blurb = ""
+blurb_author = "N. Moya"
 [[extra.additional_content]]
 name = "Sid Meier's Civilization V: Civ and Scenario Pack - Korea"
 completed = false

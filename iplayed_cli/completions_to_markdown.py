@@ -86,6 +86,9 @@ def completion_to_frontmatter(data: DataEntry):
             "url_cover_big": data.game.cover.sized_url("t_cover_big") if data.game.cover else None,
             "all_achievements_unlocked": data.completion.all_achievements_unlocked,
             "backseat_gaming": data.completion.backseat_gaming,
+            "comments": data.completion.comments,
+            "blurb": data.completion.blurb,
+            "blurb_author": data.completion.blurb_author,
         },
     }
 

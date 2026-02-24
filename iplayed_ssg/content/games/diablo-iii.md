@@ -17,6 +17,9 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co2l1
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2l1u.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+comments = ""
+blurb = ""
+blurb_author = "N. Moya"
 [[extra.additional_content]]
 name = "Diablo III: Rise of the Necromancer"
 completed = false

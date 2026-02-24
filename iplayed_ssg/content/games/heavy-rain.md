@@ -17,6 +17,9 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/coaaj
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coaajv.jpg"
 all_achievements_unlocked = true
 backseat_gaming = false
+comments = ""
+blurb = ""
+blurb_author = "N. Moya"
 [[extra.additional_content]]
 name = "Heavy Rain: The Taxidermist"
 completed = false

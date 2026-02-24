@@ -17,6 +17,9 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co9ba
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co9ba3.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+comments = ""
+blurb = ""
+blurb_author = "N. Moya"
 [[extra.additional_content]]
 name = "Borderlands 2: Sir Hammerlock vs. the Son of Crawmerax"
 completed = false

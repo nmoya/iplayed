@@ -17,5 +17,8 @@ url_cover_small = "https://images.igdb.com/igdb/image/upload/t_cover_small/co4an
 url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ane.jpg"
 all_achievements_unlocked = false
 backseat_gaming = false
+comments = ""
+blurb = "The game that I learnt about Konami code"
+blurb_author = "N. Moya"
 additional_content = []
 +++
