@@ -700,13 +700,12 @@ h6 {
 
 /* Critic quote styles moved from template to Sass for caching and theming */
 .critic-quote {
-    max-width: 68ch;
-    margin: 2.25rem auto 2.5rem;
+    margin: 2rem auto 2.5rem;
     padding: 1.35rem 1.5rem 1.4rem;
     border-left: 4px solid var(--accent-color);
     border-radius: 4px;
     position: relative;
-    border-bottom: 1px solid color-mix(in srgb, var(--text-color) 4%, transparent);
+    // border-bottom: 1px solid color-mix(in srgb, var(--text-color) 4%, transparent);
     background: color-mix(in srgb, var(--accent-color) 8%, var(--background-color));
     box-shadow: 0 0 0 1px color-mix(in srgb, var(--accent-color) 12%, transparent);
 }

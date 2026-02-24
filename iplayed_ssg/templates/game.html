@@ -30,16 +30,6 @@
     <header>
         <h1 class="post-title">{{ page.title }}</h1>
     </header>
-
-    {%- if page.extra.blurb | default(value="") | length > 0 -%}
-    <section class="critic-quote" aria-label="Critic quote">
-        <blockquote class="critic-quote__text">
-            {{ page.extra.blurb | markdown(inline=true) | safe }}
-            <footer class="critic-quote__author">— <cite>{{ page.extra.blurb_author }}</cite></footer>
-        </blockquote>
-    </section>
-    {%- endif -%}
-
     {% if cover or subtitle or platforms or genres or rating_values | length > 0 or completed %}
     <section class="terminal-panel" aria-label="Game metadata">
         <div class="terminal-panel__content">
@@ -114,6 +104,14 @@
                 {% endif %}
             </dl>
         </div>
+        {%- if page.extra.blurb | default(value="") | length > 0 -%}
+        <section class="critic-quote" aria-label="Critic quote">
+            <blockquote class="critic-quote__text">
+                {{ page.extra.blurb | markdown(inline=true) | safe }}
+                <footer class="critic-quote__author">— <cite>{{ page.extra.blurb_author }}</cite></footer>
+            </blockquote>
+        </section>
+        {%- endif -%}
         {% if additional_content | length > 0 %}
         <section class="additional-content" aria-label="Additional content status">
             <h3>Additional Content</h3>
