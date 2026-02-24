@@ -17,7 +17,10 @@
         const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
         const els = {
             total: document.getElementById('hoursPlayedDisplay'),
-            totalCaption: document.getElementById('hoursPlayedSubheading'),
+            hoursCell: document.getElementById('hoursCell'),
+            gamesMonthsCell: document.getElementById('gamesMonthsCell'),
+            avgPerMonthCell: document.getElementById('avgPerMonthCell'),
+            rangeEl: document.getElementById('hoursPlayedRange'),
             tabs: document.getElementById('year-tabs'),
             heatmap: document.getElementById('monthly-heatmap'),
             monthDetail: document.getElementById('month-detail'),
@@ -39,6 +42,49 @@
             tooltipBg: 'rgba(0, 0, 0, 0.85)'
         };
 
+        // Color helper: parse common color formats and mix two colors.
+        function parseColorString(col) {
+            if (!col) return { r: 0, g: 0, b: 0 };
+            const s = col.trim();
+            if (s.startsWith('#')) {
+                let hex = s.slice(1);
+                if (hex.length === 3) {
+                    hex = hex.split('').map((c) => c + c).join('');
+                }
+                const intVal = parseInt(hex, 16);
+                return { r: (intVal >> 16) & 255, g: (intVal >> 8) & 255, b: intVal & 255 };
+            }
+            const rgbMatch = s.match(/rgba?\((\d+),\s*(\d+),\s*(\d+)/i);
+            if (rgbMatch) {
+                return { r: Number(rgbMatch[1]), g: Number(rgbMatch[2]), b: Number(rgbMatch[3]) };
+            }
+            // Fallback: use computed style to resolve named colors
+            try {
+                const el = document.createElement('div');
+                el.style.color = s;
+                document.body.appendChild(el);
+                const resolved = getComputedStyle(el).color;
+                document.body.removeChild(el);
+                const fallbackMatch = resolved.match(/rgba?\((\d+),\s*(\d+),\s*(\d+)/i);
+                if (fallbackMatch) {
+                    return { r: Number(fallbackMatch[1]), g: Number(fallbackMatch[2]), b: Number(fallbackMatch[3]) };
+                }
+            } catch (e) {
+                // ignore
+            }
+            return { r: 0, g: 0, b: 0 };
+        }
+
+        function mixColors(colorA, colorB, t) {
+            const a = parseColorString(colorA);
+            const b = parseColorString(colorB);
+            const clamp = (v) => Math.max(0, Math.min(255, Math.round(v)));
+            const r = clamp(a.r * (1 - t) + b.r * t);
+            const g = clamp(a.g * (1 - t) + b.g * t);
+            const bl = clamp(a.b * (1 - t) + b.b * t);
+            return `rgb(${r}, ${g}, ${bl})`;
+        }
+
         if (typeof Chart !== 'undefined') {
             Chart.defaults.color = themeColors.text;
             Chart.defaults.font.family = '"Fira Code", Monaco, Consolas, "Ubuntu Mono", monospace';
@@ -49,6 +95,7 @@
         }
 
         const numberFormatter = new Intl.NumberFormat('en-US', { maximumFractionDigits: 1 });
+        const avgFormatter = new Intl.NumberFormat('en-US', { maximumFractionDigits: 2 });
         const heatmapStripeConfig = {
             stripeCount: 5,
             filledSymbol: '|',
@@ -74,13 +121,32 @@
             }).join('');
         }
 
-        function updateTotals(totalHours, totalGames) {
-            if (els.total) {
-                els.total.textContent = formatHours(totalHours);
-            }
-            if (els.totalCaption) {
-                const gamesLabel = totalGames === 1 ? 'game' : 'games';
-                els.totalCaption.textContent = `Across ${totalGames} completed ${gamesLabel}`;
+        function updateTotals(totalHours, totalGames, monthsCovered, avgGamesPerMonth, periodLabel) {
+            if (!els.hoursCell || !els.gamesMonthsCell || !els.avgPerMonthCell || !els.rangeEl) return;
+
+            const totalDays = totalHours / 24;
+            const gamesLabel = totalGames === 1 ? 'game' : 'games';
+            const hoursInThousands = totalHours >= 1000 ? numberFormatter.format(totalHours / 1000) + 'k' : formatHours(totalHours);
+
+            // Cell 1: hours and equivalent in days
+            els.hoursCell.textContent = `${hoursInThousands} hours (${numberFormatter.format(totalDays)} days)`;
+
+            // Cell 2: games across months
+            els.gamesMonthsCell.textContent = `${totalGames} ${gamesLabel}`;
+
+            // Cell 3: average games per month
+            els.avgPerMonthCell.textContent = `${avgFormatter.format(avgGamesPerMonth)} /month`;
+
+            // Range in header: show as "since START until END" or "since YEAR"
+            if (periodLabel) {
+                const parts = periodLabel.split('–');
+                if (parts.length === 2) {
+                    els.rangeEl.textContent = `from ${parts[0]} to ${parts[1]}`;
+                } else {
+                    els.rangeEl.textContent = `since ${periodLabel}`;
+                }
+            } else {
+                els.rangeEl.textContent = '';
             }
         }
 
@@ -128,6 +194,27 @@
       `;
                 const alpha = 0.08 + (value / maxCount) * 0.92;
                 cell.style.setProperty('--stats-heat-alpha', `${(alpha * 100).toFixed(0)}%`);
+
+                // Improve contrast for low-count months by interpolating the
+                // month label color from a light gray up to the theme text color
+                // based on the completion ratio.
+                try {
+                    // Use a distinct darker gray for months with zero completions
+                    const zeroLabelColor = '#9e9e9e';
+                    // Slightly lighter endpoint to improve contrast on near-empty months
+                    const lowLabelColor = '#f1f1f1';
+                    // Use a gentle ease curve so very small ratios stay close to light
+                    const rawRatio = Math.max(0, Math.min(1, maxCount ? value / maxCount : 0));
+                    const curveExponent = 0.65; // <1 biases towards lighter labels for small values
+                    const ratio = Math.pow(rawRatio, curveExponent);
+                    const mixed = mixColors(lowLabelColor, themeColors.text || '#000000', ratio);
+                    const monthEl = cell.querySelector('.stats-heatmap__month');
+                    if (monthEl) {
+                        monthEl.style.color = value === 0 ? zeroLabelColor : mixed;
+                    }
+                } catch (e) {
+                    // If anything goes wrong, leave color as-is.
+                }
 
                 cell.addEventListener('click', () => {
                     if (activeCell) {
@@ -185,7 +272,10 @@
             if (!els.platformCanvas || typeof Chart === 'undefined') {
                 return;
             }
-            const entries = Object.entries(platformCounts);
+            const entries = Object.entries(platformCounts).sort((a, b) => {
+                const diff = b[1] - a[1];
+                return diff !== 0 ? diff : a[0].localeCompare(b[0]);
+            });
             if (!entries.length) {
                 els.platformCanvas.replaceWith(createEmptyState('platform data'));
                 return;
@@ -459,7 +549,10 @@
                 return;
             }
             els.topList.innerHTML = '';
-            const entries = Object.entries(topGamesByGenre).sort(([a], [b]) => a.localeCompare(b));
+            const entries = Object.entries(topGamesByGenre).sort(([genreA, infoA], [genreB, infoB]) => {
+                const diff = (infoB?.hours || 0) - (infoA?.hours || 0);
+                return diff !== 0 ? diff : genreA.localeCompare(genreB);
+            });
             if (!entries.length) {
                 els.topList.innerHTML = '<p class="stats-empty">No genre data yet.</p>';
                 return;
@@ -518,6 +611,8 @@
                 const topGamesByGenre = {};
                 const recentCompletions = [];
                 let totalHours = 0;
+                let earliestDate = null;
+                let latestDate = null;
 
                 completions.forEach((entry) => {
                     const completionInfo = entry?.completion;
@@ -533,6 +628,10 @@
                     const month = date.getMonth();
                     const hoursPlayed = Number(completionInfo.hours_played) || 0;
                     const gameName = gameInfo.name || 'Unknown game';
+
+                    // track earliest / latest completion dates
+                    if (!earliestDate || date < earliestDate) earliestDate = date;
+                    if (!latestDate || date > latestDate) latestDate = date;
 
                     gamesByYearMonth[year] = gamesByYearMonth[year] || {};
                     gamesByYearMonth[year][month] = gamesByYearMonth[year][month] || [];
@@ -578,8 +677,19 @@
                     .sort((a, b) => b.completedAt - a.completedAt)
                     .slice(0, 5);
 
+                // Compute months covered (inclusive)
+                let monthsCovered = 0;
+                let periodLabel = null;
+                if (earliestDate && latestDate) {
+                    monthsCovered = (latestDate.getFullYear() - earliestDate.getFullYear()) * 12 + (latestDate.getMonth() - earliestDate.getMonth()) + 1;
+                    const startYear = earliestDate.getFullYear();
+                    const endYear = latestDate.getFullYear();
+                    periodLabel = startYear === endYear ? `${startYear}` : `${startYear}–${endYear}`;
+                }
+                const avgGamesPerMonth = monthsCovered > 0 ? (completions.length / monthsCovered) : 0;
+
                 renderRecentCompletions(latestFive);
-                updateTotals(totalHours, completions.length);
+                updateTotals(totalHours, completions.length, monthsCovered, avgGamesPerMonth, periodLabel);
                 renderYearTabs(gamesByYearMonth);
                 renderPlatformHistogram(platformCounts);
                 renderRatingHistogram(ratingCounts);
@@ -590,9 +700,9 @@
                 if (els.monthDetail) {
                     els.monthDetail.textContent = 'Unable to load statistics right now.';
                 }
-                if (els.total && els.totalCaption) {
+                if (els.total && els.rangeEl) {
                     els.total.textContent = '';
-                    els.totalCaption.textContent = error.message;
+                    els.rangeEl.textContent = error.message;
                 }
             }
         }

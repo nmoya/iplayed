@@ -12,7 +12,7 @@
             crossorigin="anonymous">
         <link rel="preload" href="https://nikolasmoya.com/iplayed/fonts/FiraCode-Bold.woff2" as="font" type="font/woff2"
             crossorigin="anonymous">
-        <link rel="stylesheet" href="https://nikolasmoya.com/iplayed/css/style.css?h=e2ca14c40882b84cb2bc">
+        <link rel="stylesheet" href="https://nikolasmoya.com/iplayed/css/style.css?h=a329e57dbfdf1f319cb6">
         <script src="https://nikolasmoya.com/iplayed/js/auto-close-popover-on-resize.js?h=4ef87d6fc7b98b22e044" defer></script>
         <script src="https://nikolasmoya.com/iplayed/js/copy-code-to-clipboard.js?h=6aac77c47d552a0ac847" defer></script>
         <!-- <script src="https://nikolasmoya.com/iplayed/js/theme-switcher.js?h=c7049c13f5599d2609bf" defer></script> -->
@@ -27,7 +27,7 @@
         <meta property="og:type" content="website">
         <meta property="og:url" content="https://nikolasmoya.com/iplayed/">
         <meta property="og:description" content="Games and statistics have always been a part of my life—so I brought them together in a sleek game completionist tracker."><meta property="og:site_name" content="iPlayed">
-        <meta property="og:updated_time" content="2026-02-23T02:26:03.974205070+00:00">
+        <meta property="og:updated_time" content="2026-02-24T00:17:53.201976232+00:00">
     </head>
 
     <body class="layout-center">
@@ -63,10 +63,31 @@
 
         <article class="stats-card stats-card--highlight">
             <header>
-                <h2>Hours Played</h2>
+                <h2>Time played <span id="hoursPlayedRange" class="stats-card__range"></span></h2>
             </header>
-            <p id="hoursPlayedDisplay" class="stats-total" aria-live="polite">Loading</p>
-            <p id="hoursPlayedSubheading" class="stats-total__caption"></p>
+            <div id="hoursPlayedDisplay" class="stats-total-grid" aria-live="polite" role="group"
+                aria-label="Hours played and derived stats">
+
+                <div class="stats-conversions" aria-hidden="false">
+                    <div class="stats-conversion">
+                        <span class="stats-conversion__label">Hours / Days</span>
+                        <span class="stats-conversion__value" id="hoursCell">—</span>
+                    </div>
+                    <div class="stats-conversion">
+                        <span class="stats-conversion__label">Games</span>
+                        <span class="stats-conversion__value" id="gamesMonthsCell">—</span>
+                    </div>
+                    <div class="stats-conversion">
+                        <span class="stats-conversion__label">Avg games per month</span>
+                        <span class="stats-conversion__value" id="avgPerMonthCell">—</span>
+                    </div>
+                </div>
+
+
+
+                <p class="sr-only" id="hoursPlayedDesc">Total hours played and derived conversions. Values are derived
+                    from the same base total.</p>
+            </div>
         </article>
         <article class="stats-card">
             <header>
@@ -109,7 +130,6 @@
         <article class="stats-card">
             <header>
                 <h2>Hours and completions per genre</h2>
-                <p class="stats-card__subtitle">Games completed vs. hours invested.</p>
             </header>
             <canvas id="genreComparison" width="420" height="320" aria-label="Genre completion comparison"></canvas>
         </article>
@@ -124,7 +144,7 @@
     </div>
 </section>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.min.js" defer></script>
-<script src="https://nikolasmoya.com/iplayed/js/stats-dashboard.js?h=9de3e42e9a8ed222b684" defer></script>
+<script src="https://nikolasmoya.com/iplayed/js/stats-dashboard.js?h=befd84ab90ae04abf09e" defer></script>
         </main>
         <footer class="footer"><!-- <p class="copyright">
     <span>© <time>2026</time> Nikolas Moya</span>

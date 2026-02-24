@@ -1616,6 +1616,25 @@
           </name>
         </author>
         
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/hades--1/"/>
+        <id>https://nikolasmoya.com/iplayed/games/hades--1/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/hades--1/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Hades</title>
+        <published>2021-01-06T00:00:00+00:00</published>
+        <updated>2021-01-06T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
         <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/hades/"/>
         <id>https://nikolasmoya.com/iplayed/games/hades/</id>
         
