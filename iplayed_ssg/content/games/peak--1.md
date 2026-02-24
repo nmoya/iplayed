@@ -18,7 +18,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/coat49.jp
 all_achievements_unlocked = false
 backseat_gaming = false
 comments = ""
-blurb = "Sweet climing game."
+blurb = "Sweet climbing game."
 blurb_author = "N. Moya"
 additional_content = []
 +++
