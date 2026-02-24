@@ -9,7 +9,7 @@
 <meta name="description" content="{{ page.description | markdown(inline=true) | striptags }}">
 {%- elif page.summary %}
 <meta name="description"
-  content="{{ page.summary | linebreaksbr | replace(from="<br>", to=" ") | striptags | trim_end_matches(pat=".") | safe }}">
+    content="{{ page.summary | linebreaksbr | replace(from="<br>", to=" ") | striptags | trim_end_matches(pat=".") | safe }}">
 {%- endif %}
 {%- endblock -%}
 
@@ -27,112 +27,118 @@
 {%- set content_main = page.content %}
 
 <article class="post content">
-  <header>
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
+    <header>
+        <h1 class="post-title">{{ page.title }}</h1>
+    </header>
 
-  {% if cover or subtitle or platforms or genres or rating_values | length > 0 or completed %}
-  <section class="terminal-panel" aria-label="Game metadata">
-    <div class="terminal-panel__content">
-      {% if cover %}
-      <figure class="terminal-panel__media">
-        <img src="{{ cover | safe }}" alt="{{ page.title | safe }}">
-      </figure>
-      {% endif %}
-      <dl class="terminal-meta">
-        {% if completed %}
-        <dt class="terminal-meta__label">Completed</dt>
-        <dd class="terminal-meta__value">
-          <time class="terminal-value" datetime="{{ completed }}">{{ completed | date(format="%d %b %Y") }}</time>
-        </dd>
-        {% endif %}
-        {% if playtime %}
-        <dt class="terminal-meta__label">Playtime</dt>
-        <dd class="terminal-meta__value">
-          <span class="terminal-value">{{ playtime }}</span>
-        </dd>
-        {% endif %}
-        {% if rating_values | length > 0 %}
-        {% set rating_raw = rating_values | first %}
-        {% set rating_value = rating_raw | float %}
-        {% set rating_display = rating_raw | trim_end_matches(pat=".0") %}
-        {% set rating_percent = (rating_value / 10.0 * 100.0) %}
-        <dt class="terminal-meta__label">Rating</dt>
-        <dd class="terminal-meta__value">
-          <div class="terminal-rating" aria-label="Rating: {{ rating_value }} out of 10">
-            <div class="terminal-rating__scale" role="img" aria-label="{{ rating_value }} out of 10">
-              <span class="terminal-rating__fill" style="width: {{ rating_percent }}%;"></span>
-            </div>
-            <span class="terminal-rating__score">{{ rating_display }}/10</span>
-          </div>
-        </dd>
-        {% endif %}
-        {% if platforms %}
-        <dt class="terminal-meta__label">Platforms</dt>
-        <dd class="terminal-meta__value terminal-meta__value--wrap">
-          {% for platform in platforms %}
-          {% set platform_url = get_taxonomy_url(kind="platforms", name=platform, lang=page.lang) %}
-          <a class="terminal-chip" rel="tag" href="{{ platform_url | safe }}">{{ platform }}</a>
-          {% endfor %}
-        </dd>
-        {% endif %}
-        {% if genres %}
-        <dt class="terminal-meta__label">Genres</dt>
-        <dd class="terminal-meta__value terminal-meta__value--wrap">
-          {% for genre in genres %}
-          {% set genre_url = get_taxonomy_url(kind="genres", name=genre, lang=page.lang) %}
-          <a class="terminal-chip" rel="tag" href="{{ genre_url | safe }}">{{ genre }}</a>
-          {% endfor %}
-        </dd>
-        {% endif %}
-        {% if all_achievements_unlocked or backseat_mode %}
-        <dt class="terminal-meta__label">Flags</dt>
-        <dd class="terminal-meta__value terminal-meta__value--wrap">
-          {% if all_achievements_unlocked %}
-          {% set achievements_url = get_taxonomy_url(kind="flags", name="all achievements unlocked", lang=page.lang) %}
-          <a class="terminal-chip" rel="tag" href="{{ achievements_url | safe }}">
-            ⭐ All Achievements
-          </a>
-          {% endif %}
-          {% if backseat_mode %}
-          {% set backseat_url = get_taxonomy_url(kind="flags", name="backseat mode", lang=page.lang) %}
-          <a class="terminal-chip" rel="tag" href="{{ backseat_url | safe }}">
-            🛋️ Backseat Gaming
-          </a>
-          {% endif %}
-        </dd>
-        {% endif %}
-      </dl>
-    </div>
-    {% if additional_content | length > 0 %}
-    <section class="additional-content" aria-label="Additional content status">
-      <h3>Additional Content</h3>
-      <ul class="addon-list">
-        {% for addon in additional_content %}
-        {% set addon_status_class = "addon-status--done" %}
-        {% if not addon.completed %}
-        {% set addon_status_class = "addon-status--pending" %}
-        {% endif %}
-        {% set addon_status_label = "" %}
-        {% if not addon.completed %}
-        {% set addon_status_label = "" %}
-        {% endif %}
-        <div class="addon-status {{ addon_status_class }}" role="status" aria-label="{{ addon_status_label }}">
-          <span class="addon-status__dot" aria-hidden="true"></span>
-          <span class="addon-status__text">{{ addon.name }}</span>
-          <span class="addon-status__state">{{ addon_status_label }}</span>
+    {%- if page.extra.blurb | default(value="") | length > 0 -%}
+    <section class="critic-quote" aria-label="Critic quote">
+        <blockquote class="critic-quote__text">
+            {{ page.extra.blurb | markdown(inline=true) | safe }}
+            <footer class="critic-quote__author">— <cite>{{ page.extra.blurb_author }}</cite></footer>
+        </blockquote>
+    </section>
+    {%- endif -%}
+
+    {% if cover or subtitle or platforms or genres or rating_values | length > 0 or completed %}
+    <section class="terminal-panel" aria-label="Game metadata">
+        <div class="terminal-panel__content">
+            {% if cover %}
+            <figure class="terminal-panel__media">
+                <img src="{{ cover | safe }}" alt="{{ page.title | safe }}">
+            </figure>
+            {% endif %}
+            <dl class="terminal-meta">
+                {% if completed %}
+                <dt class="terminal-meta__label">Completed</dt>
+                <dd class="terminal-meta__value">
+                    <time class="terminal-value"
+                        datetime="{{ completed }}">{{ completed | date(format="%d %b %Y") }}</time>
+                </dd>
+                {% endif %}
+                {% if playtime %}
+                <dt class="terminal-meta__label">Playtime</dt>
+                <dd class="terminal-meta__value">
+                    <span class="terminal-value">{{ playtime }}</span>
+                </dd>
+                {% endif %}
+                {% if rating_values | length > 0 %}
+                {% set rating_raw = rating_values | first %}
+                {% set rating_value = rating_raw | float %}
+                {% set rating_display = rating_raw | trim_end_matches(pat=".0") %}
+                {% set rating_percent = (rating_value / 10.0 * 100.0) %}
+                <dt class="terminal-meta__label">Rating</dt>
+                <dd class="terminal-meta__value">
+                    <div class="terminal-rating" aria-label="Rating: {{ rating_value }} out of 10">
+                        <div class="terminal-rating__scale" role="img" aria-label="{{ rating_value }} out of 10">
+                            <span class="terminal-rating__fill" style="width: {{ rating_percent }}%;"></span>
+                        </div>
+                        <span class="terminal-rating__score">{{ rating_display }}/10</span>
+                    </div>
+                </dd>
+                {% endif %}
+                {% if platforms %}
+                <dt class="terminal-meta__label">Platforms</dt>
+                <dd class="terminal-meta__value terminal-meta__value--wrap">
+                    {% for platform in platforms %}
+                    {% set platform_url = get_taxonomy_url(kind="platforms", name=platform, lang=page.lang) %}
+                    <a class="terminal-chip" rel="tag" href="{{ platform_url | safe }}">{{ platform }}</a>
+                    {% endfor %}
+                </dd>
+                {% endif %}
+                {% if genres %}
+                <dt class="terminal-meta__label">Genres</dt>
+                <dd class="terminal-meta__value terminal-meta__value--wrap">
+                    {% for genre in genres %}
+                    {% set genre_url = get_taxonomy_url(kind="genres", name=genre, lang=page.lang) %}
+                    <a class="terminal-chip" rel="tag" href="{{ genre_url | safe }}">{{ genre }}</a>
+                    {% endfor %}
+                </dd>
+                {% endif %}
+                {% if all_achievements_unlocked or backseat_mode %}
+                <dt class="terminal-meta__label">Flags</dt>
+                <dd class="terminal-meta__value terminal-meta__value--wrap">
+                    {% if all_achievements_unlocked %}
+                    {% set achievements_url = get_taxonomy_url(kind="flags", name="all achievements unlocked", lang=page.lang) %}
+                    <a class="terminal-chip" rel="tag" href="{{ achievements_url | safe }}">
+                        ⭐ All Achievements
+                    </a>
+                    {% endif %}
+                    {% if backseat_mode %}
+                    {% set backseat_url = get_taxonomy_url(kind="flags", name="backseat mode", lang=page.lang) %}
+                    <a class="terminal-chip" rel="tag" href="{{ backseat_url | safe }}">
+                        🛋️ Backseat Gaming
+                    </a>
+                    {% endif %}
+                </dd>
+                {% endif %}
+            </dl>
         </div>
-        {% endfor %}
-      </ul>
+        {% if additional_content | length > 0 %}
+        <section class="additional-content" aria-label="Additional content status">
+            <h3>Additional Content</h3>
+            <ul class="addon-list">
+                {% for addon in additional_content %}
+                {% set addon_status_class = "addon-status--done" %}
+                {% if not addon.completed %}
+                {% set addon_status_class = "addon-status--pending" %}
+                {% endif %}
+                {% set addon_status_label = "" %}
+                {% if not addon.completed %}
+                {% set addon_status_label = "" %}
+                {% endif %}
+                <div class="addon-status {{ addon_status_class }}" role="status" aria-label="{{ addon_status_label }}">
+                    <span class="addon-status__dot" aria-hidden="true"></span>
+                    <span class="addon-status__text">{{ addon.name }}</span>
+                    <span class="addon-status__state">{{ addon_status_label }}</span>
+                </div>
+                {% endfor %}
+            </ul>
+        </section>
+        {% endif %}
     </section>
     {% endif %}
-  </section>
-  {% endif %}
-
-
-
-
-  {{ content_main | safe }}
+    {{ content_main | safe }}
 </article>
 
 

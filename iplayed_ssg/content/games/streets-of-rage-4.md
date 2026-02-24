@@ -18,7 +18,7 @@ url_cover_big = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2dru.jp
 all_achievements_unlocked = false
 backseat_gaming = false
 comments = ""
-blurb = ""
+blurb = "I finished this game during my cousin's birthday!"
 blurb_author = "N. Moya"
 [[extra.additional_content]]
 name = "Streets of Rage 4: Mr X. Nightmare"

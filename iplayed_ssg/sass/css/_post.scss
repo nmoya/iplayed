@@ -697,3 +697,71 @@ h6 {
         }
     }
 }
+
+/* Critic quote styles moved from template to Sass for caching and theming */
+.critic-quote {
+    max-width: 68ch;
+    margin: 2.25rem auto 2.5rem;
+    padding: 1.35rem 1.5rem 1.4rem;
+    border-left: 4px solid var(--accent-color);
+    border-radius: 4px;
+    position: relative;
+    border-bottom: 1px solid color-mix(in srgb, var(--text-color) 4%, transparent);
+    background: color-mix(in srgb, var(--accent-color) 8%, var(--background-color));
+    box-shadow: 0 0 0 1px color-mix(in srgb, var(--accent-color) 12%, transparent);
+}
+
+.critic-quote__chev {
+    position: absolute;
+    left: -22px;
+    top: 8px;
+    width: 36px;
+    height: 36px;
+    opacity: 0.14;
+    color: var(--accent-color);
+}
+
+.critic-quote__text {
+    font-style: italic;
+    font-size: 1.2rem;
+    line-height: 1.45;
+    margin: 0;
+    color: color-mix(in srgb, var(--text-color) 96%, transparent);
+}
+
+.critic-quote__author {
+    text-align: right;
+    font-size: 0.9rem;
+    margin-top: 0.35rem;
+    color: color-mix(in srgb, var(--text-color) 55%, transparent);
+    font-style: normal; // keep author upright even when quote text is italic
+}
+
+.critic-quote blockquote {
+    margin: 0;
+    padding: 0;
+    border: none; // override global blockquote frame
+}
+
+.critic-quote blockquote::before {
+    content: none; // remove global blockquote caret
+}
+
+@media screen and (max-width: 684px) {
+    .critic-quote {
+        max-width: 100%;
+        padding: 1.1rem 1rem 1.2rem;
+        margin: 1.75rem auto 2rem;
+        border-left: 0;
+        border-top: 3px solid var(--accent-color);
+    }
+
+    .critic-quote__text {
+        font-size: 1.05rem;
+    }
+
+    .critic-quote__chev {
+        left: 6px;
+        top: -6px;
+    }
+}
