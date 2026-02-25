@@ -44,12 +44,12 @@ class CompletionsDatabase:
         return None
 
     def delete_completion(self, game_id: int) -> list[DataEntry]:
-        game = self.get_game_by_id(game_id)
-        if game is None:
+        data = self.get_game_by_id(game_id)
+        if data is None:
             return self.completions
         self.completions = [entry for entry in self.completions if entry.game.id != game_id]
         self.commit()
-        utils.delete_markdown(markdown_filename(config.SSG_CONTENT_DIRECTORY, game.slug))
+        utils.delete_markdown(markdown_filename(config.SSG_CONTENT_DIRECTORY, data.game.slug))
         return self.completions
 
     def commit(self) -> None:
