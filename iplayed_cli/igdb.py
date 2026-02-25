@@ -88,7 +88,7 @@ class IGDBClient:
     """
 
     def payload_for_search(self, query: str, limit: int, offset: int) -> str:
-        return self.base_payload + f'where parent_game = null; search "{query}"; limit {limit}; offset {offset};'
+        return self.base_payload + f'search "{query}"; limit {limit}; offset {offset};'
 
     def payload_for_id(self, game_id: int) -> str:
         return self.base_payload + f"where id = {game_id};"
@@ -140,7 +140,7 @@ class IGDBClient:
             data = response.json()
             return data["count"]
 
-    async def game_search(self, query: str, offset: int = 0, limit: int = 20) -> BaseIGDBSearchResults:
+    async def game_search(self, query: str, offset: int = 0, limit: int = 30) -> BaseIGDBSearchResults:
         url = self.build_url(self.base_url, "/games", {})
         headers = {
             "Client-ID": self.client_id,
@@ -188,5 +188,5 @@ def get_igdb_game_by_id(game_id: int) -> BaseIGDBGame | None:
 
 
 if __name__ == "__main__":
-    asyncio.run(search_igdb_game("Tomb raider"))
+    asyncio.run(search_igdb_game("James Bond 007: The world is not enough"))
     # print(get_igdb_game_by_id(10734))
