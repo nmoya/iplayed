@@ -1,4 +1,4 @@
-{%- set games_list = games | default(value=[]) -%}
+﻿{%- set games_list = games | default(value=[]) -%}
 {%- set search_enabled = enable_search | default(value=false) -%}
 {%- set show_search = search_enabled and games_list | length > 0 -%}
 
@@ -19,7 +19,7 @@
                     value="{{ score }}">{{ score }}/10</button>
                 {% endfor %}
             </div>
-            <p class="games-search__help">Filter by exact rating or show unrated titles. “All” shows everything.</p>
+            <p class="games-search__help">Filter by exact rating or show unrated titles. "All" shows everything.</p>
         </div>
     </div>
 
@@ -51,6 +51,9 @@
     {%- set rating_percent = 0 -%}
     {%- set rating_int = "" -%}
     {%- endif -%}
+    {%- set all_achievements_unlocked = page.extra.all_achievements_unlocked | default(value=false) -%}
+    {%- set backseat_mode = page.extra.backseat_mode | default(value=page.extra.backseat_gaming | default(value=false)) -%}
+    {%- set has_blurb = page.extra.blurb | default(value="") | length > 0 -%}
     {%- set search_context = [page.title, subtitle, playtime, platforms | join(sep=" "), genres | join(sep=" "), rating_values | join(sep=" "), completed] | join(sep=" ") -%}
     <div class="game-card" data-game-card data-search-text="{{ search_context | lower | escape }}"
         data-rating="{{ rating_int }}">
@@ -61,9 +64,33 @@
             </div>
             {%- endif -%}
             <article class="post game-entry__content">
-                <h2 class="post-title">
-                    <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
-                </h2>
+                <div class="game-entry__header">
+                    <h2 class="post-title">
+                        <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+                    </h2>
+                    {% if all_achievements_unlocked or backseat_mode or has_blurb %}
+                    <div class="game-entry__flags" aria-label="Game tags">
+                        {% if all_achievements_unlocked %}
+                        <span class="flag-chip flag-chip--achievements" tabindex="0"
+                            aria-label="All achievements unlocked" data-flag-label="All achievements unlocked">
+                            <span class="flag-chip__icon" aria-hidden="true">⭐</span>
+                        </span>
+                        {% endif %}
+                        {% if backseat_mode %}
+                        <span class="flag-chip flag-chip--backseat" tabindex="0" aria-label="Backseat mode enabled"
+                            data-flag-label="Backseat mode">
+                            <span class="flag-chip__icon" aria-hidden="true">🛋️</span>
+                        </span>
+                        {% endif %}
+                        {% if has_blurb %}
+                        <span class="flag-chip flag-chip--blurb" tabindex="0"
+                            aria-label="Blurb available: read my experience" data-flag-label="Blurb available">
+                            <span class="flag-chip__icon" aria-hidden="true">🖋</span>
+                        </span>
+                        {% endif %}
+                    </div>
+                    {% endif %}
+                </div>
                 <div class="game-entry__meta">
                     <span class="game-entry__badge">
                         <span class="game-entry__badge-label">Completed</span>

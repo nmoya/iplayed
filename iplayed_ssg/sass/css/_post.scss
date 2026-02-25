@@ -177,10 +177,11 @@
 }
 
 .game-entry__header {
+    position: relative;
     display: flex;
-    align-items: baseline;
-    justify-content: space-between;
+    align-items: center;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 .game-entry__title {
@@ -252,6 +253,72 @@
     }
 }
 
+.game-entry__flags {
+    position: absolute;
+    right: 0;
+    top: 4px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.flag-chip {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    border: 1px dashed color-mix(in srgb, var(--accent-color) 60%, transparent);
+    background: color-mix(in srgb, var(--accent-color) 12%, var(--background-color));
+    box-shadow: 0 0 0 1px color-mix(in srgb, var(--accent-color) 18%, transparent);
+    color: var(--accent-color);
+    font-size: 1rem;
+    cursor: default;
+    outline: none;
+    transition: transform 120ms ease, box-shadow 120ms ease, background 120ms ease;
+
+    &__icon {
+        line-height: 1;
+    }
+
+    &::after {
+        content: attr(data-flag-label);
+        position: absolute;
+        bottom: calc(100% + 8px);
+        left: 50%;
+        transform: translateX(-50%) translateY(4px);
+        padding: 6px 8px;
+        border-radius: 4px;
+        background: color-mix(in srgb, var(--background-color) 95%, var(--accent-color));
+        color: var(--text-color);
+        white-space: nowrap;
+        font-size: 0.7rem;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 120ms ease, transform 120ms ease;
+    }
+
+    &:hover,
+    &:focus-visible {
+        background: color-mix(in srgb, var(--accent-color) 18%, var(--background-color));
+        transform: translateY(-1px);
+
+        &::after {
+            opacity: 1;
+            transform: translateX(-50%) translateY(0);
+        }
+    }
+
+    &:focus-visible {
+        outline: 2px solid var(--accent-color);
+        outline-offset: 2px;
+    }
+}
+
 .game-entry__badge--chips {
     .game-entry__badge-value {
         display: flex;
@@ -269,13 +336,22 @@
 }
 
 @media (max-width: 640px) {
-    .game-entry__image img {
-        width: 70px;
-    }
-
     .game-entry__header {
+        position: static;
         flex-direction: column;
         align-items: flex-start;
+        gap: 6px;
+    }
+
+    .game-entry__flags {
+        position: static;
+        gap: 6px;
+    }
+
+    .flag-chip {
+        width: 26px;
+        height: 26px;
+        font-size: 0.9rem;
     }
 
     .game-entry__date {
@@ -284,9 +360,12 @@
 }
 
 .post-title {
+    flex: 1 1 auto;
+    min-width: 0;
     position: relative;
     margin-block: 0 15px;
     padding-bottom: 15px;
+    padding-right: 0;
     border-bottom: 3px dotted var(--accent-color);
     color: var(--accent-color);
     font-size: clamp(1.6rem, 2vw + 1rem, 2rem);
