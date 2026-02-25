@@ -188,26 +188,6 @@
     margin: 0;
 }
 
-.game-entry__date {
-    color: var(--accent-color);
-    font-size: 0.95rem;
-    white-space: nowrap;
-}
-
-.game-entry__subtitle,
-.game-entry__rating {
-    margin: 4px 0;
-}
-
-.game-entry__subtitle {
-    font-weight: 600;
-    color: var(--text-color);
-}
-
-.game-entry__rating {
-    color: var(--accent-color);
-}
-
 .game-entry__meta {
     display: flex;
     flex-wrap: wrap;
@@ -319,22 +299,6 @@
     }
 }
 
-.game-entry__badge--chips {
-    .game-entry__badge-value {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 4px;
-    }
-}
-
-.game-entry__chip {
-    padding: 2px 6px;
-    border-radius: 999px;
-    border: 1px solid color-mix(in srgb, var(--accent-color) 30%, transparent);
-    font-size: 0.75rem;
-    text-transform: uppercase;
-}
-
 @media (max-width: 640px) {
     .game-entry__header {
         position: static;
@@ -352,10 +316,6 @@
         width: 26px;
         height: 26px;
         font-size: 0.9rem;
-    }
-
-    .game-entry__date {
-        margin-top: -4px;
     }
 }
 
@@ -434,14 +394,6 @@ ul.post-meta {
     background: color-mix(in srgb, var(--background-color) 75%, #050505);
     box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--accent-color) 12%, transparent);
     font-family: "Fira Code", Monaco, Consolas, "Ubuntu Mono", monospace;
-}
-
-.terminal-panel__prompt {
-    margin: 0 0 15px;
-    color: var(--accent-color);
-    letter-spacing: 0.25em;
-    text-transform: uppercase;
-    font-size: 0.85rem;
 }
 
 .terminal-panel__content {
