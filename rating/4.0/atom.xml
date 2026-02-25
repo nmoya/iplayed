@@ -293,25 +293,6 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>The Mummy</title>
-        <published>2002-11-21T00:00:00+00:00</published>
-        <updated>2002-11-21T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Nikolas Moya
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/the-mummy/"/>
-        <id>https://nikolasmoya.com/iplayed/games/the-mummy/</id>
-        
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/the-mummy/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
         <title>Apocalypse</title>
         <published>2001-05-01T00:00:00+00:00</published>
         <updated>2001-05-01T00:00:00+00:00</updated>

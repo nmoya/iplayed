@@ -977,25 +977,6 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>Duke Nukem 3D</title>
-        <published>2006-02-03T00:00:00+00:00</published>
-        <updated>2006-02-03T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Nikolas Moya
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/duke-nukem-3d/"/>
-        <id>https://nikolasmoya.com/iplayed/games/duke-nukem-3d/</id>
-        
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/duke-nukem-3d/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
         <title>Grand Theft Auto: San Andreas</title>
         <published>2005-11-16T00:00:00+00:00</published>
         <updated>2005-11-16T00:00:00+00:00</updated>
