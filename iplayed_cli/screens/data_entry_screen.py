@@ -229,11 +229,11 @@ class DataEntryScreen(Screen):
                 ),
             )
             completions_db.add_or_update_completion(data_entry)
-            completions_db.deploy_markdown_files()
+            completions_db.generate_markdown_files()
             self.dismiss(data_entry)
         elif event.button.id == "delete":
             completions_db.delete_completion(self.data.game.id)
-            completions_db.deploy_markdown_files()
+            completions_db.generate_markdown_files()
             self.dismiss(self.data.game.id)
 
     def _shortcuts_blocked(self) -> bool:

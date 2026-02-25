@@ -2,6 +2,7 @@ import math
 import os
 
 from data_schema import DataEntry
+from utils import read_and_validate_json
 
 
 def render_list_value(key: str, value: list, prefix: str = ""):
@@ -121,3 +122,27 @@ def completion_to_markdown(completion):
 
 def markdown_filename(target_dir: str, slug: str):
     return os.path.join(target_dir, f"{slug}.md")
+
+
+def generate_markdown_files(completions_path: str, target_dir: str):
+    completions = read_and_validate_json(completions_path, DataEntry)
+    for completion in completions:
+        markdown = completion_to_markdown(completion)
+        filename = markdown_filename(target_dir, completion.game.slug)
+        with open(filename, "w", encoding="utf-8") as f:
+            f.write(markdown)
+
+
+if __name__ == "__main__":
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Generate markdown files from completions JSON.")
+    parser.add_argument(
+        "--completions", type=str, default="./iplayed_cli/data/completions.json", help="Path to completions JSON file"
+    )
+    parser.add_argument(
+        "--target-dir", type=str, default="./iplayed_ssg/content/games", help="Directory to output markdown files"
+    )
+    args = parser.parse_args()
+
+    generate_markdown_files(args.completions, args.target_dir)

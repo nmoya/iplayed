@@ -47,7 +47,7 @@ class CompletionsDatabase:
         with open(self.completions_filepath, "w") as f:
             json.dump(completions_json, f, indent=4, ensure_ascii=True)
 
-    def deploy_markdown_files(self, progress_fn: Callable[[int, int, str], None] | None = None) -> None:
+    def generate_markdown_files(self, progress_fn: Callable[[int, int, str], None] | None = None) -> None:
         for i, data in enumerate(self.completions):
             if progress_fn:
                 progress_fn(i, len(self.completions), data.game.name)

@@ -45,7 +45,7 @@ class GenerationScreen(Screen):
 
     async def on_button_pressed(self, event: Button.Pressed) -> None:
         task_map = {
-            "markdown": completions_db.deploy_markdown_files,
+            "markdown": completions_db.generate_markdown_files,
             "igdb_refresh": completions_db.refresh_all_igdb_games,
         }
         func = task_map.get(event.button.id)
