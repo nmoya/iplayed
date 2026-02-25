@@ -32,11 +32,24 @@ class CompletionsDatabase:
         else:
             self.completions.append(data)
         self.commit()
+        utils.write_markdown(
+            markdown_filename(config.SSG_CONTENT_DIRECTORY, data.game.slug), completion_to_markdown(data)
+        )
         return data
 
+    def get_game_by_id(self, game_id: int) -> DataEntry | None:
+        for entry in self.completions:
+            if entry.game.id == game_id:
+                return entry
+        return None
+
     def delete_completion(self, game_id: int) -> list[DataEntry]:
+        game = self.get_game_by_id(game_id)
+        if game is None:
+            return self.completions
         self.completions = [entry for entry in self.completions if entry.game.id != game_id]
         self.commit()
+        utils.delete_markdown(markdown_filename(config.SSG_CONTENT_DIRECTORY, game.slug))
         return self.completions
 
     def commit(self) -> None:
@@ -48,6 +61,7 @@ class CompletionsDatabase:
             json.dump(completions_json, f, indent=4, ensure_ascii=True)
 
     def generate_markdown_files(self, progress_fn: Callable[[int, int, str], None] | None = None) -> None:
+        utils.clear_directory(config.SSG_CONTENT_DIRECTORY, exceptions=["_index.md"])
         for i, data in enumerate(self.completions):
             if progress_fn:
                 progress_fn(i, len(self.completions), data.game.name)

@@ -382,3 +382,7 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/python,windows,visualstudiocode
+
+# Generated game markdown (built during CI)
+iplayed_ssg/content/games/*
+!iplayed_ssg/content/games/_index.md

@@ -21,6 +21,27 @@ jobs:
           curl -sSL https://github.com/getzola/zola/releases/download/v0.20.0/zola-v0.20.0-x86_64-unknown-linux-gnu.tar.gz | tar -xz
           sudo mv zola /usr/local/bin/zola
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install uv
+        run: |
+          curl -LsSf https://astral.sh/uv/install.sh | sh
+          echo "$HOME/.local/bin" >> $GITHUB_PATH
+
+      - name: Install Python deps
+        run: |
+          export PATH="$HOME/.local/bin:$HOME/.cargo/bin:$PATH"
+          uv add pydantic toolz
+
+      - name: Generate markdown from completions
+        run: |
+          uv run python iplayed_cli/completions_to_markdown.py \
+            --completions ./iplayed_cli/data/completions.json \
+            --target-dir ./iplayed_ssg/content/games
+
       - name: Build iplayed_ssg
         run: |
           zola --root iplayed_ssg build

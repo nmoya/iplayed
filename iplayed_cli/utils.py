@@ -1,5 +1,6 @@
 import datetime as dt
 import json
+import os
 from datetime import datetime
 
 import toolz as z
@@ -41,9 +42,19 @@ def read_and_validate_json(file_path, model):
 
 
 def write_markdown(file_path: str, content: str):
-    """Write content to a Markdown file."""
     with open(file_path, "w", encoding="utf-8") as file:
         file.write(content)
+
+
+def delete_markdown(file_path: str):
+    if os.path.exists(file_path):
+        os.remove(file_path)
+
+
+def clear_directory(directory: str, exceptions: list[str]) -> None:
+    for file in os.listdir(directory):
+        if file not in exceptions:
+            os.remove(os.path.join(directory, file))
 
 
 def to_naive_datetime(dt_obj: dt.datetime | None, default=None) -> dt.datetime:
