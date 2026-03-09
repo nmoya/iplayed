@@ -445,9 +445,9 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>Uncharted 4: A Thief&#x27;s End</title>
-        <published>2020-12-15T00:00:00+00:00</published>
-        <updated>2020-12-15T00:00:00+00:00</updated>
+        <title>Uncharted 3: Drake&#x27;s Deception</title>
+        <published>2020-11-15T00:00:00+00:00</published>
+        <updated>2020-11-15T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -457,10 +457,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/uncharted-4-a-thief-s-end/"/>
-        <id>https://nikolasmoya.com/iplayed/games/uncharted-4-a-thief-s-end/</id>
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/uncharted-3-drake-s-deception/"/>
+        <id>https://nikolasmoya.com/iplayed/games/uncharted-3-drake-s-deception/</id>
         
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/uncharted-4-a-thief-s-end/"></content>
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/uncharted-3-drake-s-deception/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -765,25 +765,6 @@
         <id>https://nikolasmoya.com/iplayed/games/crash-team-racing/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/crash-team-racing/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Elifoot</title>
-        <published>2012-09-26T00:00:00+00:00</published>
-        <updated>2012-09-26T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Nikolas Moya
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/elifoot/"/>
-        <id>https://nikolasmoya.com/iplayed/games/elifoot/</id>
-        
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/elifoot/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -1354,6 +1335,25 @@
         <id>https://nikolasmoya.com/iplayed/games/looney-tunes-sheep-raider/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/looney-tunes-sheep-raider/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Elifoot</title>
+        <published>2001-09-26T00:00:00+00:00</published>
+        <updated>2001-09-26T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/elifoot/"/>
+        <id>https://nikolasmoya.com/iplayed/games/elifoot/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/elifoot/"></content>
         
     </entry>
     <entry xml:lang="en">

@@ -502,9 +502,9 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>Uncharted 3: Drake&#x27;s Deception</title>
-        <published>2020-11-15T00:00:00+00:00</published>
-        <updated>2020-11-15T00:00:00+00:00</updated>
+        <title>Uncharted 4: A Thief&#x27;s End</title>
+        <published>2020-12-15T00:00:00+00:00</published>
+        <updated>2020-12-15T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -514,10 +514,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/uncharted-3-drake-s-deception/"/>
-        <id>https://nikolasmoya.com/iplayed/games/uncharted-3-drake-s-deception/</id>
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/uncharted-4-a-thief-s-end/"/>
+        <id>https://nikolasmoya.com/iplayed/games/uncharted-4-a-thief-s-end/</id>
         
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/uncharted-3-drake-s-deception/"></content>
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/uncharted-4-a-thief-s-end/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -537,6 +537,25 @@
         <id>https://nikolasmoya.com/iplayed/games/the-legend-of-zelda-breath-of-the-wild/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/the-legend-of-zelda-breath-of-the-wild/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Uncharted 2: Among Thieves</title>
+        <published>2020-10-15T00:00:00+00:00</published>
+        <updated>2020-10-15T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/uncharted-2-among-thieves/"/>
+        <id>https://nikolasmoya.com/iplayed/games/uncharted-2-among-thieves/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/uncharted-2-among-thieves/"></content>
         
     </entry>
     <entry xml:lang="en">
