@@ -41,6 +41,7 @@ jobs:
           uv run python iplayed_cli/completions_to_markdown.py \
             --completions ./iplayed_cli/data/completions.json \
             --target-dir ./iplayed_ssg/content/games
+          cp ./iplayed_cli/data/completions.json ./iplayed_ssg/static/completions.json
 
       - name: Build iplayed_ssg
         run: |

@@ -386,3 +386,6 @@ $RECYCLE.BIN/
 # Generated game markdown (built during CI)
 iplayed_ssg/content/games/*
 !iplayed_ssg/content/games/_index.md
+
+# Generated stats data copied from iplayed_cli/data/completions.json
+iplayed_ssg/static/completions.json

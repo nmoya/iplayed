@@ -1,4 +1,5 @@
 import json
+import os
 import shutil
 from typing import Callable
 
@@ -52,6 +53,11 @@ class CompletionsDatabase:
         utils.delete_markdown(markdown_filename(config.SSG_CONTENT_DIRECTORY, data.game.slug))
         return self.completions
 
+    def sync_ssg_completions_file(self) -> None:
+        static_directory = os.path.join(config.SSG_DIRECTORY, "static")
+        os.makedirs(static_directory, exist_ok=True)
+        shutil.copyfile(self.completions_filepath, os.path.join(static_directory, "completions.json"))
+
     def commit(self) -> None:
         by_completion_date = sorted(
             self.completions, key=lambda c: to_naive_datetime(c.completion.completed_at), reverse=True
@@ -59,6 +65,7 @@ class CompletionsDatabase:
         completions_json = [entry.model_dump(mode="json") for entry in by_completion_date]
         with open(self.completions_filepath, "w") as f:
             json.dump(completions_json, f, indent=4, ensure_ascii=True)
+        self.sync_ssg_completions_file()
 
     def generate_markdown_files(self, progress_fn: Callable[[int, int, str], None] | None = None) -> None:
         utils.clear_directory(config.SSG_CONTENT_DIRECTORY, exceptions=["_index.md"])
@@ -69,7 +76,7 @@ class CompletionsDatabase:
             filename = markdown_filename(config.SSG_CONTENT_DIRECTORY, data.game.slug)
             utils.write_markdown(filename, markdown)
 
-        shutil.copyfile(self.completions_filepath, f"{config.SSG_DIRECTORY}/static/completions.json")
+        self.sync_ssg_completions_file()
         if progress_fn:
             progress_fn(len(self.completions), len(self.completions), "")
 
