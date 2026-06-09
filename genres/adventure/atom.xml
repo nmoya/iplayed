@@ -1908,6 +1908,25 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>Xenoblade Chronicles 2</title>
+        <published>2018-06-10T00:00:00+00:00</published>
+        <updated>2018-06-10T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/xenoblade-chronicles-2/"/>
+        <id>https://nikolasmoya.com/iplayed/games/xenoblade-chronicles-2/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/xenoblade-chronicles-2/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>For the King</title>
         <published>2018-04-22T00:00:00+00:00</published>
         <updated>2018-04-22T00:00:00+00:00</updated>
