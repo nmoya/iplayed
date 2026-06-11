@@ -141,6 +141,25 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>Pokémon Sword &amp; Pokémon Shield Double Pack</title>
+        <published>2021-08-23T00:00:00+00:00</published>
+        <updated>2021-08-23T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/pokemon-sword-and-pokemon-shield-double-pack/"/>
+        <id>https://nikolasmoya.com/iplayed/games/pokemon-sword-and-pokemon-shield-double-pack/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/pokemon-sword-and-pokemon-shield-double-pack/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>Worms 3D</title>
         <published>2021-08-21T00:00:00+00:00</published>
         <updated>2021-08-21T00:00:00+00:00</updated>
@@ -271,25 +290,6 @@
         <id>https://nikolasmoya.com/iplayed/games/xcom-2/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/xcom-2/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Divinity: Original Sin II</title>
-        <published>2017-09-21T00:00:00+00:00</published>
-        <updated>2017-09-21T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Nikolas Moya
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/divinity-original-sin-ii/"/>
-        <id>https://nikolasmoya.com/iplayed/games/divinity-original-sin-ii/</id>
-        
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/divinity-original-sin-ii/"></content>
         
     </entry>
     <entry xml:lang="en">

@@ -1737,6 +1737,25 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>Dragon&#x27;s Dogma</title>
+        <published>2019-01-31T00:00:00+00:00</published>
+        <updated>2019-01-31T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/dragon-s-dogma/"/>
+        <id>https://nikolasmoya.com/iplayed/games/dragon-s-dogma/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/dragon-s-dogma/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>Dark Souls III</title>
         <published>2019-01-26T00:00:00+00:00</published>
         <updated>2019-01-26T00:00:00+00:00</updated>
@@ -4014,6 +4033,25 @@
         <id>https://nikolasmoya.com/iplayed/games/god-of-war-ii/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/god-of-war-ii/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Breath of Fire IV</title>
+        <published>2006-09-18T00:00:00+00:00</published>
+        <updated>2006-09-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/breath-of-fire-iv/"/>
+        <id>https://nikolasmoya.com/iplayed/games/breath-of-fire-iv/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/breath-of-fire-iv/"></content>
         
     </entry>
     <entry xml:lang="en">

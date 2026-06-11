@@ -198,7 +198,7 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>Elden Ring: Nightreign</title>
+        <title>Elden Ring Nightreign</title>
         <published>2025-06-24T00:00:00+00:00</published>
         <updated>2025-06-24T00:00:00+00:00</updated>
         
@@ -1411,25 +1411,6 @@
         <id>https://nikolasmoya.com/iplayed/games/nioh/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/nioh/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>No Man&#x27;s Sky</title>
-        <published>2016-08-10T00:00:00+00:00</published>
-        <updated>2016-08-10T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Nikolas Moya
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/no-man-s-sky/"/>
-        <id>https://nikolasmoya.com/iplayed/games/no-man-s-sky/</id>
-        
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/no-man-s-sky/"></content>
         
     </entry>
     <entry xml:lang="en">
