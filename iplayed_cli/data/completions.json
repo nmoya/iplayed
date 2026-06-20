@@ -1,6 +1,259 @@
 [
     {
         "game": {
+            "id": 325594,
+            "slug": "split-fiction",
+            "name": "Split Fiction",
+            "game_type": 0,
+            "game_status": null,
+            "cover": {
+                "id": 426975,
+                "alpha_channel": false,
+                "animated": false,
+                "height": 1920,
+                "image_id": "co95gf",
+                "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co95gf.jpg",
+                "width": 1440
+            },
+            "artworks": [
+                {
+                    "id": 168990,
+                    "alpha_channel": false,
+                    "animated": false,
+                    "height": 1240,
+                    "image_id": "ar3me6",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3me6.jpg",
+                    "width": 3840
+                },
+                {
+                    "id": 169229,
+                    "alpha_channel": true,
+                    "animated": false,
+                    "height": 1080,
+                    "image_id": "ar3mkt",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3mkt.jpg",
+                    "width": 5427
+                },
+                {
+                    "id": 169230,
+                    "alpha_channel": true,
+                    "animated": false,
+                    "height": 1080,
+                    "image_id": "ar3mku",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3mku.jpg",
+                    "width": 5427
+                },
+                {
+                    "id": 168991,
+                    "alpha_channel": true,
+                    "animated": false,
+                    "height": 119,
+                    "image_id": "ar3me7",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3me7.jpg",
+                    "width": 512
+                }
+            ],
+            "platforms": [
+                {
+                    "id": 169,
+                    "abbreviation": "Series X|S",
+                    "name": "Xbox Series X|S",
+                    "logo": {
+                        "id": 561,
+                        "alpha_channel": true,
+                        "animated": false,
+                        "height": 1200,
+                        "image_id": "plfl",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plfl.jpg",
+                        "width": 1200
+                    }
+                },
+                {
+                    "id": 508,
+                    "abbreviation": "Switch 2",
+                    "name": "Nintendo Switch 2",
+                    "logo": {
+                        "id": 896,
+                        "alpha_channel": false,
+                        "animated": false,
+                        "height": 1080,
+                        "image_id": "plow",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plow.jpg",
+                        "width": 1920
+                    }
+                },
+                {
+                    "id": 6,
+                    "abbreviation": "PC",
+                    "name": "PC (Microsoft Windows)",
+                    "logo": {
+                        "id": 670,
+                        "alpha_channel": false,
+                        "animated": false,
+                        "height": 69,
+                        "image_id": "plim",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plim.jpg",
+                        "width": 375
+                    }
+                },
+                {
+                    "id": 167,
+                    "abbreviation": "PS5",
+                    "name": "PlayStation 5",
+                    "logo": {
+                        "id": 892,
+                        "alpha_channel": false,
+                        "animated": false,
+                        "height": 563,
+                        "image_id": "plos",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plos.jpg",
+                        "width": 1000
+                    }
+                }
+            ],
+            "releases": [],
+            "genres": [
+                {
+                    "id": 8,
+                    "name": "Platform",
+                    "slug": "platform",
+                    "url": "https://www.igdb.com/genres/platform",
+                    "updated_at": 1323289215,
+                    "created_at": 1297639288
+                },
+                {
+                    "id": 9,
+                    "name": "Puzzle",
+                    "slug": "puzzle",
+                    "url": "https://www.igdb.com/genres/puzzle",
+                    "updated_at": 1323289215,
+                    "created_at": 1297639288
+                },
+                {
+                    "id": 31,
+                    "name": "Adventure",
+                    "slug": "adventure",
+                    "url": "https://www.igdb.com/genres/adventure",
+                    "updated_at": 1323568041,
+                    "created_at": 1323568041
+                }
+            ],
+            "game_modes": [
+                {
+                    "id": 2,
+                    "name": "Multiplayer",
+                    "slug": "multiplayer",
+                    "url": "https://www.igdb.com/game_modes/multiplayer",
+                    "updated_at": 1323289216,
+                    "created_at": 1298968853
+                },
+                {
+                    "id": 3,
+                    "name": "Co-operative",
+                    "slug": "co-operative",
+                    "url": "https://www.igdb.com/game_modes/co-operative",
+                    "updated_at": 1323289216,
+                    "created_at": 1298968887
+                },
+                {
+                    "id": 4,
+                    "name": "Split screen",
+                    "slug": "split-screen",
+                    "url": "https://www.igdb.com/game_modes/split-screen",
+                    "updated_at": 1323289216,
+                    "created_at": 1298968900
+                }
+            ],
+            "alternative_names": [],
+            "parent_game": null,
+            "version_parent": null,
+            "rating": null,
+            "rating_count": null,
+            "summary": "Split Fiction is a 2025 cooperative multiplayer game. It follows two writers, Mio Hudson and Zoe Foster, as they become trapped in their imaginations.",
+            "dlcs": [
+                {
+                    "id": 347331,
+                    "name": "Split Fiction: Friend's Pass"
+                }
+            ],
+            "keywords": [
+                {
+                    "id": 332,
+                    "name": "dragons"
+                },
+                {
+                    "id": 1634,
+                    "name": "couch co-op"
+                },
+                {
+                    "id": 1635,
+                    "name": "local co-op"
+                },
+                {
+                    "id": 1677,
+                    "name": "local multiplayer"
+                },
+                {
+                    "id": 16877,
+                    "name": "controller support"
+                },
+                {
+                    "id": 36805,
+                    "name": "cross-platform"
+                },
+                {
+                    "id": 37861,
+                    "name": "steam deck"
+                },
+                {
+                    "id": 39007,
+                    "name": "the game awards - best action-adventure game - nominee"
+                },
+                {
+                    "id": 39019,
+                    "name": "the game awards - best family game - nominee"
+                },
+                {
+                    "id": 39024,
+                    "name": "the game awards - best game direction - nominee"
+                },
+                {
+                    "id": 39032,
+                    "name": "the game awards - best multiplayer game - nominee"
+                },
+                {
+                    "id": 39201,
+                    "name": "online coop"
+                }
+            ],
+            "created_at": 1734053871,
+            "updated_at": 1781934602,
+            "url": "https://www.igdb.com/games/split-fiction",
+            "total_rating": 90.13823983279343,
+            "total_rating_count": 213,
+            "first_release_date": 1741219200
+        },
+        "completion": {
+            "completed_at": "2026-06-20T00:00:00",
+            "hours_played": 13.0,
+            "played_platforms": [
+                {
+                    "id": 6,
+                    "name": "PC (Microsoft Windows)"
+                }
+            ],
+            "played_dlcs": [],
+            "is_favorite": false,
+            "all_achievements_unlocked": true,
+            "backseat_gaming": false,
+            "comments": "",
+            "blurb": "A game overflowing with creativity, I just wish the puzzles were a little bit harder.",
+            "blurb_author": "N. Moya",
+            "rating": 9.0
+        }
+    },
+    {
+        "game": {
             "id": 8347,
             "slug": "the-long-dark",
             "name": "The Long Dark",
