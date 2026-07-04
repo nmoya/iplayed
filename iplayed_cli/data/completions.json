@@ -1,6 +1,201 @@
 [
     {
         "game": {
+            "id": 194404,
+            "slug": "the-quarry",
+            "name": "The Quarry",
+            "game_type": 0,
+            "game_status": null,
+            "cover": {
+                "id": 213304,
+                "alpha_channel": true,
+                "animated": false,
+                "height": 1212,
+                "image_id": "co4kl4",
+                "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4kl4.jpg",
+                "width": 909
+            },
+            "artworks": [
+                {
+                    "id": 73925,
+                    "alpha_channel": false,
+                    "animated": false,
+                    "height": 620,
+                    "image_id": "ar1l1h",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar1l1h.jpg",
+                    "width": 1920
+                }
+            ],
+            "platforms": [
+                {
+                    "id": 169,
+                    "abbreviation": "Series X|S",
+                    "name": "Xbox Series X|S",
+                    "logo": {
+                        "id": 561,
+                        "alpha_channel": true,
+                        "animated": false,
+                        "height": 1200,
+                        "image_id": "plfl",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plfl.jpg",
+                        "width": 1200
+                    }
+                },
+                {
+                    "id": 48,
+                    "abbreviation": "PS4",
+                    "name": "PlayStation 4",
+                    "logo": {
+                        "id": 231,
+                        "alpha_channel": true,
+                        "animated": false,
+                        "height": 1000,
+                        "image_id": "pl6f",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/pl6f.jpg",
+                        "width": 1000
+                    }
+                },
+                {
+                    "id": 6,
+                    "abbreviation": "PC",
+                    "name": "PC (Microsoft Windows)",
+                    "logo": {
+                        "id": 670,
+                        "alpha_channel": false,
+                        "animated": false,
+                        "height": 69,
+                        "image_id": "plim",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plim.jpg",
+                        "width": 375
+                    }
+                },
+                {
+                    "id": 167,
+                    "abbreviation": "PS5",
+                    "name": "PlayStation 5",
+                    "logo": {
+                        "id": 892,
+                        "alpha_channel": false,
+                        "animated": false,
+                        "height": 563,
+                        "image_id": "plos",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plos.jpg",
+                        "width": 1000
+                    }
+                },
+                {
+                    "id": 49,
+                    "abbreviation": "XONE",
+                    "name": "Xbox One",
+                    "logo": {
+                        "id": 329,
+                        "alpha_channel": true,
+                        "animated": false,
+                        "height": 1000,
+                        "image_id": "pl95",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/pl95.jpg",
+                        "width": 1000
+                    }
+                }
+            ],
+            "releases": [],
+            "genres": [
+                {
+                    "id": 31,
+                    "name": "Adventure",
+                    "slug": "adventure",
+                    "url": "https://www.igdb.com/genres/adventure",
+                    "updated_at": 1323568041,
+                    "created_at": 1323568041
+                }
+            ],
+            "game_modes": [
+                {
+                    "id": 1,
+                    "name": "Single player",
+                    "slug": "single-player",
+                    "url": "https://www.igdb.com/game_modes/single-player",
+                    "updated_at": 1323289216,
+                    "created_at": 1298968834
+                },
+                {
+                    "id": 2,
+                    "name": "Multiplayer",
+                    "slug": "multiplayer",
+                    "url": "https://www.igdb.com/game_modes/multiplayer",
+                    "updated_at": 1323289216,
+                    "created_at": 1298968853
+                },
+                {
+                    "id": 3,
+                    "name": "Co-operative",
+                    "slug": "co-operative",
+                    "url": "https://www.igdb.com/game_modes/co-operative",
+                    "updated_at": 1323289216,
+                    "created_at": 1298968887
+                }
+            ],
+            "alternative_names": [],
+            "parent_game": null,
+            "version_parent": null,
+            "rating": null,
+            "rating_count": null,
+            "summary": "It's late summer in the remote forests of upstate New York, and the teen counselors of Hackett's Quarry have the camp to themselves for one final night. That means no kids, no adults, and no rules. In this thrilling cinematic tale, you control the fates of all nine camp counselors as their party plans unravel into an unpredictable night of horror. With life-or-death decisions around every turn, the choices you make will determine how the story unfolds.",
+            "dlcs": [],
+            "keywords": [
+                {
+                    "id": 218,
+                    "name": "interactive fiction"
+                },
+                {
+                    "id": 422,
+                    "name": "choose your own adventure"
+                },
+                {
+                    "id": 1105,
+                    "name": "supernatural"
+                },
+                {
+                    "id": 1313,
+                    "name": "multiple endings"
+                },
+                {
+                    "id": 1836,
+                    "name": "survival horror"
+                },
+                {
+                    "id": 26965,
+                    "name": "multiple playable characters"
+                }
+            ],
+            "created_at": 1647278581,
+            "updated_at": 1783105725,
+            "url": "https://www.igdb.com/games/the-quarry",
+            "total_rating": 78.81401730649137,
+            "total_rating_count": 233,
+            "first_release_date": 1654819200
+        },
+        "completion": {
+            "completed_at": "2026-07-04T00:00:00",
+            "hours_played": 10.4,
+            "played_platforms": [
+                {
+                    "id": 6,
+                    "name": "PC (Microsoft Windows)"
+                }
+            ],
+            "played_dlcs": [],
+            "is_favorite": false,
+            "all_achievements_unlocked": false,
+            "backseat_gaming": false,
+            "comments": "",
+            "blurb": "A true thriller experience in the form of a video game!",
+            "blurb_author": "N. Moya",
+            "rating": 9.0
+        }
+    },
+    {
+        "game": {
             "id": 325594,
             "slug": "split-fiction",
             "name": "Split Fiction",
