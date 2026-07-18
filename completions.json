@@ -1,6 +1,348 @@
 [
     {
         "game": {
+            "id": 138590,
+            "slug": "powerwash-simulator",
+            "name": "PowerWash Simulator",
+            "game_type": 0,
+            "game_status": null,
+            "cover": {
+                "id": 347852,
+                "alpha_channel": false,
+                "animated": false,
+                "height": 960,
+                "image_id": "co7gek",
+                "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7gek.jpg",
+                "width": 720
+            },
+            "artworks": [
+                {
+                    "id": 17476,
+                    "alpha_channel": false,
+                    "animated": false,
+                    "height": 620,
+                    "image_id": "ardhg",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ardhg.jpg",
+                    "width": 1920
+                },
+                {
+                    "id": 289604,
+                    "alpha_channel": true,
+                    "animated": false,
+                    "height": 360,
+                    "image_id": "ar67gk",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar67gk.jpg",
+                    "width": 640
+                },
+                {
+                    "id": 220677,
+                    "alpha_channel": false,
+                    "animated": false,
+                    "height": 1240,
+                    "image_id": "ar4q9x",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar4q9x.jpg",
+                    "width": 3840
+                }
+            ],
+            "platforms": [
+                {
+                    "id": 169,
+                    "abbreviation": "Series X|S",
+                    "name": "Xbox Series X|S",
+                    "logo": {
+                        "id": 561,
+                        "alpha_channel": true,
+                        "animated": false,
+                        "height": 1200,
+                        "image_id": "plfl",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plfl.jpg",
+                        "width": 1200
+                    }
+                },
+                {
+                    "id": 48,
+                    "abbreviation": "PS4",
+                    "name": "PlayStation 4",
+                    "logo": {
+                        "id": 231,
+                        "alpha_channel": true,
+                        "animated": false,
+                        "height": 1000,
+                        "image_id": "pl6f",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/pl6f.jpg",
+                        "width": 1000
+                    }
+                },
+                {
+                    "id": 6,
+                    "abbreviation": "PC",
+                    "name": "PC (Microsoft Windows)",
+                    "logo": {
+                        "id": 670,
+                        "alpha_channel": false,
+                        "animated": false,
+                        "height": 69,
+                        "image_id": "plim",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plim.jpg",
+                        "width": 375
+                    }
+                },
+                {
+                    "id": 39,
+                    "abbreviation": "iOS",
+                    "name": "iOS",
+                    "logo": {
+                        "id": 248,
+                        "alpha_channel": true,
+                        "animated": false,
+                        "height": 1000,
+                        "image_id": "pl6w",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/pl6w.jpg",
+                        "width": 1000
+                    }
+                },
+                {
+                    "id": 167,
+                    "abbreviation": "PS5",
+                    "name": "PlayStation 5",
+                    "logo": {
+                        "id": 892,
+                        "alpha_channel": false,
+                        "animated": false,
+                        "height": 563,
+                        "image_id": "plos",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plos.jpg",
+                        "width": 1000
+                    }
+                },
+                {
+                    "id": 49,
+                    "abbreviation": "XONE",
+                    "name": "Xbox One",
+                    "logo": {
+                        "id": 329,
+                        "alpha_channel": true,
+                        "animated": false,
+                        "height": 1000,
+                        "image_id": "pl95",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/pl95.jpg",
+                        "width": 1000
+                    }
+                },
+                {
+                    "id": 130,
+                    "abbreviation": "Switch",
+                    "name": "Nintendo Switch",
+                    "logo": {
+                        "id": 606,
+                        "alpha_channel": false,
+                        "animated": false,
+                        "height": 194,
+                        "image_id": "plgu",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plgu.jpg",
+                        "width": 602
+                    }
+                }
+            ],
+            "releases": [],
+            "genres": [
+                {
+                    "id": 13,
+                    "name": "Simulator",
+                    "slug": "simulator",
+                    "url": "https://www.igdb.com/genres/simulator",
+                    "updated_at": 1323289215,
+                    "created_at": 1297639288
+                },
+                {
+                    "id": 32,
+                    "name": "Indie",
+                    "slug": "indie",
+                    "url": "https://www.igdb.com/genres/indie",
+                    "updated_at": 1341431954,
+                    "created_at": 1341431954
+                }
+            ],
+            "game_modes": [
+                {
+                    "id": 1,
+                    "name": "Single player",
+                    "slug": "single-player",
+                    "url": "https://www.igdb.com/game_modes/single-player",
+                    "updated_at": 1323289216,
+                    "created_at": 1298968834
+                },
+                {
+                    "id": 2,
+                    "name": "Multiplayer",
+                    "slug": "multiplayer",
+                    "url": "https://www.igdb.com/game_modes/multiplayer",
+                    "updated_at": 1323289216,
+                    "created_at": 1298968853
+                },
+                {
+                    "id": 3,
+                    "name": "Co-operative",
+                    "slug": "co-operative",
+                    "url": "https://www.igdb.com/game_modes/co-operative",
+                    "updated_at": 1323289216,
+                    "created_at": 1298968887
+                }
+            ],
+            "alternative_names": [],
+            "parent_game": null,
+            "version_parent": null,
+            "rating": null,
+            "rating_count": null,
+            "summary": "Release the Pressure with PowerWash Simulator! Wash away your worries with the soothing sounds of high-pressure water. Fire up your power washer and blast away every speck of dirt and grime you can find, all with the simple satisfaction of power-washing to a sparkling finish.",
+            "dlcs": [
+                {
+                    "id": 345856,
+                    "name": "PowerWash Simulator: Muckingham Files - Part 6"
+                },
+                {
+                    "id": 251220,
+                    "name": "PowerWash Simulator: Warhammer 40,000 Content Pack"
+                },
+                {
+                    "id": 312018,
+                    "name": "PowerWash Simulator: Cruise Ship Sun Deck - Summer 2024"
+                },
+                {
+                    "id": 234250,
+                    "name": "PowerWash Simulator: Tomb Raider Special Pack"
+                },
+                {
+                    "id": 309064,
+                    "name": "PowerWash Simulator: Muckingham Files - Part 3"
+                },
+                {
+                    "id": 340590,
+                    "name": "PowerWash Simulator: Muckingham Files - Part 5"
+                },
+                {
+                    "id": 324567,
+                    "name": "PowerWash Simulator: Ice Rink - Winter 2024"
+                },
+                {
+                    "id": 320757,
+                    "name": "PowerWash Simulator: Halloween Seasonal 2024"
+                },
+                {
+                    "id": 280540,
+                    "name": "PowerWash Simulator: Santa's Workshop - Winter 2023"
+                },
+                {
+                    "id": 240049,
+                    "name": "PowerWash Simulator: Midgar Special Pack"
+                },
+                {
+                    "id": 327786,
+                    "name": "PowerWash Simulator: Wallace & Gromit Special Pack"
+                },
+                {
+                    "id": 312427,
+                    "name": "PowerWash Simulator: Muckingham Files - Part 4"
+                },
+                {
+                    "id": 305050,
+                    "name": "PowerWash Simulator: Alice's Adventures Special Pack"
+                },
+                {
+                    "id": 250898,
+                    "name": "PowerWash Simulator: SpongeBob SquarePants Special Pack"
+                },
+                {
+                    "id": 314930,
+                    "name": "PowerWash Simulator: Shrek Special Pack"
+                },
+                {
+                    "id": 276978,
+                    "name": "PowerWash Simulator: Back to the Future Special Pack"
+                }
+            ],
+            "keywords": [
+                {
+                    "id": 250,
+                    "name": "3d"
+                },
+                {
+                    "id": 988,
+                    "name": "online co-op"
+                },
+                {
+                    "id": 1511,
+                    "name": "funny"
+                },
+                {
+                    "id": 1697,
+                    "name": "atmospheric"
+                },
+                {
+                    "id": 2084,
+                    "name": "relaxing"
+                },
+                {
+                    "id": 2426,
+                    "name": "story rich"
+                },
+                {
+                    "id": 2760,
+                    "name": "family friendly"
+                },
+                {
+                    "id": 3138,
+                    "name": "colorful"
+                },
+                {
+                    "id": 5789,
+                    "name": "realism"
+                },
+                {
+                    "id": 17083,
+                    "name": "vehicles"
+                },
+                {
+                    "id": 17092,
+                    "name": "immersive"
+                },
+                {
+                    "id": 23931,
+                    "name": "wholesome"
+                },
+                {
+                    "id": 24685,
+                    "name": "cozy"
+                }
+            ],
+            "created_at": 1599752967,
+            "updated_at": 1783991896,
+            "url": "https://www.igdb.com/games/powerwash-simulator",
+            "total_rating": 76.75952053821668,
+            "total_rating_count": 119,
+            "first_release_date": 1657756800
+        },
+        "completion": {
+            "completed_at": "2026-07-19T00:00:00",
+            "hours_played": 19.1,
+            "played_platforms": [
+                {
+                    "id": 6,
+                    "name": "PC (Microsoft Windows)"
+                }
+            ],
+            "played_dlcs": [],
+            "is_favorite": false,
+            "all_achievements_unlocked": false,
+            "backseat_gaming": false,
+            "comments": "",
+            "blurb": "It made me realize how much I needed a powerwash at home",
+            "blurb_author": "N. Moya",
+            "rating": 7.0
+        }
+    },
+    {
+        "game": {
             "id": 194404,
             "slug": "the-quarry",
             "name": "The Quarry",
