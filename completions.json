@@ -1,6 +1,722 @@
 [
     {
         "game": {
+            "id": 35189,
+            "slug": "barony",
+            "name": "Barony",
+            "game_type": 0,
+            "game_status": null,
+            "cover": {
+                "id": 272980,
+                "alpha_channel": true,
+                "animated": false,
+                "height": 1600,
+                "image_id": "co5ums",
+                "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5ums.jpg",
+                "width": 1200
+            },
+            "artworks": [
+                {
+                    "id": 288892,
+                    "alpha_channel": true,
+                    "animated": false,
+                    "height": 256,
+                    "image_id": "ar66ws",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar66ws.jpg",
+                    "width": 256
+                },
+                {
+                    "id": 288893,
+                    "alpha_channel": true,
+                    "animated": false,
+                    "height": 256,
+                    "image_id": "ar66wt",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar66wt.jpg",
+                    "width": 256
+                },
+                {
+                    "id": 36388,
+                    "alpha_channel": false,
+                    "animated": false,
+                    "height": 620,
+                    "image_id": "ars2s",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ars2s.jpg",
+                    "width": 1920
+                }
+            ],
+            "platforms": [
+                {
+                    "id": 3,
+                    "abbreviation": "Linux",
+                    "name": "Linux",
+                    "logo": {
+                        "id": 380,
+                        "alpha_channel": false,
+                        "animated": false,
+                        "height": 512,
+                        "image_id": "plak",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plak.jpg",
+                        "width": 512
+                    }
+                },
+                {
+                    "id": 6,
+                    "abbreviation": "PC",
+                    "name": "PC (Microsoft Windows)",
+                    "logo": {
+                        "id": 670,
+                        "alpha_channel": false,
+                        "animated": false,
+                        "height": 69,
+                        "image_id": "plim",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plim.jpg",
+                        "width": 375
+                    }
+                },
+                {
+                    "id": 14,
+                    "abbreviation": "Mac",
+                    "name": "Mac",
+                    "logo": {
+                        "id": 867,
+                        "alpha_channel": true,
+                        "animated": false,
+                        "height": 512,
+                        "image_id": "plo3",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plo3.jpg",
+                        "width": 512
+                    }
+                },
+                {
+                    "id": 130,
+                    "abbreviation": "Switch",
+                    "name": "Nintendo Switch",
+                    "logo": {
+                        "id": 606,
+                        "alpha_channel": false,
+                        "animated": false,
+                        "height": 194,
+                        "image_id": "plgu",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plgu.jpg",
+                        "width": 602
+                    }
+                }
+            ],
+            "releases": [],
+            "genres": [
+                {
+                    "id": 4,
+                    "name": "Fighting",
+                    "slug": "fighting",
+                    "url": "https://www.igdb.com/genres/fighting",
+                    "updated_at": 1323289215,
+                    "created_at": 1297639288
+                },
+                {
+                    "id": 12,
+                    "name": "Role-playing (RPG)",
+                    "slug": "role-playing-rpg",
+                    "url": "https://www.igdb.com/genres/role-playing-rpg",
+                    "updated_at": 1323289215,
+                    "created_at": 1297639288
+                },
+                {
+                    "id": 31,
+                    "name": "Adventure",
+                    "slug": "adventure",
+                    "url": "https://www.igdb.com/genres/adventure",
+                    "updated_at": 1323568041,
+                    "created_at": 1323568041
+                },
+                {
+                    "id": 32,
+                    "name": "Indie",
+                    "slug": "indie",
+                    "url": "https://www.igdb.com/genres/indie",
+                    "updated_at": 1341431954,
+                    "created_at": 1341431954
+                }
+            ],
+            "game_modes": [
+                {
+                    "id": 1,
+                    "name": "Single player",
+                    "slug": "single-player",
+                    "url": "https://www.igdb.com/game_modes/single-player",
+                    "updated_at": 1323289216,
+                    "created_at": 1298968834
+                },
+                {
+                    "id": 2,
+                    "name": "Multiplayer",
+                    "slug": "multiplayer",
+                    "url": "https://www.igdb.com/game_modes/multiplayer",
+                    "updated_at": 1323289216,
+                    "created_at": 1298968853
+                },
+                {
+                    "id": 3,
+                    "name": "Co-operative",
+                    "slug": "co-operative",
+                    "url": "https://www.igdb.com/game_modes/co-operative",
+                    "updated_at": 1323289216,
+                    "created_at": 1298968887
+                },
+                {
+                    "id": 4,
+                    "name": "Split screen",
+                    "slug": "split-screen",
+                    "url": "https://www.igdb.com/game_modes/split-screen",
+                    "updated_at": 1323289216,
+                    "created_at": 1298968900
+                }
+            ],
+            "alternative_names": [],
+            "parent_game": null,
+            "version_parent": null,
+            "rating": null,
+            "rating_count": null,
+            "summary": "Barony is a 3D, first-person roguelike that brings back the cryptic and intricate designs of classic roguelikes such as Nethack and melds them with RPGs like Ultima Underworld, System Shock, and Daggerfall. Challenge is the calling card of this hard-boiled dungeon-crawler.",
+            "dlcs": [
+                {
+                    "id": 387400,
+                    "name": "Barony: Deserters & Disciples"
+                },
+                {
+                    "id": 154655,
+                    "name": "Barony: Myths & Outcasts"
+                },
+                {
+                    "id": 154520,
+                    "name": "Barony: Legends & Pariahs"
+                }
+            ],
+            "keywords": [
+                {
+                    "id": 5,
+                    "name": "zombies"
+                },
+                {
+                    "id": 16,
+                    "name": "ghosts"
+                },
+                {
+                    "id": 72,
+                    "name": "exploration"
+                },
+                {
+                    "id": 98,
+                    "name": "monsters"
+                },
+                {
+                    "id": 122,
+                    "name": "hell"
+                },
+                {
+                    "id": 126,
+                    "name": "retro"
+                },
+                {
+                    "id": 129,
+                    "name": "bloody"
+                },
+                {
+                    "id": 147,
+                    "name": "wizards"
+                },
+                {
+                    "id": 153,
+                    "name": "animals"
+                },
+                {
+                    "id": 171,
+                    "name": "level editor"
+                },
+                {
+                    "id": 175,
+                    "name": "demon"
+                },
+                {
+                    "id": 211,
+                    "name": "vampire"
+                },
+                {
+                    "id": 226,
+                    "name": "magic"
+                },
+                {
+                    "id": 227,
+                    "name": "sword"
+                },
+                {
+                    "id": 250,
+                    "name": "3d"
+                },
+                {
+                    "id": 368,
+                    "name": "thief"
+                },
+                {
+                    "id": 416,
+                    "name": "roguelike"
+                },
+                {
+                    "id": 420,
+                    "name": "artifacts"
+                },
+                {
+                    "id": 510,
+                    "name": "crafting"
+                },
+                {
+                    "id": 518,
+                    "name": "insects"
+                },
+                {
+                    "id": 701,
+                    "name": "archery"
+                },
+                {
+                    "id": 911,
+                    "name": "bullet hell"
+                },
+                {
+                    "id": 952,
+                    "name": "goblin"
+                },
+                {
+                    "id": 988,
+                    "name": "online co-op"
+                },
+                {
+                    "id": 1033,
+                    "name": "action-adventure"
+                },
+                {
+                    "id": 1068,
+                    "name": "skeleton"
+                },
+                {
+                    "id": 1069,
+                    "name": "demons"
+                },
+                {
+                    "id": 1165,
+                    "name": "leveling"
+                },
+                {
+                    "id": 1293,
+                    "name": "achievements"
+                },
+                {
+                    "id": 1320,
+                    "name": "undead"
+                },
+                {
+                    "id": 1345,
+                    "name": "traps"
+                },
+                {
+                    "id": 1422,
+                    "name": "portals"
+                },
+                {
+                    "id": 1494,
+                    "name": "steam trading cards"
+                },
+                {
+                    "id": 1513,
+                    "name": "dungeon crawling"
+                },
+                {
+                    "id": 1677,
+                    "name": "local multiplayer"
+                },
+                {
+                    "id": 1705,
+                    "name": "pixel art"
+                },
+                {
+                    "id": 1847,
+                    "name": "bugs"
+                },
+                {
+                    "id": 2111,
+                    "name": "giant insects"
+                },
+                {
+                    "id": 2113,
+                    "name": "castle"
+                },
+                {
+                    "id": 2137,
+                    "name": "melee combat"
+                },
+                {
+                    "id": 2163,
+                    "name": "underworld"
+                },
+                {
+                    "id": 2167,
+                    "name": "resurrection"
+                },
+                {
+                    "id": 2228,
+                    "name": "dungeon crawler"
+                },
+                {
+                    "id": 2324,
+                    "name": "swimming"
+                },
+                {
+                    "id": 2665,
+                    "name": "potions"
+                },
+                {
+                    "id": 2668,
+                    "name": "alchemy"
+                },
+                {
+                    "id": 3208,
+                    "name": "vampires"
+                },
+                {
+                    "id": 3222,
+                    "name": "trolls"
+                },
+                {
+                    "id": 3486,
+                    "name": "boss fight"
+                },
+                {
+                    "id": 3831,
+                    "name": "explosion"
+                },
+                {
+                    "id": 4004,
+                    "name": "steam achievements"
+                },
+                {
+                    "id": 4135,
+                    "name": "xbox controller support for pc"
+                },
+                {
+                    "id": 4275,
+                    "name": "steam workshop"
+                },
+                {
+                    "id": 4284,
+                    "name": "leveling up"
+                },
+                {
+                    "id": 4352,
+                    "name": "mind control"
+                },
+                {
+                    "id": 4392,
+                    "name": "bow and arrow"
+                },
+                {
+                    "id": 4393,
+                    "name": "explosives"
+                },
+                {
+                    "id": 4399,
+                    "name": "loot gathering"
+                },
+                {
+                    "id": 4404,
+                    "name": "goblins"
+                },
+                {
+                    "id": 4407,
+                    "name": "skeletons"
+                },
+                {
+                    "id": 4412,
+                    "name": "rat"
+                },
+                {
+                    "id": 4460,
+                    "name": "armor"
+                },
+                {
+                    "id": 4699,
+                    "name": "4 player co-op"
+                },
+                {
+                    "id": 4759,
+                    "name": "minotaurs"
+                },
+                {
+                    "id": 4879,
+                    "name": "potion"
+                },
+                {
+                    "id": 4891,
+                    "name": "melee"
+                },
+                {
+                    "id": 4956,
+                    "name": "a.i. companion"
+                },
+                {
+                    "id": 4996,
+                    "name": "friendly fire"
+                },
+                {
+                    "id": 5000,
+                    "name": "shielded enemies"
+                },
+                {
+                    "id": 5025,
+                    "name": "games with gold"
+                },
+                {
+                    "id": 5029,
+                    "name": "difficulty level"
+                },
+                {
+                    "id": 5293,
+                    "name": "boulder"
+                },
+                {
+                    "id": 5370,
+                    "name": "randomly generated maps"
+                },
+                {
+                    "id": 5818,
+                    "name": "merchants"
+                },
+                {
+                    "id": 5840,
+                    "name": "multiple enemy boss fights"
+                },
+                {
+                    "id": 5999,
+                    "name": "stealth kill"
+                },
+                {
+                    "id": 6614,
+                    "name": "scorpion"
+                },
+                {
+                    "id": 6619,
+                    "name": "invisibility"
+                },
+                {
+                    "id": 6671,
+                    "name": "portal"
+                },
+                {
+                    "id": 6681,
+                    "name": "gnome"
+                },
+                {
+                    "id": 6736,
+                    "name": "burning"
+                },
+                {
+                    "id": 7416,
+                    "name": "creature compendium"
+                },
+                {
+                    "id": 7423,
+                    "name": "status effects"
+                },
+                {
+                    "id": 7454,
+                    "name": "slideshow cutscene"
+                },
+                {
+                    "id": 9738,
+                    "name": "vampirism"
+                },
+                {
+                    "id": 11478,
+                    "name": "remote play"
+                },
+                {
+                    "id": 16877,
+                    "name": "controller support"
+                },
+                {
+                    "id": 17092,
+                    "name": "immersive"
+                },
+                {
+                    "id": 17602,
+                    "name": "gems"
+                },
+                {
+                    "id": 19522,
+                    "name": "curse"
+                },
+                {
+                    "id": 19649,
+                    "name": "bug"
+                },
+                {
+                    "id": 23834,
+                    "name": "retro graphics"
+                },
+                {
+                    "id": 27179,
+                    "name": "pixel art game"
+                },
+                {
+                    "id": 29033,
+                    "name": "bossfight"
+                },
+                {
+                    "id": 38887,
+                    "name": "food"
+                },
+                {
+                    "id": 39201,
+                    "name": "online coop"
+                },
+                {
+                    "id": 39504,
+                    "name": "spell caster"
+                },
+                {
+                    "id": 41334,
+                    "name": "bombs"
+                },
+                {
+                    "id": 41449,
+                    "name": "coins"
+                },
+                {
+                    "id": 41700,
+                    "name": "ranged combat"
+                },
+                {
+                    "id": 42105,
+                    "name": "shield"
+                },
+                {
+                    "id": 42121,
+                    "name": "buy and sell"
+                },
+                {
+                    "id": 42207,
+                    "name": "lava"
+                },
+                {
+                    "id": 42251,
+                    "name": "library"
+                },
+                {
+                    "id": 42581,
+                    "name": "health"
+                },
+                {
+                    "id": 42663,
+                    "name": "monster"
+                },
+                {
+                    "id": 43103,
+                    "name": "spells"
+                },
+                {
+                    "id": 43194,
+                    "name": "immersive sim"
+                },
+                {
+                    "id": 43579,
+                    "name": "eating"
+                },
+                {
+                    "id": 44017,
+                    "name": "literary reference"
+                },
+                {
+                    "id": 44373,
+                    "name": "axe"
+                },
+                {
+                    "id": 44629,
+                    "name": "steam families"
+                },
+                {
+                    "id": 44864,
+                    "name": "ghost"
+                },
+                {
+                    "id": 44930,
+                    "name": "money"
+                },
+                {
+                    "id": 45931,
+                    "name": "hidden secrets"
+                },
+                {
+                    "id": 47983,
+                    "name": "gold"
+                },
+                {
+                    "id": 48013,
+                    "name": "spear"
+                },
+                {
+                    "id": 48019,
+                    "name": "books"
+                },
+                {
+                    "id": 48270,
+                    "name": "explosive"
+                },
+                {
+                    "id": 49583,
+                    "name": "swamp"
+                },
+                {
+                    "id": 49755,
+                    "name": "healing"
+                },
+                {
+                    "id": 49831,
+                    "name": "bestiary"
+                },
+                {
+                    "id": 50541,
+                    "name": "steam remote play"
+                },
+                {
+                    "id": 50664,
+                    "name": "coin"
+                }
+            ],
+            "created_at": 1495828208,
+            "updated_at": 1784857176,
+            "url": "https://www.igdb.com/games/barony",
+            "total_rating": 71.9776534139466,
+            "total_rating_count": 15,
+            "first_release_date": 1435017600
+        },
+        "completion": {
+            "completed_at": "2026-07-24T00:00:00",
+            "hours_played": 17.0,
+            "played_platforms": [
+                {
+                    "id": 6,
+                    "name": "PC (Microsoft Windows)"
+                }
+            ],
+            "played_dlcs": [],
+            "is_favorite": false,
+            "all_achievements_unlocked": false,
+            "backseat_gaming": false,
+            "comments": "",
+            "blurb": "",
+            "blurb_author": "N. Moya",
+            "rating": 8.0
+        }
+    },
+    {
+        "game": {
             "id": 138590,
             "slug": "powerwash-simulator",
             "name": "PowerWash Simulator",
