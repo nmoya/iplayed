@@ -1,6 +1,408 @@
 [
     {
         "game": {
+            "id": 228530,
+            "slug": "death-stranding-2-on-the-beach",
+            "name": "Death Stranding 2: On the Beach",
+            "game_type": 0,
+            "game_status": null,
+            "cover": {
+                "id": 444165,
+                "alpha_channel": false,
+                "animated": false,
+                "height": null,
+                "image_id": "co9ipx",
+                "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9ipx.jpg",
+                "width": null
+            },
+            "artworks": [
+                {
+                    "id": 293892,
+                    "alpha_channel": false,
+                    "animated": false,
+                    "height": 2151,
+                    "image_id": "ar6aro",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar6aro.jpg",
+                    "width": 1217
+                },
+                {
+                    "id": 168993,
+                    "alpha_channel": false,
+                    "animated": false,
+                    "height": 2160,
+                    "image_id": "ar3me9",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3me9.jpg",
+                    "width": 3840
+                }
+            ],
+            "platforms": [
+                {
+                    "id": 6,
+                    "abbreviation": "PC",
+                    "name": "PC (Microsoft Windows)",
+                    "logo": {
+                        "id": 670,
+                        "alpha_channel": false,
+                        "animated": false,
+                        "height": 69,
+                        "image_id": "plim",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plim.jpg",
+                        "width": 375
+                    }
+                },
+                {
+                    "id": 167,
+                    "abbreviation": "PS5",
+                    "name": "PlayStation 5",
+                    "logo": {
+                        "id": 892,
+                        "alpha_channel": false,
+                        "animated": false,
+                        "height": 563,
+                        "image_id": "plos",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plos.jpg",
+                        "width": 1000
+                    }
+                }
+            ],
+            "releases": [],
+            "genres": [
+                {
+                    "id": 5,
+                    "name": "Shooter",
+                    "slug": "shooter",
+                    "url": "https://www.igdb.com/genres/shooter",
+                    "updated_at": 1323289215,
+                    "created_at": 1297639288
+                },
+                {
+                    "id": 31,
+                    "name": "Adventure",
+                    "slug": "adventure",
+                    "url": "https://www.igdb.com/genres/adventure",
+                    "updated_at": 1323568041,
+                    "created_at": 1323568041
+                }
+            ],
+            "game_modes": [
+                {
+                    "id": 1,
+                    "name": "Single player",
+                    "slug": "single-player",
+                    "url": "https://www.igdb.com/game_modes/single-player",
+                    "updated_at": 1323289216,
+                    "created_at": 1298968834
+                }
+            ],
+            "alternative_names": [],
+            "parent_game": null,
+            "version_parent": null,
+            "rating": null,
+            "rating_count": null,
+            "summary": "Death Stranding 2: On the Beach is a third-person action-adventure game set in a post-apocalyptic world ravaged by otherworldly creatures. Players control Sam Porter Bridges, a retired porter, as he traverses the open worlds of Mexico and Australia to connect isolated survivors to a wireless communication network called the Chiral Network. The core gameplay revolves around delivering packages across hazardous terrain, managing cargo weight, building infrastructure like roads and monorails, and navigating natural disasters. Combat has a greater focus than its predecessor, offering lethal and non-lethal options alongside stealth approaches. The game features asynchronous online elements where players can build structures visible to others.",
+            "dlcs": [],
+            "keywords": [
+                {
+                    "id": 57,
+                    "name": "motorcycle"
+                },
+                {
+                    "id": 155,
+                    "name": "cars"
+                },
+                {
+                    "id": 156,
+                    "name": "surrealism"
+                },
+                {
+                    "id": 193,
+                    "name": "training"
+                },
+                {
+                    "id": 227,
+                    "name": "sword"
+                },
+                {
+                    "id": 250,
+                    "name": "3d"
+                },
+                {
+                    "id": 392,
+                    "name": "construction"
+                },
+                {
+                    "id": 429,
+                    "name": "dystopian"
+                },
+                {
+                    "id": 465,
+                    "name": "future"
+                },
+                {
+                    "id": 558,
+                    "name": "death"
+                },
+                {
+                    "id": 563,
+                    "name": "military"
+                },
+                {
+                    "id": 575,
+                    "name": "robots"
+                },
+                {
+                    "id": 840,
+                    "name": "cinematic"
+                },
+                {
+                    "id": 915,
+                    "name": "trains"
+                },
+                {
+                    "id": 957,
+                    "name": "running"
+                },
+                {
+                    "id": 1403,
+                    "name": "building"
+                },
+                {
+                    "id": 1439,
+                    "name": "narrative-driven"
+                },
+                {
+                    "id": 1448,
+                    "name": "mecha"
+                },
+                {
+                    "id": 1493,
+                    "name": "walking simulator"
+                },
+                {
+                    "id": 1710,
+                    "name": "snow"
+                },
+                {
+                    "id": 1721,
+                    "name": "surreal"
+                },
+                {
+                    "id": 2024,
+                    "name": "philosophy"
+                },
+                {
+                    "id": 2069,
+                    "name": "pizza"
+                },
+                {
+                    "id": 2099,
+                    "name": "mexico"
+                },
+                {
+                    "id": 2448,
+                    "name": "australia"
+                },
+                {
+                    "id": 2877,
+                    "name": "surreal horror"
+                },
+                {
+                    "id": 3486,
+                    "name": "boss fight"
+                },
+                {
+                    "id": 3627,
+                    "name": "vehicle combat"
+                },
+                {
+                    "id": 3831,
+                    "name": "explosion"
+                },
+                {
+                    "id": 4287,
+                    "name": "voice acting"
+                },
+                {
+                    "id": 4329,
+                    "name": "cat"
+                },
+                {
+                    "id": 4393,
+                    "name": "explosives"
+                },
+                {
+                    "id": 4446,
+                    "name": "gun"
+                },
+                {
+                    "id": 5483,
+                    "name": "military uniform"
+                },
+                {
+                    "id": 5659,
+                    "name": "sleeping"
+                },
+                {
+                    "id": 5807,
+                    "name": "training mode"
+                },
+                {
+                    "id": 8263,
+                    "name": "car chase"
+                },
+                {
+                    "id": 12083,
+                    "name": "the game awards - best score or music - nominee"
+                },
+                {
+                    "id": 17083,
+                    "name": "vehicles"
+                },
+                {
+                    "id": 23018,
+                    "name": "nightmares"
+                },
+                {
+                    "id": 23933,
+                    "name": "male protagonist"
+                },
+                {
+                    "id": 24235,
+                    "name": "adult protagonist"
+                },
+                {
+                    "id": 25496,
+                    "name": "philosophical"
+                },
+                {
+                    "id": 26126,
+                    "name": "dynamic narrative"
+                },
+                {
+                    "id": 26203,
+                    "name": "car battle"
+                },
+                {
+                    "id": 29033,
+                    "name": "bossfight"
+                },
+                {
+                    "id": 29667,
+                    "name": "vtuber"
+                },
+                {
+                    "id": 33141,
+                    "name": "animated cutscenes"
+                },
+                {
+                    "id": 38778,
+                    "name": "bosses"
+                },
+                {
+                    "id": 38828,
+                    "name": "full voice acting"
+                },
+                {
+                    "id": 38887,
+                    "name": "food"
+                },
+                {
+                    "id": 39007,
+                    "name": "the game awards - best action-adventure game - nominee"
+                },
+                {
+                    "id": 39009,
+                    "name": "the game awards - best art direction - nominee"
+                },
+                {
+                    "id": 39011,
+                    "name": "the game awards - best audio design - nominee"
+                },
+                {
+                    "id": 39024,
+                    "name": "the game awards - best game direction - nominee"
+                },
+                {
+                    "id": 39034,
+                    "name": "the game awards - best narrative - nominee"
+                },
+                {
+                    "id": 39049,
+                    "name": "the game awards - game of the year - nominee"
+                },
+                {
+                    "id": 42040,
+                    "name": "robot"
+                },
+                {
+                    "id": 42164,
+                    "name": "thunderstorm"
+                },
+                {
+                    "id": 43160,
+                    "name": "jumping"
+                },
+                {
+                    "id": 44592,
+                    "name": "desert"
+                },
+                {
+                    "id": 47089,
+                    "name": "delivery"
+                },
+                {
+                    "id": 48013,
+                    "name": "spear"
+                },
+                {
+                    "id": 48097,
+                    "name": "dynamic weather"
+                },
+                {
+                    "id": 49488,
+                    "name": "dystopian future"
+                },
+                {
+                    "id": 49495,
+                    "name": "knife"
+                },
+                {
+                    "id": 49515,
+                    "name": "earthquake"
+                },
+                {
+                    "id": 49516,
+                    "name": "flooding"
+                }
+            ],
+            "created_at": 1670551642,
+            "updated_at": 1785521211,
+            "url": "https://www.igdb.com/games/death-stranding-2-on-the-beach",
+            "total_rating": 91.49829859840992,
+            "total_rating_count": 109,
+            "first_release_date": 1750896000
+        },
+        "completion": {
+            "completed_at": "2026-08-01T00:00:00",
+            "hours_played": 52.0,
+            "played_platforms": [
+                {
+                    "id": 6,
+                    "name": "PC (Microsoft Windows)"
+                }
+            ],
+            "played_dlcs": [],
+            "is_favorite": false,
+            "all_achievements_unlocked": false,
+            "backseat_gaming": false,
+            "comments": "",
+            "blurb": "A masterpiece from Hideo Kojima that respects your time and that is important!",
+            "blurb_author": "N. Moya",
+            "rating": 10.0
+        }
+    },
+    {
+        "game": {
             "id": 35189,
             "slug": "barony",
             "name": "Barony",
