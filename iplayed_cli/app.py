@@ -1,3 +1,5 @@
+from file_persistence import has_pending_deploy
+from screens.deploy_prompt_screen import DeployPromptScreen
 from screens.main_menu_screen import MainMenuScreen
 from textual.app import App
 
@@ -22,6 +24,8 @@ class IPlayedCLI(App):
     def on_mount(self) -> None:
         self.theme = "gruvbox"
         super().push_screen(MainMenuScreen())
+        if has_pending_deploy():
+            self.push_screen(DeployPromptScreen())
 
 
 if __name__ == "__main__":

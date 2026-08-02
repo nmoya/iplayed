@@ -1,5 +1,7 @@
+from file_persistence import has_pending_deploy
 from screens.completions_screen import CompletionsScreen
 from screens.config_review_screen import ConfigurationRevisionScreen
+from screens.deploy_prompt_screen import DeployPromptScreen
 from screens.generation_screen import GenerationScreen
 from textual.app import ComposeResult
 from textual.containers import Vertical
@@ -58,4 +60,10 @@ class MainMenuScreen(Screen):
         self.app.push_screen(GenerationScreen())
 
     def action_quit(self) -> None:
+        if has_pending_deploy():
+            self.app.push_screen(DeployPromptScreen(), self._finish_quit)
+            return
+        self.app.exit()
+
+    def _finish_quit(self, _: str | None) -> None:
         self.app.exit()

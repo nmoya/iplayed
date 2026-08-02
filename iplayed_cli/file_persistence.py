@@ -11,6 +11,23 @@ from igdb import get_igdb_game_by_id
 from utils import read_and_validate_json, to_naive_datetime
 
 
+PENDING_DEPLOY_FILE = "./iplayed_cli/data/.pending_deploy"
+
+
+def mark_pending_deploy() -> None:
+    with open(PENDING_DEPLOY_FILE, "w", encoding="utf-8") as f:
+        f.write("completions.json has local changes pending deploy\n")
+
+
+def has_pending_deploy() -> bool:
+    return os.path.exists(PENDING_DEPLOY_FILE)
+
+
+def clear_pending_deploy() -> None:
+    if has_pending_deploy():
+        os.remove(PENDING_DEPLOY_FILE)
+
+
 class CompletionsDatabase:
     def __init__(self):
         self.completions_filepath = "./iplayed_cli/data/completions.json"
@@ -65,6 +82,7 @@ class CompletionsDatabase:
         completions_json = [entry.model_dump(mode="json") for entry in by_completion_date]
         with open(self.completions_filepath, "w") as f:
             json.dump(completions_json, f, indent=4, ensure_ascii=True)
+        mark_pending_deploy()
         self.sync_ssg_completions_file()
 
     def generate_markdown_files(self, progress_fn: Callable[[int, int, str], None] | None = None) -> None:
