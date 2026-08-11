@@ -1,6 +1,207 @@
 [
     {
         "game": {
+            "id": 9789,
+            "slug": "rimworld",
+            "name": "RimWorld",
+            "game_type": 0,
+            "game_status": null,
+            "cover": {
+                "id": 480475,
+                "alpha_channel": false,
+                "animated": false,
+                "height": 800,
+                "image_id": "coaaqj",
+                "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaaqj.jpg",
+                "width": 600
+            },
+            "artworks": [
+                {
+                    "id": 17480,
+                    "alpha_channel": false,
+                    "animated": false,
+                    "height": 620,
+                    "image_id": "ardhk",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ardhk.jpg",
+                    "width": 1920
+                }
+            ],
+            "platforms": [
+                {
+                    "id": 3,
+                    "abbreviation": "Linux",
+                    "name": "Linux",
+                    "logo": {
+                        "id": 380,
+                        "alpha_channel": false,
+                        "animated": false,
+                        "height": 512,
+                        "image_id": "plak",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plak.jpg",
+                        "width": 512
+                    }
+                },
+                {
+                    "id": 6,
+                    "abbreviation": "PC",
+                    "name": "PC (Microsoft Windows)",
+                    "logo": {
+                        "id": 670,
+                        "alpha_channel": false,
+                        "animated": false,
+                        "height": 69,
+                        "image_id": "plim",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plim.jpg",
+                        "width": 375
+                    }
+                },
+                {
+                    "id": 14,
+                    "abbreviation": "Mac",
+                    "name": "Mac",
+                    "logo": {
+                        "id": 867,
+                        "alpha_channel": true,
+                        "animated": false,
+                        "height": 512,
+                        "image_id": "plo3",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plo3.jpg",
+                        "width": 512
+                    }
+                }
+            ],
+            "releases": [],
+            "genres": [
+                {
+                    "id": 11,
+                    "name": "Real Time Strategy (RTS)",
+                    "slug": "real-time-strategy-rts",
+                    "url": "https://www.igdb.com/genres/real-time-strategy-rts",
+                    "updated_at": 1323289215,
+                    "created_at": 1297639288
+                },
+                {
+                    "id": 13,
+                    "name": "Simulator",
+                    "slug": "simulator",
+                    "url": "https://www.igdb.com/genres/simulator",
+                    "updated_at": 1323289215,
+                    "created_at": 1297639288
+                },
+                {
+                    "id": 15,
+                    "name": "Strategy",
+                    "slug": "strategy",
+                    "url": "https://www.igdb.com/genres/strategy",
+                    "updated_at": 1323289215,
+                    "created_at": 1297639288
+                },
+                {
+                    "id": 32,
+                    "name": "Indie",
+                    "slug": "indie",
+                    "url": "https://www.igdb.com/genres/indie",
+                    "updated_at": 1341431954,
+                    "created_at": 1341431954
+                }
+            ],
+            "game_modes": [
+                {
+                    "id": 1,
+                    "name": "Single player",
+                    "slug": "single-player",
+                    "url": "https://www.igdb.com/game_modes/single-player",
+                    "updated_at": 1323289216,
+                    "created_at": 1298968834
+                }
+            ],
+            "alternative_names": [],
+            "parent_game": null,
+            "version_parent": null,
+            "rating": null,
+            "rating_count": null,
+            "summary": "A sci-fi colony sim driven by an intelligent AI storyteller. Generates stories by simulating psychology, ecology, gunplay, melee combat, climate, biomes, diplomacy, interpersonal relationships, art, medicine, trade, and more.",
+            "dlcs": [
+                {
+                    "id": 220558,
+                    "name": "RimWorld: Biotech"
+                },
+                {
+                    "id": 154706,
+                    "name": "RimWorld: Ideology"
+                },
+                {
+                    "id": 131676,
+                    "name": "RimWorld: Royalty"
+                }
+            ],
+            "keywords": [
+                {
+                    "id": 9,
+                    "name": "western"
+                },
+                {
+                    "id": 994,
+                    "name": "management"
+                },
+                {
+                    "id": 1905,
+                    "name": "base building"
+                },
+                {
+                    "id": 2425,
+                    "name": "crowdfunding - kickstarter"
+                },
+                {
+                    "id": 4261,
+                    "name": "pre-release public testing"
+                },
+                {
+                    "id": 5836,
+                    "name": "mod support"
+                },
+                {
+                    "id": 25050,
+                    "name": "colony simulator"
+                }
+            ],
+            "created_at": 1429197952,
+            "updated_at": 1781146227,
+            "url": "https://www.igdb.com/games/rimworld",
+            "total_rating": 79.54570882732901,
+            "total_rating_count": 297,
+            "first_release_date": 1539734400
+        },
+        "completion": {
+            "completed_at": "2026-08-11T00:00:00",
+            "hours_played": 142.0,
+            "played_platforms": [
+                {
+                    "id": 6,
+                    "name": "PC (Microsoft Windows)"
+                }
+            ],
+            "played_dlcs": [
+                {
+                    "id": 154706,
+                    "name": "RimWorld: Ideology"
+                },
+                {
+                    "id": 131676,
+                    "name": "RimWorld: Royalty"
+                }
+            ],
+            "is_favorite": false,
+            "all_achievements_unlocked": false,
+            "backseat_gaming": false,
+            "comments": "",
+            "blurb": "",
+            "blurb_author": "N. Moya",
+            "rating": 10.0
+        }
+    },
+    {
+        "game": {
             "id": 228530,
             "slug": "death-stranding-2-on-the-beach",
             "name": "Death Stranding 2: On the Beach",
@@ -6092,7 +6293,7 @@
             "comments": "",
             "blurb": "",
             "blurb_author": "N. Moya",
-            "rating": 9.0
+            "rating": 8.0
         }
     },
     {
@@ -46113,207 +46314,6 @@
             "blurb": "",
             "blurb_author": "N. Moya",
             "rating": 7.0
-        }
-    },
-    {
-        "game": {
-            "id": 9789,
-            "slug": "rimworld",
-            "name": "RimWorld",
-            "game_type": 0,
-            "game_status": null,
-            "cover": {
-                "id": 480475,
-                "alpha_channel": false,
-                "animated": false,
-                "height": 800,
-                "image_id": "coaaqj",
-                "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaaqj.jpg",
-                "width": 600
-            },
-            "artworks": [
-                {
-                    "id": 17480,
-                    "alpha_channel": false,
-                    "animated": false,
-                    "height": 620,
-                    "image_id": "ardhk",
-                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ardhk.jpg",
-                    "width": 1920
-                }
-            ],
-            "platforms": [
-                {
-                    "id": 3,
-                    "abbreviation": "Linux",
-                    "name": "Linux",
-                    "logo": {
-                        "id": 380,
-                        "alpha_channel": false,
-                        "animated": false,
-                        "height": 512,
-                        "image_id": "plak",
-                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plak.jpg",
-                        "width": 512
-                    }
-                },
-                {
-                    "id": 6,
-                    "abbreviation": "PC",
-                    "name": "PC (Microsoft Windows)",
-                    "logo": {
-                        "id": 670,
-                        "alpha_channel": false,
-                        "animated": false,
-                        "height": 69,
-                        "image_id": "plim",
-                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plim.jpg",
-                        "width": 375
-                    }
-                },
-                {
-                    "id": 14,
-                    "abbreviation": "Mac",
-                    "name": "Mac",
-                    "logo": {
-                        "id": 867,
-                        "alpha_channel": true,
-                        "animated": false,
-                        "height": 512,
-                        "image_id": "plo3",
-                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plo3.jpg",
-                        "width": 512
-                    }
-                }
-            ],
-            "releases": [],
-            "genres": [
-                {
-                    "id": 11,
-                    "name": "Real Time Strategy (RTS)",
-                    "slug": "real-time-strategy-rts",
-                    "url": "https://www.igdb.com/genres/real-time-strategy-rts",
-                    "updated_at": 1323289215,
-                    "created_at": 1297639288
-                },
-                {
-                    "id": 13,
-                    "name": "Simulator",
-                    "slug": "simulator",
-                    "url": "https://www.igdb.com/genres/simulator",
-                    "updated_at": 1323289215,
-                    "created_at": 1297639288
-                },
-                {
-                    "id": 15,
-                    "name": "Strategy",
-                    "slug": "strategy",
-                    "url": "https://www.igdb.com/genres/strategy",
-                    "updated_at": 1323289215,
-                    "created_at": 1297639288
-                },
-                {
-                    "id": 32,
-                    "name": "Indie",
-                    "slug": "indie",
-                    "url": "https://www.igdb.com/genres/indie",
-                    "updated_at": 1341431954,
-                    "created_at": 1341431954
-                }
-            ],
-            "game_modes": [
-                {
-                    "id": 1,
-                    "name": "Single player",
-                    "slug": "single-player",
-                    "url": "https://www.igdb.com/game_modes/single-player",
-                    "updated_at": 1323289216,
-                    "created_at": 1298968834
-                }
-            ],
-            "alternative_names": [],
-            "parent_game": null,
-            "version_parent": null,
-            "rating": null,
-            "rating_count": null,
-            "summary": "A sci-fi colony sim driven by an intelligent AI storyteller. Generates stories by simulating psychology, ecology, gunplay, melee combat, climate, biomes, diplomacy, interpersonal relationships, art, medicine, trade, and more.",
-            "dlcs": [
-                {
-                    "id": 220558,
-                    "name": "RimWorld: Biotech"
-                },
-                {
-                    "id": 154706,
-                    "name": "RimWorld: Ideology"
-                },
-                {
-                    "id": 131676,
-                    "name": "RimWorld: Royalty"
-                }
-            ],
-            "keywords": [
-                {
-                    "id": 9,
-                    "name": "western"
-                },
-                {
-                    "id": 994,
-                    "name": "management"
-                },
-                {
-                    "id": 1905,
-                    "name": "base building"
-                },
-                {
-                    "id": 2425,
-                    "name": "crowdfunding - kickstarter"
-                },
-                {
-                    "id": 4261,
-                    "name": "pre-release public testing"
-                },
-                {
-                    "id": 5836,
-                    "name": "mod support"
-                },
-                {
-                    "id": 25050,
-                    "name": "colony simulator"
-                }
-            ],
-            "created_at": 1429197952,
-            "updated_at": 1781146227,
-            "url": "https://www.igdb.com/games/rimworld",
-            "total_rating": 79.54570882732901,
-            "total_rating_count": 297,
-            "first_release_date": 1539734400
-        },
-        "completion": {
-            "completed_at": "2018-10-07T00:00:00",
-            "hours_played": 142.0,
-            "played_platforms": [
-                {
-                    "id": 6,
-                    "name": "PC (Microsoft Windows)"
-                }
-            ],
-            "played_dlcs": [
-                {
-                    "id": 154706,
-                    "name": "RimWorld: Ideology"
-                },
-                {
-                    "id": 131676,
-                    "name": "RimWorld: Royalty"
-                }
-            ],
-            "is_favorite": false,
-            "all_achievements_unlocked": false,
-            "backseat_gaming": false,
-            "comments": "",
-            "blurb": "",
-            "blurb_author": "N. Moya",
-            "rating": 10.0
         }
     },
     {

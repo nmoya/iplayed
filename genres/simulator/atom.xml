@@ -5,8 +5,27 @@
     <link rel="self" type="application/atom+xml" href="https://nikolasmoya.com/iplayed/genres/simulator/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2026-07-19T00:00:00+00:00</updated>
+    <updated>2026-08-11T00:00:00+00:00</updated>
     <id>https://nikolasmoya.com/iplayed/genres/simulator/atom.xml</id>
+    <entry xml:lang="en">
+        <title>RimWorld</title>
+        <published>2026-08-11T00:00:00+00:00</published>
+        <updated>2026-08-11T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/rimworld/"/>
+        <id>https://nikolasmoya.com/iplayed/games/rimworld/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/rimworld/"></content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>PowerWash Simulator</title>
         <published>2026-07-19T00:00:00+00:00</published>
@@ -575,25 +594,6 @@
         <id>https://nikolasmoya.com/iplayed/games/lovers-in-a-dangerous-spacetime/</id>
         
         <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/lovers-in-a-dangerous-spacetime/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>RimWorld</title>
-        <published>2018-10-07T00:00:00+00:00</published>
-        <updated>2018-10-07T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Nikolas Moya
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/rimworld/"/>
-        <id>https://nikolasmoya.com/iplayed/games/rimworld/</id>
-        
-        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/rimworld/"></content>
         
     </entry>
     <entry xml:lang="en">
