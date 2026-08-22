@@ -1794,6 +1794,25 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>Subnautica</title>
+        <published>2021-05-23T00:00:00+00:00</published>
+        <updated>2021-05-23T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Nikolas Moya
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nikolasmoya.com/iplayed/games/subnautica/"/>
+        <id>https://nikolasmoya.com/iplayed/games/subnautica/</id>
+        
+        <content type="html" xml:base="https://nikolasmoya.com/iplayed/games/subnautica/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>It Takes Two</title>
         <published>2021-04-18T00:00:00+00:00</published>
         <updated>2021-04-18T00:00:00+00:00</updated>
