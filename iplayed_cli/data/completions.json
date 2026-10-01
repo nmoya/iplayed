@@ -1,6 +1,567 @@
 [
     {
         "game": {
+            "id": 143574,
+            "slug": "planet-crafter",
+            "name": "Planet Crafter",
+            "game_type": 0,
+            "game_status": null,
+            "cover": {
+                "id": 585449,
+                "alpha_channel": false,
+                "animated": false,
+                "height": 1920,
+                "image_id": "cocjqh",
+                "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocjqh.jpg",
+                "width": 1440
+            },
+            "artworks": [
+                {
+                    "id": 293798,
+                    "alpha_channel": false,
+                    "animated": false,
+                    "height": 500,
+                    "image_id": "ar6ap2",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar6ap2.jpg",
+                    "width": 1024
+                },
+                {
+                    "id": 293799,
+                    "alpha_channel": true,
+                    "animated": false,
+                    "height": 256,
+                    "image_id": "ar6ap3",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar6ap3.jpg",
+                    "width": 256
+                }
+            ],
+            "platforms": [
+                {
+                    "id": 169,
+                    "abbreviation": "Series X|S",
+                    "name": "Xbox Series X|S",
+                    "logo": {
+                        "id": 561,
+                        "alpha_channel": true,
+                        "animated": false,
+                        "height": 1200,
+                        "image_id": "plfl",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plfl.jpg",
+                        "width": 1200
+                    }
+                },
+                {
+                    "id": 6,
+                    "abbreviation": "PC",
+                    "name": "PC (Microsoft Windows)",
+                    "logo": {
+                        "id": 670,
+                        "alpha_channel": false,
+                        "animated": false,
+                        "height": 69,
+                        "image_id": "plim",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plim.jpg",
+                        "width": 375
+                    }
+                },
+                {
+                    "id": 167,
+                    "abbreviation": "PS5",
+                    "name": "PlayStation 5",
+                    "logo": {
+                        "id": 892,
+                        "alpha_channel": false,
+                        "animated": false,
+                        "height": 563,
+                        "image_id": "plos",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plos.jpg",
+                        "width": 1000
+                    }
+                }
+            ],
+            "releases": [],
+            "genres": [
+                {
+                    "id": 13,
+                    "name": "Simulator",
+                    "slug": "simulator",
+                    "url": "https://www.igdb.com/genres/simulator",
+                    "updated_at": 1323289215,
+                    "created_at": 1297639288
+                },
+                {
+                    "id": 31,
+                    "name": "Adventure",
+                    "slug": "adventure",
+                    "url": "https://www.igdb.com/genres/adventure",
+                    "updated_at": 1323568041,
+                    "created_at": 1323568041
+                }
+            ],
+            "game_modes": [
+                {
+                    "id": 1,
+                    "name": "Single player",
+                    "slug": "single-player",
+                    "url": "https://www.igdb.com/game_modes/single-player",
+                    "updated_at": 1323289216,
+                    "created_at": 1298968834
+                },
+                {
+                    "id": 2,
+                    "name": "Multiplayer",
+                    "slug": "multiplayer",
+                    "url": "https://www.igdb.com/game_modes/multiplayer",
+                    "updated_at": 1323289216,
+                    "created_at": 1298968853
+                },
+                {
+                    "id": 3,
+                    "name": "Co-operative",
+                    "slug": "co-operative",
+                    "url": "https://www.igdb.com/game_modes/co-operative",
+                    "updated_at": 1323289216,
+                    "created_at": 1298968887
+                }
+            ],
+            "alternative_names": [],
+            "parent_game": null,
+            "version_parent": null,
+            "rating": null,
+            "rating_count": null,
+            "summary": "You are sent on an hostile planet with one mission: Make it habitable for Humans. You'll have to survive, collect ressources, build your base and machines in order to heat the planet, create an atmosphere with oxygen and eventually geo-engineer an entire planet.",
+            "dlcs": [
+                {
+                    "id": 373883,
+                    "name": "The Planet Crafter: Toxicity"
+                },
+                {
+                    "id": 317867,
+                    "name": "The Planet Crafter: Planet Humble"
+                }
+            ],
+            "keywords": [
+                {
+                    "id": 3,
+                    "name": "aliens"
+                },
+                {
+                    "id": 72,
+                    "name": "exploration"
+                },
+                {
+                    "id": 138,
+                    "name": "underwater"
+                },
+                {
+                    "id": 153,
+                    "name": "animals"
+                },
+                {
+                    "id": 165,
+                    "name": "space mining"
+                },
+                {
+                    "id": 250,
+                    "name": "3d"
+                },
+                {
+                    "id": 392,
+                    "name": "construction"
+                },
+                {
+                    "id": 477,
+                    "name": "metroidvania"
+                },
+                {
+                    "id": 510,
+                    "name": "crafting"
+                },
+                {
+                    "id": 518,
+                    "name": "insects"
+                },
+                {
+                    "id": 558,
+                    "name": "death"
+                },
+                {
+                    "id": 606,
+                    "name": "resource management"
+                },
+                {
+                    "id": 669,
+                    "name": "frog"
+                },
+                {
+                    "id": 758,
+                    "name": "cooking"
+                },
+                {
+                    "id": 957,
+                    "name": "running"
+                },
+                {
+                    "id": 974,
+                    "name": "space"
+                },
+                {
+                    "id": 976,
+                    "name": "gardening"
+                },
+                {
+                    "id": 988,
+                    "name": "online co-op"
+                },
+                {
+                    "id": 1103,
+                    "name": "farming"
+                },
+                {
+                    "id": 1159,
+                    "name": "trading"
+                },
+                {
+                    "id": 1283,
+                    "name": "flying"
+                },
+                {
+                    "id": 1293,
+                    "name": "achievements"
+                },
+                {
+                    "id": 1313,
+                    "name": "multiple endings"
+                },
+                {
+                    "id": 1403,
+                    "name": "building"
+                },
+                {
+                    "id": 1422,
+                    "name": "portals"
+                },
+                {
+                    "id": 1699,
+                    "name": "dancing"
+                },
+                {
+                    "id": 1847,
+                    "name": "bugs"
+                },
+                {
+                    "id": 1905,
+                    "name": "base building"
+                },
+                {
+                    "id": 1986,
+                    "name": "teleportation"
+                },
+                {
+                    "id": 2044,
+                    "name": "terraforming"
+                },
+                {
+                    "id": 2172,
+                    "name": "scavenging"
+                },
+                {
+                    "id": 2177,
+                    "name": "mining"
+                },
+                {
+                    "id": 2324,
+                    "name": "swimming"
+                },
+                {
+                    "id": 2426,
+                    "name": "story rich"
+                },
+                {
+                    "id": 2452,
+                    "name": "day/night cycle"
+                },
+                {
+                    "id": 2489,
+                    "name": "inventory management"
+                },
+                {
+                    "id": 2746,
+                    "name": "drone"
+                },
+                {
+                    "id": 3007,
+                    "name": "garden"
+                },
+                {
+                    "id": 3645,
+                    "name": "space ship"
+                },
+                {
+                    "id": 3831,
+                    "name": "explosion"
+                },
+                {
+                    "id": 4004,
+                    "name": "steam achievements"
+                },
+                {
+                    "id": 4135,
+                    "name": "xbox controller support for pc"
+                },
+                {
+                    "id": 4276,
+                    "name": "dualshock 4 support for pc"
+                },
+                {
+                    "id": 4393,
+                    "name": "explosives"
+                },
+                {
+                    "id": 4399,
+                    "name": "loot gathering"
+                },
+                {
+                    "id": 4767,
+                    "name": "resource gathering"
+                },
+                {
+                    "id": 4940,
+                    "name": "underwater gameplay"
+                },
+                {
+                    "id": 6304,
+                    "name": "ancient advanced civilization technology"
+                },
+                {
+                    "id": 6623,
+                    "name": "in-game e-mail"
+                },
+                {
+                    "id": 6671,
+                    "name": "portal"
+                },
+                {
+                    "id": 6962,
+                    "name": "aquarium"
+                },
+                {
+                    "id": 7116,
+                    "name": "arrival by crash landing"
+                },
+                {
+                    "id": 7423,
+                    "name": "status effects"
+                },
+                {
+                    "id": 7576,
+                    "name": "behind the waterfall"
+                },
+                {
+                    "id": 8801,
+                    "name": "crash landing"
+                },
+                {
+                    "id": 12950,
+                    "name": "automation"
+                },
+                {
+                    "id": 16877,
+                    "name": "controller support"
+                },
+                {
+                    "id": 17092,
+                    "name": "immersive"
+                },
+                {
+                    "id": 18055,
+                    "name": "alien world"
+                },
+                {
+                    "id": 19649,
+                    "name": "bug"
+                },
+                {
+                    "id": 23353,
+                    "name": "collect insects"
+                },
+                {
+                    "id": 25043,
+                    "name": "ancient civilization"
+                },
+                {
+                    "id": 29411,
+                    "name": "open world survival craft"
+                },
+                {
+                    "id": 34588,
+                    "name": "plant"
+                },
+                {
+                    "id": 37861,
+                    "name": "steam deck"
+                },
+                {
+                    "id": 38085,
+                    "name": "underground"
+                },
+                {
+                    "id": 38096,
+                    "name": "toad"
+                },
+                {
+                    "id": 38543,
+                    "name": "storage"
+                },
+                {
+                    "id": 38700,
+                    "name": "mushroom"
+                },
+                {
+                    "id": 38887,
+                    "name": "food"
+                },
+                {
+                    "id": 39149,
+                    "name": "flowers"
+                },
+                {
+                    "id": 39201,
+                    "name": "online coop"
+                },
+                {
+                    "id": 39942,
+                    "name": "lore rich"
+                },
+                {
+                    "id": 42064,
+                    "name": "bees"
+                },
+                {
+                    "id": 42095,
+                    "name": "vegetables"
+                },
+                {
+                    "id": 42100,
+                    "name": "drill"
+                },
+                {
+                    "id": 42121,
+                    "name": "buy and sell"
+                },
+                {
+                    "id": 42180,
+                    "name": "farm"
+                },
+                {
+                    "id": 42207,
+                    "name": "lava"
+                },
+                {
+                    "id": 42246,
+                    "name": "jetpack"
+                },
+                {
+                    "id": 42298,
+                    "name": "fish"
+                },
+                {
+                    "id": 42317,
+                    "name": "butterfly"
+                },
+                {
+                    "id": 42581,
+                    "name": "health"
+                },
+                {
+                    "id": 43160,
+                    "name": "jumping"
+                },
+                {
+                    "id": 43194,
+                    "name": "immersive sim"
+                },
+                {
+                    "id": 43579,
+                    "name": "eating"
+                },
+                {
+                    "id": 44037,
+                    "name": "space ships"
+                },
+                {
+                    "id": 44629,
+                    "name": "steam families"
+                },
+                {
+                    "id": 44845,
+                    "name": "mail"
+                },
+                {
+                    "id": 45535,
+                    "name": "loot"
+                },
+                {
+                    "id": 47044,
+                    "name": "dualsense support for pc"
+                },
+                {
+                    "id": 47103,
+                    "name": "planting"
+                },
+                {
+                    "id": 47461,
+                    "name": "plants"
+                },
+                {
+                    "id": 48097,
+                    "name": "dynamic weather"
+                },
+                {
+                    "id": 48270,
+                    "name": "explosive"
+                },
+                {
+                    "id": 48693,
+                    "name": "save anytime"
+                },
+                {
+                    "id": 48929,
+                    "name": "cave"
+                },
+                {
+                    "id": 49684,
+                    "name": "rocket"
+                }
+            ],
+            "created_at": 1613557893,
+            "updated_at": 1790848926,
+            "url": "https://www.igdb.com/games/planet-crafter",
+            "total_rating": 74.27643058416439,
+            "total_rating_count": 42,
+            "first_release_date": 1712707200
+        },
+        "completion": {
+            "completed_at": "2026-10-02T00:00:00",
+            "hours_played": 27.0,
+            "played_platforms": [
+                {
+                    "id": 6,
+                    "name": "PC (Microsoft Windows)"
+                }
+            ],
+            "played_dlcs": [],
+            "is_favorite": false,
+            "all_achievements_unlocked": false,
+            "backseat_gaming": false,
+            "comments": "",
+            "blurb": "Like subnautica, but drier.",
+            "blurb_author": "N. Moya",
+            "rating": 9.0
+        }
+    },
+    {
+        "game": {
             "id": 9789,
             "slug": "rimworld",
             "name": "RimWorld",
