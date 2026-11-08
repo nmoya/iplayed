@@ -1,6 +1,615 @@
 [
     {
         "game": {
+            "id": 122008,
+            "slug": "lichess",
+            "name": "Lichess",
+            "game_type": 0,
+            "game_status": null,
+            "cover": {
+                "id": 380094,
+                "alpha_channel": false,
+                "animated": false,
+                "height": 1920,
+                "image_id": "co85a6",
+                "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co85a6.jpg",
+                "width": 1440
+            },
+            "artworks": [],
+            "platforms": [
+                {
+                    "id": 82,
+                    "abbreviation": "browser",
+                    "name": "Web browser",
+                    "logo": {
+                        "id": 825,
+                        "alpha_channel": false,
+                        "animated": false,
+                        "height": 90,
+                        "image_id": "plmx",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plmx.jpg",
+                        "width": 90
+                    }
+                },
+                {
+                    "id": 34,
+                    "abbreviation": "Android",
+                    "name": "Android",
+                    "logo": {
+                        "id": 831,
+                        "alpha_channel": true,
+                        "animated": false,
+                        "height": 110,
+                        "image_id": "pln3",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/pln3.jpg",
+                        "width": 640
+                    }
+                },
+                {
+                    "id": 39,
+                    "abbreviation": "iOS",
+                    "name": "iOS",
+                    "logo": {
+                        "id": 248,
+                        "alpha_channel": true,
+                        "animated": false,
+                        "height": 1000,
+                        "image_id": "pl6w",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/pl6w.jpg",
+                        "width": 1000
+                    }
+                }
+            ],
+            "releases": [],
+            "genres": [
+                {
+                    "id": 9,
+                    "name": "Puzzle",
+                    "slug": "puzzle",
+                    "url": "https://www.igdb.com/genres/puzzle",
+                    "updated_at": 1323289215,
+                    "created_at": 1297639288
+                },
+                {
+                    "id": 15,
+                    "name": "Strategy",
+                    "slug": "strategy",
+                    "url": "https://www.igdb.com/genres/strategy",
+                    "updated_at": 1323289215,
+                    "created_at": 1297639288
+                },
+                {
+                    "id": 16,
+                    "name": "Turn-based strategy (TBS)",
+                    "slug": "turn-based-strategy-tbs",
+                    "url": "https://www.igdb.com/genres/turn-based-strategy-tbs",
+                    "updated_at": 1323289215,
+                    "created_at": 1297678340
+                },
+                {
+                    "id": 24,
+                    "name": "Tactical",
+                    "slug": "tactical",
+                    "url": "https://www.igdb.com/genres/tactical",
+                    "updated_at": 1323289215,
+                    "created_at": 1300991933
+                },
+                {
+                    "id": 35,
+                    "name": "Card & Board Game",
+                    "slug": "card-and-board-game",
+                    "url": "https://www.igdb.com/genres/card-and-board-game",
+                    "updated_at": 1588855092,
+                    "created_at": 1588855092
+                }
+            ],
+            "game_modes": [
+                {
+                    "id": 1,
+                    "name": "Single player",
+                    "slug": "single-player",
+                    "url": "https://www.igdb.com/game_modes/single-player",
+                    "updated_at": 1323289216,
+                    "created_at": 1298968834
+                },
+                {
+                    "id": 2,
+                    "name": "Multiplayer",
+                    "slug": "multiplayer",
+                    "url": "https://www.igdb.com/game_modes/multiplayer",
+                    "updated_at": 1323289216,
+                    "created_at": 1298968853
+                },
+                {
+                    "id": 4,
+                    "name": "Split screen",
+                    "slug": "split-screen",
+                    "url": "https://www.igdb.com/game_modes/split-screen",
+                    "updated_at": 1323289216,
+                    "created_at": 1298968900
+                }
+            ],
+            "alternative_names": [],
+            "parent_game": null,
+            "version_parent": null,
+            "rating": null,
+            "rating_count": null,
+            "summary": "Lichess is an Internet chess server. Anyone can play anonymously, although players may register an account on the site to play rated games. All features are available for free, as the site is funded by donations.",
+            "dlcs": [],
+            "keywords": [
+                {
+                    "id": 380,
+                    "name": "chess"
+                },
+                {
+                    "id": 604,
+                    "name": "open-source"
+                },
+                {
+                    "id": 5821,
+                    "name": "chessboard"
+                },
+                {
+                    "id": 42096,
+                    "name": "chess puzzle"
+                },
+                {
+                    "id": 42245,
+                    "name": "free"
+                }
+            ],
+            "created_at": 1566766309,
+            "updated_at": 1791945609,
+            "url": "https://www.igdb.com/games/lichess",
+            "total_rating": 89.65288078934478,
+            "total_rating_count": 13,
+            "first_release_date": 1276992000
+        },
+        "completion": {
+            "completed_at": "2026-11-08T00:00:00",
+            "hours_played": 13.0,
+            "played_platforms": [
+                {
+                    "id": 82,
+                    "name": "Web browser"
+                },
+                {
+                    "id": 39,
+                    "name": "iOS"
+                }
+            ],
+            "played_dlcs": [],
+            "is_favorite": false,
+            "all_achievements_unlocked": false,
+            "backseat_gaming": false,
+            "comments": "",
+            "blurb": "Literally a lifetime to master",
+            "blurb_author": "N. Moya",
+            "rating": 10.0
+        }
+    },
+    {
+        "game": {
+            "id": 19560,
+            "slug": "god-of-war--1",
+            "name": "God of War",
+            "game_type": 0,
+            "game_status": null,
+            "cover": {
+                "id": 540186,
+                "alpha_channel": false,
+                "animated": false,
+                "height": 1920,
+                "image_id": "cobkt6",
+                "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobkt6.jpg",
+                "width": 1440
+            },
+            "artworks": [
+                {
+                    "id": 2567,
+                    "alpha_channel": null,
+                    "animated": null,
+                    "height": 710,
+                    "image_id": "tvl9vif6lw8sckkqyaj7",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/tvl9vif6lw8sckkqyaj7.jpg",
+                    "width": 1260
+                },
+                {
+                    "id": 1035,
+                    "alpha_channel": null,
+                    "animated": null,
+                    "height": 4829,
+                    "image_id": "mknszfnaifmhssbrmkpl",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/mknszfnaifmhssbrmkpl.jpg",
+                    "width": 4759
+                },
+                {
+                    "id": 2568,
+                    "alpha_channel": null,
+                    "animated": null,
+                    "height": 710,
+                    "image_id": "thhohfsqjs1x77gyjg7b",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/thhohfsqjs1x77gyjg7b.jpg",
+                    "width": 1260
+                },
+                {
+                    "id": 2564,
+                    "alpha_channel": null,
+                    "animated": null,
+                    "height": 620,
+                    "image_id": "qk1zy9aqzgd3zovlsjmu",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/qk1zy9aqzgd3zovlsjmu.jpg",
+                    "width": 1260
+                },
+                {
+                    "id": 2566,
+                    "alpha_channel": null,
+                    "animated": null,
+                    "height": 710,
+                    "image_id": "loxt6mwmxy1ax5wby1yc",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/loxt6mwmxy1ax5wby1yc.jpg",
+                    "width": 1260
+                },
+                {
+                    "id": 2565,
+                    "alpha_channel": null,
+                    "animated": null,
+                    "height": 675,
+                    "image_id": "ye6iswk51xxnhkzt9xt7",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ye6iswk51xxnhkzt9xt7.jpg",
+                    "width": 1200
+                },
+                {
+                    "id": 1036,
+                    "alpha_channel": null,
+                    "animated": null,
+                    "height": 4696,
+                    "image_id": "hsmqoanieausaehauyk7",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/hsmqoanieausaehauyk7.jpg",
+                    "width": 3305
+                },
+                {
+                    "id": 2560,
+                    "alpha_channel": null,
+                    "animated": null,
+                    "height": 660,
+                    "image_id": "m8vl75f1aunebleaa0zj",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/m8vl75f1aunebleaa0zj.jpg",
+                    "width": 1260
+                },
+                {
+                    "id": 2561,
+                    "alpha_channel": null,
+                    "animated": null,
+                    "height": 710,
+                    "image_id": "mzbexcviowvtbsgivzib",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/mzbexcviowvtbsgivzib.jpg",
+                    "width": 1260
+                },
+                {
+                    "id": 293656,
+                    "alpha_channel": true,
+                    "animated": false,
+                    "height": 256,
+                    "image_id": "ar6al4",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar6al4.jpg",
+                    "width": 256
+                },
+                {
+                    "id": 2563,
+                    "alpha_channel": null,
+                    "animated": null,
+                    "height": 710,
+                    "image_id": "vmfdwfd36lh9eqiwtbtj",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/vmfdwfd36lh9eqiwtbtj.jpg",
+                    "width": 1260
+                },
+                {
+                    "id": 225752,
+                    "alpha_channel": false,
+                    "animated": false,
+                    "height": 710,
+                    "image_id": "ar4u6w",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar4u6w.jpg",
+                    "width": 1260
+                },
+                {
+                    "id": 225753,
+                    "alpha_channel": false,
+                    "animated": false,
+                    "height": 1080,
+                    "image_id": "ar4u6x",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar4u6x.jpg",
+                    "width": 1920
+                },
+                {
+                    "id": 215543,
+                    "alpha_channel": true,
+                    "animated": false,
+                    "height": 156,
+                    "image_id": "ar4mbb",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar4mbb.jpg",
+                    "width": 640
+                }
+            ],
+            "platforms": [
+                {
+                    "id": 48,
+                    "abbreviation": "PS4",
+                    "name": "PlayStation 4",
+                    "logo": {
+                        "id": 231,
+                        "alpha_channel": true,
+                        "animated": false,
+                        "height": 1000,
+                        "image_id": "pl6f",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/pl6f.jpg",
+                        "width": 1000
+                    }
+                },
+                {
+                    "id": 6,
+                    "abbreviation": "PC",
+                    "name": "PC (Microsoft Windows)",
+                    "logo": {
+                        "id": 670,
+                        "alpha_channel": false,
+                        "animated": false,
+                        "height": 69,
+                        "image_id": "plim",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plim.jpg",
+                        "width": 375
+                    }
+                },
+                {
+                    "id": 167,
+                    "abbreviation": "PS5",
+                    "name": "PlayStation 5",
+                    "logo": {
+                        "id": 892,
+                        "alpha_channel": false,
+                        "animated": false,
+                        "height": 563,
+                        "image_id": "plos",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plos.jpg",
+                        "width": 1000
+                    }
+                }
+            ],
+            "releases": [],
+            "genres": [
+                {
+                    "id": 12,
+                    "name": "Role-playing (RPG)",
+                    "slug": "role-playing-rpg",
+                    "url": "https://www.igdb.com/genres/role-playing-rpg",
+                    "updated_at": 1323289215,
+                    "created_at": 1297639288
+                },
+                {
+                    "id": 25,
+                    "name": "Hack and slash/Beat 'em up",
+                    "slug": "hack-and-slash-beat-em-up",
+                    "url": "https://www.igdb.com/genres/hack-and-slash-beat-em-up",
+                    "updated_at": 1323289215,
+                    "created_at": 1301647919
+                },
+                {
+                    "id": 31,
+                    "name": "Adventure",
+                    "slug": "adventure",
+                    "url": "https://www.igdb.com/genres/adventure",
+                    "updated_at": 1323568041,
+                    "created_at": 1323568041
+                }
+            ],
+            "game_modes": [
+                {
+                    "id": 1,
+                    "name": "Single player",
+                    "slug": "single-player",
+                    "url": "https://www.igdb.com/game_modes/single-player",
+                    "updated_at": 1323289216,
+                    "created_at": 1298968834
+                }
+            ],
+            "alternative_names": [],
+            "parent_game": null,
+            "version_parent": null,
+            "rating": null,
+            "rating_count": null,
+            "summary": "God of War is the sequel to God of War III as well as a continuation of the canon God of War chronology. Unlike previous installments, this game focuses on Norse mythology and follows an older and more seasoned Kratos and his son Atreus in the years since the third game. It is in this harsh, unforgiving world that he must fight to survive\u2026 and teach his son to do the same.",
+            "dlcs": [],
+            "keywords": [
+                {
+                    "id": 35,
+                    "name": "greek mythology"
+                },
+                {
+                    "id": 72,
+                    "name": "exploration"
+                },
+                {
+                    "id": 109,
+                    "name": "violence"
+                },
+                {
+                    "id": 283,
+                    "name": "story driven"
+                },
+                {
+                    "id": 367,
+                    "name": "norse mythology"
+                },
+                {
+                    "id": 510,
+                    "name": "crafting"
+                },
+                {
+                    "id": 537,
+                    "name": "dark fantasy"
+                },
+                {
+                    "id": 574,
+                    "name": "upgradable weapons"
+                },
+                {
+                    "id": 840,
+                    "name": "cinematic"
+                },
+                {
+                    "id": 926,
+                    "name": "deer"
+                },
+                {
+                    "id": 953,
+                    "name": "mythology"
+                },
+                {
+                    "id": 977,
+                    "name": "hand-to-hand combat"
+                },
+                {
+                    "id": 1884,
+                    "name": "combat"
+                },
+                {
+                    "id": 1971,
+                    "name": "over the shoulder"
+                },
+                {
+                    "id": 2202,
+                    "name": "emotional"
+                },
+                {
+                    "id": 3222,
+                    "name": "trolls"
+                },
+                {
+                    "id": 3486,
+                    "name": "boss fight"
+                },
+                {
+                    "id": 4221,
+                    "name": "game critics awards"
+                },
+                {
+                    "id": 4392,
+                    "name": "bow and arrow"
+                },
+                {
+                    "id": 4622,
+                    "name": "descendants of other characters"
+                },
+                {
+                    "id": 5792,
+                    "name": "skill tree"
+                },
+                {
+                    "id": 12083,
+                    "name": "the game awards - best score or music - nominee"
+                },
+                {
+                    "id": 12087,
+                    "name": "the game awards 2017"
+                },
+                {
+                    "id": 12556,
+                    "name": "the game awards - nominee"
+                },
+                {
+                    "id": 14051,
+                    "name": "the game awards 2016"
+                },
+                {
+                    "id": 17268,
+                    "name": "narrative"
+                },
+                {
+                    "id": 17271,
+                    "name": "norse"
+                },
+                {
+                    "id": 23933,
+                    "name": "male protagonist"
+                },
+                {
+                    "id": 25805,
+                    "name": "kratos"
+                },
+                {
+                    "id": 39008,
+                    "name": "the game awards - best action-adventure game - winner"
+                },
+                {
+                    "id": 39009,
+                    "name": "the game awards - best art direction - nominee"
+                },
+                {
+                    "id": 39011,
+                    "name": "the game awards - best audio design - nominee"
+                },
+                {
+                    "id": 39023,
+                    "name": "the game awards - most anticipated game - nominee"
+                },
+                {
+                    "id": 39025,
+                    "name": "the game awards - best game direction - winner"
+                },
+                {
+                    "id": 39034,
+                    "name": "the game awards - best narrative - nominee"
+                },
+                {
+                    "id": 39038,
+                    "name": "the game awards - best performance - nominee"
+                },
+                {
+                    "id": 39046,
+                    "name": "the game awards - game of the year - winner"
+                },
+                {
+                    "id": 41556,
+                    "name": "father and son relationship"
+                },
+                {
+                    "id": 44373,
+                    "name": "axe"
+                }
+            ],
+            "created_at": 1465866957,
+            "updated_at": 1786378297,
+            "url": "https://www.igdb.com/games/god-of-war--1",
+            "total_rating": 94.09515171787703,
+            "total_rating_count": 3540,
+            "first_release_date": 1524182400
+        },
+        "completion": {
+            "completed_at": "2026-10-25T00:00:00",
+            "hours_played": 42.0,
+            "played_platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                },
+                {
+                    "id": 6,
+                    "name": "PC (Microsoft Windows)"
+                }
+            ],
+            "played_dlcs": [],
+            "is_favorite": false,
+            "all_achievements_unlocked": false,
+            "backseat_gaming": false,
+            "comments": "",
+            "blurb": "Aged like milk outside of a fridge",
+            "blurb_author": "N. Moya",
+            "rating": 8.0
+        }
+    },
+    {
+        "game": {
             "id": 103320,
             "slug": "the-forgotten-city",
             "name": "The Forgotten City",
@@ -49000,422 +49609,6 @@
             "blurb": "",
             "blurb_author": "N. Moya",
             "rating": 8.0
-        }
-    },
-    {
-        "game": {
-            "id": 19560,
-            "slug": "god-of-war--1",
-            "name": "God of War",
-            "game_type": 0,
-            "game_status": null,
-            "cover": {
-                "id": 540186,
-                "alpha_channel": false,
-                "animated": false,
-                "height": 1920,
-                "image_id": "cobkt6",
-                "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobkt6.jpg",
-                "width": 1440
-            },
-            "artworks": [
-                {
-                    "id": 2567,
-                    "alpha_channel": null,
-                    "animated": null,
-                    "height": 710,
-                    "image_id": "tvl9vif6lw8sckkqyaj7",
-                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/tvl9vif6lw8sckkqyaj7.jpg",
-                    "width": 1260
-                },
-                {
-                    "id": 1035,
-                    "alpha_channel": null,
-                    "animated": null,
-                    "height": 4829,
-                    "image_id": "mknszfnaifmhssbrmkpl",
-                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/mknszfnaifmhssbrmkpl.jpg",
-                    "width": 4759
-                },
-                {
-                    "id": 2568,
-                    "alpha_channel": null,
-                    "animated": null,
-                    "height": 710,
-                    "image_id": "thhohfsqjs1x77gyjg7b",
-                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/thhohfsqjs1x77gyjg7b.jpg",
-                    "width": 1260
-                },
-                {
-                    "id": 2564,
-                    "alpha_channel": null,
-                    "animated": null,
-                    "height": 620,
-                    "image_id": "qk1zy9aqzgd3zovlsjmu",
-                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/qk1zy9aqzgd3zovlsjmu.jpg",
-                    "width": 1260
-                },
-                {
-                    "id": 2566,
-                    "alpha_channel": null,
-                    "animated": null,
-                    "height": 710,
-                    "image_id": "loxt6mwmxy1ax5wby1yc",
-                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/loxt6mwmxy1ax5wby1yc.jpg",
-                    "width": 1260
-                },
-                {
-                    "id": 2565,
-                    "alpha_channel": null,
-                    "animated": null,
-                    "height": 675,
-                    "image_id": "ye6iswk51xxnhkzt9xt7",
-                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ye6iswk51xxnhkzt9xt7.jpg",
-                    "width": 1200
-                },
-                {
-                    "id": 1036,
-                    "alpha_channel": null,
-                    "animated": null,
-                    "height": 4696,
-                    "image_id": "hsmqoanieausaehauyk7",
-                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/hsmqoanieausaehauyk7.jpg",
-                    "width": 3305
-                },
-                {
-                    "id": 2560,
-                    "alpha_channel": null,
-                    "animated": null,
-                    "height": 660,
-                    "image_id": "m8vl75f1aunebleaa0zj",
-                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/m8vl75f1aunebleaa0zj.jpg",
-                    "width": 1260
-                },
-                {
-                    "id": 2561,
-                    "alpha_channel": null,
-                    "animated": null,
-                    "height": 710,
-                    "image_id": "mzbexcviowvtbsgivzib",
-                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/mzbexcviowvtbsgivzib.jpg",
-                    "width": 1260
-                },
-                {
-                    "id": 293656,
-                    "alpha_channel": true,
-                    "animated": false,
-                    "height": 256,
-                    "image_id": "ar6al4",
-                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar6al4.jpg",
-                    "width": 256
-                },
-                {
-                    "id": 2563,
-                    "alpha_channel": null,
-                    "animated": null,
-                    "height": 710,
-                    "image_id": "vmfdwfd36lh9eqiwtbtj",
-                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/vmfdwfd36lh9eqiwtbtj.jpg",
-                    "width": 1260
-                },
-                {
-                    "id": 225752,
-                    "alpha_channel": false,
-                    "animated": false,
-                    "height": 710,
-                    "image_id": "ar4u6w",
-                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar4u6w.jpg",
-                    "width": 1260
-                },
-                {
-                    "id": 225753,
-                    "alpha_channel": false,
-                    "animated": false,
-                    "height": 1080,
-                    "image_id": "ar4u6x",
-                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar4u6x.jpg",
-                    "width": 1920
-                },
-                {
-                    "id": 215543,
-                    "alpha_channel": true,
-                    "animated": false,
-                    "height": 156,
-                    "image_id": "ar4mbb",
-                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar4mbb.jpg",
-                    "width": 640
-                }
-            ],
-            "platforms": [
-                {
-                    "id": 48,
-                    "abbreviation": "PS4",
-                    "name": "PlayStation 4",
-                    "logo": {
-                        "id": 231,
-                        "alpha_channel": true,
-                        "animated": false,
-                        "height": 1000,
-                        "image_id": "pl6f",
-                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/pl6f.jpg",
-                        "width": 1000
-                    }
-                },
-                {
-                    "id": 6,
-                    "abbreviation": "PC",
-                    "name": "PC (Microsoft Windows)",
-                    "logo": {
-                        "id": 670,
-                        "alpha_channel": false,
-                        "animated": false,
-                        "height": 69,
-                        "image_id": "plim",
-                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plim.jpg",
-                        "width": 375
-                    }
-                },
-                {
-                    "id": 167,
-                    "abbreviation": "PS5",
-                    "name": "PlayStation 5",
-                    "logo": {
-                        "id": 892,
-                        "alpha_channel": false,
-                        "animated": false,
-                        "height": 563,
-                        "image_id": "plos",
-                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plos.jpg",
-                        "width": 1000
-                    }
-                }
-            ],
-            "releases": [],
-            "genres": [
-                {
-                    "id": 12,
-                    "name": "Role-playing (RPG)",
-                    "slug": "role-playing-rpg",
-                    "url": "https://www.igdb.com/genres/role-playing-rpg",
-                    "updated_at": 1323289215,
-                    "created_at": 1297639288
-                },
-                {
-                    "id": 25,
-                    "name": "Hack and slash/Beat 'em up",
-                    "slug": "hack-and-slash-beat-em-up",
-                    "url": "https://www.igdb.com/genres/hack-and-slash-beat-em-up",
-                    "updated_at": 1323289215,
-                    "created_at": 1301647919
-                },
-                {
-                    "id": 31,
-                    "name": "Adventure",
-                    "slug": "adventure",
-                    "url": "https://www.igdb.com/genres/adventure",
-                    "updated_at": 1323568041,
-                    "created_at": 1323568041
-                }
-            ],
-            "game_modes": [
-                {
-                    "id": 1,
-                    "name": "Single player",
-                    "slug": "single-player",
-                    "url": "https://www.igdb.com/game_modes/single-player",
-                    "updated_at": 1323289216,
-                    "created_at": 1298968834
-                }
-            ],
-            "alternative_names": [],
-            "parent_game": null,
-            "version_parent": null,
-            "rating": null,
-            "rating_count": null,
-            "summary": "God of War is the sequel to God of War III as well as a continuation of the canon God of War chronology. Unlike previous installments, this game focuses on Norse mythology and follows an older and more seasoned Kratos and his son Atreus in the years since the third game. It is in this harsh, unforgiving world that he must fight to survive\u2026 and teach his son to do the same.",
-            "dlcs": [],
-            "keywords": [
-                {
-                    "id": 35,
-                    "name": "greek mythology"
-                },
-                {
-                    "id": 72,
-                    "name": "exploration"
-                },
-                {
-                    "id": 109,
-                    "name": "violence"
-                },
-                {
-                    "id": 283,
-                    "name": "story driven"
-                },
-                {
-                    "id": 367,
-                    "name": "norse mythology"
-                },
-                {
-                    "id": 510,
-                    "name": "crafting"
-                },
-                {
-                    "id": 537,
-                    "name": "dark fantasy"
-                },
-                {
-                    "id": 574,
-                    "name": "upgradable weapons"
-                },
-                {
-                    "id": 840,
-                    "name": "cinematic"
-                },
-                {
-                    "id": 926,
-                    "name": "deer"
-                },
-                {
-                    "id": 953,
-                    "name": "mythology"
-                },
-                {
-                    "id": 977,
-                    "name": "hand-to-hand combat"
-                },
-                {
-                    "id": 1884,
-                    "name": "combat"
-                },
-                {
-                    "id": 1971,
-                    "name": "over the shoulder"
-                },
-                {
-                    "id": 2202,
-                    "name": "emotional"
-                },
-                {
-                    "id": 3222,
-                    "name": "trolls"
-                },
-                {
-                    "id": 3486,
-                    "name": "boss fight"
-                },
-                {
-                    "id": 4221,
-                    "name": "game critics awards"
-                },
-                {
-                    "id": 4392,
-                    "name": "bow and arrow"
-                },
-                {
-                    "id": 4622,
-                    "name": "descendants of other characters"
-                },
-                {
-                    "id": 5792,
-                    "name": "skill tree"
-                },
-                {
-                    "id": 12083,
-                    "name": "the game awards - best score or music - nominee"
-                },
-                {
-                    "id": 12087,
-                    "name": "the game awards 2017"
-                },
-                {
-                    "id": 12556,
-                    "name": "the game awards - nominee"
-                },
-                {
-                    "id": 14051,
-                    "name": "the game awards 2016"
-                },
-                {
-                    "id": 17268,
-                    "name": "narrative"
-                },
-                {
-                    "id": 17271,
-                    "name": "norse"
-                },
-                {
-                    "id": 23933,
-                    "name": "male protagonist"
-                },
-                {
-                    "id": 25805,
-                    "name": "kratos"
-                },
-                {
-                    "id": 39008,
-                    "name": "the game awards - best action-adventure game - winner"
-                },
-                {
-                    "id": 39009,
-                    "name": "the game awards - best art direction - nominee"
-                },
-                {
-                    "id": 39011,
-                    "name": "the game awards - best audio design - nominee"
-                },
-                {
-                    "id": 39023,
-                    "name": "the game awards - most anticipated game - nominee"
-                },
-                {
-                    "id": 39025,
-                    "name": "the game awards - best game direction - winner"
-                },
-                {
-                    "id": 39034,
-                    "name": "the game awards - best narrative - nominee"
-                },
-                {
-                    "id": 39038,
-                    "name": "the game awards - best performance - nominee"
-                },
-                {
-                    "id": 39046,
-                    "name": "the game awards - game of the year - winner"
-                },
-                {
-                    "id": 41556,
-                    "name": "father and son relationship"
-                },
-                {
-                    "id": 44373,
-                    "name": "axe"
-                }
-            ],
-            "created_at": 1465866957,
-            "updated_at": 1786378297,
-            "url": "https://www.igdb.com/games/god-of-war--1",
-            "total_rating": 94.09515171787703,
-            "total_rating_count": 3540,
-            "first_release_date": 1524182400
-        },
-        "completion": {
-            "completed_at": "2018-08-25T00:00:00",
-            "hours_played": 20.0,
-            "played_platforms": [
-                {
-                    "id": 48,
-                    "name": "PlayStation 4"
-                }
-            ],
-            "played_dlcs": [],
-            "is_favorite": false,
-            "all_achievements_unlocked": false,
-            "backseat_gaming": false,
-            "comments": "",
-            "blurb": "",
-            "blurb_author": "N. Moya",
-            "rating": 10.0
         }
     },
     {
