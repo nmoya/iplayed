@@ -1,6 +1,121 @@
 [
     {
         "game": {
+            "id": 339997,
+            "slug": "dispatch--4",
+            "name": "Dispatch",
+            "game_type": 0,
+            "game_status": null,
+            "cover": {
+                "id": 451249,
+                "alpha_channel": true,
+                "animated": false,
+                "height": 1052,
+                "image_id": "co9o6p",
+                "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9o6p.jpg",
+                "width": 789
+            },
+            "artworks": [
+                {
+                    "id": 166033,
+                    "alpha_channel": false,
+                    "animated": false,
+                    "height": 626,
+                    "image_id": "ar3k41",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3k41.jpg",
+                    "width": 1758
+                }
+            ],
+            "platforms": [
+                {
+                    "id": 6,
+                    "abbreviation": "PC",
+                    "name": "PC (Microsoft Windows)",
+                    "logo": {
+                        "id": 670,
+                        "alpha_channel": false,
+                        "animated": false,
+                        "height": 69,
+                        "image_id": "plim",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plim.jpg",
+                        "width": 375
+                    }
+                },
+                {
+                    "id": 14,
+                    "abbreviation": "Mac",
+                    "name": "Mac",
+                    "logo": {
+                        "id": 867,
+                        "alpha_channel": true,
+                        "animated": false,
+                        "height": 512,
+                        "image_id": "plo3",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plo3.jpg",
+                        "width": 512
+                    }
+                }
+            ],
+            "releases": [],
+            "genres": [],
+            "game_modes": [],
+            "alternative_names": [],
+            "parent_game": null,
+            "version_parent": null,
+            "rating": null,
+            "rating_count": null,
+            "summary": "You're called to a mysterious house for a late night medical emergency.",
+            "dlcs": [],
+            "keywords": [
+                {
+                    "id": 126,
+                    "name": "retro"
+                },
+                {
+                    "id": 250,
+                    "name": "3d"
+                },
+                {
+                    "id": 1315,
+                    "name": "short"
+                },
+                {
+                    "id": 2225,
+                    "name": "low-poly"
+                },
+                {
+                    "id": 2653,
+                    "name": "creepy"
+                }
+            ],
+            "created_at": 1744565406,
+            "updated_at": 1792851074,
+            "url": "https://www.igdb.com/games/dispatch--4",
+            "total_rating": null,
+            "total_rating_count": null,
+            "first_release_date": 1602460800
+        },
+        "completion": {
+            "completed_at": "2026-11-14T00:00:00",
+            "hours_played": 9.0,
+            "played_platforms": [
+                {
+                    "id": 6,
+                    "name": "PC (Microsoft Windows)"
+                }
+            ],
+            "played_dlcs": [],
+            "is_favorite": false,
+            "all_achievements_unlocked": false,
+            "backseat_gaming": false,
+            "comments": "",
+            "blurb": "A modern take on telltale games.",
+            "blurb_author": "N. Moya",
+            "rating": 9.0
+        }
+    },
+    {
+        "game": {
             "id": 122008,
             "slug": "lichess",
             "name": "Lichess",
