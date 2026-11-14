@@ -1,32 +1,146 @@
 [
     {
         "game": {
-            "id": 339997,
-            "slug": "dispatch--4",
+            "id": 325609,
+            "slug": "dispatch--3",
             "name": "Dispatch",
             "game_type": 0,
             "game_status": null,
             "cover": {
-                "id": 451249,
+                "id": 520653,
                 "alpha_channel": true,
                 "animated": false,
-                "height": 1052,
-                "image_id": "co9o6p",
-                "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9o6p.jpg",
-                "width": 789
+                "height": 1920,
+                "image_id": "cob5ql",
+                "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob5ql.jpg",
+                "width": 1440
             },
             "artworks": [
                 {
-                    "id": 166033,
+                    "id": 295805,
                     "alpha_channel": false,
                     "animated": false,
-                    "height": 626,
-                    "image_id": "ar3k41",
-                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3k41.jpg",
-                    "width": 1758
+                    "height": 1240,
+                    "image_id": "ar6c8t",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar6c8t.jpg",
+                    "width": 3840
+                },
+                {
+                    "id": 295806,
+                    "alpha_channel": false,
+                    "animated": false,
+                    "height": 1084,
+                    "image_id": "ar6c8u",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar6c8u.jpg",
+                    "width": 820
+                },
+                {
+                    "id": 295807,
+                    "alpha_channel": false,
+                    "animated": false,
+                    "height": 1821,
+                    "image_id": "ar6c8v",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar6c8v.jpg",
+                    "width": 2579
+                },
+                {
+                    "id": 295808,
+                    "alpha_channel": false,
+                    "animated": false,
+                    "height": 3600,
+                    "image_id": "ar6c8w",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar6c8w.jpg",
+                    "width": 2700
+                },
+                {
+                    "id": 295809,
+                    "alpha_channel": false,
+                    "animated": false,
+                    "height": 3600,
+                    "image_id": "ar6c8x",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar6c8x.jpg",
+                    "width": 2700
+                },
+                {
+                    "id": 295811,
+                    "alpha_channel": false,
+                    "animated": false,
+                    "height": 3600,
+                    "image_id": "ar6c8z",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar6c8z.jpg",
+                    "width": 2700
+                },
+                {
+                    "id": 295812,
+                    "alpha_channel": false,
+                    "animated": false,
+                    "height": 1800,
+                    "image_id": "ar6c90",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar6c90.jpg",
+                    "width": 1350
+                },
+                {
+                    "id": 295813,
+                    "alpha_channel": false,
+                    "animated": false,
+                    "height": 3600,
+                    "image_id": "ar6c91",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar6c91.jpg",
+                    "width": 2700
+                },
+                {
+                    "id": 295810,
+                    "alpha_channel": false,
+                    "animated": false,
+                    "height": 3600,
+                    "image_id": "ar6c8y",
+                    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar6c8y.jpg",
+                    "width": 2700
                 }
             ],
             "platforms": [
+                {
+                    "id": 169,
+                    "abbreviation": "Series X|S",
+                    "name": "Xbox Series X|S",
+                    "logo": {
+                        "id": 561,
+                        "alpha_channel": true,
+                        "animated": false,
+                        "height": 1200,
+                        "image_id": "plfl",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plfl.jpg",
+                        "width": 1200
+                    }
+                },
+                {
+                    "id": 82,
+                    "abbreviation": "browser",
+                    "name": "Web browser",
+                    "logo": {
+                        "id": 825,
+                        "alpha_channel": false,
+                        "animated": false,
+                        "height": 90,
+                        "image_id": "plmx",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plmx.jpg",
+                        "width": 90
+                    }
+                },
+                {
+                    "id": 508,
+                    "abbreviation": "Switch 2",
+                    "name": "Nintendo Switch 2",
+                    "logo": {
+                        "id": 896,
+                        "alpha_channel": false,
+                        "animated": false,
+                        "height": 1080,
+                        "image_id": "plow",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plow.jpg",
+                        "width": 1920
+                    }
+                },
                 {
                     "id": 6,
                     "abbreviation": "PC",
@@ -42,58 +156,122 @@
                     }
                 },
                 {
-                    "id": 14,
-                    "abbreviation": "Mac",
-                    "name": "Mac",
+                    "id": 167,
+                    "abbreviation": "PS5",
+                    "name": "PlayStation 5",
                     "logo": {
-                        "id": 867,
-                        "alpha_channel": true,
+                        "id": 892,
+                        "alpha_channel": false,
                         "animated": false,
-                        "height": 512,
-                        "image_id": "plo3",
-                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plo3.jpg",
-                        "width": 512
+                        "height": 563,
+                        "image_id": "plos",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plos.jpg",
+                        "width": 1000
+                    }
+                },
+                {
+                    "id": 130,
+                    "abbreviation": "Switch",
+                    "name": "Nintendo Switch",
+                    "logo": {
+                        "id": 606,
+                        "alpha_channel": false,
+                        "animated": false,
+                        "height": 194,
+                        "image_id": "plgu",
+                        "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/plgu.jpg",
+                        "width": 602
                     }
                 }
             ],
             "releases": [],
-            "genres": [],
-            "game_modes": [],
+            "genres": [
+                {
+                    "id": 2,
+                    "name": "Point-and-click",
+                    "slug": "point-and-click",
+                    "url": "https://www.igdb.com/genres/point-and-click",
+                    "updated_at": 1323382086,
+                    "created_at": 1297639288
+                },
+                {
+                    "id": 15,
+                    "name": "Strategy",
+                    "slug": "strategy",
+                    "url": "https://www.igdb.com/genres/strategy",
+                    "updated_at": 1323289215,
+                    "created_at": 1297639288
+                },
+                {
+                    "id": 31,
+                    "name": "Adventure",
+                    "slug": "adventure",
+                    "url": "https://www.igdb.com/genres/adventure",
+                    "updated_at": 1323568041,
+                    "created_at": 1323568041
+                },
+                {
+                    "id": 32,
+                    "name": "Indie",
+                    "slug": "indie",
+                    "url": "https://www.igdb.com/genres/indie",
+                    "updated_at": 1341431954,
+                    "created_at": 1341431954
+                }
+            ],
+            "game_modes": [
+                {
+                    "id": 1,
+                    "name": "Single player",
+                    "slug": "single-player",
+                    "url": "https://www.igdb.com/game_modes/single-player",
+                    "updated_at": 1323289216,
+                    "created_at": 1298968834
+                }
+            ],
             "alternative_names": [],
             "parent_game": null,
             "version_parent": null,
             "rating": null,
             "rating_count": null,
-            "summary": "You're called to a mysterious house for a late night medical emergency.",
+            "summary": "Dispatch is a superhero workplace comedy where choices matter. Manage a dysfunctional team of misfit heroes and strategize who to send to emergencies around the city, all while balancing office politics, personal relationships, and your own quest to become a hero.",
             "dlcs": [],
             "keywords": [
                 {
-                    "id": 126,
-                    "name": "retro"
+                    "id": 2387,
+                    "name": "superhero"
                 },
                 {
-                    "id": 250,
-                    "name": "3d"
+                    "id": 2426,
+                    "name": "story rich"
                 },
                 {
-                    "id": 1315,
-                    "name": "short"
+                    "id": 3534,
+                    "name": "choices matter"
                 },
                 {
-                    "id": 2225,
-                    "name": "low-poly"
+                    "id": 39015,
+                    "name": "the game awards - best debut indie game - nominee"
                 },
                 {
-                    "id": 2653,
-                    "name": "creepy"
+                    "id": 40366,
+                    "name": "fmv"
+                },
+                {
+                    "id": 48285,
+                    "name": "nextfest june 2025"
+                },
+                {
+                    "id": 49376,
+                    "name": "available on - luna plus"
                 }
             ],
-            "created_at": 1744565406,
-            "updated_at": 1792851074,
-            "url": "https://www.igdb.com/games/dispatch--4",
-            "total_rating": null,
-            "total_rating_count": null,
-            "first_release_date": 1602460800
+            "created_at": 1734061210,
+            "updated_at": 1794620341,
+            "url": "https://www.igdb.com/games/dispatch--3",
+            "total_rating": 85.9443890079269,
+            "total_rating_count": 311,
+            "first_release_date": 1761091200
         },
         "completion": {
             "completed_at": "2026-11-14T00:00:00",
@@ -109,7 +287,7 @@
             "all_achievements_unlocked": false,
             "backseat_gaming": false,
             "comments": "",
-            "blurb": "A modern take on telltale games.",
+            "blurb": "A modern take on a telltale game",
             "blurb_author": "N. Moya",
             "rating": 9.0
         }
